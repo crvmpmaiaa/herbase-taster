@@ -156,7 +156,10 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 @media(min-width:520px){.best__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:900px){.best__grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 .prod{background:var(--paper);display:flex;flex-direction:column;min-width:0}
-.prod__img{display:block;aspect-ratio:1;overflow:hidden;background:var(--paper-2)}
+.prod__img{position:relative;display:block;aspect-ratio:1;overflow:hidden;background:var(--night)}
+.prod__img::after{content:attr(data-name);position:absolute;inset:auto 0 0 0;padding:16px 18px;
+  font-family:var(--display);font-weight:900;font-size:clamp(15px,1.5vw,19px);color:var(--paper);
+  text-shadow:0 2px 18px rgba(0,0,0,.7);background:linear-gradient(to top,rgba(4,16,15,.85),transparent)}
 .prod__img img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--ease)}
 .prod__img:hover img,.prod__img:focus-visible img{transform:scale(1.04)}
 .prod__row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 10px;padding:16px 18px 2px}
@@ -186,6 +189,9 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 @media(min-width:900px){.mono__body{grid-template-columns:.85fr 1.15fr}}
 .card{border:1px solid var(--ink);background:var(--paper-2);align-self:start}
 .card__img{aspect-ratio:16/5;display:grid;place-items:center;overflow:hidden;padding:16px;border-bottom:1px solid var(--ink);background:var(--paper)}
+.card__img--held{background:var(--night)}
+.card__img--held p{font-family:var(--display);font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,237,210,.8);text-align:center}
+.card__img--held span{display:block;margin-top:6px;font-family:var(--body);font-size:11.5px;letter-spacing:0;text-transform:none;color:rgba(255,237,210,.5)}
 .card__img img{width:100%;height:100%;object-fit:contain;filter:sepia(.1) contrast(1.04)}
 .card__foot{padding:18px 20px 4px;display:flex;justify-content:space-between;align-items:baseline;gap:14px}
 .card__foot h3{font-family:var(--display);font-weight:900;font-size:16px}
@@ -357,7 +363,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
     <div class="hero__meta rv d3">
       <p><span class="stars">★★★★★</span> <b>4.8</b> · 19 Google reviews</p>
       <p>Formulated by <b>Reiss Davies Ausar</b></p>
-      <p>Wildcrafted, <b>never farmed</b></p>
+      <p><b>Botanicals</b> wildcrafted, never farmed</p>
     </div>
   </div>
 </header>
@@ -377,13 +383,13 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
       <p class="rv d1">Prices as listed. Every one has its own specification sheet.</p>
     </div>
     <div class="best__grid">
-      <article class="prod rv"><a class="prod__img" href="#"><img src="assets/p-seaking.png" alt="Seaking capsules"></a>
+      <article class="prod rv"><a class="prod__img" href="#buy"><img src="assets/tile-seaking.jpg" alt="Seaking capsules"></a>
         <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">Sea moss and mineral capsules</p><a class="prod__buy" href="#buy">Add to bag</a></article>
-      <article class="prod rv d1"><a class="prod__img" href="#"><img src="assets/p-seamoss.png" alt="Northern Soul sea moss gel"></a>
+      <article class="prod rv d1"><a class="prod__img" href="#buy"><img src="assets/tile-seamoss.jpg" alt="Northern Soul sea moss gel"></a>
         <div class="prod__row"><h3>Northern Soul</h3><span>from £34.99</span></div><p class="prod__sub">Sea moss gel, three sizes</p><a class="prod__buy" href="#buy">Choose a size · from £34.99</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="#"><img src="assets/p-lionsmane.png" alt="Lion's Mane capsules"></a>
+      <article class="prod rv d2"><a class="prod__img" href="#buy"><img src="assets/tile-lionsmane.jpg" alt="Lion's Mane capsules"></a>
         <div class="prod__row"><h3>Lion's Mane</h3><span>£24.99</span></div><p class="prod__sub">Single ingredient, whole fruiting body</p><a class="prod__buy" href="#buy">Add to bag</a></article>
-      <article class="prod rv d3"><a class="prod__img" href="#"><img src="assets/p-shilajit.png" alt="Shilajit resin"></a>
+      <article class="prod rv d3"><a class="prod__img" href="#buy"><img src="assets/tile-shilajit.jpg" alt="Shilajit resin"></a>
         <div class="prod__row"><h3>Shilajit Resin</h3><span>£39.99</span></div><p class="prod__sub">Altai mineral resin, lab tested</p><a class="prod__buy" href="#buy">Add to bag</a></article>
     </div>
   </div>
@@ -414,7 +420,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 
     <div class="mono__body">
       <article class="card rv" id="buy">
-        <div class="card__img"><img src="assets/decolonise-crop.png" alt="Decolonise, wild herbal formula, 50 vegan capsules"></div>
+        <div class="card__img card__img--held"><p>Pack photography held<span>Label reprint pending</span></p></div>
         <div class="card__foot"><h3>Decolonise</h3><span class="card__price">£39.99</span></div>
         <p class="card__unit">50 vegan capsules · 25 day supply · £1.60 a day</p>
         <a class="card__buy" href="#buy">Add to bag · £39.99</a>
@@ -455,17 +461,17 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
     <h2 class="dsp rv d1">What I am <em>not allowed</em> to tell you</h2>
 
     <div class="reiss__body">
-      <p class="rv d1">I can't tell you what these plants do. Not modesty, and not a solicitor making me write it. A food business here can only repeat a health claim that's already on an approved register, and almost nothing in this shop is on it.</p>
+      <p class="rv d1">I'm not going to tell you what these plants do. A food business here can only make a health claim that's authorised on the GB register, or still sat on the on-hold list, and an on-hold one only counts if I can substantiate it properly. I can't meet that bar for the plants in this shop. So I don't make the claims.</p>
 
-      <p class="rv d1">Here's the bit nobody mentions. <b>Around two thousand claims about plants have sat "on hold" since 2012.</b> Not rejected. Nobody ruled on them at all. Fourteen years, the file's still open, and I still can't repeat a word of it.</p>
+      <p class="rv d1">Here's the bit nobody mentions. <b>Around two thousand claims about plants have sat "on hold" since 2012.</b> Not rejected. Nobody ruled on them at all. Fourteen years, and the file's still open. I'm allowed to use one, but only if I can back it with generally accepted scientific evidence. For these plants I can't, so I don't.</p>
 
-      <div class="reiss__pull rv"><q>They didn't say no. They said nothing for fourteen years and called it a decision.</q></div>
+      <div class="reiss__pull rv"><q>The list is public. Read it, and make your own mind up about the silence.</q></div>
 
       <p class="rv d1">Getting a plant onto that register takes a dossier, a committee and a bill most independent shops will never see the far side of. So what's on there isn't what works. It's what somebody could afford to prove. A molecule with a patent behind it gets a sentence you're allowed to read. A root with four hundred years behind it gets nothing.</p>
 
       <p class="rv d1">I'm not going to pretend that's science. I'm not going to get clever about it either. There are shops that keep the good bits on a server in another country and invite you to click through. There are shops that say it sideways and leave you to fill in the gap. Same game, smaller people. It doesn't even work, because the rules follow the seller, not the server.</p>
 
-      <p class="rv d1">So here's what I can do. Every formula in here carries its plants by Latin name, the part used, the milligrams in a capsule, where it was harvested and when to stop. Go and look them up. There are centuries of written record on every one, held by people who don't care whether you buy from me. I'd rather you read them than took my word for it.</p>
+      <p class="rv d1">So here's what I can do. Every formula in here carries its plants by Latin name, the part used, the milligrams in a capsule, where it was harvested and when to stop. That's what I can stand behind, and you'll get all of it, every time. What any of it does in a body isn't something I can evidence to the standard the law sets, so I'm not going to point you somewhere that'll say it for me.</p>
 
       <p class="rv d1">You asked what's in the jar. That I'm allowed to answer, and I'll answer it in full every time, whether or not it sells.</p>
 

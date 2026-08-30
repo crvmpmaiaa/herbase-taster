@@ -2,17 +2,29 @@
 shots/
 *.log
 
-# 2K source PNGs for the hero scenes. The optimised .jpg files in assets/
-# are what the page actually loads; these are 6MB each and add nothing.
+# 2K source PNGs for the hero scenes; the optimised .jpg files are what load
 assets/hero-cosmos-a.png
 assets/hero-cosmos-b.png
 
-# Deliberately NOT committed. These are Herbase's own artwork and every one of
-# them is a wall of unauthorised health claims ("ANTI-VIRAL FORMULA",
-# "I.B.S SOLUTION", "MEDICINAL HERBAL CAPSULES", "GENERAL DISEASE FIGHTER").
-# They are unused by the build. Keeping them out of the repo removes the risk
-# of anyone dropping one into a page. Originals are in ~/Downloads/Herbase/.
+# NEVER COMMIT. Herbase's own pack and marketing artwork. Every one of these
+# carries an unauthorised health claim, an undeclared ingredient, or both:
+#   decolonise pouch    "DIGESTIVE SYSTEM DETOXIFICATION" + "CASCARA SAGRADA",
+#                       an ingredient absent from the site's own list
+#   decolonise-ingr     "ANTI-VIRAL", "I.B.S SOLUTION", "GENERAL DISEASE FIGHTER"
+#   detox-caps          "MEDICINAL HERBAL CAPSULES", "ANTI-VIRAL FORMULA"
+#   lifestyle-1         in-store boards: "REBUILDS HEMOGLOBIN", "BLOOD CLEANSE"
+#   p-lionsmane         "BRAIN & NERVE MUSHROOM"
+#   p-shilajit          "AN ANCIENT PANACEA", "RICH IN FULVIC ACID"
+#   p-seaking           "THE ONLY SEA MOSS FORMULA"
+#   p-seamoss           "PROPRIETARY BLEND"
+# Cropping above a claim line does not fix it: the pack is what reaches the
+# customer, and the crop itself evidences that the claim was seen and hidden.
+# These stay out until the labels are reprinted. Originals: ~/Downloads/Herbase/
+assets/decolonise-pouch.png
+assets/decolonise.png
+assets/decolonise-crop.png
 assets/decolonise-ingr.png
 assets/detox-caps.png
 assets/lifestyle-1.jpg
 assets/detox-redox.png
+assets/p-*.png
