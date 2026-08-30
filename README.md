@@ -17,7 +17,7 @@ No dependencies, no build step. Vanilla HTML, CSS and JS.
 for the review loop:
 
 ```bash
-node shot.mjs http://localhost:3100/variants/b-fieldnotes.html out.png
+node shot.mjs http://localhost:3100/ out.png
 SCROLL=1400 node shot.mjs <url> out.png          # scroll-steps first, so
                                                  # IntersectionObserver reveals fire
 DSF=1 node shot.mjs <url> out.png mobile         # 390x844
@@ -27,12 +27,12 @@ DSF=1 node shot.mjs <url> out.png mobile         # 390x844
 
 | Path | |
 |---|---|
-| `variants/b-fieldnotes.html` | **The live direction.** Everything below refers to this. |
-| `variants/b-fieldnotes-r1.html` | Round 1, kept for the score comparison |
+| `index.html` | **The site.** This is what GitHub Pages serves. |
+| `directions/index.html` | The original three-direction comparison board |
+| `variants/b-fieldnotes-r1.html` | Round 1 of the site, kept for the score comparison |
 | `variants/b-fieldnotes-r3.html` | Round 3, before the brand-font rebuild |
 | `variants/a-apothecary.html` | Direction A, rejected |
 | `variants/c-flightdeck.html` | Direction C, rejected |
-| `index.html` | Comparison board for the three original directions |
 
 ## The hero
 
