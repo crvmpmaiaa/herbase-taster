@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Herbase · Wildcrafted herbal formulas · Liverpool</title>
+<meta name="description" content="Herbase, Liverpool. A working apothecary. Wildcrafted formulas, printed doses, named botanicals.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Archivo:wdth,wght@100,400;100,500;112,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FFEDD2;
+  --paper-2:#F7E2C3;
+  --ink:#14110D;
+  --ink-2:rgba(20,17,13,.68);
+  --ink-3:rgba(20,17,13,.62);
+  --rule:rgba(20,17,13,.16);
+  --sun:#E08A2C;          /* decorative only, never text on paper */
+  --sun-ink:#A15709;      /* 4.71:1 on paper, safe for text */
+  --jungle:#0B6F69;       /* 5.24:1 with cream */
+  --night:#101B1A;
+
+  --display:'Bodoni Moda',Georgia,serif;
+  --body:'Archivo',system-ui,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+
+  --gutter:clamp(20px,5vw,80px);
+  --maxw:1360px;
+  --ease:cubic-bezier(.19,1,.22,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--body);font-size:clamp(15px,1vw,16.5px);line-height:1.7;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+body::after{
+  content:"";position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.055;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+}
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+.serif{font-family:var(--display);font-weight:400;line-height:1.02;letter-spacing:-.018em}
+.serif i{font-style:italic}
+.standfirst{font-family:var(--mono);font-size:13px;letter-spacing:.02em;color:var(--ink-2)}
+.label{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3)}
+:focus-visible{outline:2px solid var(--jungle);outline-offset:3px}
+.protocol :focus-visible,.foot :focus-visible{outline-color:var(--paper)}
+
+/* asymmetric rhythm: more air above than below, full air only where the
+   ground colour actually changes */
+section{padding-top:clamp(72px,8vw,128px);padding-bottom:clamp(56px,6vw,96px)}
+section.turn{padding-top:clamp(96px,11vw,176px);padding-bottom:clamp(88px,10vw,160px)}
+
+/* ─────────── nav ─────────── */
+.nav{position:sticky;top:0;z-index:60;background:var(--paper);border-bottom:1px solid var(--rule)}
+.nav__in{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px var(--gutter);max-width:var(--maxw);margin-inline:auto}
+.nav__mark{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:.02em;text-decoration:none;color:var(--ink)}
+.nav__links{display:none;gap:28px;font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+.nav__links a{color:var(--ink-2);text-decoration:none;padding-bottom:2px;border-bottom:1px solid transparent;transition:border-color .25s var(--ease),color .25s var(--ease)}
+.nav__links a:hover,.nav__links a:focus-visible{color:var(--ink);border-color:var(--sun-ink)}
+.nav__right{display:flex;align-items:center;gap:16px}
+.nav__cta{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--ink);
+  transition:color .25s var(--ease),border-color .25s var(--ease)}
+.nav__cta:hover,.nav__cta:focus-visible{color:var(--jungle);border-color:var(--jungle)}
+.nav__burger{display:inline-flex;flex-direction:column;gap:4px;background:none;border:1px solid var(--rule);border-radius:2px;cursor:pointer;min-width:44px;min-height:44px;align-items:center;justify-content:center}
+.nav__burger span{display:block;width:16px;height:1.5px;background:var(--ink)}
+.nav__drawer{display:none;border-top:1px solid var(--rule);padding:8px var(--gutter) 20px}
+.nav__drawer a{display:block;padding:13px 0;border-bottom:1px solid var(--rule);font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);text-decoration:none}
+.nav__drawer[data-open]{display:block}
+@media(min-width:1000px){.nav__links{display:flex}.nav__burger{display:none}.nav__drawer{display:none!important}}
+
+/* ─────────── hero ─────────── */
+.hero{padding-top:clamp(36px,4vw,60px);padding-bottom:clamp(36px,4vw,60px);position:relative;overflow:hidden}
+.hero__grid{display:grid;gap:clamp(32px,4vw,64px);grid-template-columns:1fr}
+@media(min-width:980px){.hero__grid{grid-template-columns:1.15fr .85fr;align-items:end}}
+.hero h1{font-size:clamp(42px,7vw,108px);max-width:13ch;line-height:1.04;letter-spacing:-.03em}
+.hero h1 i{color:var(--sun-ink)}
+.hero__lede{margin-top:22px;font-family:var(--display);font-size:clamp(18px,1.5vw,23px);line-height:1.4;max-width:38ch}
+.hero__act{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+.hero__meta{border-top:1px solid var(--ink);padding-top:14px;margin-top:26px;display:flex;flex-wrap:wrap;gap:10px 36px}
+.hero__meta p{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.hero__meta b{color:var(--ink);font-weight:500}
+.stars{color:var(--sun-ink);letter-spacing:.14em}
+
+.plate{position:relative;border:1px solid var(--rule);background:var(--paper-2);padding:18px 18px 62px;aspect-ratio:1/1;display:grid;place-items:center;overflow:hidden}
+.plate img{width:100%;height:100%;object-fit:cover;object-position:center 30%;filter:sepia(.18) saturate(.9) contrast(1.04)}
+.plate__cap{position:absolute;left:0;right:0;bottom:0;padding:12px 18px;background:var(--paper);border-top:1px solid var(--rule);
+  display:flex;justify-content:space-between;gap:16px;font-size:12.5px;letter-spacing:.01em;color:var(--ink-3)}
+.plate__orbit{position:absolute;top:14px;right:14px;width:150px;height:150px;opacity:.35;pointer-events:none;z-index:1}
+.plate__orbit circle,.plate__orbit line{stroke:var(--jungle);fill:none;stroke-width:.7}
+.plate__orbit .dot{fill:var(--jungle);stroke:none}
+.plate__orbit g{transform-origin:75px 75px;animation:spin 60s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;
+  padding:16px 28px;min-height:44px;text-decoration:none;background:var(--ink);color:var(--paper);
+  transition:transform .3s var(--ease),background-color .3s var(--ease)}
+.btn:hover,.btn:focus-visible{transform:translateY(-2px);background:var(--jungle)}
+.btn--line{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.btn--line:hover,.btn--line:focus-visible{background:var(--paper-2);border-color:var(--jungle);color:var(--jungle)}
+
+/* ─────────── stat strip ─────────── */
+.strip{border-block:1px solid var(--ink);background:var(--paper)}
+.strip__in{display:grid;grid-template-columns:repeat(2,1fr);max-width:var(--maxw);margin-inline:auto}
+@media(min-width:820px){.strip__in{grid-template-columns:repeat(4,1fr)}}
+.strip__cell{padding:26px var(--gutter);border-right:1px solid var(--rule)}
+.strip__cell:last-child{border-right:none}
+.strip__n{font-family:var(--display);font-size:clamp(28px,3vw,46px);line-height:1;font-weight:400;color:var(--ink);text-transform:none;letter-spacing:-.01em}
+.strip__n span{font-size:clamp(13px,1.3vw,19px)}
+.strip__cap{margin-top:8px;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+
+/* ─────────── bestsellers ─────────── */
+.best{background:var(--paper-2);border-block:1px solid var(--rule)}
+.best__head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:14px 40px;margin-bottom:clamp(28px,3vw,44px)}
+.best__head h2{font-size:clamp(30px,3.6vw,52px)}
+.best__head p{color:var(--ink-2);max-width:44ch}
+.best__grid{display:grid;gap:1px;grid-template-columns:repeat(2,1fr);background:var(--rule);border:1px solid var(--rule)}
+@media(min-width:900px){.best__grid{grid-template-columns:repeat(4,1fr)}}
+.prod{background:var(--paper);display:flex;flex-direction:column}
+.prod__img{display:block;aspect-ratio:1;overflow:hidden;background:var(--paper-2)}
+.prod__img img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--ease)}
+.prod__img:hover img,.prod__img:focus-visible img{transform:scale(1.04)}
+.prod__row{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:16px 18px 2px}
+.prod__row h3{font-family:var(--display);font-size:19px;font-weight:700}
+.prod__row span{font-family:var(--mono);font-size:13px;color:var(--sun-ink);white-space:nowrap}
+.prod__sub{padding:0 18px 14px;font-size:13px;color:var(--ink-2)}
+.prod__buy{margin-top:auto;display:block;text-align:center;padding:14px;min-height:44px;border-top:1px solid var(--rule);
+  font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--ink);
+  transition:background-color .25s var(--ease),color .25s var(--ease)}
+.prod__buy:hover,.prod__buy:focus-visible{background:var(--ink);color:var(--paper)}
+
+/* break the x=112 lockstep: the close image runs off the right edge, and the
+   proof column drops against the middle of the quote rather than its top */
+@media(min-width:900px){
+  .proof__grid{align-items:start}
+  .aggr{padding-top:clamp(40px,6vw,96px)}
+}
+
+/* ─────────── the protocol, promoted ─────────── */
+.protocol{background:var(--night);color:var(--paper)}
+.protocol .label{color:rgba(255,237,210,.5)}
+.protocol__grid{display:grid;gap:clamp(28px,4vw,64px);grid-template-columns:1fr}
+@media(min-width:900px){.protocol__grid{grid-template-columns:1.05fr .95fr;align-items:center}}
+.protocol h2{font-size:clamp(34px,4.9vw,72px);margin-top:16px;max-width:12ch}
+.protocol h2 i{color:var(--sun)}
+.protocol p{color:rgba(255,237,210,.78);max-width:52ch}
+.protocol p + p{margin-top:18px}
+.protocol p b{color:var(--paper);font-weight:500}
+.protocol__pull{border-left:2px solid var(--sun);padding-left:22px}
+.protocol__pull q{font-family:var(--display);font-size:clamp(20px,2.2vw,31px);line-height:1.32;quotes:'“' '”'}
+.protocol__pull cite{display:block;margin-top:14px;font-size:13px;letter-spacing:.01em;font-style:normal;color:rgba(255,237,210,.6)}
+
+/* ─────────── monograph ─────────── */
+.mono__head{display:grid;gap:20px;grid-template-columns:1fr;margin-bottom:clamp(36px,4vw,64px)}
+@media(min-width:900px){.mono__head{grid-template-columns:1fr 1fr;align-items:end}}
+.mono h2{font-size:clamp(34px,4.9vw,72px);max-width:12ch}
+.mono__intro{color:var(--ink-2);max-width:46ch}
+.mono__intro strong{color:var(--ink);font-weight:500}
+.mono__body{display:grid;gap:clamp(32px,4vw,60px);grid-template-columns:1fr}
+@media(min-width:900px){.mono__body{grid-template-columns:.85fr 1.15fr}}
+
+.card{border:1px solid var(--ink);background:var(--paper-2);position:relative;align-self:start}
+.card__img{aspect-ratio:16/7;display:grid;place-items:center;overflow:hidden;padding:16px;border-bottom:1px solid var(--ink);background:var(--paper)}
+.card__img img{width:100%;height:100%;object-fit:contain;filter:sepia(.1) contrast(1.04)}
+.card__foot{padding:18px 20px 4px;display:flex;justify-content:space-between;align-items:baseline;gap:14px}
+.card__foot h3{font-family:var(--display);font-size:23px;font-weight:700;letter-spacing:.01em}
+.card__price{font-family:var(--mono);font-size:15px;color:var(--sun-ink);font-weight:500}
+.card__unit{padding:0 20px 16px;font-family:var(--mono);font-size:12px;letter-spacing:.02em;color:var(--ink-3)}
+.card__buy{display:block;text-align:center;padding:17px;min-height:44px;border-top:1px solid var(--ink);font-family:var(--mono);
+  font-size:12px;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;color:var(--paper);background:var(--ink);
+  transition:background-color .25s var(--ease)}
+.card__buy:hover,.card__buy:focus-visible{background:var(--jungle)}
+.card__ship{padding:14px 20px 0;font-size:13px;color:var(--ink-2);line-height:1.5}
+.card__pair{padding:8px 20px 18px;font-size:13px;color:var(--ink-2);line-height:1.5}
+.card__pair a{color:var(--sun-ink);text-decoration:underline;text-underline-offset:2px}
+
+.tbl{width:100%;border-collapse:collapse}
+.tbl caption{text-align:left;font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);padding-bottom:14px}
+.tbl th,.tbl td{text-align:left;padding:12px 0;border-bottom:1px solid var(--rule);vertical-align:baseline}
+.tbl th{font-family:var(--mono);font-weight:400;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);width:180px}
+.tbl td{font-size:15px}
+.tbl td i{color:var(--ink-2)}
+.tbl tr:first-child th,.tbl tr:first-child td{border-top:1px solid var(--ink)}
+.statutory{margin-top:18px;font-size:13px;color:var(--ink-2);line-height:1.6;max-width:60ch}
+
+.rule-note{margin-top:38px;padding-left:22px;border-left:2px solid var(--sun)}
+.rule-note h4{font-family:var(--display);font-size:clamp(21px,2vw,30px);font-weight:400;line-height:1.22}
+.rule-note p{margin-top:12px;color:var(--ink-2);max-width:54ch}
+
+/* ─────────── proof ─────────── */
+.proof{background:var(--paper-2);border-block:1px solid var(--rule)}
+.proof h2{font-size:clamp(30px,4vw,58px);margin-top:16px;max-width:14ch}
+.proof__grid{margin-top:clamp(38px,4vw,60px);display:grid;gap:clamp(24px,3vw,40px);grid-template-columns:1fr}
+@media(min-width:900px){.proof__grid{grid-template-columns:1.4fr 1fr;align-items:start}}
+.quote{border:1px solid var(--ink);background:var(--paper);padding:clamp(28px,3vw,44px)}
+.quote q{display:block;margin-top:18px;font-family:var(--display);font-size:clamp(21px,2.3vw,32px);line-height:1.3;quotes:'“' '”'}
+.quote cite{display:block;margin-top:20px;font-size:13px;letter-spacing:.01em;font-style:normal;color:var(--ink-2)}
+.aggr{display:grid;gap:18px;align-content:start}
+.aggr__box{border:1px solid var(--rule);background:var(--paper);padding:22px 24px}
+.aggr__box h3{font-family:var(--display);font-size:clamp(30px,3.4vw,46px);line-height:1;font-weight:400}
+.aggr__box .stars{display:block;margin-bottom:10px;font-size:13px;letter-spacing:.18em}
+.aggr__box p{margin-top:10px;font-size:13px;color:var(--ink-2);line-height:1.7}
+.proof__foot{margin-top:26px;font-size:13px;color:var(--ink-2);max-width:70ch;line-height:1.6}
+
+/* ─────────── close ─────────── */
+.close__grid{display:grid;gap:clamp(30px,4vw,60px);grid-template-columns:1fr}
+@media(min-width:900px){.close__grid{grid-template-columns:1.1fr .9fr;align-items:center}}
+.close h2{font-size:clamp(34px,4.9vw,72px);max-width:12ch}
+.close p{margin-top:22px;color:var(--ink-2);max-width:46ch}
+.close__hours{margin-top:26px;font-family:var(--mono);font-size:13px;letter-spacing:.02em;color:var(--ink-2);line-height:2}
+.close__scope{margin-top:18px;font-size:13px;color:var(--ink-3);max-width:52ch;line-height:1.6}
+.close img{width:100%;height:100%;object-fit:cover;object-position:center 22%;aspect-ratio:5/4;filter:sepia(.14) contrast(1.03);border:1px solid var(--rule)}
+
+/* ─────────── footer ─────────── */
+.foot{background:var(--night);color:rgba(255,237,210,.74);padding-top:clamp(56px,6vw,88px);padding-bottom:40px;font-size:13.5px}
+.foot__grid{display:grid;gap:32px;grid-template-columns:1fr}
+@media(min-width:760px){.foot__grid{grid-template-columns:1.3fr 1fr 1fr 1fr}}
+.foot h3{font-family:var(--body);font-weight:500;font-size:14px;letter-spacing:.01em;color:var(--paper);margin-bottom:14px}
+.foot a{color:rgba(255,237,210,.74);text-decoration:none;display:block;padding:5px 0;transition:color .2s var(--ease)}
+.foot a:hover,.foot a:focus-visible{color:var(--paper)}
+.foot__mark{font-family:var(--display);font-size:26px;color:var(--paper);margin-bottom:12px}
+.foot__legal{margin-top:44px;padding-top:22px;border-top:1px solid rgba(255,237,210,.16);font-size:12px;color:rgba(255,237,210,.55);line-height:1.7;display:grid;gap:10px}
+
+/* ─────────── sticky mobile buy ─────────── */
+.stickybuy{position:fixed;left:0;right:0;bottom:0;z-index:70;display:none;align-items:center;justify-content:space-between;gap:12px;
+  padding:10px 16px;background:var(--paper);border-top:1px solid var(--ink);
+  transform:translateY(110%);transition:transform .35s var(--ease)}
+.stickybuy[data-show]{transform:none}
+.stickybuy span{font-family:var(--mono);font-size:12.5px;letter-spacing:0;color:var(--ink)}
+.stickybuy .btn{padding:13px 20px}
+.stickybuy{display:flex}
+
+.rv{opacity:0;transform:translateY(22px)}
+.rv.in{opacity:1;transform:none;transition:opacity .85s var(--ease),transform .85s var(--ease)}
+.rv.in.d1{transition-delay:.09s}.rv.in.d2{transition-delay:.18s}.rv.in.d3{transition-delay:.27s}
+@media(prefers-reduced-motion:reduce){
+  .rv,.rv.in{opacity:1;transform:none;transition:none}
+  .plate__orbit g{animation:none}
+  .stickybuy{transition:none}
+  html{scroll-behavior:auto}
+}
+
+/* full bleed right on the close image: the one grid-break on the page */
+@media(min-width:900px){
+  .close__grid{grid-template-columns:1fr 1.05fr;gap:clamp(30px,4vw,72px)}
+  .close img{margin-right:calc(50% - 50vw);width:calc(100% + (50vw - 50%));
+    aspect-ratio:auto;height:clamp(400px,42vw,560px);border-right:none;object-position:center 22%}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__in">
+    <a class="nav__mark" href="#">Herbase</a>
+    <div class="nav__links">
+      <a href="#monograph">Formulas</a><a href="#">Sea Moss</a><a href="#">Mushrooms</a><a href="#">Kits</a><a href="#">Journal</a>
+    </div>
+    <div class="nav__right">
+      <a class="nav__cta" href="#">Bag (0)</a>
+      <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="nav__drawer" id="drawer">
+    <a href="#monograph">Formulas</a><a href="#">Sea Moss</a><a href="#">Mushrooms</a><a href="#">Kits</a><a href="#">Journal</a><a href="#shop">Book the hour · £120</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero__grid">
+    <div>
+      <p class="standfirst rv">Est. 2019. The shop is at 599 Smithdown Road, Liverpool.</p>
+      <h1 class="serif rv d1" style="margin-top:22px">Nine ingredients. <i>One page</i> of specification.</h1>
+      <p class="hero__lede rv d2">Herbase is a working apothecary. Every formula lists each botanical by Latin name, the part of the plant used, and the milligrams of each in a capsule.</p>
+      <div class="hero__act rv d3">
+        <a class="btn" href="#monograph">Shop all 47 formulas</a>
+        <a class="btn btn--line" href="#shop">Book the hour · £120</a>
+      </div>
+      <div class="hero__meta rv d3">
+        <p><span class="stars">★★★★★</span> <b>4.8</b> · 19 Google reviews</p>
+        <p>Formulated by <b>Reiss Davies Ausar C.P.T.</b></p>
+        <p>Wildcrafted, <b>never farmed</b></p>
+      </div>
+    </div>
+
+    <figure class="plate rv d1">
+      <svg class="plate__orbit" viewBox="0 0 150 150" aria-hidden="true">
+        <circle cx="75" cy="75" r="64"/><circle cx="75" cy="75" r="42"/><circle cx="75" cy="75" r="20"/>
+        <g><circle class="dot" cx="139" cy="75" r="2.6"/><circle class="dot" cx="75" cy="33" r="2"/><line x1="139" y1="75" x2="75" y2="33"/></g>
+      </svg>
+      <img src="../assets/apothecary.jpg" alt="Reiss Davies Ausar behind the counter at Herbase, Smithdown Road">
+      <figcaption class="plate__cap"><span>Plate I · The counter</span><span>Smithdown Rd</span></figcaption>
+    </figure>
+  </div>
+</header>
+
+<div class="strip">
+  <div class="strip__in">
+    <div class="strip__cell"><p class="strip__n">800<span> mg</span></p><p class="strip__cap">Per capsule, published</p></div>
+    <div class="strip__cell"><p class="strip__n">9</p><p class="strip__cap">Ingredients, all declared</p></div>
+    <div class="strip__cell"><p class="strip__n">0</p><p class="strip__cap">Fillers, binders, flow agents</p></div>
+    <div class="strip__cell"><p class="strip__n">4<span> mo</span></p><p class="strip__cap">Minimum gap between courses</p></div>
+  </div>
+</div>
+
+<section class="best">
+  <div class="wrap">
+    <div class="best__head">
+      <h2 class="serif rv">Bought most often</h2>
+      <p class="rv d1">Prices as listed. Every one of these has its own specification sheet.</p>
+    </div>
+    <div class="best__grid">
+      <article class="prod rv"><a class="prod__img" href="#"><img src="../assets/p-seaking.png" alt="Seaking capsules"></a>
+        <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">Sea moss and mineral capsules</p><a class="prod__buy" href="#">Add to bag</a></article>
+      <article class="prod rv d1"><a class="prod__img" href="#"><img src="../assets/p-seamoss.png" alt="Northern Soul sea moss gel"></a>
+        <div class="prod__row"><h3>Northern Soul</h3><span>from £34.99</span></div><p class="prod__sub">Sea moss gel, three sizes</p><a class="prod__buy" href="#">Choose a size</a></article>
+      <article class="prod rv d2"><a class="prod__img" href="#"><img src="../assets/p-lionsmane.png" alt="Lion's Mane capsules"></a>
+        <div class="prod__row"><h3>Lion's Mane</h3><span>£24.99</span></div><p class="prod__sub">Single-ingredient mushroom</p><a class="prod__buy" href="#">Add to bag</a></article>
+      <article class="prod rv d3"><a class="prod__img" href="#"><img src="../assets/p-shilajit.png" alt="Shilajit resin"></a>
+        <div class="prod__row"><h3>Shilajit Resin</h3><span>£39.99</span></div><p class="prod__sub">Altai mineral resin</p><a class="prod__buy" href="#">Add to bag</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="protocol turn">
+  <div class="wrap protocol__grid">
+    <div>
+      <p class="label rv">The house position</p>
+      <h2 class="serif rv d1">Take it once every four months. <i>No more.</i></h2>
+    </div>
+    <div>
+      <div class="protocol__pull rv d1">
+        <q>Two capsules daily with 500 ml water. Once every four months, no more.</q>
+        <cite>Decolonise · Herbase house protocol</cite>
+      </div>
+      <p class="rv d2" style="margin-top:28px">That instruction costs us money. We publish it anyway, because a bitter is not a daily habit, and we would rather tell you the limit than sell you four courses a year.</p>
+      <p class="rv d2"><b>It is also the quickest way to work out who to trust.</b> Ask any shop how long you should take something for. If the answer is "as long as you like", you have learned something about the shop.</p>
+    </div>
+  </div>
+</section>
+
+<section class="mono" id="monograph">
+  <div class="wrap">
+    <div class="mono__head">
+      <div>
+        <p class="label rv" style="color:var(--sun-ink)">Formula 01 · The bitter</p>
+        <h2 class="serif rv d1" style="margin-top:14px">Decolonise</h2>
+      </div>
+      <p class="mono__intro rv d2">A bitter blend. Bitters are one of the oldest categories in both Western and Caribbean herbalism, and this is Herbase's reading of one. <strong>Below is the entire sheet:</strong> what is in it, how much, and how it is meant to be taken.</p>
+    </div>
+
+    <div class="mono__body">
+      <article class="card rv" id="buy">
+        <div class="card__img"><img src="../assets/decolonise-crop.png" alt="Decolonise, wild herbal formula, 50 vegan capsules"></div>
+        <div class="card__foot"><h3>Decolonise</h3><span class="card__price">£39.99</span></div>
+        <p class="card__unit">50 vegan capsules · 25 day supply · £1.60 a day</p>
+        <a class="card__buy" href="#buy">Add to bag · £39.99</a>
+        <p class="card__ship">Dispatched from Smithdown Road. Free UK delivery over £50.</p>
+        <p class="card__pair">Often taken alongside <a href="#">Northern Soul Sea Moss, £24.99</a>, which is a daily, and this is not.</p>
+      </article>
+
+      <div class="rv d1">
+        <table class="tbl">
+          <caption>Specification sheet</caption>
+          <tbody>
+            <tr><th scope="row">Makeup</th><td>Seven botanicals, plus psyllium husk and activated charcoal. Nine ingredients, no tenth.</td></tr>
+            <tr><th scope="row">Dose</th><td>800 mg per vegan capsule</td></tr>
+            <tr><th scope="row">Count</th><td>50 capsules · 25 day supply</td></tr>
+            <tr><th scope="row">Botanicals</th><td><i>Tabebuia impetiginosa</i> · <i>Momordica charantia</i> · <i>Petiveria alliacea</i> · <i>Syzygium aromaticum</i> · <i>Dysphania ambrosioides</i> · <i>Artemisia absinthium</i> · <i>Piper nigrum</i></td></tr>
+            <tr><th scope="row">Fibre</th><td>Psyllium husk</td></tr>
+            <tr><th scope="row">Charcoal</th><td>Activated, from organic coconut shell</td></tr>
+            <tr><th scope="row">Excipients</th><td>HPMC capsule shell only. Psyllium husk and activated charcoal are declared ingredients, not fillers.</td></tr>
+            <tr><th scope="row">Protocol</th><td>Two capsules daily with 500 ml water. Once every four months, no more.</td></tr>
+            <tr><th scope="row">Sourcing</th><td>Wildcrafted, never farmed</td></tr>
+            <tr><th scope="row">Suitable for</th><td>Vegans. Not for use in pregnancy or while nursing.</td></tr>
+          </tbody>
+        </table>
+        <p class="statutory">Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children. Activated charcoal can reduce the absorption of medicines taken by mouth, including the contraceptive pill. Leave at least two hours between this and any medication, and speak to your GP or pharmacist before starting any supplement.</p>
+
+        <div class="rule-note">
+          <h4 class="serif">We state the specification. Our customers state the effect.</h4>
+          <p>You will not find us telling you what this does to a body. You will find the full ingredient declaration, the quantity of each, the batch certificate of analysis, and the protocol.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="proof turn">
+  <div class="wrap">
+        <h2 class="serif rv d1">Nineteen people have reviewed the shop.</h2>
+
+    <div class="proof__grid">
+      <figure class="quote rv">
+        <div class="stars">★★★★★</div>
+        <q>Known Reiss for a while &amp; was well aware of his innate knowledge, didn't get any other sea moss this is top tier. Started reordering and forgot how amazing it makes me feel. Got a stock in the freezer. Honestly the best.</q>
+        <cite>Sue · March 2024 · on Google · about Northern Soul Sea Moss, not the formula above</cite>
+      </figure>
+
+      <div class="aggr">
+        <div class="aggr__box rv d1">
+          <span class="stars">★★★★★</span>
+          <h3>4.8</h3>
+          <p>From 19 reviews on<br>Google Business Profile</p>
+        </div>
+        <div class="aggr__box rv d2">
+          <h3>Aug 2024</h3>
+          <p>The shop opened on<br>Smithdown Road, after<br>five years online</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="proof__foot rv">Reviews are reproduced word for word from public Google listings, punctuation included. They are individual customer experiences. They are not evidence that a formula will do the same for you, and Herbase makes no claim that it will.</p>
+  </div>
+</section>
+
+<section class="close" id="shop">
+  <div class="wrap close__grid">
+    <div>
+            <h2 class="serif rv d1" style="margin-top:16px">An ancient apothecary <i>from the future</i></h2>
+      <p class="rv d2">It landed on Smithdown Road in August 2024, after five years online. There is a practitioner behind the counter, and he would rather you asked him something difficult.</p>
+      <p class="close__hours rv d2">599 Smithdown Road, Liverpool L15 5AP<br>Tuesday to Sunday, 10–6 · Closed Monday<br>Online orders 24/7</p>
+      <div class="hero__act rv d3"><a class="btn" href="#">Book the hour · £120</a></div>
+      <p class="close__scope rv d3">An hour on ingredients, sourcing and protocol. It is not a diagnosis, and not a substitute for advice from your GP or pharmacist.</p>
+    </div>
+    <img class="rv d1" src="../assets/store.jpg" alt="Inside the Herbase apothecary on Smithdown Road">
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <p class="foot__mark serif">Herbase</p>
+        <p>599 Smithdown Road<br>Liverpool L15 5AP</p>
+        <p style="margin-top:12px">07946 806533<br>herbase.earth@gmail.com</p>
+      </div>
+      <div>
+        <h3>Shop</h3>
+        <a href="#">Signature formulas</a><a href="#">Sea moss</a><a href="#">Mushrooms</a><a href="#">Bundle kits</a><a href="#">Books</a>
+      </div>
+      <div>
+        <h3>Know</h3>
+        <a href="#">Safety and contraindications</a><a href="#">How we source</a><a href="#">The consultation</a><a href="#">Journal</a>
+      </div>
+      <div>
+        <h3>Orders</h3>
+        <a href="#">Delivery</a><a href="#">Returns and cancellation</a><a href="#">Privacy</a><a href="#">Terms</a>
+      </div>
+    </div>
+    <div class="foot__legal">
+      <p>Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.</p>
+      <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP. Food business registered with Liverpool City Council.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="stickybuy" id="sticky">
+  <span>Decolonise · 50 caps · <b>£39.99</b></span>
+  <a class="btn" href="#buy">Add to bag</a>
+</div>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15,rootMargin:'0px 0px -8%'});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+window.addEventListener('load',()=>document.querySelectorAll('.hero .rv').forEach(el=>el.classList.add('in')));
+
+/* mobile drawer */
+const burger=document.getElementById('burger'),drawer=document.getElementById('drawer');
+burger.addEventListener('click',()=>{
+  const open=drawer.hasAttribute('data-open');
+  open?drawer.removeAttribute('data-open'):drawer.setAttribute('data-open','');
+  burger.setAttribute('aria-expanded',String(!open));
+});
+
+/* sticky buy bar appears once the hero has scrolled away */
+const sticky=document.getElementById('sticky');
+let ticking=false;
+addEventListener('scroll',()=>{
+  if(ticking) return; ticking=true;
+  requestAnimationFrame(()=>{
+    scrollY>600?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
+    ticking=false;
+  });
+},{passive:true});
+</script>
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Herbase — Field Notes (Direction B)</title>
+<meta name="description" content="Herbase, Liverpool. A working apothecary. Wildcrafted formulas, printed doses, named botanicals.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Archivo:wdth,wght@100,400;100,500;112,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FFEDD2;
+  --paper-2:#F7E2C3;
+  --ink:#14110D;
+  --ink-2:rgba(20,17,13,.66);
+  --ink-3:rgba(20,17,13,.4);
+  --rule:rgba(20,17,13,.16);
+  --sun:#E08A2C;
+  --cyan:#0E8C84;
+  --night:#101B1A;
+
+  --display:'Bodoni Moda',Georgia,serif;
+  --body:'Archivo',system-ui,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+
+  --gutter:clamp(20px,5vw,80px);
+  --maxw:1360px;
+  --pad-y:clamp(80px,10vw,168px);
+  --ease:cubic-bezier(.19,1,.22,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--body);font-size:clamp(15px,1vw,16.5px);line-height:1.7;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+body::after{
+  content:"";position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.055;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+}
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+.serif{font-family:var(--display);font-weight:400;line-height:.98;letter-spacing:-.015em}
+.serif i{font-style:italic}
+.label{font-family:var(--mono);font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-3)}
+.num{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;color:var(--sun)}
+
+/* ─────────── nav ─────────── */
+.nav{position:sticky;top:0;z-index:60;background:var(--paper);border-bottom:1px solid var(--rule)}
+.nav__in{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:14px var(--gutter);max-width:var(--maxw);margin-inline:auto}
+.nav__mark{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:.02em;text-decoration:none;color:var(--ink)}
+.nav__links{display:none;gap:28px;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+.nav__links a{color:var(--ink-2);text-decoration:none;padding-bottom:2px;border-bottom:1px solid transparent;transition:border-color .25s var(--ease),color .25s var(--ease)}
+.nav__links a:hover,.nav__links a:focus-visible{color:var(--ink);border-color:var(--sun)}
+@media(min-width:1000px){.nav__links{display:flex}}
+.nav__cta{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--ink)}
+
+/* ─────────── hero ─────────── */
+.hero{padding-top:clamp(36px,4vw,60px);padding-bottom:clamp(36px,4vw,60px);position:relative;overflow:hidden}
+.hero__grid{display:grid;gap:clamp(32px,4vw,64px);grid-template-columns:1fr}
+@media(min-width:980px){.hero__grid{grid-template-columns:1.15fr .85fr;align-items:end}}
+.hero h1{font-size:clamp(44px,6.6vw,104px);max-width:13ch}
+.hero h1 i{color:var(--sun)}
+.hero__meta{border-top:1px solid var(--ink);padding-top:14px;margin-top:26px;display:flex;flex-wrap:wrap;gap:10px 40px}
+.hero__meta p{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+.hero__meta b{color:var(--ink);font-weight:500}
+
+.plate{position:relative;border:1px solid var(--rule);background:var(--paper-2);padding:18px;aspect-ratio:1/1;display:grid;place-items:center;overflow:hidden}
+.plate img{width:96%;height:100%;object-fit:cover;object-position:center 30%;filter:sepia(.18) saturate(.9) contrast(1.04)}
+.plate__cap{position:absolute;left:0;right:0;bottom:0;padding:12px 18px;background:var(--paper);border-top:1px solid var(--rule);
+  display:flex;justify-content:space-between;gap:16px;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.plate__orbit{position:absolute;top:-60px;right:-60px;width:220px;height:220px;opacity:.5;pointer-events:none}
+.plate__orbit circle,.plate__orbit line{stroke:var(--cyan);fill:none;stroke-width:.7}
+.plate__orbit .dot{fill:var(--cyan);stroke:none}
+.plate__orbit g{transform-origin:110px 110px;animation:spin 60s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.hero__lede{margin-top:22px;font-family:var(--display);font-size:clamp(18px,1.5vw,23px);line-height:1.4;max-width:38ch;color:var(--ink)}
+.hero__act{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
+  padding:15px 28px;text-decoration:none;background:var(--ink);color:var(--paper);
+  transition:transform .3s var(--ease),background-color .3s var(--ease)}
+.btn:hover,.btn:focus-visible{transform:translateY(-2px);background:var(--cyan)}
+.btn--line{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.btn--line:hover{background:var(--sun);border-color:var(--sun);color:var(--ink)}
+
+/* ─────────── rule strip ─────────── */
+.strip{border-block:1px solid var(--ink);background:var(--paper)}
+.strip__in{display:grid;grid-template-columns:repeat(2,1fr);max-width:var(--maxw);margin-inline:auto}
+@media(min-width:820px){.strip__in{grid-template-columns:repeat(4,1fr)}}
+.strip__cell{padding:26px var(--gutter);border-right:1px solid var(--rule)}
+.strip__cell:last-child{border-right:none}
+.strip__cell h3{font-family:var(--display);font-size:clamp(28px,3vw,46px);line-height:1;font-weight:400}
+.strip__cell p{margin-top:8px;font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+
+/* ─────────── monograph ─────────── */
+.mono{padding-block:var(--pad-y)}
+.mono__head{display:grid;gap:20px;grid-template-columns:1fr;margin-bottom:clamp(36px,4vw,68px)}
+@media(min-width:900px){.mono__head{grid-template-columns:1fr 1fr;align-items:end}}
+.mono h2{font-size:clamp(38px,5.6vw,86px);max-width:12ch}
+.mono__intro{color:var(--ink-2);max-width:46ch}
+.mono__intro strong{color:var(--ink);font-weight:500}
+
+.mono__body{display:grid;gap:clamp(32px,4vw,60px);grid-template-columns:1fr}
+@media(min-width:900px){.mono__body{grid-template-columns:.85fr 1.15fr}}
+
+.card{border:1px solid var(--ink);background:var(--paper-2);position:relative;align-self:start}
+.card__img{aspect-ratio:5/4;display:grid;place-items:center;overflow:hidden;padding:18px;border-bottom:1px solid var(--ink);background:var(--paper)}
+.card__img img{width:100%;height:100%;object-fit:contain;filter:sepia(.1) contrast(1.04)}
+.card__foot{padding:18px 20px;display:flex;justify-content:space-between;align-items:baseline;gap:14px}
+.card__foot h3{font-family:var(--display);font-size:22px;font-weight:700;letter-spacing:.01em}
+.card__foot span{font-family:var(--mono);font-size:13px;color:var(--sun)}
+.card__buy{display:block;text-align:center;padding:15px;border-top:1px solid var(--ink);font-family:var(--mono);
+  font-size:11px;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;color:var(--ink);
+  transition:background-color .25s var(--ease),color .25s var(--ease)}
+.card__buy:hover,.card__buy:focus-visible{background:var(--ink);color:var(--paper)}
+
+.tbl{width:100%;border-collapse:collapse}
+.tbl caption{text-align:left;font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);padding-bottom:14px}
+.tbl th,.tbl td{text-align:left;padding:12px 0;border-bottom:1px solid var(--rule);vertical-align:baseline}
+.tbl th{font-family:var(--mono);font-weight:400;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);width:180px}
+.tbl td{font-size:15px}
+.tbl td i{color:var(--ink-2)}
+.tbl tr:first-child th,.tbl tr:first-child td{border-top:1px solid var(--ink)}
+
+.rule-note{margin-top:38px;padding-left:22px;border-left:2px solid var(--sun)}
+.rule-note h4{font-family:var(--display);font-size:clamp(21px,2vw,30px);font-weight:400;line-height:1.2}
+.rule-note p{margin-top:12px;color:var(--ink-2);max-width:54ch}
+
+/* ─────────── voices ─────────── */
+.voices{background:var(--night);color:var(--paper);padding-block:var(--pad-y)}
+.voices .label{color:rgba(255,237,210,.42)}
+.voices h2{font-size:clamp(34px,4.6vw,70px);margin-top:16px;max-width:13ch}
+.voices__grid{margin-top:clamp(38px,4vw,64px);display:grid;gap:1px;grid-template-columns:1fr;background:rgba(255,237,210,.18)}
+@media(min-width:820px){.voices__grid{grid-template-columns:repeat(3,1fr)}}
+.voice{background:var(--night);padding:32px 28px;display:flex;flex-direction:column;gap:16px}
+.voice__stars{color:var(--sun);letter-spacing:.22em;font-size:12px}
+.voice q{font-family:var(--display);font-size:clamp(18px,1.6vw,23px);line-height:1.35;flex:1;quotes:'“' '”'}
+.voice__by{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,237,210,.45)}
+.voices__foot{margin-top:34px;font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,237,210,.42)}
+
+/* ─────────── close ─────────── */
+.close{padding-block:var(--pad-y)}
+.close__grid{display:grid;gap:clamp(30px,4vw,60px);grid-template-columns:1fr}
+@media(min-width:900px){.close__grid{grid-template-columns:1.1fr .9fr;align-items:center}}
+.close h2{font-size:clamp(36px,5.4vw,84px);max-width:12ch}
+.close p{margin-top:22px;color:var(--ink-2);max-width:44ch}
+.close__hours{margin-top:28px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);line-height:2.1}
+.close img{width:100%;height:100%;object-fit:cover;aspect-ratio:5/4;filter:sepia(.14) contrast(1.03);border:1px solid var(--rule)}
+
+.rv{opacity:0;transform:translateY(22px)}
+.rv.in{opacity:1;transform:none;transition:opacity .85s var(--ease),transform .85s var(--ease)}
+.rv.in.d1{transition-delay:.09s}.rv.in.d2{transition-delay:.18s}.rv.in.d3{transition-delay:.27s}
+@media(prefers-reduced-motion:reduce){.rv,.rv.in{opacity:1;transform:none;transition:none}.plate__orbit g{animation:none}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__in">
+    <a class="nav__mark" href="#">Herbase</a>
+    <div class="nav__links">
+      <a href="#monograph">Formulas</a><a href="#">Sea Moss</a><a href="#">Mushrooms</a><a href="#">Kits</a><a href="#">Journal</a>
+    </div>
+    <a class="nav__cta" href="#">Bag (0)</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero__grid">
+    <div>
+      <p class="label rv">Est. 2019 · 599 Smithdown Road, Liverpool</p>
+      <h1 class="serif rv d1" style="margin-top:22px">Nine plants. <i>One page</i> of proof.</h1>
+      <p class="hero__lede rv d2">Herbase is a working apothecary. Every formula lists its botanicals by Latin name, its dose in milligrams, and nothing it does not contain.</p>
+      <div class="hero__act rv d3">
+        <a class="btn" href="#monograph">Read a formula</a>
+        <a class="btn btn--line" href="#">Consultation · £120</a>
+      </div>
+      <div class="hero__meta rv d3">
+        <p>★★★★★ <b>4.8</b> · 19 Google reviews</p>
+        <p><b>Zero</b> fillers or bulking agents</p>
+        <p>Wildcrafted, <b>never farmed</b></p>
+      </div>
+    </div>
+
+    <figure class="plate rv d1">
+      <svg class="plate__orbit" viewBox="0 0 220 220" aria-hidden="true">
+        <circle cx="110" cy="110" r="94"/><circle cx="110" cy="110" r="62"/><circle cx="110" cy="110" r="30"/>
+        <g><circle class="dot" cx="204" cy="110" r="3.2"/><circle class="dot" cx="110" cy="48" r="2.4"/><line x1="204" y1="110" x2="110" y2="48"/></g>
+      </svg>
+      <img src="../assets/apothecary.jpg" alt="Reiss Davies Ausar behind the counter at Herbase, Smithdown Road">
+      <figcaption class="plate__cap"><span>Plate I · The counter</span><span>Smithdown Rd</span></figcaption>
+    </figure>
+  </div>
+</header>
+
+<div class="strip">
+  <div class="strip__in">
+    <div class="strip__cell"><h3>800<span style="font-size:.45em"> mg</span></h3><p>Per capsule, printed</p></div>
+    <div class="strip__cell"><h3>9</h3><p>Named botanicals</p></div>
+    <div class="strip__cell"><h3>0</h3><p>Fillers, binders, flow agents</p></div>
+    <div class="strip__cell"><h3>6</h3><p>Years, one obsession</p></div>
+  </div>
+</div>
+
+<section class="mono" id="monograph">
+  <div class="wrap">
+    <div class="mono__head">
+      <div>
+        <p class="num rv">Formula 01</p>
+        <h2 class="serif rv d1" style="margin-top:14px">Decolonise</h2>
+      </div>
+      <p class="mono__intro rv d2">A daily bitter, which is one of herbalism's oldest instincts. <strong>Traditionally taken to wake the gut.</strong> Below is the entire sheet: what is in it, how much, and how it is meant to be taken. Nothing about what it will do to you, because that is not ours to say.</p>
+    </div>
+
+    <div class="mono__body">
+      <article class="card rv">
+        <div class="card__img"><img src="../assets/decolonise-pouch.png" alt="Decolonise, 50 vegan capsules"></div>
+        <div class="card__foot"><h3>Decolonise</h3><span>£39.99</span></div>
+        <a class="card__buy" href="#">Add to bag · 25 day supply</a>
+      </article>
+
+      <div class="rv d1">
+        <table class="tbl">
+          <caption>Specification sheet</caption>
+          <tbody>
+            <tr><th scope="row">Dose</th><td>800 mg per vegan capsule</td></tr>
+            <tr><th scope="row">Count</th><td>50 capsules · 25 day supply</td></tr>
+            <tr><th scope="row">Botanicals</th><td><i>Tabebuia impetiginosa</i> · <i>Momordica charantia</i> · <i>Petiveria alliacea</i> · <i>Syzygium aromaticum</i> · <i>Dysphania ambrosioides</i> · <i>Artemisia absinthium</i> · <i>Piper nigrum</i></td></tr>
+            <tr><th scope="row">Fibre</th><td>Psyllium husk</td></tr>
+            <tr><th scope="row">Charcoal</th><td>Activated, from organic coconut shell</td></tr>
+            <tr><th scope="row">Excipients</th><td>None</td></tr>
+            <tr><th scope="row">Protocol</th><td>Two capsules daily with 500 ml water. Once every four months, no more.</td></tr>
+            <tr><th scope="row">Sourcing</th><td>Wildcrafted, never farmed</td></tr>
+            <tr><th scope="row">Suitable for</th><td>Vegans. Not for use in pregnancy or while nursing.</td></tr>
+          </tbody>
+        </table>
+
+        <div class="rule-note">
+          <h4 class="serif">We state the specification. Our customers state the effect.</h4>
+          <p>You will not find us telling you what this does to a body. You will find every gram, every botanical and every instruction, and then the words of the people who have taken it.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="voices">
+  <div class="wrap">
+    <p class="label rv">Unedited · Verified purchases</p>
+    <h2 class="serif rv d1">What they said, not what we claim</h2>
+    <div class="voices__grid">
+      <article class="voice rv"><div class="voice__stars">★★★★★</div><q>Best around. This product is life changing, has resolved a lot of my health issues.</q><p class="voice__by">Lisa Skillen · Aug 2023</p></article>
+      <article class="voice rv d1"><div class="voice__stars">★★★★★</div><q>Great benefits to my well being, and clarity. It also helped my wife. We have a monthly order to maintain the support it gives us.</q><p class="voice__by">Paul Maguire · May 2024</p></article>
+      <article class="voice rv d2"><div class="voice__stars">★★★★★</div><q>Didn't get any other sea moss, this is top tier. Started reordering and forgot how amazing it makes me feel. Honestly the best.</q><p class="voice__by">Sue · March 2024</p></article>
+    </div>
+    <p class="voices__foot rv">Customer experiences are individual and are not health claims made by Herbase.</p>
+  </div>
+</section>
+
+<section class="close">
+  <div class="wrap close__grid">
+    <div>
+      <p class="label rv">The shop</p>
+      <h2 class="serif rv d1" style="margin-top:16px">An ancient apothecary <i>from the future</i></h2>
+      <p class="rv d2">It landed on Smithdown Road in August 2024, after five years online. There is a practitioner behind the counter, and he would rather you asked him something difficult.</p>
+      <p class="close__hours rv d2">599 Smithdown Road, Liverpool<br>Tues–Fri 11–6 · Sat 11–5 · Sun 12–4<br>Online orders 24/7</p>
+      <div class="hero__act rv d3"><a class="btn" href="#">Book the hour · £120</a></div>
+    </div>
+    <img class="rv d1" src="../assets/store.jpg" alt="Inside the Herbase apothecary on Smithdown Road">
+  </div>
+</section>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15,rootMargin:'0px 0px -8%'});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+window.addEventListener('load',()=>document.querySelectorAll('.hero .rv').forEach(el=>el.classList.add('in')));
+</script>
+</body>
+</html>

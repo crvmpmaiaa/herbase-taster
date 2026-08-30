@@ -1,0 +1,18 @@
+# working artefacts, regenerated on demand
+shots/
+*.log
+
+# 2K source PNGs for the hero scenes. The optimised .jpg files in assets/
+# are what the page actually loads; these are 6MB each and add nothing.
+assets/hero-cosmos-a.png
+assets/hero-cosmos-b.png
+
+# Deliberately NOT committed. These are Herbase's own artwork and every one of
+# them is a wall of unauthorised health claims ("ANTI-VIRAL FORMULA",
+# "I.B.S SOLUTION", "MEDICINAL HERBAL CAPSULES", "GENERAL DISEASE FIGHTER").
+# They are unused by the build. Keeping them out of the repo removes the risk
+# of anyone dropping one into a page. Originals are in ~/Downloads/Herbase/.
+assets/decolonise-ingr.png
+assets/detox-caps.png
+assets/lifestyle-1.jpg
+assets/detox-redox.png
