@@ -276,6 +276,8 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
   transform:translateY(110%);transition:transform .35s var(--ease)}
 .stickybuy[data-show]{transform:none}
 .stickybuy span{font-size:12.5px;color:var(--ink);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.stickybuy span i{font-style:normal;color:var(--ink-2);display:none}
+@media(min-width:600px){.stickybuy span i{display:inline}}
 .stickybuy span b{font-weight:700}
 .stickybuy .btn{padding:13px 22px;flex:none}
 
@@ -543,7 +545,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 </footer>
 
 <div class="stickybuy" id="sticky">
-  <span>Decolonise · 50 caps · <b>£39.99</b> · 25 day supply</span>
+  <span><b>Decolonise</b> · £39.99<i> · 50 caps, 25 day supply</i></span>
   <a class="btn" href="#buy">Add to bag</a>
 </div>
 
