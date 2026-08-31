@@ -57,26 +57,21 @@ demo does not render correctly without it.
   under any account other than Herbase's own licence.
 - Montserrat is open licence and carries no such restriction.
 
-## The compliance posture
+## Copy rules, do not loosen these
 
 The copy on this build is deliberate, not cautious by accident. UK supplement
-marketing is tightly regulated and the audit found live breaches on the client's
-current site. Two rules were applied throughout and should be kept:
+marketing is tightly regulated. Two rules were applied throughout and should be
+kept if anyone edits a word:
 
 1. **The brand states specification, the customer states effect.** No page makes
    a health claim. Every quantity, botanical, protocol and contraindication is
    published instead.
 2. **Nothing is invented.** Prices, doses, botanicals, hours and reviews are all
-   lifted from herbase.earth, the Google Business Profile or the FSA record.
+   lifted from source, never written to sound plausible.
 
-If you change copy, that is the line to hold. See section 06 and 07 of the audit
-PDF for what is actually at stake.
+No client pack photography is committed, and it must not be. See `.gitignore`
+for which files and why.
 
-## Known open items
+## Open items
 
-- The four-month protocol is on the website but the pack says "2 caps daily".
-  The pack and the site contradict each other and the client has to resolve it.
-- Cascara sagrada is the first ingredient printed on the Decolonise pouch and
-  appears nowhere in the site's ingredient list.
-- All product links are `#`. There is no cart, no checkout, no CMS.
-- The FSA hygiene rating for the shop is 1 out of 5 (Feb 2026).
+Tracked privately in the growth audit, not here. Ask Jack.
