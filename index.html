@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#04100F">
 <title>Herbase · Wildcrafted herbal formulas · Liverpool</title>
 <meta name="description" content="Herbase, Liverpool. A working apothecary. Wildcrafted formulas, printed doses, named botanicals.">
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
@@ -76,13 +77,13 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .nav__side--r{justify-content:flex-start}
 .nav__side--r a[data-bag]{margin-left:auto}
 @media(min-width:860px){.nav__side{display:flex}}
-.nav__side a{color:var(--ink-2);text-decoration:none;white-space:nowrap;padding-bottom:3px;
+.nav__side a{color:var(--ink-2);text-decoration:none;white-space:nowrap;padding:10px 0 3px;
   border-bottom:1px solid transparent;transition:border-color .25s var(--ease),color .25s var(--ease)}
 .nav__side a:hover,.nav__side a:focus-visible{color:var(--ink);border-color:var(--sun-ink)}
 .nav__side a[data-bag]{color:var(--ink);border-bottom-color:var(--ink)}
 .nav__side a[data-bag]:hover,.nav__side a[data-bag]:focus-visible{color:var(--jungle);border-bottom-color:var(--jungle)}
 
-.nav__mark{grid-column:2;justify-self:center;display:block;line-height:0;opacity:0;pointer-events:none;transition:opacity .35s var(--ease)}
+.nav__mark{grid-column:2;justify-self:center;display:block;line-height:0;padding:12px 10px;margin:-12px -10px;opacity:0;pointer-events:none;transition:opacity .35s var(--ease)}
 .nav[data-solid] .nav__mark{opacity:1;pointer-events:auto}
 .nav__mark img{height:clamp(19px,2.1vw,26px);width:auto;display:block}
 
@@ -91,7 +92,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
   display:inline-flex;flex-direction:column;gap:4px;background:none;border:1px solid var(--rule);border-radius:2px;
   cursor:pointer;min-width:44px;min-height:44px;align-items:center;justify-content:center}
 .nav__burger span{display:block;width:16px;height:1.5px;background:var(--ink)}
-.nav__bag{position:absolute;right:var(--gutter);top:50%;transform:translateY(-50%);
+.nav__bag{position:absolute;right:var(--gutter);top:50%;transform:translateY(-50%);padding:12px 2px;
   font-family:var(--display);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);
   text-decoration:none;border-bottom:1px solid var(--ink)}
 .nav__bag:hover,.nav__bag:focus-visible{color:var(--jungle);border-color:var(--jungle)}
@@ -106,8 +107,9 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .hero{position:relative;isolation:isolate;background:#04100F;color:var(--paper);
   text-align:center;padding-top:clamp(120px,15vh,180px);padding-bottom:clamp(72px,10vh,120px);
   min-height:clamp(600px,92svh,940px);display:flex;align-items:center;overflow:hidden}
+@media(max-width:700px){.hero{min-height:100svh;padding-top:clamp(96px,13vh,130px)}.hero__logo{width:min(64vw,250px)}}
 .hero__bg{position:absolute;inset:-12% 0;z-index:-3;background-image:var(--hero-bg,url('assets/hero-cosmos.jpg'));background-position:center;background-size:cover;background-repeat:no-repeat;
-  transform:scale(1.08);will-change:transform}
+  transform:scale(1.02);will-change:transform}
 .hero__stars{position:absolute;inset:0;z-index:-2;mix-blend-mode:screen;will-change:transform;pointer-events:none}
 .hero__dust{position:absolute;inset:0;z-index:5;will-change:transform;pointer-events:none}
 .hero .wrap{will-change:transform,opacity}
@@ -129,7 +131,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .hero .btn--line:hover,.hero .btn--line:focus-visible{background:rgba(255,237,210,.14);border-color:var(--paper);color:var(--paper)}
 .hero__meta{border-top:1px solid rgba(255,237,210,.28);border-bottom:1px solid rgba(255,237,210,.28);
   margin-top:clamp(34px,4vw,54px);display:flex;flex-wrap:wrap;justify-content:center;gap:12px 40px;padding:16px 0}
-.hero__meta p{font-family:var(--display);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,237,210,.78)}
+.hero__meta p{font-family:var(--display);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,237,210,.78)}
 .hero__meta b{color:var(--paper);font-weight:700}
 .hero .stars{color:var(--sun)}
 .hero :focus-visible{outline-color:var(--paper)}
@@ -150,7 +152,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .strip__cell:last-child{border-right:none}
 .strip__n{font-family:var(--display);font-weight:900;font-size:clamp(28px,3.2vw,46px);line-height:1;color:var(--ink);letter-spacing:-.01em}
 .strip__n span{font-size:clamp(13px,1.3vw,18px)}
-.strip__cap{margin-top:10px;font-family:var(--display);font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-2)}
+.strip__cap{margin-top:10px;font-family:var(--display);font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-2)}
 
 /* ─────────── bestsellers ─────────── */
 .best{background:var(--paper-2);border-bottom:1px solid var(--rule)}
@@ -169,7 +171,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .prod__row span{font-family:var(--display);font-size:13px;color:var(--sun-ink);white-space:nowrap}
 .prod__sub{padding:0 18px 14px;font-size:12.5px;color:var(--ink-2);line-height:1.6}
 .prod__buy{margin-top:auto;display:block;text-align:center;padding:14px;min-height:44px;border-top:1px solid var(--rule);
-  font-family:var(--display);font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;text-decoration:none;color:var(--ink);
+  font-family:var(--display);font-size:12px;letter-spacing:.13em;text-transform:uppercase;text-decoration:none;color:var(--ink);
   transition:background-color .25s var(--ease),color .25s var(--ease)}
 .prod__buy:hover,.prod__buy:focus-visible{background:var(--ink);color:var(--paper)}
 
@@ -193,7 +195,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .card__img{aspect-ratio:16/5;display:grid;place-items:center;overflow:hidden;padding:16px;border-bottom:1px solid var(--ink);background:var(--paper)}
 .card__img--held{background:var(--night)}
 .card__img--held p{font-family:var(--display);font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,237,210,.8);text-align:center}
-.card__img--held span{display:block;margin-top:6px;font-family:var(--body);font-size:11.5px;letter-spacing:0;text-transform:none;color:rgba(255,237,210,.5)}
+.card__img--held span{display:block;margin-top:6px;font-family:var(--body);font-size:12px;letter-spacing:0;text-transform:none;color:rgba(255,237,210,.5)}
 .card__img img{width:100%;height:100%;object-fit:contain;filter:sepia(.1) contrast(1.04)}
 .card__foot{padding:18px 20px 4px;display:flex;justify-content:space-between;align-items:baseline;gap:14px}
 .card__foot h3{font-family:var(--display);font-weight:900;font-size:16px}
@@ -205,12 +207,12 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .card__buy:hover,.card__buy:focus-visible{background:var(--jungle)}
 .card__ship{padding:14px 20px 0;font-size:12.5px;color:var(--ink-2);line-height:1.55}
 .card__pair{padding:8px 20px 18px;font-size:12.5px;color:var(--ink-2);line-height:1.55}
-.card__pair a{color:var(--sun-ink);text-decoration:underline;text-underline-offset:2px}
+.card__pair a{color:var(--sun-ink);text-decoration:underline;text-underline-offset:2px;display:inline-block;padding:9px 0}
 
 .tbl{width:100%;border-collapse:collapse}
-.tbl caption{text-align:left;font-family:var(--display);font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);padding-bottom:14px}
+.tbl caption{text-align:left;font-family:var(--display);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);padding-bottom:14px}
 .tbl th,.tbl td{text-align:left;padding:12px 0;border-bottom:1px solid var(--rule);vertical-align:baseline}
-.tbl th{font-family:var(--display);font-weight:400;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);width:38%}
+.tbl th{font-family:var(--display);font-weight:400;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);width:38%}
 .tbl td{font-size:14px}
 .tbl td i{color:var(--ink-2)}
 .tbl tr:first-child th,.tbl tr:first-child td{border-top:1px solid var(--ink)}
@@ -274,9 +276,9 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .foot__grid{display:grid;gap:30px;grid-template-columns:1fr;padding-top:clamp(34px,4vw,52px)}
 @media(min-width:760px){.foot__grid{grid-template-columns:1.3fr 1fr 1fr 1fr}}
 .foot h3{font-family:var(--display);font-weight:700;font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--paper);margin-bottom:14px}
-.foot a{color:rgba(255,237,210,.78);text-decoration:none;display:block;padding:5px 0;transition:color .2s var(--ease)}
+.foot a{color:rgba(255,237,210,.78);text-decoration:none;display:block;padding:11px 0;transition:color .2s var(--ease)}
 .foot a:hover,.foot a:focus-visible{color:var(--paper)}
-.foot__legal{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,237,210,.16);font-size:11.5px;color:rgba(255,237,210,.6);line-height:1.75;display:grid;gap:8px}
+.foot__legal{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,237,210,.16);font-size:12px;color:rgba(255,237,210,.6);line-height:1.75;display:grid;gap:8px}
 
 /* ─────────── sticky buy ─────────── */
 .stickybuy{position:fixed;left:0;right:0;bottom:0;z-index:70;display:flex;align-items:center;justify-content:space-between;gap:12px;
@@ -319,11 +321,11 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
     {f:'hero-cosmos.jpg', scrim:.86, name:'nebula'},
     {f:'hero-sea.jpg',    scrim:.80, name:'tide'},
     {f:'hero-root.jpg',   scrim:.93, name:'root'},
-    {f:'hero-fungi.jpg',  scrim:.88, name:'spore'},
-    {f:'hero-mineral.jpg',scrim:.82, name:'mineral'}
+    {f:'hero-fungi.jpg',  scrim:.88, name:'spore'}
   ];
   var s=scenes[Math.floor(Math.random()*scenes.length)];
-  var root=document.documentElement, href='assets/'+s.f;
+  var mob=matchMedia('(max-width:700px)').matches;
+  var root=document.documentElement, href='assets/'+(mob?s.f.replace('.jpg','-m.jpg'):s.f);
   root.style.setProperty('--hero-bg','url("'+href+'")');
   root.style.setProperty('--hero-scrim',s.scrim);
   root.setAttribute('data-scene',s.name);
@@ -387,13 +389,13 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
       <p class="rv d1">Prices as listed. Every one has its own specification sheet.</p>
     </div>
     <div class="best__grid">
-      <article class="prod rv"><a class="prod__img" href="#buy"><img src="assets/tile-seaking.jpg" alt="Seaking capsules"></a>
+      <article class="prod rv"><a class="prod__img" href="#buy"><img loading="lazy" decoding="async" src="assets/tile-seaking.jpg" alt="Seaking capsules"></a>
         <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">Sea moss and mineral capsules</p><a class="prod__buy" href="#buy">Add to bag</a></article>
-      <article class="prod rv d1"><a class="prod__img" href="#buy"><img src="assets/tile-seamoss.jpg" alt="Northern Soul sea moss gel"></a>
+      <article class="prod rv d1"><a class="prod__img" href="#buy"><img loading="lazy" decoding="async" src="assets/tile-seamoss.jpg" alt="Northern Soul sea moss gel"></a>
         <div class="prod__row"><h3>Northern Soul</h3><span>from £34.99</span></div><p class="prod__sub">Sea moss gel, three sizes</p><a class="prod__buy" href="#buy">Choose a size · from £34.99</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="#buy"><img src="assets/tile-lionsmane.jpg" alt="Lion's Mane capsules"></a>
+      <article class="prod rv d2"><a class="prod__img" href="#buy"><img loading="lazy" decoding="async" src="assets/tile-lionsmane.jpg" alt="Lion's Mane capsules"></a>
         <div class="prod__row"><h3>Lion's Mane</h3><span>£24.99</span></div><p class="prod__sub">Single ingredient, whole fruiting body</p><a class="prod__buy" href="#buy">Add to bag</a></article>
-      <article class="prod rv d3"><a class="prod__img" href="#buy"><img src="assets/tile-shilajit.jpg" alt="Shilajit resin"></a>
+      <article class="prod rv d3"><a class="prod__img" href="#buy"><img loading="lazy" decoding="async" src="assets/tile-shilajit.jpg" alt="Shilajit resin"></a>
         <div class="prod__row"><h3>Shilajit Resin</h3><span>£39.99</span></div><p class="prod__sub">Altai mineral resin, lab tested</p><a class="prod__buy" href="#buy">Add to bag</a></article>
     </div>
   </div>
@@ -522,7 +524,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
     <div class="hero__act rv d2"><a class="btn" href="#">Book the hour · £120</a></div>
     <p class="close__scope rv d3">An hour on ingredients, sourcing and protocol. It is not a diagnosis, and not a substitute for advice from your GP or pharmacist.</p>
   </div>
-  <div class="close__shot rv"><img src="assets/apothecary.jpg" alt="Reiss Davies Ausar behind the counter at Herbase, Smithdown Road"></div>
+  <div class="close__shot rv"><img src="assets/apothecary.jpg" srcset="assets/apothecary-m.jpg 800w, assets/apothecary.jpg 1500w" sizes="100vw" loading="lazy" decoding="async" alt="Reiss Davies Ausar behind the counter at Herbase, Smithdown Road"></div>
 </section>
 
 <footer class="foot">
@@ -615,7 +617,7 @@ addEventListener('scroll',()=>{
     t+=1;
     var y=scrollY, ph=Math.min(1,y/(H||1));
 
-    bg.style.transform='translate3d('+(tx*-14)+'px,'+(y*0.42+ty*-10)+'px,0) scale('+(1.08+ph*0.16+Math.sin(t/900)*0.012)+')';
+    bg.style.transform='translate3d('+(tx*-14)+'px,'+(y*0.42+ty*-10)+'px,0) scale('+(1.02+ph*0.07+Math.sin(t/900)*0.008)+')';
     sc.style.transform='translate3d('+(tx*-26)+'px,'+(y*0.6)+'px,0)';
     dc.style.transform='translate3d('+(tx*34)+'px,'+(y*-0.3+ty*18)+'px,0)';
     wrap.style.transform='translate3d(0,'+(y*0.24)+'px,0) scale('+(1-ph*0.05)+')';
