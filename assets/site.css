@@ -382,3 +382,19 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .jnext .btn:hover,.jnext .btn:focus-visible{background:var(--sun)}
 /* homepage journal teaser */
 .journal{border-top:1px solid var(--rule)}
+/* journal stills */
+.prose figure{margin:2.2em 0}
+.prose figure img{width:100%;height:auto;display:block;filter:sepia(.08) contrast(1.03)}
+.prose figcaption{margin-top:12px;font-family:var(--display);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);line-height:1.7}
+.prose figcaption i{font-style:normal;text-transform:none;letter-spacing:0;font-family:var(--body);font-size:12.5px;color:var(--ink-2);display:block}
+.prose .fig--wide{width:min(92vw,1040px);margin-left:50%;transform:translateX(-50%)}
+.prose .fig--wide img{aspect-ratio:21/9;object-fit:cover}
+.prose .fig--tall img{aspect-ratio:3/2;object-fit:cover}
+.prose .duo{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);margin:2.2em 0}
+.prose .duo figure{margin:0;background:var(--paper)}
+.prose .duo img{aspect-ratio:4/5;object-fit:cover}
+.prose .duo figcaption{padding:12px 14px 14px}
+@media(max-width:520px){.prose .duo{grid-template-columns:1fr}.prose .duo img{aspect-ratio:3/2}}
+.jstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);margin-bottom:22px;align-self:stretch}
+.jstrip img{width:100%;aspect-ratio:1;object-fit:cover;display:block;filter:sepia(.08) contrast(1.03)}
+.credits{margin-top:22px;font-size:12px;color:var(--ink-3);line-height:1.7}
