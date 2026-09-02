@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#FFEDD2">
+<title>Journal · Ingredient notes from the counter · Herbase</title>
+<meta name="description" content="Ingredient notes, protocols and plain answers from Reiss Davies Ausar at Herbase, Liverpool. No health claims. Just what is in the jar and how to use it.">
+<noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav class="nav nav--solid" data-solid>
+  <div class="nav__in">
+    <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
+    <div class="nav__side nav__side--l">
+      <a href="../index.html#monograph">Formulas</a><a href="../product.html">Sea Moss</a><a href="../index.html#best">Mushrooms</a>
+    </div>
+    <a class="nav__mark" href="../index.html" aria-label="Herbase, home"><img src="../assets/wordmark.png" alt="Herbase"></a>
+    <div class="nav__side nav__side--r">
+      <a href="./" aria-current="page">Journal</a><a href="../index.html#shop">Consultation</a><a href="#" data-bag>Bag (0)</a>
+    </div>
+    <a class="nav__bag" href="#">Bag (0)</a>
+  </div>
+  <div class="nav__drawer" id="drawer">
+    <a href="../index.html#monograph">Formulas</a><a href="../product.html">Sea Moss</a><a href="../index.html#best">Mushrooms</a><a href="./">Journal</a><a href="../index.html#shop">Book the hour · £120</a>
+  </div>
+</nav>
+
+<section class="pdp">
+  <div class="wrap">
+    <div class="head">
+      <p class="label rv">The journal</p>
+      <h1 class="dsp rv d1">Notes from <em>the counter</em></h1>
+      <p class="rv d2">The questions that get asked across the counter, answered properly and in writing. What a plant is, how to tell the real one from the copy, how to take it, who should leave it alone. <b>No health claims. Ever.</b> That is the rule, and it is the reason you can trust the rest.</p>
+    </div>
+
+    <div class="jlist">
+      <a class="jcard rv" href="which-sea-moss.html">
+        <div class="jcard__img"><img src="../assets/hero-sea-m.jpg" srcset="../assets/hero-sea-m.jpg 800w, ../assets/hero-sea.jpg 1500w" sizes="(min-width:760px) 55vw, 100vw" alt="Sea moss fronds in cold Atlantic water" decoding="async"></div>
+        <div class="jcard__body">
+          <h3>Which sea moss? Two plants, one name on the jar.</h3>
+          <p>Cold-water <i>Chondrus crispus</i> and warm-water <i>Eucheuma cottonii</i> both get sold as Irish moss. How to tell them apart on the bench, gel versus capsules, why yours went watery, and who should not take it.</p>
+          <p class="jcard__meta">Reiss Davies Ausar · 2 Sep 2026 · 9 min</p>
+        </div>
+      </a>
+      <div class="jcard jcard--soon rv d1">
+        <p class="label">Being written</p>
+        <h3>Next on the bench</h3>
+        <ul>
+          <li>How much iodine is in a spoon of sea moss, honestly</li>
+          <li>Bladderwrack: the brown alga that carries the formula</li>
+          <li>Wormwood, and why Decolonise has a stop date</li>
+          <li>A 28-day detox, explained without the hype</li>
+          <li>Where to buy sea moss in Liverpool</li>
+        </ul>
+        <p style="font-size:13px;color:var(--ink-3)">One a fortnight. Each one ends with the jar it is about.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jnext">
+  <div class="wrap">
+    <p class="label rv" style="color:rgba(255,237,210,.55)">Prefer to ask in person</p>
+    <h2 class="dsp rv d1">Come in and ask us <em>something difficult</em></h2>
+    <p class="rv d2">599 Smithdown Road, Liverpool. Tuesday to Sunday, 10 to 6. Or book the hour with Reiss.</p>
+    <a class="btn rv d2" href="../index.html#shop">Book the hour · £120</a>
+  </div>
+</section>
+
+<footer class="foot" style="padding-bottom:clamp(52px,6vw,84px)">
+  <div class="wrap">
+    <div class="foot__top"><img src="../assets/wordmark.png" alt="Herbase"></div>
+    <div class="foot__grid">
+      <div>
+        <h3>The shop</h3>
+        <p>599 Smithdown Road<br>Liverpool L15 5AP</p>
+        <p style="margin-top:10px">07946 806533<br>herbase.earth@gmail.com</p>
+      </div>
+      <div>
+        <h3>Shop</h3>
+        <a href="../index.html#monograph">Signature formulas</a><a href="../product.html">Sea moss</a><a href="../index.html#best">Mushrooms</a><a href="#">Bundle kits</a><a href="#">Books</a>
+      </div>
+      <div>
+        <h3>Know</h3>
+        <a href="#">Safety and contraindications</a><a href="#">How we source</a><a href="../index.html#shop">The consultation</a><a href="./">Journal</a>
+      </div>
+      <div>
+        <h3>Orders</h3>
+        <a href="#">Delivery</a><a href="#">Returns and cancellation</a><a href="#">Privacy</a><a href="#">Terms</a>
+      </div>
+    </div>
+    <div class="foot__legal">
+      <p>Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.</p>
+      <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP. Food business registered with Liverpool City Council.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+window.addEventListener('load',()=>document.querySelectorAll('.pdp .rv').forEach(el=>el.classList.add('in')));
+const burger=document.getElementById('burger'),drawer=document.getElementById('drawer');
+burger.addEventListener('click',()=>{
+  const open=drawer.hasAttribute('data-open');
+  open?drawer.removeAttribute('data-open'):drawer.setAttribute('data-open','');
+  burger.setAttribute('aria-expanded',String(!open));
+});
+</script>
+</body>
+</html>

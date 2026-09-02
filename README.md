@@ -14,7 +14,8 @@ node serve.mjs          # http://localhost:3100
 No dependencies, no build step. Vanilla HTML, CSS and JS.
 
 `shot.mjs` takes screenshots via `puppeteer-core` against a local Chrome, used
-for the review loop:
+for the review loop. It looks in `~/.cache/puppeteer` and takes `CHROME=` to
+override:
 
 ```bash
 node shot.mjs http://localhost:3100/ out.png
@@ -27,7 +28,11 @@ DSF=1 node shot.mjs <url> out.png mobile         # 390x844
 
 | Path | |
 |---|---|
-| `index.html` | **The site.** This is what GitHub Pages serves. |
+| `index.html` | **The homepage.** This is what GitHub Pages serves. |
+| `product.html` | Northern Soul sea moss gel, in the spec-sheet layout from the homepage monograph |
+| `journal/index.html` | The journal listing |
+| `journal/which-sea-moss.html` | First article, in Reiss's voice: the two species, gel vs capsules, storage, safety, buy block |
+| `assets/site.css` | Shared styles for every page. Page-specific CSS stays inline. |
 | `directions/index.html` | The original three-direction comparison board |
 | `variants/b-fieldnotes-r1.html` | Round 1 of the site, kept for the score comparison |
 | `variants/b-fieldnotes-r3.html` | Round 3, before the brand-font rebuild |

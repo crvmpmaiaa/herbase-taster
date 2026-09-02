@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer-core';
-const CHROME='/Users/admin/.cache/puppeteer/chrome/mac_arm-149.0.7827.22/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing';
+const CHROME=process.env.CHROME||'/Users/admin/.cache/puppeteer/chrome/mac_arm-152.0.7977.54/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing';
 const [url,out,mode='desktop'] = process.argv.slice(2);
 const dsf = Number(process.env.DSF || 2);
 const vp = mode==='mobile' ? {width:390,height:844,deviceScaleFactor:dsf} : {width:1440,height:900,deviceScaleFactor:dsf};
