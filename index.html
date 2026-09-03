@@ -21,7 +21,7 @@
   ];
   var s=scenes[Math.floor(Math.random()*scenes.length)];
   var mob=matchMedia('(max-width:700px)').matches;
-  var root=document.documentElement, href='assets/'+(mob?s.f.replace('.jpg','-m.jpg'):s.f);
+  var root=document.documentElement, href=new URL('assets/'+(mob?s.f.replace('.jpg','-m.jpg'):s.f),location.href).href;
   root.style.setProperty('--hero-bg','url("'+href+'")');
   root.style.setProperty('--hero-scrim',s.scrim);
   root.setAttribute('data-scene',s.name);
