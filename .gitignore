@@ -20,6 +20,11 @@ assets/hero-cosmos-b.png
 # Cropping above a claim line does not fix it: the pack is what reaches the
 # customer, and the crop itself evidences that the claim was seen and hidden.
 # These stay out until the labels are reprinted. Originals: ~/Downloads/Herbase/
+# Exception, 3 Sep 2026 at Jack's instruction: the plain Northern Soul jar shot
+# from the live Shopify listing (assets/northern-soul-jar.jpg) is committed.
+# Its label carries no health claim, only the "proprietary blend" wording.
+# The companion "diagram" image on the same listing is a SARS-CoV-2 claims
+# poster and must never be used.
 assets/decolonise-pouch.png
 assets/decolonise.png
 assets/decolonise-crop.png

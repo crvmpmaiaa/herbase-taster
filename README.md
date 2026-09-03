@@ -74,8 +74,9 @@ kept if anyone edits a word:
 2. **Nothing is invented.** Prices, doses, botanicals, hours and reviews are all
    lifted from source, never written to sound plausible.
 
-No client pack photography is committed, and it must not be. See `.gitignore`
-for which files and why.
+No client pack photography is committed, with one exception: the plain Northern
+Soul jar shot from the live listing, which carries no claim. See `.gitignore`
+for the rest and why.
 
 ## Open items
 
