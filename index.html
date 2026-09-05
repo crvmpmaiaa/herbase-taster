@@ -295,19 +295,27 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 window.addEventListener('load',()=>document.querySelectorAll('.hero .rv').forEach(el=>el.classList.add('in')));
 
 const burger=document.getElementById('burger'),drawer=document.getElementById('drawer');
+const sticky=document.getElementById('sticky'),nav=document.querySelector('.nav');
+// The nav floats transparent over the hero. The drawer must never open on
+// that transparent ground (its links are ink on black), so an open drawer
+// forces the solid state and the scroll handler respects it.
+function solidify(){
+  (scrollY>140||drawer.hasAttribute('data-open'))?nav.setAttribute('data-solid',''):nav.removeAttribute('data-solid');
+}
 burger.addEventListener('click',()=>{
   const open=drawer.hasAttribute('data-open');
   open?drawer.removeAttribute('data-open'):drawer.setAttribute('data-open','');
   burger.setAttribute('aria-expanded',String(!open));
+  solidify();
 });
+drawer.addEventListener('click',e=>{ if(e.target.closest('a')){drawer.removeAttribute('data-open');burger.setAttribute('aria-expanded','false');solidify();} });
 
-const sticky=document.getElementById('sticky'),nav=document.querySelector('.nav');
 let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
     scrollY>600?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
-    scrollY>140?nav.setAttribute('data-solid',''):nav.removeAttribute('data-solid');
+    solidify();
     ticking=false;
   });
 },{passive:true});

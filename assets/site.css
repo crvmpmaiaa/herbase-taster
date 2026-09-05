@@ -90,7 +90,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 
 .nav__drawer{display:none;border-top:1px solid var(--rule);padding:8px var(--gutter) 20px}
 .nav__drawer a{display:block;padding:13px 0;border-bottom:1px solid var(--rule);font-family:var(--display);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);text-decoration:none}
-.nav__drawer[data-open]{display:block}
+.nav__drawer[data-open]{display:block;background:var(--paper)}
 @media(min-width:860px){.nav__drawer{display:none!important}}
 
 /* ─────────── hero: full-bleed cosmos ─────────── */
