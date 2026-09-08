@@ -1,0 +1,64 @@
+[
+  { "file": "journal/kelp-forest.jpg", "ratio": "16:9",
+    "subject": "Looking up through a cold Atlantic kelp forest from just below the surface. Long brown Laminaria blades rising in columns, sunlight breaking through the canopy in shafts, particles suspended in the green water." },
+
+  { "file": "journal/red-algae-pool.jpg", "ratio": "4:3",
+    "subject": "A cold rock pool at low tide, seen from directly above. Deep crimson and purple red algae growing across the submerged granite, water perfectly still, a rim of barnacles and dark wet rock around the edge of the frame." },
+
+  { "file": "journal/atlantic-cliffs.jpg", "ratio": "16:9",
+    "subject": "The west coast of Ireland in ordinary weather. Low dark sea cliffs, wet green turf on top, a heavy grey Atlantic swell breaking white at the base, rain light and a flat sky." },
+
+  { "file": "journal/chondrus-dried.jpg", "ratio": "4:5",
+    "subject": "A single specimen of dried Chondrus crispus laid flat on grey slate, lit from behind and slightly above so the thin fan shaped fronds glow translucent. Flat, repeatedly forking, deep purple to almost black, a fine crust of sea salt on the surface." },
+
+  { "file": "journal/eucheuma-wet.jpg", "ratio": "4:5",
+    "subject": "A cluster of thick, round sectioned, pale gold seaweed on wet dark stone, glossy with seawater. Knobbly finger like branches, translucent straw colour with a faint lilac tint, obviously a different plant from a flat red frond." },
+
+  { "file": "journal/tide-rocks.jpg", "ratio": "4:3",
+    "subject": "A shelf of dark wet rock exposed at low tide, weed hanging off the edges, shallow water in the hollows, the sea a long way out behind. Cold northern light, late afternoon." },
+
+  { "file": "journal/bladderwrack.jpg", "ratio": "4:3",
+    "subject": "A specimen of bladderwrack, Fucus vesiculosus, arranged on dark slate. Olive brown flattened fronds with a distinct midrib and paired round air bladders along their length, still wet, catching the light on the bladders." },
+
+  { "file": "journal/fronds-underwater.jpg", "ratio": "16:9",
+    "subject": "Seaweed fronds photographed underwater in a shallow cold sea, the whole plant still attached to its holdfast on the rock, moving in the surge. Green and amber light through the water, sand and pebbles below." },
+
+  { "file": "journal/herbal-plate.jpg", "ratio": "4:3",
+    "subject": "An arrangement of six different dried seaweed specimens laid out in a grid on aged paper, the way a Victorian herbarium sheet is pressed and mounted. Reds, browns, olives and pale golds, each specimen distinct in shape, fine pins holding them flat." },
+
+  { "file": "journal/jar-spoon.jpg", "ratio": "4:3",
+    "subject": "A plain unlabelled clear glass jar of dark seaweed gel, open, on an oak bench, with a worn stainless steel teaspoon resting beside it carrying a thick spoonful. The gel is dark, loose and slightly translucent, not stiff or glossy." },
+
+  { "file": "journal/tide-pools.jpg", "ratio": "16:9",
+    "subject": "A wide stretch of rocky foreshore at low tide, dozens of shallow pools catching a pale sky, dark weed between them, the tide line receding into mist." },
+
+  { "file": "journal/step-water.jpg", "ratio": "4:5",
+    "subject": "A plain glass tumbler of water and a simple glass jug on a stone worktop in early morning light, condensation on the glass, the light coming in low and warm from the left." },
+
+  { "file": "journal/step-spoon.jpg", "ratio": "4:5",
+    "subject": "A stainless steel teaspoon lifting a spoonful of dark seaweed gel from an open unlabelled glass jar, seen close and slightly from above, the gel stringing gently back into the jar." },
+
+  { "file": "journal/step-fridge.jpg", "ratio": "4:5",
+    "subject": "Two plain unlabelled glass jars of dark gel standing on a clean refrigerator shelf, cold blue light, wire shelving, condensation on the glass." },
+
+  { "file": "journal/step-tea.jpg", "ratio": "4:5",
+    "subject": "A pale ceramic mug of hot herbal infusion on a wooden bench with steam rising, a small pile of dried leaf beside it and a fine mesh strainer resting on a saucer." },
+
+  { "file": "tile-seamoss.jpg", "ratio": "1:1",
+    "subject": "A generous handful of dried wild Irish moss, dark purple red and salt crusted, piled on grey slate and shot square from just above." },
+
+  { "file": "tile-seaking.jpg", "ratio": "1:1",
+    "subject": "A small heap of plain clear vegetable capsules filled with fine dark green seaweed powder, spilled across grey slate, shot square from just above. No printing on the capsules." },
+
+  { "file": "tile-lionsmane.jpg", "ratio": "1:1",
+    "subject": "A whole dried lion's mane mushroom, Hericium erinaceus, its cascade of icicle like white teeth clearly visible, resting on grey slate, shot square." },
+
+  { "file": "tile-shilajit.jpg", "ratio": "1:1",
+    "subject": "A thick black tar like resin on a small steel spoon, glossy and slowly stretching, held over dark slate, shot square. A few flecks of the mineral scattered beside it." },
+
+  { "file": "apothecary.jpg", "ratio": "16:9",
+    "subject": "The inside of an old herbal apothecary at closing time. A long worn oak counter, brass scales, a mortar and pestle, and floor to ceiling shelves of plain glass jars of dried herb receding into shadow. Warm lamp light from the left, the room empty." },
+
+  { "file": "store.jpg", "ratio": "16:9",
+    "subject": "A shopfront on a British terraced high street at dusk, warm light spilling from the window onto wet pavement, plain glass, brick above, a bare plane tree at the kerb." }
+]

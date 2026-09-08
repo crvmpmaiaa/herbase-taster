@@ -1,0 +1,441 @@
+[
+  {
+    "handle": "athletes-kit",
+    "name": "Athletes Kit",
+    "latin": "",
+    "subtitle": "Northern Soul, Mag Flux, Test Drive, Omega DHA and Mycrodose, plus the Detox Redox Book, bundled",
+    "category": "kits",
+    "price": "199.99",
+    "variants": [
+      { "title": "Kit", "price": "199.99" }
+    ],
+    "form": "Kit",
+    "standfirst": "Six products from elsewhere on this site, bundled into one kit: a 500 ml jar of Northern Soul, three capsule formulas, a bottle of oil and a book. Bought separately those six items come to £217.96. The kit is £199.99, a saving of £17.97.",
+    "body": [
+      "Northern Soul, Mag Flux, Test Drive, Omega DHA and Mycrodose are each sold on their own elsewhere on this site, with their own ingredient lists, doses and prices. This kit bundles a 500 ml jar of Northern Soul with 50 capsule packs of Mag Flux, Test Drive and Mycrodose, a bottle of Omega DHA, and a copy of the Detox Redox Book.",
+      "The kit's own printed schedule runs one tablespoon of Northern Soul in the morning, one to two Test Drive capsules alongside it, one to two Mag Flux capsules in the afternoon with a meal and 500 ml of water, and two Mycrodose capsules in the evening, also with a meal and 500 ml of water. The Detox Redox Book sets out how the five products fit around food and daily routine."
+    ],
+    "spec": [
+      ["Northern Soul", "500 ml jar"],
+      ["Mag Flux", "50 x 800 mg vegan capsules"],
+      ["Test Drive", "50 x 800 mg vegan capsules"],
+      ["Omega DHA", "One bottle"],
+      ["Mycrodose", "50 x 800 mg vegan capsules"],
+      ["Detox Redox Book", "Reiss Davies Ausar's guide to using the kit alongside food and daily routine"],
+      ["Suggested use", "Northern Soul and Test Drive in the morning, Mag Flux in the afternoon with a meal, Mycrodose in the evening with a meal, all with at least 500 ml water"],
+      ["Price bought separately", "£217.96"],
+      ["Kit price", "£199.99"],
+      ["Saving", "£17.97"]
+    ],
+    "dose": "",
+    "supply": "",
+    "cautions": [
+      "Mag Flux is not suitable during pregnancy or breastfeeding without medical advice.",
+      "Test Drive is formulated for men and interacts with nitrates, and with blood pressure or heart medication; speak to your GP first if any of these apply to you.",
+      "Speak to your GP before starting any new supplement if you take prescribed medication.",
+      "Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children."
+    ],
+    "image": "athletes-kit",
+    "imageSubject": "Dried burdock root and sarsaparilla, a whole lion's mane and a reishi mushroom, a coil of fresh Chondrus crispus, and an amber bottle of oil, arranged together on a plain surface. No labels, jars or packaging.",
+    "queries": [
+      "The live listing claims 'save £33' on this kit. Using catalogue prices (Northern Soul 500 ml £50.00, Mag Flux £39.99, Test Drive £39.99, Omega DHA £19.99, Mycrodose £39.99, Detox Redox Book £28.00) against the £199.99 kit price, the saving is actually £17.97. Please confirm the correct figure."
+    ],
+    "sourceTitle": "ATHLETES KIT - COMPLETE PERFORMANCE & RECOVERY BUNDLE"
+  },
+  {
+    "handle": "galaxeye",
+    "name": "Galaxeye",
+    "latin": "",
+    "subtitle": "Black cotton blend tee, unisex fit, galaxy eye print",
+    "category": "apparel",
+    "price": "50.00",
+    "variants": [
+      { "title": "T-shirt", "price": "50.00" }
+    ],
+    "form": "T-shirt",
+    "standfirst": "A black, unisex t-shirt printed with a galaxy shaped eye. The design takes its name from a line of Reiss Davies Ausar's: we are not a human in the universe, we are the universe in a human.",
+    "body": [
+      "Galaxeye is a black, unisex t-shirt printed with a galaxy shaped eye.",
+      "The fabric is described only as a cotton blend. The listing gives no weight, no print method, no cut beyond unisex, and no size range, so those are queried below rather than guessed. Wash cold and hang to dry."
+    ],
+    "spec": [
+      ["Fabric", "Cotton blend"],
+      ["Colour", "Black"],
+      ["Fit", "Unisex"],
+      ["Artwork", "Galaxeye, a galaxy shaped eye"],
+      ["Care", "Machine wash cold, hang to dry"],
+      ["Price", "£50.00"]
+    ],
+    "dose": "",
+    "supply": "",
+    "cautions": [
+      "Wash cold and hang to dry. The listing does not confirm whether the print is safe in a tumble dryer, so avoid a hot dryer until that is confirmed.",
+      "Sizes are not listed. Check with the shop before buying if fit matters to you, until a size chart is published."
+    ],
+    "image": "galaxeye-tshirt",
+    "imageSubject": "Flat lay of black cotton fabric showing the galaxy eye print alone. Exact placement and print method are unconfirmed, so keep the rendering generic.",
+    "queries": [
+      "HIGH PRIORITY: no size range is given for the Galaxeye tee. Please supply a size chart.",
+      "Fabric weight (gsm), print method (screen print, DTG or otherwise) and cut details beyond 'unisex' are not in the source."
+    ],
+    "sourceTitle": "GALAXEYE T-SHIRT"
+  },
+  {
+    "handle": "detox-redox-book",
+    "name": "Detox Redox Book",
+    "latin": "",
+    "subtitle": "Reiss Davies Ausar, 100 pages, full colour",
+    "category": "library",
+    "price": "28.00",
+    "variants": [
+      { "title": "Book", "price": "28.00" }
+    ],
+    "form": "Book",
+    "standfirst": "Reiss Davies Ausar's 100 page guide, printed in full colour with photographs and diagrams. It is the book bundled into the Athletes Kit and the 28 Day Detox Kit.",
+    "body": [
+      "Detox Redox is Reiss Davies Ausar's 100 page guide, printed in full colour with photographs and diagrams throughout. Its publisher describes it as accessible for all reading levels.",
+      "It covers nutrition, herbal protocol and daily routine, including an explanation of the NRF2 pathway, in the kind of detail Reiss covers with customers over the counter. A single copy is bundled into the Athletes Kit, and three packs of the Detox Redox capsules plus a copy of this book make up the 28 Day Detox Kit."
+    ],
+    "spec": [
+      ["Author", "Reiss Davies Ausar"],
+      ["Page count", "100 pages"],
+      ["Illustration", "Full colour, with photographs and diagrams"],
+      ["Subject", "Nutrition, herbal protocol and daily routine, including the NRF2 pathway"],
+      ["Reading level", "Described by its publisher as accessible for all reading levels"],
+      ["Appears in", "Athletes Kit (1 copy) and 28 Day Detox Kit (with 3 packs of Detox Redox capsules)"],
+      ["Price", "£28.00"]
+    ],
+    "dose": "",
+    "supply": "",
+    "cautions": [
+      "This is an educational book, not a medical text, and does not replace advice from a GP or pharmacist.",
+      "It should not be used to self-diagnose or to replace prescribed treatment."
+    ],
+    "image": "detox-redox-book",
+    "imageSubject": "A stack of plain printed pages showing a diagram, not a mockup of the actual cover, which has not been supplied.",
+    "queries": [
+      "No format is given for this book (paperback, hardback or otherwise). Please confirm.",
+      "No ISBN or publisher is given. Please supply both if they exist."
+    ],
+    "sourceTitle": "DETOX REDOX BOOK - COMPLETE GUIDE TO CELLULAR & WHOLE-BODY DETOX"
+  },
+  {
+    "handle": "parasite-cleanse",
+    "name": "Parasite Cleanse",
+    "latin": "",
+    "subtitle": "Mag Flux, Decolonise and Purple Mwani, bundled",
+    "category": "kits",
+    "price": "99.99",
+    "variants": [
+      { "title": "Kit", "price": "99.99" }
+    ],
+    "form": "Kit",
+    "standfirst": "Three products from elsewhere on this site, bundled into one kit, run to a 25 day cycle. Bought separately those three items come to £104.97. The kit is £99.99, a saving of £4.98.",
+    "body": [
+      "Mag Flux, Decolonise and Purple Mwani are each sold on their own elsewhere on this site. This kit bundles a 50 capsule pack of each of the first two with a jar of the third.",
+      "The kit runs to a 25 day cycle: one tablespoon of Purple Mwani each morning, two Mag Flux capsules each afternoon, and two Decolonise capsules each evening, all with at least 500 ml of spring water. Decolonise's own listing says not to exceed two capsules a day and not to repeat the cycle more than once every four months."
+    ],
+    "spec": [
+      ["Mag Flux", "50 x 800 mg vegan capsules"],
+      ["Decolonise", "50 x 800 mg vegan capsules, 25 day supply"],
+      ["Purple Mwani", "One jar"],
+      ["Suggested use", "Purple Mwani each morning, Mag Flux each afternoon, Decolonise each evening, all with 500 ml spring water"],
+      ["Cycle length", "25 days"],
+      ["Price bought separately", "£104.97"],
+      ["Kit price", "£99.99"],
+      ["Saving", "£4.98"]
+    ],
+    "dose": "",
+    "supply": "",
+    "cautions": [
+      "Do not exceed two Decolonise capsules a day, and do not repeat the 25 day cycle more than once every four months.",
+      "Not suitable during pregnancy or breastfeeding without medical advice.",
+      "Speak to your GP first if you take prescribed medication.",
+      "Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children."
+    ],
+    "image": "parasite-cleanse",
+    "imageSubject": "Dried Tabebuia impetiginosa bark, bitter melon, whole cloves, activated charcoal and burdock root, with a coil of fresh purple Eucheuma cottonii, arranged together on a plain surface. No labels or packaging.",
+    "queries": [
+      "The product's own name states a purpose ('Parasite Cleanse'). This is the item's actual registered name rather than a claim suffix we can remove, so we have kept it and only stripped the 'Microbe Removal' suffix. Recommend the client considers renaming the product itself to something that describes the contents rather than a condition.",
+      "The live listing claims 'save £15' on this kit. Using catalogue prices (Mag Flux £39.99, Decolonise £39.99, Purple Mwani £24.99) against the £99.99 kit price, the saving is actually £4.98. Please confirm the correct figure."
+    ],
+    "sourceTitle": "PARASITE CLEANSE - MICROBE REMOVAL"
+  },
+  {
+    "handle": "1-hour-consultation",
+    "name": "1 Hour Consultation",
+    "latin": "",
+    "subtitle": "One hour, one to one, with Reiss Davies Ausar C.P.T",
+    "category": "service",
+    "price": "120.00",
+    "variants": [
+      { "title": "1 hour session", "price": "120.00" }
+    ],
+    "form": "Service",
+    "standfirst": "An hour, one to one, with Reiss Davies Ausar C.P.T. Book online and an email follows with instructions to arrange a time. This is not a medical consultation and does not replace one.",
+    "body": [
+      "An hour, one to one, with Reiss Davies Ausar C.P.T, the practitioner behind the counter on Smithdown Road since 2024 and selling online since 2019. Book online and an email follows with instructions to arrange a time; the call itself is conducted as a private audio call.",
+      "This is not a medical consultation and does not replace one. It is a conversation about nutrition, herbal protocol, lifestyle and whatever else you bring to it. There is no set script and no outcome is promised.",
+      "The source does not say whether the hour can also be taken in person at 599 Smithdown Road, what to prepare beforehand, or what you leave with afterwards. Those are queried below, because this is the highest value page on the site and deserves complete answers rather than guesses."
+    ],
+    "spec": [
+      ["Length", "1 hour"],
+      ["Format", "Private audio call, per the listing. In person availability at 599 Smithdown Road not confirmed"],
+      ["Practitioner", "Reiss Davies Ausar C.P.T"],
+      ["Topics", "Nutrition, herbal protocol, lifestyle and whatever else you bring to the call"],
+      ["Booking", "Book online; an email follows with instructions to schedule the call"],
+      ["Price", "£120.00"]
+    ],
+    "dose": "",
+    "supply": "",
+    "cautions": [
+      "This is not a medical consultation and does not replace one. For diagnosis or treatment, see a GP.",
+      "If you are on prescribed medication or managing a diagnosed condition, tell your GP before changing anything discussed on the call."
+    ],
+    "image": "one-hour-consultation",
+    "imageSubject": "A quiet corner of the shop interior at 599 Smithdown Road, a wood counter and shelved jars, no clinical imagery.",
+    "queries": [
+      "HIGH PRIORITY: is the hour available in person at 599 Smithdown Road, or is it audio call only? The source only mentions a private audio call.",
+      "HIGH PRIORITY: what should someone prepare or bring to the call, and what do they leave with afterwards, such as written notes, a plan, or a follow up email?",
+      "Can the session be rescheduled or cancelled, and on what notice?",
+      "Is the £120 price fixed regardless of whether the call runs under or over an hour?"
+    ],
+    "sourceTitle": "1 HOUR CONSULTATION - REISS DAVIES AUSAR C.P.T"
+  },
+  {
+    "handle": "cell-repair-kit",
+    "name": "Cell Repair Kit",
+    "latin": "",
+    "subtitle": "Northern Soul, Anamu, Mag Flux and Omega DHA, bundled",
+    "category": "kits",
+    "price": "129.99",
+    "variants": [
+      { "title": "Kit", "price": "129.99" }
+    ],
+    "form": "Kit",
+    "standfirst": "Four products from elsewhere on this site, bundled into one kit: a 500 ml jar of Northern Soul, two capsule packs and a bottle of oil. Bought separately those four items come to £139.97. The kit is £129.99, a saving of £9.98.",
+    "body": [
+      "Northern Soul, Anamu, Mag Flux and Omega DHA are each sold on their own elsewhere on this site. This kit bundles a 500 ml jar of Northern Soul with a 50 capsule pack of Anamu, a 50 capsule pack of Mag Flux and a bottle of Omega DHA.",
+      "The kit's own printed schedule runs one tablespoon of Northern Soul each morning, one to two Anamu capsules with the evening meal, one to two Mag Flux capsules with lunch or the afternoon meal, and one tablespoon of Omega DHA daily, all with at least 500 ml of spring water."
+    ],
+    "spec": [
+      ["Northern Soul", "500 ml jar"],
+      ["Anamu", "50 vegan capsules"],
+      ["Mag Flux", "50 x 800 mg vegan capsules"],
+      ["Omega DHA", "One bottle"],
+      ["Suggested use", "Northern Soul each morning, Anamu with the evening meal, Mag Flux with lunch or the afternoon meal, Omega DHA once daily"],
+      ["Price bought separately", "£139.97"],
+      ["Kit price", "£129.99"],
+      ["Saving", "£9.98"]
+    ],
+    "dose": "",
+    "supply": "",
+    "cautions": [
+      "Not suitable during pregnancy or breastfeeding without medical advice.",
+      "Speak to your GP first if you take prescribed medication.",
+      "Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children."
+    ],
+    "image": "cell-repair-kit",
+    "imageSubject": "A coil of fresh Chondrus crispus, dried Petiveria alliacea root, dried burdock root and an amber bottle of oil, arranged together on a plain surface. No labels, jars or packaging.",
+    "queries": [
+      "HIGH PRIORITY: the live listing calls this the 'Cell Repair Kit - Genome Therapy' and its tags include 'jab detox kit' and 'vaccine damage'. Genome therapy is an extraordinary claim, and 'jab detox kit' names a medical intervention; neither appears anywhere on our pages. Flagging so the client knows this was removed, in case the same language is still live in tags, ads or elsewhere.",
+      "Omega DHA's own listing says one bottle is a one month supply; this kit's listing says the same bottle is a two month supply inside the kit. Please confirm which is correct.",
+      "The live listing claims 'save £15' on this kit. Using catalogue prices (Northern Soul 500 ml £50.00, Anamu £29.99, Mag Flux £39.99, Omega DHA £19.99) against the £129.99 kit price, the saving is actually £9.98. Please confirm the correct figure."
+    ],
+    "sourceTitle": "CELL REPAIR KIT - GENOME THERAPY"
+  },
+  {
+    "handle": "menopause-kit",
+    "name": "Menopause Kit",
+    "latin": "",
+    "subtitle": "Chondrus Crispus, Equill and Chasteberry, bundled",
+    "category": "kits",
+    "price": "79.99",
+    "variants": [
+      { "title": "Kit", "price": "79.99" }
+    ],
+    "form": "Kit",
+    "standfirst": "Three products from elsewhere on this site, bundled into one kit: a jar and two capsule packs. Bought separately those three items come to £99.97. The kit is £79.99, a saving of £19.98.",
+    "body": [
+      "Chondrus Crispus, Equill and Chasteberry are each sold on their own elsewhere on this site. This kit bundles a jar of the first with 50 capsule packs of the other two.",
+      "The kit's own printed schedule runs one to three tablespoons of Chondrus Crispus each morning, two Equill capsules with the evening meal and 500 ml of spring water, and two Chasteberry capsules with lunch and 500 ml of spring water."
+    ],
+    "spec": [
+      ["Chondrus Crispus", "One jar"],
+      ["Equill", "50 vegan capsules, 750 mg"],
+      ["Chasteberry", "50 vegan capsules"],
+      ["Suggested use", "Chondrus Crispus each morning, Equill with the evening meal, Chasteberry with lunch, all with 500 ml spring water"],
+      ["Price bought separately", "£99.97"],
+      ["Kit price", "£79.99"],
+      ["Saving", "£19.98"]
+    ],
+    "dose": "",
+    "supply": "",
+    "cautions": [
+      "Speak to your GP about menopause and any hormonal changes before starting this or any new supplement.",
+      "Equill is not suitable in pregnancy, while breastfeeding, or if you have liver disease.",
+      "Chasteberry is generally stopped once pregnant; speak to your GP if you are or might be pregnant.",
+      "Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children."
+    ],
+    "image": "menopause-kit",
+    "imageSubject": "Dried black cohosh root, red clover flowers, wild yam root and chasteberry, with a coil of fresh Chondrus crispus, arranged together on a plain surface. No labels or packaging.",
+    "queries": [
+      "The live listing claims 'save £15' on this kit. Using catalogue prices (Chondrus Crispus £34.99, Equill £39.99, Chasteberry £24.99) against the £79.99 kit price, the saving is actually £19.98. Please confirm the correct figure.",
+      "Chondrus Crispus's own listing gives one price with no stated jar size; this kit's listing says 500 ml. Please confirm the jar size so both pages can print it accurately."
+    ],
+    "sourceTitle": "MENOPAUSE KIT - HORMONAL & REPRODUCTIVE SUPPORT"
+  },
+  {
+    "handle": "khepra",
+    "name": "Khepra",
+    "latin": "",
+    "subtitle": "Black cotton blend tee, unisex fit, solar scarab print",
+    "category": "apparel",
+    "price": "50.00",
+    "variants": [
+      { "title": "T-shirt", "price": "50.00" }
+    ],
+    "form": "T-shirt",
+    "standfirst": "A black, unisex t-shirt printed with a solar scarab, after the Egyptian myth of Khepra.",
+    "body": [
+      "Khepra is a black, unisex t-shirt printed with a solar scarab, after the Egyptian myth of the same name.",
+      "The fabric is described only as a cotton blend. The listing gives no weight, no print method, no cut beyond unisex, and no size range, so those are queried below rather than guessed. Wash cold and hang to dry."
+    ],
+    "spec": [
+      ["Fabric", "Cotton blend"],
+      ["Colour", "Black"],
+      ["Fit", "Unisex"],
+      ["Artwork", "Khepra, a solar scarab"],
+      ["Care", "Machine wash cold, hang to dry"],
+      ["Price", "£50.00"]
+    ],
+    "dose": "",
+    "supply": "",
+    "cautions": [
+      "Wash cold and hang to dry. The listing does not confirm whether the print is safe in a tumble dryer, so avoid a hot dryer until that is confirmed.",
+      "Sizes are not listed. Check with the shop before buying if fit matters to you, until a size chart is published."
+    ],
+    "image": "khepra-tshirt",
+    "imageSubject": "Flat lay of black cotton fabric showing the scarab print alone. Exact placement and print method are unconfirmed, so keep the rendering generic.",
+    "queries": [
+      "HIGH PRIORITY: no size range is given for the Khepra tee. Please supply a size chart.",
+      "Fabric weight (gsm), print method (screen print, DTG or otherwise) and cut details beyond 'unisex' are not in the source."
+    ],
+    "sourceTitle": "KHEPRA T-SHIRT"
+  },
+  {
+    "handle": "28-day-detox-kit",
+    "name": "28 Day Detox Kit",
+    "latin": "",
+    "subtitle": "Three packs of Detox Redox capsules, a jar of Northern Soul and the Detox Redox Book, bundled",
+    "category": "kits",
+    "price": "179.99",
+    "variants": [
+      { "title": "Kit", "price": "179.99" }
+    ],
+    "form": "Kit",
+    "standfirst": "Three packs of Detox Redox capsules, a jar of Northern Soul and a copy of the Detox Redox Book, which sets out how to use the two products together across 28 days.",
+    "body": [
+      "Detox Redox capsules and Northern Soul are each sold on their own elsewhere on this site. This kit bundles three packs of the first with a jar of the second and a copy of the Detox Redox Book, which is the guide for using the two products together across the 28 days.",
+      "The jar size of Northern Soul included here is not stated in the source. Northern Soul is sold elsewhere at 300 ml (£34.99) or 500 ml (£50.00), so we cannot print an honest combined price or saving figure for this kit until the jar size is confirmed. See queries."
+    ],
+    "spec": [
+      ["Detox Redox capsules", "3 packs of 40 vegan capsules"],
+      ["Northern Soul", "1 jar, size to be confirmed"],
+      ["Detox Redox Book", "Reiss Davies Ausar's guide to the 28 days"],
+      ["Programme length", "28 days"],
+      ["Kit price", "£179.99"]
+    ],
+    "dose": "",
+    "supply": "",
+    "cautions": [
+      "Not suitable during pregnancy or breastfeeding without medical advice.",
+      "Speak to your GP first if you take prescribed medication.",
+      "Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children."
+    ],
+    "image": "28-day-detox-kit",
+    "imageSubject": "Dried Pau D'arco bark and bitter melon, a coil of fresh Chondrus crispus, and a stack of plain printed pages standing in for the book, not the actual cover, which has not been supplied. No labels or packaging.",
+    "queries": [
+      "HIGH PRIORITY: the jar size of Northern Soul included in this kit is not stated. Northern Soul is sold elsewhere at 300 ml (£34.99) or 500 ml (£50.00); depending on which is included, the honest price if bought separately is either £182.96 (300 ml) or £197.97 (500 ml) against the £179.99 kit price, a saving of £2.97 or £17.98. The live listing claims 'save £23', which matches neither. Please confirm the jar size and the correct saving figure."
+    ],
+    "sourceTitle": "28 DAY DETOX KIT - DETOX REDOX BOOK PROTOCOL"
+  },
+  {
+    "handle": "the-ripple-effect-a-nu-flow-paperback",
+    "name": "The Ripple Effect: A Nu Flow",
+    "latin": "",
+    "subtitle": "Reiss Davies, paperback",
+    "category": "library",
+    "price": "33.00",
+    "variants": [
+      { "title": "Paperback", "price": "33.00" }
+    ],
+    "form": "Paperback",
+    "standfirst": "Reiss Davies' second book, a paperback that takes water as its subject: its part in biology, in the wider environment, and in the author's own thinking.",
+    "body": [
+      "The Ripple Effect: A Nu Flow is Reiss Davies' second book, a paperback that takes water as its subject: its part in biology, in the wider environment, and in the strand of the author's own thinking he describes as occult knowledge.",
+      "The source listing does not give a page count or an ISBN for this book. Both belong on a book page and are queried below."
+    ],
+    "spec": [
+      ["Author", "Reiss Davies"],
+      ["Order", "Reiss Davies' second book"],
+      ["Format", "Paperback"],
+      ["Subject", "Water: its part in the body, the wider environment, and the author's own ideas about it"],
+      ["Price", "£33.00"]
+    ],
+    "dose": "",
+    "supply": "",
+    "cautions": [
+      "This is an educational book, not a medical text, and does not replace advice from a GP or pharmacist.",
+      "It should not be used to self-diagnose or to replace prescribed treatment."
+    ],
+    "image": "the-ripple-effect",
+    "imageSubject": "Plain printed pages with a water themed diagram, not a mockup of the actual cover, which has not been supplied.",
+    "queries": [
+      "No page count is given for this book. Please supply it.",
+      "No ISBN is given for this book. Please supply it if one exists."
+    ],
+    "sourceTitle": "THE RIPPLE EFFECT - A NU FLOW (PAPERBACK)"
+  },
+  {
+    "handle": "mens-health-kit",
+    "name": "Mens Health Kit",
+    "latin": "",
+    "subtitle": "Chondrus Crispus, Mag Flux and Test Drive, bundled",
+    "category": "kits",
+    "price": "99.99",
+    "variants": [
+      { "title": "Kit", "price": "99.99" }
+    ],
+    "form": "Kit",
+    "standfirst": "Three products from elsewhere on this site, bundled into one kit: a jar and two capsule packs. Bought separately those three items come to £114.97. The kit is £99.99, a saving of £14.98.",
+    "body": [
+      "Chondrus Crispus, Mag Flux and Test Drive are each sold on their own elsewhere on this site. This kit bundles a jar of the first with 50 capsule packs of the other two.",
+      "The kit's own printed schedule runs one tablespoon of Chondrus Crispus each morning, one to two Mag Flux capsules with lunch, and one to two Test Drive capsules an hour before exercise, sport or sexual activity, all with at least 500 ml of spring water."
+    ],
+    "spec": [
+      ["Chondrus Crispus", "One jar"],
+      ["Mag Flux", "50 x 800 mg vegan capsules"],
+      ["Test Drive", "50 x 800 mg vegan capsules"],
+      ["Suggested use", "Chondrus Crispus each morning, Mag Flux with lunch, Test Drive an hour before exercise, sport or sexual activity"],
+      ["Price bought separately", "£114.97"],
+      ["Kit price", "£99.99"],
+      ["Saving", "£14.98"]
+    ],
+    "dose": "",
+    "supply": "",
+    "cautions": [
+      "Test Drive is for men only and interacts with nitrates, and with blood pressure or heart medication; speak to your GP first if any of these apply to you.",
+      "Not suitable during pregnancy or breastfeeding without medical advice.",
+      "Speak to your GP first if you take prescribed medication.",
+      "Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children."
+    ],
+    "image": "mens-health-kit",
+    "imageSubject": "Dried burdock root, sarsaparilla, damiana leaf and tribulus, with a coil of fresh Chondrus crispus, arranged together on a plain surface. No labels or packaging.",
+    "queries": [
+      "The live listing claims 'save £20' on this kit. Using catalogue prices (Chondrus Crispus £34.99, Mag Flux £39.99, Test Drive £39.99) against the £99.99 kit price, the saving is actually £14.98. Please confirm the correct figure.",
+      "Chondrus Crispus's own listing gives one price with no stated jar size; this kit's listing says 500 ml. Please confirm the jar size."
+    ],
+    "sourceTitle": "MENS HEALTH KIT - PERFORMANCE, HORMONAL & CELLULAR SUPPORT"
+  }
+]

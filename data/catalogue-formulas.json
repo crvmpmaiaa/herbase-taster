@@ -1,0 +1,691 @@
+[
+  {
+    "handle": "pancrea",
+    "name": "Pancrea",
+    "subtitle": "Vegan capsules. The herb blend is not printed on the pack.",
+    "category": "formulas",
+    "price": "39.99",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "39.99"
+      }
+    ],
+    "form": "Capsules",
+    "standfirst": "Pancrea is sold as a vegan capsule formula. The live listing calls it a blend of traditional herbs without naming a single one of them, so this page can only publish what the shop actually prints: the form, the dose and the safety information. The herb list itself is the first thing we need from Reiss before this page can grow past a stub.",
+    "body": [
+      "The old Pancrea listing opened with several lines of unauthorised claims naming an internal organ and its function, phrased in a way that would need this product to be licensed as a medicine before any of it could be repeated. None of that survives here, whatever herbs turn out to be inside the capsule.",
+      "What we cannot do is guess at a replacement. Most of the shop's other formulas name their herbs even where the surrounding claims have to go, which lets us write a proper botanical page instead of a claims page. Pancrea doesn't do that: the body copy names no herbs at all, only 'traditional herbs' and 'wildcrafted botanicals'. The listing's own tags mention chromium and vanadium, but neither mineral is stated as an ingredient in the body copy, so neither is included in the specification below. Until Reiss confirms what is actually in the jar, this page stays this short on purpose rather than filling the gap with a plausible-sounding herb list."
+    ],
+    "spec": [
+      [
+        "Form",
+        "Vegan capsule"
+      ],
+      [
+        "Vegan",
+        "Yes, printed on the listing"
+      ],
+      [
+        "Non-GMO",
+        "Yes, printed on the listing"
+      ],
+      [
+        "Wildcrafted",
+        "Described as wildcrafted botanicals; the individual plants are not named"
+      ]
+    ],
+    "dose": "Two capsules a day with meals, or as directed by a healthcare practitioner.",
+    "supply": "Not printed. The listing gives a daily dose but never states how many capsules are in a pack, so we can't work out how long one lasts.",
+    "cautions": [
+      "Not for use in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you're on any prescribed medication: the formula's ingredients aren't fully published, so a possible interaction can't be ruled out.",
+      "If you have a diagnosed medical condition, speak to your GP before taking this rather than treating it yourself.",
+      "Stop taking it and see a doctor if you notice any reaction you weren't expecting."
+    ],
+    "image": "pancrea",
+    "imageSubject": "A small loose pile of empty vegan capsule shells on a plain surface, no branding visible.",
+    "queries": [
+      "HIGH PRIORITY: the Pancrea listing never names a single herb, only 'traditional herbs' and 'wildcrafted botanicals'. We need the actual ingredient list before this page can carry a proper specification.",
+      "How many capsules are in one pack? The dose is printed as two a day but no pack count or supply length is given anywhere on the listing.",
+      "The listing's tags mention chromium and vanadium. Are these actually in the formula, and if so at what dose per capsule? If they're not in it, should the tags be corrected on the live shop too?",
+      "This page removes the strapline and full 'Key Benefits' list from the original listing, because presenting Pancrea in terms of a named organ and its function is a medicinal claim under the Human Medicines Regulations 2012, not just an unauthorised health claim. Flagging now because the page will look very bare next to the old listing until we have real ingredients to write about instead."
+    ],
+    "sourceTitle": "PANCREA – DIABETES SUPPORT & PANCREAS CELL FORMULA"
+  },
+  {
+    "handle": "neptune",
+    "name": "Neptune",
+    "subtitle": "Soursop, chamomile, valerian and blue vervain in a fifty capsule pack.",
+    "category": "formulas",
+    "price": "39.99",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "39.99"
+      }
+    ],
+    "form": "Capsules",
+    "standfirst": "Neptune is a fifty capsule formula built around four named herbs, soursop, chamomile, valerian and blue vervain, plus an undisclosed 'proprietary blend' the listing doesn't itemise. It's taken as a single capsule dose in the evening, on a twenty day a month pattern printed on the original listing.",
+    "body": [
+      "Soursop is <i>Annona muricata</i>, a broad-leafed tree from the Annonaceae family grown across the Caribbean and tropical South America for its spiny green fruit; formulas like this one generally use the leaf rather than the fruit pulp, though the listing doesn't say which part went into this capsule. Chamomile is one of the best known plants in Western herbalism, a small daisy-flowered annual, though 'chamomile' covers two different genera sold under the same name, German chamomile and Roman chamomile, and the listing doesn't specify which one Neptune uses.",
+      "Valerian, <i>Valeriana officinalis</i>, is a tall perennial with clusters of small pale pink flowers, native across Europe and parts of Asia; it's the root that goes into supplements, and it has a strong, distinctive smell that surprises people who've only met it as a capsule. Blue vervain, <i>Verbena hastata</i>, is a North American native with narrow spikes of small purple-blue flowers, traditionally gathered from wet meadows and riverbanks. Beyond these four, the listing names a 'proprietary blend' without saying what's in it, so we can't specify the rest of the capsule.",
+      "The pack is fifty large vegan capsules, taken one at a time in the evening rather than the two-a-day pattern used across most of this range."
+    ],
+    "spec": [
+      [
+        "Soursop",
+        "Annona muricata"
+      ],
+      [
+        "Chamomile",
+        "Species not specified on the listing, see queries"
+      ],
+      [
+        "Valerian",
+        "Valeriana officinalis"
+      ],
+      [
+        "Blue vervain",
+        "Verbena hastata"
+      ],
+      [
+        "Proprietary blend",
+        "Contents not disclosed on the listing"
+      ],
+      [
+        "Form",
+        "Vegan capsule, large"
+      ],
+      [
+        "Capsules per pack",
+        "50"
+      ]
+    ],
+    "dose": "Two capsules in the evening with 500ml of water, printed as best taken around 8pm. The listing suggests using it for twenty days a month.",
+    "supply": "Fifty capsules. At two a day that's twenty five days; used on the printed twenty-day-a-month pattern, one pack covers a little more than a calendar month.",
+    "cautions": [
+      "Not for use in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you're on prescribed medication.",
+      "If you have a diagnosed medical condition, speak to your GP before taking this rather than treating it yourself.",
+      "The proprietary blend isn't itemised, so anyone with a herb allergy should check with Reiss before taking it."
+    ],
+    "image": "neptune",
+    "imageSubject": "Dried valerian root and a whole soursop fruit laid out together on a plain dark surface.",
+    "queries": [
+      "What's in the 'proprietary blend'? The listing names four herbs and then falls back to this catch-all term for the rest of the formula.",
+      "Which chamomile is this: German chamomile (Matricaria chamomilla / recutita) or Roman chamomile (Chamaemelum nobile)? They're different plants and the listing just says 'chamomile'.",
+      "This page removes the listing's claims about specific body processes, systems and their functions throughout. Flagging in case Reiss wants an alternative way to describe why people buy this one."
+    ],
+    "sourceTitle": "NEPTUNE - SLEEP, NERVE & CIRCADIAN SUPPORT"
+  },
+  {
+    "handle": "nutropic",
+    "name": "Nutropic",
+    "subtitle": "Vegan capsules. The plant blend is not named on the pack.",
+    "category": "formulas",
+    "price": "39.99",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "39.99"
+      }
+    ],
+    "form": "Capsules",
+    "standfirst": "Nutropic is sold as vegan capsules, two a day. The listing describes 'wild, mineral-rich plants' without naming a single one, and talks instead about minerals such as gold, silver and palladium in terms ('monatomic') that aren't standard nutritional science. Until Reiss can tell us what's actually growing in this capsule, this page is necessarily short.",
+    "body": [
+      "This is the thinnest listing in the whole formula range. Most of the shop's blends name at least a handful of their herbs even where none of the surrounding claims can be repeated; Nutropic names none. What the copy does specify is a list of minerals, gold, silver, iron, copper, selenium, nickel and palladium, described as appearing in 'monatomic' form, a category not recognised in nutritional science, with no figures given for how much of any of them the capsule actually contains, so none of it can go in a specification.",
+      "Until there's an actual ingredient list to work from, this page can only carry the form, the dose and the safety information the shop already prints, and a straightforward note that the rest is missing."
+    ],
+    "spec": [
+      [
+        "Form",
+        "Vegan capsule"
+      ],
+      [
+        "Ingredients",
+        "Not named on the listing, see queries"
+      ]
+    ],
+    "dose": "Two capsules a day with 500ml of spring water.",
+    "supply": "Not printed. No pack count is given anywhere on the listing.",
+    "cautions": [
+      "Not for use in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you're on any prescribed medication: the formula's ingredients aren't published, so a possible interaction can't be ruled out.",
+      "If you have a diagnosed medical condition, speak to your GP before taking this rather than treating it yourself."
+    ],
+    "image": "nutropic",
+    "imageSubject": "A small dish of loose vegan capsules against a plain neutral background.",
+    "queries": [
+      "HIGH PRIORITY: the Nutropic listing names no plants at all, only unspecified 'wild, mineral-rich plants'. We need the actual ingredient list before this page can carry any real specification.",
+      "The listing lists gold, silver, iron, copper, selenium, nickel and palladium as 'monatomic minerals'. Are these genuinely added to the capsule, in what form and at what dose? As printed, none of this is usable or checkable.",
+      "How many capsules are in a pack? No count or supply length is given.",
+      "This page removes essentially the entire live listing: claims about a named body system, its functions, and the mineral pseudoscience throughout. There's very little left to replace it with until we have real ingredients."
+    ],
+    "sourceTitle": "NUTROPIC – BRAIN & NERVE SUPPORT HERBAL FORMULA"
+  },
+  {
+    "handle": "equill",
+    "name": "Equill",
+    "subtitle": "Black cohosh, red clover and wild yam in a fifty capsule pack.",
+    "category": "formulas",
+    "price": "39.99",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "39.99"
+      }
+    ],
+    "form": "Capsules",
+    "standfirst": "Equill is a fifty capsule formula built on three named herbs, black cohosh, red clover and wild yam, alongside a 'Proprietary Herbal Blend' the shop lists as its own ingredient without saying what's in it. The listing's own dosing instructions disagree with each other, so we've flagged that rather than guess which one is right.",
+    "body": [
+      "Black cohosh is <i>Actaea racemosa</i> (older sources call it <i>Cimicifuga racemosa</i>), a tall woodland perennial native to eastern North America, in the buttercup family, with long white flower spikes that give it its other common name, black snakeroot. It's the root and rhizome that go into supplements. Red clover, <i>Trifolium pratense</i>, is the familiar pink-flowered clover found across British hedgerows and pasture as well as being cultivated commercially; the flowering tops are the part used.",
+      "Wild yam, <i>Dioscorea villosa</i>, is a twining vine native to eastern North America and Central America, grown for its tuberous root. Beyond these three, the listing lists a 'Proprietary Herbal Blend' as a fourth named ingredient in its own ingredients table, without disclosing what it actually contains, which is a gap worth putting to Reiss directly rather than leaving unstated.",
+      "Each capsule is printed at 750mg, in a pack of fifty."
+    ],
+    "spec": [
+      [
+        "Black cohosh",
+        "Actaea racemosa"
+      ],
+      [
+        "Red clover",
+        "Trifolium pratense"
+      ],
+      [
+        "Wild yam",
+        "Dioscorea villosa"
+      ],
+      [
+        "Proprietary Herbal Blend",
+        "Contents not disclosed on the listing"
+      ],
+      [
+        "Form",
+        "Vegan capsule, 750mg"
+      ],
+      [
+        "Capsules per pack",
+        "50"
+      ]
+    ],
+    "dose": "The listing gives two different doses. One version says two capsules a day, taken in the morning with water or food. Another says one capsule a day, increasing to two if needed, with a meal and 500ml of spring water. We've queried which is correct rather than pick one.",
+    "supply": "Fifty capsules, printed elsewhere on the listing as a thirty day supply, though neither of the two printed doses divides fifty capsules into exactly thirty days. Flagged as a query.",
+    "cautions": [
+      "Not for use in pregnancy or while breastfeeding.",
+      "Not for use if you have liver disease, as printed on the listing.",
+      "Speak to your GP before taking this if you're on prescribed medication.",
+      "If you have a diagnosed medical condition, speak to your GP before taking this rather than treating it yourself."
+    ],
+    "image": "equill",
+    "imageSubject": "Dried black cohosh root and red clover flowers laid out together on a plain surface.",
+    "queries": [
+      "The listing gives two different doses for Equill: 'take 2 capsules daily' in one place and 'take 1 capsule daily, 2 when symptoms worsen' in another, with a third mention basing the cost-per-day calculation on the second version. Which is correct?",
+      "Fifty capsules is printed as both a '1 month supply' and a '30-day supply' elsewhere, but neither of the two doses above divides fifty capsules evenly into thirty days. Worth checking the maths against the actual pack.",
+      "What's in the 'Proprietary Herbal Blend'? It's listed as its own named ingredient on the shop's own table without any contents given.",
+      "This page removes claims throughout the listing that name specific conditions, body systems and their functions, including a whole 'Key Ingredients / Traditional Benefit' table pairing each herb with an effect claim. That table won't have a direct replacement until we can write about the herbs on their own terms."
+    ],
+    "sourceTitle": "EQUILL - FEMALE HORMONAL & REPRODUCTIVE SUPPORT"
+  },
+  {
+    "handle": "detox-redox",
+    "name": "Detox Redox",
+    "subtitle": "Sea moss, pau d'arco and bitter melon among twenty-plus herbs, in a forty capsule pack.",
+    "category": "formulas",
+    "price": "39.99",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "39.99"
+      }
+    ],
+    "form": "Capsules",
+    "standfirst": "Detox Redox is described as a blend of more than twenty different herbs, but the listing names only three of them: sea moss, pau d'arco and bitter melon. The other seventeen or more are never specified, and no dose is printed anywhere on the listing either, which makes this one of the thinnest pages in the range despite the size of the claimed formula.",
+    "body": [
+      "Sea moss is <i>Chondrus crispus</i>, the same red seaweed the shop sells as a gel under the Northern Soul label, here presumably used dried and powdered rather than as a gel. Pau d'arco is <i>Tabebuia impetiginosa</i>, a bark harvested from a flowering tree native to Central and South America, long used in Latin American herbal tradition and increasingly common in Western supplement blends. Bitter melon, <i>Momordica charantia</i>, is a warty, cucumber-shaped fruit from a climbing vine grown across South and Southeast Asia and used in several regional cuisines as well as in herbalism.",
+      "Beyond these three, the listing says the formula contains 'over 20+ different herbs' and stops there. That leaves somewhere around seventeen plants unaccounted for in a product the shop sells for £39.99, which is the single biggest gap on this page and the reason it can't carry a fuller specification."
+    ],
+    "spec": [
+      [
+        "Sea moss",
+        "Chondrus crispus"
+      ],
+      [
+        "Pau d'arco",
+        "Tabebuia impetiginosa"
+      ],
+      [
+        "Bitter melon",
+        "Momordica charantia"
+      ],
+      [
+        "Remaining herbs",
+        "Not named; the listing states 'over 20+ different herbs' without listing them"
+      ],
+      [
+        "Form",
+        "Vegan capsule, large, no filler"
+      ],
+      [
+        "Capsules per pack",
+        "40"
+      ]
+    ],
+    "dose": "Not printed. The listing describes the formula and the pack size but never states how many capsules to take or how often.",
+    "supply": "Not calculable without a printed dose. The pack is forty capsules.",
+    "cautions": [
+      "Not for use in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you're on any prescribed medication: with most of the formula's ingredients unpublished, a possible interaction can't be ruled out.",
+      "If you have a diagnosed medical condition, speak to your GP before taking this rather than treating it yourself.",
+      "Do not take alongside other medication without medical advice, as printed on the original listing."
+    ],
+    "image": "detox-redox",
+    "imageSubject": "Dried pau d'arco bark and a whole bitter melon fruit arranged together on a plain surface.",
+    "queries": [
+      "HIGH PRIORITY: the listing claims 'over 20+ different herbs' but names only three (sea moss, pau d'arco, bitter melon). We need the full ingredient list to write a proper specification, and to check whether any of the undisclosed herbs need their own cautions.",
+      "No dose is printed anywhere on the Detox Redox listing. How many capsules, how often?",
+      "This page removes language throughout the listing describing internal biological processes and pathways. That's the bulk of the original copy, so the page will look very bare until we have the missing seventeen-plus herbs to write about instead."
+    ],
+    "sourceTitle": "DETOX REDOX – CELLULAR DETOX FORMULA"
+  },
+  {
+    "handle": "decolonise",
+    "name": "Decolonise",
+    "subtitle": "Nine named herbs and seeds, including pau d'arco and clove, in a fifty capsule pack.",
+    "category": "formulas",
+    "price": "39.99",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "39.99"
+      }
+    ],
+    "form": "Capsules",
+    "standfirst": "Decolonise is a fifty capsule formula built on nine named ingredients: seven herbs, psyllium husk and activated charcoal from coconut shells. The dose and timing printed on the pack are unusually specific, capped at two capsules a day and no more than once every four months, and that instruction matters enough to repeat here in full.",
+    "body": [
+      "Pau d'arco, <i>Tabebuia impetiginosa</i>, is the bark of a Central and South American flowering tree, and bitter melon, <i>Momordica charantia</i>, a warty fruit from a climbing Asian vine, both appear here as they do in Detox Redox. Anamu, <i>Petiveria alliacea</i>, is a leafy Caribbean and South American shrub the shop also sells on its own as a single-herb capsule, sometimes called guinea hen weed for its garlicky smell. Clove, <i>Syzygium aromaticum</i>, is the dried flower bud of a tropical evergreen tree native to Indonesia, familiar from any spice rack.",
+      "Wormseed, <i>Dysphania ambrosioides</i> (older texts call it <i>Chenopodium ambrosioides</i>), is a strong-smelling annual native to Central America and long used across Latin American herbal tradition; wormwood, <i>Artemisia absinthium</i>, is the grey-leaved European perennial best known for flavouring vermouth and absinthe. Black pepper, <i>Piper nigrum</i>, is the dried, ground fruit of a tropical vine, included here in whole or ground form rather than as an isolated compound. Psyllium husk, from <i>Plantago ovata</i>, is the fibrous seed coat of a small plantain grown mainly in India, and the ninth ingredient is activated charcoal made from organic coconut shells, <i>Cocos nucifera</i>.",
+      "The pack is fifty capsules at 800mg each, printed as a twenty five day supply at the maximum dose of two a day. The shop's own instructions cap this formula at once every four months, which is the single most important thing printed on the label and belongs here in full rather than being softened into vague advice."
+    ],
+    "spec": [
+      [
+        "Pau d'arco",
+        "Tabebuia impetiginosa"
+      ],
+      [
+        "Bitter melon",
+        "Momordica charantia"
+      ],
+      [
+        "Anamu",
+        "Petiveria alliacea"
+      ],
+      [
+        "Clove",
+        "Syzygium aromaticum"
+      ],
+      [
+        "Wormseed",
+        "Dysphania ambrosioides"
+      ],
+      [
+        "Wormwood",
+        "Artemisia absinthium"
+      ],
+      [
+        "Black pepper",
+        "Piper nigrum"
+      ],
+      [
+        "Psyllium husk",
+        "Plantago ovata"
+      ],
+      [
+        "Activated charcoal",
+        "From organic coconut (Cocos nucifera) shells"
+      ],
+      [
+        "Form",
+        "Vegan capsule, 800mg"
+      ],
+      [
+        "Capsules per pack",
+        "50"
+      ]
+    ],
+    "dose": "Take as directed on the pack with 500ml of spring water. Do not exceed two capsules a day. Use once at a maximum every four months.",
+    "supply": "Fifty capsules at 800mg. Printed on the pack as a twenty five day supply at the maximum dose of two a day, consistent with the once-every-four-months instruction.",
+    "cautions": [
+      "Not for use in pregnancy or while breastfeeding.",
+      "Do not exceed two capsules a day.",
+      "Use once at a maximum every four months, as printed on the pack. This isn't a formula for daily or ongoing use.",
+      "Speak to your GP before taking this if you're on any prescribed medication.",
+      "If you have a diagnosed medical condition, speak to your GP before taking this rather than treating it yourself."
+    ],
+    "image": "decolonise",
+    "imageSubject": "Dried pau d'arco bark, whole cloves and wormwood leaf arranged together on a plain surface.",
+    "queries": [
+      "HIGH PRIORITY: the physical pack label for Decolonise lists cascara sagrada as an ingredient, which does not appear anywhere in the website's ingredient list above. Cascara sagrada is a prohibited anthranoid ingredient in UK food supplements. Is it actually in this formula? If it is, this product cannot be sold as a food supplement in its current form and the whole listing needs to go back to Reiss before republishing. We have not added cascara sagrada to the specification above because the website itself doesn't declare it, but this needs resolving before this page goes live.",
+      "The listing prints a strapline and a 'Main Actions' list naming specific effects and pharmacological actions. All of that is removed here as unauthorised health claims. Flagging so Reiss knows why the page reads so differently.",
+      "Can we confirm the exact quantity of each of the nine ingredients per capsule? The listing gives a total capsule weight (800mg) but not a breakdown."
+    ],
+    "sourceTitle": "DECOLONISE – PARASITE & MICROBE CLEANSE"
+  },
+  {
+    "handle": "respire",
+    "name": "Respire",
+    "subtitle": "Amor seco and an undisclosed blend, in a forty capsule pack.",
+    "category": "formulas",
+    "price": "39.99",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "39.99"
+      }
+    ],
+    "form": "Capsules",
+    "standfirst": "Respire is a forty capsule formula built around one named herb, amor seco, with the rest of the blend held back as a 'proprietary blend' the listing never itemises. Even the one herb it does name needs a query: 'amor seco' is a common name used for more than one plant across South American herbalism, and the listing doesn't say which.",
+    "body": [
+      "'Amor seco' is Spanish for 'dry love', and it's used as a common name for several different plants across Central and South American herbal tradition depending on the region, which makes it hard to pin down a single Latin binomial without more information from the shop. Beyond that one named herb, the listing falls back to 'proprietary blend' for the rest of the formula, so there's nothing further to describe here with any confidence.",
+      "The pack is forty vegan capsules with no fillers, taken two at a time with water."
+    ],
+    "spec": [
+      [
+        "Amor seco",
+        "Common name only; the specific species used is not confirmed, see queries"
+      ],
+      [
+        "Proprietary blend",
+        "Contents not disclosed on the listing"
+      ],
+      [
+        "Form",
+        "Vegan capsule, no filler"
+      ],
+      [
+        "Capsules per pack",
+        "40"
+      ]
+    ],
+    "dose": "Two capsules a day with 500ml of spring water, printed as best taken at lunchtime.",
+    "supply": "Forty capsules. At two a day that's twenty days.",
+    "cautions": [
+      "Not for use in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you're on any prescribed medication: with the proprietary blend undisclosed, a possible interaction can't be ruled out.",
+      "If you have a diagnosed medical condition, speak to your GP before taking this rather than treating it yourself."
+    ],
+    "image": "respire",
+    "imageSubject": "A loose pile of dried herb material and empty vegan capsules on a plain surface.",
+    "queries": [
+      "HIGH PRIORITY: which plant is 'amor seco' here? The name is used across South American herbalism for several different species and we don't want to print a binomial we can't stand behind.",
+      "What's in the 'proprietary blend'? It's the majority of this formula and the listing gives no detail at all.",
+      "This page removes the listing's claims about a named body system and its functions almost entirely, along with a line making claims we can't repeat in any form regardless of the regulations. Flagging because that was most of the original copy."
+    ],
+    "sourceTitle": "RESPIRE - RESPIRATORY SUPPORT"
+  },
+  {
+    "handle": "magnetic-flux",
+    "name": "Mag Flux",
+    "subtitle": "Sarsaparilla, burdock and yellow dock, with baobab and chickweed, in a fifty capsule pack.",
+    "category": "formulas",
+    "price": "39.99",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "39.99"
+      }
+    ],
+    "form": "Capsules",
+    "standfirst": "Mag Flux is a fifty capsule formula built on five fully named herbs: sarsaparilla, burdock, yellow dock, baobab and chickweed. It's one of the more completely specified formulas in this batch, with every ingredient named on the listing itself.",
+    "body": [
+      "Sarsaparilla is given on the listing as <i>Smilax officinalis</i>, a climbing vine whose root has a long history in Central American herbal trade; burdock, <i>Arctium lappa</i>, is the familiar European biennial best known for the burred seed heads that stick to clothing, with the root used here. Yellow dock, <i>Rumex crispus</i>, is a common dock species found across hedgerows and waste ground in Britain, grown for its long taproot.",
+      "Baobab, <i>Adansonia digitata</i>, is the fruit of the African savannah tree, sold as a dried powder from the pulp inside its hard pod; chickweed, <i>Stellaria media</i>, is a low, sprawling annual found in gardens and disturbed ground across the UK, traditionally gathered as a fresh spring green as much as used dried. The listing also states the formula contains iron, zinc and B vitamins, though it doesn't print a quantity for any of them, so none of the associated authorised nutrient claims can be made on this page without that figure.",
+      "The pack is fifty capsules at 800mg each."
+    ],
+    "spec": [
+      [
+        "Sarsaparilla",
+        "Smilax officinalis"
+      ],
+      [
+        "Burdock",
+        "Arctium lappa"
+      ],
+      [
+        "Yellow dock",
+        "Rumex crispus"
+      ],
+      [
+        "Baobab",
+        "Adansonia digitata"
+      ],
+      [
+        "Chickweed",
+        "Stellaria media"
+      ],
+      [
+        "Also stated to contain",
+        "Iron, zinc and B vitamins; quantities not printed"
+      ],
+      [
+        "Form",
+        "Vegan capsule, 800mg"
+      ],
+      [
+        "Capsules per pack",
+        "50"
+      ]
+    ],
+    "dose": "Two capsules with lunch or an afternoon meal, with 500ml of spring water.",
+    "supply": "Fifty capsules. At two a day that's twenty five days.",
+    "cautions": [
+      "Not for use in pregnancy or while breastfeeding without medical advice, as printed on the listing.",
+      "Speak to your GP or pharmacist before taking this if you're on prescribed medication.",
+      "If you have a diagnosed medical condition, speak to your GP before taking this rather than treating it yourself.",
+      "Not a substitute for a varied and balanced diet, as printed on the listing.",
+      "Do not exceed the recommended dose, as printed on the listing."
+    ],
+    "image": "mag-flux",
+    "imageSubject": "Dried burdock root and yellow dock alongside a piece of dried baobab pulp, on a plain surface.",
+    "queries": [
+      "The listing states Mag Flux contains iron, zinc and B vitamins but gives no quantity for any of them. If we get the figures, we may be able to add the authorised nutrient claims for these (as done on the Seaking page) rather than just noting their presence.",
+      "This page removes claims throughout the listing describing specific body systems, organs and their functions. Flagging so Reiss knows the shorter page is deliberate, not an oversight."
+    ],
+    "sourceTitle": "MAG FLUX - LIVER, KIDNEY & BLOOD CLEANSE"
+  },
+  {
+    "handle": "test-drive",
+    "name": "Test Drive",
+    "subtitle": "Nine named herbs, including tribulus, tongkat ali and damiana, in a fifty capsule pack.",
+    "category": "formulas",
+    "price": "39.99",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "39.99"
+      }
+    ],
+    "form": "Capsules",
+    "standfirst": "Test Drive is a fifty capsule formula with all nine of its ingredients named on the listing, more completely specified than most of the range, though three of those names are broad enough (a genus, an unspecified species) to need confirming before we can print a full binomial for each.",
+    "body": [
+      "Tribulus, <i>Tribulus terrestris</i>, is a low, spiny-fruited plant found across warm climates worldwide including southern Europe; tongkat ali, <i>Eurycoma longifolia</i>, is a slow-growing understorey tree from the rainforests of Southeast Asia, valued for its root. Epimedium is named only by genus on the listing, without a species, though the common commercial species used in supplements include <i>Epimedium grandiflorum</i>, <i>Epimedium sagittatum</i> and several others, so we've queried which one this is.",
+      "Fadogia, <i>Fadogia agrestis</i>, is a shrub from the coffee family native to West Africa, with a much shorter history in Western supplements than most of the herbs on this page. Sarsaparilla and damiana appear here as they do elsewhere on the site, <i>Smilax officinalis</i> and <i>Turnera diffusa</i> respectively. Pine pollen is named only as 'pine' without a species, and ginseng is named only as 'ginseng' without saying which species, so both need confirming too.",
+      "The ninth ingredient, piperine, isn't a whole herb but an alkaloid compound extracted from black pepper, <i>Piper nigrum</i>. The pack is fifty capsules at 800mg each."
+    ],
+    "spec": [
+      [
+        "Tribulus",
+        "Tribulus terrestris"
+      ],
+      [
+        "Tongkat ali",
+        "Eurycoma longifolia"
+      ],
+      [
+        "Epimedium",
+        "Species not specified, see queries"
+      ],
+      [
+        "Fadogia",
+        "Fadogia agrestis"
+      ],
+      [
+        "Sarsaparilla",
+        "Smilax officinalis"
+      ],
+      [
+        "Damiana",
+        "Turnera diffusa"
+      ],
+      [
+        "Pine pollen",
+        "Species not specified, see queries"
+      ],
+      [
+        "Ginseng",
+        "Species not specified, see queries"
+      ],
+      [
+        "Piperine",
+        "An alkaloid extracted from black pepper, Piper nigrum"
+      ],
+      [
+        "Form",
+        "Vegan capsule, 800mg"
+      ],
+      [
+        "Capsules per pack",
+        "50"
+      ]
+    ],
+    "dose": "Two capsules a day with breakfast, or one to two hours before exercise, with at least a litre of water.",
+    "supply": "Fifty capsules. At two a day that's twenty five days.",
+    "cautions": [
+      "Not for use in pregnancy or while breastfeeding.",
+      "Formulated for men; the listing gives no guidance for anyone else.",
+      "Speak to your GP before taking this if you're on nitrates, blood pressure medication, heart medication or any other prescribed drugs. The listing states this formula can affect how the body processes other medicines, which can change how strong or how toxic those medicines are.",
+      "If you have a diagnosed medical condition, speak to your GP before taking this rather than treating it yourself."
+    ],
+    "image": "test-drive",
+    "imageSubject": "Dried tribulus fruit and a small piece of tongkat ali root laid out together on a plain surface.",
+    "queries": [
+      "Which Epimedium species is used? The listing names only the genus.",
+      "Which pine species does the pine pollen come from?",
+      "Which ginseng species is this? The shop's own single-herb Ginseng listing uses a different, unrelated plant to true ginseng, so it's worth confirming which one is meant here.",
+      "This page removes claims throughout the listing about specific body systems, organs, and their functions, along with a safety note we've kept but reworded away from the internal mechanism into a plain instruction to check with a GP."
+    ],
+    "sourceTitle": "TEST DRIVE – MEN’S HEALTH & PERFORMANCE FORMULA"
+  },
+  {
+    "handle": "feminina",
+    "name": "Feminina",
+    "subtitle": "Maca, wild yam, fenugreek, fennel and damiana, in a fifty capsule pack.",
+    "category": "formulas",
+    "price": "39.99",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "39.99"
+      }
+    ],
+    "form": "Capsules",
+    "standfirst": "Feminina is a fifty capsule formula built on five named herbs, maca, wild yam, fenugreek, fennel and damiana, alongside an undisclosed proprietary blend. Five named ingredients out of the full formula is a reasonable base to write about, even with the blend missing.",
+    "body": [
+      "Maca, <i>Lepidium meyenii</i>, is a turnip-like root vegetable grown at high altitude in the Peruvian Andes, in the same family as broccoli and mustard; it's the dried, ground root that goes into capsules. Wild yam, <i>Dioscorea villosa</i>, is the same twining vine used in Equill, native to eastern North America and grown for its tuberous root. Fenugreek, <i>Trigonella foenum-graecum</i>, is an annual legume with a long history in South Asian and Middle Eastern cooking as well as herbalism, grown for its small, angular seeds.",
+      "Fennel, <i>Foeniculum vulgare</i>, is a tall umbellifer with feathery leaves and aniseed-scented seeds, familiar from Mediterranean cooking and common in British gardens too. Damiana, <i>Turnera diffusa</i>, is a small aromatic shrub native to Central America and the southern United States, traditionally used as a leaf tea as much as a capsule ingredient. Beyond these five, the listing names a further 'proprietary blend' without disclosing its contents.",
+      "The pack is fifty capsules at 800mg each."
+    ],
+    "spec": [
+      [
+        "Maca",
+        "Lepidium meyenii"
+      ],
+      [
+        "Wild yam",
+        "Dioscorea villosa"
+      ],
+      [
+        "Fenugreek",
+        "Trigonella foenum-graecum"
+      ],
+      [
+        "Fennel",
+        "Foeniculum vulgare"
+      ],
+      [
+        "Damiana",
+        "Turnera diffusa"
+      ],
+      [
+        "Proprietary blend",
+        "Contents not disclosed on the listing"
+      ],
+      [
+        "Form",
+        "Vegan capsule, 800mg"
+      ],
+      [
+        "Capsules per pack",
+        "50"
+      ]
+    ],
+    "dose": "Two capsules a day with 500ml of spring water, printed as best taken between 9 and 11am.",
+    "supply": "Fifty capsules. At two a day that's twenty five days.",
+    "cautions": [
+      "Not for use in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you're undergoing hormone therapy or taking any other prescribed medication.",
+      "If you have a diagnosed medical condition, speak to your GP before taking this rather than treating it yourself."
+    ],
+    "image": "feminina",
+    "imageSubject": "A dried maca root and fennel seed heads arranged together on a plain surface.",
+    "queries": [
+      "What's in the 'proprietary blend'? Five herbs are named and the rest is undisclosed.",
+      "This page removes claims throughout the listing about specific body systems, organs, life stages and body shape, which are both unauthorised health claims and, in places, could read as medicinal or cosmetic claims. It also drops a workout-timing instruction since that framing implied the same removed effect. Flagging because that was a large part of the original copy."
+    ],
+    "sourceTitle": "FEMININA - FEMALE HORMONE & SHAPE SUPPORT"
+  },
+  {
+    "handle": "prostrate-support",
+    "name": "Prostrate",
+    "subtitle": "Vegan capsules. The herb blend is not printed on the pack.",
+    "category": "formulas",
+    "price": "39.99",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "39.99"
+      }
+    ],
+    "form": "Capsules",
+    "standfirst": "Prostrate is sold as vegan capsules, two a day. Like Pancrea, the listing describes 'a targeted blend of wildcrafted herbs' without naming a single one of them, so this page can only carry the form, the dose and the safety information the shop already prints.",
+    "body": [
+      "The name is kept exactly as the shop spells it, Prostrate rather than the more familiar Prostate: that's the shop's own deliberate spelling and not a typo we've corrected.",
+      "What we can't do is describe the formula itself. The listing calls it 'a targeted blend of wildcrafted herbs traditionally used', without naming any of them, and stops there. That puts Prostrate alongside Pancrea and Nutropic as one of the three listings in this batch that name no ingredients at all, which is the single biggest gap on this page."
+    ],
+    "spec": [
+      [
+        "Form",
+        "Vegan capsule"
+      ],
+      [
+        "Wildcrafted",
+        "Described as wildcrafted; the individual plants are not named"
+      ]
+    ],
+    "dose": "Two capsules a day with meals, or as directed by a healthcare practitioner.",
+    "supply": "Not printed. No pack count is given anywhere on the listing.",
+    "cautions": [
+      "Not intended for use in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you're on any prescribed medication: the formula's ingredients aren't published, so a possible interaction can't be ruled out.",
+      "If you have a diagnosed medical condition, speak to your GP before taking this rather than treating it yourself."
+    ],
+    "image": "prostrate",
+    "imageSubject": "A small loose pile of empty vegan capsule shells on a plain surface, no branding visible.",
+    "queries": [
+      "HIGH PRIORITY: the Prostrate listing never names a single herb, only 'a targeted blend of wildcrafted herbs'. We need the actual ingredient list before this page can carry a proper specification.",
+      "How many capsules are in one pack? The dose is printed as two a day but no pack count or supply length is given anywhere on the listing.",
+      "This page removes the entire list of claims naming a specific organ and its functions from the original listing. Flagging because the page will look very bare next to the old listing until we have real ingredients to write about instead."
+    ],
+    "sourceTitle": "PROSTRATE - PROSTATE & URINARY SUPPORT"
+  }
+]

@@ -1,0 +1,389 @@
+[
+  {
+    "handle": "ginseng",
+    "name": "Ginseng",
+    "latin": "Panax ginseng",
+    "subtitle": "Panax ginseng, 50 vegan capsules x 800mg",
+    "category": "botanicals",
+    "price": "19.99",
+    "variants": [{ "title": "50 capsules", "price": "19.99" }],
+    "form": "Capsules",
+    "standfirst": "Ginseng root capsules made from Panax ginseng, a slow-growing perennial in the ginseng family, native to East Asia. Fifty vegan capsules to a pack, 800mg each, with no fillers.",
+    "body": [
+      "Panax ginseng is a slow-growing perennial in the Araliaceae family, native to the cool forests of Korea, north-east China and the Russian Far East. Wild plants take years to reach a harvestable size, which is why most ginseng sold today, including this pack, is cultivated rather than wild-dug.",
+      "The listing calls the product 'Ginseng (Siberian)' in its title, while the text underneath describes Panax ginseng throughout. Those are two different plants. Panax ginseng is the Asian ginseng associated with ginsenosides, and Siberian ginseng usually refers to Eleutherococcus senticosus, a related but distinct species with a different set of active compounds. We have asked Reiss which one is actually in the capsule.",
+      "Each capsule is 800mg, and the pack contains fifty, with no fillers."
+    ],
+    "spec": [
+      ["Botanical name", "Panax ginseng"],
+      ["Also called", "Asian ginseng, Korean ginseng, Chinese ginseng"],
+      ["Family", "Araliaceae"],
+      ["Form", "Vegan capsule"],
+      ["Capsules per pack", "50"],
+      ["Capsule weight", "800mg"],
+      ["Other ingredients", "None. No fillers"],
+      ["Suggested cycle", "25 days on, 5 days off, as printed on the label"]
+    ],
+    "dose": "Two capsules a day, in the morning or early afternoon, per the label.",
+    "supply": "Fifty capsules. At two a day that is twenty five days, about three and a half weeks.",
+    "cautions": [
+      "Not recommended in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you are on blood-thinning medication such as warfarin, or on blood pressure medication.",
+      "Speak to your GP before taking this if you have a hormone-sensitive condition.",
+      "If it disrupts your sleep, take it earlier in the day or lower the dose."
+    ],
+    "image": "ginseng",
+    "imageSubject": "A forked, pale ginseng root freshly lifted from soil, with fine root hairs still attached and a little earth clinging to it.",
+    "queries": [
+      "The listing title calls this 'Ginseng (Siberian)' but the body text describes Panax ginseng throughout. Siberian ginseng is usually Eleutherococcus senticosus, a different plant entirely. Please confirm which species is actually in the capsule.",
+      "Which part of the plant is used. Root is standard for Panax ginseng, but the listing does not say.",
+      "Country or region the ginseng is grown or sourced from is not stated on the listing."
+    ],
+    "sourceTitle": "GINSENG -STAMINA & REPRODUCTIVE HEALTH"
+  },
+  {
+    "handle": "chasteberry",
+    "name": "Chasteberry",
+    "latin": "Vitex agnus-castus",
+    "subtitle": "Vitex agnus-castus, 50 vegan capsules",
+    "category": "botanicals",
+    "price": "24.99",
+    "variants": [{ "title": "50 capsules", "price": "24.99" }],
+    "form": "Capsules",
+    "standfirst": "Chasteberry capsules made from the dried berries of Vitex agnus-castus, a Mediterranean shrub in the mint family. Fifty vegan capsules to a pack.",
+    "body": [
+      "Vitex agnus-castus is a deciduous shrub native to the Mediterranean and central Asia, with slender grey-green leaves and spikes of small violet flowers in late summer. The berries ripen dark and peppery, which is where the plant gets its old country name, chaste tree, and the trade name monk's pepper.",
+      "The dried berries are what goes into the capsule. The listing does not print a capsule weight or an extraction ratio, so we cannot say how concentrated the fill is against the raw berry.",
+      "Fifty capsules to a pack, with the label recommending two a day, first thing, with water."
+    ],
+    "spec": [
+      ["Botanical name", "Vitex agnus-castus"],
+      ["Also called", "Chaste tree, monk's pepper, vitex"],
+      ["Family", "Lamiaceae"],
+      ["Part used", "Berry"],
+      ["Form", "Vegan capsule"],
+      ["Capsules per pack", "50"],
+      ["Suggested cycle", "25 days on, 5 days off, as printed on the label"]
+    ],
+    "dose": "Two capsules a day, first thing in the morning before breakfast, with at least 500ml water.",
+    "supply": "Fifty capsules. At two a day that is twenty five days, matching the twenty five day supply printed on the label, followed by five days off.",
+    "cautions": [
+      "Not recommended in pregnancy: the label advises stopping if you become pregnant. Speak to your GP.",
+      "Speak to your GP before taking this if you are on the contraceptive pill, hormone replacement therapy, or medication for Parkinson's disease or schizophrenia.",
+      "Speak to your GP before taking this if you are on any other prescribed medication."
+    ],
+    "image": "chasteberry",
+    "imageSubject": "A cluster of small dark purple Vitex agnus-castus berries still on the stem, with grey-green lance-shaped leaves.",
+    "queries": [
+      "Capsule weight or extract ratio is not printed on the listing.",
+      "Whether the capsules contain fillers or bulking agents is not stated, unlike most of the other capsule listings which say 'no fillers'. Please confirm.",
+      "Country or region the chasteberry is grown or sourced from is not stated on the listing."
+    ],
+    "sourceTitle": "CHASTEBERRY - FEMALE HORMONE BALANCE"
+  },
+  {
+    "handle": "astragalus",
+    "name": "Astragalus",
+    "latin": "Astragalus membranaceus",
+    "subtitle": "Astragalus membranaceus, 50 vegan capsules x 800mg",
+    "category": "botanicals",
+    "price": "19.99",
+    "variants": [{ "title": "50 capsules", "price": "19.99" }],
+    "form": "Capsules",
+    "standfirst": "Astragalus capsules made from Astragalus membranaceus, a perennial legume long used in Chinese herbal medicine. Fifty vegan capsules to a pack, 800mg each, with no fillers or bulking agents.",
+    "body": [
+      "Astragalus membranaceus is a perennial member of the pea family, growing to about a metre with feathery leaves and small pale yellow flowers. It is native to northern and eastern China, Mongolia and Korea, where it has been grown as a field crop for centuries.",
+      "The listing does not say which part of the plant this pack is made from. Astragalus root is the part almost always used commercially, and the trade name huang qi refers specifically to the dried root in Chinese medicine, but we have asked Reiss to confirm rather than assume.",
+      "Fifty capsules to a pack, 800mg each, with no fillers or bulking agents."
+    ],
+    "spec": [
+      ["Botanical name", "Astragalus membranaceus"],
+      ["Also called", "Huang qi, milkvetch root"],
+      ["Family", "Fabaceae"],
+      ["Form", "Vegan capsule"],
+      ["Capsules per pack", "50"],
+      ["Capsule weight", "800mg"],
+      ["Other ingredients", "None. No fillers or bulking agents"]
+    ],
+    "dose": "Two capsules a day, with lunch, with at least 500ml water.",
+    "supply": "Fifty capsules. At two a day that is twenty five days, about three and a half weeks.",
+    "cautions": [
+      "Not recommended in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you are on prescribed medication."
+    ],
+    "image": "astragalus",
+    "imageSubject": "Dried Astragalus membranaceus root, sliced into pale fibrous coins, fanned out on a plain surface.",
+    "queries": [
+      "Which part of the plant is used. Root is standard for Astragalus membranaceus and the trade name huang qi refers to the dried root, but the listing does not say.",
+      "Country or region the astragalus is grown or sourced from is not stated on the listing."
+    ],
+    "sourceTitle": "ASTRAGALUS - IMMUNE AND CARDIOVASCULAR SUPPORT"
+  },
+  {
+    "handle": "gumbo-limbo",
+    "name": "Gumbo Limbo",
+    "latin": "Bursera simaruba",
+    "subtitle": "Bursera simaruba, vegan capsules",
+    "category": "botanicals",
+    "price": "29.99",
+    "variants": [{ "title": "Vegan capsules", "price": "29.99" }],
+    "form": "Capsules",
+    "standfirst": "Gumbo limbo capsules made from Bursera simaruba, a fast-growing tree of the Caribbean and Central America known for its red, peeling bark. The listing does not state a capsule count, a weight, or which part of the tree fills the capsule, so a longer article and a set of questions for Reiss sit alongside this shorter entry.",
+    "body": [
+      "Bursera simaruba is a large tree native to the Caribbean, Central America and southern Florida, easy to spot by its thin, copper-red bark that peels in papery sheets, which has earned it the nickname tourist tree locally, after sunburnt visitors. It grows fast and is often used as a living fence post, since a cut branch will root and grow where it is planted.",
+      "The listing does not say which part of the tree goes into this capsule, nor how many capsules are in a pack or what each one weighs. Those are the three questions we have put to Reiss before this page can carry a full specification."
+    ],
+    "spec": [
+      ["Botanical name", "Bursera simaruba"],
+      ["Also called", "Turpentine tree, tourist tree, chaca"],
+      ["Family", "Burseraceae"],
+      ["Form", "Vegan capsule"],
+      ["Other ingredients", "None. The listing describes the capsules as free from fillers or additives"]
+    ],
+    "dose": "The label describes two suggested patterns: two capsules morning and evening for ten days, or two capsules once a day for twenty days.",
+    "supply": "Not stated. No capsule count or pack size is printed on the listing, so we cannot say how many packs either pattern would need.",
+    "cautions": [
+      "Not recommended in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you are on prescribed medication."
+    ],
+    "image": "gumbo-limbo",
+    "imageSubject": "The distinctive thin, copper-red, peeling bark of a Bursera simaruba trunk, with a cut branch showing the pale wood beneath.",
+    "queries": [
+      "Which part of the tree is used. Bark is most likely given the tree's traditional use, but the listing does not say.",
+      "Capsule count per pack is not printed on the listing.",
+      "Capsule weight is not printed on the listing.",
+      "The two suggested-use patterns on the listing (2 capsules twice a day for 10 days, or 2 daily for 20 days) both total 40 capsules. Is the pack size 40?"
+    ],
+    "sourceTitle": "GUMBO LIMBO – ANTIMICROBIAL & DETOX SUPPORT"
+  },
+  {
+    "handle": "gotu-kola",
+    "name": "Gotu Kola",
+    "latin": "Centella asiatica",
+    "subtitle": "Centella asiatica, vegan capsules",
+    "category": "botanicals",
+    "price": "19.99",
+    "variants": [{ "title": "Vegan capsules", "price": "19.99" }],
+    "form": "Capsules",
+    "standfirst": "Gotu kola capsules made from Centella asiatica, a low, creeping herb of the carrot family found across South and South East Asia. The listing does not print a capsule count, a weight, or which part of the plant is used, so those are open questions for Reiss.",
+    "body": [
+      "Centella asiatica is a small creeping perennial in the carrot family, with fan-shaped leaves on long thin stalks and tiny pinkish flowers hidden close to the ground. It grows in wet, marshy ground across South and South East Asia, and is eaten as a fresh salad leaf in Sri Lanka and Indonesia as well as dried for herbal use.",
+      "The leaves and stems, known together as the aerial parts, are the part most commonly dried for capsules, though the listing does not confirm this is what fills the pack, so we have asked."
+    ],
+    "spec": [
+      ["Botanical name", "Centella asiatica"],
+      ["Also called", "Indian pennywort, marsh penny"],
+      ["Family", "Apiaceae"],
+      ["Form", "Vegan capsule"],
+      ["Plant constituents printed on the listing", "Triterpenoids, flavonoids, saponins, polyphenols"],
+      ["Other ingredients", "None. No fillers or bulking agents"]
+    ],
+    "dose": "One to two capsules a day with a meal and at least 500ml water.",
+    "supply": "Not stated. No capsule count is printed on the listing.",
+    "cautions": [
+      "Not recommended in pregnancy or while breastfeeding.",
+      "Do not take this if you have liver problems, a history of skin cancer, or are due to have surgery.",
+      "Speak to your GP before taking this if you are on medication for your liver, diabetes, or a diuretic."
+    ],
+    "image": "gotu-kola",
+    "imageSubject": "A spray of Centella asiatica leaves, fan-shaped and glossy green, trailing on thin creeping stems.",
+    "queries": [
+      "Which part of the plant is used. Aerial parts (leaf and stem) are standard for Centella asiatica, but the listing does not say.",
+      "Capsule count per pack is not printed on the listing.",
+      "Capsule weight is not printed on the listing.",
+      "Country or region the gotu kola is grown or sourced from is not stated on the listing."
+    ],
+    "sourceTitle": "GOTU KOLA – SKIN, CIRCULATION & NERVE SUPPORT"
+  },
+  {
+    "handle": "bugle",
+    "name": "Bugle",
+    "latin": "Lycopus virginicus",
+    "subtitle": "Lycopus virginicus (as printed on the listing), vegan capsules",
+    "category": "botanicals",
+    "price": "24.99",
+    "variants": [{ "title": "Vegan capsules", "price": "24.99" }],
+    "form": "Capsules",
+    "standfirst": "Bugle capsules. The listing names the plant as Lycopus virginicus, a species usually sold under the common name bugleweed rather than bugle, which is more often the name given to a different plant, Ajuga reptans. We have asked Reiss to confirm which one is actually in the capsule.",
+    "body": [
+      "Bugle is a common name with more than one owner. In British herbal use it usually means Ajuga reptans, a low, spreading plant in the mint family with blue flower spikes, common on damp woodland edges. In American and continental use, bugleweed usually means Lycopus virginicus or its European relative Lycopus europaeus, also mint family plants but a different genus entirely, growing taller and favouring wet ground near streams and ditches.",
+      "This listing's title says 'Bugle' but the body text names Lycopus Virginicus and calls the plant 'Bugleweed' throughout, which points to the Lycopus species rather than Ajuga. We have used the name printed in the listing text, but this is exactly the kind of common-name mix-up worth confirming before the page goes live.",
+      "The listing does not print a capsule count or weight for this pack."
+    ],
+    "spec": [
+      ["Botanical name (as printed on the listing)", "Lycopus virginicus"],
+      ["Also called on the listing", "Bugleweed"],
+      ["Family", "Lamiaceae"],
+      ["Form", "Vegan capsule"],
+      ["Plant constituents printed on the listing", "Flavonoids, bitters, tannins, volatile oils"],
+      ["Other ingredients", "None. No fillers or bulking agents"]
+    ],
+    "dose": "One to two capsules a day with a meal and at least 500ml water.",
+    "supply": "Not stated. No capsule count is printed on the listing.",
+    "cautions": [
+      "Not recommended in pregnancy or while breastfeeding.",
+      "Do not take this if you have an underactive thyroid, low blood pressure, or diabetes.",
+      "Speak to your GP before taking this if you are on any other prescribed medication."
+    ],
+    "image": "bugle",
+    "imageSubject": "A flowering stem of Lycopus virginicus, toothed leaves and small white flower whorls, in a damp streamside setting.",
+    "queries": [
+      "'Bugle' is an ambiguous common name. Please confirm the species actually in the capsule: Lycopus virginicus (bugleweed, as named in the listing body text) or Ajuga reptans (the plant most commonly called bugle in Britain). These are different plants in different genera.",
+      "Which part of the plant is used is not stated on the listing.",
+      "Capsule count per pack is not printed on the listing.",
+      "Capsule weight is not printed on the listing.",
+      "Country or region this is grown or sourced from is not stated on the listing."
+    ],
+    "sourceTitle": "BUGLE – HEART & THYROID CALMING"
+  },
+  {
+    "handle": "acacia-bark",
+    "name": "Acacia Bark",
+    "latin": "Acacia sp.",
+    "subtitle": "Acacia sp. (species to be confirmed), 50 vegan capsules",
+    "category": "botanicals",
+    "price": "19.99",
+    "variants": [{ "title": "50 capsules", "price": "19.99" }],
+    "form": "Capsules",
+    "standfirst": "Acacia bark capsules. Acacia is a large genus of well over a thousand species and the listing does not name which one this pack is made from, so the species is a confirmed open question rather than a guess. Fifty vegan capsules to a pack.",
+    "body": [
+      "Acacia is one of the largest tree genera in the world, with species native to Africa, Arabia, southern Asia and Australia. Several are grown commercially for their bark and resin. Acacia senegal and Acacia seyal are the main sources of gum arabic, the hardened resin that seeps from cuts in the bark and is used as a food thickener and in traditional medicine across North Africa and the Middle East.",
+      "The listing describes the tree only as 'the ancient Acacia tree native to the Indus Kush region, stretching from North Africa through Arabia into India' and mentions gum arabic, which points toward Acacia senegal or a related gum-producing species, but no binomial is given anywhere on the listing. Because 'acacia bark' can mean the bark of any of dozens of commercially traded species, each with a different chemical profile, we have logged this as a query rather than picked one."
+    ],
+    "spec": [
+      ["Botanical name", "Not stated. Genus is Acacia, species unconfirmed"],
+      ["Part used", "Bark"],
+      ["Family", "Fabaceae"],
+      ["Form", "Vegan capsule"],
+      ["Capsules per pack", "50"],
+      ["Plant constituents printed on the listing", "Polyphenols, terpenoids, tannins, saponins, glycosides, alkaloids"]
+    ],
+    "dose": "Two capsules a day in the evening, with a meal and at least 500ml water.",
+    "supply": "Fifty capsules. At two a day that is twenty five days, about three and a half weeks.",
+    "cautions": [
+      "Not recommended in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you are on prescribed medication."
+    ],
+    "image": "acacia-bark",
+    "imageSubject": "A section of pale, cracked acacia bark beside a piece of hardened amber-coloured gum resin.",
+    "queries": [
+      "Which species of Acacia is used. The genus has well over a thousand species and the listing gives no binomial, only a mention of gum arabic, which suggests Acacia senegal or a related gum-producing species. This needs confirming rather than assuming.",
+      "Capsule weight is not printed on the listing.",
+      "Country or region this is grown or sourced from is not stated on the listing."
+    ],
+    "sourceTitle": "ACACIA BARK – ANCIENT DIGESTIVE & ASTRINGENT SUPPORT"
+  },
+  {
+    "handle": "chanca-piedra",
+    "name": "Chanca Piedra",
+    "latin": "Phyllanthus niruri",
+    "subtitle": "Phyllanthus niruri, 800mg vegan capsules",
+    "category": "botanicals",
+    "price": "24.99",
+    "variants": [{ "title": "Vegan capsules", "price": "24.99" }],
+    "form": "Capsules",
+    "standfirst": "Chanca piedra capsules made from Phyllanthus niruri, a small annual herb of the Amazon basin and other tropical regions. Each capsule is 800mg, though the listing does not state how many capsules are in a pack.",
+    "body": [
+      "Phyllanthus niruri is a small, upright annual herb, rarely taller than half a metre, with feathery rows of tiny leaflets along thin stems and seed-like flowers that sit directly under each leaf. It grows widely through the Amazon basin and other tropical and subtropical regions, often as a weed of disturbed and cultivated ground, and has a long history of use across South American herbal traditions.",
+      "Each capsule is 800mg of the extract, with no fillers or additives, though the listing does not say which part of the plant, or the whole plant, went into that extract, and does not state how many capsules make up a pack."
+    ],
+    "spec": [
+      ["Botanical name", "Phyllanthus niruri"],
+      ["Also called", "Gale of the wind"],
+      ["Family", "Phyllanthaceae"],
+      ["Form", "Vegan capsule"],
+      ["Capsule weight", "800mg extract"],
+      ["Other ingredients", "None. No fillers or additives"]
+    ],
+    "dose": "Two capsules in the morning with at least 500ml water, and two capsules in the evening with a meal and at least 500ml water.",
+    "supply": "Not stated. No capsule count per pack is printed on the listing, so we cannot say how many days a pack lasts at four capsules a day.",
+    "cautions": [
+      "Not recommended in pregnancy, or if you are trying to conceive or taking fertility medication.",
+      "Speak to your GP before taking this if you are on diuretics or blood sugar-lowering medication.",
+      "If you have low blood pressure, speak to your GP before taking this."
+    ],
+    "image": "chanca-piedra",
+    "imageSubject": "A small Phyllanthus niruri plant, neat rows of tiny leaflets and seed-like flowers along the underside of each stem.",
+    "queries": [
+      "Which part of the plant the extract is made from is not stated on the listing.",
+      "Capsule count per pack is not printed on the listing.",
+      "Country or region this is grown or sourced from is not stated on the listing."
+    ],
+    "sourceTitle": "CHANCA PIEDRA - KIDNEY & LIVER SUPPORT (STONE BREAKER)"
+  },
+  {
+    "handle": "pau-darco",
+    "name": "Pau d'Arco",
+    "latin": "Tabebuia impetiginosa",
+    "subtitle": "Tabebuia impetiginosa, inner bark, vegan capsules",
+    "category": "botanicals",
+    "price": "19.99",
+    "variants": [{ "title": "Vegan capsules", "price": "19.99" }],
+    "form": "Capsules",
+    "standfirst": "Pau d'arco capsules made from the inner bark of Tabebuia impetiginosa, a flowering tree native to South America. A longer article on this plant is being written separately, so this entry keeps to the specification.",
+    "body": [
+      "Tabebuia impetiginosa is a tall flowering tree native to South and Central America, known locally as lapacho or ipe roxo, and prized for its hard, dense timber as well as its bark. It flowers in vivid pink and purple after the leaves drop, one of the most recognisable sights in the forests where it grows.",
+      "The inner bark, stripped from the trunk, is the part used here. The listing does not print a capsule count or weight, only that it is 100% vegan, wildcrafted and additive free."
+    ],
+    "spec": [
+      ["Botanical name", "Tabebuia impetiginosa"],
+      ["Also called", "Lapacho, ipe roxo, taheebo"],
+      ["Family", "Bignoniaceae"],
+      ["Part used", "Inner bark"],
+      ["Form", "Vegan capsule"],
+      ["Other ingredients", "None. The listing describes the pack as additive free"]
+    ],
+    "dose": "Two capsules a day with food.",
+    "supply": "Not stated. No capsule count or weight is printed on the listing.",
+    "cautions": [
+      "Not recommended in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you are on prescribed medication."
+    ],
+    "image": "pau-darco",
+    "imageSubject": "The stripped inner bark of a Tabebuia impetiginosa tree, fibrous and pinkish brown, curling at the edges.",
+    "queries": [
+      "Capsule count per pack is not printed on the listing.",
+      "Capsule weight is not printed on the listing.",
+      "Country or region this is grown or sourced from is not stated on the listing."
+    ],
+    "sourceTitle": "PAU D’ARCO – IMMUNE & CANDIDA SUPPORT"
+  },
+  {
+    "handle": "ashwagandha",
+    "name": "Ashwagandha",
+    "latin": "Withania somnifera",
+    "subtitle": "Withania somnifera, vegan capsules",
+    "category": "botanicals",
+    "price": "17.99",
+    "variants": [{ "title": "Vegan capsules", "price": "17.99" }],
+    "form": "Capsules",
+    "standfirst": "Ashwagandha capsules made from Withania somnifera, a small shrub in the nightshade family grown across India, the Middle East and parts of Africa. The listing does not state a capsule count or weight.",
+    "body": [
+      "Withania somnifera is a small, woody shrub in the nightshade family, growing to about a metre, with dull green oval leaves, small greenish-yellow flowers and round orange-red berries about the size of a small pea, held inside a papery husk. It grows across India, the Middle East and North Africa, and has been cultivated in Indian herbal medicine for centuries under the Sanskrit name ashwagandha.",
+      "The listing does not say which part of the plant fills the capsule. Root is the part most commonly used commercially, though some ashwagandha products use root and leaf together, so this is a question rather than an assumption."
+    ],
+    "spec": [
+      ["Botanical name", "Withania somnifera"],
+      ["Also called", "Indian ginseng, winter cherry"],
+      ["Family", "Solanaceae"],
+      ["Form", "Vegan capsule"],
+      ["Other ingredients", "None. No bulking agents or fillers"]
+    ],
+    "dose": "Two capsules in the morning with at least 500ml water.",
+    "supply": "Not stated. No capsule count is printed on the listing.",
+    "cautions": [
+      "Not recommended in pregnancy or while breastfeeding.",
+      "Speak to your GP before taking this if you are on thyroid medication.",
+      "Speak to your GP before taking this if you are on any other prescribed medication."
+    ],
+    "image": "ashwagandha",
+    "imageSubject": "Dried Withania somnifera root pieces, pale and woody, beside a few small orange-red ashwagandha berries in their papery husks.",
+    "queries": [
+      "Which part of the plant is used. Root is standard, but the listing does not say.",
+      "Capsule count per pack is not printed on the listing.",
+      "Capsule weight is not printed on the listing.",
+      "Country or region this is grown or sourced from is not stated on the listing."
+    ],
+    "sourceTitle": "ASHWAGANDHA - STRESS & ANXIETY SUPPORT"
+  }
+]
