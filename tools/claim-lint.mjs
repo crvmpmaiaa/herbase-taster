@@ -93,8 +93,11 @@ const SKIP_FILES = new Set([
   'data/products-source.md',
   'data/products-live.json',
   'data/queries.md',
+  'HANDOVER.md',
 ]);
-const SKIP_DIRS = ['node_modules', '.git', 'variants', 'directions', 'assets', 'data/images', 'docs'];
+// 'compare' is Jacob's original, unedited work parked for an honest A/B look,
+// same reasoning as 'variants' and 'directions': reference builds, not the live storefront.
+const SKIP_DIRS = ['node_modules', '.git', 'variants', 'directions', 'compare', 'assets', 'data/images', 'docs'];
 
 // Safety information is not a health claim and there is no ceiling on it. A
 // caution has to be able to name the condition it is cautioning about, so the
