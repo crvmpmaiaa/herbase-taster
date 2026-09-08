@@ -20,8 +20,8 @@
 @media(min-width:800px){.ingr__grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:799px){.ingr__grid .ing:last-child{grid-column:span 2}}
 .ing__none{aspect-ratio:1;background:var(--night);display:grid;place-items:center;padding:18px;text-align:center}
-.ing__none p{padding:0;font-family:var(--display);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,237,210,.8);line-height:1.5}
-.ing__none span{display:block;margin-top:8px;font-family:var(--body);font-size:11.5px;letter-spacing:0;text-transform:none;color:rgba(255,237,210,.5)}
+.ing__none p{padding:0;font-family:var(--display);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,237,210,.8);line-height:1.5}
+.ing__none span{display:block;margin-top:8px;font-family:var(--body);font-size:10px;letter-spacing:0;text-transform:none;color:rgba(255,237,210,.5)}
 </style>
 </head>
 <body>
@@ -53,12 +53,14 @@
           <div class="card__img card__img--held" id="galheld"><p>Pack photography held<span>Label reprint pending</span></p></div>
         </div>
         <div class="gal__thumbs">
-          <button class="thumb--held" type="button" aria-pressed="true" data-cap="Pack photography is held until the label is reprinted. The photographs here are of the botanicals."><span>Pack held</span></button>
-          <button type="button" aria-pressed="false" data-src="assets/journal/gen-bitters-board.jpg" data-cap="Five of the nine on the bench: wormwood, clove, black pepper, bitter melon and activated charcoal."><img src="assets/journal/gen-bitters-board-m.jpg" alt="Wormwood, clove, black pepper, bitter melon and charcoal on a board"></button>
-          <button type="button" aria-pressed="false" data-src="assets/journal/pau-darco-tree.jpg" data-cap="Tabebuia impetiginosa in flower. The bark is the part that is usually sold."><img src="assets/journal/pau-darco-tree-m.jpg" alt="Tabebuia impetiginosa in flower"></button>
-          <button type="button" aria-pressed="false" data-src="assets/journal/gen-wormwood-sprig.jpg" data-cap="Artemisia absinthium, wormwood. The ingredient the stop date is written around."><img src="assets/journal/gen-wormwood-sprig-m.jpg" alt="A sprig of wormwood in a glass of water"></button>
+          <button class="thumb--held" type="button" aria-pressed="true" data-cap="Pack photography is held until the label is reprinted. The pictures here are of the botanicals, not of the jar."><span>Pack held</span></button>
+          <button type="button" aria-pressed="false" data-src="assets/journal/gen-bitters-board.jpg" data-cap="Five of the nine laid out on a board: wormwood, clove, black pepper, bitter melon and charcoal. A generated scene, not a photograph of our stock."><img src="assets/journal/gen-bitters-board-m.jpg" alt="A wormwood sprig, clove buds, black peppercorns, a halved bitter melon and a heap of charcoal on a dark board. A generated scene" loading="lazy" decoding="async"></button>
+          <button type="button" aria-pressed="false" data-src="assets/journal/stock-wormwood-field.jpg" data-cap="Artemisia absinthium growing in the open, silver and finely cut. Wormwood is the ingredient the stop date is written around."><img src="assets/journal/stock-wormwood-field-m.jpg" alt="Silver-green wormwood foliage growing in the open" loading="lazy" decoding="async"></button>
+          <button type="button" aria-pressed="false" data-src="assets/journal/pau-darco-tree.jpg" data-cap="Tabebuia impetiginosa in flower on a dry plain. The bark is the part that is usually sold."><img src="assets/journal/pau-darco-tree-m.jpg" alt="A pau d'arco tree in full pink flower on open dry ground" loading="lazy" decoding="async"></button>
+          <button type="button" aria-pressed="false" data-src="assets/journal/bitter-melon.jpg" data-cap="Momordica charantia left on the vine until it ripened orange. It is picked green for the kitchen."><img src="assets/journal/bitter-melon-m.jpg" alt="A ripe orange bitter melon hanging on the vine" loading="lazy" decoding="async"></button>
+          <button type="button" aria-pressed="false" data-src="assets/journal/gen-wormwood-sprig.jpg" data-cap="A wormwood sprig standing in a glass on a windowsill. A generated scene, not a photograph of our stock."><img src="assets/journal/gen-wormwood-sprig-m.jpg" alt="A sprig of wormwood in a glass of water on a windowsill. A generated scene" loading="lazy" decoding="async"></button>
         </div>
-        <p class="gal__cap" id="galcap">Pack photography is held until the label is reprinted. The photographs here are of the botanicals.</p>
+        <p class="gal__cap" id="galcap">Pack photography is held until the label is reprinted. The pictures here are of the botanicals, not of the jar.</p>
       </div>
 
       <div class="buy">
@@ -68,7 +70,7 @@
         <p class="buy__price"><b>£39.99</b><span>50 capsules · 25 days · £1.60 a day</span></p>
         <ul class="buy__pts">
           <li><b>Nine ingredients, no tenth.</b> Seven botanicals, psyllium husk and activated charcoal, all named in Latin on the sheet below</li>
-          <li><b>Two capsules a day with 500 ml of water</b>, for up to 25 days. The jar is meant to run out</li>
+          <li><b>Two capsules a day with 500 ml of water</b>, for up to 25 days, and the jar is meant to run out</li>
           <li><b>Then at least four months before another course.</b> That limit is printed on the pack and it stays on the page</li>
         </ul>
         <a class="buy__spec" href="#spec">Full specification sheet</a>
@@ -86,14 +88,14 @@
             <summary>What is in it</summary>
             <div class="acc__body">
               <p>Nine ingredients. Seven botanicals: <i>Tabebuia impetiginosa</i> · <i>Momordica charantia</i> · <i>Petiveria alliacea</i> · <i>Syzygium aromaticum</i> · <i>Dysphania ambrosioides</i> · <i>Artemisia absinthium</i> · <i>Piper nigrum</i>.</p>
-              <p>Then psyllium husk, and activated charcoal made from organic coconut shells. Both are declared ingredients, not fillers. The capsule shell is HPMC and there is nothing else in it.</p>
+              <p>Then psyllium husk, and activated charcoal made from organic coconut shells. Both are declared ingredients, not fillers. The capsule is vegan; the shell material is not named on the listing, so we do not name one here.</p>
             </div>
           </details>
           <details>
             <summary>How to take it</summary>
             <div class="acc__body">
               <p><b>Two capsules a day, with 500 ml of water.</b> Not more than two in a day. A course runs to the end of the jar, 25 days, and then you stop.</p>
-              <p><b>One course every four months at the most.</b> If you finish a jar in September, the next one is February at the earliest.</p>
+              <p><b>One course every four months at the most.</b> If you finish a jar at the end of September, the next one is the end of January at the earliest.</p>
             </div>
           </details>
           <details>
@@ -129,10 +131,10 @@
       <h2 class="dsp rv d1" style="margin-top:12px">How to <em>take it</em></h2>
     </div>
     <div class="steps__grid">
-      <div class="step rv"><img src="assets/journal/capsule-scoop-m.jpg" alt="Loose capsules on a plain surface" loading="lazy"><h3>Step one</h3><p><b>Two capsules, once a day.</b> Not four, and not two twice. Two is the printed limit.</p></div>
-      <div class="step rv d1"><img src="assets/journal/step-water-m.jpg" alt="Glass and jug of water in morning light" loading="lazy"><h3>Step two</h3><p><b>Take them with 500 ml of water.</b> There is psyllium husk in the formula and it swells in water, so give it the full glass.</p></div>
-      <div class="step rv d2"><img src="assets/journal/charcoal-coconut-m.jpg" alt="Activated charcoal granules" loading="lazy"><h3>Step three</h3><p><b>Keep two hours clear of any medicine.</b> Activated charcoal can reduce how much of a tablet gets absorbed, the contraceptive pill included.</p></div>
-      <div class="step rv d3"><img src="assets/journal/gen-wormwood-sprig-m.jpg" alt="A sprig of wormwood in a glass of water" loading="lazy"><h3>Step four</h3><p><b>Twenty-five days, then stop.</b> Leave at least four months before you open another jar. <a href="journal/decolonise-stop-date.html" style="color:var(--sun-ink)">Reiss on the stop date</a>.</p></div>
+      <div class="step rv"><img src="assets/journal/capsule-scoop-m.jpg" srcset="assets/journal/capsule-scoop-m.jpg 800w, assets/journal/capsule-scoop.jpg 1600w" sizes="(min-width:800px) 25vw, 92vw" alt="Plain capsules spilling from a wooden scoop on slate. A generated scene" loading="lazy" decoding="async"><h3>Step one</h3><p><b>Two capsules, once a day.</b> The printed limit is two in a day, so it is not four, and not two twice.</p></div>
+      <div class="step rv d1"><img src="assets/journal/gen-morning-water-m.jpg" srcset="assets/journal/gen-morning-water-m.jpg 800w, assets/journal/gen-morning-water.jpg 1600w" sizes="(min-width:800px) 25vw, 92vw" alt="A tall glass of water on a wooden table in morning light. A generated scene" loading="lazy" decoding="async"><h3>Step two</h3><p><b>Take them with 500 ml of water.</b> There is psyllium husk in the formula and it swells in water, so give it the full glass.</p></div>
+      <div class="step rv d2"><img src="assets/journal/charcoal-coconut-m.jpg" srcset="assets/journal/charcoal-coconut-m.jpg 800w, assets/journal/charcoal-coconut.jpg 1600w" sizes="(min-width:800px) 25vw, 92vw" alt="Activated charcoal powder under a microscope, black particles on a pale field" loading="lazy" decoding="async"><h3>Step three</h3><p><b>Keep two hours clear of any medicine.</b> Activated charcoal can reduce how much of a tablet gets absorbed, the contraceptive pill included.</p></div>
+      <div class="step rv d3"><img src="assets/journal/gen-calendar-desk-m.jpg" srcset="assets/journal/gen-calendar-desk-m.jpg 800w, assets/journal/gen-calendar-desk.jpg 1600w" sizes="(min-width:800px) 25vw, 92vw" alt="A date circled in pencil on a paper calendar page. A generated scene" loading="lazy" decoding="async"><h3>Step four</h3><p><b>Twenty-five days, then stop.</b> Leave at least four months before you open another jar. <a href="journal/decolonise-stop-date.html" style="color:var(--sun-ink)">Reiss on the stop date</a>.</p></div>
     </div>
   </div>
 </section>
@@ -142,18 +144,18 @@
     <div class="head">
       <p class="label rv">What is on the inside</p>
       <h2 class="dsp rv d1" style="margin-top:12px">Nine ingredients, <em>counted</em></h2>
-      <p class="rv d2">In the order the label declares them. Where we have no photograph of the plant we buy, we have left the frame empty rather than borrow one.</p>
+      <p class="rv d2">In the order the label declares them. Every picture on these cards is a photograph of the species, taken by somebody else and credited at the foot of the page, and none of them is of the material in our own sacks. For three of the nine we found no photograph at all, and those frames are left empty rather than filled with a stand-in. Where a picture elsewhere on this page is a generated scene rather than a photograph, it says so.</p>
     </div>
     <div class="ingr__grid">
-      <article class="ing rv"><img src="assets/journal/pau-darco-tree-m.jpg" alt="Tabebuia impetiginosa in flower" loading="lazy"><p class="ing__fam">Bark · South America</p><h3>Tabebuia impetiginosa<i>Pau d'arco</i></h3><p>A forest tree from Brazil, Paraguay and northern Argentina that flowers pink before it comes into leaf. The bark is the part usually sold, under the names pau d'arco or lapacho.</p></article>
-      <article class="ing rv d1"><img src="assets/journal/bitter-melon-m.jpg" alt="Momordica charantia, bitter melon, on the vine" loading="lazy"><p class="ing__fam">Gourd · Asia</p><h3>Momordica charantia<i>Bitter melon</i></h3><p>A climbing gourd grown across South Asia, southern China and the Caribbean, and cooked as a vegetable in all three. It is about the most bitter thing anybody eats on purpose.</p></article>
+      <article class="ing rv"><img src="assets/journal/pau-darco-tree-m.jpg" srcset="assets/journal/pau-darco-tree-m.jpg 800w, assets/journal/pau-darco-tree.jpg 1600w" sizes="(min-width:800px) 33vw, 92vw" alt="A pau d'arco tree in full pink flower on open dry ground" loading="lazy" decoding="async"><p class="ing__fam">Bark · South America</p><h3>Tabebuia impetiginosa<i>Pau d'arco</i></h3><p>A forest tree from Brazil, Paraguay and northern Argentina that flowers pink before it comes into leaf. The bark is the part usually sold, under the names pau d'arco or lapacho.</p></article>
+      <article class="ing rv d1"><img src="assets/journal/bitter-melon-m.jpg" srcset="assets/journal/bitter-melon-m.jpg 800w, assets/journal/bitter-melon.jpg 1600w" sizes="(min-width:800px) 33vw, 92vw" alt="A ripe orange bitter melon hanging on the vine" loading="lazy" decoding="async"><p class="ing__fam">Gourd · Asia</p><h3>Momordica charantia<i>Bitter melon</i></h3><p>A climbing gourd grown across South Asia, southern China and the Caribbean, and cooked as a vegetable in all three. It is picked green for the kitchen, and the one in the picture has been left on the vine to ripen orange. It is about the most bitter thing anybody eats on purpose.</p></article>
       <article class="ing rv d2"><div class="ing__none"><p>No photograph<span>of the plant we buy</span></p></div><p class="ing__fam">Herb · Caribbean</p><h3>Petiveria alliacea<i>Guinea hen weed</i></h3><p>A Caribbean and Central American herb that smells strongly of garlic, which is what the <i>alliacea</i> in the name refers to. Called anamu across much of Latin America.</p></article>
-      <article class="ing rv"><img src="assets/journal/clove-buds-m.jpg" alt="A whole dried clove bud" loading="lazy"><p class="ing__fam">Spice · Indonesia</p><h3>Syzygium aromaticum<i>Clove</i></h3><p>Dried flower buds from a tree native to the Maluku Islands, picked before they open. The same spice that goes into a ham, and the one ingredient here that also appears on <a href="product.html#also">Seaking</a>'s declared list.</p></article>
+      <article class="ing rv"><img src="assets/journal/clove-buds-m.jpg" srcset="assets/journal/clove-buds-m.jpg 800w, assets/journal/clove-buds.jpg 1600w" sizes="(min-width:800px) 33vw, 92vw" alt="A single dried clove bud, close up" loading="lazy" decoding="async"><p class="ing__fam">Spice · Indonesia</p><h3>Syzygium aromaticum<i>Clove</i></h3><p>Dried flower buds from a tree native to the Maluku Islands, picked before they open. The same spice that goes into a ham, and the one ingredient here that also appears on <a href="product-seaking.html">Seaking</a>'s declared list.</p></article>
       <article class="ing rv d1"><div class="ing__none"><p>No photograph<span>of the plant we buy</span></p></div><p class="ing__fam">Herb · Mexico</p><h3>Dysphania ambrosioides<i>Epazote</i></h3><p>A strong smelling Mexican herb, cooked with black beans in Oaxaca and Puebla. Older books file it under <i>Chenopodium ambrosioides</i>, which is the same plant renamed.</p></article>
-      <article class="ing rv d2"><img src="assets/journal/gen-wormwood-sprig-m.jpg" alt="A sprig of wormwood in a glass of water" loading="lazy"><p class="ing__fam">Bitter herb · Europe</p><h3>Artemisia absinthium<i>Wormwood</i></h3><p>The bitterest plant in the European herbal, and the one that gives absinthe and vermouth their names. It is also the reason this jar carries a stop date and a list of people who should leave it alone.</p></article>
-      <article class="ing rv"><img src="assets/journal/black-pepper-m.jpg" alt="Peppercorns on the vine, still green" loading="lazy"><p class="ing__fam">Spice · India</p><h3>Piper nigrum<i>Black pepper</i></h3><p>The fruit of a climbing vine, picked green and dried until it wrinkles and goes black. Most of the crop grows in Kerala, Vietnam and Brazil.</p></article>
+      <article class="ing rv d2"><img src="assets/journal/stock-wormwood-field-m.jpg" srcset="assets/journal/stock-wormwood-field-m.jpg 800w, assets/journal/stock-wormwood-field.jpg 1600w" sizes="(min-width:800px) 33vw, 92vw" alt="Silver-green wormwood foliage growing in the open" loading="lazy" decoding="async"><p class="ing__fam">Bitter herb · Europe</p><h3>Artemisia absinthium<i>Wormwood</i></h3><p>The bitterest plant in the European herbal, and the one that gives absinthe and vermouth their names. It is also the reason this jar carries a stop date and a list of people who should leave it alone.</p></article>
+      <article class="ing rv"><img src="assets/journal/black-pepper-m.jpg" srcset="assets/journal/black-pepper-m.jpg 800w, assets/journal/black-pepper.jpg 1600w" sizes="(min-width:800px) 33vw, 92vw" alt="Green peppercorn spikes on a black ground" loading="lazy" decoding="async"><p class="ing__fam">Spice · India</p><h3>Piper nigrum<i>Black pepper</i></h3><p>The fruit of a climbing vine, picked green and dried until it wrinkles and goes black. Most of the crop grows in Kerala, Vietnam and Brazil.</p></article>
       <article class="ing rv d1"><div class="ing__none"><p>No photograph<span>of the plant we buy</span></p></div><p class="ing__fam">Fibre · Plantago ovata</p><h3>Psyllium husk<i>Isabgol</i></h3><p>The husk of the <i>Plantago ovata</i> seed, grown mostly in Gujarat and Rajasthan and milled to a pale flake. It swells in water, which is why the protocol asks for a full 500 ml.</p></article>
-      <article class="ing rv d2"><img src="assets/journal/charcoal-coconut-m.jpg" alt="Activated charcoal granules" loading="lazy"><p class="ing__fam">Charcoal · Coconut shell</p><h3>Activated charcoal<i>From organic coconut shells</i></h3><p>Coconut shell burned and then treated with steam until it is full of pores. It is declared as an ingredient here rather than used as a filler, and it is the reason for the two hour rule on the sheet below.</p></article>
+      <article class="ing rv d2"><img src="assets/journal/charcoal-coconut-m.jpg" srcset="assets/journal/charcoal-coconut-m.jpg 800w, assets/journal/charcoal-coconut.jpg 1600w" sizes="(min-width:800px) 33vw, 92vw" alt="Activated charcoal powder under a microscope, black particles on a pale field" loading="lazy" decoding="async"><p class="ing__fam">Charcoal · Coconut shell</p><h3>Activated charcoal<i>From organic coconut shells</i></h3><p>Coconut shell burned and then treated with steam until it is full of pores. It is declared as an ingredient here rather than used as a filler, and it is the reason for the two hour rule on the sheet below.</p></article>
     </div>
   </div>
 </section>
@@ -169,15 +171,15 @@
       <table class="tbl">
         <caption>Decolonise</caption>
         <tbody>
-          <tr><th scope="row">Makeup</th><td>Seven botanicals, plus psyllium husk and activated charcoal. Nine ingredients, no tenth.</td></tr>
+          <tr><th scope="row">Makeup</th><td>Seven botanicals, plus psyllium husk and activated charcoal, which comes to nine ingredients and no tenth.</td></tr>
           <tr><th scope="row">Dose</th><td>800 mg per vegan capsule</td></tr>
           <tr><th scope="row">Count</th><td>50 capsules · 25 day supply · £39.99, which is £1.60 a day while a course runs</td></tr>
           <tr><th scope="row">Botanicals</th><td><i>Tabebuia impetiginosa</i> · <i>Momordica charantia</i> · <i>Petiveria alliacea</i> · <i>Syzygium aromaticum</i> · <i>Dysphania ambrosioides</i> · <i>Artemisia absinthium</i> · <i>Piper nigrum</i></td></tr>
           <tr><th scope="row">Fibre</th><td>Psyllium husk</td></tr>
           <tr><th scope="row">Charcoal</th><td>Activated, from coconut shell</td></tr>
-          <tr><th scope="row">Excipients</th><td>HPMC capsule shell only. Psyllium husk and activated charcoal are declared ingredients, not fillers.</td></tr>
+          <tr><th scope="row">Excipients</th><td>The capsule is vegan; the shell material is not named on the listing, so we do not name one here. Psyllium husk and activated charcoal are declared ingredients, not fillers.</td></tr>
           <tr><th scope="row">Protocol</th><td>Two capsules daily with 500 ml water, for up to 25 days. Then leave at least four months.</td></tr>
-          <tr><th scope="row">Sourcing</th><td>Botanicals wildcrafted, never farmed</td></tr>
+          <tr><th scope="row">Sourcing</th><td>Botanicals described as wildcrafted on the listing. We hold no harvest record for each of the nine.</td></tr>
           <tr><th scope="row">Not printed</th><td>We do not print a milligram split between the nine, an extract ratio, or a thujone figure for the wormwood. Nobody has measured those for this jar, so there is no number we could stand behind. <a href="journal/decolonise-stop-date.html">Reiss on what that means</a>.</td></tr>
           <tr><th scope="row">Suitable for</th><td>Vegans. Adults.</td></tr>
           <tr><th scope="row">Not for</th><td>Anyone who is pregnant or breastfeeding. Anyone with epilepsy or a history of seizures. Children. If you take any medicine, including the contraceptive pill, speak to your GP or pharmacist first.</td></tr>
@@ -197,10 +199,10 @@
     <p class="label rv">From Reiss</p>
     <h2 class="dsp rv d1">Why this one has <em>a stop date</em></h2>
     <div class="reiss__body">
-      <p class="rv d1">Wormwood is in this formula, and wormwood is not a plant you take for months. That is not my rule, it is the old rule, and every herbal I own says a version of it. Short courses, then leave it. So the pack says one course of 25 days, and then four months before the next one.</p>
+      <p class="rv d1">Wormwood is in this formula, and wormwood is not a plant you take for months. That is not my rule, it is the old rule, and every herbal I own says a version of it: short courses, then leave it. So the pack says one course of 25 days, and then four months before the next one.</p>
       <p class="rv d1">Two capsules a day for 25 days is exactly one jar. There is no way to take it as directed and still need a second jar inside four months. I would rather that were obvious from the shelf than buried in the small print.</p>
       <div class="reiss__pull rv"><q>A bitter is not a daily habit, and I would rather tell you the limit than sell you four courses a year.</q></div>
-      <p class="rv d1">The other thing on this page I want you to read is the list of who it is not for. Pregnancy, breastfeeding, epilepsy or any history of seizures. If you are on medicine of any kind, there is activated charcoal in here and it can pull the strength out of a tablet, so keep two hours between them and ask your pharmacist. None of that is me being careful with the wording. It is the shape of the thing.</p>
+      <p class="rv d1">The other thing on this page I want you to read is the list of who it is not for. Pregnancy, breastfeeding, epilepsy or any history of seizures. If you are on medicine of any kind, there is activated charcoal in here and it can pull the strength out of a tablet, so keep two hours between them and ask your pharmacist. None of that is me being careful with the wording, it is the shape of the thing.</p>
       <div class="reiss__sign rv">
         <p>Reiss Davies Ausar</p>
         <p>599 Smithdown Road, Liverpool</p>
@@ -240,12 +242,12 @@
     <div class="best__grid">
       <article class="prod rv"><a class="prod__img" href="product.html"><img loading="lazy" decoding="async" src="assets/northern-soul-jar-m.jpg" alt="Northern Soul sea moss gel, glass jar"></a>
         <div class="prod__row"><h3>Northern Soul</h3><span>from £34.99</span></div><p class="prod__sub">Cold-water <i>Chondrus crispus</i> gel with four algae from three families. One tablespoon each morning, which this is not.</p><a class="prod__buy" href="product.html">Choose a size</a></article>
-      <article class="prod rv d1"><a class="prod__img" href="product.html#also"><img loading="lazy" decoding="async" src="assets/tile-seaking.jpg" alt="Seaking capsules"></a>
-        <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">The Northern Soul formula in a capsule. 50 × 800 mg, 75 µg iodine each. Clove is on its list too.</p><a class="prod__buy" href="product.html#also">Add to bag</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="index.html#best"><img loading="lazy" decoding="async" src="assets/tile-lionsmane.jpg" alt="Lion's Mane capsules"></a>
-        <div class="prod__row"><h3>Lion's Mane</h3><span>£24.99</span></div><p class="prod__sub">One ingredient, <i>Hericium erinaceus</i>, whole fruiting body. No rice flour in the capsule.</p><a class="prod__buy" href="index.html#best">Add to bag</a></article>
-      <article class="prod rv d3"><a class="prod__img" href="index.html#best"><img loading="lazy" decoding="async" src="assets/tile-shilajit.jpg" alt="Shilajit resin"></a>
-        <div class="prod__row"><h3>Shilajit Resin</h3><span>£39.99</span></div><p class="prod__sub">Altai mineral resin, lab tested. A pea-sized piece in warm water.</p><a class="prod__buy" href="index.html#best">Add to bag</a></article>
+      <article class="prod rv d1"><a class="prod__img" href="product-seaking.html"><img loading="lazy" decoding="async" src="assets/tile-seaking.jpg" alt="Seaking capsules"></a>
+        <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">The Northern Soul formula in a capsule. 50 × 800 mg, 75 µg iodine each. Clove is on its list too.</p><a class="prod__buy" href="product-seaking.html">Add to bag</a></article>
+      <article class="prod rv d2"><a class="prod__img" href="product-lions-mane.html"><img loading="lazy" decoding="async" src="assets/tile-lionsmane.jpg" alt="Lion's Mane capsules"></a>
+        <div class="prod__row"><h3>Lion's Mane</h3><span>£24.99</span></div><p class="prod__sub">One ingredient, <i>Hericium erinaceus</i>, whole fruiting body. No rice flour in the capsule.</p><a class="prod__buy" href="product-lions-mane.html">Add to bag</a></article>
+      <article class="prod rv d3"><a class="prod__img" href="product-shilajit.html"><img loading="lazy" decoding="async" src="assets/tile-shilajit.jpg" alt="Shilajit resin"></a>
+        <div class="prod__row"><h3>Shilajit Resin</h3><span>£39.99</span></div><p class="prod__sub">Altai mineral resin, lab tested. A pea-sized piece in warm water.</p><a class="prod__buy" href="product-shilajit.html">Add to bag</a></article>
     </div>
   </div>
 </section>
@@ -282,7 +284,7 @@
       </div>
     </div>
     <div class="foot__legal">
-      <p class="credits">Photography via Unsplash and Wikimedia Commons. <!--CREDITS--></p>
+      <p class="credits">Photography via Wikimedia Commons. Wormwood (Artemisia absinthium): Agnieszka Kwiecień, Nova, CC BY-SA 4.0, via Wikimedia Commons · Pau d'arco tree: Giles Laurent, CC BY-SA 4.0, via Wikimedia Commons · Bitter melon: Balaram Mahalder, CC BY-SA 3.0, via Wikimedia Commons · Activated charcoal: Zephyris, CC BY-SA 3.0, via Wikimedia Commons · Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons · Black pepper: Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock.</p>
       <p>Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.</p>
       <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP. Food business registered with Liverpool City Council.</p>
     </div>
