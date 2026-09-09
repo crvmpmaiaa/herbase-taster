@@ -191,7 +191,7 @@
 
       <p>And the honest close. There are jars on my shelf whose listings name no plants at all. For those, the only caution I can give you is that nobody, me included, can check the jar against your prescription, because there is nothing printed to check. I would rather write that sentence than a comforting one.</p>
 
-      <h2>Four sheets worth reading first</h2>
+      <h2 id="buy">Four sheets worth reading first</h2>
 
       <p>Not four recommendations. These are the four specification pages with the longest Not for rows on them, and if you are going to read one page before buying anything, read the row at the bottom of one of these.</p>
 
@@ -278,7 +278,7 @@ let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
-    const pastIntro=scrollY>900, atBuy=buy.getBoundingClientRect().top<innerHeight;
+    const pastIntro=scrollY>900, atBuy=!buy||buy.getBoundingClientRect().top<innerHeight;
     pastIntro&&!atBuy?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
     ticking=false;
   });

@@ -161,7 +161,7 @@
 
       <p>If a question needs an hour rather than a counter, there is <a href="../index.html#shop">a consultation</a> at £120. It covers ingredients, sourcing and how to take things. It is not a diagnosis and it is not a substitute for advice from your GP or pharmacist, and I would rather say that here than have you find it out in the room.</p>
 
-      <h2>The sea moss shelf</h2>
+      <h2 id="buy">The sea moss shelf</h2>
 
       <p>Four of the five, with the prices above. Nu Heru is on the shelf too, at the same sizes as Northern Soul.</p>
 
@@ -248,7 +248,7 @@ let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
-    const pastIntro=scrollY>900, atBuy=buy.getBoundingClientRect().top<innerHeight;
+    const pastIntro=scrollY>900, atBuy=!buy||buy.getBoundingClientRect().top<innerHeight;
     pastIntro&&!atBuy?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
     ticking=false;
   });

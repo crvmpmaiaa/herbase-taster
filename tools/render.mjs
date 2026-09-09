@@ -258,7 +258,7 @@ const SCRIPT_STICKY_ARTICLE = [
   "addEventListener('scroll',()=>{",
   '  if(ticking) return; ticking=true;',
   '  requestAnimationFrame(()=>{',
-  '    const pastIntro=scrollY>900, atBuy=buy.getBoundingClientRect().top<innerHeight;',
+  '    const pastIntro=scrollY>900, atBuy=!buy||buy.getBoundingClientRect().top<innerHeight;',
   "    pastIntro&&!atBuy?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');",
   '    ticking=false;',
   '  });',
@@ -711,7 +711,7 @@ export function renderArticle(d) {
 
   if (d.buyrow) {
     const b = d.buyrow;
-    if (b.h2) { prose.push(`      <h2>${esc(b.h2, depth)}</h2>`); prose.push(''); }
+    if (b.h2) { prose.push(`      <h2 id="buy">${esc(b.h2, depth)}</h2>`); prose.push(''); }
     if (b.intro) { prose.push(`      <p>${esc(b.intro, depth)}</p>`); prose.push(''); }
     prose.push('      <div class="buyrow">');
     (b.cards || []).forEach((c, i) => {

@@ -170,7 +170,7 @@
 
       <figure class="fig--wide"><img src="../assets/journal/red-algae-pool.jpg" srcset="../assets/journal/red-algae-pool-m.jpg 800w, ../assets/journal/red-algae-pool.jpg 1600w" sizes="(min-width:1100px) 1040px, 92vw" loading="lazy" decoding="async" alt="Red algae in a cold rock pool"><figcaption>Red algae in a cold rock pool.<i>The base of both products grows lower down the same shore, under the wrack.</i></figcaption></figure>
 
-      <h2>The two it is in, and the two it is not</h2>
+      <h2 id="buy">The two it is in, and the two it is not</h2>
 
       <p>Bladderwrack is on the Northern Soul list and on Seaking's. It is in neither of the single-species gels, which is worth knowing if iodine is the reason you are reading this.</p>
 
@@ -259,7 +259,7 @@ let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
-    const pastIntro=scrollY>900, atBuy=buy.getBoundingClientRect().top<innerHeight;
+    const pastIntro=scrollY>900, atBuy=!buy||buy.getBoundingClientRect().top<innerHeight;
     pastIntro&&!atBuy?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
     ticking=false;
   });

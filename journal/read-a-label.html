@@ -195,7 +195,7 @@
 
       <figure class="fig--wide"><img src="../assets/apothecary.jpg" srcset="../assets/apothecary-m.jpg 800w, ../assets/apothecary.jpg 1600w" sizes="(min-width:1100px) 1040px, 92vw" loading="lazy" decoding="async" alt="Reiss Davies Ausar behind the counter at Herbase, Smithdown Road"><figcaption>599 Smithdown Road.<i>Bring the tub you bought somewhere else. Reading the back of it takes a minute and costs nothing.</i></figcaption></figure>
 
-      <h2>Four labels, for four reasons</h2>
+      <h2 id="buy">Four labels, for four reasons</h2>
 
       <p>Not the four I sell most of. These are the four whose labels demonstrate the points above, including the one that comes out of it worst. I am not going to hide a jar in the shop while writing an article about honesty on jars.</p>
 
@@ -282,7 +282,7 @@ let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
-    const pastIntro=scrollY>900, atBuy=buy.getBoundingClientRect().top<innerHeight;
+    const pastIntro=scrollY>900, atBuy=!buy||buy.getBoundingClientRect().top<innerHeight;
     pastIntro&&!atBuy?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
     ticking=false;
   });

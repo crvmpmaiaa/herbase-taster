@@ -184,7 +184,7 @@
 
       <p>I would rather you walked out with a jar you can describe than one you can only praise. That is the whole reason the specification sheets on this site carry rows that say not printed, and the reason I have not quietly deleted those rows to tidy the page up.</p>
 
-      <h2>The three that name a place</h2>
+      <h2 id="buy">The three that name a place</h2>
 
       <p>The jars this piece is about, with the fourth one included because its origin row names nothing at all, and that is the point.</p>
 
@@ -271,7 +271,7 @@ let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
-    const pastIntro=scrollY>900, atBuy=buy.getBoundingClientRect().top<innerHeight;
+    const pastIntro=scrollY>900, atBuy=!buy||buy.getBoundingClientRect().top<innerHeight;
     pastIntro&&!atBuy?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
     ticking=false;
   });
