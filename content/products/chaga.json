@@ -1,0 +1,137 @@
+{
+  "slug": "chaga",
+  "kind": "supplement",
+  "name": "Chaga Capsules",
+  "title": "Chaga Capsules · Inonotus obliquus, 750 mg a capsule · Herbase",
+  "description": "Inonotus obliquus, the birch fungus, at 750 mg a capsule, two a day. The specification sheet, including the count and the ratio the label does not print.",
+  "crumb": ["Mushrooms", "index.html#best"],
+  "price": "£24.99",
+  "unit": "One size · 750 mg a capsule · count not printed, so no day rate",
+  "gallery": [
+    { "img": "assets/hero-fungi.jpg", "alt": "Mushrooms at the edge of a painted nebula", "cap": "The mushroom scene we use for this jar. There is no pack photograph on this site yet." },
+    { "img": "chaga-birch", "alt": "A black chaga conk on a birch trunk", "cap": "The black mass on a living birch. That is what the word chaga points at." },
+    { "img": "chaga-chunks", "alt": "Broken chunks of dried chaga", "cap": "The conk broken up. What goes in the capsule is a powder." },
+    { "img": "capsule-scoop", "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene", "cap": "Plain capsules on slate. A generated scene, not a photograph of ours." }
+  ],
+  "label": "Mushrooms · the birch fungus",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "points": [
+    "<b>One fungus</b>, <i>Inonotus obliquus</i>, the black mass that grows on living birch",
+    "<b>750 mg in each capsule.</b> The listing calls it an extract and prints no ratio, so we do not print one",
+    "<b>Two capsules a day</b>, with breakfast and at least 500 ml of water"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, or collect from the shop",
+    "Every ingredient named on the specification sheet below, and every figure we do not have"
+  ],
+  "acc": [
+    { "summary": "What is in it", "body": [
+      "<i>Inonotus obliquus</i>, the fungus that grows as a hard black mass on living birch. The listing describes what is in the capsule as pure chaga extract and says the formulation is free from fillers and additives.",
+      "It does not say which part of the organism the powder is, and it gives no ratio behind the word extract, so neither figure is on this page."
+    ] },
+    { "summary": "How to take it", "body": [
+      "<b>Two capsules a day</b>, with breakfast, and at least 500 ml of water.",
+      "Two is the serving. If you miss a day, take two the next morning rather than four."
+    ] },
+    { "summary": "What is not printed on the label", "body": [
+      "The number of capsules in a jar, which is why there is no supply figure and no cost a day here. The extraction ratio, which is what the word extract would otherwise be telling you. The part used, and the country.",
+      "<a href=\"product-reishi.html\">Reishi</a> and <a href=\"product-mycrodose.html\">Mycrodose</a> both print a count, so both carry a day rate. This one does not."
+    ] },
+    { "summary": "Storage", "body": [
+      "Somewhere dry, out of direct sun, with the lid on. Capsules do not want a fridge."
+    ] },
+    { "summary": "Who should not take it", "body": [
+      "Anyone who reacts to mushrooms. Chaga is also one of the botanicals routinely flagged for oxalate content, so if you have had kidney stones, or you have kidney disease, do not start it without asking your GP.",
+      "The listing asks anyone using insulin or another medicine for blood sugar to watch their blood glucose closely. We would rather you spoke to your GP or pharmacist before you start at all. Not for children, and ask first if you are pregnant or nursing."
+    ] },
+    { "summary": "Delivery and collection", "body": [
+      "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+    ] }
+  ],
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "h": "Step one", "b": "Two capsules, with breakfast.", "p": "That is the serving on the label. The saucer here is a generated scene rather than our jar." },
+      { "img": "gen-morning-water", "alt": "A tall glass of water on a wooden table in low morning light, a generated scene", "h": "Step two", "b": "At least 500 ml of water with them.", "p": "The label asks for spring water. The volume is the part that matters." },
+      { "img": "gen-calendar-desk", "alt": "A date circled in pencil on a paper calendar page beside a pencil. A generated scene", "h": "Step three", "b": "Two a day is two a day.", "p": "A missed morning is not carried forward. Take two the next day rather than four." },
+      { "img": "assets/store.jpg", "alt": "The shop floor at 599 Smithdown Road, shelves along the wall", "h": "Step four", "b": "Dry shelf, lid on, no fridge.", "p": "Capsules keep in a cupboard or on a shelf like the one in the photograph. Out of direct sun is the whole of the trick." }
+    ]
+  },
+  "ingredients": {
+    "h2": "One fungus, <em>and two blanks</em>",
+    "intro": "The listing names one ingredient, calls it an extract and gives a milligram figure. Here is the organism, what that word extract is doing, and the shell it goes into.",
+    "cards": [
+      { "img": "chaga-birch", "alt": "A black chaga conk on a birch trunk", "fam": "Fungus · Hymenochaetaceae", "latin": "Inonotus obliquus", "common": "Chaga", "p": "A fungus of living birch. What you see on the trunk is a hard black mass, cracked like charcoal outside and rust orange inside. Botanists call that mass a sclerotium rather than a fruiting body: the fungus makes its fruiting layer later, under the bark, usually once the tree has died." },
+      { "img": "chaga-chunks", "alt": "Broken chunks of dried chaga", "fam": "Prepared · Called an extract", "latin": "750 mg a capsule", "common": "No ratio printed", "p": "An extract is made by pulling something out of the fungus with hot water or alcohol and drying what comes off, and the ratio says how much fungus went in for each gram that came out. Our listing says extract and prints no ratio, so 750 mg is the weight of the powder and not a measure of what stands behind it. The label does not name the part used either." },
+      { "img": "capsule-scoop", "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene", "fam": "The shell · Vegan", "latin": "The capsule", "common": "No gelatin", "p": "The powder goes into a vegan capsule. The listing says the formulation is free from fillers and additives, and it does not name the shell material, so neither does the sheet below. The capsules in the picture are a generated scene rather than a photograph of ours." }
+    ]
+  },
+  "spec": {
+    "label": "Mushrooms · the birch fungus",
+    "h2": "The specification sheet",
+    "intro": "Everything we can tell you about what is in the jar, including the two figures we cannot give you and why.",
+    "caption": "Chaga Capsules",
+    "rows": [
+      ["Makeup", "One ingredient. <i>Inonotus obliquus</i>, described on the listing as pure chaga extract, in a vegan capsule."],
+      ["Species", "<i>Inonotus obliquus</i>, family Hymenochaetaceae. Chaga is a Russian loan word and the name most of the trade uses."],
+      ["Host tree", "Birch, as printed on the listing."],
+      ["Part used", "Not printed. The black mass on the trunk is a sclerotium rather than a fruiting body, and the label does not say whether that is what is in the capsule."],
+      ["Extract or powder", "The listing says extract and gives no ratio, so there is no way to say how much fungus stands behind 750 mg. A ratio invented for a label is worse than no ratio at all."],
+      ["Strength", "750 mg a capsule, as printed. It is the one jar on this shelf that is not 800 mg."],
+      ["Count", "Not printed. The listing gives no number of capsules, so there is no supply figure and no cost a day on this page."],
+      ["Fill", "The listing says free from fillers and additives."],
+      ["Capsule", "Vegan, as printed. The shell material is not named. <a href=\"product-mycrodose.html\">Mycrodose</a> names its shell; this jar does not."],
+      ["Origin", "Not printed. Birch is named as the host tree, no country is named, and we are not going to name one for it."],
+      ["Price", "£24.99. One size. Without a capsule count there is no day rate to give you."],
+      ["Serving", "Two capsules daily with breakfast, and at least 500 ml of water. The listing says spring water."],
+      ["Storage", "Dry, out of direct sun, lid on. It does not need a fridge."],
+      ["Excipients", "None beyond the capsule shell."],
+      ["Suitable for", "Vegans. Adults."],
+      ["Not for", "Anyone who reacts to mushrooms. Chaga is one of the botanicals routinely flagged for oxalate content, so if you have had kidney stones, or you have kidney disease, do not start it without asking your GP. The listing asks anyone using insulin or another medicine for blood sugar to watch their blood glucose closely; we would rather you spoke to your GP or pharmacist before you start. Not for children. If you are pregnant or nursing, ask before you start."]
+    ],
+    "smallprint": "Contains mushroom, which is an allergen for some people. Do not exceed two capsules a day. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, nursing or taking prescribed medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The species is named in Latin, the host tree is named, the milligrams are printed and the serving is printed. The two figures we cannot give you, the number of capsules in a jar and the ratio behind the word extract, sit on the sheet as blanks rather than guesses. What chaga does in a person is not something we are permitted to say, so it is not on this page."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "The word <em>extract</em>, and what it is doing on this label",
+    "paras": [
+      "Extract is the most load bearing word on this jar and the label does not define it. You make one by pulling something out of the fungus with hot water or with alcohol, then drying what comes off. How much fungus went in for each gram that came out is the ratio, and the ratio is most of the information.",
+      "Ours does not print one. So 750 mg tells you the weight of the powder in the capsule and nothing about what is behind it. That is not unusual and it is not good enough, and the sheet above says so in the row where the number should be.",
+      "The other thing missing is the count. Without it I cannot tell you what a day costs, so I do not. Ring the shop and somebody will count a jar out on the counter for you before you buy it."
+    ],
+    "pull": "750 mg tells you the weight of the powder. The ratio would tell you what is behind it.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> chaga",
+    "rows": [
+      ["Species named in Latin", "Yes, <i>Inonotus obliquus</i>", "Often just chaga"],
+      ["Host tree named", "Yes, birch", "Sometimes named"],
+      ["The part named", "Not printed", "Rarely named"],
+      ["Extract or milled powder, said plainly", "Says extract", "Often left vague"],
+      ["The ratio, if it says extract", "Not printed", "Sometimes a ratio with no method"],
+      ["Count of capsules printed", "Not printed", "Usually printed"],
+      ["Milligrams a capsule printed", "Yes, 750 mg", "Usually printed"],
+      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+    ],
+    "note": "Three of those rows are ours to fix and they stay on the page until the label answers them. The right-hand column is what we most often see on jars customers bring into the shop, not a claim about any particular brand."
+  },
+  "also": {
+    "h2": "Also on the <em>mushroom shelf</em>",
+    "handles": ["reishi", "mycrodose", "lions-mane", "shilajit"]
+  },
+  "jnext": {
+    "article": "journal/lions-mane.html",
+    "label": "From the journal",
+    "h2": "Whole fruiting body, no rice flour",
+    "p": "The article is about lion's mane, and the two phrases it teaches you to look for are the two this jar does not print."
+  },
+  "credits": []
+}

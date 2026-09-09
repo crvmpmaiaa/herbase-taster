@@ -1,0 +1,283 @@
+{
+  "slug": "pancrea",
+  "kind": "supplement",
+  "name": "Pancrea",
+  "title": "Pancrea · Herbal formula capsules · Herbase",
+  "description": "Pancrea, £39.99. Two vegan capsules a day with meals. The listing prints three badges and no ingredient list, so this page prints the gap instead.",
+  "crumb": [
+    "Formulas",
+    "index.html#monograph"
+  ],
+  "price": "£39.99",
+  "unit": "One size · vegan capsules · count and milligrams not printed",
+  "label": "Formulas · what is printed",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "gallery": [
+    {
+      "img": "assets/hero-cosmos.jpg",
+      "alt": "Pale botanical shapes arranged in a ring inside a green and orange nebula on a dark starfield",
+      "cap": "The artwork we use for the formulas shelf. An illustration, not a photograph of the jar."
+    },
+    {
+      "held": true,
+      "cap": "Pack photography is held until the label is reprinted. The other pictures here are the shelf artwork and generated scenes, not photographs of the jar or of any plant in it."
+    },
+    {
+      "img": "gen-capsules-saucer",
+      "alt": "Two capsules on a saucer beside a glass of water on a wooden table",
+      "cap": "Two capsules is the printed serving. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "gen-morning-water",
+      "alt": "A tall glass of water on a wooden table in morning light",
+      "cap": "The listing asks for them with meals. A glass of water alongside is our own habit, not an instruction. A generated scene, not a photograph of our stock."
+    }
+  ],
+  "points": [
+    "<b>Three badges and no list.</b> Vegan, non-GMO and wildcrafted are printed; the plants are not",
+    "<b>Two capsules a day with meals</b>, which is the whole of the printed instruction",
+    "<b>£39.99, one size.</b> No capsule count on the label, so there is no day rate here"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which one jar on its own does not reach",
+    "Every badge on the listing checked against the specification sheet below"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "acc": [
+    {
+      "summary": "What is in it",
+      "body": [
+        "Three badges and no list. The listing prints 100% vegan, non-GMO and wildcrafted botanicals, and does not name one plant in the formula.",
+        "The serving is two capsules a day with meals. The capsule count and the milligrams in a capsule are not printed."
+      ]
+    },
+    {
+      "summary": "How to take it",
+      "body": [
+        "<b>Two capsules a day, with a meal.</b>",
+        "The listing does not say which meal. Two is the serving and the ceiling with it, so a missed day stays a missed day rather than a double dose tomorrow."
+      ]
+    },
+    {
+      "summary": "Storage",
+      "body": [
+        "Not printed on the listing. Dry, out of direct sun and lid on is what we would do with any capsule. No fridge."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "Not for children. If you are pregnant or breastfeeding, or you take prescribed medication, ask your GP or pharmacist before you start.",
+        "A vegan badge tells a pharmacist nothing about what is in the capsule. Without the list, nobody can check this jar against a prescription."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      {
+        "img": "gen-capsules-saucer",
+        "alt": "Two capsules on a saucer beside a glass of water",
+        "h": "Step one",
+        "b": "Two capsules a day",
+        "p": "That is the serving on the listing and the whole of it. The saucer here is a generated scene rather than a photograph of our jar."
+      },
+      {
+        "img": "gen-morning-water",
+        "alt": "A tall glass of water on a wooden table in morning light",
+        "h": "Step two",
+        "b": "With a meal",
+        "p": "The listing says with meals and does not say which one. A glass of water with them is sensible for any capsule. The glass here is a generated scene, not our stock."
+      },
+      {
+        "img": "capsule-scoop",
+        "alt": "Loose capsules and a wooden scoop on dark slate",
+        "h": "Step three",
+        "b": "Do not double up",
+        "p": "Miss a day and take two the next day, not four. The printed serving is the ceiling, whatever the jar turns out to contain. Another generated scene."
+      },
+      {
+        "img": "gen-calendar-desk",
+        "alt": "A date circled in pencil on a paper calendar page",
+        "h": "Step four",
+        "b": "Ask before you start",
+        "p": "If you take prescribed medication, an unprinted list cannot be checked against it by anyone. Ring the shop, or ask your GP or pharmacist. The calendar page is a generated scene."
+      }
+    ],
+    "label": "The routine"
+  },
+  "ingredients": {
+    "h2": "What the listing <em>declares</em>",
+    "intro": "Three badges, in this order: 100% vegan, non-GMO, wildcrafted botanicals. That is the entire declared specification of what is inside. No plant is named, no part of a plant is named, and no amount is given, so the frames below stay empty rather than carry a photograph of something we have guessed at.",
+    "cards": [
+      {
+        "fam": "Not declared",
+        "latin": "No ingredient list",
+        "common": "Ask at the counter",
+        "p": "The listing names no plant in this formula. We will not build a list out of the product name, out of the tags on the shop, or out of what a formula of this kind usually holds. A guessed list reads exactly like a real one, which is the problem with it.",
+        "none": "of a plant the label has not named"
+      },
+      {
+        "fam": "Printed · three badges",
+        "latin": "Vegan, non-GMO, wildcrafted",
+        "common": "What the badges cover",
+        "p": "Vegan describes the capsule shell and the fill. Non-GMO describes the seed stock. Wildcrafted says the plants were gathered rather than farmed. Not one of the three tells you which plants they were, or where.",
+        "none": "these are badges, not a plant"
+      },
+      {
+        "fam": "Printed · the serving",
+        "latin": "Two capsules a day",
+        "common": "Taken with meals",
+        "p": "The serving is printed in full and nothing else about the dose is. There is no capsule count for the jar and no milligram figure for a capsule, so there is no way to work out what two capsules weigh.",
+        "none": "this card is the serving, not a plant"
+      }
+    ],
+    "label": "What is on the inside"
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      [
+        "Makeup",
+        "Not printed. The listing does not name a single plant in this formula."
+      ],
+      [
+        "Name",
+        "Pancrea is the product name and is used here as a name only. This page does not say what the formula is for, because we are not permitted to say it and would not guess."
+      ],
+      [
+        "Form",
+        "Vegan capsules, as printed. The shell material is not named, so we do not name one."
+      ],
+      [
+        "Count and strength",
+        "Not printed. No capsule count and no milligrams per capsule, so there is no cost per day on this page."
+      ],
+      [
+        "Serving",
+        "Two capsules a day with meals, as printed. The listing does not say which meal."
+      ],
+      [
+        "Supply",
+        "Not printed. Without a count, how long a jar lasts is a guess."
+      ],
+      [
+        "Sourcing",
+        "Wildcrafted botanicals and non-GMO, as printed on the listing. No country, no harvest record, no species."
+      ],
+      [
+        "Storage",
+        "Not printed. Dry, out of direct sun, lid on is what we would do with any capsule."
+      ],
+      [
+        "Excipients",
+        "Not printed. Nothing is declared as a filler and nothing is declared as absent."
+      ],
+      [
+        "Price",
+        "£39.99. One size."
+      ],
+      [
+        "Suitable for",
+        "Vegans, as the listing states. Adults."
+      ],
+      [
+        "Not for",
+        "Children. If you are pregnant or breastfeeding, or you take prescribed medication, ask your GP or pharmacist before you start. An unprinted list cannot be checked against a prescription, which is a reason to ask rather than to assume."
+      ]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "What we have to publish here is three badges and a serving. The sheet says not printed wherever that is the truth, including for the list of plants, and the page carries no sentence about what the formula is for. Badges are easy to print. A list is the hard part, and it is the part that is missing."
+    },
+    "intro": "Three badges, a serving and a price is the whole of what this listing gives us. The rest of the sheet says so."
+  },
+  "reiss": {
+    "label": "From Reiss",
+    "h2": "Three badges are <em>not a list</em>",
+    "paras": [
+      "Vegan, non-GMO, wildcrafted. I have printed all three on this page because the listing prints them and they are checkable, and I have then had to write the same sentence three times: none of them tells you what is in the jar. A capsule can be vegan and contain nine plants I have not named, and it would still carry every badge.",
+      "The reason a list matters is dull and practical. Somebody comes into the shop on four prescriptions and asks whether this one is all right alongside them. With a list I can read it out and they can take it to a pharmacist. Without one, the only honest answer is that nobody can tell, and I would rather say that on the page than at the till after the money has changed hands.",
+      "So the sheet above prints what exists and leaves the rest blank. If the label prints a list, it goes on here in full, in Latin, with the part of each plant named, in the order it is declared. That is what the Decolonise sheet looks like and it is what this one should look like."
+    ],
+    "pull": "A capsule can carry every badge on the shelf and still not tell you what is in it.",
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> unnamed formula",
+    "rows": [
+      [
+        "Every ingredient named",
+        "Not printed",
+        "Usually a list, sometimes a blend name"
+      ],
+      [
+        "Latin names given",
+        "Not printed",
+        "Common names only"
+      ],
+      [
+        "Part of the plant named",
+        "Not printed",
+        "Rarely stated"
+      ],
+      [
+        "Milligrams per capsule",
+        "Not printed",
+        "Usually printed"
+      ],
+      [
+        "Capsule count and days stated",
+        "Not printed",
+        "Usually printed"
+      ],
+      [
+        "Capsule shell named",
+        "Vegan, as printed",
+        "Often gelatin"
+      ],
+      [
+        "A daily ceiling on the pack",
+        "Two a day",
+        "\"Take as needed\""
+      ],
+      [
+        "Somebody to ask, at a counter",
+        "✓",
+        "A contact form"
+      ]
+    ],
+    "note": "Five of those eight rows are ours to fix and they stay on the page until the label prints them. The right hand column is what we usually see on jars customers bring into the shop, not a claim about any particular brand.",
+    "intro": "Ours, next to what we usually see on jars that people bring into the shop. The rows we fail are the rows the label has not printed."
+  },
+  "also": {
+    "h2": "Also on the <em>formula shelf</em>",
+    "handles": [
+      "nutropic",
+      "respire",
+      "prostrate",
+      "decolonise"
+    ],
+    "intro": "Four more from the formula shelf. Prices as listed."
+  },
+  "jnext": {
+    "article": "journal/decolonise-stop-date.html",
+    "label": "From the journal",
+    "h2": "What a printed list looks like",
+    "p": "Nine ingredients counted, one of them wormwood, and the reason that jar carries a stop date instead of a subscription.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

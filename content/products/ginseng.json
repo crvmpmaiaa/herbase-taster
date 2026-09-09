@@ -1,0 +1,102 @@
+{
+  "slug": "ginseng",
+  "kind": "supplement",
+  "name": "Ginseng",
+  "title": "Ginseng · Root capsules · Herbase",
+  "description": "Ginseng capsules, 50 at 800 mg, 25 days, £19.99. The listing names two different plants, Siberian and Panax, so this page names neither until it is settled.",
+  "crumb": ["Botanicals", "index.html#best"],
+  "price": "£19.99",
+  "unit": "50 capsules · 25 days · 80p a day",
+  "gallery": [
+    { "img": "assets/hero-root.jpg", "alt": "Bark and root pieces at the edge of a painted nebula", "cap": "The painted illustration for the botanical shelf. It stands in for a pack photograph we do not have." },
+    { "img": "ginseng-root", "alt": "A whole dried ginseng root, pale and forked", "cap": "A dried root of Panax ginseng, one of the two plants this listing names. It is not a photograph of our material and it is not our answer to which species is in the jar." },
+    { "img": "ginseng-plant", "alt": "A ginseng plant with a cluster of red berries above whorled leaves", "cap": "The same species growing, with the head of red berries it carries in late summer. Photographed by somebody else and credited at the foot of the page." },
+    { "img": "capsule-scoop", "alt": "Loose capsules and a wooden scoop on dark slate", "cap": "A scoop of loose capsules on slate. A generated scene rather than our jar tipped out." },
+    { "held": true }
+  ],
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "points": [
+    "<b>50 vegan capsules at 800 mg</b>, with no fillers declared on the listing",
+    "<b>Two capsules a day</b>, morning or early afternoon, 25 days on and five off",
+    "<b>The species is unsettled.</b> The heading names Siberian ginseng and the text names <i>Panax ginseng</i>. Those are two plants"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday. If you are on warfarin or any other anticoagulant, ask your GP or pharmacist before you ring us.",
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "h": "Step one", "b": "Two capsules a day.", "p": "That is the printed serving and it is also the printed ceiling. The saucer here is a generated scene, not ours." },
+      { "img": "gen-morning-water", "alt": "A tall glass of water on a wooden table in low morning light, a generated scene", "h": "Step two", "b": "Morning or early afternoon, with water.", "p": "Those are the hours the listing prints, and it advises against taking it in the evening. Give the capsules a full glass either way." },
+      { "img": "gen-calendar-desk", "alt": "A date circled in pencil on a paper calendar page, a generated scene", "h": "Step three", "b": "Twenty five days, then five off.", "p": "Fifty capsules at two a day comes out at exactly 25 days, and the listing prints a five day break at the end of them." },
+      { "img": "assets/store.jpg", "alt": "The shop floor at 599 Smithdown Road, shelves along the wall", "h": "Step four", "b": "Lid on, dry shelf, out of the sun.", "p": "No storage instruction is printed, so here is the ordinary one. A dry shelf, away from the window. The shelves in the photograph are ours, on Smithdown Road." }
+    ]
+  },
+  "ingredients": {
+    "h2": "Two names, <em>one jar</em>",
+    "intro": "This section usually holds a species and the part of it that goes in the capsule. This one holds a problem instead. The listing names two plants from two genera, so both are set out here, and the jar is credited to neither until the label settles it.",
+    "cards": [
+      { "img": "ginseng-plant", "alt": "A ginseng plant with a cluster of red berries above whorled leaves", "fam": "Named in the text · Araliaceae", "latin": "Panax ginseng", "common": "Korean ginseng", "p": "A slow perennial herb of the woodlands of Korea and north east China, with leaflets in whorls of five and a tight head of red berries in late summer. The fleshy root is the part the trade wants, and it sits in the ground four to six years before it is worth lifting. This is the plant our listing names in its body copy, five times." },
+      { "img": "ginseng-root", "alt": "A whole dried ginseng root, pale and forked", "fam": "The part · Root", "latin": "The root, dried", "common": "Not printed on our label", "p": "A dried Panax root: pale, forked, heavy for its size. This is roughly what the raw material looks like before milling, if the jar is Panax. Our listing prints no part used at all, so the sheet below does not state one, and this photograph is of the species rather than of anything in our sacks." },
+      { "img": "capsule-scoop", "alt": "Loose capsules and a wooden scoop on dark slate", "fam": "Named in the heading · Not pictured", "latin": "Eleutherococcus senticosus", "common": "Siberian ginseng", "p": "The other name on the listing, and a different plant. Eleutherococcus is a thorny shrub of the Russian Far East, north east China, Korea and northern Japan, and the root and rhizome are what is sold from it. Same family as Panax, different genus, and not a true ginseng at all. We have no photograph of it, so this frame shows capsules rather than pretending otherwise." },
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "fam": "The shell · Vegan", "latin": "The capsule", "common": "800 mg of contents", "p": "Fifty vegan capsules at 800 mg each, and the listing prints no fillers. The shell material is not named on the listing, so the sheet does not name one. The capsules in the picture are a generated scene rather than a photograph of ours." }
+    ]
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      ["Makeup", "One botanical at 800 mg a capsule, in a vegan capsule, with no fillers declared. Which botanical is the open question in the next row."],
+      ["Species", "Unsettled. The listing heads the product Ginseng (Siberian), which is <i>Eleutherococcus senticosus</i>, then names <i>Panax ginseng</i> five times in the text. Two genera, one family, Araliaceae, and they are not interchangeable in the trade or in the price. Until the label settles it, this sheet names neither."],
+      ["What points which way", "The listing's own compound list names ginsenosides, which belong to <i>Panax</i> and not to <i>Eleutherococcus</i>. That is a pointer, not a printed species, so it stays out of the row above."],
+      ["Part used", "Not printed. Both candidates are sold as root, and neither the heading nor the text says root."],
+      ["Strength", "800 mg a capsule, as printed."],
+      ["Count", "50 vegan capsules, as printed."],
+      ["Supply", "25 days at two capsules a day. The listing prints 25 days on and five days off."],
+      ["Weight", "Listed at 100 g for the pack as it ships. The contents are 50 × 800 mg, which is 40 g."],
+      ["Fillers", "None. The listing prints no fillers."],
+      ["Capsule", "Vegan. The shell material is not named on the listing, so it is not named here."],
+      ["Origin", "Not printed. Neither of the two candidate species carries a country on this listing."],
+      ["Minerals", "The listing prints a potassium figure for 100 g of raw root. That is not a figure for a capsule, and a number that is not per serving cannot be read off a label, so it is not on this sheet."],
+      ["Price", "£19.99. One size. Two capsules a day across 25 days is 80p a day."],
+      ["Serving", "Two capsules a day, morning or early afternoon. The listing advises against taking it in the evening."],
+      ["Storage", "The listing prints none. A closed jar on a dry shelf, away from direct sun. It does not want a fridge."],
+      ["Suitable for", "Vegans. Adults."],
+      ["Not for", "Not alongside warfarin or any other anticoagulant unless your GP has said otherwise. Not in pregnancy or while breastfeeding. Not for children. If you take any prescribed medicine, or you are under a specialist for anything at all, ask your GP or pharmacist before you start."]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "Every sheet on this site is supposed to open with a species. This one cannot, because the listing names two, and we would rather print the contradiction than quietly pick the one that reads better. The count, the milligrams, the serving, the schedule and the price are all printed and all checkable. What ginseng of either kind does in a person is not something we are permitted to say, so it is not here."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "Two plants, <em>one label</em>",
+    "paras": [
+      "The heading on our own listing says Siberian. The body says Panax, five times over. Siberian ginseng is <i>Eleutherococcus senticosus</i>, a thorny shrub out of the Russian Far East. <i>Panax ginseng</i> is a slow woodland herb from Korea and north east China that needs six years in the ground before the root is worth lifting. They share a plant family and very little else that matters at a counter, the price of the raw material included, and that gap is not small.",
+      "I could have picked one quietly. Panax is the likelier of the two, because the listing's own compound list names ginsenosides and ginsenosides are Panax compounds. But likelier is not printed. If I put Panax on the sheet I have written a specification out of an inference, and the whole point of a sheet is that you can hold it against the jar. So the row says unsettled, and it will keep saying unsettled until there is a supplier document on the counter that says otherwise.",
+      "If you have a jar of this at home already and you want to know which plant you have, ring the shop. I will tell you what I know and what I do not, which is what this page has just done at greater length."
+    ],
+    "pull": "Likelier is not printed.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> ginseng",
+    "rows": [
+      ["Species named in Latin", "Two are named, which is one too many", "Often the common name only"],
+      ["Panax and Siberian told apart", "Not yet, and the sheet says so", "Frequently blurred"],
+      ["Part named: root or rhizome", "Not printed", "Root, where it is stated at all"],
+      ["Milligrams a capsule printed", "800 mg", "Per serving, if at all"],
+      ["Capsule count and days stated", "50 · 25 days", "Count only"],
+      ["A daily ceiling on the label", "Yes, two capsules", "\"Take as needed\""],
+      ["Anticoagulant warning given up front", "Yes, above and on the sheet", "Buried or absent"],
+      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+    ],
+    "note": "The first three rows are ours to fix and they are the reason this page reads the way it does. The right-hand column is what we most often see on jars customers bring into the shop. It is not a claim about any particular brand, and plenty of jars out there tick every box."
+  },
+  "also": {
+    "h2": "Also on the <em>root shelf</em>",
+    "handles": ["astragalus", "ashwagandha", "gotu-kola", "shilajit"]
+  },
+  "jnext": null,
+  "credits": []
+}

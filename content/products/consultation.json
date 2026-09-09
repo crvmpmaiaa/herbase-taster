@@ -1,0 +1,147 @@
+{
+  "slug": "consultation",
+  "kind": "object",
+  "name": "One Hour Consultation",
+  "title": "One Hour Consultation · An hour by private audio call · Herbase",
+  "description": "One hour with Reiss Davies Ausar on a private audio call, £120.00. Booked here, then arranged by email. It is not a medical appointment.",
+  "crumb": ["Services", "shop.html#objects"],
+  "price": "£120.00",
+  "unit": "One hour · private audio call · arranged by email",
+  "label": "The consultation · what is printed",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about the hour",
+  "gallery": [
+    {
+      "img": "assets/apothecary.jpg",
+      "alt": "Reiss Davies Ausar behind the counter at Herbase, Smithdown Road",
+      "cap": "Reiss behind the counter on Smithdown Road. The hour itself happens on the phone, not here."
+    },
+    {
+      "img": "gen-consult-table",
+      "alt": "A closed notebook and pencil, a glass of water and a sprig of herb on a bare wooden table by a window",
+      "cap": "Bring the questions written down. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "gen-calendar-desk",
+      "alt": "A date circled in pencil on a paper calendar page beside a pencil",
+      "cap": "You choose the time after booking, by email. A generated scene, not a photograph of our diary."
+    },
+    {
+      "img": "assets/store.jpg",
+      "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
+      "cap": "The shop. A question at this counter is free, and for a good many questions it is the right length."
+    }
+  ],
+  "points": [
+    "<b>One hour</b>, on a private audio call. Not in the shop and not on video, as the listing describes it",
+    "<b>Booked here, arranged afterwards.</b> An email follows the booking with instructions for choosing a time",
+    "<b>£120.00</b>, with Reiss Davies Ausar C.P.T, which is how the listing prints the name"
+  ],
+  "perks": [
+    "Booked on this page, then a time arranged by email",
+    "One hour, on a private audio call",
+    "Ring the shop on 07946 806533 first if you want to know what it covers"
+  ],
+  "cta": "Book the hour",
+  "note": "<b>Not sure it is the right thing to buy?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask before you book. Some questions take two minutes at the counter and cost nothing.",
+  "acc": [
+    {
+      "summary": "What happens",
+      "body": [
+        "You book it here. An email follows with instructions for choosing a time that suits you. At the time you chose, the call happens, and it runs for an hour.",
+        "Bring your questions written down. An hour goes quickly, and most people spend the first ten minutes remembering what they meant to ask."
+      ]
+    },
+    {
+      "summary": "What it is not",
+      "body": [
+        "<b>It is not a medical appointment.</b> Nothing said in the hour is a diagnosis, a prescription, or a reason to stop or change anything you have been prescribed.",
+        "If you take prescribed medication, your GP and your pharmacist are the two people who can check anything against it. If what you need is urgent, ring 111 or your surgery rather than booking an hour."
+      ]
+    },
+    {
+      "summary": "What is not printed",
+      "body": [
+        "Whether the call is recorded, whether you are sent notes afterwards, what happens if you need to move the time, how far ahead the diary runs, and what the letters after the name stand for.",
+        "None of that is on the listing, so none of it is promised here. Ring the shop and ask before you book if any of it decides the matter for you."
+      ]
+    },
+    {
+      "summary": "Where it happens",
+      "body": [
+        "On a private audio call, not in the shop. The listing does not name the platform it is made on or say who rings whom.",
+        "If you would rather ask at a counter, the shop is at 599 Smithdown Road, Liverpool, open 10 to 6, any day except Monday."
+      ]
+    }
+  ],
+  "spec": {
+    "label": "Services · 01",
+    "h2": "The specification sheet",
+    "intro": "An hour is a length of time. What can be specified about it is how long, how much, where and how it is arranged, and those are the first four rows.",
+    "caption": "One Hour Consultation",
+    "rows": [
+      ["Duration", "One hour, as printed."],
+      ["Price", "£120.00 for the hour. One option on the listing, with no half hour and no follow up offered."],
+      ["Where", "A private audio call. Not in the shop, and the listing does not offer the hour in person or on video."],
+      ["Booking", "Booked on the listing. An email follows with instructions for choosing a time that suits you."],
+      [
+        "What happens",
+        "You bring the questions and you ask them for an hour. That is the process as the listing describes it, and this page does not tell you what you will come away with."
+      ],
+      ["With", "Reiss Davies Ausar C.P.T. The letters are printed on the listing and the listing does not say what they stand for."],
+      ["Recording", "Not printed. The listing does not say whether the call is recorded or whether notes follow it."],
+      ["Cancellation", "Not printed. No cancellation, refund or rescheduling terms appear on the listing."],
+      ["Lead time", "Not printed. The listing does not say how far ahead the diary is booked."],
+      ["It is not", "A medical appointment, a diagnosis or a prescription. Nothing said in the hour replaces your GP, your pharmacist, or any treatment you are already on."],
+      ["Not for", "Anybody who needs a diagnosis or urgent help. That is a GP, a pharmacist or 111, not an hour on the phone with a shopkeeper."]
+    ],
+    "smallprint": "Herbase, 599 Smithdown Road, Liverpool L15 5AP.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The listing for this hour is written almost entirely in outcomes: what you will gain, what you will come away with, what will be tailored to you. None of that is on this page, because an outcome sold in advance is a promise, and an hour of conversation cannot carry one. What is here is the length, the price, the way it is arranged and the rows the listing leaves empty."
+    }
+  },
+  "reiss": {
+    "label": "From Reiss",
+    "h2": "What an hour <em>is, and is not</em>",
+    "paras": [
+      "An hour on the phone is an hour of questions answered by somebody who reads labels for a living and has spent a long time behind a counter. It is not an appointment, I am not your doctor, and if what you actually need is a diagnosis then this is the wrong thing to buy and I will tell you so in the first five minutes rather than the last.",
+      "The listing sets out at length what you are meant to get out of it. That part is not on this page. What is here is how long it lasts, what it costs, how it is arranged, and the things nobody has written down yet, such as whether you get notes afterwards and what happens if you have to move the time."
+    ],
+    "pull": "I am not your doctor. If what you need is a diagnosis, this is the wrong thing to buy.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "also": {
+    "h2": "Also on the <em>objects shelf</em>",
+    "intro": "Four more from the shelf that is not a supplement. Prices as listed.",
+    "handles": [
+      {
+        "handle": "detox-redox-book",
+        "alt": "Pale botanical shapes in a ring inside a green and orange nebula",
+        "sub": "100 pages, full colour, written by Reiss Davies Ausar."
+      },
+      {
+        "handle": "ripple-effect-book",
+        "alt": "Pale botanical shapes in a ring inside a green and orange nebula",
+        "sub": "Paperback, the second book by Reiss Davies. Page count not printed."
+      },
+      {
+        "handle": "shungite-stone",
+        "alt": "Dark mineral fragments at the edge of a painted nebula",
+        "sub": "One piece of shungite, about 20 to 30 g. Dimensions not printed."
+      },
+      {
+        "handle": "galaxeye-tshirt",
+        "alt": "Pale botanical shapes in a ring inside a green and orange nebula",
+        "sub": "Black tee, cotton blend, unisex fit. Sizes not printed."
+      }
+    ]
+  },
+  "jnext": {
+    "article": "journal/who-should-not.html",
+    "label": "From the journal",
+    "h2": "Who should <em>not take what</em>",
+    "p": "The cautions across the shelf, family by family, and the sentence to say at a counter before you buy anything. It answers the commonest question of the hour, and it costs nothing to read.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

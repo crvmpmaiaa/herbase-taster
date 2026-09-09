@@ -1,0 +1,99 @@
+{
+  "slug": "gumbo-limbo",
+  "kind": "supplement",
+  "name": "Gumbo Limbo",
+  "title": "Gumbo Limbo · Bursera simaruba capsules · Herbase",
+  "description": "Gumbo Limbo capsules. Bursera simaruba, £29.99. The listing prints two schedules and no capsule count, no milligrams and no part of the tree.",
+  "crumb": ["Botanicals", "index.html#best"],
+  "price": "£29.99",
+  "unit": "One size · count and milligrams not printed yet",
+  "gallery": [
+    { "img": "assets/hero-root.jpg", "alt": "Bark and root pieces at the edge of a painted nebula", "cap": "The botanical shelf illustration. There is no photograph of this jar anywhere on the site." },
+    { "img": "gumbo-limbo-tree", "alt": "The trunk of a Bursera simaruba, coppery bark peeling away in thin papery sheets", "cap": "Bursera simaruba, and the peeling bark it is known by. A photograph of the species, taken by somebody else and credited at the foot of the page." },
+    { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "cap": "Capsules and water. A generated scene, and neither the saucer nor the capsules are ours." },
+    { "img": "capsule-scoop", "alt": "Loose capsules and a wooden scoop on dark slate", "cap": "Capsules and a wooden scoop. A generated scene; ours have never been photographed." },
+    { "held": true }
+  ],
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "points": [
+    "<b>One botanical</b>, <i>Bursera simaruba</i>, with no fillers and no additives declared",
+    "<b>Two printed schedules</b>: two capsules morning and evening for 10 days, or two a day for 20 days",
+    "<b>No count and no milligrams.</b> Neither figure is on the listing, so there is no cost a day here"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through what is and is not on this label.",
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "h": "Step one", "b": "Pick one of the two printed schedules.", "p": "Two capsules morning and evening for 10 days, or two capsules a day for 20 days. Those are the listing's two and they are alternatives, not a pair to run together." },
+      { "img": "gen-morning-water", "alt": "A tall glass of water on a wooden table in low morning light, a generated scene", "h": "Step two", "b": "At least 500 ml of water each time.", "p": "The listing prints that volume with every serving on both schedules, and it is the one instruction it repeats." },
+      { "img": "gen-calendar-desk", "alt": "A date circled in pencil on a paper calendar page, a generated scene", "h": "Step three", "b": "Mark the last day before you start.", "p": "Ten days or twenty. Both schedules have an end printed on them, which is more than most labels of this kind give you." },
+      { "img": "gen-bathroom-shelf", "alt": "A small jar on a marble bathroom sill beside a folded cloth and a bristle brush, the window running with condensation, a generated scene", "h": "Step four", "b": "Lid on, dry shelf, out of the sun.", "p": "No storage line is printed, so here is the ordinary one. Anywhere dry. The generated scene here, with condensation running down the window, is the one place it should not go." }
+    ]
+  },
+  "ingredients": {
+    "h2": "One tree, <em>named</em>",
+    "intro": "One botanical, named in Latin on the listing, and a label that stops there. Here is the tree, the question of which part of it is in the capsule, and the figures that are missing.",
+    "cards": [
+      { "img": "gumbo-limbo-tree", "alt": "The trunk of a Bursera simaruba, coppery bark peeling away in thin papery sheets", "fam": "Tree · Burseraceae", "latin": "Bursera simaruba", "common": "Gumbo limbo", "p": "A fast growing tree of the Caribbean, southern Florida, Mexico and Central America, at home on limestone and along the edges of dry forest. The bark is smooth and coppery and lifts away in thin papery sheets, which is how you place it at a distance and where its nicknames come from. It is often used as a living fence post, because a cut branch pushed into the ground will take root and grow." },
+      { "img": "capsule-scoop", "alt": "Loose capsules and a wooden scoop on dark slate", "fam": "The part used · Not printed", "latin": "Not named on the label", "common": "Which part of the tree", "p": "Bark and leaf are the two parts this tree is traded for, and they are not the same material. Our listing names the species, calls the contents 100 per cent pure, and never says pure what. So this page does not say either. The capsules in the picture are a generated scene rather than a photograph of ours." },
+      { "img": "gen-spice-bowls", "alt": "Clove buds, black peppercorns and a pale flecked powder in three small bowls on a wooden sill, a generated scene", "fam": "Prepared · Milled", "latin": "No strength printed", "common": "Milligrams missing", "p": "There are no milligrams a capsule on this listing and no capsule count either, which between them make a serving weight and a cost a day impossible to work out. The bowls in the picture are a generated scene and none of the powder in them is ours." },
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "fam": "The shell · Not stated", "latin": "The capsule", "common": "No vegan mark", "p": "The listing prints no fillers and no additives, and it does not say what the shell is made from or whether it is vegan. Several of our other jars print that mark. This one does not, so it is not on the sheet below." }
+    ]
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      ["Makeup", "One botanical. <i>Bursera simaruba</i>, described on the listing as 100 per cent pure and free from fillers and additives."],
+      ["Species", "<i>Bursera simaruba</i> (L.) Sarg., family Burseraceae. The listing prints the binomial and it is the accepted one."],
+      ["Part used", "Not printed. The tree is traded for its bark and for its leaf, and the listing names neither."],
+      ["Strength", "Not printed. The listing carries no milligrams a capsule, so a serving cannot be weighed out of it."],
+      ["Count", "Not printed. Both printed schedules happen to come to forty capsules, which is arithmetic rather than a count, so forty does not go on this sheet."],
+      ["Supply", "10 days on the four a day schedule, or 20 days on the two a day. With no count there is no cost a day on this page."],
+      ["Fillers", "None. The listing prints free from fillers or additives."],
+      ["Capsule", "Not stated. The listing does not name the shell material and carries no vegan mark, so neither does this sheet."],
+      ["Origin", "Not printed. The listing places the tree in the Caribbean and Central America, which is where the species grows. Where the material in this jar was gathered is not stated."],
+      ["Price", "£29.99. One size. That is the top of our single botanical range, level with Anamu, and with no count printed there is no way to say what it buys."],
+      ["Serving", "Two printed schedules. Two capsules in the morning and two in the evening for 10 days, or two capsules a day for 20 days. At least 500 ml of water with each serving on either one."],
+      ["Storage", "Not printed on the listing. Closed jar, dry shelf, out of the light. No refrigeration."],
+      ["Suitable for", "Adults."],
+      ["Not for", "Not in pregnancy or while breastfeeding. Not for children. If you take any prescribed medicine, ask your GP or pharmacist before you start. Both printed schedules are short courses with an end date on them; when the days are up, stop."]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The species is named in Latin and both schedules are printed exactly as the listing prints them. The count, the milligrams and the part of the tree are named as missing rather than estimated, and the arithmetic that would guess the count is shown once and then kept off the sheet. What gumbo limbo does in a person is not something we are permitted to say. The live listing says a great deal about it, and none of that has been carried over here."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "Forty capsules, <em>probably</em>",
+    "paras": [
+      "Both schedules on this listing come to forty capsules. Two in the morning and two at night for ten days is forty. Two a day for twenty days is forty. That is not a coincidence and anybody who has ever filled a jar can see what it means. It still does not go on the sheet, because a number I worked out on the back of an envelope is not a number you can hold the jar against.",
+      "The rest of what is missing is more ordinary and more irritating. No milligrams. No part of the tree, which matters here more than it does on most labels, because gumbo limbo is traded as bark and as leaf and the two are different material at different prices. At £29.99 this is the top of our single botanical range and it carries one of the thinnest labels on the shelf, which is the wrong way round and is on my list.",
+      "The tree itself I will happily talk about all afternoon. You see them across the Caribbean, coppery and peeling, and people push cut branches into the ground as fence posts because the branches root and turn into trees. What the capsules do once you have swallowed them is not mine to tell you, and I will not guess at it the way I will not guess at the count."
+    ],
+    "pull": "A number worked out on the back of an envelope is not a specification.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> bark capsule",
+    "rows": [
+      ["Species named in Latin", "Yes, <i>Bursera simaruba</i>", "Often the common name only"],
+      ["Part named: bark or leaf", "Not printed", "Frequently unstated"],
+      ["Milligrams a capsule printed", "Not printed", "Usually printed"],
+      ["Capsule count printed", "Not printed", "Usually printed"],
+      ["A schedule with an end date", "Yes, both of them", "Open ended"],
+      ["Fillers named or ruled out", "None declared", "\"Proprietary blend\""],
+      ["Vegan shell stated", "Not stated", "Usually stated"],
+      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+    ],
+    "note": "Four of those rows are ours to fix, and they stay here until the label prints the figures. The right-hand column is what we most often see on jars customers bring into the shop. It is not a claim about any particular brand."
+  },
+  "also": {
+    "h2": "Other <em>barks and herbs</em>",
+    "handles": ["pau-darco", "anamu", "chanca-piedra", "acacia-bark"]
+  },
+  "jnext": null,
+  "credits": []
+}

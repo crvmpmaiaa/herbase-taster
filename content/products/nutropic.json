@@ -1,0 +1,287 @@
+{
+  "slug": "nutropic",
+  "kind": "supplement",
+  "name": "Nutropic",
+  "title": "Nutropic · Herbal formula capsules · Herbase",
+  "description": "Nutropic, £39.99. Two capsules a day with 500 ml of water. The listing prints no ingredient list, no count and no milligrams, so neither does this page.",
+  "crumb": [
+    "Formulas",
+    "index.html#monograph"
+  ],
+  "price": "£39.99",
+  "unit": "One size · capsules · count and milligrams not printed",
+  "label": "Formulas · what is printed",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "gallery": [
+    {
+      "img": "assets/hero-cosmos.jpg",
+      "alt": "Pale botanical shapes arranged in a ring inside a green and orange nebula on a dark starfield",
+      "cap": "The artwork we use for the formulas shelf. An illustration, not a photograph of the jar."
+    },
+    {
+      "held": true,
+      "cap": "Pack photography is held until the label is reprinted. The other pictures here are the shelf artwork and generated scenes, not photographs of the jar or of any plant in it."
+    },
+    {
+      "img": "gen-capsules-saucer",
+      "alt": "Two capsules on a saucer beside a glass of water on a wooden table",
+      "cap": "Two capsules is the printed serving. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "gen-morning-water",
+      "alt": "A tall glass of water on a wooden table in morning light",
+      "cap": "The listing asks for 500 ml of water with them. A generated scene, not a photograph of our stock."
+    }
+  ],
+  "points": [
+    "<b>The ingredient list is not printed</b> on the current listing, so it is not on this page either",
+    "<b>Two capsules a day</b>, with at least 500 ml of water. That is the whole of the printed instruction",
+    "<b>£39.99, one size.</b> No capsule count on the label, so there is no day rate here"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which one jar on its own does not reach",
+    "Every gap on the label named on the specification sheet below"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "acc": [
+    {
+      "summary": "What is in it",
+      "body": [
+        "The listing does not name a single plant in this formula, so this page does not name one either. What it does print is the serving: two capsules a day with at least 500 ml of water.",
+        "If you want the list before you buy, ring the shop and somebody will go and read you what is written on the sack."
+      ]
+    },
+    {
+      "summary": "How to take it",
+      "body": [
+        "<b>Two capsules a day</b>, with at least 500 ml of water.",
+        "The listing gives no time of day. Two is the serving and the ceiling with it: if you miss a day, take two the next day rather than four."
+      ]
+    },
+    {
+      "summary": "Storage",
+      "body": [
+        "Not printed on the listing. Dry, out of direct sun and lid on is what we would do with any capsule, and a capsule needs no fridge."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "Not for children. If you are pregnant or breastfeeding, or you take prescribed medication, ask your GP or pharmacist before you start.",
+        "An unprinted ingredient list cannot be checked against a prescription by anybody, including us. That is a reason to ask first rather than to assume."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      {
+        "img": "gen-capsules-saucer",
+        "alt": "Two capsules on a saucer beside a glass of water",
+        "h": "Step one",
+        "b": "Two capsules a day",
+        "p": "That is the serving the listing prints, and it prints nothing about the time of day. The saucer here is a generated scene, not our jar."
+      },
+      {
+        "img": "gen-morning-water",
+        "alt": "A tall glass of water on a wooden table in morning light",
+        "h": "Step two",
+        "b": "At least 500 ml of water",
+        "p": "The listing asks for spring water. Tap water is water. The glass here is a generated scene rather than a photograph of ours."
+      },
+      {
+        "img": "capsule-scoop",
+        "alt": "Loose capsules and a wooden scoop on dark slate",
+        "h": "Step three",
+        "b": "Do not double up",
+        "p": "If you miss a day, take two the next day rather than four. Two a day is the ceiling on the listing, not a starting figure. Another generated scene."
+      },
+      {
+        "img": "gen-calendar-desk",
+        "alt": "A date circled in pencil on a paper calendar page",
+        "h": "Step four",
+        "b": "Ask before you start",
+        "p": "Nobody can check an unprinted ingredient list against what you already take. Ring the shop, or ask your GP or pharmacist first. The calendar page is a generated scene."
+      }
+    ],
+    "label": "The routine"
+  },
+  "ingredients": {
+    "h2": "What the listing <em>declares</em>",
+    "intro": "Nothing, is the short answer. The listing for this jar names no plant, no part of a plant and no amount, so there is no ingredient card here with a species on it. The frames below are left empty rather than filled with a plant we have guessed at from the name on the front. If you want the list before you buy, ask at the counter and somebody will go and look at the sack.",
+    "cards": [
+      {
+        "fam": "Not declared",
+        "latin": "No ingredient list",
+        "common": "Ask at the counter",
+        "p": "The listing prints no ingredients at all for this formula. We are not going to reconstruct one from the product name, from the tags on the shop, or from what a formula of this kind usually contains. An invented list is worse than a blank one.",
+        "none": "of a plant the label has not named"
+      },
+      {
+        "fam": "Printed · the serving",
+        "latin": "Two capsules a day",
+        "common": "With 500 ml of water",
+        "p": "The serving is the one instruction the listing gives in full. It does not say at what time, how many capsules are in a jar, or how many milligrams each capsule holds.",
+        "none": "this card is the serving, not a plant"
+      },
+      {
+        "fam": "Not declared · the shell",
+        "latin": "The capsule",
+        "common": "Material not named",
+        "p": "The listing calls them capsules and stops there. It does not say vegan and it does not name the shell material, so this page does not name one. The other formulas on the shelf do print a vegan capsule; this one has not caught up.",
+        "none": "this card is the capsule, not a plant"
+      }
+    ],
+    "label": "What is on the inside"
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      [
+        "Makeup",
+        "Not printed. The listing does not name a single ingredient in this formula."
+      ],
+      [
+        "Name",
+        "Nutropic is the product name and nothing else on this page. We do not say what the formula is for, because we are not permitted to and would not guess."
+      ],
+      [
+        "Form",
+        "Capsules. The listing does not say whether the shell is vegan, so we do not say it either."
+      ],
+      [
+        "Count and strength",
+        "Not printed. No capsule count, no milligrams per capsule, and therefore no cost per day on this page."
+      ],
+      [
+        "Serving",
+        "Two capsules a day with at least 500 ml of water, as printed. The listing gives no time of day."
+      ],
+      [
+        "Supply",
+        "Not printed. Without a count there is no way to say how long a jar lasts."
+      ],
+      [
+        "Sourcing",
+        "The listing describes the plants as wild. It does not say which plants, or where they were gathered, so that is as far as this row goes."
+      ],
+      [
+        "Storage",
+        "Not printed. Dry, out of direct sun and lid on is what we would do with any capsule."
+      ],
+      [
+        "Excipients",
+        "Not printed. Nothing is declared as a filler and nothing is declared as absent."
+      ],
+      [
+        "Other figures",
+        "The only weight on the listing is a 10 g shipping field. We do not know what it describes, so it is not printed here as a pack size."
+      ],
+      [
+        "Price",
+        "£39.99. One size."
+      ],
+      [
+        "Suitable for",
+        "Adults. Without an ingredient list we cannot say more than that, including whether it is suitable for vegans."
+      ],
+      [
+        "Not for",
+        "Children. If you are pregnant or breastfeeding, or you take prescribed medication, do not start this one without asking your GP or pharmacist: an unprinted list cannot be checked against anything."
+      ]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "This is the thinnest sheet on the site. Most of the rows say not printed, and that is the state of this jar today rather than a house habit. What the formula is for is not on this page, and neither is the list of what is in it, because the listing does not give us one to print."
+    },
+    "intro": "Everything the listing gives us about this jar, and every row where it gives us nothing."
+  },
+  "reiss": {
+    "label": "From Reiss",
+    "h2": "Why this page is <em>mostly blank</em>",
+    "paras": [
+      "A jar that does not print its ingredients is a jar nobody can check. Not your GP, not the pharmacist reading your repeat prescription, and not me at the counter with the tub in my hand. That is the whole of my objection to it, and it is why the sheet above says not printed in row after row instead of filling the gaps with something plausible.",
+      "The word on the front is a name. It is not a description and it is not a promise, and this page does not translate it into one. If you want to know what you are swallowing, the ingredient list is the only thing that answers that question, and it is not printed yet.",
+      "If the list gets printed, it goes here in full: every plant in Latin, the part of it used, in the order the label declares them, the way the Decolonise sheet does it. Until then the page stays thin and the tub stays on the shelf for people who already know what they are buying and have asked."
+    ],
+    "pull": "A jar that will not print its ingredients is a jar nobody can check.",
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> unnamed formula",
+    "rows": [
+      [
+        "Every ingredient named",
+        "Not printed",
+        "Usually a list, sometimes a blend name"
+      ],
+      [
+        "Latin names given",
+        "Not printed",
+        "Common names only"
+      ],
+      [
+        "Part of the plant named",
+        "Not printed",
+        "Rarely stated"
+      ],
+      [
+        "Milligrams per capsule",
+        "Not printed",
+        "Usually printed"
+      ],
+      [
+        "Capsule count and days stated",
+        "Not printed",
+        "Usually printed"
+      ],
+      [
+        "Capsule shell named",
+        "Not printed",
+        "Often \"vegan capsule\""
+      ],
+      [
+        "A daily ceiling on the pack",
+        "Two a day",
+        "\"Take as needed\""
+      ],
+      [
+        "Somebody to ask, at a counter",
+        "✓",
+        "A contact form"
+      ]
+    ],
+    "note": "Six of those eight rows are ours to fix, and they stay on the page until the label prints them. The right hand column is what we usually see on jars customers bring into the shop, not a claim about any particular brand.",
+    "intro": "Ours, next to what we usually see on jars that people bring into the shop. Most of this table is ours to fix."
+  },
+  "also": {
+    "h2": "Also on the <em>formula shelf</em>",
+    "handles": [
+      "pancrea",
+      "respire",
+      "test-drive",
+      "decolonise"
+    ],
+    "intro": "Four more from the formula shelf. Prices as listed."
+  },
+  "jnext": {
+    "article": "journal/lions-mane.html",
+    "label": "From the journal",
+    "h2": "What a label should tell you",
+    "p": "Reiss on reading a jar: the species, the part of the organism, and the two phrases that mean a list is not finished.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

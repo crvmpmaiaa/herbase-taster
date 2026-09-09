@@ -1,0 +1,344 @@
+{
+  "slug": "test-drive",
+  "kind": "supplement",
+  "name": "Test Drive",
+  "title": "Test Drive · Nine ingredient formula · Herbase",
+  "description": "Test Drive, £39.99. Fifty vegan capsules at 800 mg, two at breakfast, 25 days a jar. Nine named ingredients: eight plants and one isolated alkaloid.",
+  "crumb": [
+    "Formulas",
+    "index.html#monograph"
+  ],
+  "price": "£39.99",
+  "unit": "50 capsules · 800 mg each · 25 days · £1.60 a day",
+  "label": "Formulas · nine ingredients",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "gallery": [
+    {
+      "img": "assets/hero-cosmos.jpg",
+      "alt": "Pale botanical shapes arranged in a ring inside a green and orange nebula on a dark starfield",
+      "cap": "The artwork we use for the formulas shelf. An illustration, not a photograph of the jar."
+    },
+    {
+      "held": true,
+      "cap": "Pack photography is held until the label is reprinted. The pictures on this page are generated scenes and photographs of named species, none of them of the jar."
+    },
+    {
+      "img": "gen-capsules-saucer",
+      "alt": "Two capsules on a saucer beside a glass of water on a wooden table",
+      "cap": "Two capsules with breakfast is the printed serving. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "capsule-scoop",
+      "alt": "Loose capsules and a wooden scoop on dark slate",
+      "cap": "Fifty vegan capsules at 800 mg in a jar. A generated scene, not a photograph of our stock."
+    }
+  ],
+  "points": [
+    "<b>Nine ingredients, all named</b>: eight plants and one alkaloid taken out of pepper",
+    "<b>50 vegan capsules at 800 mg.</b> Two with breakfast, which is 25 days a jar",
+    "<b>£39.99, one size</b>, and that works out at £1.60 a day"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which one jar on its own does not reach",
+    "All nine ingredients named on the specification sheet below"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "acc": [
+    {
+      "summary": "What is in it",
+      "body": [
+        "Nine declared ingredients: <i>Tribulus terrestris</i>, tongkat ali (<i>Eurycoma longifolia</i>), <i>Epimedium</i> as a genus, <i>Fadogia agrestis</i>, sarsaparilla, damiana (<i>Turnera diffusa</i>), pine pollen, ginseng and piperine.",
+        "Eight of those are plants and the ninth is a compound taken out of pepper. Four of the nine names do not identify a species, and the cards below say which four."
+      ]
+    },
+    {
+      "summary": "How to take it",
+      "body": [
+        "<b>Two capsules with breakfast</b>, and at least 1 litre of water across the day.",
+        "Two a day is the serving and the ceiling with it. Fifty capsules at 800 mg come to 25 days, which is £1.60 a day."
+      ]
+    },
+    {
+      "summary": "Storage",
+      "body": [
+        "Not printed on the listing. Dry, out of direct sun and lid on is what we would do with any capsule. No fridge."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "<b>The listing states that this jar is for men only.</b> It gives no reason for that and we are not going to supply one.",
+        "If you take nitrates, blood pressure medication, heart medication or anything else on prescription, speak to your GP or pharmacist first: piperine is well known to change how the body takes up and clears some medications. Not for children, and not in pregnancy or while breastfeeding. Pine pollen is a pollen, so anyone who reacts to pollen should leave this one alone."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      {
+        "img": "gen-capsules-saucer",
+        "alt": "Two capsules on a saucer beside a glass of water",
+        "h": "Step one",
+        "b": "Two capsules with breakfast",
+        "p": "That is the printed serving and the time of day the listing gives. The saucer here is a generated scene rather than a photograph of our jar."
+      },
+      {
+        "img": "gen-morning-water",
+        "alt": "A tall glass of water on a wooden table in morning light",
+        "h": "Step two",
+        "b": "At least a litre of water",
+        "p": "The listing asks for at least 1 litre of spring water across the day. Tap water is water. The glass here is a generated scene, not our stock."
+      },
+      {
+        "img": "capsule-scoop",
+        "alt": "Loose capsules and a wooden scoop on dark slate",
+        "h": "Step three",
+        "b": "Do not double up",
+        "p": "Two a day is the printed serving and the ceiling with it. Nine ingredients is a reason to be stricter about that, not looser. Another generated scene."
+      },
+      {
+        "img": "gen-calendar-desk",
+        "alt": "A date circled in pencil on a paper calendar page",
+        "h": "Step four",
+        "b": "A jar is 25 days",
+        "p": "Fifty capsules at two a day comes to 25 days, or £1.60 a day. The listing sets no course length and no stop date. The calendar page is a generated scene."
+      }
+    ],
+    "label": "The routine"
+  },
+  "ingredients": {
+    "h2": "Nine ingredients, <em>counted</em>",
+    "intro": "In the order the listing declares them. Eight are plants and the ninth is a compound taken out of one. Four of the nine names identify a species; the other four are common names or a genus, and those cards say so rather than choosing a plant on the label's behalf. Where a name does not identify a species we have left the frame empty, because a photograph would be picking one.",
+    "cards": [
+      {
+        "img": "tribulus-plant",
+        "alt": "A low spreading tribulus plant with small yellow flowers and spined fruit on dry ground",
+        "fam": "Herb · dry ground",
+        "latin": "Tribulus terrestris",
+        "common": "Caltrop, puncture vine",
+        "p": "A low annual of the Zygophyllaceae that runs flat over hot dry ground from the Mediterranean through South Asia into Africa and Australia. The fruit splits into hard spined nutlets, which is where the English names come from. The listing spells the second word with one r missing. It does not say which part of the plant is used."
+      },
+      {
+        "img": "tongkat-ali-tree",
+        "alt": "A slender tongkat ali tree with long pinnate leaves in lowland forest",
+        "fam": "Tree · Southeast Asia",
+        "latin": "Eurycoma longifolia",
+        "common": "Tongkat ali",
+        "p": "The listing gives the Malay name. It belongs to a slender understorey tree of the Simaroubaceae in the lowland forests of Malaysia, Indonesia, Thailand and Vietnam, thin enough at full height to be taken for a sapling. The root is the part that reaches the trade. The listing does not say which part is in the capsule."
+      },
+      {
+        "fam": "Genus only · East Asia",
+        "latin": "Epimedium",
+        "common": "Species not named",
+        "p": "A genus of woodland perennials in the Berberidaceae, most of them Chinese, with thin leathery leaves and spurred flowers. A genus is not an ingredient: this one holds dozens of species. Neither the species nor the part used is printed, so the frame stays empty.",
+        "none": "of a species the label does not name"
+      },
+      {
+        "fam": "Shrub · West Africa",
+        "latin": "Fadogia agrestis",
+        "common": "Stem in the trade",
+        "p": "A small shrub of the Rubiaceae from the savanna belt of West Africa, from Nigeria eastwards. The dried stem is what is sold under the name. The listing spells it agrestris; the accepted binomial is <i>Fadogia agrestis</i>. We found no photograph of the plant we could use, so this frame is empty as well.",
+        "none": "of this plant that we could use"
+      },
+      {
+        "fam": "Root · common name only",
+        "latin": "Sarsaparilla",
+        "common": "No binomial printed",
+        "p": "A trade name rather than a species. It covers several climbers in the genus <i>Smilax</i>, and is also used for <i>Hemidesmus indicus</i> in India and <i>Aralia nudicaulis</i> in North America. The root is what the word points at in all of them. With no binomial on the label there is no way to say which plant is in the jar.",
+        "none": "of a species the label does not name"
+      },
+      {
+        "img": "damiana-plant",
+        "alt": "A small damiana shrub with toothed leaves and a yellow flower",
+        "fam": "Leaf · Mexico",
+        "latin": "Turnera diffusa",
+        "common": "Damiana",
+        "p": "A small aromatic shrub of the Passifloraceae, native to Mexico, Central America, the Caribbean and southern Texas, with toothed leaves and a small yellow flower. The leaf is the part in trade. The listing prints the common name only; the binomial above is the accepted one for it."
+      },
+      {
+        "fam": "Pollen · genus Pinus",
+        "latin": "Pine pollen",
+        "common": "Species not named",
+        "p": "Pollen shed by the male cones of pine trees and collected in spring. <i>Pinus</i> runs to over a hundred species and the listing does not say which one, or where it was gathered. It is also the one ingredient here that is a pollen, which matters to anyone who reacts to them.",
+        "none": "of a species the label does not name"
+      },
+      {
+        "fam": "Root · name shared",
+        "latin": "Ginseng",
+        "common": "Species not named",
+        "p": "Another common name doing a binomial's work. Ginseng usually means <i>Panax ginseng</i> from Korea and northeast China, sometimes <i>Panax quinquefolius</i> from North America, and on some labels <i>Eleutherococcus senticosus</i>, a different plant in the same family. The root is what is sold under all three. The shop sells a ginseng of its own, and this listing does not say whether it is the same plant.",
+        "none": "of a species the label does not name"
+      },
+      {
+        "img": "black-pepper",
+        "alt": "Green peppercorn spikes on a black ground",
+        "fam": "Alkaloid · from pepper",
+        "latin": "Piperine",
+        "common": "Not a plant part",
+        "p": "The one ingredient here that is not a plant or a part of one. Piperine is a compound taken out of pepper, the fruit of <i>Piper nigrum</i>, which is why this card shows peppercorns rather than the ingredient itself. It is also the reason for the line about prescriptions on the sheet below."
+      }
+    ],
+    "label": "What is on the inside"
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      [
+        "Makeup",
+        "Nine declared ingredients: eight botanical names and one isolated alkaloid, piperine. No tenth."
+      ],
+      [
+        "Name",
+        "Test Drive is the product name and is used here as a name only. This page does not say what the formula is for, because we are not permitted to say it and would not guess."
+      ],
+      [
+        "Botanicals",
+        "<i>Tribulus terrestris</i> · <i>Eurycoma longifolia</i>, printed as tongkat ali · <i>Epimedium</i>, genus only · <i>Fadogia agrestis</i> · sarsaparilla, no species named · <i>Turnera diffusa</i>, printed as damiana · pine pollen, no species named · ginseng, no species named"
+      ],
+      [
+        "Other ingredient",
+        "Piperine, an alkaloid isolated from pepper. It is a compound, not a plant part, and the sheet counts it separately for that reason."
+      ],
+      [
+        "Parts used",
+        "Not printed for any of the nine. Root, leaf, stem and pollen are what the trade usually sells under these names, but the label does not say."
+      ],
+      [
+        "Amounts",
+        "Not printed. 800 mg is the weight of the capsule fill, not of any one plant in it. There is no milligram split between the nine and no extract ratio."
+      ],
+      [
+        "Form",
+        "50 vegan capsules at 800 mg. The shell material is not named on the listing, so we do not name it."
+      ],
+      [
+        "Serving",
+        "Two capsules a day with breakfast, and at least 1 litre of water across the day, as printed."
+      ],
+      [
+        "Supply",
+        "25 days a jar at the printed serving. £39.99 works out at £1.60 a day."
+      ],
+      [
+        "Sourcing",
+        "Not printed. No country of origin is given for any of the nine."
+      ],
+      [
+        "History",
+        "The listing describes it as a 2019 formula. That is the only date on it."
+      ],
+      [
+        "Storage",
+        "Not printed. Dry, out of direct sun, lid on is what we would do with any capsule."
+      ],
+      [
+        "Price",
+        "£39.99. One size."
+      ],
+      [
+        "Suitable for",
+        "Vegans, as the listing states. Adults."
+      ],
+      [
+        "Not for",
+        "The listing states that this jar is for men only. It gives no reason and we are not going to invent one. It also names nitrates, blood pressure medication and heart medication: if you take any of those, or any other prescribed medication, speak to your GP or pharmacist before you start. Piperine is well known to change how the body takes up and clears some medications, which is a second reason to ask. Not for children, and not in pregnancy or while breastfeeding. Pine pollen is a pollen, so anyone who reacts to pollen should leave this one alone."
+      ]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "This jar prints its list, so this page prints it back: in Latin where the label gives a binomial, and in plain English where it does not. Four of the nine names do not identify a species, and those rows say so rather than choosing a plant for you. What the formula is for is not on this page and neither is any reading of the name on the front."
+    },
+    "intro": "Nine ingredients: four names that identify a species, four that do not, one that names a compound, and the figures the listing does not give."
+  },
+  "reiss": {
+    "label": "From Reiss",
+    "h2": "Nine names, and <em>four of them are not species</em>",
+    "paras": [
+      "A list is better than no list, and this jar has one, which already puts it ahead of half the formulas on my own shelf. Then you read it slowly. Sarsaparilla, ginseng, pine pollen, epimedium: four names that each cover more than one plant, and in two cases plants from different families. A name that covers three plants is not an ingredient, it is a category.",
+      "The other four are species and I have printed them in Latin above, spelling corrected in two places where the listing has a letter missing. Not one of the nine says which part of the plant is in the capsule. Root, leaf, stem and pollen are what the trade usually sells under these names, and usually is not a specification.",
+      "The ninth is not a plant at all. Piperine is a compound taken out of pepper, and it is the reason there is a line about prescriptions on the sheet. Anything that changes how the body takes up a medication belongs in the safety row of a page, printed plainly, whether or not it helps me sell the jar.",
+      "The listing also says this one is for men only. I have printed that because the label prints it, and I have not printed a reason, because the label does not give one and the reason would be mine rather than the manufacturer's. If you want to know more before you buy, the counter is the place for that conversation."
+    ],
+    "pull": "A name that covers three plants is not an ingredient, it is a category.",
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> nine ingredient formula",
+    "rows": [
+      [
+        "Every ingredient named",
+        "Nine of nine",
+        "Often one blend name"
+      ],
+      [
+        "A species behind every name",
+        "Four of nine",
+        "Rarely all of them"
+      ],
+      [
+        "Part of the plant named",
+        "None of nine",
+        "Sometimes"
+      ],
+      [
+        "Milligrams per ingredient",
+        "Not printed",
+        "Usually a blend total"
+      ],
+      [
+        "Milligrams per capsule",
+        "800 mg",
+        "Per serving, if at all"
+      ],
+      [
+        "Capsule count and days stated",
+        "50 · 25 days",
+        "Count only"
+      ],
+      [
+        "Capsule shell named",
+        "Vegan, as printed",
+        "Often gelatin"
+      ],
+      [
+        "Somebody to ask, at a counter",
+        "✓",
+        "A contact form"
+      ]
+    ],
+    "note": "Four of the nine names identify a species, one names a compound, and four stop at a genus or a common name. Rows two, three and four are ours to fix and they stay on the page until the label prints them. The right hand column is what we usually see on jars customers bring into the shop, not a claim about any particular brand.",
+    "intro": "Ours, next to what we usually see on jars that people bring into the shop. This one passes more rows than most of our own formulas."
+  },
+  "also": {
+    "h2": "Also on the <em>formula shelf</em>",
+    "handles": [
+      "prostrate",
+      "nutropic",
+      "respire",
+      "seaking"
+    ],
+    "intro": "Four more from the formula shelf. Prices as listed."
+  },
+  "jnext": {
+    "article": "journal/decolonise-stop-date.html",
+    "label": "From the journal",
+    "h2": "When a formula prints a limit",
+    "p": "Nine ingredients counted on another jar, one of them wormwood, and why that label ends a course instead of selling the next one.",
+    "btn": "Read the article"
+  },
+  "credits": [
+    "Black pepper: Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons"
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "slug": "menopause-kit",
+  "kind": "kit",
+  "name": "Menopause Kit",
+  "title": "Menopause Kit · Three items boxed together · Herbase",
+  "description": "Three items boxed: the Chondrus Crispus gel at 500 ml, Equill and Chasteberry. £79.99, £99.97 sold separately, sent from Liverpool.",
+  "crumb": [
+    "Kits",
+    "shop.html#kits"
+  ],
+  "price": "£79.99",
+  "unit": "Three items · a serving printed for each, no course length printed",
+  "label": "Kits · the box",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this box",
+  "gallery": [
+    {
+      "img": "gen-kit-flatlay",
+      "alt": "Empty amber glass jars of different heights on a dark wooden table, some open and some with pale metal lids, none of them labelled, a generated scene",
+      "thumbAlt": "Empty amber jars on a dark table",
+      "cap": "Empty amber jars on a dark table, no label on any of them. A generated scene, not a photograph of the box or of anything in it."
+    },
+    {
+      "held": true,
+      "cap": "Pack photography is held until the labels are reprinted. The other pictures here are generated scenes and one photograph of a fridge shelf, none of them of the box or of anything in it."
+    },
+    {
+      "img": "gen-gel-spoon",
+      "alt": "A teaspoon of clear gel held over a small glass jar, a generated scene",
+      "cap": "A spoon of gel over a jar. One spoon is the serving printed on the gel's own sheet. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "capsule-scoop",
+      "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene",
+      "cap": "Plain capsules and a wooden scoop. Two of the three items are jars of 50 capsules. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "gen-capsules-saucer",
+      "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene",
+      "cap": "Two capsules and a glass of water. Both capsule jars print two a day, with 500 ml of water. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "step-fridge",
+      "alt": "Jars on a fridge shelf",
+      "cap": "Jars on a fridge shelf. The gel goes in the fridge once it is open, and the listing says orders ship in thermo cool packaging."
+    }
+  ],
+  "points": [
+    "<b>Three items in the box</b>: the Chondrus Crispus gel at 500 ml, Equill and Chasteberry, each sold on its own as well",
+    "<b>£79.99 for the box.</b> The same three at the prices on this site come to £99.97, so the box is £19.98 under them",
+    "<b>Two servings printed for the gel, and they do not agree.</b> This listing says one to three tablespoons a day; the gel's own sheet says one, and no more than one"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "The listing says orders ship in thermo cool packaging",
+    "Every item in the box has its own specification sheet on this site"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Read the liver caution on the Equill row below first: it is the standard one for black cohosh and it applies to the jar in this box.",
+  "acc": [
+    {
+      "summary": "What is in the box",
+      "body": [
+        "One 500 ml jar of the <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> gel. One jar of <a href=\"product-equill.html\">Equill</a>, 50 large vegan capsules at 750 mg. One jar of <a href=\"product-chasteberry.html\">Chasteberry</a>, 50 vegan capsules.",
+        "Nothing else is named as being in the box. The three cards below go to each item's own sheet."
+      ]
+    },
+    {
+      "summary": "The schedule as printed on the listing",
+      "body": [
+        "<b>Morning:</b> one to three tablespoons of the gel. <b>Lunch:</b> two Chasteberry capsules with 500 ml of water. <b>Evening meal:</b> two Equill capsules with 500 ml of water.",
+        "Read the row on the sheet below about the gel before you follow the first of those. The jar's own listing prints one tablespoon a day and says not to exceed it, and we have not resolved the two figures for you."
+      ]
+    },
+    {
+      "summary": "Two figures for the gel",
+      "body": [
+        "The <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> listing prints one tablespoon daily, in the morning, and its small print says not to exceed one tablespoon a day. This box prints one to three.",
+        "Sea moss carries iodine and the amount in a spoonful moves with the harvest, so a spoon is not a measured dose in the way a capsule is. That is the reason the lower figure exists, and it is the one on the jar you will be holding."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "<b>Not in pregnancy or while breastfeeding.</b> Not for children.",
+        "Anyone with liver disease should leave the Equill jar alone: that is its listing's own advisory, and black cohosh products sold in the UK carry a liver warning as standard. Stop and speak to a doctor if you notice jaundice, dark urine or unexplained abdominal pain. Chasteberry has documented interactions with several classes of prescribed medicine, so if you take anything on prescription, ask your GP or pharmacist before you start rather than after. Anyone with an overactive thyroid should leave the sea moss alone."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. A box with a gel in it goes out chilled, and the listing says thermo cool packaging. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "contents": {
+    "label": "What is in the box",
+    "h2": "Three items, <em>each with its own sheet</em>",
+    "intro": "Each one is sold on its own as well. The prices on these cards are the prices those items carry on this site, and each card goes to its own specification sheet.",
+    "items": [
+      {
+        "handle": "chondrus-crispus",
+        "qty": "1 jar · 500 ml, as this listing prints it"
+      },
+      {
+        "handle": "equill",
+        "qty": "1 jar · 50 large vegan capsules, 750 mg each"
+      },
+      {
+        "handle": "chasteberry",
+        "qty": "1 jar · 50 vegan capsules"
+      }
+    ]
+  },
+  "spec": {
+    "label": "Kits · 04",
+    "h2": "The specification sheet",
+    "intro": "Three items, one price that does add up, and two places where this listing and the jars in it print different figures.",
+    "caption": "Menopause Kit",
+    "rows": [
+      [
+        "Contents",
+        "One 500 ml jar of the <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> gel. One jar of <a href=\"product-equill.html\">Equill</a>, 50 large vegan capsules. One jar of <a href=\"product-chasteberry.html\">Chasteberry</a>, 50 vegan capsules."
+      ],
+      [
+        "Price",
+        "£79.99. One size. The variant line also reads 1000 g without saying whether that is the box as it ships or what is inside it, so it is not a pack size and this sheet does not treat it as one."
+      ],
+      [
+        "Sold separately",
+        "£99.97 at the prices on this site: £34.99 plus £39.99 plus £24.99. The box is £19.98 under that."
+      ],
+      [
+        "Serving",
+        "As printed on this listing: one to three tablespoons of the gel in the morning, two Chasteberry capsules at lunch, two Equill capsules with the evening meal, each with 500 ml of water."
+      ],
+      [
+        "The gel, twice",
+        "The <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> listing prints one tablespoon daily and says not to exceed one a day. This box prints one to three. Both figures are ours and they do not agree. The lower one is the one printed on the jar's own page, and this sheet does not pick between them for you."
+      ],
+      [
+        "Volume",
+        "This listing prints 500 ml for the gel. The gel's own listing prints no volume at all. Again, both are ours, and the jar you get is whatever the current fill is."
+      ],
+      [
+        "Equill, twice",
+        "The Equill listing prints two servings that do not match each other: two capsules daily in one place, one capsule daily in the other. This box prints two with the evening meal. All three are on the site, and the Equill sheet sets them out side by side."
+      ],
+      [
+        "Course length",
+        "Not printed. No number of days, no number of weeks, and no instruction about stopping."
+      ],
+      [
+        "Storage",
+        "Gel: refrigerate, use within 28 days of opening or freeze, clean dry spoon. Capsules: lid on, cool and dry, no fridge. The listing says orders ship in thermo cool packaging."
+      ],
+      [
+        "Suitable for",
+        "Adults. No vegan mark on this box: the gel carries Omega DHA oil whose source is not stated on its listing, and the Chasteberry sheet carries no vegan mark either. Equill carries one on its own sheet."
+      ],
+      [
+        "Not printed",
+        "No full ingredient list for Equill, which is printed as a proprietary blend. No milligram figure for the Chasteberry capsules. No course length for the box."
+      ],
+      [
+        "Not for",
+        "Anyone who is pregnant or breastfeeding. Children. Anyone with liver disease, because of the Equill jar. Anyone with an overactive thyroid (hyperthyroidism), because of the seaweed. If you take any prescribed medicine, speak to your GP or pharmacist before you start: Chasteberry has documented interactions with several classes of it."
+      ]
+    ],
+    "smallprint": "Contains iodine from seaweed. Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The sheet above is three items, three printed servings, one price and two places where our own listings contradict each other, printed rather than tidied. Menopause Kit is the name on the box. It is a name, not a description, and we do not expand it or say who it is for. What any of these three items does in a body is not something we are permitted to tell you, so it is not on this page."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "Where the box <em>and the jar disagree</em>",
+    "paras": [
+      "This listing prints one to three tablespoons of gel a day. The jar's own listing prints one, and says not to exceed it. Both were written by us, and the one on the jar is the one you will be holding at seven in the morning, so that is the figure I would follow. I have left both on the sheet above rather than quietly deleting the one that makes the box look generous.",
+      "The reason the low figure exists is that a spoon of gel is not a measured dose. Seaweed carries iodine and the amount in a spoonful moves with the harvest, which is why the capsules on this site can print a number and none of the gels can. Three spoons of something unmeasured is three times an unknown, and I would rather nobody did that on my say so.",
+      "The money is the simple part. The three jars come to £99.97 at the prices on this site and the box is £79.99, so it saves you £19.98. That is the arithmetic, it is checkable on three pages, and it is the only saving figure on this page."
+    ],
+    "pull": "Three spoons of something unmeasured is three times an unknown.",
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
+  },
+  "also": {
+    "h2": "The other <em>boxes</em>",
+    "intro": "Four more kits, each one a set of jars that are also sold on their own.",
+    "handles": [
+      {
+        "handle": "mens-health-kit",
+        "sub": "Chondrus Crispus gel, Mag Flux and Test Drive. Three jars, and a nutrition guide with every order."
+      },
+      {
+        "handle": "cell-repair-kit",
+        "sub": "Northern Soul gel, Anamu, Mag Flux and Omega DHA Oil. Four items, each with a printed serving."
+      },
+      {
+        "handle": "28-day-kit",
+        "sub": "Three jars of Detox Redox, a Northern Soul gel and the book. Five items, no schedule printed."
+      },
+      {
+        "handle": "parasite-cleanse-kit",
+        "sub": "Mag Flux, Decolonise and the Purple Mwani gel. A 25 day cycle is printed on that listing."
+      }
+    ]
+  },
+  "jnext": {
+    "article": "journal/chondrus-crispus-gel.html",
+    "label": "From the journal",
+    "h2": "One alga, water, <em>and a drop of oil</em>",
+    "p": "The gel in this box is a single species with Omega DHA oil in it. Reiss on what is in the jar, why the oil is there, and how to store it once it is open.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

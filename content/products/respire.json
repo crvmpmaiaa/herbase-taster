@@ -1,0 +1,284 @@
+{
+  "slug": "respire",
+  "kind": "supplement",
+  "name": "Respire",
+  "title": "Respire · Herbal formula capsules · Herbase",
+  "description": "Respire, £39.99. Forty vegan capsules, two a day at lunch, 20 days a jar. One herb named on the listing, amor seco, and a blend it does not name.",
+  "crumb": [
+    "Formulas",
+    "index.html#monograph"
+  ],
+  "price": "£39.99",
+  "unit": "40 capsules · 20 days · £2 a day",
+  "label": "Formulas · what is printed",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "gallery": [
+    {
+      "img": "assets/hero-cosmos.jpg",
+      "alt": "Pale botanical shapes arranged in a ring inside a green and orange nebula on a dark starfield",
+      "cap": "The artwork we use for the formulas shelf. An illustration, not a photograph of the jar."
+    },
+    {
+      "held": true,
+      "cap": "Pack photography is held until the label is reprinted. The other pictures here are the shelf artwork and generated scenes, not photographs of the jar or of any plant in it."
+    },
+    {
+      "img": "gen-capsules-saucer",
+      "alt": "Two capsules on a saucer beside a glass of water on a wooden table",
+      "cap": "Two capsules at lunch is the printed serving. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "capsule-scoop",
+      "alt": "Loose capsules and a wooden scoop on dark slate",
+      "cap": "Forty vegan capsules in a jar, no fillers, as printed. A generated scene, not a photograph of our stock."
+    }
+  ],
+  "points": [
+    "<b>One herb named, amor seco</b>, and a proprietary blend the listing does not name",
+    "<b>40 vegan capsules, no fillers.</b> Two a day at lunch with 500 ml of water, so 20 days a jar",
+    "<b>£39.99, one size</b>, which is £2 a day while a jar lasts"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which one jar on its own does not reach",
+    "One named herb and one unnamed blend, both on the specification sheet below"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "acc": [
+    {
+      "summary": "What is in it",
+      "body": [
+        "One herb by name, amor seco, and a proprietary blend the listing does not itemise. Amor seco is a Spanish name that belongs to more than one plant, so no binomial is printed on this page.",
+        "Forty vegan capsules in a jar, with no fillers. The milligrams in each capsule are not printed."
+      ]
+    },
+    {
+      "summary": "How to take it",
+      "body": [
+        "<b>Two capsules at lunch</b>, with 500 ml of water.",
+        "Lunch is the time the listing names, which is unusual and worth following. Two a day is the serving and the ceiling with it, and forty capsules come to 20 days."
+      ]
+    },
+    {
+      "summary": "Storage",
+      "body": [
+        "Out of direct sunlight, as the listing asks. Dry, lid on, no fridge.",
+        "The listing also asks you to keep the capsules away from radiation. We do not know what that would mean in a kitchen, so we have not turned it into an instruction."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "Not for children. If you are pregnant or breastfeeding, or you take prescribed medication, ask your GP or pharmacist before you start.",
+        "A blend that is not itemised cannot be checked against a prescription by anyone. One name out of an unknown number is a reason to ask at the counter first."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      {
+        "img": "gen-capsules-saucer",
+        "alt": "Two capsules on a saucer beside a glass of water",
+        "h": "Step one",
+        "b": "Two capsules at lunch",
+        "p": "The listing is unusually specific about the time and says lunch. The saucer here is a generated scene rather than a photograph of our jar."
+      },
+      {
+        "img": "gen-morning-water",
+        "alt": "A tall glass of water on a wooden table in morning light",
+        "h": "Step two",
+        "b": "500 ml of water",
+        "p": "The listing asks for 500 ml of spring water with them. Tap water is water. The glass here is a generated scene, not our stock."
+      },
+      {
+        "img": "capsule-scoop",
+        "alt": "Loose capsules and a wooden scoop on dark slate",
+        "h": "Step three",
+        "b": "Do not double up",
+        "p": "Two a day is the printed serving and the ceiling with it. A missed lunch is a missed lunch. Another generated scene, not our capsules."
+      },
+      {
+        "img": "gen-calendar-desk",
+        "alt": "A date circled in pencil on a paper calendar page",
+        "h": "Step four",
+        "b": "A jar is 20 days",
+        "p": "Forty capsules at two a day works out at 20 days, which is £2 a day. The listing sets no course length and no stop date. The calendar page is a generated scene."
+      }
+    ],
+    "label": "The routine"
+  },
+  "ingredients": {
+    "h2": "One name, <em>and a blend</em>",
+    "intro": "The listing names one herb and calls the rest a proprietary blend. So the honest count for this formula is one named ingredient out of a number we do not know. The frames below are empty because a photograph would have to pick a species, and picking one is exactly what the label has not done.",
+    "cards": [
+      {
+        "fam": "Named · common name only",
+        "latin": "Amor seco",
+        "common": "One name, several plants",
+        "p": "The only ingredient this listing names, and it names it in Spanish. Amor seco is used in South America for more than one plant, including several species of <i>Desmodium</i> and, in some countries, <i>Bidens pilosa</i>. No binomial is printed on the listing, so none is printed here, and the part of the plant used is not stated either.",
+        "none": "of a plant we cannot name from the label"
+      },
+      {
+        "fam": "Not declared",
+        "latin": "Proprietary blend",
+        "common": "Names not printed",
+        "p": "The rest of the formula is described as a proprietary blend and left at that. How many plants, which plants and in what amounts are all unprinted. We are not going to fill the gap by guessing at what usually goes into a formula with this name on it.",
+        "none": "of a blend the label does not itemise"
+      },
+      {
+        "fam": "Printed · the pack",
+        "latin": "Forty vegan capsules",
+        "common": "No fillers",
+        "p": "Forty capsules in the jar, vegan, with no fillers, as printed. The milligrams in each capsule are not printed and the shell material is not named, so neither figure is on the sheet below.",
+        "none": "this card is the pack, not a plant"
+      }
+    ],
+    "label": "What is on the inside"
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      [
+        "Makeup",
+        "One named herb, amor seco, plus a proprietary blend that the listing does not itemise. The number of plants in the jar is not printed."
+      ],
+      [
+        "Name",
+        "Respire is the product name and is used here as a name only. This page does not say what the formula is for, because we are not permitted to say it and would not guess."
+      ],
+      [
+        "Botanicals",
+        "Amor seco, in Spanish, with no binomial. The name belongs to several plants, so we do not print one."
+      ],
+      [
+        "Form",
+        "40 vegan capsules, no fillers, as printed. The shell material is not named."
+      ],
+      [
+        "Count and strength",
+        "40 capsules. The milligrams per capsule are not printed, so the sheet gives a day rate but not a dose in milligrams."
+      ],
+      [
+        "Serving",
+        "Two capsules a day at lunch, with 500 ml of water, as printed."
+      ],
+      [
+        "Supply",
+        "20 days a jar at the printed serving. £39.99 works out at £2 a day."
+      ],
+      [
+        "Sourcing",
+        "Wildcrafted herbs, as printed. No country of origin and no harvest record."
+      ],
+      [
+        "Storage",
+        "Out of direct sunlight, as printed. The listing's storage line also asks you to keep the capsules away from radiation. We do not know what that would mean in a kitchen, so we have not turned it into an instruction."
+      ],
+      [
+        "Price",
+        "£39.99. One size."
+      ],
+      [
+        "Suitable for",
+        "Vegans, as the listing states. Adults."
+      ],
+      [
+        "Not for",
+        "Children. If you are pregnant or breastfeeding, or you take prescribed medication, ask your GP or pharmacist before starting. A blend that is not itemised cannot be checked against a prescription by anybody, including us."
+      ]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "This jar prints more than some of its neighbours: a count, a serving, a time of day, a capsule and one herb by name. What it does not print is the rest of the list, and no amount of good writing on our part turns one name into a specification. What the formula is for is not on this page at all."
+    },
+    "intro": "Everything printed on the listing, including the count and the day rate, and the place where the ingredient list stops."
+  },
+  "reiss": {
+    "label": "From Reiss",
+    "h2": "One name out of <em>an unknown number</em>",
+    "paras": [
+      "Proprietary blend is a phrase that tells you there is more in the jar and does not tell you what. I have used it myself in the past and I am not going to pretend the words are neutral: the effect of them is that a customer, a pharmacist and a shopkeeper are all left with the same information, which is none.",
+      "The one herb this listing does name, it names in Spanish. Amor seco is a name several plants answer to, and the two you meet most often in the trade are not even in the same family. Print a binomial and you are telling somebody which plant they are swallowing. I am not prepared to tell them that until the label says it, so the frame on the card above is empty and the sheet says the same.",
+      "What would fix this page is short and dull: the species behind the Spanish name, the part of the plant, the rest of the blend itemised, and the milligrams. Four lines. Until they are printed I would rather this page reads thin than reads finished."
+    ],
+    "pull": "Proprietary blend tells you there is more in the jar. It does not tell you what.",
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> blended formula",
+    "rows": [
+      [
+        "Every ingredient named",
+        "One of them",
+        "Usually a list, sometimes a blend name"
+      ],
+      [
+        "Latin names given",
+        "Not printed",
+        "Common names only"
+      ],
+      [
+        "Part of the plant named",
+        "Not printed",
+        "Rarely stated"
+      ],
+      [
+        "Milligrams per capsule",
+        "Not printed",
+        "Usually printed"
+      ],
+      [
+        "Capsule count and days stated",
+        "40 · 20 days",
+        "Count only"
+      ],
+      [
+        "Fillers declared",
+        "None, as printed",
+        "Often unstated"
+      ],
+      [
+        "Capsule shell named",
+        "Vegan, as printed",
+        "Often gelatin"
+      ],
+      [
+        "Somebody to ask, at a counter",
+        "✓",
+        "A contact form"
+      ]
+    ],
+    "note": "Three of those rows say not printed and a fourth says one name out of an unknown number. They stay on the page until the label prints the rest. The right hand column is what we usually see on jars customers bring into the shop, not a claim about any particular brand.",
+    "intro": "Ours, next to what we usually see on jars that people bring into the shop. The first four rows are the ones that matter here."
+  },
+  "also": {
+    "h2": "Also on the <em>formula shelf</em>",
+    "handles": [
+      "nutropic",
+      "pancrea",
+      "test-drive",
+      "decolonise"
+    ],
+    "intro": "Four more from the formula shelf. Prices as listed."
+  },
+  "jnext": {
+    "article": "journal/lions-mane.html",
+    "label": "From the journal",
+    "h2": "What a label should tell you",
+    "p": "Reiss on reading a jar: the species, the part of the organism, and the phrases that mean a list is not finished.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

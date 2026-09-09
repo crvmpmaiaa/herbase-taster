@@ -1,0 +1,138 @@
+{
+  "slug": "shungite-stone",
+  "kind": "object",
+  "name": "Elite Noble Shungite Stone",
+  "title": "Elite Noble Shungite Stone · One piece, 20 to 30 g · Herbase",
+  "description": "One piece of shungite, a black carbon rock. About 20 to 30 g, one size, £26.99. No dimensions, no assay and no origin printed on the listing.",
+  "crumb": ["Objects", "shop.html#objects"],
+  "price": "£26.99",
+  "unit": "One stone · about 20 to 30 g · one size",
+  "label": "Objects · what is printed",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this stone",
+  "gallery": [
+    {
+      "img": "gen-shungite-still",
+      "alt": "Angular dark grey rock fragments arranged in a ring on a grey slate surface",
+      "cap": "Dark rock fragments on slate. A generated scene, not a photograph of the piece you would be sent."
+    },
+    {
+      "img": "assets/hero-mineral.jpg",
+      "alt": "Dark mineral fragments at the edge of a painted nebula",
+      "cap": "The artwork we use for the mineral shelf. An illustration, not a photograph of the stone."
+    },
+    {
+      "img": "assets/store.jpg",
+      "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
+      "cap": "The shop it is sent from. Nothing on this page is a photograph of the stone itself."
+    }
+  ],
+  "points": [
+    "<b>One piece of shungite</b>, a black carbon rock, sold as an object and not as a food",
+    "<b>About 20 to 30 g.</b> That weight is the only measurement the listing prints",
+    "<b>£26.99, one size.</b> The weight is a range, so no two pieces are the same"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which one stone on its own does not reach",
+    "Every gap on the listing named on the specification sheet below"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "acc": [
+    {
+      "summary": "What it is",
+      "body": [
+        "Shungite is a black rock with a high carbon content. The commercial stone is quarried in Karelia, in north west Russia, and it takes its name from the village of Shunga. That is a fact about the mineral and not about this piece: the listing does not say where this one came out of the ground.",
+        "<b>Elite Noble</b> is a trade word for the shiny, high carbon sort. It arrives with no assay, so this page prints no carbon figure of its own."
+      ]
+    },
+    {
+      "summary": "What is printed",
+      "body": [
+        "A weight, about 20 to 30 g, and a price. That is the whole of the specification, and everything else on the sheet below says not printed.",
+        "No dimensions, no finish, no origin for this piece, no certificate. If any of that gets printed it goes on the sheet, and until then the rows stay empty."
+      ]
+    },
+    {
+      "summary": "What this page does not say",
+      "body": [
+        "The listing this stone came from makes a number of statements about what it does. None of them are repeated here, and none of them are made here in different words either.",
+        "It is a rock. We sell it as a rock, and there is nothing you have to do with it."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "spec": {
+    "label": "Objects · 01",
+    "h2": "The specification sheet",
+    "intro": "A rock has a short sheet. Everything the listing prints is in the first three rows, and the rest of it is what the listing does not print.",
+    "caption": "Elite Noble Shungite Stone",
+    "rows": [
+      ["Makeup", "Shungite, a black rock with a high carbon content. One piece, nothing added."],
+      ["Weight", "About 20 to 30 g, as printed. It is given as a range, so the piece you are sent sits somewhere inside it."],
+      ["Price", "£26.99 for one piece. One size, and the listing offers no variants."],
+      ["Grade", "The listing calls it Elite Noble, the trade word for the shiny, high carbon sort. No assay comes with it, so no carbon percentage is printed on this page."],
+      ["Dimensions", "Not printed. The listing gives a weight and no measurements."],
+      ["Finish", "Not printed. The listing does not say whether the piece is raw, tumbled or polished."],
+      ["Origin", "Not printed for this piece. Shungite as a mineral is quarried in Karelia, north west Russia, which is a statement about the rock rather than about this stone."],
+      ["Certificate", "None supplied. No assay, no laboratory report and no purity certificate, so there is no figure here to quote."],
+      ["Use", "The listing prints a suggested use. It cannot be separated from a claim we are not able to make, so it is not repeated here."],
+      ["Suitable for", "Anybody. It is an object, not something you take."],
+      ["Not for", "It is not a food and it is not a supplement. Do not put it in your mouth, and keep it away from young children, who put small hard things in theirs."]
+    ],
+    "smallprint": "Herbase, 599 Smithdown Road, Liverpool L15 5AP.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The specification of a rock is a weight, a price and the name of the mineral. The listing this stone came from says a great deal beyond that. None of it is on this page, in those words or in any others, because none of it is something we are able to stand behind."
+    }
+  },
+  "reiss": {
+    "label": "From Reiss",
+    "h2": "Why the page says <em>so little</em>",
+    "paras": [
+      "I stock shungite because people come into the shop and ask for it by name. What I will not do is print the reason they ask for it, because the reason is a claim and I cannot stand a claim up with a weight and a price.",
+      "So the page tells you what the rock is, what it weighs, what it costs, and where the mineral comes from generally. If you came here to find out what it will do for you, this is not the page that tells you, and I would rather lose the sale than write it."
+    ],
+    "pull": "I would rather lose the sale than write it.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "also": {
+    "h2": "Also on the <em>objects shelf</em>",
+    "intro": "Four more from the shelf that is not a supplement. Prices as listed.",
+    "handles": [
+      {
+        "handle": "shungite-pyramid",
+        "alt": "Dark mineral fragments at the edge of a painted nebula",
+        "sub": "A shungite pyramid, 8 cm by 8 cm. Weight not printed."
+      },
+      {
+        "handle": "shungite-water-stones",
+        "alt": "Dark mineral fragments at the edge of a painted nebula",
+        "sub": "One piece of shungite, about 10 g. The name is plural, the listing is not."
+      },
+      {
+        "handle": "detox-redox-book",
+        "alt": "Pale botanical shapes in a ring inside a green and orange nebula",
+        "sub": "100 pages, full colour, written by Reiss Davies Ausar."
+      },
+      {
+        "handle": "consultation",
+        "alt": "Reiss Davies Ausar behind the counter at Herbase",
+        "sub": "One hour with Reiss on a private audio call, arranged by email."
+      }
+    ]
+  },
+  "jnext": {
+    "article": "journal/how-we-source.html",
+    "label": "From the journal",
+    "h2": "What we can prove, <em>and what we cannot</em>",
+    "p": "Reiss on sourcing: the difference between a harvest record and a marketing word, and why a row on a specification sheet is allowed to say not printed.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

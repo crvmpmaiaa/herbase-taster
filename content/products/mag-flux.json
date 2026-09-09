@@ -1,0 +1,175 @@
+{
+  "slug": "mag-flux",
+  "kind": "supplement",
+  "name": "Mag Flux",
+  "title": "Mag Flux · 50 × 800 mg vegan capsules · Herbase",
+  "description": "Fifty 800 mg vegan capsules. Five botanicals named in Latin on the listing. The specification, the arithmetic, and the figures nobody has measured.",
+  "crumb": ["Formulas", "index.html#monograph"],
+  "price": "£39.99",
+  "unit": "50 × 800 mg vegan capsules · 25 days · £1.60 a day",
+  "gallery": [
+    { "held": true },
+    {
+      "img": "capsule-scoop",
+      "alt": "A dozen plain pale capsules and a small wooden scoop on dark slate",
+      "cap": "Plain capsules and a wooden scoop on slate. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "gen-capsules-saucer",
+      "alt": "Two plain vegan capsules on a white saucer beside a glass of water on a breakfast table",
+      "cap": "Two capsules on a saucer beside a glass of water. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "warm-water-glass",
+      "alt": "A plain glass of water standing outdoors in daylight",
+      "cap": "A glass of water. The printed serving asks for 500 ml of it with the capsules."
+    },
+    {
+      "img": "gen-calendar-desk",
+      "alt": "A paper calendar page beside a pencil with one date circled",
+      "cap": "A calendar page and a pencil. Fifty capsules at the printed serving is 25 days. A generated scene, not a photograph of our stock."
+    }
+  ],
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this formula",
+  "points": [
+    "<b>Five botanicals named in Latin</b> on the listing: <i>Smilax officinalis</i>, <i>Arctium lappa</i>, <i>Rumex crispus</i>, <i>Adansonia digitata</i>, <i>Stellaria media</i>",
+    "<b>50 capsules at 800 mg</b>, one size, which is 25 days and £1.60 a day at the printed serving",
+    "<b>No mineral or vitamin figure is printed for this jar</b>, so none is stated on this page"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. If you have been told to keep oxalate down, ask about the yellow dock before anything else.",
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      {
+        "img": "gen-capsules-saucer",
+        "alt": "Two plain vegan capsules on a white saucer beside a glass of water on a breakfast table. A generated scene",
+        "h": "Step one",
+        "b": "Two capsules with lunch.",
+        "p": "Or with an afternoon meal, which is how the listing prints it. The saucer here is a generated scene, not a photograph of ours."
+      },
+      {
+        "img": "warm-water-glass",
+        "alt": "A plain glass of water standing outdoors in daylight",
+        "h": "Step two",
+        "b": "500 ml of water with them.",
+        "p": "The listing asks for the full 500 ml. These are 800 mg capsules, and a large capsule wants more water than people usually give it."
+      },
+      {
+        "img": "capsule-scoop",
+        "alt": "A dozen plain pale capsules and a small wooden scoop on dark slate. A generated scene",
+        "h": "Step three",
+        "b": "Two a day, and no more.",
+        "p": "The listing prints two, once. If a lunch goes by without them, take them with the next meal rather than doubling the count."
+      },
+      {
+        "img": "gen-calendar-desk",
+        "alt": "A paper calendar page beside a pencil with one date circled. A generated scene",
+        "h": "Step four",
+        "b": "Twenty-five days to a jar.",
+        "p": "Fifty capsules at two a day, which comes to £1.60 a day. No maximum course and no gap between courses is printed, so there is none here. Lid on, somewhere cool and dry, out of reach of children."
+      }
+    ]
+  },
+  "ingredients": {
+    "h2": "Five plants, <em>named in Latin</em>",
+    "intro": "The listing prints a Latin ingredient line of five plants. It does not say whether those five are all of them, and it does not name the part used for any of them. Here is what each plant is, where it grows, and which part of it the trade usually sells. We hold no photograph of any of the five, so those frames are empty rather than filled with a stand-in, and any picture on this page that is a generated scene says so.",
+    "cards": [
+      {
+        "fam": "Smilacaceae · Central and South America",
+        "latin": "Smilax officinalis",
+        "common": "Sarsaparilla",
+        "p": "A woody climbing vine of Costa Rica, Colombia and Ecuador that scrambles through forest on prickly stems. The long root and rhizome are the part traded. Sarsaparilla is a trade name that covers several <i>Smilax</i> species rather than one, and this listing names one of them, which is more than most sarsaparilla on sale manages."
+      },
+      {
+        "fam": "Asteraceae · Eurasia",
+        "latin": "Arctium lappa",
+        "common": "Burdock",
+        "p": "A tall biennial of Eurasian roadsides and waste ground, in the daisy family, with big rhubarb-like leaves in the first year and hooked burrs in the second. Those burrs, caught in a dog's coat, are what gave a Swiss engineer the idea for hook and loop fastening. The root is the part usually sold, in Japan as gobo, and it is the burdock of dandelion and burdock. The listing spells the genus Articum; the accepted spelling is <i>Arctium</i>."
+      },
+      {
+        "fam": "Polygonaceae · Europe, now worldwide",
+        "latin": "Rumex crispus",
+        "common": "Yellow dock",
+        "p": "A deep-rooted perennial weed of European field edges, now naturalised almost everywhere, named for the crimped wavy margin of its leaves. It carries rust-brown seed spikes that stand through the winter. The root is the part usually sold. It is a plant high in oxalate, which is the reason for the note on the sheet below."
+      },
+      {
+        "fam": "Malvaceae · sub-Saharan Africa",
+        "latin": "Adansonia digitata",
+        "common": "Baobab",
+        "p": "The broad-trunked African tree with branches that look like roots in the air. Its fruit hangs in a hard velvety pod and the pulp inside dries on the tree by itself, so it is milled to a pale powder without any drying step at all. Which is unusual enough to be worth saying about a plant."
+      },
+      {
+        "fam": "Caryophyllaceae · temperate worldwide",
+        "latin": "Stellaria media",
+        "common": "Chickweed",
+        "p": "A low sprawling annual of gardens, allotments and waste ground across the temperate world, with a single line of hairs running up one side of the stem and tiny white flowers whose five deeply split petals look like ten. The whole plant above ground is the part usually gathered."
+      }
+    ]
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      ["Makeup", "Five botanicals, named in Latin on the listing. The listing does not say whether the five are the whole of it."],
+      ["Named", "<i>Smilax officinalis</i> · <i>Arctium lappa</i> · <i>Rumex crispus</i> · <i>Adansonia digitata</i> · <i>Stellaria media</i>"],
+      ["Spelling", "The listing prints Articum lappa. The accepted binomial is <i>Arctium lappa</i>, and that is the spelling used on this page."],
+      ["Not in it", "The listing's prose mentions dandelion. Dandelion is not on the ingredient line. Burdock, <i>Arctium lappa</i>, is."],
+      ["Parts used", "Not printed for any of the five."],
+      ["Minerals and vitamins", "No measured quantity of any mineral or vitamin is printed for this jar, so none is stated here. The ingredient line names five plants and no mineral source. The only measured mineral figure anywhere on this site is the iodine on Seaking, which comes from a test on that formula."],
+      ["Form", "50 vegan capsules, 800 mg each. One size. The shell material is not named on the listing, so we do not name one here."],
+      ["Serving", "Two capsules with lunch or an afternoon meal, with 500 ml of water, as printed."],
+      ["Supply and day rate", "50 capsules at two a day is a 25 day supply, which is £1.60 a day while a jar runs."],
+      ["Course", "Not printed. No maximum course and no gap between courses is given, so none is stated here."],
+      ["Price", "£39.99. One size."],
+      ["Storage", "Not printed. Keep the lid on, somewhere cool and dry, out of the sun."],
+      ["Sourcing", "Not printed. No country of origin and no harvest record is given for any of the five."],
+      ["Excipients", "None declared beyond the capsule shell."],
+      ["Suitable for", "Vegans. Adults."],
+      ["Not for", "Anyone who is pregnant or breastfeeding without medical advice, which is the listing's own caution. Not for children. Yellow dock is a plant high in oxalate, so if you have been advised to keep oxalate down, ask before you start. If you take any prescribed medicine, speak to your GP or pharmacist first."]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "Five plants are named here in Latin, one of them corrected against the listing's spelling, and the milligrams, the count, the serving and the day rate are all printed. Where the listing carries a figure nobody has measured, the row says so instead. Mag Flux is the name on the jar. It is a name, not a description, and we do not expand it."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "Why the <em>mineral lines</em> came off this page",
+    "paras": [
+      "The old listing for this jar states that it contains iron, zinc and B vitamins, and then says what each of those is meant to do. Both halves came off. Not because the plants are wrong, but because nobody has measured this jar. Without a number from a test, a mineral sentence is decoration, and decoration is exactly what I do not want on a specification sheet.",
+      "The one place on this whole site where a mineral figure survives is Seaking, because there is an actual measurement per capsule behind it. That is the standard: a number, from a test, tied to the formula it is printed on. When this jar has one, it goes on the sheet the same day.",
+      "There is a second thing worth correcting in the open. The listing's prose talks about dandelion and burdock. Burdock, <i>Arctium lappa</i>, is on the ingredient line. Dandelion is not on it at all. Somebody wrote a good sentence and nobody checked it against the list underneath.",
+      "The Latin is misspelled on the listing as well, Articum for Arctium. It is a small thing. It is also the kind of small thing that tells you whether anyone checked, so it is corrected on the sheet above with the change marked rather than done quietly."
+    ],
+    "pull": "A good sentence is not an ingredient.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> root formula",
+    "rows": [
+      ["Every plant named in Latin", "Yes. Five of them", "Common names, or a blend"],
+      ["The Latin spelled correctly", "No. The listing prints Articum for Arctium", "Rarely checked at all"],
+      ["The plant part named", "No. Not printed for any of the five", "Rarely stated"],
+      ["Milligrams per capsule", "Yes. 800 mg", "Often only per serving"],
+      ["A number behind any mineral named", "No number, so no mineral named", "A mineral named with no test behind it"],
+      ["Every plant in the prose actually on the list", "No. The prose mentions dandelion; the list does not", "Common, and rarely noticed"],
+      ["A day rate you can check", "Yes. 50 capsules, two a day, £1.60", "Rarely worked out for you"],
+      ["Somebody to ask, at a counter", "Yes. 07946 806533, Tuesday to Sunday", "A contact form"]
+    ],
+    "note": "Three of those rows go against us. Two are a printing job and one needs a laboratory."
+  },
+  "also": {
+    "h2": "Also on the <em>root shelf</em>",
+    "handles": ["astragalus", "ginseng", "pau-darco", "chanca-piedra"]
+  },
+  "jnext": {
+    "article": "journal/lions-mane.html",
+    "label": "From the journal",
+    "h2": "Whole fruiting body, no rice flour",
+    "p": "How to read a supplement label: what a fill is, what a ratio is, and what a claim with no number behind it looks like."
+  },
+  "credits": [
+    "Glass of water: Kurt Kaiser, CC0, via Wikimedia Commons"
+  ]
+}

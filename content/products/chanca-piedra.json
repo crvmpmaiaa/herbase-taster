@@ -1,0 +1,100 @@
+{
+  "slug": "chanca-piedra",
+  "kind": "supplement",
+  "name": "Chanca Piedra",
+  "title": "Chanca Piedra · Phyllanthus niruri capsules · Herbase",
+  "description": "Chanca Piedra capsules. Phyllanthus niruri, 800 mg a capsule, £24.99. The capsule count is not printed on the listing, so there is no day rate here.",
+  "crumb": ["Botanicals", "index.html#best"],
+  "price": "£24.99",
+  "unit": "One size · 800 mg a capsule · count not printed yet",
+  "gallery": [
+    { "img": "assets/hero-root.jpg", "alt": "Bark and root pieces at the edge of a painted nebula", "cap": "The illustration we use for the botanical shelf. There is no pack photograph on this site yet." },
+    { "img": "chanca-piedra-plant", "alt": "Phyllanthus niruri, small leaves in two ranks with round seed capsules hanging underneath the branchlets", "cap": "Phyllanthus niruri. A photograph of the species, taken by somebody else and credited at the foot of the page. It is not a photograph of the material in our sacks." },
+    { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "cap": "Two capsules and a glass of water. A generated scene, not a photograph of our jar." },
+    { "img": "capsule-scoop", "alt": "Loose capsules and a wooden scoop on dark slate", "cap": "Loose capsules and a scoop. A generated scene, and the capsules are not ours." },
+    { "held": true }
+  ],
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "points": [
+    "<b>One botanical</b>, <i>Phyllanthus niruri</i>, at 800 mg a capsule, with nothing else declared",
+    "<b>Two capsules morning and evening</b>, each pair with at least 500 ml of water, as the listing prints it",
+    "<b>The capsule count is not printed.</b> So there is no supply figure and no cost a day on this page"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "h": "Step one", "b": "Two capsules in the morning.", "p": "That is half of the printed serving. The saucer here is a generated scene, not our jar." },
+      { "img": "gen-morning-water", "alt": "A tall glass of water on a wooden table in low morning light, a generated scene", "h": "Step two", "b": "At least 500 ml of water with them.", "p": "The listing prints spring water. The volume is the part that matters, not the label on the bottle." },
+      { "img": "capsule-scoop", "alt": "Loose capsules and a wooden scoop on dark slate", "h": "Step three", "b": "Two more in the evening, with a meal.", "p": "Four capsules is a whole day and the printed ceiling. If you miss a dose, take the next one at its usual time rather than doubling it." },
+      { "img": "assets/store.jpg", "alt": "The shop floor at 599 Smithdown Road, shelves along the wall", "h": "Step four", "b": "Lid on, dry shelf, out of the sun.", "p": "The listing prints no storage line, so this is the plain one. Capsules want neither a fridge nor a steamy kitchen. Ours sit on the shelf you can see here." }
+    ]
+  },
+  "ingredients": {
+    "h2": "One plant, <em>named</em>",
+    "intro": "There is one botanical on this listing and there is no second one. Here is the species, what the label says about the material in the capsule, and the two places where it says nothing.",
+    "cards": [
+      { "img": "chanca-piedra-plant", "alt": "Phyllanthus niruri, small leaves in two ranks with round seed capsules hanging underneath the branchlets", "fam": "Herb · Phyllanthaceae", "latin": "Phyllanthus niruri", "common": "Chanca piedra", "p": "An annual herb of the wet tropics, rarely more than 60 cm tall. The small oblong leaves sit in two ranks along each branchlet, so a whole branch reads at a glance like one pinnate leaf. The tiny flowers and the round seed capsules hang underneath the branchlet rather than above it, which is the quickest way to place the genus in the field. It grows across South America, the Caribbean, West Africa and South Asia." },
+      { "img": "gen-spice-bowls", "alt": "Clove buds, black peppercorns and a pale flecked powder in three small bowls on a wooden sill, a generated scene", "fam": "The part used · Not printed", "latin": "Not named on the label", "common": "Which part of the plant", "p": "Chanca piedra reaches the trade as the whole aerial plant, the part above the ground, dried and milled. Our listing names the species and not the part, so this page does not name one either. The bowls in the picture are a generated scene and none of the powder in them is ours." },
+      { "img": "capsule-scoop", "alt": "Loose capsules and a wooden scoop on dark slate", "fam": "Prepared · Called an extract", "latin": "800 mg a capsule", "common": "No ratio printed", "p": "The listing calls the contents an extract and gives no extraction ratio, which is the number that says how much dried plant went into a gram of powder. Without it, an extract is a word rather than a strength. We print the 800 mg because it is printed, and we do not print a ratio because there is not one to print." },
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "fam": "The shell · Vegan friendly", "latin": "The capsule", "common": "Material not named", "p": "The listing describes a vegan friendly capsule and does not say what the shell is made from, so the sheet below does not name a material. The capsules in the picture are a generated scene rather than a photograph of ours." }
+    ]
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      ["Makeup", "One botanical. <i>Phyllanthus niruri</i> at 800 mg a capsule, with nothing else declared."],
+      ["Species", "<i>Phyllanthus niruri</i> L., family Phyllanthaceae. Older books file the genus under Euphorbiaceae. The listing prints the binomial and it is the accepted one."],
+      ["Part used", "Not printed. The listing names the plant and not the part of it, so this sheet does not name one."],
+      ["Strength", "800 mg a capsule, as printed on the listing."],
+      ["Preparation", "The listing calls the contents an extract and prints no extraction ratio. A ratio written to fill a gap is worse than an empty line, so the line stays empty."],
+      ["Count and supply", "Not printed. Without a capsule count there is no supply figure and no cost a day on this page. For comparison, Ginseng and Seaking are 50 capsules at 800 mg and both print it."],
+      ["Fillers", "None declared. The listing states no fillers and no additives."],
+      ["Capsule", "Described as vegan friendly. The shell material is not named on the listing, so it is not named here."],
+      ["Origin", "Not printed. The listing places the plant in South America, which is where the species grows. It does not say where the material in this jar was grown or gathered, and we will not name a country we cannot evidence."],
+      ["Constituents", "The listing names four plant compounds and gives a quantity for none of them. A name without a number is not a specification, so the compounds are not on this sheet."],
+      ["Price", "£24.99. One size."],
+      ["Serving", "Two capsules in the morning with at least 500 ml of water, and two in the evening with a meal and another 500 ml. That is four capsules in a day and it is the printed ceiling."],
+      ["Storage", "The listing prints no storage instruction. Keep the jar closed, cool and dry, out of the sun. It does not need a fridge."],
+      ["Suitable for", "Adults."],
+      ["Not for", "Not in pregnancy or while breastfeeding. Not for children. If you take a diuretic, or medicine for blood pressure or for blood sugar, ask your GP or pharmacist before you start. The listing also asks anyone trying to conceive to leave it alone, and that stays on the page."]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The species is named in Latin, the milligrams are printed, and the three figures we do not have, the count, the part of the plant and the extraction ratio, are named as missing rather than filled in. What chanca piedra does in a person is not something we are permitted to say. Neither is the name of the plant, which is why the name is left alone on this page."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "Why this page <em>leaves the name alone</em>",
+    "paras": [
+      "Chanca piedra is what the plant is called in Peru and in Brazil, and the name has a plain meaning in Spanish. I am not going to print that meaning, because the meaning is a claim, and a claim in another language is still a claim. The name goes on the jar as a name. That is the whole of the work it does here.",
+      "What I can print is short. One plant, named in Latin. Eight hundred milligrams in a capsule. Two capsules in the morning, two in the evening, a big glass of water with each pair. Everything else on the sheet is a line about what the label does not tell me, and the one that annoys me most is the capsule count. Until that number is printed I cannot give you a cost a day, and I would rather leave the line blank than round one up and hope.",
+      "A herb this widely used should have more printed on it than this. The reason it does not is that it arrived in the trade as a tradition rather than as a specification. Traditions travel well and cost nothing to carry. Numbers have to be measured, and measuring costs money that a shop this size spends one label at a time."
+    ],
+    "pull": "A claim in another language is still a claim.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> single herb capsule",
+    "rows": [
+      ["Species named in Latin", "Yes, <i>Phyllanthus niruri</i>", "Often the common name only"],
+      ["Part of the plant named", "Not printed", "Frequently unstated"],
+      ["Milligrams a capsule printed", "800 mg", "Per serving, if at all"],
+      ["Capsule count printed", "Not printed", "Usually printed"],
+      ["Extraction ratio, where the label says extract", "Not printed", "Rarely printed"],
+      ["Fillers named or ruled out", "None declared", "\"Proprietary blend\""],
+      ["A daily ceiling on the label", "Yes, four capsules", "\"Take as needed\""],
+      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+    ],
+    "note": "Three of those rows are ours to fix and they stay on this page until the label prints the figures. The right-hand column is what we most often see on jars customers bring into the shop. It is not a claim about any particular brand, and plenty of jars out there tick every box."
+  },
+  "also": {
+    "h2": "Other <em>single botanicals</em>",
+    "handles": ["anamu", "gumbo-limbo", "pau-darco", "acacia-bark"]
+  },
+  "jnext": null,
+  "credits": []
+}

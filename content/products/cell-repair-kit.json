@@ -1,0 +1,221 @@
+{
+  "slug": "cell-repair-kit",
+  "kind": "kit",
+  "name": "Cell Repair Kit",
+  "title": "Cell Repair Kit · Four items boxed together · Herbase",
+  "description": "Four items boxed: the Northern Soul gel at 500 ml, Anamu, Mag Flux and Omega DHA Oil. £129.99, a serving printed for each, sent from Liverpool.",
+  "crumb": [
+    "Kits",
+    "shop.html#kits"
+  ],
+  "price": "£129.99",
+  "unit": "Four items · a serving printed for each, no course length printed",
+  "label": "Kits · the box",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this box",
+  "gallery": [
+    {
+      "img": "gen-kit-flatlay",
+      "alt": "Empty amber glass jars of different heights on a dark wooden table, some open and some with pale metal lids, none of them labelled, a generated scene",
+      "thumbAlt": "Empty amber jars on a dark table",
+      "cap": "Empty amber jars on a dark table, no label on any of them. A generated scene, not a photograph of the box or of anything in it."
+    },
+    {
+      "held": true,
+      "cap": "Pack photography is held until the labels are reprinted. The other pictures here are generated scenes, not photographs of the box or of anything in it."
+    },
+    {
+      "img": "gen-gel-spoon",
+      "alt": "A teaspoon of clear gel held over a small glass jar, a generated scene",
+      "cap": "A spoon of gel over a jar. One of the four items is a 500 ml gel, one tablespoon each morning. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "capsule-scoop",
+      "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene",
+      "cap": "Plain capsules and a wooden scoop. Two of the four items are jars of 50 large vegan capsules. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "oil-drop",
+      "alt": "A drop of oil",
+      "cap": "A drop of oil. The fourth item is a bottle of it, a tablespoon a day. A generated scene, not a photograph of our bottle."
+    },
+    {
+      "img": "gen-morning-water",
+      "alt": "A tall glass of water on a wooden table in low morning light, a generated scene",
+      "cap": "A glass of water. The printed schedule asks for at least 500 ml of it with the capsules. A generated scene, not a photograph of our stock."
+    }
+  ],
+  "points": [
+    "<b>Four items in the box</b>: the Northern Soul gel at 500 ml, Anamu, Mag Flux and Omega DHA Oil, each sold on its own as well",
+    "<b>A serving printed for all four</b>, at four points in the day, with at least 500 ml of water alongside the capsules",
+    "<b>£129.99 for the box.</b> No sold separately total on this sheet: the gel is sold in two sizes at two prices, so the four do not add to one figure here"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which this box clears on its own",
+    "Every item in the box has its own specification sheet on this site"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. If you take an anticoagulant, ask before you buy rather than after: two of the four items carry that caution on their own sheets.",
+  "acc": [
+    {
+      "summary": "What is in the box",
+      "body": [
+        "One 500 ml jar of the <a href=\"product.html\">Northern Soul</a> gel. One jar of <a href=\"product-anamu.html\">Anamu</a>, 50 large vegan capsules. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One bottle of <a href=\"product-omega-dha.html\">Omega DHA Oil</a>.",
+        "The listing prints a one line ingredient note against each of the four. The full lists, and the gaps in them, are on each item's own sheet."
+      ]
+    },
+    {
+      "summary": "The schedule as printed on the listing",
+      "body": [
+        "<b>Morning:</b> one tablespoon of the sea moss gel. <b>Lunch or the afternoon:</b> one or two Mag Flux capsules. <b>Evening meal:</b> one or two Anamu capsules. <b>Any time in the day:</b> one tablespoon of the Omega DHA Oil, with water or food.",
+        "At least 500 ml of water with the capsules, as printed. No course length is printed for the box."
+      ]
+    },
+    {
+      "summary": "How long the four last",
+      "body": [
+        "They do not run out together. A 500 ml jar of gel is about 33 tablespoons. Two jars of 50 capsules are 25 to 50 days each, depending on whether you take one capsule or two.",
+        "The bottle is the odd one. This listing calls it a two month supply; the Omega DHA Oil listing calls it one month at a tablespoon a day. Both figures are printed by us, in different places, and they do not agree. We print both rather than pick."
+      ]
+    },
+    {
+      "summary": "Storage",
+      "body": [
+        "The gel goes in the fridge, used within 28 days of opening or frozen, with a clean dry spoon. Capsules keep their lid on somewhere cool and dry, no fridge. The oil bottle prints no storage instruction of its own, so keep it closed and out of the sun."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "<b>Not for children.</b> Not in pregnancy or while breastfeeding without asking a midwife, GP or pharmacist first: that caution sits on three of the four sheets.",
+        "If you take warfarin or any other anticoagulant, or you have surgery booked, ask before you start. Anyone with an overactive thyroid should leave the sea moss alone. Yellow dock, in Mag Flux, is high in oxalate. The oil does not state its source, so if you avoid particular oils, ring the shop before you buy."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. A box with a gel in it goes out chilled. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "contents": {
+    "label": "What is in the box",
+    "h2": "Four items, <em>four times of day</em>",
+    "intro": "Each one is sold on its own as well. The prices on these cards are the prices those items carry on this site, and each card goes to its own specification sheet.",
+    "items": [
+      {
+        "handle": "northern-soul",
+        "qty": "1 jar · 500 ml, as this listing prints it"
+      },
+      {
+        "handle": "anamu",
+        "qty": "1 jar · 50 large vegan capsules"
+      },
+      {
+        "handle": "mag-flux",
+        "qty": "1 jar · 50 large vegan capsules, 800 mg each"
+      },
+      {
+        "handle": "omega-dha",
+        "qty": "1 bottle · volume not printed"
+      }
+    ]
+  },
+  "spec": {
+    "label": "Kits · 03",
+    "h2": "The specification sheet",
+    "intro": "Four items, four printed servings, and the one figure two of our own listings disagree about.",
+    "caption": "Cell Repair Kit",
+    "rows": [
+      [
+        "Contents",
+        "One 500 ml jar of the <a href=\"product.html\">Northern Soul</a> gel. One jar of <a href=\"product-anamu.html\">Anamu</a>, 50 large vegan capsules. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One bottle of <a href=\"product-omega-dha.html\">Omega DHA Oil</a>."
+      ],
+      [
+        "Price",
+        "£129.99. One size, listed with no variants."
+      ],
+      [
+        "Sold separately",
+        "Not totalled here. Northern Soul is sold in two sizes at two prices and the shelf price for it is a starting price, so this sheet does not add the four up. The Northern Soul page prints both sizes and both prices, and the other three are £29.99, £39.99 and £19.99 on their own pages."
+      ],
+      [
+        "Serving",
+        "As printed on the listing: one tablespoon of gel each morning, one or two Mag Flux capsules with lunch or an afternoon meal, one or two Anamu capsules with the evening meal, one tablespoon of Omega DHA Oil daily with water or food. At least 500 ml of water with the capsules."
+      ],
+      [
+        "Course length",
+        "Not printed for the box. The four items do not run out together: about 33 tablespoons in the 500 ml jar, 25 to 50 days in each capsule jar depending on whether you take one or two."
+      ],
+      [
+        "The bottle",
+        "This listing calls the Omega DHA Oil a two month supply. The Omega DHA Oil listing calls it one month at a tablespoon a day. The bottle prints no volume, so there is no third figure to settle it with. Both are printed here and neither is chosen."
+      ],
+      [
+        "Storage",
+        "Gel: refrigerate, use within 28 days of opening or freeze, clean dry spoon. Capsules and the bottle: closed, cool and dry, no fridge."
+      ],
+      [
+        "Suitable for",
+        "Adults. No vegan mark on this box, because the Omega DHA Oil listing does not state the source of the oil. The gel and both capsule jars carry one on their own sheets."
+      ],
+      [
+        "Not printed",
+        "No volume for the oil bottle. No milligram figure for the Anamu capsules. No full ingredient list for Mag Flux, which is printed as a proprietary blend. No course length for the box."
+      ],
+      [
+        "Not for",
+        "Children. Anyone with an overactive thyroid (hyperthyroidism). If you are pregnant or breastfeeding, ask your midwife, GP or pharmacist first. If you take warfarin or any other anticoagulant, or you have surgery booked, ask before you start. If you have been advised to keep oxalate down, ask first: yellow dock is high in it. If you avoid particular oils, ring the shop, because the label does not say what this one is."
+      ]
+    ],
+    "smallprint": "Contains iodine from seaweed. Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The sheet above is four items, four printed servings, one price and a list of what nobody has printed. Cell Repair Kit is the name on the box. It is a name, not a description, and we do not expand it or say what the box is for. The live listing gives a reason for buying it that is not repeated here, because what any of these four items does in a body is not something we are permitted to tell you."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "Four items, <em>four different clocks</em>",
+    "paras": [
+      "A box implies the things in it run together, and these four do not. The gel is about 33 tablespoons. The two capsule jars are 25 days at two a day, or 50 at one, and the listing prints one or two for both, so even those two do not agree with each other. Somebody working through this box will finish one jar a fortnight before another.",
+      "The bottle is worse, and it is our own fault. This listing calls it a two month supply. The bottle's own listing calls it one month. Nobody has printed a volume, so there is no measurement that settles it, and I am not going to quietly choose the flattering one. Both figures are in the sheet above with their sources.",
+      "There is no sold separately total on this page either, because the gel comes in two jars at two prices. I could pick the 500 ml price, add it up and print a saving. I would rather send you to the four pages, where every price is printed on its own, and let you do the addition with the sizes you would actually buy."
+    ],
+    "pull": "A box implies the things in it run together. These four do not.",
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
+  },
+  "also": {
+    "h2": "The other <em>boxes</em>",
+    "intro": "Four more kits, each one a set of jars that are also sold on their own.",
+    "handles": [
+      {
+        "handle": "28-day-kit",
+        "sub": "Three jars of Detox Redox, a Northern Soul gel and the book. Five items, no schedule printed."
+      },
+      {
+        "handle": "parasite-cleanse-kit",
+        "sub": "Mag Flux, Decolonise and the Purple Mwani gel. A 25 day cycle is printed on that listing."
+      },
+      {
+        "handle": "menopause-kit",
+        "sub": "Chondrus Crispus gel, Equill and Chasteberry. Three items, £99.97 sold separately."
+      },
+      {
+        "handle": "athletes-kit",
+        "sub": "Six items: the gel, Mag Flux, Test Drive, Omega DHA Oil, Mycrodose and the book."
+      }
+    ]
+  },
+  "jnext": {
+    "article": "journal/seaking-iodine.html",
+    "label": "From the journal",
+    "h2": "How much iodine is <em>in a capsule, and in a spoon</em>",
+    "p": "The gel in this box prints no iodine figure, because the amount in a spoonful moves with the harvest. Reiss on the one product that does carry a measured number, and why.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

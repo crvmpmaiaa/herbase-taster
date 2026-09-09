@@ -1,0 +1,231 @@
+{
+  "slug": "athletes-kit",
+  "kind": "kit",
+  "name": "Athletes Kit",
+  "title": "Athletes Kit · Six items boxed together · Herbase",
+  "description": "Six items boxed: the Northern Soul gel at 500 ml, Mag Flux, Test Drive, Omega DHA Oil, Mycrodose and the book. £199.99, sent from Liverpool.",
+  "crumb": [
+    "Kits",
+    "shop.html#kits"
+  ],
+  "price": "£199.99",
+  "unit": "Six items · a morning, afternoon and evening schedule as printed",
+  "label": "Kits · the box",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this box",
+  "gallery": [
+    {
+      "img": "gen-kit-flatlay",
+      "alt": "Empty amber glass jars of different heights on a dark wooden table, some open and some with pale metal lids, none of them labelled, a generated scene",
+      "thumbAlt": "Empty amber jars on a dark table",
+      "cap": "Empty amber jars on a dark table, no label on any of them. A generated scene, not a photograph of the box or of anything in it."
+    },
+    {
+      "held": true,
+      "cap": "Pack photography is held until the labels are reprinted. The other pictures here are generated scenes, not photographs of the box or of anything in it."
+    },
+    {
+      "img": "gen-gel-spoon",
+      "alt": "A teaspoon of clear gel held over a small glass jar, a generated scene",
+      "cap": "A spoon of gel over a jar. The printed schedule starts with one tablespoon of it. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "capsule-scoop",
+      "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene",
+      "cap": "Plain capsules and a wooden scoop. Three of the six items are jars of 50 capsules. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "oil-drop",
+      "alt": "A drop of oil",
+      "cap": "A drop of oil. One of the six items is a bottle of it, a tablespoon in the morning. A generated scene, not a photograph of our bottle."
+    },
+    {
+      "img": "gen-lionsmane-slices",
+      "alt": "Dried lion's mane slices on linen beside an empty glass jar, a generated scene",
+      "cap": "Dried lion's mane. It is the first of the four mushrooms declared on the Mycrodose listing, which is the evening jar in this box. A generated scene, not a photograph of our stock."
+    }
+  ],
+  "points": [
+    "<b>Six items in the box</b>: the Northern Soul gel at 500 ml, Mag Flux, Test Drive, Omega DHA Oil, Mycrodose and the book",
+    "<b>A morning, afternoon and evening schedule</b> is printed for them, with at least 500 ml of water beside the capsules",
+    "<b>£199.99 for the box.</b> No sold separately total on this sheet: the gel comes in two sizes at two prices, so the six do not add to one figure here"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which this box clears on its own",
+    "Every item in the box has its own specification sheet on this site"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. If you compete under a testing programme, read the row on the sheet below about the two jars that print a proprietary blend before you buy anything.",
+  "acc": [
+    {
+      "summary": "What is in the box",
+      "body": [
+        "One 500 ml jar of the <a href=\"product.html\">Northern Soul</a> gel. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, one of <a href=\"product-test-drive.html\">Test Drive</a> and one of <a href=\"product-mycrodose.html\">Mycrodose</a>, 50 capsules in each. One bottle of <a href=\"product-omega-dha.html\">Omega DHA Oil</a>. One copy of the book, which the listing describes as the guide to fitting the six together.",
+        "The six cards below go to each item's own sheet, where the ingredient lists and the gaps in them are set out."
+      ]
+    },
+    {
+      "summary": "The schedule as printed on the listing",
+      "body": [
+        "<b>Morning:</b> one tablespoon of the sea moss gel on an empty stomach, then one tablespoon of the Omega DHA Oil and one or two Test Drive capsules, which the listing says to adjust for the intensity of the training. <b>Afternoon:</b> one or two Mag Flux capsules with at least 500 ml of water and a meal. <b>Evening:</b> two Mycrodose capsules with at least 500 ml of water and a meal.",
+        "That is the listing's own wording. Two of the jars print different servings on their own sheets, and both differences are on the specification sheet below."
+      ]
+    },
+    {
+      "summary": "If you compete",
+      "body": [
+        "Mag Flux and Test Drive are both printed as proprietary blends. Test Drive names some of its plants and Mag Flux names none, so for either jar there is no full list of what is in a capsule.",
+        "If you are tested, that matters more than any figure on this page. Nobody at this shop can hand you a complete ingredient list for those two, so ask your governing body or your doctor before you take them, not after."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "<b>Not for children.</b> Not in pregnancy or while breastfeeding. The Test Drive listing states that jar is for men only; it gives no reason, and we are not going to invent one.",
+        "If you take nitrates, blood pressure medicine, heart medicine, an anticoagulant, insulin or anything else for blood sugar, or any other prescribed medicine, speak to your GP or pharmacist before you start. There are four mushrooms in the evening jar, so anyone who reacts to mushrooms should leave it alone, and pine pollen in Test Drive is a pollen. Anyone with an overactive thyroid should leave the sea moss alone."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. A box with a gel in it goes out chilled. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "contents": {
+    "label": "What is in the box",
+    "h2": "Six items, <em>five jars and a book</em>",
+    "intro": "Each one is sold on its own as well. The prices on these cards are the prices those items carry on this site, and each card goes to its own specification sheet.",
+    "items": [
+      {
+        "handle": "northern-soul",
+        "qty": "1 jar · 500 ml, as this listing prints it"
+      },
+      {
+        "handle": "mag-flux",
+        "qty": "1 jar · 50 large vegan capsules, 800 mg each"
+      },
+      {
+        "handle": "test-drive",
+        "qty": "1 jar · 50 large vegan capsules, 800 mg each"
+      },
+      {
+        "handle": "omega-dha",
+        "qty": "1 bottle · volume not printed"
+      },
+      {
+        "handle": "mycrodose",
+        "qty": "1 jar · 50 capsules, 800 mg each"
+      },
+      {
+        "handle": "detox-redox-book",
+        "qty": "1 copy · by Reiss Davies Ausar"
+      }
+    ]
+  },
+  "spec": {
+    "label": "Kits · 06",
+    "h2": "The specification sheet",
+    "intro": "Six items, one printed schedule, and the rows where the box and the jars in it do not say the same thing.",
+    "caption": "Athletes Kit",
+    "rows": [
+      [
+        "Contents",
+        "One 500 ml jar of the <a href=\"product.html\">Northern Soul</a> gel. One jar each of <a href=\"product-mag-flux.html\">Mag Flux</a>, <a href=\"product-test-drive.html\">Test Drive</a> and <a href=\"product-mycrodose.html\">Mycrodose</a>, 50 capsules in each. One bottle of <a href=\"product-omega-dha.html\">Omega DHA Oil</a>. One copy of the book."
+      ],
+      [
+        "Price",
+        "£199.99. One size. The variant line also reads 2000 g without saying whether that is the box as it ships or what is inside it, so it is not a pack size."
+      ],
+      [
+        "Sold separately",
+        "Not totalled here. Northern Soul is sold in two sizes at two prices and the shelf price for it is a starting price, so this sheet does not add the six up. Every one of the six carries its own price on its own page."
+      ],
+      [
+        "Serving",
+        "As printed on this listing. Morning: one tablespoon of gel on an empty stomach, one tablespoon of Omega DHA Oil, one or two Test Drive capsules, adjusted for the intensity of the training. Afternoon: one or two Mag Flux capsules with a meal. Evening: two Mycrodose capsules with a meal. At least 500 ml of water with the capsules."
+      ],
+      [
+        "Test Drive, twice",
+        "This listing prints one or two capsules in the morning. The <a href=\"product-test-drive.html\">Test Drive</a> listing prints two capsules with breakfast and at least 1 litre of water across the day. Both are ours and they do not agree. Neither is chosen here."
+      ],
+      [
+        "Mag Flux, twice",
+        "This listing prints one or two capsules in the afternoon. The <a href=\"product-mag-flux.html\">Mag Flux</a> listing prints two, with lunch or an afternoon meal. A jar of 50 is 25 days at two and 50 days at one, so the difference is a month."
+      ],
+      [
+        "Course length",
+        "Not printed for the box. The six do not run out together: about 33 tablespoons in the gel jar, 25 days in the Mycrodose jar at two a day, 25 to 50 days in each of the other two, and one month a bottle for the oil as its own listing prints it."
+      ],
+      [
+        "Full ingredient lists",
+        "Two of the five jars do not have one. Mag Flux is printed as a proprietary blend and Test Drive names some of its plants and not the rest. If you are tested in your sport, that is the row that matters here."
+      ],
+      [
+        "Storage",
+        "Gel: refrigerate, use within 28 days of opening or freeze, clean dry spoon. Capsules and the bottle: closed, cool and dry, no fridge."
+      ],
+      [
+        "Suitable for",
+        "Adults. No vegan mark on this box, because the Omega DHA Oil listing does not state the source of the oil. The gel and all three capsule jars carry one on their own sheets."
+      ],
+      [
+        "Not printed",
+        "No volume for the oil bottle. No full ingredient list for Mag Flux. No milligram split for the plants named in Test Drive. No course length for the box."
+      ],
+      [
+        "Not for",
+        "Children. Anyone who is pregnant or breastfeeding. Anyone with an overactive thyroid (hyperthyroidism), because of the seaweed. Anyone who reacts to mushrooms: there are four in the evening jar. The Test Drive listing states that jar is for men only and gives no reason for it. If you take nitrates, blood pressure medicine, heart medicine, an anticoagulant, insulin or anything else for blood sugar, or any other prescribed medicine, speak to your GP or pharmacist before you start."
+      ]
+    ],
+    "smallprint": "Contains iodine from seaweed. Contains mushroom, which is an allergen for some people. Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The sheet above is six items, one schedule, one price and four rows about figures nobody has printed. Athletes Kit is the name on the box. It is a name, not a description, and we do not expand it or say what the box is for. What any of these six items does in a body, in training or anywhere else, is not something we are permitted to tell you, so it is not on this page."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "The row I would read <em>before the price</em>",
+    "paras": [
+      "If you are tested in your sport, the important row on that sheet is the one about ingredient lists. Mag Flux prints a proprietary blend and names nothing. Test Drive names some plants and leaves the rest unlisted. I cannot hand you a complete list for either jar, and no bundle price changes that. Ask your governing body first, and if the answer is no, buy neither.",
+      "The second thing is that one of the six jars states on its own listing that it is for men only. It gives no reason, we did not write one, and I am not going to pretend it is not there because this box is sold as a set. It is in the last row of the sheet for that reason.",
+      "There is no sold separately total on this page because the gel comes in two jars at two prices, and there are two rows where this box prints a different serving from the jar it contains. That is six items and four places where our own paperwork does not line up. I would rather you saw all four than a saving figure."
+    ],
+    "pull": "I cannot hand you a complete ingredient list for two of these jars, and no bundle price changes that.",
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
+  },
+  "also": {
+    "h2": "The other <em>boxes</em>",
+    "intro": "Four more kits, each one a set of jars that are also sold on their own.",
+    "handles": [
+      {
+        "handle": "mens-health-kit",
+        "sub": "Chondrus Crispus gel, Mag Flux and Test Drive. Three jars, and a nutrition guide with every order."
+      },
+      {
+        "handle": "cell-repair-kit",
+        "sub": "Northern Soul gel, Anamu, Mag Flux and Omega DHA Oil. Four items, each with a printed serving."
+      },
+      {
+        "handle": "28-day-kit",
+        "sub": "Three jars of Detox Redox, a Northern Soul gel and the book. Five items, no schedule printed."
+      },
+      {
+        "handle": "parasite-cleanse-kit",
+        "sub": "Mag Flux, Decolonise and the Purple Mwani gel. A 25 day cycle is printed on that listing."
+      }
+    ]
+  },
+  "jnext": {
+    "article": "journal/lions-mane.html",
+    "label": "From the journal",
+    "h2": "Whole fruiting body, <em>no rice flour</em>",
+    "p": "Lion's mane is the first of the four mushrooms in the evening jar of this box. Reiss on fruiting body against mycelium on grain, and how to read what a label is actually telling you.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

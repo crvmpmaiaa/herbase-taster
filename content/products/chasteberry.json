@@ -1,0 +1,99 @@
+{
+  "slug": "chasteberry",
+  "kind": "supplement",
+  "name": "Chasteberry",
+  "title": "Chasteberry · Vitex agnus-castus capsules · Herbase",
+  "description": "Chasteberry capsules. Vitex agnus-castus, 50 vegan capsules, 25 days, £24.99. The milligrams a capsule and the part of the plant are not printed.",
+  "crumb": ["Botanicals", "index.html#best"],
+  "price": "£24.99",
+  "unit": "50 capsules · 25 days · about £1 a day",
+  "gallery": [
+    { "img": "assets/hero-root.jpg", "alt": "Bark and root pieces at the edge of a painted nebula", "cap": "The shelf illustration, not the jar. No pack photography has been shot for this site." },
+    { "img": "chasteberry-fruit", "alt": "Small dark berries of Vitex agnus-castus on the stem", "cap": "Vitex agnus-castus in fruit. A photograph of the species, taken by somebody else and credited at the foot of the page." },
+    { "img": "chasteberry-plant", "alt": "Vitex agnus-castus in flower, long spikes of small lilac flowers above palmate leaves", "cap": "The same shrub in flower, which is when it is easiest to recognise. Not a photograph of our material." },
+    { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "cap": "Capsules beside a glass of water, which is the whole of the morning. A generated scene." },
+    { "held": true }
+  ],
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "points": [
+    "<b>One botanical</b>, <i>Vitex agnus-castus</i>, in a vegan capsule, with nothing else declared",
+    "<b>Two capsules in the morning</b>, before breakfast, with at least 500 ml of water",
+    "<b>The milligrams are not printed.</b> The count is: 50 capsules, which is 25 days at the printed serving"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. If you take anything on prescription, ask your pharmacist first rather than us.",
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "h": "Step one", "b": "Two capsules in the morning.", "p": "Before breakfast, which is what the listing prints. The saucer here is a generated scene, not our jar." },
+      { "img": "gen-morning-water", "alt": "A tall glass of water on a wooden table in low morning light, a generated scene", "h": "Step two", "b": "At least 500 ml of water with them.", "p": "The listing specifies spring water. Five hundred millilitres is the figure worth keeping to; where it comes from is your business." },
+      { "img": "gen-calendar-desk", "alt": "A date circled in pencil on a paper calendar page, a generated scene", "h": "Step three", "b": "Twenty five days, then five off.", "p": "Fifty capsules at two a day is 25 days, and the listing prints five days off at the end of the jar. We print the schedule and not the sentence the listing puts beside it." },
+      { "img": "gen-bathroom-shelf", "alt": "A small jar on a marble bathroom sill beside a folded cloth and a bristle brush, the window running with condensation, a generated scene", "h": "Step four", "b": "Lid on, dry shelf, out of the sun.", "p": "The listing prints no storage line, so this is the plain one. Not the fridge, and not a sill like the one in this generated scene, with the window running wet." }
+    ]
+  },
+  "ingredients": {
+    "h2": "One shrub, <em>named</em>",
+    "intro": "One botanical, one Latin name, and a label that stops sooner than it should. Here is the plant, the fruit the common name refers to, and the two figures the listing leaves out.",
+    "cards": [
+      { "img": "chasteberry-plant", "alt": "Vitex agnus-castus in flower, long spikes of small lilac flowers above palmate leaves", "fam": "Shrub · Lamiaceae", "latin": "Vitex agnus-castus", "common": "Chasteberry", "p": "A deciduous shrub or small tree of the Mediterranean and western Asia, at home on riverbanks and on dry stony ground. The leaves are palmate, five to seven narrow leaflets fanning out from one point and grey underneath. In late summer it throws long spikes of small lilac flowers, which is when you can place it from a passing car." },
+      { "img": "chasteberry-fruit", "alt": "Small dark berries of Vitex agnus-castus on the stem", "fam": "The fruit · The name", "latin": "The berry itself", "common": "Part not printed", "p": "The fruit follows the flower: small, hard, dark when ripe, about the size of a peppercorn. That dried fruit is what the trade sells under this name. Our listing prints the species and not the part of it, so the sheet below does not state a part, and the photograph is of the plant rather than of our material." },
+      { "img": "gen-spice-bowls", "alt": "Clove buds, black peppercorns and a pale flecked powder in three small bowls on a wooden sill, a generated scene", "fam": "Prepared · Milled", "latin": "No strength printed", "common": "Milligrams missing", "p": "The listing prints a capsule count, a serving and a pack weight, and no milligrams a capsule. Without that figure there is no strength on the sheet and no way to compare a capsule of ours with a capsule of anybody else's. The bowls in the picture are a generated scene and none of the powder in them is ours." },
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "fam": "The shell · Vegan", "latin": "The capsule", "common": "Material not named", "p": "The listing prints 50 vegan capsules. It does not say what the shell is made from, so the sheet does not name a material. The capsules in the picture are a generated scene rather than a photograph of ours." }
+    ]
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      ["Makeup", "One botanical. <i>Vitex agnus-castus</i> in a vegan capsule, with nothing else declared."],
+      ["Species", "<i>Vitex agnus-castus</i> L., family Lamiaceae. Older books file the genus under Verbenaceae. The listing prints the binomial in its own tags and it is the accepted one."],
+      ["Part used", "Not printed. The common name is the fruit and dried fruit is what the trade sells, but the listing does not print a part, so this sheet does not state one."],
+      ["Strength", "Not printed. There are no milligrams a capsule anywhere on this listing, in the body copy or in the tags."],
+      ["Count", "50 vegan capsules, as printed."],
+      ["Supply", "25 days at the printed serving, then five days off. Both numbers are the listing's."],
+      ["Longer run", "The listing also prints a run of 8 to 12 weeks. It does not print what happens at the end of the 25 days or at the end of the 12 weeks, and neither do we."],
+      ["Weight", "Listed at 100 g for the pack as it ships. With no milligrams a capsule printed, we cannot tell you how much of that 100 g is contents."],
+      ["Price", "£24.99. One size. Two capsules a day across 25 days is about £1 a day."],
+      ["Serving", "Two capsules in the morning, before breakfast, with at least 500 ml of water."],
+      ["Storage", "None printed. Keep the lid on and the jar somewhere dry and out of the light. It does not want a fridge."],
+      ["Excipients", "None declared beyond the capsule shell."],
+      ["Suitable for", "Adults."],
+      ["Not for", "Not in pregnancy or while breastfeeding. Not for children. Chasteberry has documented interactions with more than one class of prescribed medicine, so if you take anything on prescription, ask your GP or pharmacist before you start rather than starting and telling them later."]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The species is named in Latin, the count and the serving are printed, and the two figures we do not have, the milligrams and the part of the plant, are named as missing rather than guessed at. What chasteberry does in a person is not something we are permitted to say, so it is not on this page, and it is not hinted at either. The live listing says a great deal more than this one does. That is one of the reasons this rebuild exists."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "Why this is the <em>shortest sheet on the shelf</em>",
+    "paras": [
+      "This is the page where I have the least to print, and it is not because the plant is obscure. <i>Vitex agnus-castus</i> has been in European herbals for centuries and it is one of the better studied botanicals in the shop. The trouble is the gap between what is known about a plant and what a shop is allowed to write on a shelf card next to a jar of it. Nearly everything I could tell you about this one sits on the far side of that line, so it stays off the page.",
+      "What is left is a species, a count, a serving and a set of blanks. Fifty capsules. Two in the morning before breakfast. Twenty five days, then five off. No milligrams, because the label does not carry them. No part of the plant named, because the label does not carry that either. On a herb this well documented, both of those are label problems rather than sourcing problems, and both are on my list for the reprint.",
+      "One thing I will say plainly, because it is a caution and not a claim. This is not a herb to start on your own while you are taking something else on prescription. The interactions are documented, the list is not a short one, and a pharmacist can read through it with you in a minute at a counter. Ask first. If the answer comes back no, the twenty five pounds stays in your pocket, and that is the better result of the two."
+    ],
+    "pull": "A species, a count, a serving, and a set of blanks.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> chasteberry",
+    "rows": [
+      ["Species named in Latin", "Yes, <i>Vitex agnus-castus</i>", "Often the common name only"],
+      ["Part of the plant named", "Not printed", "Fruit, where it is stated at all"],
+      ["Milligrams a capsule printed", "Not printed", "Usually printed"],
+      ["Capsule count printed", "50", "Usually printed"],
+      ["Days of supply stated", "25, and five off", "Rarely stated"],
+      ["Extraction ratio, where the label says extract", "Not sold as an extract", "Often claimed, rarely quantified"],
+      ["Interactions flagged before you buy", "Yes, above and on the sheet", "Buried or absent"],
+      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+    ],
+    "note": "Two of those rows are ours to fix and they stay on this page until the label prints the figures. The right-hand column is what we most often see on jars customers bring into the shop. It is not a claim about any particular brand, and plenty of jars out there tick every box."
+  },
+  "also": {
+    "h2": "Also on the <em>botanical shelf</em>",
+    "handles": ["astragalus", "gotu-kola", "ashwagandha", "acacia-bark"]
+  },
+  "jnext": null,
+  "credits": []
+}

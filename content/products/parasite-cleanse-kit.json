@@ -1,0 +1,211 @@
+{
+  "slug": "parasite-cleanse-kit",
+  "kind": "kit",
+  "name": "Parasite Cleanse Kit",
+  "title": "Parasite Cleanse Kit · Three jars boxed together · Herbase",
+  "description": "Three jars boxed: Mag Flux, Decolonise and the Purple Mwani gel. £99.99, a 25 day cycle printed on the listing, sent from Liverpool.",
+  "crumb": [
+    "Kits",
+    "shop.html#kits"
+  ],
+  "price": "£99.99",
+  "unit": "Three jars · a 25 day cycle as printed on the listing",
+  "label": "Kits · the box",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this box",
+  "gallery": [
+    {
+      "img": "gen-kit-flatlay",
+      "alt": "Empty amber glass jars of different heights on a dark wooden table, some open and some with pale metal lids, none of them labelled, a generated scene",
+      "thumbAlt": "Empty amber jars on a dark table",
+      "cap": "Empty amber jars on a dark table, no label on any of them. A generated scene, not a photograph of the box or of anything in it."
+    },
+    {
+      "held": true,
+      "cap": "Pack photography is held until the labels are reprinted. The other pictures here are generated scenes, not photographs of the box or of anything in it."
+    },
+    {
+      "img": "gen-bitters-board",
+      "alt": "A wormwood sprig, clove buds, black peppercorns, a halved bitter melon and a heap of charcoal on a dark board, a generated scene",
+      "cap": "Five of the nine ingredients declared on the Decolonise listing, which is one of the three jars in this box. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "capsule-scoop",
+      "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene",
+      "cap": "Plain capsules and a wooden scoop. Two of the three jars are capsules, 50 in each. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "gen-calendar-desk",
+      "alt": "A date circled in pencil on a paper calendar page beside a pencil, a generated scene",
+      "cap": "A calendar page and a pencil. The listing prints a 25 day cycle, and Decolonise then asks for at least four months before another course. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "gen-gel-spoon",
+      "alt": "A teaspoon of clear gel held over a small glass jar, a generated scene",
+      "cap": "A spoon of gel over a jar. The third jar in the box is a gel, one tablespoon each morning. A generated scene, not a photograph of our stock."
+    }
+  ],
+  "points": [
+    "<b>Three jars in the box</b>: Mag Flux, Decolonise and the Purple Mwani sea moss gel, each of them sold on its own as well",
+    "<b>£99.99 for the box.</b> The same three at the prices on this site come to £104.97, so the box is £4.98 under them",
+    "<b>A 25 day cycle</b> with a time of day printed for each jar. Decolonise then carries a stop date: at least four months before another course"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which this box clears on its own",
+    "Every jar in the box has its own specification sheet on this site"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Read the stop date and the two hour charcoal rule on the sheet below before you do. Both are standard, both are on the Decolonise sheet, and both apply here.",
+  "acc": [
+    {
+      "summary": "What is in the box",
+      "body": [
+        "One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One jar of <a href=\"product-decolonise.html\">Decolonise</a>, 50 vegan capsules at 800 mg. One jar of the <a href=\"product-purple-mwani.html\">Purple Mwani</a> gel, which is <i>Eucheuma cottonii</i> and water.",
+        "Nothing else is named as being in the box. The three cards below go to each jar's own sheet."
+      ]
+    },
+    {
+      "summary": "The schedule as printed on the listing",
+      "body": [
+        "<b>Morning:</b> one tablespoon of the sea moss gel. <b>Afternoon:</b> two Mag Flux capsules. <b>Evening:</b> two Decolonise capsules.",
+        "All capsules with at least 500 ml of water, and the listing asks for the schedule to be followed for a full 25 day cycle. That is the listing's own wording and this page does not add to it."
+      ]
+    },
+    {
+      "summary": "The stop date",
+      "body": [
+        "Decolonise is 25 days and then at least four months before another course, which is printed on its own sheet and does not change because the jar came in a box.",
+        "Activated charcoal is one of its nine declared ingredients. Charcoal can reduce how much of a medicine taken by mouth the body takes up, including the contraceptive pill, so leave at least two hours between the capsules and anything you take on prescription."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "<b>Not in pregnancy or while breastfeeding</b>, and not if you are trying to conceive: that last one is the Purple Mwani listing's own caution and we print it as it stands. Not for children.",
+        "Anyone with epilepsy or a history of seizures should leave the Decolonise jar alone. Anyone with an overactive thyroid should leave the sea moss alone, and if you take thyroid medication or anything for the blood, ask your GP or pharmacist first. Yellow dock, in Mag Flux, is high in oxalate, so ask first if you have been told to keep oxalate down."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. A box with a gel in it goes out chilled. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "contents": {
+    "label": "What is in the box",
+    "h2": "Three jars, <em>one of them with a stop date</em>",
+    "intro": "Each one is sold on its own as well. The prices on these cards are the prices those jars carry on this site, and each card goes to its own specification sheet.",
+    "items": [
+      {
+        "handle": "mag-flux",
+        "qty": "1 jar · 50 large vegan capsules, 800 mg each"
+      },
+      {
+        "handle": "decolonise",
+        "qty": "1 jar · 50 vegan capsules, 800 mg each"
+      },
+      {
+        "handle": "purple-mwani",
+        "qty": "1 jar · Eucheuma cottonii gel"
+      }
+    ]
+  },
+  "spec": {
+    "label": "Kits · 02",
+    "h2": "The specification sheet",
+    "intro": "Three jars, one printed schedule, and the limit that comes with the middle jar.",
+    "caption": "Parasite Cleanse Kit",
+    "rows": [
+      [
+        "Contents",
+        "One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One jar of <a href=\"product-decolonise.html\">Decolonise</a>, 50 vegan capsules. One jar of the <a href=\"product-purple-mwani.html\">Purple Mwani</a> gel, <i>Eucheuma cottonii</i> and water."
+      ],
+      [
+        "Price",
+        "£99.99. One size, listed with no variants."
+      ],
+      [
+        "Sold separately",
+        "£104.97 at the prices on this site: £39.99 plus £39.99 plus £24.99. The box is £4.98 under that."
+      ],
+      [
+        "Serving",
+        "As printed on the listing: one tablespoon of the gel in the morning, two Mag Flux capsules in the afternoon, two Decolonise capsules in the evening, all capsules with at least 500 ml of water."
+      ],
+      [
+        "Course length",
+        "A full 25 day cycle, as printed. Two jars of 50 capsules at two a day is 25 days, so the capsules and the cycle agree. The gel jar prints no volume, so how far it goes is not a figure we can give you."
+      ],
+      [
+        "The stop date",
+        "Decolonise is up to 25 days and then at least four months before another course. That is on its own sheet and it applies to the jar in this box."
+      ],
+      [
+        "Storage",
+        "Gel: refrigerate, use within 28 days of opening or freeze, clean dry spoon. Capsules: lid on, cool and dry, no fridge."
+      ],
+      [
+        "Suitable for",
+        "Vegans. Adults."
+      ],
+      [
+        "Not printed",
+        "No volume for the gel jar. No milligram split between the nine ingredients in Decolonise, and no thujone figure for the wormwood in it. This page fills none of those in."
+      ],
+      [
+        "Not for",
+        "Anyone who is pregnant, breastfeeding or trying to conceive. Children. Anyone with epilepsy or a history of seizures. Anyone with an overactive thyroid (hyperthyroidism). If you take any prescribed medicine, including the contraceptive pill, thyroid medication or anything for the blood, speak to your GP or pharmacist before you start. If you have been advised to keep oxalate down, ask first: yellow dock is high in it."
+      ]
+    ],
+    "smallprint": "Contains iodine from seaweed. Activated charcoal can reduce the absorption of medicines taken by mouth, including the contraceptive pill. Leave at least two hours between the capsules and any medication. Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The sheet above is three jars, one schedule, one price and one limit. Parasite Cleanse Kit is the name printed on the box. It is a name, not a description, and we do not expand it or say what the box is for. What any of these three jars does in a body is not something we are permitted to tell you, so it is not on this page."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "The jar in the middle <em>has a stop date</em>",
+    "paras": [
+      "Decolonise is 25 days and then four months on the shelf, and that limit does not soften because the jar arrived in a box with two others. It is on the sheet above in its own row for that reason. If somebody buys this in March, the earliest I would want them opening another Decolonise is July.",
+      "The second thing on that jar is the charcoal. Activated charcoal is one of the nine declared ingredients and charcoal is not selective about what it holds on to. If you take anything on prescription, including the pill, put two hours between it and the evening capsules. That is not caution for the sake of it, it is how charcoal behaves.",
+      "On the money: buy the three separately at the prices on this site and it comes to £104.97, so the box saves you £4.98. That is the whole of it. I have left the listing's own saving figure off this page because it does not agree with the shelf prices, and I would rather print the arithmetic you can check than the number that reads better."
+    ],
+    "pull": "The earliest I would want you opening another Decolonise is four months after you close this one.",
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
+  },
+  "also": {
+    "h2": "The other <em>boxes</em>",
+    "intro": "Four more kits, each one a set of jars that are also sold on their own.",
+    "handles": [
+      {
+        "handle": "28-day-kit",
+        "sub": "Three jars of Detox Redox, a Northern Soul gel and the book. Five items, no schedule printed."
+      },
+      {
+        "handle": "cell-repair-kit",
+        "sub": "Northern Soul gel, Anamu, Mag Flux and Omega DHA Oil. Four items, each with a printed serving."
+      },
+      {
+        "handle": "mens-health-kit",
+        "sub": "Chondrus Crispus gel, Mag Flux and Test Drive. Three jars, and a nutrition guide with every order."
+      },
+      {
+        "handle": "athletes-kit",
+        "sub": "Six items: the gel, Mag Flux, Test Drive, Omega DHA Oil, Mycrodose and the book."
+      }
+    ]
+  },
+  "jnext": {
+    "article": "journal/decolonise-stop-date.html",
+    "label": "From the journal",
+    "h2": "Wormwood, and why Decolonise <em>has a stop date</em>",
+    "p": "The nine ingredients as a classic bitter, the wormwood in it, and why the pack asks for one course every four months at most. The jar in this box is that jar.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

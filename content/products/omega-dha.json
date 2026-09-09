@@ -1,0 +1,103 @@
+{
+  "slug": "omega-dha",
+  "kind": "supplement",
+  "name": "Omega DHA Oil",
+  "title": "Omega DHA Oil · One tablespoon a day · Herbase",
+  "description": "Omega DHA Oil, £19.99. Six parts omega 3 to one part omega 6, one tablespoon a day, kept in the fridge. The source of the oil is not printed on the listing.",
+  "crumb": ["Sea moss", "index.html#best"],
+  "price": "£19.99",
+  "unit": "One bottle · a tablespoon a day · one month · volume not printed",
+  "gallery": [
+    { "img": "oil-drop", "alt": "A drop of oil", "cap": "A drop of oil. A generated scene, not a photograph of our bottle." },
+    { "img": "gen-oil-bottle", "alt": "A small amber bottle and a spoon of golden oil on linen, a generated scene", "cap": "A small amber bottle and a spoon of oil. A generated scene, and not a photograph of ours." },
+    { "img": "assets/hero-sea.jpg", "alt": "Seaweed fronds in a ring of green nebula against a starfield", "cap": "The painted illustration we use for the sea moss shelf, where this bottle sits because it goes into the Chondrus Crispus gel. It says nothing about where the oil comes from." },
+    { "img": "step-fridge", "alt": "Jars on a fridge shelf", "cap": "The fridge in the shop. The listing prints fridge storage for this bottle, and what you can see here is jars of gel rather than bottles of oil." },
+    { "held": true }
+  ],
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this bottle",
+  "points": [
+    "<b>Six parts omega 3 to one part omega 6</b>, the one compositional ratio the listing prints",
+    "<b>One tablespoon a day, from the fridge.</b> The listing puts a bottle at one month",
+    "<b>The source is not printed.</b> The listing does not name the plant, or any other origin, so neither do we"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday. If you avoid particular oils, ask before you buy, because the source is not on the label.",
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      { "img": "gen-oil-bottle", "alt": "A small amber bottle and a spoon of golden oil on linen, a generated scene", "h": "Step one", "b": "One tablespoon a day.", "p": "That is the whole of the printed serving. The listing gives no time of day, so pick one you will keep to. The bottle here is a generated scene, not ours." },
+      { "img": "oil-drop", "alt": "A drop of oil", "h": "Step two", "b": "Measure it, do not pour it.", "p": "A tablespoon is 15 ml. Poured by eye, a tablespoon is whatever the neck of the bottle feels like giving you, and the serving figures on the sheet are written against the spoon." },
+      { "img": "step-fridge", "alt": "Jars on a fridge shelf", "h": "Step three", "b": "Keep it in the fridge.", "p": "Store in the fridge is the only storage instruction the listing prints, and it is worth following from the day the seal comes off." },
+      { "img": "gen-calendar-desk", "alt": "A date circled in pencil on a paper calendar page, a generated scene", "h": "Step four", "b": "A bottle is a month.", "p": "The listing puts one bottle at a one month supply at a tablespoon a day. It does not print the volume of the bottle, so a month is the only supply figure on this page." }
+    ]
+  },
+  "ingredients": {
+    "h2": "What is in the bottle, <em>and what is not named</em>",
+    "intro": "This is the one thing on the shelf whose label describes a ratio instead of a plant. Here is what the listing prints, and the three things it does not.",
+    "cards": [
+      { "img": "oil-drop", "alt": "A drop of oil", "fam": "The oil · Six to one", "latin": "Six parts omega 3 to one part omega 6", "common": "The ratio the listing prints", "p": "That ratio is the only compositional figure on the label besides the tablespoon. It sets the two families of fatty acid against each other inside the bottle. It does not say which oil they were pressed or grown from, and the listing does not say elsewhere either. The drop in the picture is a generated scene rather than a photograph of ours." },
+      { "img": "gen-oil-bottle", "alt": "A small amber bottle and a spoon of golden oil on linen, a generated scene", "fam": "The serving · 15 ml", "latin": "One tablespoon a day", "common": "9,000 mg of omega 3", "p": "The listing prints 9,000 mg of omega 3 in a tablespoon. That is a measured figure and it is printed, so it goes on the sheet. The listing then sets it against a recommended daily amount. Omega 3 does not carry a reference intake in the way iodine does, so this page prints the milligrams and leaves the percentage off." },
+      { "img": "assets/hero-sea.jpg", "alt": "Seaweed fronds in a ring of green nebula against a starfield", "fam": "The source · Not printed", "latin": "Which plant, or which organism", "common": "The listing does not say", "p": "A bottle named for DHA, whose one named constituent is alpha-linolenic acid, the omega 3 that comes out of plant seeds. The listing does not name the plant, does not name any other origin, and prints no DHA figure of its own. The picture here is the painted illustration for the sea moss shelf, where the bottle sits because it goes into the gel. It is not a statement about the source, and neither is the shelf." },
+      { "img": "step-fridge", "alt": "Jars on a fridge shelf", "fam": "Keeping it · Cold", "latin": "The fridge", "common": "Printed on the listing", "p": "Store in the fridge is the one storage instruction on this listing, and it is the one line that separates this bottle from every capsule on the site. The photograph is of jars of gel on the fridge shelf in the shop rather than of bottles of the oil." }
+    ]
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      ["Makeup", "An oil blended at six parts omega 3 to one part omega 6. The listing prints that ratio and prints no source."],
+      ["Source", "Not printed. The listing names alpha-linolenic acid, which is the omega 3 of plant seed oils, and it does not name the plant. We are not going to name one on its behalf."],
+      ["DHA content", "No figure. The bottle is called Omega DHA Oil and the listing prints no DHA quantity anywhere on it."],
+      ["Omega 3 a serving", "9,000 mg in a tablespoon, as printed. Omega 3 carries no reference intake in the way iodine does, so this sheet gives the milligrams and no percentage."],
+      ["Serving", "One tablespoon a day, as printed. A tablespoon is 15 ml."],
+      ["Volume", "Not printed. A month at a tablespoon a day would be about 450 ml, but that is arithmetic rather than a printed figure, so it does not go in this row."],
+      ["Supply", "One month a bottle, as printed."],
+      ["Price", "£19.99. One size."],
+      ["Storage", "In the fridge, printed on the listing. It is the only storage instruction on it."],
+      ["Also goes into", "<a href=\"product-chondrus-crispus.html\">Chondrus Crispus Sea Moss Gel</a>, as the third of three declared ingredients. How much of it goes into a jar is not printed, so a spoonful of that gel is not a way of measuring this oil."],
+      ["Allergens", "Not stated. With the source unnamed, nothing can be ruled in or out, which is a good reason to ring the shop first if you avoid fish or any particular seed oil."],
+      ["Suitable for", "Adults. There is no vegan mark on this sheet, because the source is not stated and we will not guess at it. Northern Soul, which is algae and water, does carry one."],
+      ["Not for", "Not for children. If you take warfarin or any other anticoagulant, ask your GP or pharmacist before you start. If you are pregnant or breastfeeding, ask your midwife or pharmacist. If you avoid particular oils, ring the shop before you buy, because the label will not tell you what this is."]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The ratio, the tablespoon, the milligrams of omega 3 and the fridge are printed on the listing and all four are on the sheet. The source of the oil, the volume of the bottle and any DHA figure are not printed, and they are named as missing rather than filled in. What an omega oil does in a person is not something we are permitted to say, so it is not here."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "A bottle named <em>for a figure it does not print</em>",
+    "paras": [
+      "This one is called Omega DHA Oil. The listing prints no DHA quantity. What it does print is alpha-linolenic acid, which is the omega 3 you get out of plant seeds, a total of nine grams of omega 3 in a tablespoon, and a ratio of six to one. Those are real numbers and they are all on the sheet. The name is doing something the numbers underneath it are not doing, and I would rather say that on our own page than have you work it out afterwards.",
+      "The second gap is the source. No plant is named on this label and no other origin is named either. That is why this is the one thing in the shop without a vegan mark on its sheet: I do not know what is in the bottle well enough to put a mark on it, and a mark I cannot evidence is worse than an empty line. It is also why the allergen row says nothing useful. If that matters to you, ring the counter and I will tell you exactly what the supplier has told me, which at the time of writing is not enough.",
+      "The third is the bottle itself. A month at a tablespoon a day comes out at about four hundred and fifty millilitres, and I am not printing four fifty, because nobody has printed it to me. All three of those are label problems rather than product problems, and all three are on the reprint list."
+    ],
+    "pull": "The name is doing something the numbers underneath it are not doing.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> omega oil",
+    "rows": [
+      ["Source of the oil named", "Not printed", "Fish, algal or seed, usually named"],
+      ["A DHA figure, where the name says DHA", "Not printed", "Usually printed"],
+      ["Total omega 3 a serving", "9,000 mg a tablespoon", "Usually printed"],
+      ["Ratio of omega 3 to omega 6", "Six to one", "Rarely printed"],
+      ["Bottle volume printed", "Not printed", "Nearly always printed"],
+      ["A storage instruction", "Fridge", "Often absent"],
+      ["Vegan mark, only where it can be evidenced", "Not claimed", "Claimed either way"],
+      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+    ],
+    "note": "Three of those rows are ours to fix, and the first two are the rows worth answering before buying any omega oil, this one included. The right-hand column is what we most often see on bottles customers bring into the shop. It is not a claim about any particular brand."
+  },
+  "also": {
+    "h2": "Also on the <em>sea moss shelf</em>",
+    "handles": ["chondrus-crispus", "northern-soul", "purple-mwani", "nu-heru"]
+  },
+  "jnext": {
+    "article": "journal/chondrus-crispus-gel.html",
+    "label": "From the journal",
+    "h2": "One alga, water and Omega DHA oil",
+    "p": "The single ingredient gel this bottle goes into, and why the amount of oil in a jar of it is not printed."
+  },
+  "credits": []
+}

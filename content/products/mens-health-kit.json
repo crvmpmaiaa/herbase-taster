@@ -1,0 +1,214 @@
+{
+  "slug": "mens-health-kit",
+  "kind": "kit",
+  "name": "Men's Health Kit",
+  "title": "Men's Health Kit · Three jars boxed together · Herbase",
+  "description": "Three jars boxed: the Chondrus Crispus gel at 500 ml, Mag Flux and Test Drive. £99.99, £114.97 sold separately, sent from Liverpool.",
+  "crumb": [
+    "Kits",
+    "shop.html#kits"
+  ],
+  "price": "£99.99",
+  "unit": "Three jars · a serving printed for each, no course length printed",
+  "label": "Kits · the box",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this box",
+  "gallery": [
+    {
+      "img": "gen-kit-flatlay",
+      "alt": "Empty amber glass jars of different heights on a dark wooden table, some open and some with pale metal lids, none of them labelled, a generated scene",
+      "thumbAlt": "Empty amber jars on a dark table",
+      "cap": "Empty amber jars on a dark table, no label on any of them. A generated scene, not a photograph of the box or of anything in it."
+    },
+    {
+      "held": true,
+      "cap": "Pack photography is held until the labels are reprinted. The other pictures here are generated scenes, not photographs of the box or of anything in it."
+    },
+    {
+      "img": "gen-gel-spoon",
+      "alt": "A teaspoon of clear gel held over a small glass jar, a generated scene",
+      "cap": "A spoon of gel over a jar. One tablespoon each morning is the printed serving for the gel. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "capsule-scoop",
+      "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene",
+      "cap": "Plain capsules and a wooden scoop. Two of the three jars are 50 large vegan capsules each. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "gen-morning-water",
+      "alt": "A tall glass of water on a wooden table in low morning light, a generated scene",
+      "cap": "A glass of water. The capsules ask for at least 500 ml of it, and the Test Drive sheet asks for a litre across the day. A generated scene, not a photograph of our stock."
+    },
+    {
+      "img": "gen-capsules-saucer",
+      "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene",
+      "cap": "Two capsules on a saucer. A generated scene, not a photograph of our stock."
+    }
+  ],
+  "points": [
+    "<b>Three jars in the box</b>: the Chondrus Crispus gel at 500 ml, Mag Flux and Test Drive, each sold on its own as well",
+    "<b>£99.99 for the box.</b> The same three at the prices on this site come to £114.97, so the box is £14.98 under them",
+    "<b>Two servings printed for Test Drive, and they do not agree.</b> This listing prints one or two capsules before training; the jar's own sheet prints two with breakfast"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which this box clears on its own",
+    "Every jar in the box has its own specification sheet on this site"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Read the Test Drive row on the sheet below first. It names nitrates, blood pressure medicine and heart medicine, and that jar is in this box.",
+  "acc": [
+    {
+      "summary": "What is in the box",
+      "body": [
+        "One 500 ml jar of the <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> gel. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules at 800 mg. One jar of <a href=\"product-test-drive.html\">Test Drive</a>, 50 large vegan capsules at 800 mg.",
+        "The listing also says every order comes with the Konscious Konsumption Nutrition Guide. It is not sold on its own and carries no price, so it is not in the sold separately figure below."
+      ]
+    },
+    {
+      "summary": "The schedule as printed on the listing",
+      "body": [
+        "<b>Morning:</b> one tablespoon of the gel. <b>Lunch:</b> one or two Mag Flux capsules. <b>An hour before exercise or sport:</b> one or two Test Drive capsules, which is the timing this listing prints.",
+        "Always with at least 500 ml of water, as printed. The Test Drive sheet prints a different serving again, two capsules with breakfast and at least 1 litre of water across the day, and both are set out on the sheet below."
+      ]
+    },
+    {
+      "summary": "Storage",
+      "body": [
+        "The gel goes in the fridge, used within 28 days of opening or frozen, with a clean dry spoon. Capsules keep their lid on somewhere cool and dry, no fridge."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "<b>Not for children.</b> Not in pregnancy or while breastfeeding. The Test Drive listing states that jar is for men only; it gives no reason, and we are not going to invent one.",
+        "If you take nitrates, blood pressure medicine, heart medicine or any other prescribed medicine, speak to your GP or pharmacist before you start. Piperine, in Test Drive, is well known to change how the body takes up and clears some medicines. Pine pollen is a pollen, so anyone who reacts to pollen should leave that jar alone. Anyone with an overactive thyroid should leave the sea moss alone, and yellow dock, in Mag Flux, is high in oxalate."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. A box with a gel in it goes out chilled. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "contents": {
+    "label": "What is in the box",
+    "h2": "Three jars, <em>and a guide with every order</em>",
+    "intro": "Each jar is sold on its own as well. The prices on these cards are the prices they carry on this site, and each card goes to its own specification sheet.",
+    "items": [
+      {
+        "handle": "chondrus-crispus",
+        "qty": "1 jar · 500 ml, as this listing prints it"
+      },
+      {
+        "handle": "mag-flux",
+        "qty": "1 jar · 50 large vegan capsules, 800 mg each"
+      },
+      {
+        "handle": "test-drive",
+        "qty": "1 jar · 50 large vegan capsules, 800 mg each"
+      }
+    ]
+  },
+  "spec": {
+    "label": "Kits · 05",
+    "h2": "The specification sheet",
+    "intro": "Three jars, a price that adds up, and two rows where this listing and the jars in it print different figures.",
+    "caption": "Men's Health Kit",
+    "rows": [
+      [
+        "Contents",
+        "One 500 ml jar of the <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> gel. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One jar of <a href=\"product-test-drive.html\">Test Drive</a>, 50 large vegan capsules. The listing adds the Konscious Konsumption Nutrition Guide, which it says comes with every order rather than with this box alone."
+      ],
+      [
+        "Price",
+        "£99.99. One size, listed with no variants."
+      ],
+      [
+        "Sold separately",
+        "£114.97 at the prices on this site: £34.99 plus £39.99 plus £39.99. The box is £14.98 under that. The nutrition guide is not sold separately and carries no price, so it is not in the figure."
+      ],
+      [
+        "Serving",
+        "As printed on this listing: one tablespoon of gel each morning, one or two Mag Flux capsules with lunch, one or two Test Drive capsules an hour before exercise or sport, always with at least 500 ml of water."
+      ],
+      [
+        "Test Drive, twice",
+        "This listing prints one or two capsules before training. The <a href=\"product-test-drive.html\">Test Drive</a> listing prints two capsules a day with breakfast, and at least 1 litre of water across the day. Both are ours and they do not agree, on the count, the hour or the water. Neither is chosen here."
+      ],
+      [
+        "Volume",
+        "This listing prints 500 ml for the gel. The gel's own listing prints no volume at all, and this page does not settle which is right."
+      ],
+      [
+        "Course length",
+        "Not printed. No number of days, no number of weeks, and no instruction about stopping."
+      ],
+      [
+        "Storage",
+        "Gel: refrigerate, use within 28 days of opening or freeze, clean dry spoon. Capsules: lid on, cool and dry, no fridge."
+      ],
+      [
+        "Suitable for",
+        "Adults. No vegan mark on this box: the gel carries Omega DHA oil whose source is not stated on its listing. Both capsule jars carry a vegan mark on their own sheets."
+      ],
+      [
+        "Not printed",
+        "No full ingredient list for Mag Flux, which is printed as a proprietary blend. No milligram split for the named plants in Test Drive. No course length for the box."
+      ],
+      [
+        "Not for",
+        "Children. Anyone who is pregnant or breastfeeding. Anyone with an overactive thyroid (hyperthyroidism), because of the seaweed. The Test Drive listing states that jar is for men only and gives no reason for it. If you take nitrates, blood pressure medicine, heart medicine or any other prescribed medicine, speak to your GP or pharmacist before you start. Anyone who reacts to pollen should leave the Test Drive jar alone, and if you have been advised to keep oxalate down, ask first: yellow dock is high in it."
+      ]
+    ],
+    "smallprint": "Contains iodine from seaweed. Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The sheet above is three jars, one price, one guide and two rows where our own listings print different numbers for the same jar. Men's Health Kit is the name on the box. It is a name, not a description, and we do not expand it or say what the box is for. What any of these three jars does in a body is not something we are permitted to tell you, so it is not on this page."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "Two labels, <em>one jar</em>",
+    "paras": [
+      "Test Drive is on this site twice and the two entries do not say the same thing. The jar's own listing prints two capsules with breakfast and a litre of water across the day. This box prints one or two an hour before training, with 500 ml. Same jar, same capsules, two different instructions, both written by us. I have put both on the sheet above and picked neither, because picking one quietly would hide the fact that we have been sloppy.",
+      "The other thing on that jar is the list of medicines. Nitrates, blood pressure medicine, heart medicine. Piperine as well, which changes how the body takes up and clears some prescriptions. That is not a caution I would bury under a bundle price, so it is in the note at the top of this page and in the last row of the sheet.",
+      "The money adds up cleanly for once. The three jars come to £114.97 at the prices on this site, the box is £99.99, so it saves you £14.98. The nutrition guide comes with every order rather than with this box, so it is not in that figure and it is not a reason to buy the box."
+    ],
+    "pull": "Same jar, same capsules, two different instructions, both written by us.",
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
+  },
+  "also": {
+    "h2": "The other <em>boxes</em>",
+    "intro": "Four more kits, each one a set of jars that are also sold on their own.",
+    "handles": [
+      {
+        "handle": "menopause-kit",
+        "sub": "Chondrus Crispus gel, Equill and Chasteberry. Three items, £99.97 sold separately."
+      },
+      {
+        "handle": "athletes-kit",
+        "sub": "Six items: the gel, Mag Flux, Test Drive, Omega DHA Oil, Mycrodose and the book."
+      },
+      {
+        "handle": "cell-repair-kit",
+        "sub": "Northern Soul gel, Anamu, Mag Flux and Omega DHA Oil. Four items, each with a printed serving."
+      },
+      {
+        "handle": "parasite-cleanse-kit",
+        "sub": "Mag Flux, Decolonise and the Purple Mwani gel. A 25 day cycle is printed on that listing."
+      }
+    ]
+  },
+  "jnext": {
+    "article": "journal/which-sea-moss.html",
+    "label": "From the journal",
+    "h2": "Which sea moss? Two plants, <em>one name on the jar</em>",
+    "p": "The gel in this box is one of four sea moss products on the shelf, and the English words on the labels do not map cleanly onto the species. Reiss on how to tell which one you have bought.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

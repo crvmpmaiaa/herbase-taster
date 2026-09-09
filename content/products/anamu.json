@@ -1,0 +1,308 @@
+{
+  "slug": "anamu",
+  "kind": "supplement",
+  "name": "Anamu",
+  "title": "Anamu · Petiveria alliacea in 50 vegan capsules · Herbase",
+  "description": "Anamu, Petiveria alliacea, 50 vegan capsules, £29.99. One or two a day with a meal and 500 ml of water. The part of the plant is not printed on the listing.",
+  "crumb": [
+    "Botanicals",
+    "index.html#shop"
+  ],
+  "price": "£29.99",
+  "unit": "50 capsules · 25 to 50 days · 60p to £1.20 a day",
+  "label": "Botanicals · one ingredient",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "gallery": [
+    {
+      "img": "assets/hero-root.jpg",
+      "alt": "Bark and root pieces at the edge of a painted nebula",
+      "cap": "The art we use for the bark and root shelf. There is no pack photograph on this site yet."
+    },
+    {
+      "img": "anamu-plant",
+      "alt": "Petiveria alliacea, the whole plant",
+      "cap": "Petiveria alliacea growing. A photograph of the species, not of the batch that was milled for our jar."
+    },
+    {
+      "img": "gen-capsules-saucer",
+      "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene",
+      "cap": "Two capsules and a glass of water. A generated scene, not a photograph of our jar or what is in it."
+    },
+    {
+      "held": true
+    }
+  ],
+  "points": [
+    "<b><i>Petiveria alliacea</i></b>, one plant, in a vegan capsule. The listing names no second ingredient",
+    "<b>One or two capsules a day</b>, with a meal and at least 500 ml of water",
+    "<b>50 capsules, £29.99.</b> No milligram figure is printed, so there is no strength on this page"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, or collect from the shop",
+    "Every ingredient named on the specification sheet below, and every figure we do not have"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "acc": [
+    {
+      "summary": "What is in it",
+      "body": [
+        "<i>Petiveria alliacea</i>, milled, in a vegan capsule. The ingredient line names the plant and the shell and nothing else.",
+        "It does not say which part of the plant. Root and leaf are both milled and sold under this name."
+      ]
+    },
+    {
+      "summary": "How to take it",
+      "body": [
+        "<b>One capsule, or two, with a meal</b>, and at least 500 ml of water.",
+        "The listing gives a range rather than a number. Pick the one you are going to take and stay on it."
+      ]
+    },
+    {
+      "summary": "What is not printed on the label",
+      "body": [
+        "The part of the plant, and the milligrams in a capsule.",
+        "The listing also prints two supply figures, 40 days at one a day and 20 at two, that do not agree with its own count of 50 capsules. Both sets are on the sheet below, because one of them is wrong and we do not yet know which."
+      ]
+    },
+    {
+      "summary": "Storage",
+      "body": [
+        "Dry, out of direct sun, lid on. It does not need a fridge. The powder smells strongly of garlic, so a lid that seals is worth more here than on most jars."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "Not for children, and not in pregnancy or breastfeeding.",
+        "If you take prescribed medication, particularly a blood thinner, or you have an operation booked, ask your GP or pharmacist before you start."
+      ]
+    }
+  ],
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      {
+        "img": "gen-capsules-saucer",
+        "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene",
+        "h": "Step one",
+        "b": "One capsule, or two, with a meal",
+        "p": "The listing gives a range rather than a number. Pick the one you are going to take and stay on it, so you know what you have had."
+      },
+      {
+        "img": "step-water",
+        "alt": "A glass and a jug of water in morning light",
+        "h": "Step two",
+        "b": "At least 500 ml of water",
+        "p": "with them. The listing says spring water. The quantity is the part that matters to a capsule going down."
+      },
+      {
+        "img": "gen-calendar-desk",
+        "alt": "A date circled in pencil on a paper calendar page beside a pencil, a generated scene",
+        "h": "Step three",
+        "b": "Count the jar, not the listing",
+        "p": "Fifty capsules is 50 days at one a day, or 25 at two. The listing prints 40 days and 20 days. The count on the jar is the figure to trust."
+      },
+      {
+        "img": "assets/store.jpg",
+        "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
+        "h": "Step four",
+        "b": "Lid on, dry shelf, out of the sun",
+        "p": "Capsules do not go in the fridge. Anamu has a strong garlic smell, so a lid that seals is worth more here than on most jars."
+      }
+    ],
+    "label": "The routine"
+  },
+  "ingredients": {
+    "h2": "One plant, <em>and one blank</em>",
+    "intro": "A one ingredient list is a short section. Here is the plant, what the listing says about where it was grown, the part of it that is not named, and the shell it goes into.",
+    "cards": [
+      {
+        "img": "anamu-plant",
+        "alt": "Petiveria alliacea, the whole plant",
+        "fam": "Herb · Petiveriaceae",
+        "latin": "Petiveria alliacea",
+        "common": "Anamu, guinea hen weed",
+        "p": "A slender perennial herb of tropical America and the Caribbean, in a small family long grouped with the pokeweeds. Leaf and root smell strongly of garlic when they are crushed, which is where the species name alliacea comes from, and it carries into the breath of anyone taking it."
+      },
+      {
+        "img": "assets/hero-root.jpg",
+        "alt": "Bark and root pieces at the edge of a painted nebula",
+        "fam": "The part used · Not printed",
+        "latin": "Root or leaf",
+        "common": "The blank on this label",
+        "p": "The listing says 100 per cent Petiveria alliacea and does not say which part of it. Root and leaf are both milled in the trade and they are not the same material. Until the label says which, this page will not."
+      },
+      {
+        "img": "assets/store.jpg",
+        "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
+        "fam": "Origin · As printed",
+        "latin": "Caribbean, South America",
+        "common": "Where it is from",
+        "p": "The listing places the harvest in the Caribbean and South America and calls the growing organic. No certifier and no certificate number appear anywhere on it, so read that word as the seller's description rather than as a scheme you can look up."
+      },
+      {
+        "img": "capsule-scoop",
+        "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene",
+        "fam": "The shell · Vegan",
+        "latin": "No gelatin",
+        "common": "The capsule",
+        "p": "The powder goes into a vegan capsule, which is the only other thing the ingredient line names. The shell material itself is not specified. The capsules in this picture are a generated scene rather than a photograph of ours."
+      }
+    ],
+    "label": "What is on the inside"
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      [
+        "Makeup",
+        "One ingredient. <i>Petiveria alliacea</i>, milled, in a vegan capsule."
+      ],
+      [
+        "Species",
+        "<i>Petiveria alliacea</i> L., family Petiveriaceae, sold in English as anamu and as guinea hen weed. The listing prints the binomial, which is more than most do."
+      ],
+      [
+        "Part used",
+        "<b>Not printed.</b> The listing says 100 per cent of the plant and never says whether that is root, leaf or both."
+      ],
+      [
+        "Fill",
+        "The listing names no bulking agent, no binder and no flow agent."
+      ],
+      [
+        "Capsule",
+        "Vegan. The shell material is not named on the listing, so we do not state it here."
+      ],
+      [
+        "Count and strength",
+        "50 capsules. There is no milligram figure on the listing. The variant line reads 100 g without saying whether that is powder, filled capsules or the jar, so it is not a strength."
+      ],
+      [
+        "Supply, as printed",
+        "The listing says one a day is a 40 day supply and two a day is a 20 day course. Fifty capsules gives 50 days and 25 days. The two sets of figures do not agree and we have printed both rather than pick the flattering one."
+      ],
+      [
+        "Origin",
+        "Caribbean and South America, as the listing states. The listing calls the growing organic and names no certifier, so no organic claim is made on this page."
+      ],
+      [
+        "Price",
+        "£29.99. One size."
+      ],
+      [
+        "Serving",
+        "One or two capsules a day with a meal, and at least 500 ml of water. The listing says spring water."
+      ],
+      [
+        "Cost",
+        "60p a day at one capsule, £1.20 at two, worked from the printed count of 50."
+      ],
+      [
+        "Storage",
+        "Dry, out of direct sun, lid on. It does not need a fridge. The powder smells of garlic."
+      ],
+      [
+        "Excipients",
+        "None named beyond the capsule shell."
+      ],
+      [
+        "Suitable for",
+        "Vegans. Adults."
+      ],
+      [
+        "Not for",
+        "Children. Not in pregnancy or breastfeeding. If you take prescribed medication, particularly a blood thinner, or you have surgery booked, ask your GP or pharmacist before you start."
+      ]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The species is named in Latin, the serving is printed, the price is printed, and the two blanks, part used and milligrams, are printed as blanks. Where the listing contradicts itself on how long a jar lasts, both sets of figures are on the sheet. What anamu does in a person is not something we are permitted to say, so it is not on this page."
+    },
+    "label": "Botanicals",
+    "intro": "Everything the listing lets us tell you about what is in the jar, including the place where its own figures disagree.",
+    "caption": "Anamu"
+  },
+  "reiss": {
+    "label": "From Reiss",
+    "h2": "When the arithmetic on a listing <em>does not add up</em>",
+    "paras": [
+      "This listing says 50 capsules at the top, and then says one a day lasts 40 days and two a day lasts 20. Both of those work out at 40 capsules. One of the three numbers is wrong and I do not yet know which, so all three are on the sheet above with that sentence attached.",
+      "It matters because the count is the only figure you can use. There are no milligrams on this label, so you cannot compare it with the jar beside it on strength. What you can do is count what arrives, divide the price by it, and hold me to that.",
+      "The other blank is the part of the plant. Root and leaf both get milled and sold under this name, and they are not the same thing in a capsule. When the supplier puts it in writing, the row above changes from not printed to whichever it is."
+    ],
+    "pull": "One of the three numbers on that listing is wrong, so all three are on the sheet.",
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> single plant capsule",
+    "rows": [
+      [
+        "Species named in Latin",
+        "Yes, <i>Petiveria alliacea</i>",
+        "Common names travel between plants, binomials do not"
+      ],
+      [
+        "Part of the plant named",
+        "Not printed",
+        "Root and leaf off one plant are two different products"
+      ],
+      [
+        "Milligrams a capsule printed",
+        "Not printed",
+        "Without it there is nothing to compare between two jars"
+      ],
+      [
+        "Count printed",
+        "50",
+        "It is what turns a price into a day rate"
+      ],
+      [
+        "Days a jar lasts, and whether it matches the count",
+        "Printed, and it does not match",
+        "Arithmetic that fails on the label is a reason to check the rest of it"
+      ],
+      [
+        "Country of harvest printed",
+        "Caribbean and South America",
+        "Two continents is a region, not a farm, and it is what we have"
+      ],
+      [
+        "Organic claims backed by a certifier",
+        "No certifier named",
+        "The word on its own is not a scheme anybody can audit"
+      ]
+    ],
+    "note": "Three of those rows are ours to fix. They stay on the page until the label prints the answers.",
+    "intro": "Ours, next to what we usually see on jars that people bring into the shop. The rows we fail are in the same table.",
+    "head": [
+      "On the label",
+      "Anamu",
+      "Typical listing"
+    ]
+  },
+  "also": {
+    "h2": "Also on the <em>bark and root shelf</em>",
+    "handles": [
+      "gumbo-limbo",
+      "pau-darco",
+      "chanca-piedra",
+      "acacia-bark"
+    ],
+    "intro": "Three more from the same shelf, and the bark with no species on it. Prices as listed."
+  },
+  "jnext": {
+    "article": "journal/lions-mane.html",
+    "label": "From the journal",
+    "h2": "How to read a label that <em>leaves a figure out</em>",
+    "p": "Written about a mushroom jar and it holds here too. Which part of the organism is named, what a missing count or a missing milligram figure means, and why a number invented for a label is worse than a blank.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "pau-darco",
+  "kind": "supplement",
+  "name": "Pau d'Arco",
+  "title": "Pau d'Arco · Inner bark capsules · Herbase",
+  "description": "Pau d'Arco capsules. The inner bark of Tabebuia impetiginosa, £19.99, two capsules a day with food. The capsule count and the milligrams are not printed.",
+  "crumb": ["Botanicals", "index.html#best"],
+  "price": "£19.99",
+  "unit": "One size · vegan capsules · count and milligrams not printed yet",
+  "gallery": [
+    { "img": "assets/hero-root.jpg", "alt": "Bark and root pieces at the edge of a painted nebula", "cap": "The illustration for the botanical shelf, standing in until there is a pack photograph to use." },
+    { "img": "pau-darco-tree", "alt": "A pau d'arco tree in full pink flower on open dry ground", "cap": "The tree in flower, which it does before it comes into leaf. A photograph of the species, credited at the foot of the page, and not of our material." },
+    { "img": "pau-darco-bark", "alt": "Dried strips of pau d'arco inner bark", "cap": "Dried inner bark of the species, the part this listing names. Photographed by somebody else, and not our sacks." },
+    { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "cap": "A pair of capsules on a saucer. A generated scene rather than a photograph of this jar." },
+    { "held": true }
+  ],
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "points": [
+    "<b>Inner bark</b>, <i>Tabebuia impetiginosa</i>, and the listing prints which part of the tree it is",
+    "<b>Two capsules a day, with food</b>, as printed. No course length is printed and we have not invented one",
+    "<b>Vegan, wildcrafted, additive free</b>, all printed. The count and the milligrams are not"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday. If you want to know how long to run it for, that is a counter question, because the label does not answer it.",
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "h": "Step one", "b": "Two capsules a day.", "p": "Two is the serving and two is the limit, both printed. The saucer in the picture is a generated scene, not ours." },
+      { "img": "gen-spice-bowls", "alt": "Clove buds, black peppercorns and a pale flecked powder in three small bowls on a wooden sill, a generated scene", "h": "Step two", "b": "With food.", "p": "The listing prints with food and prints no time of day, so take them with whichever meal you are least likely to skip." },
+      { "img": "gen-calendar-desk", "alt": "A date circled in pencil on a paper calendar page, a generated scene", "h": "Step three", "b": "No end date is printed.", "p": "The listing gives a daily serving and no course length. Where a label prints no end, we do not write one in. If you are thinking of months rather than weeks, ring the counter first." },
+      { "img": "assets/store.jpg", "alt": "The shop floor at 599 Smithdown Road, shelves along the wall", "h": "Step four", "b": "Lid on, dry shelf, out of the sun.", "p": "Nothing about storage is printed on this listing. Keep it dry, keep the lid on, keep it off the windowsill. The shelves here are the ones in the shop." }
+    ]
+  },
+  "ingredients": {
+    "h2": "One bark, <em>named</em>",
+    "intro": "The listing names the species and, unusually for this shelf, the part of the tree as well. Here is the tree, the bark, and the figures the label still leaves out.",
+    "cards": [
+      { "img": "pau-darco-tree", "alt": "A pau d'arco tree in full pink flower on open dry ground", "fam": "Tree · Bignoniaceae", "latin": "Tabebuia impetiginosa", "common": "Pau d'arco", "p": "A forest tree of Brazil, Paraguay and northern Argentina that flowers pink on bare branches before it comes into leaf, which is what the photograph shows. The bark is what the trade takes, under the names pau d'arco, ipe roxo and lapacho. It is the same tree that opens the ingredient list of <a href=\"product-decolonise.html\">Decolonise</a>." },
+      { "img": "pau-darco-bark", "alt": "Dried strips of pau d'arco inner bark", "fam": "The part used · Inner bark", "latin": "The inner bark", "common": "Printed on the listing", "p": "The inner bark is the living layer just under the surface, and it is the part the trade asks for by name. Our listing prints it, which puts this jar ahead of several others on the same shelf where the part of the plant is simply a blank. The photograph is of dried bark of the species rather than of anything in our sacks." },
+      { "img": "gen-spice-bowls", "alt": "Clove buds, black peppercorns and a pale flecked powder in three small bowls on a wooden sill, a generated scene", "fam": "Prepared · Milled", "latin": "No strength printed", "common": "Milligrams missing", "p": "Bark, dried and milled. The listing prints no milligrams a capsule and no capsule count, so there is no serving weight and no cost a day on the sheet below. The bowls in the picture are a generated scene and none of the powder in them is ours." },
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "fam": "The shell · Vegan", "latin": "The capsule", "common": "Printed on the listing", "p": "The listing prints 100 per cent vegan, wildcrafted, non GMO and additive free. It does not name the shell material, so the sheet does not name one. The capsules in the picture are a generated scene rather than a photograph of ours." }
+    ]
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      ["Makeup", "One botanical. The inner bark of <i>Tabebuia impetiginosa</i>, with no additives declared."],
+      ["Species", "<i>Tabebuia impetiginosa</i> as the listing prints it. The accepted name today is <i>Handroanthus impetiginosus</i> (Mart. ex DC.) Mattos, family Bignoniaceae. The genus was split in 2007 and the trade never followed, so both names are in daily use for the same tree."],
+      ["Part used", "Inner bark, printed on the listing. That is more than most of this shelf manages."],
+      ["Strength", "Not printed. There are no milligrams a capsule on the listing."],
+      ["Count", "Not printed. Without a count there is no supply figure and no cost a day on this page."],
+      ["Course length", "Not printed. The listing gives a daily serving and no end date, and we have not written one in."],
+      ["Sourcing", "Wildcrafted and non GMO, both printed. No country of origin is printed, and we will not name one we cannot evidence."],
+      ["Fillers", "None. The listing prints additive free."],
+      ["Capsule", "Vegan, printed on the listing. The shell material itself is not named, so it is not named here."],
+      ["Price", "£19.99. One size."],
+      ["Serving", "Two capsules a day, with food, as printed on the listing."],
+      ["Storage", "No storage instruction is printed. Keep it closed, cool and dry, and off the windowsill. A capsule needs no cold chain."],
+      ["Also appears in", "<a href=\"product-decolonise.html\">Decolonise</a>, where the same bark is the first of nine declared ingredients."],
+      ["Suitable for", "Vegans. Adults."],
+      ["Not for", "Not in pregnancy or while breastfeeding. Not for children. Not alongside warfarin or any other anticoagulant unless your GP has said otherwise. If you take any prescribed medicine, ask your GP or pharmacist before you start."]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The species is named, the part of the tree is named, and the accepted binomial sits next to the one on the jar so that you can look it up under either. The two figures we do not have, the count and the milligrams, are named as missing rather than estimated. What pau d'arco does in a person is not something we are permitted to say, so it is not on this page."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "The bark, and <em>the name it lost</em>",
+    "paras": [
+      "This jar says <i>Tabebuia impetiginosa</i> and the botanists say <i>Handroanthus impetiginosus</i>. The genus was split in 2007 and a large part of <i>Tabebuia</i> moved across, but the trade never followed, so the old name is still what you will find on nearly every sack of this bark in the world. Both names are the same tree. I print both, because you should be able to look it up under either one and land in the same place.",
+      "What I like about this label is that it says inner bark. That sounds like nothing. It is the one thing most bark labels leave out, and it is the difference between the living layer just under the surface, which is what the trade actually asks for, and whatever came off the outside of the log. Several other jars on this shelf will not tell you which part of the plant is in them. This one does, and I would rather praise a label for that than pretend it is normal.",
+      "What it does not tell you is how many capsules are in the jar, how many milligrams are in each of them, or how long a course is meant to run. So there is no cost a day here, and if you are thinking about taking it for months rather than weeks, ring the counter and ask, because the label will not answer you and neither will this page."
+    ],
+    "pull": "Inner bark. It sounds like nothing, and it is the one thing most bark labels leave out.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> pau d'arco",
+    "rows": [
+      ["Species named in Latin", "Yes, and the accepted name beside it", "Often the common name only"],
+      ["Part named: inner bark or bark", "Inner bark", "Frequently just bark"],
+      ["Milligrams a capsule printed", "Not printed", "Usually printed"],
+      ["Capsule count printed", "Not printed", "Usually printed"],
+      ["Course length stated", "Not printed", "Rarely stated"],
+      ["Vegan shell stated", "Yes", "Often gelatin"],
+      ["Anticoagulant warning given up front", "Yes, on the sheet above", "Buried or absent"],
+      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+    ],
+    "note": "Three of those rows are ours to fix and they stay here until the label prints the figures. The right-hand column is the pattern we see most often on jars brought into the shop, not a verdict on any brand, and there are plenty of jars out there that tick every box."
+  },
+  "also": {
+    "h2": "Where else <em>this bark appears</em>",
+    "handles": ["decolonise", "gumbo-limbo", "anamu", "chanca-piedra"]
+  },
+  "jnext": {
+    "article": "journal/decolonise-stop-date.html",
+    "label": "From the journal",
+    "h2": "Wormwood, and why Decolonise has a stop date",
+    "p": "The nine ingredients of the bitter formula this bark opens, and the four month gap printed on its pack."
+  },
+  "credits": ["Pau d'arco tree: Giles Laurent, CC BY-SA 4.0, via Wikimedia Commons"]
+}

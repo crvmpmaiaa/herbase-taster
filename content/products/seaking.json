@@ -1,0 +1,274 @@
+{
+  "slug": "seaking",
+  "kind": "supplement",
+  "name": "Seaking",
+  "title": "Seaking · Sea moss formula in capsules, 75 µg iodine each · Herbase",
+  "description": "Seaking capsules. Chondrus crispus, bladderwrack, kelp, chlorella and clove. 50 vegan capsules at 800 mg, 75 µg of iodine in each, 25 day supply, £39.99. Sent from Smithdown Road, Liverpool.",
+  "css": "/* five declared ingredients, not four: the grid takes a fifth column rather than\n   leaving an empty cell in the last row */\n@media(min-width:800px){.ingr__grid{grid-template-columns:repeat(5,1fr)}}\n@media(max-width:799px){.ingr__grid .ing:nth-child(5){grid-column:1/-1}.ingr__grid .ing:nth-child(5) img{aspect-ratio:2.2}}",
+  "crumb": ["Sea moss", "index.html#best"],
+  "price": "£39.99",
+  "unit": "50 capsules · 25 days · £1.60 a day",
+  "label": "Sea moss · the capsule",
+  "rating": "4.8 · 19 Google reviews for the shop",
+  "gallery": [
+    {
+      "img": "assets/tile-seaking.jpg",
+      "alt": "Seaweed fronds around a dark starfield, the illustration used for Seaking",
+      "thumbAlt": "Seaweed fronds around a dark starfield",
+      "cap": "The Seaking scene. An illustration, not a photograph of the tub."
+    },
+    {
+      "img": "gen-seaking-capsules",
+      "alt": "Capsules and dried wrack on a slate board",
+      "cap": "A generated scene of capsules and dried wrack on slate, not a photograph of the tub."
+    },
+    {
+      "img": "clove-buds",
+      "alt": "A single dried clove bud",
+      "cap": "Syzygium aromaticum, clove. The fifth name on the list and the only one that never saw the sea."
+    },
+    {
+      "img": "gen-seaking-shore",
+      "alt": "Wrack on cold rocks with surf behind",
+      "cap": "A cold shore at low tide, wrack on the rocks. Two of the five come off shores like this one."
+    },
+    {
+      "img": "capsule-scoop",
+      "alt": "Loose capsules and a wooden scoop on dark slate",
+      "cap": "A generated scene of loose capsules and a scoop, not a photograph of the tub."
+    },
+    {
+      "img": "stock-kelp-surface",
+      "alt": "Kelp fronds breaking the sea surface, seen from above",
+      "cap": "Kelp breaking the surface at low tide, seen from above."
+    }
+  ],
+  "points": [
+    "<b>Five declared ingredients</b>, four algae and one clove, each named in Latin",
+    "<b>75 µg of iodine per capsule</b>, 150 µg in the two you take. Measured, and printed",
+    "<b>Two capsules each morning</b>, with at least 500 ml of water. Two a day is the ceiling"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which one tub on its own does not reach",
+    "Every ingredient named on the specification sheet below"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "acc": [
+    {
+      "summary": "What is in it",
+      "body": [
+        "The same four algae that go into the <a href=\"product.html\">Northern Soul</a> gel, dried and milled into a capsule, with one clove alongside them. Four algae from three families: a red, two browns and a green.",
+        "<i>Chondrus crispus</i> · <i>Fucus vesiculosus</i> (bladderwrack) · Laminariales (kelp) · <i>Chlorella</i> · <i>Syzygium aromaticum</i> (clove). That is five names in total."
+      ]
+    },
+    {
+      "summary": "How to take it",
+      "body": [
+        "<b>Two capsules each morning</b>, with at least 500 ml of water.",
+        "Two a day is the whole dose, not a starting point. If you miss a morning, take two the next morning and not four. Seaweed carries iodine and iodine has a daily ceiling, which is the reason the figure is printed on the tub at all."
+      ]
+    },
+    {
+      "summary": "Storage",
+      "body": [
+        "Keep the tub closed and dry. Capsules do not want the fridge, which is the practical difference between these and the gel. The pack does not print a storage temperature, so none is given here."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "<b>Anyone with an overactive thyroid</b> should leave it alone. If you take thyroid medication, ask your GP or pharmacist before you start. It is not for children.",
+        "If you are pregnant or nursing, ask your midwife or GP first. The reference intake for iodine is not the same then: 150 µg a day for an adult, 220 µg in pregnancy and 290 µg when breastfeeding."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. Capsules go by ordinary post, not chilled. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "steps": {
+    "label": "The routine",
+    "h2": "How to <em>take it</em>",
+    "items": [
+      {
+        "img": "gen-seaking-capsules",
+        "alt": "Capsules and dried wrack on a slate board",
+        "h": "Step one",
+        "b": "Two capsules, first thing.",
+        "p": "The label says each morning, so that is when we take them."
+      },
+      {
+        "img": "step-water",
+        "alt": "Glass and jug of water in morning light",
+        "h": "Step two",
+        "b": "With at least 500 ml of water.",
+        "p": "That is on the pack as well, and it is a large glass rather than a sip."
+      },
+      {
+        "img": "chondrus-dried",
+        "alt": "Dried red seaweed",
+        "h": "Step three",
+        "b": "Two a day, and no more.",
+        "p": "Two capsules are 150 µg of iodine. Doubling up after a missed morning takes you past the day's figure for no reason."
+      },
+      {
+        "img": "seaweed-drying",
+        "alt": "A seaweed drying hut on a clifftop above the sea",
+        "h": "Step four",
+        "b": "Lid on, somewhere dry.",
+        "p": "No fridge and no freezer. A tub of 50 is 25 mornings, then you are at the end of it."
+      }
+    ]
+  },
+  "ingredients": {
+    "label": "What is on the inside",
+    "h2": "Five names, <em>four of them algae</em>",
+    "intro": "Grouped by colour, which is also how botanists group them. The fifth is a spice, and it is the one thing on this list that the gel's list does not carry.",
+    "cards": [
+      {
+        "img": "chondrus-dried",
+        "alt": "Dried red seaweed",
+        "fam": "Red · Rhodophyta",
+        "latin": "Chondrus crispus",
+        "common": "Irish sea moss",
+        "p": "The base. Picked by hand off cold Atlantic rocks at low tide, then dried rather than made into a gel. This is the plant the old herbals call carrageen."
+      },
+      {
+        "img": "bladderwrack",
+        "alt": "Bladderwrack",
+        "fam": "Brown · Ochrophyta",
+        "latin": "Fucus vesiculosus",
+        "common": "Bladderwrack",
+        "p": "The brown seaweed with the air bladders. It grows on the same shores as Chondrus, a little higher up the beach."
+      },
+      {
+        "img": "kelp-forest",
+        "alt": "Sunlight through a kelp forest",
+        "fam": "Brown · Ochrophyta",
+        "latin": "Laminariales",
+        "common": "Kelp",
+        "p": "The largest of the four, from deep-water forests like the one in the photograph. Dried and milled, like the rest of the tub."
+      },
+      {
+        "img": "fronds-underwater",
+        "alt": "Green algae underwater",
+        "fam": "Green · Chlorophyta",
+        "latin": "Chlorella",
+        "common": "Freshwater green alga",
+        "p": "A single-celled green alga. It is cultivated rather than wild, and it is the only one of the four that grows in fresh water."
+      },
+      {
+        "img": "clove-buds",
+        "alt": "A single dried clove bud",
+        "fam": "Spice · Myrtaceae",
+        "latin": "Syzygium aromaticum",
+        "common": "Clove",
+        "p": "The dried flower bud of an evergreen tree, the same clove that sits in a spice rack and in <a href=\"product-decolonise.html\">Decolonise</a>. It is declared on this list and not on the gel's."
+      }
+    ]
+  },
+  "spec": {
+    "label": "Sea moss · 02",
+    "h2": "The specification sheet",
+    "intro": "Everything we can tell you about what is in the tub, including the one figure here that is measured rather than estimated.",
+    "caption": "Seaking",
+    "rows": [
+      ["Makeup", "The Northern Soul formula dried and milled into a capsule: four algae from three families, grouped by pigment, plus clove. Red (Rhodophyta), brown (Ochrophyta) and green (Chlorophyta)."],
+      ["Base", "<i>Chondrus crispus</i>, Irish sea moss, cold Atlantic. Wildcrafted, not pool grown."],
+      ["Declared list", "<i>Chondrus crispus</i> · <i>Syzygium aromaticum</i> (clove) · <i>Fucus vesiculosus</i> (bladderwrack) · Laminariales (kelp) · <i>Chlorella</i>. The <a href=\"product.html#spec\">gel's list</a> is the same four algae without the clove."],
+      ["Dose", "800 mg per vegan capsule"],
+      ["Count", "50 capsules · 25 day supply"],
+      ["Price", "£39.99. Two capsules a day works out at about £1.60 a day."],
+      ["Serving", "Two capsules each morning, with at least 500 ml of water. Do not take more than two in a day."],
+      ["Iodine", "75 µg per capsule. 150 µg in the two capsules that make a day's serving. The reference intake for an adult is 150 µg a day, so two capsules are the whole of it."],
+      ["Weight", "Listed at 100 g for the pack as it ships. The contents are 50 × 800 mg, which is 40 g."],
+      ["Capsule", "Vegan capsule. The shell material is not named on the listing, so we do not name one here."],
+      ["Storage", "Closed, dry, at room temperature. No refrigeration. The pack prints no storage instruction of its own."],
+      ["Excipients", "None declared. The list is five ingredients long and there is no sixth on it."],
+      ["Suitable for", "Vegans. Adults."],
+      ["Not for", "Anyone with an overactive thyroid (hyperthyroidism). If you take thyroid medication, or you are pregnant or nursing, ask your GP, pharmacist or midwife before starting."]
+    ],
+    "smallprint": "Contains iodine from seaweed. Do not exceed two capsules a day. Speak to your GP or pharmacist before starting any supplement, particularly if you have a thyroid condition or take medication for one. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "Seaking is the one product on this shelf with a measured mineral figure, so it is the one where we can print a number instead of an adjective. A number is not a claim. It is 75 µg per capsule, and what that does once you have swallowed it is not something we are permitted to tell you."
+    }
+  },
+  "reiss": {
+    "label": "From Reiss",
+    "h2": "Why the capsule <em>carries a number</em>",
+    "paras": [
+      "A gel is the whole plant with water through it, and the amount of iodine in a spoonful moves with the harvest. I will not print a figure for the jar because I would be guessing at the second decimal place and you would be counting on it. Dried and milled and weighed into 800 mg capsules, the same seaweed sits still enough to measure, and that is why this tub says 75 µg and the jar says nothing.",
+      "People buy Seaking for two reasons. They travel, and a jar that needs a fridge is no use to them. Or they need to know exactly how much iodine they have had that day, usually because somebody at a surgery has asked them to. The second reason is the better one, and it is the only thing the capsule does that the gel does not."
+    ],
+    "pull": "Seventy five micrograms. I would rather give you one number I can stand behind.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> capsule",
+    "intro": "Ours, next to what we usually see on tubs that people bring into the shop.",
+    "head": ["On the label", "Seaking", "Typical listing"],
+    "rows": [
+      ["Every ingredient named in Latin", "✓", "Often \"marine blend\""],
+      ["Milligrams per capsule stated", "800 mg", "Per serving, if at all"],
+      ["A measured iodine figure", "75 µg", "Rarely printed"],
+      ["Capsule count and days stated", "50 · 25 days", "Count only"],
+      ["A daily ceiling on the pack", "✓", "\"Take as needed\""],
+      ["Vegan capsule shell", "✓", "Often gelatin"],
+      ["Somebody to ask, at a counter", "✓", "A contact form"]
+    ],
+    "note": "The right-hand column is what we most often see on tubs customers bring in. It is not a claim about any particular brand, and some of them do tick every box."
+  },
+  "also": {
+    "h2": "The rest of the sea moss shelf",
+    "intro": "Four sea moss products, three species or preparations. <a href=\"journal/which-sea-moss.html\">Reiss explains which is which</a>.",
+    "handles": [
+      {
+        "handle": "northern-soul",
+        "name": "Northern Soul",
+        "alt": "Northern Soul sea moss gel, glass jar",
+        "sub": "The same four algae as a gel. One tablespoon each morning, 300 ml or 500 ml, kept in the fridge."
+      },
+      {
+        "handle": "chondrus-crispus",
+        "name": "Chondrus Crispus",
+        "img": "chondrus-dried",
+        "alt": "Chondrus crispus sea moss",
+        "sub": "The plain gel. One alga, water and Omega DHA oil. Some customers use it as a face or hair mask."
+      },
+      {
+        "handle": "purple-mwani",
+        "name": "Purple Mwani",
+        "href": "product.html#also",
+        "img": "eucheuma-wet",
+        "alt": "Purple Mwani sea moss",
+        "sub": "<i>Eucheuma cottonii</i>, the warm-water species, from Tanzania. Lasts ten to twenty days."
+      },
+      {
+        "handle": "nu-heru",
+        "name": "Nu Heru",
+        "href": "product.html#also",
+        "img": "red-algae-pool",
+        "alt": "Nu Heru sea moss gel",
+        "sub": "Red sea moss with hibiscus, elderberry and baobab. 300 ml or 500 ml."
+      }
+    ]
+  },
+  "jnext": {
+    "article": "journal/seaking-iodine.html",
+    "label": "From the journal",
+    "h2": "How much iodine is <em>in a capsule, and in a spoon</em>",
+    "p": "Seventy five micrograms per capsule, 150 in two, and nothing printed on the gel at all. Reiss on what that figure is measured against, why the jar has none, and the clove that is on one list and not the other.",
+    "btn": "Read the article"
+  },
+  "credits": [
+    "David Clode, Maximilian Brand, Amanda Phung, Daily Slowdown, J Brouwer, Isaiah Villar, Kier in Sight Archives, Erick Morales Oyola, Ekaterina Zlotnikova and Joan on Unsplash",
+    "Seaweed drying: Paul Farmer, CC BY-SA 2.0, via Wikimedia Commons",
+    "Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons",
+    "Kelp from above: BravoGonzalo, CC BY-SA 4.0, via Wikimedia Commons"
+  ]
+}

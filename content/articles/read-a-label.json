@@ -1,0 +1,199 @@
+{
+  "slug": "read-a-label",
+  "title": "How to read a supplement label in the UK · Herbase Journal",
+  "description": "NRVs, the claims register, what a proprietary blend hides, and what wildcrafted and lab tested promise. Then how our own labels score against the list.",
+  "ogdesc": "Which parts of a jar are required by law, which are words somebody chose, and where my own labels fall short of the list I am about to give you.",
+  "crumb": ["Know", "journal/"],
+  "crumbTail": "Labels",
+  "label": "Know · Label notes",
+  "h1": "How to read a supplement label, <em>and what the words are worth.</em>",
+  "standfirst": "Half of what is printed on a jar in this country is there because the law puts it there. The other half is a word somebody chose because it sounds like it means something. This is how to tell the two apart while you are standing in the shop, what a nutrient reference value is, why no plant on my shelf has an approved sentence attached to it, and where my own labels come up short against the same list.",
+  "date": "2026-09-10",
+  "lead": {
+    "img": "capsule-scoop",
+    "alt": "A dozen plain pale capsules and a small wooden scoop on dark slate",
+    "cap": "Twelve capsules and a scoop.",
+    "sub": "A generated scene, not a photograph of our stock. Nothing about the outside of a capsule tells you what is in it, which is the entire reason a label exists."
+  },
+  "intro": [
+    { "p": "A woman came into the shop in July with a tub she had bought online for thirty-eight pounds. She wanted to know whether it was any good. I turned it over, and in about forty seconds I could tell her four things: it did not name a species, it did not give a milligram figure, it listed a blend rather than ingredients, and the address on it was a mailbox. None of that is a verdict on the powder inside. It is a verdict on how much the person selling it was willing to tell her." },
+    { "p": "Reading a label is a skill anyone can pick up in an afternoon, and it is worth more than any amount of reading about ingredients. So this is the whole of what I know, in the order I would go through a jar. At the end I have put my own labels through the same list, because it would be a poor article that did not." }
+  ],
+  "sections": [
+    {
+      "id": "food",
+      "title": "A supplement is a food, not a medicine",
+      "blocks": [
+        { "p": "That one sentence explains most of what follows. In this country a food supplement is regulated as a food. It is not a medicine, it has not been through a licensing process, and nobody has assessed it for what it does to a body." },
+        { "p": "There is a separate route for herbal products that want to say more. A herbal medicine can be registered with the Medicines and Healthcare products Regulatory Agency under the traditional herbal registration scheme, and if it has been, the pack carries a THR number and can say what the plant has traditionally been used for. It is a real process with a real cost attached. <b>Nothing I sell carries a THR number.</b> If you see one on a box, what you are holding is a registered medicine rather than a food supplement, which is a genuinely different class of thing, and the number is printed on the pack." },
+        { "p": "The other thing worth knowing before you start is that a jar has two labels, not one. There is the physical label on the pack, which is the legal document. And there is the listing on a website, which is written by whoever runs the website, often years earlier, and which is where nearly all of the trouble lives. My own shop site is a fair example of that, and I will come back to it." }
+      ]
+    },
+    {
+      "id": "required",
+      "title": "The parts that are not optional",
+      "blocks": [
+        { "p": "Start at the back of the jar and look for these. They are required on prepacked food in Great Britain, and food supplements carry a few extra lines of their own. If one is missing, that is not a design decision." },
+        { "ul": [
+          "<b>The name of the food.</b> What the thing is, not what it is called. A brand name on the front does not count.",
+          "<b>An ingredient list, in descending order of weight.</b> Every ingredient, heaviest first. This is the single most useful line on any label and it is the one most often mangled.",
+          "<b>Allergens emphasised inside that list.</b> Fourteen of them, and they have to stand out from the rest of the text, usually in bold.",
+          "<b>The net quantity.</b> Grams, millilitres, or the number of capsules.",
+          "<b>The portion recommended for a day</b>, and a warning not to exceed it.",
+          "<b>The line about a varied diet.</b> Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle.",
+          "<b>The line about children.</b> Keep out of reach of young children.",
+          "<b>The name and address of the business responsible.</b> A real address, and it is worth putting it into a map.",
+          "<b>A lot or batch mark</b>, so that one bad run can be traced and pulled off shelves without recalling four years of production.",
+          "<b>A best before or use by date</b>, and any storage conditions that matter once it is open."
+        ] },
+        { "p": "I am a shopkeeper and not a lawyer, so take that as the list I work to rather than as legal advice. The regulations are public, the Food Standards Agency writes them up more clearly than I would manage, and your local authority's food team is the body that actually enforces them." },
+        { "fig": { "img": "jar-spoon", "alt": "A glass jar and a spoon", "cap": "A jar and a spoon.", "sub": "The date and the storage line matter most on a fresh product with no preservative in it. On a jar of dry capsules they matter less, and they are still required.", "kind": "tall" } }
+      ]
+    },
+    {
+      "id": "nrv",
+      "title": "Nutrient reference values, and why most of a jar has no number",
+      "blocks": [
+        { "p": "If a label declares a vitamin or a mineral, it has to give you a quantity, and it has to give you that quantity as a percentage of something. That something is the nutrient reference value, the NRV. There is one figure per nutrient, set for a general adult population, and it exists so that two labels can be held up against each other by somebody standing in an aisle." },
+        { "p": "There is also a floor. A nutrient can only be declared at all if a portion carries a significant amount of it, which is a set proportion of the NRV rather than a trace. That rule is the reason a jar cannot list every element on the periodic table in small print and call it a specification." },
+        { "aside": "<b>What an NRV is not</b>It is not a dose, a target, or a permission. It is one population-wide reference number that makes labels comparable. Nothing on a jar changes what your own intake should be, and nobody selling you a jar is in a position to work that out." },
+        { "p": "<b>For iodine the NRV is 150 µg a day.</b> Seaking prints 75 µg of iodine in each capsule and 150 µg in the two you take, which is the only measured mineral figure on anything I sell. I have written a whole page about <a href=\"journal/seaking-iodine.html\">that one number</a> and what it is worth." },
+        { "p": "Every other jar on my shelf prints no mineral figure at all. Not because there is nothing in the plant, but because nobody has measured this batch of it, and a figure I cannot stand behind is worse than a blank space. When you see a jar listing ninety-two minerals with no quantities beside any of them, that is a list nobody had to measure, and there is nothing in it you can check." },
+        { "pull": "A number you can check is worth twenty adjectives. A list of minerals with no figures beside them is decoration." }
+      ]
+    },
+    {
+      "id": "register",
+      "title": "The register, and the plants that are not on it",
+      "blocks": [
+        { "p": "Sentences about what a food does to a body are governed separately from the rest of the label, and there is a register of the ones that have been approved. In Great Britain it is a published list, it is free to read, and it is short. An approved sentence attaches to a named substance, comes with conditions about how much of that substance a portion has to carry, and cannot be reworded into something warmer." },
+        { "p": "<b>No plant on my shelf has an approved sentence attached to it.</b> Not sea moss, not reishi, not wormwood, not ashwagandha, not any of the roots or barks. A large batch of botanical submissions went in years ago, was never assessed, and has sat in a holding category ever since. Businesses read that hold in different ways. I have taken the plain reading, which is that nothing has been approved, so I print nothing." },
+        { "p": "What that means in practice is that everything you have read online about what a plant does is one of three things: somebody's own account of their own experience, which they are free to give and I am not; a proposition nobody has proved to the standard the law asks for; or a sentence that is not allowed and is being printed anyway. I set that out at more length in <a href=\"journal/which-sea-moss.html\">the piece on the two sea mosses</a>." },
+        { "fig": { "img": "herbal-plate", "alt": "A nineteenth-century botanical plate of carrageen", "cap": "Carrageen in a nineteenth-century herbal plate.", "sub": "From the New York Public Library collection. Old herbals are full of sentences no modern label may print, which is a fact about labels rather than about the plants.", "kind": "tall" } },
+        { "p": "One consequence of that register is worth saying out loud, because it catches people out. A shop that prints nothing is not admitting its products are inert. It is telling you it has no approved sentence and is not going to invent one. A shop with a paragraph of physiology under every jar is not better informed. It is taking a risk with somebody else's health and its own licence." }
+      ]
+    },
+    {
+      "id": "american",
+      "title": "Not intended to diagnose is an American sentence",
+      "blocks": [
+        { "p": "You will have read it a thousand times: this product is not intended to diagnose, treat, cure, or prevent any disease. It comes from the United States, where an act of Congress in 1994 set up a labelling regime for supplements, and where a label that makes a structure or function statement must carry that disclaimer alongside a line saying the statement has not been evaluated by the Food and Drug Administration." },
+        { "p": "<b>It has no standing here at all.</b> A sentence that is not permitted does not become permitted because a disclaimer follows it, and a food may not be presented as preventing, treating or curing a disease under any circumstances, disclaimer or no disclaimer. In this country the American sentence is a tell. It means somebody copied a template, or copied a competitor who copied a template." },
+        { "p": "It is on eighteen of my own live listings. I counted them off the shop site while writing this. Two of the eighteen are lumps of rock, which are not food and cannot diagnose anything, and that is how little thought went into putting the words there. Those listings predate this site and they are on the list to be rewritten. I would rather tell you the number than let you find it yourself." }
+      ]
+    },
+    {
+      "id": "blend",
+      "title": "Proprietary blend, and what it hides",
+      "blocks": [
+        { "p": "A proprietary blend is another American convention. Over there a manufacturer may group several ingredients under a blend name, give the total weight of the group, and not break out how much of each one is in it. The argument is that the recipe is commercially sensitive." },
+        { "p": "Here the ingredient list is supposed to name every ingredient in descending order of weight. A blend name is not an ingredient. It is a heading with the numbers removed." },
+        { "duo": [
+          { "img": "clove-buds", "alt": "A single dried clove bud, close up", "cap": "<i>Syzygium aromaticum</i>, clove.", "sub": "A named ingredient. You can look it up, check it against a prescription, and know whether you have reacted to it before." },
+          { "img": "black-pepper", "alt": "Green peppercorn spikes on a black ground", "cap": "<i>Piper nigrum</i>, picked green.", "sub": "Another named one. Two names cost a seller nothing and give a reader everything." }
+        ] },
+        { "p": "Three things go missing inside a blend. How much of the dear ingredient is actually in there, which is usually the point. Whether the plant pictured on the front is most of the capsule or a pinch of it. And whether anything in the jar has a known interaction with what your GP has already prescribed you, which is the one that matters and which nobody can check on your behalf." },
+        { "fig": { "img": "gen-spice-bowls", "alt": "Clove buds, black peppercorns and a pale flecked powder in three small bowls on a wooden sill", "cap": "Two you could name, and one you could not.", "sub": "A generated scene, not a photograph of our stock. The third bowl is the problem: it may be excellent, and you have no way of finding out.", "kind": "wide" } },
+        { "p": "My own listings are not clean here. Four of them use the phrase: <a href=\"product-equill.html\">Equill</a>, <a href=\"product-neptune.html\">Neptune</a>, <a href=\"product-respire.html\">Respire</a> and <a href=\"product-test-drive.html\">Test Drive</a>. Three name no plant whatsoever: <a href=\"product-nutropic.html\">Nutropic</a>, <a href=\"product-pancrea.html\">Pancrea</a> and <a href=\"product-prostrate.html\">Prostrate</a>. Detox Redox names three ingredients out of what its own listing calls more than twenty. Every one of those specification sheets now says so in the ingredients row, in those words, because the alternative was to guess." },
+        { "p": "The one that annoys me most is the sea moss. The old listing for the <a href=\"product.html\">Northern Soul</a> gel described its algae as a proprietary blend, which was daft, because I know exactly what is in it and there is nothing secret about a list of four seaweeds. The specification sheet names all four." }
+      ]
+    },
+    {
+      "id": "words",
+      "title": "Wildcrafted, lab tested, and the words that promise nothing",
+      "blocks": [
+        { "p": "Some words on a jar are controlled. Most are not. The difference is not how serious they sound, it is whether anybody outside the company has to agree before they can be printed." },
+        { "table": {
+          "caption": "What the words on the front are worth",
+          "head": ["The word", "Who has to agree", "What it promises you"],
+          "rows": [
+            ["Organic", "A certification body, whose code goes on the pack", "A real, checkable process. This is what a controlled word looks like."],
+            ["Wildcrafted", "Nobody. It has no definition in food law", "Nothing on its own. It is worth something only next to a harvest record: who picked it, where, and when."],
+            ["Lab tested", "Nobody. Not a defined term", "Nothing until you see the certificate. Ask what was tested for, to what limits, and for which batch."],
+            ["Non-GMO", "Nobody, as a phrase", "Little. Genetically modified ingredients have to be declared anyway, so the phrase mostly restates the law."],
+            ["100 per cent natural, no fillers", "Nobody", "Nothing you can check without the full ingredient list, which is the thing to read instead."],
+            ["Vegan", "Usually the business itself, unless a scheme mark is shown", "Depends entirely on whose mark it is. There is no statutory definition behind the word."],
+            ["Pharmaceutical grade", "Nobody. It is not a grade that applies to food", "Nothing at all. Treat it as a warning sign."]
+          ]
+        } },
+        { "p": "Wildcrafted appears on six of my own listings, and I do not have a harvest record to put behind the word on a single one of them. That is not a defence of the word, it is the reason the specification sheets on this site do not use it. If a plant genuinely was picked wild, the honest form is to name the coast or the range and say who picked it." },
+        { "fig": { "img": "tide-rocks", "alt": "Rocks at low tide on an Atlantic shore", "cap": "Rocks at low tide.", "sub": "Wild harvesting is a real job that real people do in season. A word on a jar is not a record of it.", "kind": "tall" } },
+        { "p": "Lab tested is the one worth pressing on, because for some products it is the whole question. <a href=\"product-shilajit.html\">Shilajit</a> is a resin that comes out of rock, so the test that matters is for heavy metals: lead, arsenic, mercury and cadmium. Our listing says lab tested. The <a href=\"product-shilajit.html#spec\">specification sheet</a> now says what that means and adds the part nobody prints, which is that the certificate is not published on this site. Read those two words as a statement that testing happens, not as a result you have seen." },
+        { "p": "So ask for the analysis for your batch. Ask me, and ask whoever sold you the last one. A seller who has a certificate will send it in an afternoon. A seller who does not will send you a paragraph." },
+        { "fig": { "img": "stock-capsules-jar", "alt": "A mass of golden oil-filled softgel capsules", "cap": "Softgel capsules, somebody else's.", "sub": "Not a photograph of Herbase stock, and not the form we use. From the outside one capsule looks like every other capsule, which is why the words on the box do all the work.", "kind": "wide" } }
+      ]
+    },
+    {
+      "id": "ours",
+      "title": "How my own labels score",
+      "blocks": [
+        { "p": "It would be easy to write this article about other people's jars. Here is the same list turned round on mine, taken from the specification sheets on this site, which are the honest version rather than the old shop listings." },
+        { "table": {
+          "caption": "Herbase against the list above",
+          "head": ["Check", "Where we stand"],
+          "rows": [
+            ["Species named in Latin", "On most jars, yes. Not on Acacia Bark, where the listing names no species at all, and not on Ginseng, where it does not say which <i>Panax</i>. Both pages say so."],
+            ["Part of the plant named", "Sometimes. Printed for pau d'arco (inner bark) and ashwagandha (root). Not printed for several others, and we have not filled the gaps in."],
+            ["Milligrams a capsule", "Printed on about half the range: 800 mg on most, 750 mg on Chaga and Equill. Not printed on the rest, and those pages say not printed rather than guessing."],
+            ["Capsule count", "Printed on some jars, missing on others, which is why several pages carry no cost per day."],
+            ["Full ingredient list", "Complete on the sea moss, the mushrooms, the single botanicals, Decolonise and two of the formulas. Partial on four. Absent on three."],
+            ["A measured nutrient figure", "One product on the whole shelf. Seaking, 75 µg of iodine a capsule."],
+            ["A printed stop date", "Decolonise: 25 days, then at least four months. Gumbo Limbo prints short courses with an end on them. Nothing else needs one."],
+            ["A certificate behind lab tested", "Not published. The Shilajit page says so in the testing row."],
+            ["A record behind wildcrafted", "None. The word is on six old listings and on none of the specification sheets here."],
+            ["An approved sentence about what any of it does", "None, and there will not be one. See section four."]
+          ]
+        } },
+        { "p": "That is not a good score. It is an honest one, and every gap on it is printed on the page it belongs to rather than collected quietly here. Some of them I can close by ringing a supplier and asking for a figure. Some of them I cannot close without paying for laboratory work on every batch, and a jar at £24.99 does not carry that cost. When I can close one, the sheet changes." },
+        { "p": "The reason to publish the list at all is that it gives you something to hold me to. If you come back in a year and the ingredient row on <a href=\"product-nutropic.html\">Nutropic</a> still says not printed, that is a fair thing to raise across the counter, and I would rather you did." },
+        { "fig": { "img": "assets/apothecary.jpg", "alt": "Reiss Davies Ausar behind the counter at Herbase, Smithdown Road", "cap": "599 Smithdown Road.", "sub": "Bring the tub you bought somewhere else. Reading the back of it takes a minute and costs nothing.", "kind": "wide" } }
+      ]
+    }
+  ],
+  "buyrow": {
+    "h2": "Four labels, for four reasons",
+    "intro": "Not the four I sell most of. These are the four whose labels demonstrate the points above, including the one that comes out of it worst. I am not going to hide a jar in the shop while writing an article about honesty on jars.",
+    "cards": [
+      {
+        "handle": "seaking",
+        "alt": "Seaweed fronds around a dark starfield, the illustration used for Seaking",
+        "lead": "<b>The only measured figure on the shelf.</b> 50 vegan capsules at 800 mg, 75 µg of iodine in each and 150 µg in a serving, against an NRV of 150 µg.",
+        "btn": "See the specification"
+      },
+      {
+        "handle": "shilajit",
+        "name": "Shilajit Resin",
+        "alt": "Shilajit resin, a dark lump",
+        "lead": "<b>The one that says lab tested.</b> The testing row names what a resin is tested for and states plainly that the certificate is not on this site. Ask us for the analysis for your batch.",
+        "btn": "See the specification"
+      },
+      {
+        "handle": "decolonise",
+        "lead": "<b>The one with an end date printed on it.</b> Nine named ingredients, 50 capsules at 800 mg, 25 days, then at least four months before the next jar.",
+        "btn": "See the specification"
+      },
+      {
+        "handle": "nutropic",
+        "lead": "<b>The one whose listing names nothing.</b> The ingredients row says not printed, because the listing names no plant and we are not going to invent a list to fill the space.",
+        "btn": "See the specification"
+      }
+    ]
+  },
+  "outro": [
+    { "p": "If you have a jar at home and you cannot tell from the back of it what is in there, bring it to 599 Smithdown Road, Tuesday to Sunday, 10 to 6, or ring 07946 806533. It does not have to be one of ours. Reading a label with somebody takes a minute and I would rather do that than sell you a replacement.", "style": "margin-top:1.6em" }
+  ],
+  "author": "Founder and formulator at Herbase. Trading online since 2019 and behind the counter at 599 Smithdown Road, Liverpool, since August 2024. Author of three books on herbal practice. <a href=\"index.html#shop\">Book an hour with him</a> if you want to go into more detail.",
+  "jnext": {
+    "href": "journal/who-should-not.html",
+    "label": "Next on the bench",
+    "h2": "Who should <em>not</em> take what.",
+    "p": "The cautions across the whole shelf, by product family, in one table. Standard public guidance, and the questions I ask before I sell anyone a jar.",
+    "btn": "Read the cautions"
+  },
+  "credits": [
+    "Erick Morales Oyola, David Clode, Kier in Sight Archives, Joan, Maximilian Brand, The New York Public Library, paws and prints, Chloe Forbes-Kindlen, Ekaterina Zlotnikova and Amanda Phung on Unsplash",
+    "Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons",
+    "Black pepper: Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons",
+    "Capsules: Oddman47, CC0, via Wikimedia Commons"
+  ]
+}

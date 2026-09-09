@@ -1,0 +1,138 @@
+{
+  "slug": "galaxeye-tshirt",
+  "kind": "object",
+  "name": "Galaxeye T-shirt",
+  "title": "Galaxeye T-shirt · Black, cotton blend, unisex · Herbase",
+  "description": "The Galaxeye T-shirt. Black, a cotton blend, unisex fit, £50.00. Sizes, fibre percentages and print method are not printed on the listing.",
+  "crumb": ["Apparel", "shop.html#objects"],
+  "price": "£50.00",
+  "unit": "One option · cotton blend · sizes not printed",
+  "label": "Apparel · what is printed",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this shirt",
+  "gallery": [
+    {
+      "held": true,
+      "cap": "There is no photograph of the shirt on this page. We have no clean shot of it that is ours to publish, so the frame stands in for one until there is."
+    },
+    {
+      "img": "assets/hero-cosmos.jpg",
+      "alt": "Pale botanical shapes arranged in a ring inside a green and orange nebula on a dark starfield",
+      "cap": "The artwork we use on this shelf. An illustration, and not the graphic printed on the shirt."
+    },
+    {
+      "img": "assets/store.jpg",
+      "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
+      "cap": "The shop it is sent from, and the number to ring if the fit matters."
+    }
+  ],
+  "points": [
+    "<b>Black tee, a cotton blend</b>, unisex fit, as the listing describes it",
+    "<b>Sizes are not printed.</b> The listing offers one option and gives no size chart and no measurements",
+    "<b>£50.00.</b> No fibre percentages and no print method on the listing, so neither is on this page"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which one shirt at £50.00 does not quite reach",
+    "Every gap on the listing named on the specification sheet below"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure of the size?</b> Ring the shop on 07946 806533, Tuesday to Sunday, before you order. Somebody will lay one flat and read you the measurements off a tape.",
+  "acc": [
+    {
+      "summary": "What it is",
+      "body": [
+        "A black t-shirt in a cotton blend, cut unisex, with a graphic on the front the listing describes as a galaxy shaped eye.",
+        "That description of the graphic is the listing's own. There is no photograph on this page for you to check it against, which is the honest position until we have one."
+      ]
+    },
+    {
+      "summary": "Sizing",
+      "body": [
+        "<b>Not printed.</b> The listing carries a single option with no size on it, no size chart and no garment measurements.",
+        "Ring the shop before you order. Somebody will lay one flat and read you the chest and the length off a tape, which is worth two minutes on a shirt at this price."
+      ]
+    },
+    {
+      "summary": "What is not printed",
+      "body": [
+        "The fibre percentages in the blend, the fabric weight in grams per square metre, the printing method, the blank the shirt is printed on, and the country it was made in.",
+        "Every one of those is a row on the sheet below that says not printed. None of them have been guessed at."
+      ]
+    },
+    {
+      "summary": "Care and delivery",
+      "body": [
+        "Machine wash cold and hang to dry, as printed on the listing.",
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday, or collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "spec": {
+    "label": "Apparel · 01",
+    "h2": "The specification sheet",
+    "intro": "Six rows on this sheet come off the listing and four say not printed. On a garment those four are the ones that decide whether it fits and how long it lasts.",
+    "caption": "Galaxeye T-shirt",
+    "rows": [
+      ["Colour", "Black, as printed."],
+      ["Design", "A galaxy shaped eye on the front. That is the listing's description of the graphic and the whole of it."],
+      ["Material", "A cotton blend. The listing does not break the blend down, so no fibre percentages are printed here."],
+      ["Fit", "Unisex, as printed."],
+      ["Price", "£50.00. One option on the listing, with no variants."],
+      ["Sizes", "Not printed. A single option, no size chart, no chest or length measurement."],
+      ["Print", "Not printed. The listing does not say whether the graphic is screen printed, transferred or embroidered."],
+      ["Fabric weight", "Not printed. No figure in grams per square metre appears on the listing."],
+      ["Made in", "Not printed. The listing names no country, no blank supplier and no printer."],
+      ["Care", "Machine wash cold and hang to dry, as printed."],
+      ["Not for", "It is a shirt. It is not a food, a supplement or anything you take."]
+    ],
+    "smallprint": "Herbase, 599 Smithdown Road, Liverpool L15 5AP.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "On a garment the specification is the size chart, the fibre split, the fabric weight and the print method. This listing prints none of the four, so the sheet above says so four times rather than filling the rows with words that sound like measurements."
+    }
+  },
+  "reiss": {
+    "label": "From Reiss",
+    "h2": "Fifty pounds, <em>and no size chart</em>",
+    "paras": [
+      "A shirt at this price ought to arrive with a chest measurement, a fabric weight and the name of whatever it is printed on. This listing has none of the three, so the sheet says not printed four times: once for each of them, and once for the country it was made in. I would rather it said that than made a guess that turned up on somebody in the wrong size.",
+      "Ring the shop before you order if the fit matters, which it usually does. Somebody will take one off the pile, lay it flat and read you the numbers off a tape, and that is a better size chart than a table I invented for a web page."
+    ],
+    "pull": "Ring the shop before you order if the fit matters, which it usually does.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "also": {
+    "h2": "Also on the <em>objects shelf</em>",
+    "intro": "Four more from the shelf that is not a supplement. Prices as listed.",
+    "handles": [
+      {
+        "handle": "khepra-tshirt",
+        "alt": "Pale botanical shapes in a ring inside a green and orange nebula",
+        "sub": "Black tee with a solar scarab, cotton blend. Sizes not printed."
+      },
+      {
+        "handle": "detox-redox-book",
+        "alt": "Pale botanical shapes in a ring inside a green and orange nebula",
+        "sub": "100 pages, full colour, written by Reiss Davies Ausar."
+      },
+      {
+        "handle": "ripple-effect-book",
+        "alt": "Pale botanical shapes in a ring inside a green and orange nebula",
+        "sub": "Paperback, the second book by Reiss Davies. Page count not printed."
+      },
+      {
+        "handle": "consultation",
+        "alt": "Reiss Davies Ausar behind the counter at Herbase",
+        "sub": "One hour with Reiss on a private audio call, arranged by email."
+      }
+    ]
+  },
+  "jnext": {
+    "article": "journal/sea-moss-liverpool.html",
+    "label": "From the journal",
+    "h2": "Where the shop is, <em>and when it opens</em>",
+    "p": "Nothing in the journal is about a shirt. This is the piece about the shop itself: the address on Smithdown Road, the hours, the number to ring, and what to ask for at the counter.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

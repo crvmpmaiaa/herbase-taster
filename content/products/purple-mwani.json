@@ -1,0 +1,137 @@
+{
+  "slug": "purple-mwani",
+  "kind": "supplement",
+  "name": "Purple Mwani Sea Moss Gel",
+  "title": "Purple Mwani Sea Moss Gel · Eucheuma cottonii from Tanzania · Herbase",
+  "description": "Eucheuma cottonii, the warm-water species, sold under its own name. One jar, £24.99, one or two tablespoons a day. The specification sheet and its blanks.",
+  "crumb": ["Sea moss", "index.html#best"],
+  "price": "£24.99",
+  "unit": "One jar · 20 days at one tablespoon, 10 at two · £1.25 a day at one",
+  "gallery": [
+    { "img": "assets/hero-sea.jpg", "alt": "Seaweed and algae drawn in a ring around a dark centre, the Herbase sea moss scene", "cap": "The sea moss scene we use for this jar. There is no pack photograph on this site yet." },
+    { "img": "eucheuma-farm", "alt": "Seaweed growing on farm lines in shallow water", "cap": "Seaweed farmed on lines in shallow water, which is how this plant is grown." },
+    { "img": "eucheuma-wet", "alt": "Thick golden wrack washed up on a beach", "cap": "Thick golden wrack on a beach. This is not Eucheuma, but it shows the round glossy shape, which is the shape the Atlantic plant does not have." },
+    { "img": "gen-gel-spoon", "alt": "A teaspoon of clear gel held over a small glass jar, a generated scene", "cap": "A spoon of gel over a jar. A generated scene, not a photograph of ours." },
+    { "img": "step-fridge", "alt": "Jars on a fridge shelf", "cap": "The fridge shelf. The listing says to keep it there." }
+  ],
+  "label": "Sea moss · the warm-water species",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "points": [
+    "<b>One alga</b>, <i>Eucheuma cottonii</i>, the warm-water species, farmed off Tanzania and named as itself",
+    "<b>One or two tablespoons a day</b>, in the morning, with a clean spoon. The listing gives the jar 20 days at one spoon and 10 at two",
+    "<b>£24.99.</b> One size. The listing prints no volume, so this page does not print one either"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "perks": [
+    "Dispatched chilled from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, or collect from the shop",
+    "Every ingredient named on the specification sheet below"
+  ],
+  "acc": [
+    { "summary": "What is in it", "body": [
+      "Two things. <i>Eucheuma cottonii</i>, the warm-water seaweed farmed on lines off Tanzania, and water. No second alga, no preservative, no thickener and no sweetener is declared.",
+      "It is not the same plant as the Atlantic <a href=\"product-chondrus-crispus.html\">Chondrus crispus</a> gel, and it is ten pounds cheaper because the plant is cheaper. <a href=\"journal/which-sea-moss.html\">Reiss puts the two side by side here</a>."
+    ] },
+    { "summary": "How to take it", "body": [
+      "<b>One or two tablespoons a day</b>, preferably in the morning, with a clean spoon.",
+      "Off the spoon, or blended into a smoothie. The listing gives the jar 20 days at one tablespoon and 10 days at two. If you miss a day, do not take double the next one: seaweed carries iodine and there is an upper limit on how much of it you want in a day."
+    ] },
+    { "summary": "What is not printed on the label", "body": [
+      "How much gel is in the jar. The listing prints days of servings and never a volume or a fill weight, so this page prices a day and cannot compare the jar with anything else by size.",
+      "The listing also says cultivated in one line and wild crafted in another. Farmed on lines is what our team saw in Tanzania in 2020, and that is what the sheet below says."
+    ] },
+    { "summary": "Storage", "body": [
+      "Keep it in the fridge, which the listing prints, and use a clean spoon, which it also prints. Lid back on after each serving.",
+      "There is no shelf life in days on this listing. What it gives you is 20 days of spoons at one tablespoon a day."
+    ] },
+    { "summary": "Who should not take it", "body": [
+      "<b>Anyone pregnant or trying to conceive, and anyone taking blood related medication.</b> That is the caution the listing carries and we carry it here as it stands.",
+      "Anyone with an overactive thyroid should leave it alone. If you take thyroid medication, ask your GP or pharmacist before you start, and keep it away from children."
+    ] },
+    { "summary": "Delivery and collection", "body": [
+      "Made and sent out from 599 Smithdown Road, Liverpool. Orders go out chilled, Tuesday to Sunday. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+    ] }
+  ],
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      { "img": "step-spoon", "alt": "Spoon over a jar", "h": "Step one", "b": "Start with a clean, dry spoon.", "p": "The listing asks for one and it is right to. A used spoon carries bacteria into a wet gel." },
+      { "img": "gen-gel-spoon", "alt": "A teaspoon of clear gel held over a small glass jar, a generated scene", "h": "Step two", "b": "One or two tablespoons, in the morning.", "p": "The listing prints both, and gives the jar 20 days at one spoon and 10 days at two." },
+      { "img": "gen-morning-water", "alt": "A tall glass of water on a wooden table in low morning light, a generated scene", "h": "Step three", "b": "Off the spoon, or in a smoothie.", "p": "Those are the two the listing gives, and a glass of water after it does no harm. Tea is not mentioned on this one, so we do not suggest it." },
+      { "img": "step-fridge", "alt": "Jars on a fridge shelf", "h": "Step four", "b": "Back in the fridge.", "p": "Store in the fridge is printed on the listing. It prints no shelf life in days, so use the 20 days of spoons as your guide." }
+    ]
+  },
+  "ingredients": {
+    "h2": "One alga, <em>and the water</em>",
+    "intro": "The listing names one seaweed and describes the water it is prepared with. That is the whole of the declared list.",
+    "cards": [
+      { "img": "eucheuma-farm", "alt": "Seaweed growing on farm lines in shallow water", "fam": "Red · Rhodophyta", "latin": "Eucheuma cottonii", "common": "Purple mwani", "p": "The warm-water species, grown on lines strung between stakes in shallow lagoons off Tanzania. The branches are thick and round in section, closer to a knobbly coral than to the flat forking fans of the Atlantic plant, and the colour runs from pale gold to purple. Sold and farmed as <i>Eucheuma cottonii</i>; botanists more often place the farmed plant in <i>Kappaphycus</i>, as <i>Kappaphycus alvarezii</i>. The trade name is the one on the jar." },
+      { "img": "eucheuma-wet", "alt": "Thick golden wrack washed up on a beach", "fam": "The shape · For comparison", "latin": "Round, not flat", "common": "How it differs from Chondrus", "p": "The wrack in this photograph is not Eucheuma. It is here because it shows the round, glossy, pale form that Eucheuma has and that the flat forking Atlantic plant does not. <a href=\"journal/which-sea-moss.html\">The article puts the two side by side</a>, dried and as a gel." },
+      { "img": "step-water", "alt": "Glass and jug of water in morning light", "fam": "Prepared with · Water", "latin": "Water", "common": "And nothing else declared", "p": "The seaweed is soaked and blended with water. The listing describes that water as filtered and hydrogen treated, and gives a reason for it that we are not permitted to repeat, so the process is on this card without one. Nothing else is declared: no second alga, no preservative, no thickener, no sweetener." }
+    ]
+  },
+  "spec": {
+    "label": "Sea moss · the warm-water one",
+    "h2": "The specification sheet",
+    "intro": "Everything we can tell you about what is in the jar, including the figure the listing leaves out and the line where it contradicts itself.",
+    "caption": "Purple Mwani Sea Moss Gel",
+    "rows": [
+      ["Makeup", "A single-species gel. One red alga, <i>Eucheuma cottonii</i>, prepared with water."],
+      ["Species", "<i>Eucheuma cottonii</i>, the warm-water species. Botanists more often place the farmed plant in <i>Kappaphycus</i>, as <i>Kappaphycus alvarezii</i>. The listing uses the trade name and so does this sheet."],
+      ["Name", "Mwani is Swahili for seaweed, and the listing says the word is used in particular for this species. Purple is the colour the plant runs to."],
+      ["Origin", "Tanzania. The listing says cultivated in the Indian Ocean off Tanzania in one line and wild crafted from Zanzibar in another. Zanzibar is part of Tanzania. Farmed on lines is what our team saw there in 2020, and that is what this sheet says."],
+      ["Declared list", "The alga and water. No second alga, no preservative, thickener or sweetener is declared."],
+      ["Prepared with", "Water. The listing calls it filtered and hydrogen treated and gives a reason for that which we are not permitted to repeat, so the process is printed here without one."],
+      ["Size and price", "One jar, £24.99. The listing prints no volume. The 1000 g in the shop's variant data is a shipping weight rather than a fill weight, so this sheet carries no millilitre figure."],
+      ["Serving", "One or two tablespoons daily, preferably in the morning, with a clean spoon. Off the spoon, or blended into a smoothie."],
+      ["Supply", "As printed: 20 days at one tablespoon, 10 days at two. That works out at £1.25 a day at one tablespoon and £2.50 at two."],
+      ["Iodine", "Sea moss contains iodine. The amount in a spoonful varies from harvest to harvest, so we do not print a per spoon figure. If you need to count iodine, <a href=\"product-seaking.html\">Seaking</a> is measured at 75 µg a capsule."],
+      ["Storage", "Refrigerate, as printed, and use a clean spoon, also as printed. The listing gives no shelf life in days for this jar; what it gives is 20 days of spoons at one tablespoon."],
+      ["Excipients", "None. A gel needs no capsule shell, binder or flow agent."],
+      ["Suitable for", "Vegans. Adults. The declared list is a seaweed and water."],
+      ["Not for", "Anyone pregnant or trying to conceive, and anyone taking blood related medication. That is the caution the listing carries and we print it as it stands. Anyone with an overactive thyroid should leave it alone, and if you take thyroid medication ask your GP or pharmacist before you start. Not for children."]
+    ],
+    "smallprint": "Contains iodine from seaweed. Do not exceed two tablespoons a day. Speak to your GP or pharmacist before starting any supplement, particularly if you have a thyroid condition or take medication for one. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The species is named in Latin, the country is named, the serving and the days of spoons are printed, the cost a day follows from them, and the caution the listing carries is printed as it stands. The volume of the jar is missing and the sheet says so rather than guessing at it. What a spoonful does in the body is not something we are permitted to say, so it is not on this page."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "The cheaper plant, <em>sold as the cheaper plant</em>",
+    "paras": [
+      "Most of what is sold in this country as Irish moss is this species. It is farmed on lines in warm shallow water off Tanzania, Zanzibar, the Philippines and Indonesia, it comes back in about six weeks, and it costs a fraction of what hand-picked Atlantic <i>Chondrus crispus</i> costs. A good deal of it is then sold at Chondrus prices under a Chondrus name.",
+      "So here it is under its own name, at twenty four ninety nine, which is ten pounds under the plain Atlantic jar. Same shelf, different plant, different price. If you have bought sea moss online and it came out pale, stiff and glossy on the spoon, this is most likely what you bought, and you can work out for yourself whether what you paid was the price of this.",
+      "Our team went out to the mwani farms in 2020, which is where the word on the jar comes from. The row that annoys me is the volume: the listing says how many days of spoons are in the jar and never how much gel. That is enough to price a day and not enough to compare it with anything else on the shelf, and it is on the list to fix."
+    ],
+    "pull": "It is the cheaper plant, and it is priced like the cheaper plant.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> warm-water sea moss",
+    "rows": [
+      ["Species named in Latin", "Yes, <i>Eucheuma cottonii</i>", "Often sold as Irish moss"],
+      ["Named as the warm-water plant, not as Chondrus", "Yes", "Frequently blurred"],
+      ["Country of origin named", "Yes, Tanzania", "Sometimes named"],
+      ["Farmed or wild, said plainly", "The listing says both", "Often unstated"],
+      ["Volume or weight of gel printed", "Not printed", "Usually printed"],
+      ["Days of servings printed", "Yes, 20 at one tablespoon", "Rarely stated"],
+      ["Storage printed", "Yes, refrigerate", "Usually stated"],
+      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+    ],
+    "note": "Two of those rows are ours to fix: the one where the listing contradicts itself, and the one where a volume should be. The right-hand column is what we most often see on jars customers bring into the shop, not a claim about any particular brand."
+  },
+  "also": {
+    "h2": "The rest of the <em>sea moss shelf</em>",
+    "handles": ["northern-soul", "chondrus-crispus", "nu-heru", "seaking"]
+  },
+  "jnext": {
+    "article": "journal/which-sea-moss.html",
+    "label": "From the journal",
+    "h2": "Which sea moss? Two plants, one name on the jar",
+    "p": "The cold-water plant and the warm-water one, how to tell them apart dried and as a gel, and why the price on the shelf usually tells you which is which."
+  },
+  "credits": []
+}

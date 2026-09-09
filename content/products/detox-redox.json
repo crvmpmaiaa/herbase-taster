@@ -1,0 +1,175 @@
+{
+  "slug": "detox-redox",
+  "kind": "supplement",
+  "name": "Detox Redox",
+  "title": "Detox Redox · Wild herb capsules · Herbase",
+  "description": "Forty large vegan capsules. The listing names three of the botanicals and does not name the rest. The full specification, including what is missing.",
+  "crumb": ["Formulas", "index.html#monograph"],
+  "price": "£39.99",
+  "unit": "40 large vegan capsules · no serving printed, so no day rate",
+  "gallery": [
+    { "held": true },
+    {
+      "img": "chondrus-fresh",
+      "alt": "Wet red-brown Chondrus crispus fronds on a rock",
+      "cap": "<i>Chondrus crispus</i>, wet on the rock. Flat forking fronds, thin enough to see light through."
+    },
+    {
+      "img": "pau-darco-tree",
+      "alt": "A pau d'arco tree in full pink flower on open dry ground",
+      "cap": "<i>Tabebuia impetiginosa</i> in flower on a dry plain. The bark is the part usually sold under that name."
+    },
+    {
+      "img": "bitter-melon",
+      "alt": "A ripe orange bitter melon hanging on the vine",
+      "cap": "<i>Momordica charantia</i> left on the vine until it ripened orange. It is picked green for the kitchen."
+    },
+    {
+      "img": "capsule-scoop",
+      "alt": "A dozen plain pale capsules and a small wooden scoop on dark slate",
+      "cap": "Plain capsules and a wooden scoop on slate. A generated scene, not a photograph of our stock."
+    }
+  ],
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this formula",
+  "points": [
+    "<b>Three botanicals named</b> on the listing: <i>Chondrus crispus</i>, <i>Tabebuia impetiginosa</i>, <i>Momordica charantia</i>",
+    "<b>Forty large vegan capsules</b>, described on the listing as a wild herb formula with no filler",
+    "<b>No serving is printed anywhere</b>, so there is none on this page and no day rate either"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. The serving is the first thing to ask about, because it is not on the label.",
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      {
+        "img": "gen-capsules-saucer",
+        "alt": "Two plain vegan capsules on a white saucer beside a glass of water on a breakfast table. A generated scene",
+        "h": "Step one",
+        "b": "There is no printed serving.",
+        "p": "The listing gives no dose, no daily count and no course length, so we print none. The saucer here is a generated scene, not a photograph of ours."
+      },
+      {
+        "img": "gen-calendar-desk",
+        "alt": "A paper calendar page beside a pencil with one date circled. A generated scene",
+        "h": "Step two",
+        "b": "Ring the shop before you open the jar.",
+        "p": "07946 806533, Tuesday to Sunday. Whoever is on the counter will read you what the current label says, and that is the number to follow, not one from here."
+      },
+      {
+        "img": "gen-morning-water",
+        "alt": "A tall glass of water on a wooden table in low morning sun. A generated scene",
+        "h": "Step three",
+        "b": "Water with it, whatever the number turns out to be.",
+        "p": "These are large capsules and a large capsule wants more water than people usually give it. The glass here is a generated scene."
+      },
+      {
+        "img": "capsule-scoop",
+        "alt": "A dozen plain pale capsules and a small wooden scoop on dark slate. A generated scene",
+        "h": "Step four",
+        "b": "Lid on, dry shelf, out of the sun.",
+        "p": "No storage line is printed either, so this is the plain one. Capsules want neither the fridge nor a steamy kitchen shelf. Keep them out of reach of children."
+      }
+    ]
+  },
+  "ingredients": {
+    "h2": "Three named, <em>and a gap</em>",
+    "intro": "The listing names three botanicals and says the formula runs to over twenty herbs. It does not name the other herbs, and it does not say which part of any plant is used. Here are the three that are named, with the botany and where the plant grows. The fourth card is the gap, written down rather than filled in. Where a picture on this page is a generated scene rather than a photograph, it says so.",
+    "cards": [
+      {
+        "img": "chondrus-fresh",
+        "alt": "Wet red-brown Chondrus crispus fronds on a rock",
+        "fam": "Gigartinaceae · North Atlantic",
+        "latin": "Chondrus crispus",
+        "common": "Irish moss",
+        "p": "A red alga of cold Atlantic rock, on the European and the North American shore. It grows in flat forking fronds thin enough to see light through, and it pales from red-brown towards cream as it dries. It is the same alga as the sea moss on the rest of this shelf."
+      },
+      {
+        "img": "pau-darco-tree",
+        "alt": "A pau d'arco tree in full pink flower on open dry ground",
+        "fam": "Bignoniaceae · South America",
+        "latin": "Tabebuia impetiginosa",
+        "common": "Pau d'arco",
+        "p": "A forest tree of Brazil, Paraguay and northern Argentina that flowers pink before it comes into leaf. The bark is the part usually sold, under the names pau d'arco or lapacho. Newer floras file it under <i>Handroanthus impetiginosus</i>, which is the same tree renamed. Which part of it is in this jar is not printed."
+      },
+      {
+        "img": "bitter-melon",
+        "alt": "A ripe orange bitter melon hanging on the vine",
+        "fam": "Cucurbitaceae · Asia and the Caribbean",
+        "latin": "Momordica charantia",
+        "common": "Bitter melon",
+        "p": "A climbing gourd grown across South Asia, southern China and the Caribbean, and cooked as a vegetable in all three. It is picked green for the kitchen, and the one in the picture was left on the vine until it ripened orange. It is about the most bitter thing anybody eats on purpose."
+      },
+      {
+        "fam": "Gap · not named",
+        "latin": "The rest of the formula",
+        "common": "The listing says \"and more\"",
+        "p": "After the three above the listing stops naming things. It puts the total at over twenty herbs and leaves the remainder unlisted. We cannot describe a plant we cannot name, we cannot give you a caution for it, and we are not going to invent a count to make this section look fuller. Until the label prints the whole list, this card is what is honest."
+      }
+    ]
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      ["Makeup", "Three botanicals named on the listing, plus an unnamed remainder. The listing puts the formula at over twenty herbs and names three of them."],
+      ["Named", "<i>Chondrus crispus</i> · <i>Tabebuia impetiginosa</i> · <i>Momordica charantia</i>"],
+      ["Not named", "Everything else in the jar. There is no full ingredient list on the listing, so there is none on this page."],
+      ["Parts used", "Not printed. No plant part is named for any of the three."],
+      ["Form", "40 large vegan capsules. The listing states no filler. The shell material is not named on the listing, so we do not name one here."],
+      ["Count and strength", "40 capsules. No milligram figure per capsule is printed."],
+      ["Serving", "<b>Not printed.</b> No dose, no daily count, no course length. Ring the shop on 07946 806533 and ask what the current label says."],
+      ["Supply and day rate", "Neither can be worked out. A day rate needs a count and a serving, and only the count is printed."],
+      ["Price", "£39.99. One size."],
+      ["Storage", "Not printed. Keep the lid on, somewhere cool and dry, out of the sun."],
+      ["Sourcing", "Described on the listing as a wild herb formula. We hold no harvest record for the three named botanicals."],
+      ["Excipients", "None declared beyond the capsule shell."],
+      ["Suitable for", "Vegans. Adults."],
+      ["Not for", "Anyone who is pregnant or breastfeeding. Children. If you take prescribed medicine of any kind, including a blood thinner or anything for diabetes, speak to your GP or pharmacist before you start. Read the row above about the plants that are not named as well: nobody can give you a caution for an ingredient nobody has printed."]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "Three plants are named here in Latin, the pack size is printed, and every figure the listing leaves out is written down as missing instead of filled in. Detox Redox is the name on the jar. It is a name, not a description, and we do not expand it. What any of these plants does in a body is not something we are permitted to say, so it is not on this page."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "Why this page is <em>mostly gaps</em>",
+    "paras": [
+      "Three ingredients are named on the listing for this jar and the rest are not. I could have written this page as though that were normal. It is not normal, and putting it at the top of the sheet is the only honest way to have it on the shelf at all.",
+      "A named plant can be checked. Somebody can look up <i>Momordica charantia</i>, see what family it belongs to, ask whether it suits them and decide for themselves. An unnamed one cannot be checked by anybody, and that includes me at the counter. It is the whole argument for printing lists.",
+      "There is no serving on the listing either, which is why there is none on this page and no cost per day. I would rather you rang the shop and asked than followed a number I made up to fill a row.",
+      "The full list is what this jar needs and it is what it will get. Until then the sheet says so, in the same size type as everything else."
+    ],
+    "pull": "A plant nobody can name is a plant nobody can check.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> multi-herb jar",
+    "rows": [
+      ["Every ingredient named", "No. Three of them are", "\"20+ herbs\" and no list"],
+      ["A count you can check", "No. Over twenty is claimed, three are named", "Rarely a number at all"],
+      ["Latin names, not only common ones", "Yes, for the three that are named", "Common names only"],
+      ["The plant part named", "No. Not printed for any of the three", "Rarely stated"],
+      ["A printed serving", "No. There is no dose on the listing", "Usually printed"],
+      ["Milligrams per capsule", "No. Not printed", "Usually printed"],
+      ["Cautions tied to named plants", "Only for the three we can name", "One blanket line in the footer"],
+      ["Somebody to ask, at a counter", "Yes. 07946 806533, Tuesday to Sunday", "A contact form"]
+    ],
+    "note": "This jar comes off worse in that table than anything else we sell. The table stays up until the label changes."
+  },
+  "also": {
+    "h2": "Named lists, <em>elsewhere on the shelf</em>",
+    "handles": ["decolonise", "pau-darco", "chondrus-crispus", "seaking"]
+  },
+  "jnext": {
+    "article": "journal/decolonise-stop-date.html",
+    "label": "From the journal",
+    "h2": "Wormwood, and why Decolonise has a stop date",
+    "p": "Two of the plants named on this listing, <i>Tabebuia impetiginosa</i> and <i>Momordica charantia</i>, are in that formula too, and that one prints all nine of its ingredients."
+  },
+  "credits": [
+    "Irish moss (Chondrus crispus): Ryan Hodnett, CC BY-SA 4.0, via Wikimedia Commons",
+    "Pau d'arco tree: Giles Laurent, CC BY-SA 4.0, via Wikimedia Commons",
+    "Bitter melon: Balaram Mahalder, CC BY-SA 3.0, via Wikimedia Commons"
+  ]
+}

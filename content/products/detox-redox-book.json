@@ -1,0 +1,137 @@
+{
+  "slug": "detox-redox-book",
+  "kind": "object",
+  "name": "Detox Redox, the book",
+  "title": "Detox Redox, the book · 100 pages, full colour · Herbase",
+  "description": "Detox Redox, the book by Reiss Davies Ausar. 100 pages, full colour, with diagrams. Binding, ISBN and publisher are not printed. £28.00.",
+  "crumb": ["Books", "shop.html#objects"],
+  "price": "£28.00",
+  "unit": "100 pages · full colour · binding not printed",
+  "label": "Books · what is printed",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this book",
+  "gallery": [
+    {
+      "held": true,
+      "cap": "There is no photograph of the cover on this page. We have no clean shot of the book that is ours to publish, so the frame stands in for one until there is."
+    },
+    {
+      "img": "assets/hero-cosmos.jpg",
+      "alt": "Pale botanical shapes arranged in a ring inside a green and orange nebula on a dark starfield",
+      "cap": "The artwork we use on this shelf. An illustration, not a photograph of the book."
+    },
+    {
+      "img": "assets/apothecary.jpg",
+      "alt": "Reiss Davies Ausar behind the counter at Herbase, Smithdown Road",
+      "cap": "The author, behind the counter on Smithdown Road."
+    }
+  ],
+  "points": [
+    "<b>100 pages</b>, printed in full colour with pictures and diagrams, as the listing describes it",
+    "<b>Written by Reiss Davies Ausar</b>, who runs the shop this page belongs to",
+    "<b>£28.00, one edition.</b> The listing does not say whether it is paperback or hardback"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, which one book on its own does not reach",
+    "Every gap on the listing named on the specification sheet below"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "acc": [
+    {
+      "summary": "What it is",
+      "body": [
+        "A book of 100 pages, printed in full colour with pictures and diagrams, written by Reiss Davies Ausar. It is one of two books by him on this shelf.",
+        "The listing describes it as written for all reading levels. That is a statement about the reading, not about the reader."
+      ]
+    },
+    {
+      "summary": "What is printed",
+      "body": [
+        "A page count, a colour, an author and a price. Those four rows are the whole of the physical description.",
+        "No binding, no ISBN, no publisher, no year, no page size and no language. Those rows say not printed on the sheet below, and they stay that way until somebody prints them."
+      ]
+    },
+    {
+      "summary": "What this page does not say",
+      "body": [
+        "The listing sets out at length what the book is meant to do for whoever reads it. None of that is repeated here, in those words or in any others.",
+        "The subject is the one the title names. What the book argues about it is in the book, which is where an argument belongs."
+      ]
+    },
+    {
+      "summary": "Delivery and collection",
+      "body": [
+        "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+      ]
+    }
+  ],
+  "spec": {
+    "label": "Books · 01",
+    "h2": "The specification sheet",
+    "intro": "Four rows of this sheet are printed on the listing. The rest is the bibliographic detail a book usually carries and this listing does not.",
+    "caption": "Detox Redox, the book",
+    "rows": [
+      ["Pages", "100, as printed."],
+      ["Colour", "Full colour throughout, with pictures and diagrams, as the listing describes it."],
+      ["Author", "Reiss Davies Ausar."],
+      ["Price", "£28.00. One edition on the listing, with no variants."],
+      ["Format", "Not printed. The listing does not say paperback or hardback and gives no page size."],
+      ["Subject", "The one the title names. This page does not summarise the book and does not repeat its argument."],
+      ["ISBN", "Not printed. No ISBN, publisher or year of publication appears on the listing."],
+      ["Language", "Not printed. The listing does not state one."],
+      ["Weight", "Not printed. There is no shipping weight on the listing for it."],
+      ["Suitable for", "Readers. The listing describes it as written for all reading levels."],
+      ["Not for", "It is not a food, a supplement or a course of treatment. Nothing in it replaces advice from your GP or pharmacist, and nothing on this page says otherwise."]
+    ],
+    "smallprint": "Herbase, 599 Smithdown Road, Liverpool L15 5AP.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The specification of a book is a page count, a binding, a colour, an author and a price. This one has four of the five. What the pages argue is not a specification, it is the book, and a shop page that summarised it would be making the argument on the book's behalf without any of the room the book has to make it properly."
+    }
+  },
+  "reiss": {
+    "label": "From Reiss",
+    "h2": "Why the page will not <em>summarise it</em>",
+    "paras": [
+      "I wrote it, which is the one line on this page I can give you without going back to a listing to check. What it sets out to do is in the 100 pages. If I put that here instead, in two sentences on a page with a buy button under them, the sentences would be doing a job they are not allowed to do on a shop page in Britain.",
+      "So the sheet gives you a page count, a colour, an author and a price, and tells you plainly that the binding and the ISBN are missing. If you want to know whether the book is for you, ring the shop and ask me, or read the journal, which is the same voice for nothing."
+    ],
+    "pull": "If you want to know whether the book is for you, ring the shop and ask me.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "also": {
+    "h2": "Also on the <em>objects shelf</em>",
+    "intro": "Four more from the shelf that is not a supplement. Prices as listed.",
+    "handles": [
+      {
+        "handle": "ripple-effect-book",
+        "alt": "Pale botanical shapes in a ring inside a green and orange nebula",
+        "sub": "Paperback, the second book by Reiss Davies. Page count not printed."
+      },
+      {
+        "handle": "galaxeye-tshirt",
+        "alt": "Pale botanical shapes in a ring inside a green and orange nebula",
+        "sub": "Black tee, cotton blend, unisex fit. Sizes not printed."
+      },
+      {
+        "handle": "khepra-tshirt",
+        "alt": "Pale botanical shapes in a ring inside a green and orange nebula",
+        "sub": "Black tee with a solar scarab, cotton blend. Sizes not printed."
+      },
+      {
+        "handle": "consultation",
+        "alt": "Reiss Davies Ausar behind the counter at Herbase",
+        "sub": "One hour with Reiss on a private audio call, arranged by email."
+      }
+    ]
+  },
+  "jnext": {
+    "article": "journal/read-a-label.html",
+    "label": "From the journal",
+    "h2": "How to read <em>a supplement label</em>",
+    "p": "Nothing in the journal is about the books. This is the piece nearest to them: which words on a jar are regulated, which promise nothing at all, and how our own labels score against that list.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}

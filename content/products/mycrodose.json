@@ -1,0 +1,139 @@
+{
+  "slug": "mycrodose",
+  "kind": "supplement",
+  "name": "Mycrodose",
+  "title": "Mycrodose · Four named mushrooms, 50 × 800 mg · Herbase",
+  "description": "Four mushrooms in one vegan capsule, each named in Latin. 50 capsules at 800 mg, two a day. The specification sheet, and the split it does not print.",
+  "crumb": ["Mushrooms", "index.html#best"],
+  "price": "£39.99",
+  "unit": "50 capsules at 800 mg · 25 days · £1.60 a day",
+  "gallery": [
+    { "img": "assets/hero-fungi.jpg", "alt": "Mushrooms at the edge of a painted nebula", "cap": "The mushroom scene we use for this jar. There is no pack photograph on this site yet." },
+    { "img": "hericium-wild", "alt": "Hericium erinaceus growing on bark", "cap": "Lion's mane, the first of the four, growing out of a tree." },
+    { "img": "chaga-birch", "alt": "A black chaga conk on a birch trunk", "cap": "Chaga, the black mass on a living birch." },
+    { "img": "reishi-wild", "alt": "Ganoderma lucidum growing on dead hardwood", "cap": "Reishi, the varnished bracket of dead hardwood." },
+    { "img": "capsule-scoop", "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene", "cap": "Plain capsules on slate. A generated scene, not a photograph of ours." }
+  ],
+  "label": "Mushrooms · four in one capsule",
+  "css": "/* five declared ingredients, not four: the grid takes a fifth column rather than\n   leaving an empty cell in the last row */\n@media(min-width:800px){.ingr__grid{grid-template-columns:repeat(5,1fr)}}\n@media(max-width:799px){.ingr__grid .ing:nth-child(5){grid-column:1/-1}.ingr__grid .ing:nth-child(5) img{aspect-ratio:2.2}}",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "points": [
+    "<b>Four mushrooms, each named in Latin</b>: <i>Hericium erinaceus</i>, <i>Cordyceps militaris</i>, <i>Inonotus obliquus</i> and <i>Ganoderma lucidum</i>",
+    "<b>Two capsules a day</b>, with a meal and at least 500 ml of water",
+    "<b>50 capsules at 800 mg.</b> 25 days at the stated serving, £1.60 a day. The shell is hydroxypropyl methylcellulose"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, or collect from the shop",
+    "Every ingredient named on the specification sheet below, and every figure we do not have"
+  ],
+  "acc": [
+    { "summary": "What is in it", "body": [
+      "Four fungi in a vegan capsule: <i>Hericium erinaceus</i> (lion's mane), <i>Cordyceps militaris</i>, <i>Inonotus obliquus</i> (chaga) and <i>Ganoderma lucidum</i> (reishi). The listing prints 100 per cent pure against each of them and names the shell as hydroxypropyl methylcellulose.",
+      "Three of the four are sold on their own here as well: <a href=\"product-lions-mane.html\">lion's mane</a>, <a href=\"product-chaga.html\">chaga</a> and <a href=\"product-reishi.html\">reishi</a>."
+    ] },
+    { "summary": "How to take it", "body": [
+      "<b>Two capsules a day</b>, preferably with a meal, and at least 500 ml of water.",
+      "Two is the serving. If you miss a day, take two the next day rather than four."
+    ] },
+    { "summary": "What is not printed on the label", "body": [
+      "How the 800 mg is divided between the four. That is the figure I would want most and it is not there, so the row on the sheet below is empty.",
+      "The part used for any of them, and any extraction ratio. The count, the milligrams and the capsule material are all printed."
+    ] },
+    { "summary": "Storage", "body": [
+      "Somewhere dry, out of direct sun, with the lid on. Capsules do not want a fridge."
+    ] },
+    { "summary": "Who should not take it", "body": [
+      "Anyone who reacts to mushrooms. There are four species in this capsule and any one of them can be the one you react to.",
+      "If you take medication that thins the blood, or insulin or another medicine for blood sugar, ask your GP or pharmacist first. Not for children, and ask before you start if you are pregnant or nursing."
+    ] },
+    { "summary": "Delivery and collection", "body": [
+      "Sent out from 599 Smithdown Road, Liverpool, Tuesday to Sunday. UK delivery is free over £50, or you can collect from the shop between 10 and 6, any day except Monday."
+    ] }
+  ],
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "h": "Step one", "b": "Two capsules, preferably with a meal.", "p": "That is the serving on the label. The saucer here is a generated scene rather than our jar." },
+      { "img": "gen-morning-water", "alt": "A tall glass of water on a wooden table in low morning light, a generated scene", "h": "Step two", "b": "At least 500 ml of water with them.", "p": "A capsule wants more water than people usually give it." },
+      { "img": "gen-calendar-desk", "alt": "A date circled in pencil on a paper calendar page beside a pencil. A generated scene", "h": "Step three", "b": "Do not double up.", "p": "Two a day, and a missed day stays missed. Nothing is gained by catching up." },
+      { "img": "assets/store.jpg", "alt": "The shop floor at 599 Smithdown Road, shelves along the wall", "h": "Step four", "b": "Lid on, dry shelf, out of the sun.", "p": "Capsules do not go in the fridge. Ours sit on the shelf you can see here until they are sold." }
+    ]
+  },
+  "ingredients": {
+    "h2": "Four mushrooms, <em>one capsule</em>",
+    "intro": "The listing names four fungi and the shell, and prints 100 per cent pure against each of the four. What it does not print is how the 800 mg is divided between them.",
+    "cards": [
+      { "img": "hericium-wild", "alt": "Hericium erinaceus growing on bark", "fam": "Fungus · Hericiaceae", "latin": "Hericium erinaceus", "common": "Lion's mane", "p": "The white spined mass that grows out of old hardwood, usually beech or oak. It has no cap and no gills. We sell it on its own as well, and <a href=\"product-lions-mane.html\">that label names the fruiting body</a>. This one does not say which part is in the blend." },
+      { "img": "assets/hero-fungi.jpg", "alt": "Mushrooms at the edge of a painted nebula", "fam": "Fungus · Cordycipitaceae", "latin": "Cordyceps militaris", "common": "Scarlet caterpillar club", "p": "A small orange club fungus that fruits from buried insect pupae, and the one of the four that is usually farmed on grain or rice rather than gathered off wood. There is no photograph of the species on this site, so the house mushroom scene stands here rather than a picture of some other fungus with its name under it." },
+      { "img": "chaga-birch", "alt": "A black chaga conk on a birch trunk", "fam": "Fungus · Hymenochaetaceae", "latin": "Inonotus obliquus", "common": "Chaga", "p": "The hard black mass on a living birch, cracked like charcoal outside and rust orange inside. <a href=\"product-chaga.html\">On its own it is 750 mg a capsule</a>. Here it is one of four and its share of the 800 mg is not printed." },
+      { "img": "reishi-wild", "alt": "Ganoderma lucidum growing on dead hardwood", "fam": "Fungus · Ganodermataceae", "latin": "Ganoderma lucidum", "common": "Reishi, lingzhi", "p": "The varnished, kidney shaped bracket of dead and dying hardwood, hard rather than fleshy. <a href=\"product-reishi.html\">The single jar is 50 at 800 mg</a>, and that label does not name a part either." },
+      { "img": "capsule-scoop", "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene", "fam": "The shell · Named", "latin": "Hydroxypropyl methylcellulose", "common": "The vegan capsule", "p": "This is the only jar on the shelf whose listing names the shell material. Hydroxypropyl methylcellulose is made from plant cellulose, and it is what vegan capsule usually means when a label bothers to say. The capsules in the picture are a generated scene rather than a photograph of ours." }
+    ]
+  },
+  "spec": {
+    "label": "Mushrooms · the four",
+    "h2": "The specification sheet",
+    "intro": "Everything we can tell you about what is in the jar, including the figure that would tell you the most and is not printed.",
+    "caption": "Mycrodose",
+    "rows": [
+      ["Makeup", "Four fungi in a vegan capsule. <i>Hericium erinaceus</i>, <i>Cordyceps militaris</i>, <i>Inonotus obliquus</i> and <i>Ganoderma lucidum</i>."],
+      ["Declared list", "Lion's mane (<i>Hericium erinaceus</i>) · cordyceps (<i>Cordyceps militaris</i>) · chaga (<i>Inonotus obliquus</i>) · reishi (<i>Ganoderma lucidum</i>) · vegan capsule (hydroxypropyl methylcellulose). The listing prints 100 per cent pure against each of the four."],
+      ["Proportions", "Not printed. The capsule is 800 mg and the listing does not say how that is divided, so this sheet does not divide it either."],
+      ["Parts used", "Not printed for any of the four. Fruiting body and mycelium grown on grain are both sold as mushroom powder, and this label does not choose between them."],
+      ["Extraction ratios", "None printed. The listing does not offer any of the four as a concentrated extract."],
+      ["Count and strength", "50 capsules at 800 mg each, as printed."],
+      ["Capsule", "Vegan. Hydroxypropyl methylcellulose, as printed."],
+      ["Origin", "Not printed for any of the four."],
+      ["Price", "£39.99. One size. 50 capsules at two a day is 25 days, which works out at £1.60 a day."],
+      ["Serving", "Two capsules daily, preferably with a meal, and at least 500 ml of water."],
+      ["Storage", "Dry, out of direct sun, lid on. It does not need a fridge."],
+      ["Excipients", "None declared beyond the capsule shell."],
+      ["Suitable for", "Vegans. Adults."],
+      ["Not for", "Anyone who reacts to mushrooms: there are four in here and any of them can be the one. If you take medication that thins the blood, or insulin or another medicine for blood sugar, ask your GP or pharmacist first, because reishi, chaga and cordyceps are all routinely flagged for one or the other. Not for children. If you are pregnant or nursing, or you take prescribed medication, ask before you start."]
+    ],
+    "smallprint": "Contains mushroom, which is an allergen for some people. Do not exceed two capsules a day. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, nursing or taking prescribed medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "Four species named in Latin, the count, the milligrams, the capsule material and the serving are all printed. The split between the four is not, and it sits on the sheet as a blank. What any of them does in a person is not something we are permitted to say, so it is not on this page."
+    }
+  },
+  "reiss": {
+    "label": "Reiss's turn",
+    "h2": "Four mushrooms, <em>and the number I would want</em>",
+    "paras": [
+      "Eight hundred milligrams, four fungi. The obvious question is how much of each, and the honest answer is that our listing does not say. Two hundred each would be a tidy way to make it. So would six hundred of one and a token of the other three. I cannot show you which this is, so the row on the sheet is empty and it will stay empty until the label fills it.",
+      "The name is a joke about microdosing and I know how it reads. There is nothing psychoactive in this jar. It is four ordinary culinary and traditional fungi, dried and milled into a capsule, and the whole declared list is on the sheet above with nothing hidden behind a blend name.",
+      "If you want one fungus and one short label to read, the single jars are cheaper and simpler, and the lion's mane one names the part used. If you would rather have all four in one morning, this is the jar, and it costs a pound sixty a day."
+    ],
+    "pull": "The name is a joke about microdosing. There is nothing psychoactive in this jar.",
+    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> mushroom blend",
+    "rows": [
+      ["Every species named in Latin", "Yes, all four", "Often one proprietary blend name"],
+      ["How much of each", "Not printed", "Rarely printed"],
+      ["The part named: fruiting body or mycelium", "Not printed", "Frequently unstated"],
+      ["Grain named if the fungus was grown on it", "Not declared", "Mycelial biomass, and no more"],
+      ["Total milligrams a capsule", "Yes, 800 mg", "Usually printed"],
+      ["Count of capsules", "Yes, 50", "Usually printed"],
+      ["Capsule material named", "Yes, hydroxypropyl methylcellulose", "Vegan capsule, and no more"],
+      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+    ],
+    "note": "Two of those rows are ours to fix and they stay here until the label answers them. The right-hand column is what we most often see on jars customers bring into the shop, not a claim about any particular brand."
+  },
+  "also": {
+    "h2": "The <em>single jars</em>, and the other formula",
+    "handles": ["lions-mane", "reishi", "chaga", "seaking"]
+  },
+  "jnext": {
+    "article": "journal/lions-mane.html",
+    "label": "From the journal",
+    "h2": "Whole fruiting body, no rice flour",
+    "p": "The phrases to look for on any mushroom label, and why a blend that will not name a part is asking you to take its word for it."
+  },
+  "credits": ["Lion's mane, wild: Judy Gallagher, CC BY 2.0, via Wikimedia Commons"]
+}

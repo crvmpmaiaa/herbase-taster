@@ -1,0 +1,174 @@
+{
+  "slug": "seaking-iodine",
+  "title": "How much iodine is in a capsule, and in a spoon · Herbase Journal",
+  "description": "Reiss Davies Ausar on the iodine figure printed on Seaking, 75 µg per capsule and 150 µg per serving, what an NRV is, why the Northern Soul gel carries no figure at all, and the clove that is on one declared list and not the other.",
+  "ogdesc": "75 µg per capsule, 150 µg in a serving, and nothing printed on the gel. What the figures are measured against, and why one product has them.",
+  "crumb": ["Journal", "journal/"],
+  "crumbTail": "Iodine",
+  "label": "Sea moss · Label notes",
+  "h1": "How much iodine is in a capsule, <em>and in a spoon.</em>",
+  "standfirst": "Seaking prints 75 µg of iodine in every capsule and 150 µg in the two you take. The Northern Soul gel prints nothing at all. Here is what those numbers are measured against, why the jar has none, and the one ingredient that is on the capsule list and not the gel's.",
+  "date": "2026-09-04",
+  "lead": {
+    "img": "gen-seaking-capsules",
+    "alt": "Capsules and dried wrack on a slate board",
+    "cap": "A generated scene: capsules and dried wrack on slate, not a photograph of the tub."
+  },
+  "intro": [
+    { "p": "Somebody asked me across the counter last week how much iodine was in a spoonful of the gel. I told him I did not know, which is not the answer anyone wants from the person who made it. Then I handed him a tub of <a href=\"product-seaking.html\">Seaking</a> and showed him the back of it, because that one I can answer to the microgram." },
+    { "p": "This piece is about the difference between those two answers. It is the only measured mineral figure on anything I sell, so it is worth setting out properly: what the number is, what it is being compared against, why the jar next to it has no number at all, and what I am still not allowed to tell you once the number is printed." }
+  ],
+  "sections": [
+    {
+      "id": "figure",
+      "title": "The figure on the tub",
+      "blocks": [
+        { "p": "Seaking is 50 vegan capsules at 800 mg each. The serving is two capsules in the morning with at least 500 ml of water, which makes the tub a 25 day supply." },
+        { "p": "<b>Each capsule carries 75 µg of iodine. Two capsules carry 150 µg.</b> That is the whole of the figure and there is nothing hiding behind it." },
+        { "p": "A microgram is a millionth of a gram. One hundred and fifty of them is a quantity you could not see if I tipped it onto the counter, and iodine is one of the few things people buy in a shop like mine where a number that small is worth printing at all. There is a reference intake for it and there is a published upper limit, and the two are closer together than most people assume. I am not going to print the upper limit here, because the figure I see quoted moves depending on who published it, and you should have that one from your GP or from the NHS rather than from a man who sells seaweed." },
+        { "fig": { "img": "gen-capsules-saucer", "alt": "Two capsules on a saucer beside a glass of water", "cap": "A generated scene: two capsules and a glass of water, not a photograph of the tub.", "kind": "tall" } }
+      ]
+    },
+    {
+      "id": "nrv",
+      "title": "What 150 micrograms is measured against",
+      "blocks": [
+        { "p": "A number on the back of a tub is only useful if you know what it is being held up against. In Great Britain that yardstick is the nutrient reference value, the NRV. It is one figure per nutrient, set for a general adult population, and it exists so that a label can be read by somebody standing in an aisle rather than by a nutritionist." },
+        { "p": "<b>For iodine the NRV is 150 µg a day.</b> So a serving of Seaking is 150 µg against an NRV of 150 µg, and one capsule is half of it. That is a tidy piece of arithmetic and it is the reason the figure is on the pack." },
+        { "aside": "<b>What an NRV is not</b>It is not a dose, a target to hit or a permission. It is a single population-wide reference number that lets one label be compared with another. Nothing about a food supplement changes what your own intake should be, and nobody who sells one is in a position to work that out for you." },
+        { "p": "The listing also carries the figures for pregnancy and for breastfeeding, 220 µg and 290 µg a day. Those are higher, and they are still intakes rather than instructions. If you are pregnant or nursing, the person to ask about iodine is your midwife or your GP, and I would rather you did that before you bought anything from me." },
+        { "p": "The other thing worth saying is that a capsule does not arrive into an empty account. Milk, dairy and fish are the usual sources of iodine in a British diet, so whatever you take from me sits on top of whatever you already eat. That is exactly why I print the figure instead of leaving you to guess it." },
+        { "fig": { "img": "kelp-forest", "alt": "Sunlight through a kelp forest", "cap": "Kelp, one of the four algae in both products.", "sub": "Iodine in seaweed comes from the water it grew in, which is why no two harvests are identical.", "kind": "wide" } }
+      ]
+    },
+    {
+      "id": "gel",
+      "title": "Why the jar has no figure",
+      "blocks": [
+        { "p": "The <a href=\"product.html\">Northern Soul</a> gel is the same four algae as the capsules, soaked and blended with water, with nothing taken out and nothing dried off. It is a good product and it is the one I take myself. It carries no iodine figure, and it is not going to." },
+        { "p": "Seaweed takes up iodine from the water around it. How much ends up in the frond depends on the <a href=\"journal/which-sea-moss.html\">species</a>, on the stretch of coast, on the season, on how long it sat before it was dried and on how it was stored afterwards. Two harvests off the same rocks in March and September are not the same material. A gel made in small runs above a shop on Smithdown Road would need a laboratory number for every batch before I could print anything, and that is not a cost a jar at £34.99 carries." },
+        { "p": "So the tub says 75 µg and the jar says nothing. Same seaweed, different honesty about what I actually know. The <a href=\"product.html#spec\">specification sheet for the gel</a> says as much in the iodine row, and it will keep saying it until somebody hands me batch numbers I can stand behind." },
+        { "pull": "Dried and milled and weighed, the same seaweed sits still enough to measure. In a jar it does not." },
+        { "fig": { "img": "seaweed-drying", "alt": "A seaweed drying hut on a clifftop above the sea", "cap": "A seaweed drying hut, still standing on the coast.", "sub": "Drying is the step that makes a figure possible. Dry weight is stable, while a wet gel is water plus plant and the ratio moves.", "kind": "tall" } }
+      ]
+    },
+    {
+      "id": "lists",
+      "title": "The two products, side by side",
+      "blocks": [
+        { "p": "People assume the capsule is the gel with the water taken out, and it very nearly is. Here is the whole difference, laid out." },
+        { "table": {
+          "caption": "Northern Soul gel and Seaking capsules",
+          "rows": [
+            ["Declared list, gel", "<i>Chondrus crispus</i> · <i>Fucus vesiculosus</i> · Laminariales · <i>Chlorella</i>. Prepared with water."],
+            ["Declared list, capsules", "The same four, plus <i>Syzygium aromaticum</i>, which is clove. Five names, no sixth."],
+            ["Iodine printed", "Gel: none, for the reason above. Capsules: 75 µg each, 150 µg in a serving."],
+            ["Serving", "Gel: one tablespoon each morning. Capsules: two each morning with at least 500 ml of water."],
+            ["Storage", "Gel: fridge, 28 days once opened, or freeze it. Capsules: closed, dry, no fridge."],
+            ["Price", "Gel: £34.99 for 300 ml, £50.00 for 500 ml. Capsules: £39.99 for 50, which is 25 mornings."]
+          ]
+        } },
+        { "p": "Per day the two land in much the same place, £1.52 to £1.75 for the gel depending on the jar, £1.60 for the capsules. Nobody is paying extra for the convenience, whichever way round you expected that to go." },
+        { "fig": { "img": "bladderwrack", "alt": "Fucus vesiculosus, bladderwrack, with its air bladders", "cap": "Fucus vesiculosus, bladderwrack.", "sub": "One of the four algae in both the gel and the capsules.", "kind": "tall" } }
+      ]
+    },
+    {
+      "id": "clove",
+      "title": "The clove that is on one list and not the other",
+      "blocks": [
+        { "p": "<i>Syzygium aromaticum</i> is clove: the dried, unopened flower bud of an evergreen tree in the myrtle family, grown in Indonesia, Madagascar, Zanzibar and Sri Lanka. It is the same spice that sits in your cupboard, and the same one that is on the nine-ingredient list for <a href=\"product-decolonise.html\">Decolonise</a>." },
+        { "duo": [
+          { "img": "clove-buds", "alt": "A single dried clove bud", "cap": "One dried clove.", "sub": "A flower bud, picked before it opens and dried until it rattles." },
+          { "img": "chondrus-dried", "alt": "Dried red seaweed, flat and forking", "cap": "Dried Chondrus crispus.", "sub": "The base of both products, in the state the capsules are made from." }
+        ] },
+        { "p": "It is declared on the Seaking list and it is not on the gel's. If you have held the two labels next to each other, the difference is not a printing error. Four algae in both, and a spice in one of them." },
+        { "p": "What I am not going to do is tell you why it is in there. A formulator's reason for putting a botanical in a blend is the exact thing that turns into a claim the moment it is written on a page, and I would rather keep the clove on the list than argue about a sentence. It is there, it is named in Latin, and you can smell it when you open the tub." }
+      ]
+    },
+    {
+      "id": "register",
+      "title": "The sentence I am leaving out",
+      "blocks": [
+        { "p": "There is permitted wording about iodine on the Great Britain register, and a serving of Seaking would clear the threshold to use it, because the threshold is a proportion of the NRV and a serving here is all of it. I have printed it once before. I am leaving it out of this one." },
+        { "p": "The reason is straightforward. A permitted sentence is still a sentence about a nutrient and a body, and the moment one goes on a page the rest of the page starts leaning on it. Photographs get chosen to agree with it. Headings drift towards it. Then somebody adds a second sentence that was never permitted at all, and by that point nobody in the building can tell you which half of the page is legal." },
+        { "p": "What you get from me instead is the number and the yardstick. 150 µg in a serving. 150 µg is the NRV. If you want to know what iodine is for, the NHS page on it is free, better written than anything I would manage, and not trying to sell you a tub." },
+        { "fig": { "img": "red-algae-pool", "alt": "Red algae in a cold rock pool", "cap": "Red algae in a cold rock pool.", "sub": "Where the base of both products comes from, before anything is weighed.", "kind": "tall" } }
+      ]
+    },
+    {
+      "id": "ceiling",
+      "title": "The ceiling, and who should leave it alone",
+      "blocks": [
+        { "p": "Two capsules a day is the ceiling printed on the pack, not an opening offer. I would rather lose a sale than have you work through a tub at four a day, so please read this list." },
+        { "ul": [
+          "<b>Overactive thyroid.</b> If you have hyperthyroidism, neither the capsules nor the gel are for you, because of the iodine.",
+          "<b>Thyroid medication of any kind.</b> Ask your GP or pharmacist first. If they are content for you to take something, this is the one where the figure is known, which is usually the point of the conversation.",
+          "<b>Pregnant or nursing.</b> Ask your midwife or GP. The reference intakes are different, 220 µg and 290 µg, and that is a conversation for a clinic rather than a counter.",
+          "<b>Anything else you take that carries iodine.</b> Kelp tablets, some multivitamins, some seaweed snacks. The figures add up whether or not you were adding them.",
+          "<b>Both at once.</b> If you take the capsules and the gel on the same morning, you are counting one and guessing the other, which defeats the reason for buying the counted one.",
+          "<b>Children.</b> Not for them. Keep the tub out of reach."
+        ] },
+        { "p": "A missed morning is a missed morning. Take two the next day, not four." }
+      ]
+    },
+    {
+      "id": "buy",
+      "title": "Which one to buy",
+      "blocks": [
+        { "p": "If you need to know the figure, the capsules. If you are at home most mornings and you would rather have the whole plant with the water still in it, the gel. The products are set out below." },
+        { "fig": { "img": "stock-seaweed-shore", "alt": "Seaweed washed above the tideline on a sandy shore", "cap": "Seaweed dried by wind and sun, above the tideline.", "sub": "Not the shore Herbase's own algae come from, but seaweed dries the same way wherever it lands.", "kind": "wide" } }
+      ]
+    }
+  ],
+  "buyrow": {
+    "cards": [
+      {
+        "handle": "seaking",
+        "alt": "Seaweed fronds around a dark starfield, the illustration used for Seaking",
+        "lead": "<b>The counted one.</b> 50 vegan capsules at 800 mg, 75 µg of iodine in each and 150 µg in a serving. 25 mornings to a tub.",
+        "btn": "See the specification"
+      },
+      {
+        "handle": "northern-soul",
+        "name": "Northern Soul",
+        "alt": "Northern Soul sea moss gel, glass jar",
+        "lead": "<b>The same four algae, as a gel.</b> One tablespoon each morning, 300 ml or 500 ml, in the fridge. No iodine figure, for the reason in section three."
+      },
+      {
+        "handle": "chondrus-crispus",
+        "name": "Chondrus Crispus",
+        "alt": "Chondrus crispus sea moss gel",
+        "lead": "<b>The single-ingredient gel.</b> The Atlantic plant, water and Omega DHA oil. One alga, no formula around it."
+      },
+      {
+        "handle": "purple-mwani",
+        "name": "Purple Mwani",
+        "href": "product.html#also",
+        "alt": "Purple Mwani sea moss gel",
+        "lead": "<b>The warm-water species, sold as what it is.</b> <i>Eucheuma cottonii</i> from Tanzania. Named and priced accordingly."
+      }
+    ]
+  },
+  "outro": [
+    { "p": "If you are counting iodine because somebody at a surgery asked you to, bring the letter into the shop on Smithdown Road and I will read the label with you. Tuesday to Sunday, 10 to 6.", "style": "margin-top:1.6em" }
+  ],
+  "author": "Founder and formulator at Herbase. Trading online since 2019 and behind the counter at 599 Smithdown Road, Liverpool, since August 2024. Author of three books on herbal practice. <a href=\"index.html#shop\">Book an hour with him</a> if you want to go into more detail.",
+  "jnext": {
+    "href": "product-seaking.html",
+    "label": "Ready when you are",
+    "h2": "Two capsules. <em>Seventy five micrograms each.</em>",
+    "p": "Seaking is the tub described in this article. 50 vegan capsules at 800 mg, a 25 day supply, sent from Liverpool.",
+    "btn": "Shop Seaking · £39.99"
+  },
+  "sticky": {
+    "handle": "seaking",
+    "note": " · the capsules in this article",
+    "btn": "Shop it"
+  },
+  "credits": [
+    "Erick Morales Oyola, David Clode, Kier in Sight Archives, Joan, Maximilian Brand, The New York Public Library, paws and prints, Chloe Forbes-Kindlen, Ekaterina Zlotnikova and Amanda Phung on Unsplash",
+    "Seaweed drying: Paul Farmer, CC BY-SA 2.0, via Wikimedia Commons",
+    "Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons",
+    "Seaweed on shore: Olga Ernst, CC BY-SA 4.0, via Wikimedia Commons"
+  ]
+}

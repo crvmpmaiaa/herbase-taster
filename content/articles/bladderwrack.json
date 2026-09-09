@@ -1,0 +1,184 @@
+{
+  "slug": "bladderwrack",
+  "title": "Bladderwrack, the brown one on both lists · Herbase Journal",
+  "description": "Fucus vesiculosus: the shape, the air bladders, where it sits on the shore next to Chondrus, why it is on the Northern Soul and Seaking lists, and what is not printed.",
+  "ogdesc": "The brown alga on both of our sea moss lists. What the plant is, where it grows, what the bladders do, and the parts of its story neither label carries.",
+  "crumb": ["Sea moss", "product.html"],
+  "crumbTail": "Bladderwrack",
+  "label": "Sea moss · Ingredient notes",
+  "h1": "Bladderwrack, <em>the brown one on both lists.</em>",
+  "standfirst": "Four algae go into the Northern Soul formula and the same four go into Seaking. Three of them get asked about at the counter. This one, Fucus vesiculosus, almost never does. So here is the plant: the shape, the bladders, the stretch of shore it grows on, and the things about it that neither label prints.",
+  "date": "2026-09-09",
+  "lead": {
+    "img": "bladderwrack",
+    "alt": "Fucus vesiculosus, bladderwrack, with its air bladders",
+    "cap": "<i>Fucus vesiculosus</i>, bladderwrack.",
+    "sub": "The paired swellings either side of the midrib are the air bladders. They are what the plant is named after."
+  },
+  "intro": [
+    { "p": "People ask me about the <i>Chondrus</i>, because that is the name on the front of the jar, and about the kelp, because everybody has seen kelp on a nature programme. Nobody has ever asked me about the bladderwrack. It is the second name on the Northern Soul list and the third on Seaking's, and in the time I have been behind the counter on Smithdown Road I do not think it has come up once." },
+    { "p": "Which is a shame, because it is the easiest of the four to go and look at. If you can get to a rocky beach on this coast at low tide, you will be standing on it. This is what I would tell you if you picked a handful up and brought it in." }
+  ],
+  "sections": [
+    {
+      "id": "plant",
+      "title": "What the plant is",
+      "blocks": [
+        { "p": "<i>Fucus vesiculosus</i> is a brown seaweed. The <a href=\"product.html#spec\">specification sheet</a> groups the browns as Ochrophyta, and they are a separate branch of life from the red algae that sea moss belongs to. Not the same plant in a different colour. A different lineage that arrived at the same job." },
+        { "p": "<b>The frond is flat and strap shaped, about two centimetres across, olive to dark brown, and it forks in two over and over as it grows</b>, so a whole plant looks like a flattened, branching hand. A raised midrib runs the length of each strap. At the bottom is a small disc that glues the plant to the rock, called a holdfast. It is not a root. It takes nothing out of the stone, it only holds on." },
+        { "p": "On a sheltered shore a frond can reach the better part of a metre. On an exposed one it will be a fraction of that, and I will come back to why in section three." },
+        { "fig": { "img": "gen-seaking-shore", "alt": "Bladderwrack with air bladders on wet rock at dawn", "cap": "Bladderwrack on wet rock, overcast dawn.", "sub": "A generated scene, not a photograph of our stock. The bladders are the paired swellings along the midrib.", "kind": "tall" } }
+      ]
+    },
+    {
+      "id": "shore",
+      "title": "Where it grows, and where the Chondrus grows",
+      "blocks": [
+        { "p": "A rocky shore sorts itself out by height. Every plant on a beach has a band it can hold, set by how long it can stand being out of the water and by how hard the sea hits it, and once you know the order you can read a beach from the car park." },
+        { "p": "From the top of the shore downwards, on an Atlantic or North Sea coast, the usual order runs like this." },
+        { "ul": [
+          "<b>Channelled wrack.</b> Highest, up in the splash, dry and crisp for most of the tide.",
+          "<b>Spiral wrack.</b> Just below it. Twisted fronds, no bladders.",
+          "<b>Bladderwrack.</b> The middle of the shore. This is the one on our two lists.",
+          "<b>Serrated wrack.</b> Lower again, with a saw-toothed edge, and no bladders either.",
+          "<b>Kelp.</b> At the low water mark and below it, uncovered only on a big spring tide. Laminariales, another name on our lists."
+        ] },
+        { "p": "<i>Chondrus crispus</i>, the sea moss itself, sits down at the bottom with the kelp and just under it. So the ingredient card on <a href=\"product-seaking.html\">Seaking</a> is exact when it says the bladderwrack grows on the same shores, a little higher up the beach. Picking <i>Chondrus</i> means waiting for the tide to drop off it. You can pick bladderwrack for most of the day." },
+        { "fig": { "img": "stock-atlantic-lowtide", "alt": "A rocky Atlantic shore at low tide, cliffs behind", "cap": "A rocky Atlantic shore at low tide.", "sub": "Not our harvest site. It is the kind of coast the order above is written for.", "kind": "wide" } },
+        { "p": "Out of the water the two plants look nothing like each other, which is the other reason it is worth knowing which is which." },
+        { "duo": [
+          { "img": "eucheuma-wet", "alt": "Thick golden wrack washed up on a beach", "cap": "Wrack on the strandline, thick and golden.", "sub": "Loose wrack, round in section and glossy. Several species wash up together, so a photograph like this proves nothing about any one of them." },
+          { "img": "chondrus-dried", "alt": "Dried red seaweed, flat and forking", "cap": "Dried <i>Chondrus crispus</i>.", "sub": "Flat, forking, dark rather than golden, and thin enough to see light through." }
+        ] }
+      ]
+    },
+    {
+      "id": "bladders",
+      "title": "The bladders, and what they are for",
+      "blocks": [
+        { "p": "The name is the whole description. <i>Vesiculosus</i> means covered in small bladders, and that is what they are: pairs of gas-filled swellings set either side of the midrib, usually two together, sometimes in a row down the frond. Press one and it gives, then pops." },
+        { "p": "They are floats. When the tide is in and the frond is under water, the bladders lift it off the rock and hold it up towards the light, which is where a plant living on photosynthesis wants to be. When the tide goes out the whole thing lies down flat on the stone in a heap and waits." },
+        { "p": "On a shore that takes a beating the plant grows fewer bladders, or none at all. The reason is mechanical rather than mysterious. A float on a strap in heavy surf is a handle for the sea to pull on, and the plants that keep their bladders on a wave-hammered headland are the plants that get torn off it. Botanists have given that bladderless form its own name." },
+        { "pull": "A wrack with no bladders is still a wrack. It is one that grew where the sea hits harder." },
+        { "p": "If you want to watch them work, drop a frond into a bucket of seawater. It stands up." }
+      ]
+    },
+    {
+      "id": "lists",
+      "title": "Why it is on both of our lists",
+      "blocks": [
+        { "p": "The Northern Soul formula is four algae from three families, grouped by pigment: red, brown and green. Bladderwrack is one of the two browns. The <a href=\"product.html\">gel</a> is those four prepared with water and nothing else, no preservative, no thickener, no sweetener. <a href=\"product-seaking.html\">Seaking</a> is the same four, dried and milled into 50 vegan capsules at 800 mg, with one addition." },
+        { "table": {
+          "caption": "The declared names, and what each one is",
+          "head": ["Name on the list", "Group", "What it is"],
+          "rows": [
+            ["<i>Chondrus crispus</i>", "Red · Rhodophyta", "Irish sea moss, the base of both products. Wildcrafted off cold Atlantic rocks, not pool grown."],
+            ["<i>Fucus vesiculosus</i>", "Brown · Ochrophyta", "Bladderwrack. Mid-shore, above the <i>Chondrus</i>, with the air bladders."],
+            ["Laminariales", "Brown · Ochrophyta", "Kelp. An order rather than a species, so the name covers several plants and not one."],
+            ["<i>Chlorella</i>", "Green · Chlorophyta", "A single-celled green alga. Cultivated rather than wild, and the only one of the four from fresh water."],
+            ["<i>Syzygium aromaticum</i>", "Spice · Myrtaceae", "Clove. On the Seaking list and not on the gel's, which is the whole difference between the two."]
+          ]
+        } },
+        { "p": "The grouping by colour is not decoration. Red, brown and green is how the algae are classified, and the sheet uses those words because they are the plainest way of saying that these are four different plants and not four names for one." },
+        { "p": "What I am not going to write is the sentence explaining why a brown one sits in there next to a red one. The listing this site replaced carried several of those. A formulator's reason turns into a claim somewhere between the bench and the web page, so the sheet prints the list and the grouping and then stops." },
+        { "fig": { "img": "kelp-forest", "alt": "Sunlight through a kelp forest", "cap": "Sunlight through a kelp forest.", "sub": "Laminariales, the other brown on the list. Kelp sits below the bladderwrack, at and under the low water mark.", "kind": "wide" } }
+      ]
+    },
+    {
+      "id": "iodine",
+      "title": "Iodine, and the figure the jar does not carry",
+      "blocks": [
+        { "p": "Seaweed takes iodine out of the water it grows in and holds on to it. The brown algae are the group best known for doing that, and the kelps most of all. Bladderwrack is a brown alga, and it is one of the reasons the gel prints no per-spoon iodine figure." },
+        { "p": "The <a href=\"product.html#spec\">specification sheet</a> puts it in one row: sea moss and kelp both contain iodine, the amount in a spoonful varies from harvest to harvest, so no figure is printed. That is not modesty. A number on a label has to be true of the jar in your hand, and the only way to make it true is to test batches. A gel made in small runs above a shop does not carry that cost at £34.99 for 300 ml." },
+        { "p": "<a href=\"product-seaking.html\">Seaking</a> does carry a figure, because dried and milled material sits still enough to measure. <b>75 µg of iodine in a capsule, 150 µg in the two you take.</b> The reference intake for an adult is 150 µg a day. The listing also gives 220 µg and 290 µg for pregnancy and for breastfeeding. Those are intakes rather than instructions, and the people to talk to about them are a GP or a midwife." },
+        { "aside": "<b>Why drying changes what can be printed</b>A wet gel is plant plus water and the ratio moves. Dry the same seaweed, mill it and weigh it into a capsule, and the material is stable enough to send to a laboratory and get a number back that still applies a month later. The seaweed has not changed. What can honestly be printed about it has. The longer version is in <a href=\"journal/seaking-iodine.html\">the piece on the iodine figure</a>." },
+        { "p": "One more thing while we are on it. I have no figure for how much of the iodine in either product came out of the bladderwrack rather than out of the kelp or the <i>Chondrus</i>. Nobody has asked me to split it that way, and I could not do it if they did." },
+        { "fig": { "img": "seaweed-drying", "alt": "A seaweed drying hut on a clifftop above the sea", "cap": "A seaweed drying hut, still standing on the coast.", "sub": "Drying is the step that makes a printed figure possible.", "kind": "tall" } }
+      ]
+    },
+    {
+      "id": "gaps",
+      "title": "What is not printed about it",
+      "blocks": [
+        { "p": "This is the part I would rather you read than the botany. Here is what the two labels do not say about the bladderwrack in them." },
+        { "ul": [
+          "<b>Where it was picked.</b> The sheet says the <i>Chondrus</i> base is wildcrafted off cold Atlantic rocks and not pool grown. It says nothing about the shore the wrack came from. No country, no coast, no supplier.",
+          "<b>Wild or cultivated.</b> Wildcrafted is printed for the base. It is not printed for this one, so do not read it across.",
+          "<b>How much.</b> No percentage and no milligram figure per alga on either product. Four names on the gel, five on the tub, and no split between them.",
+          "<b>Which part.</b> Whole frond, blade only, with or without the bladders and the holdfast. Not printed.",
+          "<b>When.</b> Season and harvest date are not on either label, and wrack picked in March is not the same material as wrack picked in September.",
+          "<b>Any laboratory number.</b> No iodine figure for the gel, and no published certificate of analysis, for heavy metals or for anything else, on either product."
+        ] },
+        { "p": "I am not going to dress that list up. Some of it I could close with paperwork from a supplier. Some of it would take batch testing I do not pay for today. Until one or the other happens, a list of what is missing is more honest than a paragraph written so that nothing looks missing." }
+      ]
+    },
+    {
+      "id": "not-for",
+      "title": "Who should leave both of them alone",
+      "blocks": [
+        { "p": "Both products carry iodine, from this alga and from the other two seaweeds beside it. What follows is what is printed on the pack and what I ask people at the counter. It is standard public guidance rather than anything I have worked out about you." },
+        { "ul": [
+          "<b>Overactive thyroid.</b> The jar and the tub both say it. Not for anyone with hyperthyroidism, because of the iodine.",
+          "<b>Thyroid medication of any kind.</b> Ask your GP or pharmacist first. If they are content for you to take something, take the counted one, because 150 µg in a serving is a number they can work with.",
+          "<b>Pregnant or breastfeeding.</b> Ask your midwife or GP. The reference intakes are different, 220 µg and 290 µg, and that is a conversation for a clinic and not a counter.",
+          "<b>Anything else you take with iodine in it.</b> Kelp tablets, some multivitamins, seaweed snacks. The figures add together whether or not you meant them to.",
+          "<b>Children.</b> Not for them. Keep both out of reach."
+        ] },
+        { "p": "Do not exceed the stated dose. One tablespoon of the gel in the morning, or two capsules, and a missed day stays missed rather than getting doubled up tomorrow." },
+        { "fig": { "img": "red-algae-pool", "alt": "Red algae in a cold rock pool", "cap": "Red algae in a cold rock pool.", "sub": "The base of both products grows lower down the same shore, under the wrack.", "kind": "wide" } }
+      ]
+    }
+  ],
+  "buyrow": {
+    "h2": "The two it is in, and the two it is not",
+    "intro": "Bladderwrack is on the Northern Soul list and on Seaking's. It is in neither of the single-species gels, which is worth knowing if iodine is the reason you are reading this.",
+    "cards": [
+      {
+        "handle": "northern-soul",
+        "name": "Northern Soul",
+        "alt": "Northern Soul sea moss gel, glass jar",
+        "lead": "<b>The gel with the formula in it.</b> Four algae from three families, bladderwrack among them, prepared with water. 300 ml or 500 ml, in the fridge, 28 days once opened."
+      },
+      {
+        "handle": "seaking",
+        "alt": "Seaweed fronds around a dark starfield, the illustration used for Seaking",
+        "lead": "<b>The same four, dried and counted.</b> 50 vegan capsules at 800 mg, 75 µg of iodine in each and 150 µg in a serving. Clove is on this list and not the gel's.",
+        "btn": "See the specification"
+      },
+      {
+        "handle": "chondrus-crispus",
+        "name": "Chondrus Crispus",
+        "alt": "Chondrus crispus sea moss gel",
+        "lead": "<b>No wrack in it.</b> One alga, water and a drop of Omega DHA oil. The single-species gel, and the one people use on skin and hair."
+      },
+      {
+        "handle": "purple-mwani",
+        "name": "Purple Mwani",
+        "alt": "Purple Mwani sea moss gel",
+        "lead": "<b>The warm-water species, on its own.</b> <i>Eucheuma cottonii</i> from Tanzania, named as itself. No wrack, no kelp, no formula around it."
+      }
+    ]
+  },
+  "outro": [
+    { "p": "If you would rather see the plant than read about it, pick a low tide and a rocky beach. Everything in section two is on it, in that order, and it costs nothing.", "style": "margin-top:1.6em" },
+    { "p": "If you are buying a jar somewhere other than here, I have written down <a href=\"journal/sea-moss-liverpool.html\">what to check on any label</a>, ours included." }
+  ],
+  "author": "Founder and formulator at Herbase. Trading online since 2019 and behind the counter at 599 Smithdown Road, Liverpool, since August 2024. Author of three books on herbal practice. <a href=\"index.html#shop\">Book an hour with him</a> if you want to go into more detail.",
+  "jnext": {
+    "href": "product.html",
+    "label": "Ready when you are",
+    "h2": "Four algae. <em>One of them is this one.</em>",
+    "p": "Northern Soul is the gel described here. Chondrus crispus, bladderwrack, kelp and chlorella, prepared with water, in a glass jar from Liverpool.",
+    "btn": "Shop Northern Soul · from £34.99"
+  },
+  "sticky": {
+    "handle": "northern-soul",
+    "note": " · the gel in this article",
+    "btn": "Shop it"
+  },
+  "credits": [
+    "Erick Morales Oyola, David Clode, Kier in Sight Archives, Joan, Maximilian Brand, The New York Public Library, paws and prints, Chloe Forbes-Kindlen, Ekaterina Zlotnikova and Amanda Phung on Unsplash",
+    "Seaweed drying: Paul Farmer, CC BY-SA 2.0, via Wikimedia Commons",
+    "Rocky Atlantic shore at low tide, Pembrokeshire: Dave Spicer, CC BY-SA 2.0, via Wikimedia Commons"
+  ]
+}

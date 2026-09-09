@@ -1,0 +1,304 @@
+{
+  "slug": "bugle",
+  "kind": "supplement",
+  "name": "Bugle",
+  "title": "Bugle · Lycopus virginicus in vegan capsules · Herbase",
+  "description": "Bugle, Lycopus virginicus, in vegan capsules, £24.99. One or two a day with a meal and 500 ml of water. Count and milligrams are not printed on the listing.",
+  "crumb": [
+    "Botanicals",
+    "index.html#shop"
+  ],
+  "price": "£24.99",
+  "unit": "One size · vegan capsules · count and milligrams not printed yet",
+  "label": "Botanicals · one ingredient",
+  "rating": "4.8 · 19 Google reviews of the shop, none of them about this jar",
+  "gallery": [
+    {
+      "img": "assets/hero-root.jpg",
+      "alt": "Bark and root pieces at the edge of a painted nebula",
+      "cap": "The art we use for the bark and root shelf. There is no pack photograph on this site yet, and no photograph of the plant either, for the reason set out below."
+    },
+    {
+      "img": "capsule-scoop",
+      "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene",
+      "cap": "Plain capsules and a wooden scoop. A generated scene, not a photograph of our jar or what is in it."
+    },
+    {
+      "img": "assets/store.jpg",
+      "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
+      "cap": "The shelf this jar sits on. The counter is the fastest way to get an answer the label does not give."
+    },
+    {
+      "held": true
+    }
+  ],
+  "points": [
+    "<b><i>Lycopus virginicus</i></b>, one plant, in a vegan capsule. Not <i>Ajuga reptans</i>, the other plant called bugle",
+    "<b>One or two capsules a day</b>, with a meal and at least 500 ml of water",
+    "<b>£24.99, one size.</b> Neither the count nor the milligrams are printed, so there is no day rate here"
+  ],
+  "perks": [
+    "Sent from Smithdown Road, Tuesday to Sunday",
+    "Free UK delivery over £50, or collect from the shop",
+    "Every ingredient named on the specification sheet below, and every figure we do not have"
+  ],
+  "cta": "Add to bag",
+  "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.",
+  "acc": [
+    {
+      "summary": "What is in it",
+      "body": [
+        "<i>Lycopus virginicus</i>, milled, in a vegan capsule, with no filler and no bulking agent named.",
+        "It is not <i>Ajuga reptans</i>, the plant sold as bugle in British garden centres, and it is not <i>Lycopus europaeus</i>. Three plants share the English name and only one is in this capsule."
+      ]
+    },
+    {
+      "summary": "How to take it",
+      "body": [
+        "<b>One capsule, or two, with a meal</b>, and at least 500 ml of water.",
+        "The listing gives a range rather than a number. Pick the one you are going to take and stay on it."
+      ]
+    },
+    {
+      "summary": "What is not printed on the label",
+      "body": [
+        "The count, the milligrams, the part of the plant and the origin. With no count there is no day rate on this page.",
+        "There is no photograph of the plant here either. The picture we were offered was the garden <i>Ajuga</i>, which is a different plant, and a picture of the wrong plant is worse than none."
+      ]
+    },
+    {
+      "summary": "Storage",
+      "body": [
+        "Dry, out of direct sun, lid on. It does not need a fridge."
+      ]
+    },
+    {
+      "summary": "Who should not take it",
+      "body": [
+        "Not for children, and not in pregnancy or breastfeeding.",
+        "The listing carries its own caution and we print it as it stands: do not use it if you have an underactive thyroid, low blood pressure or diabetes. If you take any prescribed medication, or you have a scan or a blood test booked, ask your GP or pharmacist before you start."
+      ]
+    }
+  ],
+  "steps": {
+    "h2": "How to <em>take it</em>",
+    "items": [
+      {
+        "img": "gen-capsules-saucer",
+        "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene",
+        "h": "Step one",
+        "b": "One capsule, or two, with a meal",
+        "p": "The listing gives a range rather than a number. Pick one and stay on it, so you know what you have taken. The saucer here is a generated scene."
+      },
+      {
+        "img": "step-water",
+        "alt": "A glass and a jug of water in morning light",
+        "h": "Step two",
+        "b": "At least 500 ml of water",
+        "p": "with them. The listing says spring water. The quantity is the part that matters to a capsule going down."
+      },
+      {
+        "img": "gen-calendar-desk",
+        "alt": "A date circled in pencil on a paper calendar page beside a pencil, a generated scene",
+        "h": "Step three",
+        "b": "Read the caution first",
+        "p": "This jar carries a specific caution from the listing, printed in full on the sheet below. It is worth the two minutes before the first capsule rather than after."
+      },
+      {
+        "img": "assets/store.jpg",
+        "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
+        "h": "Step four",
+        "b": "Lid on, dry shelf, out of the sun",
+        "p": "Capsules do not go in the fridge. Ours sit on the shelf in this photograph, and the counter beside it is where to ask."
+      }
+    ],
+    "label": "The routine"
+  },
+  "ingredients": {
+    "h2": "One plant, <em>and three plants called bugle</em>",
+    "intro": "A one ingredient list is a short section, and this one needs a paragraph about the name before anything else. Here is the plant the listing names, the plants it is not, the row the label leaves empty, and the shell.",
+    "cards": [
+      {
+        "img": "assets/hero-root.jpg",
+        "alt": "Bark and root pieces at the edge of a painted nebula",
+        "fam": "Herb · Lamiaceae",
+        "latin": "Lycopus virginicus",
+        "common": "Virginia bugleweed",
+        "p": "A square stemmed perennial of wet ground in eastern North America, in the mint family, with small white flowers in whorls where the leaves meet the stem. This is the plant our listing names, and it is the name that governs this page."
+      },
+      {
+        "img": "assets/store.jpg",
+        "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
+        "fam": "Not this one · Lamiaceae",
+        "latin": "Ajuga reptans",
+        "common": "Bugle, in Britain",
+        "p": "Ask for bugle in a British garden and you get <i>Ajuga reptans</i>, a low creeping plant with blue flower spikes, in the same family and a different genus. <i>Lycopus europaeus</i>, gypsywort, gets called bugleweed too. Three plants, one English word, which is why the Latin is on the sheet."
+      },
+      {
+        "img": "gen-capsules-saucer",
+        "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene",
+        "fam": "The part used · Not printed",
+        "latin": "Aerial parts, usually",
+        "common": "The blank on this label",
+        "p": "The parts above ground, cut when the plant is in flower, are what is normally milled under this name. Our listing says 100 per cent of the plant and does not say which part, so this page does not state one."
+      },
+      {
+        "img": "capsule-scoop",
+        "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene",
+        "fam": "The shell · Vegan",
+        "latin": "No gelatin",
+        "common": "The capsule",
+        "p": "The powder goes into a vegan capsule, with no filler and no bulking agent named on the listing. The shell material itself is not specified. These capsules are a generated scene rather than a photograph of ours."
+      }
+    ],
+    "label": "What is on the inside"
+  },
+  "spec": {
+    "h2": "The specification sheet",
+    "rows": [
+      [
+        "Makeup",
+        "One ingredient. <i>Lycopus virginicus</i>, milled, in a vegan capsule."
+      ],
+      [
+        "Species",
+        "<i>Lycopus virginicus</i> L., family Lamiaceae, the mint family. Sold in English as bugleweed and as Virginia water horehound. It is not <i>Ajuga reptans</i>, the plant called bugle in Britain, and not <i>Lycopus europaeus</i>."
+      ],
+      [
+        "Part used",
+        "<b>Not printed.</b> The parts above ground are what is usually milled under this name. The listing does not say."
+      ],
+      [
+        "Fill",
+        "No fillers and no bulking agents, as the listing states."
+      ],
+      [
+        "Capsule",
+        "Vegan. The shell material is not named on the listing."
+      ],
+      [
+        "Count and strength",
+        "<b>Not printed.</b> Neither the number of capsules in the jar nor the milligrams in each is on the listing, so there is no day rate on this page."
+      ],
+      [
+        "Constituents",
+        "The listing prints a list of plant constituents with no quantity against any of them. A list with no figure is not a specification, so it is not on this sheet."
+      ],
+      [
+        "Origin",
+        "Not printed. No country of harvest and no supplier are named."
+      ],
+      [
+        "Price",
+        "£24.99. One size."
+      ],
+      [
+        "Serving",
+        "One or two capsules a day with a meal, and at least 500 ml of water. The listing says spring water."
+      ],
+      [
+        "Storage",
+        "Dry, out of direct sun, lid on. It does not need a fridge."
+      ],
+      [
+        "Excipients",
+        "None named beyond the capsule shell."
+      ],
+      [
+        "Suitable for",
+        "Vegans. Adults."
+      ],
+      [
+        "Not for",
+        "Children. Not in pregnancy or breastfeeding. The listing carries its own caution and we print it as it stands: do not use it if you have an underactive thyroid, low blood pressure or diabetes. If you take any prescribed medication, or you are booked for a scan or a blood test, ask your GP or pharmacist before you start."
+      ]
+    ],
+    "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "doctrine": {
+      "h3": "We publish the specification. We do not publish claims about what it does.",
+      "p": "The species is named in Latin and separated from the two other plants that share its English name. The serving and the price are printed. The count, the milligrams, the part used and the origin are printed as blanks, because that is what the listing gives us. What this plant does in a person is not something we are permitted to say, so it is not on this page."
+    },
+    "label": "Botanicals",
+    "intro": "Everything the listing lets us tell you about what is in the jar, starting with which of the three plants called bugle this one is.",
+    "caption": "Bugle"
+  },
+  "reiss": {
+    "label": "From Reiss",
+    "h2": "Three plants share this name, <em>and one of them is in the jar</em>",
+    "paras": [
+      "If you ask for bugle in Britain you will be handed <i>Ajuga reptans</i>, the creeping thing with blue spikes that people grow at the front of a border. If you ask a herbalist in North America you will get <i>Lycopus virginicus</i>. There is a third, <i>Lycopus europaeus</i>, sold as gypsywort and sometimes as bugleweed. They are three different plants and only one of them is in this capsule.",
+      "Our listing names <i>Lycopus virginicus</i>, so that is what the sheet says and that is what any photograph on this page would have to be. There is no photograph of the plant here yet, because the one we were offered was the garden <i>Ajuga</i>, and a picture of the wrong plant is a worse mistake than no picture at all.",
+      "The rest of this label is thin. No count, no milligrams, no part named, no country. What it does carry is a caution, and that caution is printed above in the words the listing uses. Read it before the first capsule, and if any of it applies to you, ring the shop rather than guessing."
+    ],
+    "pull": "A picture of the wrong plant is a worse mistake than no picture at all.",
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
+  },
+  "cmp": {
+    "h2": "What to check on <em>any</em> jar sold as bugle",
+    "rows": [
+      [
+        "Species named in Latin",
+        "Yes, <i>Lycopus virginicus</i>",
+        "Three plants are sold under this English name and they are not interchangeable"
+      ],
+      [
+        "Genus not confused with <i>Ajuga</i>",
+        "Named apart on the sheet",
+        "The garden plant and the herb share a common name and nothing else"
+      ],
+      [
+        "Part of the plant named",
+        "Not printed",
+        "Aerial parts and root are different material off one plant"
+      ],
+      [
+        "Milligrams a capsule printed",
+        "Not printed",
+        "Without it, two jars cannot be compared at all"
+      ],
+      [
+        "Count printed",
+        "Not printed",
+        "Without a count there is no day rate on any page, including this one"
+      ],
+      [
+        "Cautions printed on the label",
+        "Yes, and repeated here in full",
+        "A jar with a real caution should say so where you can read it before buying"
+      ],
+      [
+        "Somebody to ask, at a counter",
+        "Yes, in person on Smithdown Road",
+        "A form takes a week to answer what a shop answers in a minute"
+      ]
+    ],
+    "note": "Three of those rows are ours to fix, and they stay on the page until the label prints them.",
+    "intro": "Ours, next to what we usually see on jars that people bring into the shop. The rows we fail are in the same table.",
+    "head": [
+      "On the label",
+      "Bugle",
+      "Typical listing"
+    ]
+  },
+  "also": {
+    "h2": "Also on the <em>botanical shelf</em>",
+    "handles": [
+      "chasteberry",
+      "gotu-kola",
+      "ashwagandha",
+      "anamu"
+    ],
+    "intro": "Three more from the botanical shelf, and the plant with the garlic smell. Prices as listed."
+  },
+  "jnext": {
+    "article": "journal/lions-mane.html",
+    "label": "From the journal",
+    "h2": "How to read a label that <em>leaves a figure out</em>",
+    "p": "Written about a mushroom jar and it holds here too. Which part of the organism is named, what a missing count means, and why a name invented for a label is worse than a blank.",
+    "btn": "Read the article"
+  },
+  "credits": []
+}
