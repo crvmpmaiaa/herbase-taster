@@ -33,3 +33,6 @@ assets/detox-caps.png
 assets/lifestyle-1.jpg
 assets/detox-redox.png
 assets/p-*.png
+
+# usage-report script output, never part of the site
+usage-report-*.md
