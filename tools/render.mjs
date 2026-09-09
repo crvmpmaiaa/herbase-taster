@@ -53,6 +53,15 @@ export function href(h, depth) {
   return '../' + h;
 }
 
+/* Host is not decided yet (b3, 2026-09-09): this placeholder is what the sitemap,
+   robots.txt and every og:image use until a real domain is chosen. og:image must be
+   an absolute URL per the Open Graph protocol, so a page-depth-relative href() will
+   not do; this always takes a repo-root-relative path regardless of page depth. */
+export const SITE_URL = 'https://herbase.earth/';
+export function absUrl(rootRelative) {
+  return SITE_URL + String(rootRelative || '').replace(/^\/+/, '');
+}
+
 /* Inline HTML is allowed in string values only for <i> <b> <em> <a href="">. */
 const TAG = /<\/?(?:i|b|em)>|<a href="[^"<>]*">|<\/a>/g;
 const escText = s => String(s)
@@ -97,7 +106,7 @@ export function longDate(iso) {
 
 /* ── shared furniture ─────────────────────────────────────────────────── */
 
-const HEAD_TOP = t => [
+const HEAD_TOP = (t, depth) => [
   '<!DOCTYPE html>',
   '<html lang="en-GB">',
   '<head>',
@@ -106,6 +115,7 @@ const HEAD_TOP = t => [
   '<meta name="theme-color" content="#FFEDD2">',
   `<title>${esc(t.title)}</title>`,
   `<meta name="description" content="${attr(t.description)}">`,
+  `<link rel="icon" href="${attr(href('assets/logo-mark.jpg', depth))}">`,
 ];
 
 const STICKY_CSS = '.stickybuy{padding-bottom:max(10px,env(safe-area-inset-bottom))}';
@@ -312,7 +322,22 @@ export function renderProduct(d) {
   if ((d.ingredients?.cards || []).some(c => !c.img)) css.push(NONE_CSS);
   if (d.css) css.push(String(d.css).trim());
 
-  const head = HEAD_TOP(d).concat([
+  /* og: block, b3. ogTitle/ogDescription follow the same override-or-fallback
+     shape as the article renderer (d.ogtitle/d.ogdesc, else the printed fields).
+     ogImage picks the first gallery entry that is an actual photo (not a held
+     placeholder); the registry tile and the wordmark are fallbacks only, never
+     hit today since every product JSON carries at least one real gallery image. */
+  const ogTitle = d.ogtitle || d.name;
+  const ogDescription = d.ogdesc || d.description;
+  const ogImgName = (gallery.find(g => g && g.img) || {}).img
+    || registry()[d.slug]?.img || 'assets/wordmark.png';
+  const ogImgFull = img(ogImgName).full;
+
+  const head = HEAD_TOP(d, depth).concat([
+    `<meta property="og:title" content="${attr(ogTitle)}">`,
+    `<meta property="og:description" content="${attr(ogDescription)}">`,
+    `<meta property="og:image" content="${attr(absUrl(ogImgFull))}">`,
+    '<meta property="og:type" content="product">',
     '<noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>',
     '<link rel="stylesheet" href="assets/site.css">',
     '<style>',
@@ -462,6 +487,7 @@ export function renderProduct(d) {
     if (d.spec.intro) sp.push(`      <p class="rv d2">${esc(d.spec.intro, depth)}</p>`);
     sp.push('    </div>');
     sp.push('    <div class="rv d1">');
+    sp.push('      <div style="overflow-x:auto">');
     sp.push('      <table class="tbl">');
     sp.push(`        <caption>${esc(d.spec.caption || d.name)}</caption>`);
     sp.push('        <tbody>');
@@ -470,6 +496,7 @@ export function renderProduct(d) {
     }
     sp.push('        </tbody>');
     sp.push('      </table>');
+    sp.push('      </div>');
     if (d.spec.smallprint) sp.push(`      <p class="statutory">${esc(d.spec.smallprint, depth)}</p>`);
     sp.push('    </div>');
     if (d.spec.doctrine) {
@@ -504,6 +531,7 @@ export function renderProduct(d) {
     c.push(`      <h2 class="dsp rv">${esc(d.cmp.h2)}</h2>`);
     if (d.cmp.intro) c.push(`      <p class="rv d1">${esc(d.cmp.intro, depth)}</p>`);
     c.push('    </div>');
+    c.push('    <div style="overflow-x:auto">');
     c.push('    <table class="cmp__tbl rv d1">');
     c.push(`      <thead><tr>${head3.map(h => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead>`);
     c.push('      <tbody>');
@@ -512,6 +540,7 @@ export function renderProduct(d) {
     }
     c.push('      </tbody>');
     c.push('    </table>');
+    c.push('    </div>');
     if (d.cmp.note) c.push(`    <p class="cmp__foot rv">${esc(d.cmp.note, depth)}</p>`);
     c.push('  </div>', '</section>');
     S.push(c.join('\n'));
@@ -619,6 +648,7 @@ function renderBlocks(blocks, depth, use, out, pad) {
       out.push(`${pad}<div class="duo">${b.duo.map(f => figure(f, depth, '', DUO_SIZES, use)).join('')}</div>`);
     } else if (b.table) {
       const t = b.table;
+      out.push(`${pad}<div style="overflow-x:auto">`);
       out.push(`${pad}<table class="tbl">`);
       if (t.caption) out.push(`${pad}  <caption>${esc(t.caption)}</caption>`);
       if (t.head) out.push(`${pad}  <thead><tr>${t.head.map(h => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead>`);
@@ -628,6 +658,7 @@ function renderBlocks(blocks, depth, use, out, pad) {
       }
       out.push(`${pad}  </tbody>`);
       out.push(`${pad}</table>`);
+      out.push(`${pad}</div>`);
     }
     out.push('');
   }
@@ -660,10 +691,11 @@ export function renderArticle(d) {
   };
   if (lead) ld.image = href(lead.full, depth);
 
-  S.push(HEAD_TOP(d).concat([
+  S.push(HEAD_TOP(d, depth).concat([
     `<meta property="og:title" content="${attr(headline)}">`,
     `<meta property="og:description" content="${attr(d.ogdesc || d.description)}">`,
-    ...(lead ? [`<meta property="og:image" content="${attr(href(lead.full, depth))}">`] : []),
+    ...(lead ? [`<meta property="og:image" content="${attr(absUrl(lead.full))}">`] : []),
+    '<meta property="og:type" content="article">',
     '<meta property="article:author" content="Reiss Davies Ausar">',
     `<meta property="article:published_time" content="${attr(d.date)}">`,
     '<noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>',
@@ -797,11 +829,18 @@ export function renderShop() {
     }
   }
 
+  const SHOP_TITLE = 'The shelf · Every Herbase product · Herbase';
+  const SHOP_DESC = 'Every product Herbase sells, grouped by what it is: single ingredients, formulas, mushrooms, sea moss, kits and objects. Prices as listed.';
+
   const S = [];
   S.push(HEAD_TOP({
-    title: 'The shelf · Every Herbase product · Herbase',
-    description: 'Every product Herbase sells, grouped by what it is: single ingredients, formulas, mushrooms, sea moss, kits and objects. Prices as listed, specification sheets where they are written.',
-  }).concat([
+    title: SHOP_TITLE,
+    description: SHOP_DESC,
+  }, depth).concat([
+    `<meta property="og:title" content="${attr('The shelf, every Herbase product')}">`,
+    `<meta property="og:description" content="${attr(SHOP_DESC)}">`,
+    `<meta property="og:image" content="${attr(absUrl('assets/hero-cosmos.jpg'))}">`,
+    '<meta property="og:type" content="website">',
     '<noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>',
     '<link rel="stylesheet" href="assets/site.css">',
     '<style>',
@@ -810,6 +849,10 @@ export function renderShop() {
     '.shopnav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 10px;margin:0 auto clamp(30px,3.5vw,48px);max-width:60ch}',
     '.shopnav a{font-family:var(--display);font-size:12px;letter-spacing:.13em;text-transform:uppercase;text-decoration:none;color:var(--ink);border:1px solid var(--rule);padding:9px 13px;transition:background-color .25s var(--ease),color .25s var(--ease)}',
     '.shopnav a:hover,.shopnav a:focus-visible{background:var(--ink);color:var(--paper)}',
+    /* the page's one h1 (b3): .head h1 did not exist before because every other
+       .head on this page, and every .head elsewhere in the site, is a repeating
+       h2 sub-head; this matches the global .head h2 rule so the swap is silent */
+    '.head h1{font-size:clamp(21px,2.7vw,36px)}',
     '</style>',
     '</head>',
     '<body>',
@@ -819,7 +862,7 @@ export function renderShop() {
   const top = ['<section class="best">', '  <div class="wrap">', '    <div class="head">'];
   top.push('      <p class="label rv">The shelf</p>');
   const total = Object.keys(reg).length;
-  top.push('      <h2 class="dsp rv d1" style="margin-top:12px">Everything, <em>grouped as it sits</em></h2>');
+  top.push('      <h1 class="dsp rv d1" style="margin-top:12px">Everything, <em>grouped as it sits</em></h1>');
   top.push(`      <p class="rv d2">${total} products, every one with a specification sheet. Prices as listed.</p>`);
   top.push('    </div>');
   top.push('    <p class="shopnav rv d2">' + SHOP_GROUPS.map(g => `<a href="#${g[0]}">${esc(g[1])}</a>`).join('') + '</p>');

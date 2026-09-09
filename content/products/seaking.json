@@ -3,7 +3,7 @@
   "kind": "supplement",
   "name": "Seaking",
   "title": "Seaking · Sea moss formula in capsules, 75 µg iodine each · Herbase",
-  "description": "Seaking capsules. Chondrus crispus, bladderwrack, kelp, chlorella and clove. 50 vegan capsules at 800 mg, 75 µg of iodine in each, 25 day supply, £39.99. Sent from Smithdown Road, Liverpool.",
+  "description": "Seaking capsules. Chondrus crispus, bladderwrack, kelp, chlorella and clove. 50 vegan capsules at 800 mg, 75 µg of iodine each, £39.99.",
   "css": "/* five declared ingredients, not four: the grid takes a fifth column rather than\n   leaving an empty cell in the last row */\n@media(min-width:800px){.ingr__grid{grid-template-columns:repeat(5,1fr)}}\n@media(max-width:799px){.ingr__grid .ing:nth-child(5){grid-column:1/-1}.ingr__grid .ing:nth-child(5) img{aspect-ratio:2.2}}",
   "crumb": [
     "Sea moss",
