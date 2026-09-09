@@ -177,7 +177,7 @@
   "spec": {
     "label": "Sea moss · 02",
     "h2": "The specification sheet",
-    "intro": "Everything we can tell you about what is in the tub, including the one figure here that is measured rather than estimated.",
+    "intro": "Everything we can tell you about what is in the tub, including the one figure here that is a number rather than an adjective.",
     "caption": "Seaking",
     "rows": [
       [
@@ -240,7 +240,7 @@
     "smallprint": "Contains iodine from seaweed. Do not exceed two capsules a day. Speak to your GP or pharmacist before starting any supplement, particularly if you have a thyroid condition or take medication for one. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
     "doctrine": {
       "h3": "We publish the specification. We do not publish claims about what it does.",
-      "p": "Seaking is the one product on this shelf with a measured mineral figure, so it is the one where we can print a number instead of an adjective. A number is not a claim. It is 75 µg per capsule, and what that does once you have swallowed it is not something we are permitted to tell you."
+      "p": "Seaking is the one product on this shelf with a printed mineral figure, so it is the one where we can print a number instead of an adjective. A number is not a claim. It is 75 µg per capsule, and what that does once you have swallowed it is not something we are permitted to tell you."
     }
   },
   "reiss": {
@@ -276,7 +276,7 @@
         "Per serving, if at all"
       ],
       [
-        "A measured iodine figure",
+        "A printed iodine figure",
         "75 µg",
         "Rarely printed"
       ],

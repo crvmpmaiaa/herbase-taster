@@ -6,6 +6,7 @@
 <meta name="theme-color" content="#FFEDD2">
 <title>How much iodine is in a capsule, and in a spoon · Herbase Journal</title>
 <meta name="description" content="Reiss Davies Ausar on the iodine figure printed on Seaking, 75 µg per capsule and 150 µg per serving, and why the Northern Soul gel carries no figure at all.">
+<link rel="icon" href="../assets/logo-mark.jpg">
 <meta property="og:title" content="How much iodine is in a capsule, and in a spoon">
 <meta property="og:description" content="75 µg per capsule, 150 µg in a serving, and nothing printed on the gel. What the figures are measured against, and why one product has them.">
 <meta property="og:image" content="https://herbase.earth/assets/journal/gen-seaking-capsules.jpg">
@@ -18,7 +19,7 @@
 .stickybuy{padding-bottom:max(10px,env(safe-area-inset-bottom))}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"How much iodine is in a capsule, and in a spoon","author":{"@type":"Person","name":"Reiss Davies Ausar"},"publisher":{"@type":"Organization","name":"Herbase","address":"599 Smithdown Road, Liverpool L15 5AP"},"datePublished":"2026-09-04","inLanguage":"en-GB"}
+{"@context":"https://schema.org","@type":"Article","headline":"How much iodine is in a capsule, and in a spoon","description":"Reiss Davies Ausar on the iodine figure printed on Seaking, 75 µg per capsule and 150 µg per serving, and why the Northern Soul gel carries no figure at all.","author":{"@type":"Person","name":"Reiss Davies Ausar"},"publisher":{"@type":"Organization","name":"Herbase","address":"599 Smithdown Road, Liverpool L15 5AP"},"datePublished":"2026-09-04","inLanguage":"en-GB","image":"../assets/journal/gen-seaking-capsules.jpg"}
 </script>
 </head>
 <body>
@@ -58,7 +59,7 @@
     <div class="prose">
       <p>Somebody asked me across the counter last week how much iodine was in a spoonful of the gel. I told him I did not know, which is not the answer anyone wants from the person who made it. Then I handed him a tub of <a href="../product-seaking.html">Seaking</a> and showed him the back of it, because that one I can answer to the microgram.</p>
 
-      <p>This piece is about the difference between those two answers. It is the only measured mineral figure on anything I sell, so it is worth setting out properly: what the number is, what it is being compared against, why the jar next to it has no number at all, and what I am still not allowed to tell you once the number is printed.</p>
+      <p>This piece is about the difference between those two answers. It is the only per capsule figure printed on anything I sell, so it is worth setting out properly: what the number is, what it is being compared against, why the jar next to it has no number at all, and what I am still not allowed to tell you once the number is printed.</p>
 
       <h2 id="figure"><span>01</span>The figure on the tub</h2>
 
@@ -242,7 +243,7 @@ let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
-    const pastIntro=scrollY>900, atBuy=buy.getBoundingClientRect().top<innerHeight;
+    const pastIntro=scrollY>900, atBuy=!buy||buy.getBoundingClientRect().top<innerHeight;
     pastIntro&&!atBuy?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
     ticking=false;
   });
