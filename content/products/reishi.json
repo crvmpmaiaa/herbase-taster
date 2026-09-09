@@ -1,14 +1,14 @@
 {
   "slug": "reishi",
   "kind": "supplement",
-  "name": "Reishi Capsules",
+  "name": "Reishi",
   "title": "Reishi Capsules · Ganoderma lucidum, 50 × 800 mg · Herbase",
   "description": "Ganoderma lucidum on its own, 50 vegan capsules at 800 mg, two a day. The specification sheet, including the one line the label does not print.",
   "crumb": ["Mushrooms", "index.html#best"],
   "price": "£24.99",
   "unit": "50 capsules at 800 mg · 25 days · £1 a day",
   "gallery": [
-    { "img": "assets/hero-fungi.jpg", "alt": "Mushrooms at the edge of a painted nebula", "cap": "The mushroom scene we use for this jar. There is no pack photograph on this site yet." },
+    { "img": "assets/hero-fungi.jpg", "alt": "Mushrooms at the edge of a painted nebula", "cap": "The mushroom scene we use for this jar, standing in until there is a pack photograph." },
     { "img": "reishi-wild", "alt": "Ganoderma lucidum growing on dead hardwood", "cap": "The bracket on wood, where it grows." },
     { "img": "reishi-dried", "alt": "Dried reishi slices", "cap": "Dried slices. What goes in the capsule is a powder, not slices." },
     { "img": "capsule-scoop", "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene", "cap": "Plain capsules on slate. A generated scene, not a photograph of ours." }
@@ -57,7 +57,7 @@
       { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "h": "Step one", "b": "Two capsules, with breakfast or lunch.", "p": "That is the serving on the label and it is the whole of it. The saucer here is a generated scene, not our jar." },
       { "img": "gen-morning-water", "alt": "A tall glass of water on a wooden table in low morning light, a generated scene", "h": "Step two", "b": "At least 500 ml of water with them.", "p": "The label asks for spring water. What matters most is that there is enough of it." },
       { "img": "gen-calendar-desk", "alt": "A date circled in pencil on a paper calendar page beside a pencil. A generated scene", "h": "Step three", "b": "Do not double up.", "p": "A missed morning is a missed morning. Take two the next day rather than four." },
-      { "img": "assets/store.jpg", "alt": "The shop floor at 599 Smithdown Road, shelves along the wall", "h": "Step four", "b": "Lid on, dry shelf, out of the sun.", "p": "A capsule needs no fridge and no cold chain. Ours sit on the shelf in the photograph until somebody buys them." }
+      { "img": "assets/store.jpg", "alt": "The shop floor at 599 Smithdown Road, shelves along the wall", "h": "Step four", "b": "Lid on, dry shelf, out of the sun.", "p": "A capsule needs no fridge and no cold chain. This is the shelf they wait on." }
     ]
   },
   "ingredients": {
@@ -90,7 +90,7 @@
       ["Suitable for", "Vegans. Adults."],
       ["Not for", "Anyone who reacts to mushrooms. If you take medication that thins the blood, ask your GP or pharmacist first, because reishi is one of the botanicals routinely flagged for that. Not for children. If you are pregnant or nursing, or you take prescribed medication, ask before you start."]
     ],
-    "smallprint": "Contains mushroom, which is an allergen for some people. Do not exceed two capsules a day. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, nursing or taking prescribed medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "smallprint": "Contains mushroom, which is an allergen for some people. Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
     "doctrine": {
       "h3": "We publish the specification. We do not publish claims about what it does.",
       "p": "The species is named in Latin, the count and the milligrams are printed, the serving is printed, and the one line we cannot fill in, which part of the fungus is in the jar, sits on the sheet as a blank rather than a guess. What reishi does in a person is not something we are permitted to say, so it is not on this page."
@@ -116,7 +116,7 @@
       ["One ingredient, not a blend", "Yes", "Often four mushrooms"],
       ["Count and milligrams printed", "Yes, 50 at 800 mg", "Usually printed"],
       ["A ratio, if the label says extract", "Not sold as an extract, so none", "Ratios given with no method"],
-      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+      ["Somebody to ask, at a counter", "Yes, on Smithdown Road", "Ask which part of the fungus is in this jar; the label will not tell you"]
     ],
     "note": "The middle column is this jar as it stands today, including the row it fails. The right-hand column is what we most often see on jars customers bring into the shop. It is not a claim about any particular brand, and plenty of jars out there tick every box. The second row is ours to fix, and it stays on the page until the label answers it."
   },
@@ -130,5 +130,5 @@
     "h2": "Whole fruiting body, no rice flour",
     "p": "The article is about lion's mane, and the phrase it turns on is the one this jar does not print: which part of the fungus you have bought."
   },
-  "credits": []
+  "credits": ["Wild reishi on wood (Ganoderma lucidum): William Bungay, CC0, via Wikimedia Commons", "Reishi (Ganoderma lucidum) dried slices: Fumikas Sagisavas, CC0, via Wikimedia Commons"]
 }

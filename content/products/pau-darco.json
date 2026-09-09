@@ -87,7 +87,7 @@
       ["Course length stated", "Not printed", "Rarely stated"],
       ["Vegan shell stated", "Yes", "Often gelatin"],
       ["Anticoagulant warning given up front", "Yes, on the sheet above", "Buried or absent"],
-      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+      ["Somebody to ask, at a counter", "Yes, on Smithdown Road", "Ask here about course length, since the label does not print one"]
     ],
     "note": "Three of those rows are ours to fix and they stay here until the label prints the figures. The right-hand column is the pattern we see most often on jars brought into the shop, not a verdict on any brand, and there are plenty of jars out there that tick every box."
   },
@@ -99,7 +99,8 @@
     "article": "journal/decolonise-stop-date.html",
     "label": "From the journal",
     "h2": "Wormwood, and why Decolonise has a stop date",
-    "p": "The nine ingredients of the bitter formula this bark opens, and the four month gap printed on its pack."
+    "p": "The nine ingredients of the bitter formula this bark opens, and the four month gap printed on its pack.",
+    "btn": "Read the article"
   },
-  "credits": ["Pau d'arco tree: Giles Laurent, CC BY-SA 4.0, via Wikimedia Commons"]
+  "credits": ["Pau d'arco tree: Giles Laurent, CC BY-SA 4.0, via Wikimedia Commons", "Pau d'arco inner bark, dried (Tabebuia impetiginosa): André Helbig, CC BY-SA 3.0, via Wikimedia Commons"]
 }

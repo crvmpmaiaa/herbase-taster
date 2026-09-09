@@ -16,7 +16,7 @@
     {
       "img": "assets/hero-root.jpg",
       "alt": "Bark and root pieces at the edge of a painted nebula",
-      "cap": "The art we use for the bark and root shelf. There is no pack photograph on this site yet."
+      "cap": "The art we use for the bark and root shelf, in place of a pack photograph nobody has taken yet."
     },
     {
       "img": "astragalus-root",
@@ -114,7 +114,7 @@
         "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
         "h": "Step four",
         "b": "Lid on, dry shelf, out of the sun",
-        "p": "Capsules do not go in the fridge. Ours sit on the shelf in this photograph, and you can ask at the counter beside it."
+        "p": "Capsules do not go in the fridge. This is the shelf, and the counter beside it is where the milligram questions get answered."
       }
     ],
     "label": "The routine"
@@ -300,14 +300,14 @@
       "pau-darco",
       "reishi"
     ],
-    "intro": "Three more roots and a mushroom. Prices as listed."
+    "intro": "Two more roots, a bark and a mushroom. Prices as listed."
   },
   "jnext": {
     "article": "journal/seaking-iodine.html",
     "label": "From the journal",
     "h2": "What one <em>printed figure</em> is worth",
-    "p": "Reiss on the 75 µg of iodine in a Seaking capsule, the only measured quantity on this site, and what a label is telling you when it prints a number instead of a word.",
+    "p": "Reiss on the 75 µg of iodine in a Seaking capsule, the one nutrient figure anyone here has actually measured, and what a label is telling you when it prints a number instead of a word.",
     "btn": "Read the article"
   },
-  "credits": []
+  "credits": ["Astragalus root, dried slices (Astragalus mongholicus / A. membranaceus): Fumikas Sagisavas, CC0, via Wikimedia Commons", "Astragalus in flower (Astragalus mongolicus / A. membranaceus): Averater, CC BY-SA 3.0, via Wikimedia Commons"]
 }

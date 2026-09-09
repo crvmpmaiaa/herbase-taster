@@ -1,16 +1,16 @@
 {
   "slug": "chaga",
   "kind": "supplement",
-  "name": "Chaga Capsules",
+  "name": "Chaga",
   "title": "Chaga Capsules · Inonotus obliquus, 750 mg a capsule · Herbase",
   "description": "Inonotus obliquus, the birch fungus, at 750 mg a capsule, two a day. The specification sheet, including the count and the ratio the label does not print.",
   "crumb": ["Mushrooms", "index.html#best"],
   "price": "£24.99",
   "unit": "One size · 750 mg a capsule · count not printed, so no day rate",
   "gallery": [
-    { "img": "assets/hero-fungi.jpg", "alt": "Mushrooms at the edge of a painted nebula", "cap": "The mushroom scene we use for this jar. There is no pack photograph on this site yet." },
+    { "img": "assets/hero-fungi.jpg", "alt": "Mushrooms at the edge of a painted nebula", "cap": "The mushroom scene we use for this jar. This jar has not been photographed yet." },
     { "img": "chaga-birch", "alt": "A black chaga conk on a birch trunk", "cap": "The black mass on a living birch. That is what the word chaga points at." },
-    { "img": "chaga-chunks", "alt": "Broken chunks of dried chaga", "cap": "The conk broken up. What goes in the capsule is a powder." },
+    { "img": "chaga-birch", "alt": "A black chaga conk on a birch trunk", "cap": "The same photograph as the frame above. We have no separate picture of the broken chunks or the milled powder that actually goes into the capsule." },
     { "img": "capsule-scoop", "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene", "cap": "Plain capsules on slate. A generated scene, not a photograph of ours." }
   ],
   "label": "Mushrooms · the birch fungus",
@@ -65,7 +65,7 @@
     "intro": "The listing names one ingredient, calls it an extract and gives a milligram figure. Here is the organism, what that word extract is doing, and the shell it goes into.",
     "cards": [
       { "img": "chaga-birch", "alt": "A black chaga conk on a birch trunk", "fam": "Fungus · Hymenochaetaceae", "latin": "Inonotus obliquus", "common": "Chaga", "p": "A fungus of living birch. What you see on the trunk is a hard black mass, cracked like charcoal outside and rust orange inside. Botanists call that mass a sclerotium rather than a fruiting body: the fungus makes its fruiting layer later, under the bark, usually once the tree has died." },
-      { "img": "chaga-chunks", "alt": "Broken chunks of dried chaga", "fam": "Prepared · Called an extract", "latin": "750 mg a capsule", "common": "No ratio printed", "p": "An extract is made by pulling something out of the fungus with hot water or alcohol and drying what comes off, and the ratio says how much fungus went in for each gram that came out. Our listing says extract and prints no ratio, so 750 mg is the weight of the powder and not a measure of what stands behind it. The label does not name the part used either." },
+      { "img": "chaga-birch", "alt": "A black chaga conk on a birch trunk", "fam": "Prepared · Called an extract", "latin": "750 mg a capsule", "common": "No ratio printed", "p": "An extract is made by pulling something out of the fungus with hot water or alcohol and drying what comes off, and the ratio says how much fungus went in for each gram that came out. Our listing says extract and prints no ratio, so 750 mg is the weight of the powder and not a measure of what stands behind it. The label does not name the part used either. We have no photograph of the milled powder itself, so this card repeats the picture of the conk above." },
       { "img": "capsule-scoop", "alt": "Plain capsules and a wooden scoop on a slate board, a generated scene", "fam": "The shell · Vegan", "latin": "The capsule", "common": "No gelatin", "p": "The powder goes into a vegan capsule. The listing says the formulation is free from fillers and additives, and it does not name the shell material, so neither does the sheet below. The capsules in the picture are a generated scene rather than a photograph of ours." }
     ]
   },
@@ -80,7 +80,7 @@
       ["Host tree", "Birch, as printed on the listing."],
       ["Part used", "Not printed. The black mass on the trunk is a sclerotium rather than a fruiting body, and the label does not say whether that is what is in the capsule."],
       ["Extract or powder", "The listing says extract and gives no ratio, so there is no way to say how much fungus stands behind 750 mg. A ratio invented for a label is worse than no ratio at all."],
-      ["Strength", "750 mg a capsule, as printed. It is the one jar on this shelf that is not 800 mg."],
+      ["Strength", "750 mg a capsule, as printed. Reishi and Mycrodose, on the same shelf, are 800 mg; Lion's Mane prints no milligram figure at all."],
       ["Count", "Not printed. The listing gives no number of capsules, so there is no supply figure and no cost a day on this page."],
       ["Fill", "The listing says free from fillers and additives."],
       ["Capsule", "Vegan, as printed. The shell material is not named. <a href=\"product-mycrodose.html\">Mycrodose</a> names its shell; this jar does not."],
@@ -92,7 +92,7 @@
       ["Suitable for", "Vegans. Adults."],
       ["Not for", "Anyone who reacts to mushrooms. Chaga is one of the botanicals routinely flagged for oxalate content, so if you have had kidney stones, or you have kidney disease, do not start it without asking your GP. The listing asks anyone using insulin or another medicine for blood sugar to watch their blood glucose closely; we would rather you spoke to your GP or pharmacist before you start. Not for children. If you are pregnant or nursing, ask before you start."]
     ],
-    "smallprint": "Contains mushroom, which is an allergen for some people. Do not exceed two capsules a day. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, nursing or taking prescribed medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
+    "smallprint": "Contains mushroom, which is an allergen for some people. Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
     "doctrine": {
       "h3": "We publish the specification. We do not publish claims about what it does.",
       "p": "The species is named in Latin, the host tree is named, the milligrams are printed and the serving is printed. The two figures we cannot give you, the number of capsules in a jar and the ratio behind the word extract, sit on the sheet as blanks rather than guesses. What chaga does in a person is not something we are permitted to say, so it is not on this page."
@@ -119,7 +119,7 @@
       ["The ratio, if it says extract", "Not printed", "Sometimes a ratio with no method"],
       ["Count of capsules printed", "Not printed", "Usually printed"],
       ["Milligrams a capsule printed", "Yes, 750 mg", "Usually printed"],
-      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+      ["Somebody to ask, at a counter", "Yes, on Smithdown Road", "Ask about the extraction ratio behind the word extract; nobody has printed it yet"]
     ],
     "note": "Three of those rows are ours to fix and they stay on the page until the label answers them. The right-hand column is what we most often see on jars customers bring into the shop, not a claim about any particular brand."
   },
@@ -133,5 +133,5 @@
     "h2": "Whole fruiting body, no rice flour",
     "p": "The article is about lion's mane, and the two phrases it teaches you to look for are the two this jar does not print."
   },
-  "credits": []
+  "credits": ["Chaga (Inonotus obliquus) on birch: Mycoshaman, CC BY-SA 4.0, via Wikimedia Commons"]
 }

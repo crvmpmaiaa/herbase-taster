@@ -26,7 +26,7 @@
     </div>
     <a class="nav__mark" href="index.html" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="journal/">Journal</a><a href="index.html#shop">Consultation</a><a href="#" data-bag>Bag (0)</a>
+      <a href="journal/">Journal</a><a href="product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>
     </div>
     <a class="nav__bag" href="#">Bag (0)</a>
   </div>
@@ -60,7 +60,7 @@
         <p class="buy__price"><b id="price">£39.99</b><span id="unit">50 capsules · 25 days · £1.60 a day</span></p>
         <ul class="buy__pts">
           <li><b>Five declared ingredients</b>, four algae and one clove, each named in Latin</li>
-          <li><b>75 µg of iodine per capsule</b>, 150 µg in the two you take. Measured, and printed</li>
+          <li><b>75 µg of iodine per capsule</b>, 150 µg in the two you take. The only such figure printed on this site</li>
           <li><b>Two capsules each morning</b>, with at least 500 ml of water. Two a day is the ceiling</li>
         </ul>
         <a class="buy__spec" href="#spec">Full specification sheet</a>
@@ -230,7 +230,7 @@
         <div class="prod__row"><h3>Northern Soul</h3><span>from £34.99</span></div><p class="prod__sub">The same four algae as a gel. One tablespoon each morning, 300 ml or 500 ml, kept in the fridge.</p><a class="prod__buy" href="product.html">Choose a size</a></article>
       <article class="prod rv d1"><a class="prod__img" href="product-chondrus-crispus.html"><img loading="lazy" decoding="async" src="assets/journal/chondrus-dried-m.jpg" alt="Chondrus crispus sea moss"></a>
         <div class="prod__row"><h3>Chondrus Crispus</h3><span>£34.99</span></div><p class="prod__sub">The plain gel. One alga, water and Omega DHA oil. Some customers use it as a face or hair mask.</p><a class="prod__buy" href="product-chondrus-crispus.html">Add to bag</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="product-purple-mwani.html"><img loading="lazy" decoding="async" src="assets/journal/eucheuma-wet-m.jpg" alt="Purple Mwani sea moss"></a>
+      <article class="prod rv d2"><a class="prod__img" href="product-purple-mwani.html"><img loading="lazy" decoding="async" src="assets/hero-sea-m.jpg" alt="Purple Mwani sea moss"></a>
         <div class="prod__row"><h3>Purple Mwani</h3><span>£24.99</span></div><p class="prod__sub"><i>Eucheuma cottonii</i>, the warm-water species, from Tanzania. Lasts ten to twenty days.</p><a class="prod__buy" href="product-purple-mwani.html">Add to bag</a></article>
       <article class="prod rv d3"><a class="prod__img" href="product-nu-heru.html"><img loading="lazy" decoding="async" src="assets/journal/red-algae-pool-m.jpg" alt="Nu Heru sea moss gel"></a>
         <div class="prod__row"><h3>Nu Heru</h3><span>from £34.99</span></div><p class="prod__sub">Red sea moss with hibiscus, elderberry and baobab. 300 ml or 500 ml.</p><a class="prod__buy" href="product-nu-heru.html">Choose a size</a></article>
@@ -262,7 +262,7 @@
       </div>
       <div>
         <h3>Know</h3>
-        <a href="journal/who-should-not.html">Safety and contraindications</a><a href="journal/how-we-source.html">How we source</a><a href="index.html#shop">The consultation</a><a href="journal/">Journal</a>
+        <a href="journal/who-should-not.html">Safety and contraindications</a><a href="journal/how-we-source.html">How we source</a><a href="product-consultation.html">The consultation</a><a href="journal/">Journal</a>
       </div>
       <div>
         <h3>Orders</h3>
@@ -296,11 +296,21 @@ burger.addEventListener('click',()=>{
 const sticky=document.getElementById('sticky'),cta=document.getElementById('buybtn');
 new IntersectionObserver(e=>{e[0].isIntersecting||e[0].boundingClientRect.top>0?sticky.removeAttribute('data-show'):sticky.setAttribute('data-show','')},{threshold:0}).observe(cta);
 
-const main=document.getElementById('galmain'),cap=document.getElementById('galcap');
+/* index 0 is a real photo, so the main frame starts on it; a held entry can still
+   appear later in the gallery, so its placeholder is made lazily and swapped in,
+   mirroring what SCRIPT_GAL_HELD does the other way round for a held index 0 */
+const frame=document.querySelector('.gal__main'),main=document.getElementById('galmain'),cap=document.getElementById('galcap');
+let held=null;
 document.querySelectorAll('.gal__thumbs button').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('.gal__thumbs button').forEach(x=>x.setAttribute('aria-pressed','false'));
   b.setAttribute('aria-pressed','true');
-  main.removeAttribute('srcset'); main.src=b.dataset.src; main.alt=b.querySelector('img').alt; cap.textContent=b.dataset.cap;
+  cap.textContent=b.dataset.cap;
+  if(!b.dataset.src){
+    if(!held){held=document.createElement('div'); held.className='card__img card__img--held'; held.innerHTML='<p>Pack photography held<span>Label reprint pending</span></p>'; frame.appendChild(held)}
+    main.hidden=true; held.hidden=false; return;
+  }
+  if(held) held.hidden=true; main.hidden=false;
+  main.removeAttribute('srcset'); main.src=b.dataset.src; main.alt=b.querySelector('img').alt;
 }));
 </script>
 </body>

@@ -10,7 +10,7 @@
   "gallery": [
     { "img": "assets/hero-root.jpg", "alt": "Bark and root pieces at the edge of a painted nebula", "cap": "The painted illustration for the botanical shelf. It stands in for a pack photograph we do not have." },
     { "img": "ginseng-root", "alt": "A whole dried ginseng root, pale and forked", "cap": "A dried root of Panax ginseng, one of the two plants this listing names. It is not a photograph of our material and it is not our answer to which species is in the jar." },
-    { "img": "ginseng-plant", "alt": "A ginseng plant with a cluster of red berries above whorled leaves", "cap": "The same species growing, with the head of red berries it carries in late summer. Photographed by somebody else and credited at the foot of the page." },
+    { "img": "ginseng-root", "alt": "Broken, dried ginseng root pieces in a white bowl", "cap": "The same root photograph used above. We do not have a second picture of Panax ginseng, so it appears twice here rather than being padded out with a generated scene." },
     { "img": "capsule-scoop", "alt": "Loose capsules and a wooden scoop on dark slate", "cap": "A scoop of loose capsules on slate. A generated scene rather than our jar tipped out." },
     { "held": true }
   ],
@@ -35,9 +35,9 @@
     "h2": "Two names, <em>one jar</em>",
     "intro": "This section usually holds a species and the part of it that goes in the capsule. This one holds a problem instead. The listing names two plants from two genera, so both are set out here, and the jar is credited to neither until the label settles it.",
     "cards": [
-      { "img": "ginseng-plant", "alt": "A ginseng plant with a cluster of red berries above whorled leaves", "fam": "Named in the text · Araliaceae", "latin": "Panax ginseng", "common": "Korean ginseng", "p": "A slow perennial herb of the woodlands of Korea and north east China, with leaflets in whorls of five and a tight head of red berries in late summer. The fleshy root is the part the trade wants, and it sits in the ground four to six years before it is worth lifting. This is the plant our listing names in its body copy, five times." },
+      { "fam": "Named in the text · Araliaceae", "latin": "Panax ginseng", "common": "Korean ginseng", "p": "A slow perennial herb of the woodlands of Korea and north east China, with leaflets in whorls of five and a tight head of red berries in late summer. The fleshy root is the part the trade wants, and it sits in the ground four to six years before it is worth lifting. This is the plant our listing names in its body copy, five times.", "none": "of the growing plant, only of the root" },
       { "img": "ginseng-root", "alt": "A whole dried ginseng root, pale and forked", "fam": "The part · Root", "latin": "The root, dried", "common": "Not printed on our label", "p": "A dried Panax root: pale, forked, heavy for its size. This is roughly what the raw material looks like before milling, if the jar is Panax. Our listing prints no part used at all, so the sheet below does not state one, and this photograph is of the species rather than of anything in our sacks." },
-      { "img": "capsule-scoop", "alt": "Loose capsules and a wooden scoop on dark slate", "fam": "Named in the heading · Not pictured", "latin": "Eleutherococcus senticosus", "common": "Siberian ginseng", "p": "The other name on the listing, and a different plant. Eleutherococcus is a thorny shrub of the Russian Far East, north east China, Korea and northern Japan, and the root and rhizome are what is sold from it. Same family as Panax, different genus, and not a true ginseng at all. We have no photograph of it, so this frame shows capsules rather than pretending otherwise." },
+      { "img": "eleuthero-root", "alt": "Dried Eleutherococcus senticosus root, cut into pale woody sticks and splinters", "fam": "Named in the heading · Araliaceae", "latin": "Eleutherococcus senticosus", "common": "Siberian ginseng", "p": "The other name on the listing, and a different plant. Eleutherococcus is a thorny shrub of the Russian Far East, north east China, Korea and northern Japan, and the root and rhizome are what is sold from it. Same family as Panax, different genus, and not a true ginseng at all." },
       { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "fam": "The shell · Vegan", "latin": "The capsule", "common": "800 mg of contents", "p": "Fifty vegan capsules at 800 mg each, and the listing prints no fillers. The shell material is not named on the listing, so the sheet does not name one. The capsules in the picture are a generated scene rather than a photograph of ours." }
     ]
   },
@@ -60,7 +60,7 @@
       ["Serving", "Two capsules a day, morning or early afternoon. The listing advises against taking it in the evening."],
       ["Storage", "The listing prints none. A closed jar on a dry shelf, away from direct sun. It does not want a fridge."],
       ["Suitable for", "Vegans. Adults."],
-      ["Not for", "Not alongside warfarin or any other anticoagulant unless your GP has said otherwise. Not in pregnancy or while breastfeeding. Not for children. If you take any prescribed medicine, or you are under a specialist for anything at all, ask your GP or pharmacist before you start."]
+      ["Not for", "Not alongside warfarin or any other anticoagulant unless your GP has said otherwise. Not in pregnancy or while breastfeeding. Not for children. If you take any prescribed medicine, or you are under a specialist for anything at all, ask your GP or pharmacist before you start. The listing also asks anyone with a hormone sensitive condition to speak to their doctor before using it, and that stays on this page."]
     ],
     "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
     "doctrine": {
@@ -89,7 +89,7 @@
       ["Capsule count and days stated", "50 · 25 days", "Count only"],
       ["A daily ceiling on the label", "Yes, two capsules", "\"Take as needed\""],
       ["Anticoagulant warning given up front", "Yes, above and on the sheet", "Buried or absent"],
-      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+      ["Somebody to ask, at a counter", "Yes, on Smithdown Road", "The place to ask which of the two named plants is actually in the jar"]
     ],
     "note": "The first three rows are ours to fix and they are the reason this page reads the way it does. The right-hand column is what we most often see on jars customers bring into the shop. It is not a claim about any particular brand, and plenty of jars out there tick every box."
   },
@@ -98,5 +98,5 @@
     "handles": ["astragalus", "ashwagandha", "gotu-kola", "shilajit"]
   },
   "jnext": null,
-  "credits": []
+  "credits": ["Ginseng root (Panax ginseng): Maša Sinreih in Valentina Vivod, CC BY-SA 3.0, via Wikimedia Commons", "Eleuthero (Eleutherococcus senticosus) dried root: Maša Sinreih in Valentina Vivod, CC BY-SA 3.0, via Wikimedia Commons"]
 }

@@ -16,7 +16,7 @@
     {
       "img": "assets/hero-root.jpg",
       "alt": "Bark and root pieces at the edge of a painted nebula",
-      "cap": "The art we use for the bark and root shelf. There is no pack photograph on this site yet."
+      "cap": "The art we use for the bark and root shelf. Nobody has photographed this jar yet."
     },
     {
       "img": "gotu-kola-leaf",
@@ -109,7 +109,7 @@
         "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
         "h": "Step four",
         "b": "Lid on, dry shelf, out of the sun",
-        "p": "Capsules do not go in the fridge. Ours sit on the shelf in this photograph, and the counter beside it is where to ask what the label leaves out."
+        "p": "Capsules do not go in the fridge. This is the shelf they are kept on, and the counter beside it is where the caution above gets talked through."
       }
     ],
     "label": "The routine"
@@ -272,7 +272,7 @@
       [
         "Somebody to ask, at a counter",
         "Yes, in person on Smithdown Road",
-        "A form takes a week to answer what a shop answers in a minute"
+        "Useful for talking through the caution above before you buy, not just after"
       ]
     ],
     "note": "Four of those rows are ours to fix. They stay on the page until the label prints the answers.",
@@ -300,5 +300,5 @@
     "p": "Written about a mushroom jar and it holds here too. Which part of the organism is named, what a missing count means, and why a number invented for a label is worse than a blank.",
     "btn": "Read the article"
   },
-  "credits": []
+  "credits": ["Gotu kola leaves (Centella asiatica): Yercaud-elango, CC BY-SA 4.0, via Wikimedia Commons"]
 }

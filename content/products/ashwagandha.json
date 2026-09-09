@@ -16,7 +16,7 @@
     {
       "img": "assets/hero-root.jpg",
       "alt": "Bark and root pieces at the edge of a painted nebula",
-      "cap": "The art we use for the bark and root shelf. There is no pack photograph on this site yet."
+      "cap": "The art we use for the bark and root shelf. This jar has not been photographed yet."
     },
     {
       "img": "ashwagandha-plant",
@@ -114,7 +114,7 @@
         "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
         "h": "Step four",
         "b": "Lid on, dry shelf, out of the sun",
-        "p": "Capsules do not go in the fridge. Ours sit on the shelf in this photograph, and the counter beside it is where to ask what the label leaves out."
+        "p": "Capsules do not go in the fridge. This is the shop floor they are kept on, and the counter is where the blanks above get filled in."
       }
     ],
     "label": "The routine"
@@ -221,10 +221,10 @@
     "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
     "doctrine": {
       "h3": "We publish the specification. We do not publish claims about what it does.",
-      "p": "The species is named in Latin, the serving is printed, the price is printed, and four rows on this sheet say not printed because that is the honest entry. What ashwagandha does in a person is not something we are permitted to say, so it is not on this page, and the list of reasons to ask a pharmacist first is longer here than on most jars."
+      "p": "The species is named in Latin, the serving is printed, the price is printed, and four rows on this sheet are blank, the most of any jar here, because that is the honest entry. What ashwagandha does in a person is not something we are permitted to say, so it is not on this page, and the list of reasons to ask a pharmacist first is longer here than on most jars."
     },
     "label": "Botanicals",
-    "intro": "Everything the listing lets us tell you about what is in the jar. Five rows say not printed, which is the most on this site.",
+    "intro": "Everything the listing lets us tell you about what is in the jar. Four rows are blank, the most of any jar here.",
     "caption": "Ashwagandha"
   },
   "reiss": {
@@ -277,10 +277,10 @@
       [
         "Somebody to ask, at a counter",
         "Yes, in person on Smithdown Road",
-        "A form takes a week to answer what a shop answers in a minute"
+        "This is the jar with the most blanks on the sheet, and a counter can talk you through every one of them"
       ]
     ],
-    "note": "Five of those rows are ours. This is the emptiest sheet on the site and it stays visible until the label fills it in.",
+    "note": "Five of those rows are ours. They stay visible until the label fills them in.",
     "intro": "Ours, next to what we usually see on jars that people bring into the shop. The rows we fail are in the same table.",
     "head": [
       "On the label",
@@ -296,7 +296,7 @@
       "gotu-kola",
       "reishi"
     ],
-    "intro": "Three more roots and a mushroom. Prices as listed."
+    "intro": "Two more roots, a leaf and a mushroom. Prices as listed."
   },
   "jnext": {
     "article": "journal/lions-mane.html",
@@ -305,5 +305,5 @@
     "p": "Written about a mushroom jar and every line of it applies here. Which part of the organism is named, what a missing count means, and why a number invented for a label is worse than a blank.",
     "btn": "Read the article"
   },
-  "credits": []
+  "credits": ["Ashwagandha berries in papery husks (Withania somnifera): Roger Culos, CC BY-SA 3.0, via Wikimedia Commons", "Ashwagandha root, dried (Withania somnifera): Maša Sinreih in Valentina Vivod, CC BY-SA 3.0, via Wikimedia Commons"]
 }

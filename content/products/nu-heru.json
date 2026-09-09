@@ -8,7 +8,7 @@
   "price": "from £34.99",
   "unit": "300 ml £34.99 · 500 ml £50.00 · one to two tablespoons a day",
   "gallery": [
-    { "img": "assets/hero-sea.jpg", "alt": "Seaweed and algae drawn in a ring around a dark centre, the Herbase sea moss scene", "cap": "The sea moss scene we use for this jar. There is no pack photograph on this site yet." },
+    { "img": "assets/hero-sea.jpg", "alt": "Seaweed and algae drawn in a ring around a dark centre, the Herbase sea moss scene", "cap": "The sea moss scene we use for this jar, standing in until there is a pack photograph." },
     { "img": "chondrus-fresh", "alt": "Flat forking red seaweed, wet, on shingle", "cap": "Chondrus crispus on the shore. The base of the gel." },
     { "img": "hibiscus-flower", "alt": "Hibiscus calyces, deep red", "cap": "Hibiscus, one of the three additions the listing names." },
     { "img": "elderberry-cluster", "alt": "A cluster of black elderberries on the bush", "cap": "Elder berries on the bush, before drying." },
@@ -101,7 +101,7 @@
   },
   "reiss": {
     "label": "Reiss's turn",
-    "h2": "Why this page has <em>the most blanks on the site</em>",
+    "h2": "Why this page has <em>more blanks than most</em>",
     "paras": [
       "Every page here has a row or two I cannot fill in. This one has more of them than any other, and I would rather you saw them together than found them one at a time.",
       "The reason is a phrase on the listing. It says various ingredients like baobab, elderberry and hibiscus. Like is not a list. It names three things and leaves the door open behind them, and while that door is open I cannot print a complete declared list, a vegan mark, or anything at all about proportions.",
@@ -121,13 +121,13 @@
       ["Preservative or thickener declared either way", "Not printed", "Often unnamed"],
       ["A shelf life in days once opened", "Not printed for this jar", "Rarely stated"],
       ["Sizes and prices printed", "Yes, 300 ml and 500 ml", "Usually printed"],
-      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+      ["Somebody to ask, at a counter", "Yes, on Smithdown Road", "The most useful row on this table, given how much of the sheet above is blank"]
     ],
     "note": "Five of those rows are ours to fix. They are all one conversation with the person who makes the jar, and when they are answered they will be answered here. The right-hand column is what we most often see on jars customers bring into the shop, not a claim about any particular brand."
   },
   "also": {
     "h2": "The rest of the <em>sea moss shelf</em>",
-    "handles": ["northern-soul", "chondrus-crispus", "purple-mwani", "seaking"]
+    "handles": ["northern-soul", "chondrus-crispus", "purple-mwani", "omega-dha"]
   },
   "jnext": {
     "article": "journal/which-sea-moss.html",
@@ -135,5 +135,5 @@
     "h2": "Which sea moss? Two plants, one name on the jar",
     "p": "Cold-water Chondrus and warm-water Eucheuma, how to tell them apart on the bench, and which jar Reiss would hand you across the counter."
   },
-  "credits": ["Chondrus crispus, fresh: Ryan Hodnett, CC BY-SA 4.0, via Wikimedia Commons"]
+  "credits": ["Chondrus crispus, fresh: Ryan Hodnett, CC BY-SA 4.0, via Wikimedia Commons", "Roselle (Hibiscus sabdariffa) calyces: Invertzoo, CC BY-SA 4.0, via Wikimedia Commons", "Elderberries (Sambucus nigra): Jonathunder, CC BY-SA 3.0, via Wikimedia Commons", "Baobab fruit (Adansonia digitata): Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons"]
 }

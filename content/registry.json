@@ -292,7 +292,7 @@
   "price": "£39.99",
   "page": "product-seaking.html",
   "img": "assets/tile-seaking.jpg",
-  "sub": "The Northern Soul formula in a capsule. 50 × 800 mg, 75 µg iodine each. 25 day supply.",
+  "sub": "The Northern Soul formula in a capsule, plus clove. 50 × 800 mg, 75 µg iodine each. 25 day supply.",
   "built": true,
   "kind": "supplement"
  },
@@ -380,7 +380,7 @@
   "price": "£39.99",
   "page": "product-shilajit.html",
   "img": "assets/tile-shilajit.jpg",
-  "sub": "Altai mineral resin, lab tested",
+  "sub": "Altai mineral resin · 50 g in amber glass · about two months.",
   "built": true,
   "kind": "supplement"
  },
@@ -468,7 +468,7 @@
   "price": "£34.99",
   "page": "product-chondrus-crispus.html",
   "img": "assets/tile-seamoss.jpg",
-  "sub": "The plain gel. One alga, water and Omega DHA oil. Some customers use it as a face or hair mask.",
+  "sub": "One alga, water and a drop of Omega DHA oil. One size, one tablespoon a day, no volume printed.",
   "built": true,
   "kind": "supplement"
  },

@@ -34,7 +34,7 @@
   "points": [
     "<b>Five botanicals named in Latin</b> on the listing: <i>Lepidium meyenii</i>, <i>Dioscorea villosa</i>, <i>Trigonella foenum-graecum</i>, <i>Foeniculum vulgare</i>, <i>Turnera diffusa</i>",
     "<b>50 capsules at 800 mg</b>, one size, which is 25 days and £1.60 a day at the printed serving",
-    "<b>Two capsules between 9 and 11 in the morning</b>, with 500 ml of water, as the listing prints it"
+    "<b>Two capsules between 9 and 11 in the morning</b>, with 500 ml of spring water, as the listing prints it"
   ],
   "cta": "Add to bag",
   "note": "<b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. There is a fenugreek allergen note on the sheet below worth reading first.",
@@ -52,7 +52,7 @@
         "img": "gen-morning-water",
         "alt": "A tall glass of water on a wooden table in low morning sun. A generated scene",
         "h": "Step two",
-        "b": "500 ml of water with them.",
+        "b": "500 ml of spring water with them.",
         "p": "The listing asks for the full 500 ml. These are 800 mg capsules, and a large capsule wants more water than people usually give it. The glass here is a generated scene."
       },
       {
@@ -73,7 +73,7 @@
   },
   "ingredients": {
     "h2": "Five plants, <em>named in Latin</em>",
-    "intro": "The listing gives a Latin ingredient line of five plants, which is more than most jars on any shelf manage. It also gives a second list in prose, in common names, which runs to four of them and adds a proprietary blend. The two do not agree. Here are the five from the Latin line, which is the one we work from. We hold no photograph of any of them, so those frames are empty rather than filled with a stand-in, and any picture on this page that is a generated scene says so.",
+    "intro": "The listing gives a Latin ingredient line of five plants, which is more than most jars on any shelf manage. It also gives a second list in prose, in common names, which runs to four of them and adds a proprietary blend. The two do not agree. Here are the five from the Latin line, which is the one we work from. We hold a photograph of one of the five, the damiana. The other four frames are empty, and any picture on this page that is a generated scene says so.",
     "cards": [
       {
         "fam": "Brassicaceae · Peruvian Andes",
@@ -100,6 +100,8 @@
         "p": "A tall umbellifer with hair-fine leaves and flat yellow flower heads, native to the Mediterranean and naturalised on roadsides across much of the world. Both the seed and the swollen leaf base are used in kitchens. Which part is in this jar is not printed."
       },
       {
+        "img": "damiana-plant",
+        "alt": "A small damiana shrub with toothed leaves and a yellow flower",
         "fam": "Passifloraceae · Mexico and the Caribbean",
         "latin": "Turnera diffusa",
         "common": "Damiana",
@@ -121,7 +123,7 @@
       ["The second list", "The listing also prints a prose list in common names: maca root, fenugreek, fennel, damiana and a proprietary blend. It omits wild yam and adds a blend the Latin line does not carry. The two do not agree and we have not picked a winner."],
       ["Parts used", "Printed for one of the five. The prose calls the maca a root. No part is printed for the other four."],
       ["Form", "50 vegan capsules, 800 mg each. One size. The shell material is not named on the listing, so we do not name one here."],
-      ["Serving", "Two capsules daily with 500 ml of water, between 9 and 11 in the morning, as printed."],
+      ["Serving", "Two capsules daily with 500 ml of spring water, between 9 and 11 in the morning, as printed."],
       ["Supply and day rate", "50 capsules at two a day is a 25 day supply, which is £1.60 a day while a jar runs."],
       ["Course", "Not printed. No maximum course and no gap between courses is given, so none is stated here."],
       ["Price", "£39.99. One size."],
@@ -173,5 +175,7 @@
     "h2": "Which sea moss? Two plants, one name on the jar",
     "p": "Why a common name is a nickname and a Latin binomial is an ingredient. The same argument runs under both of the lists on this page."
   },
-  "credits": []
+  "credits": [
+    "Damiana (Turnera diffusa) flower: H. Zell, CC BY-SA 3.0, via Wikimedia Commons"
+  ]
 }

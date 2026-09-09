@@ -41,12 +41,12 @@
     {
       "img": "gen-morning-water",
       "alt": "A tall glass of water on a wooden table in low morning light, a generated scene",
-      "cap": "A glass of water. The printed schedule asks for at least 500 ml of it with the capsules. A generated scene, not a photograph of our stock."
+      "cap": "A glass of water. The printed schedule asks for at least 500 ml of spring water with the capsules. A generated scene, not a photograph of our stock."
     }
   ],
   "points": [
     "<b>Four items in the box</b>: the Northern Soul gel at 500 ml, Anamu, Mag Flux and Omega DHA Oil, each sold on its own as well",
-    "<b>A serving printed for all four</b>, at four points in the day, with at least 500 ml of water alongside the capsules",
+    "<b>A serving printed for all four</b>, at four points in the day, with at least 500 ml of spring water alongside the capsules",
     "<b>£129.99 for the box.</b> No sold separately total on this sheet: the gel is sold in two sizes at two prices, so the four do not add to one figure here"
   ],
   "perks": [
@@ -68,7 +68,7 @@
       "summary": "The schedule as printed on the listing",
       "body": [
         "<b>Morning:</b> one tablespoon of the sea moss gel. <b>Lunch or the afternoon:</b> one or two Mag Flux capsules. <b>Evening meal:</b> one or two Anamu capsules. <b>Any time in the day:</b> one tablespoon of the Omega DHA Oil, with water or food.",
-        "At least 500 ml of water with the capsules, as printed. No course length is printed for the box."
+        "At least 500 ml of spring water with the capsules, as printed. No course length is printed for the box."
       ]
     },
     {
@@ -105,7 +105,8 @@
     "items": [
       {
         "handle": "northern-soul",
-        "qty": "1 jar · 500 ml, as this listing prints it"
+        "qty": "1 jar · 500 ml, as this listing prints it",
+        "price": "£50.00"
       },
       {
         "handle": "anamu",
@@ -137,11 +138,11 @@
       ],
       [
         "Sold separately",
-        "Not totalled here. Northern Soul is sold in two sizes at two prices and the shelf price for it is a starting price, so this sheet does not add the four up. The Northern Soul page prints both sizes and both prices, and the other three are £29.99, £39.99 and £19.99 on their own pages."
+        "£139.97 at the prices on this site: £50.00 for the 500 ml Northern Soul, plus £29.99, £39.99 and £19.99. The box is £9.98 under that."
       ],
       [
         "Serving",
-        "As printed on the listing: one tablespoon of gel each morning, one or two Mag Flux capsules with lunch or an afternoon meal, one or two Anamu capsules with the evening meal, one tablespoon of Omega DHA Oil daily with water or food. At least 500 ml of water with the capsules."
+        "As printed on the listing: one tablespoon of gel each morning, one or two Mag Flux capsules with lunch or an afternoon meal, one or two Anamu capsules with the evening meal, one tablespoon of Omega DHA Oil daily with water or food. At least 500 ml of spring water with the capsules."
       ],
       [
         "Course length",

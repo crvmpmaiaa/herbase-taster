@@ -52,7 +52,7 @@
         "img": "warm-water-glass",
         "alt": "A plain glass of water standing outdoors in daylight",
         "h": "Step two",
-        "b": "500 ml of water with them.",
+        "b": "500 ml of spring water with them.",
         "p": "The listing asks for the full 500 ml. These are 800 mg capsules, and a large capsule wants more water than people usually give it."
       },
       {
@@ -115,9 +115,9 @@
       ["Spelling", "The listing prints Articum lappa. The accepted binomial is <i>Arctium lappa</i>, and that is the spelling used on this page."],
       ["Not in it", "The listing's prose mentions dandelion. Dandelion is not on the ingredient line. Burdock, <i>Arctium lappa</i>, is."],
       ["Parts used", "Not printed for any of the five."],
-      ["Minerals and vitamins", "No measured quantity of any mineral or vitamin is printed for this jar, so none is stated here. The ingredient line names five plants and no mineral source. The only measured mineral figure anywhere on this site is the iodine on Seaking, which comes from a test on that formula."],
+      ["Minerals and vitamins", "No measured quantity of any mineral or vitamin is printed for this jar, so none is stated here. The ingredient line names five plants and no mineral source. The only measured mineral figure anywhere on this site is the iodine on Seaking, which is the one place a per capsule figure is printed at all. Whether an assay sits behind it is not stated on that listing either, so we do not say it does."],
       ["Form", "50 vegan capsules, 800 mg each. One size. The shell material is not named on the listing, so we do not name one here."],
-      ["Serving", "Two capsules with lunch or an afternoon meal, with 500 ml of water, as printed."],
+      ["Serving", "Two capsules with lunch or an afternoon meal, with 500 ml of spring water, as printed."],
       ["Supply and day rate", "50 capsules at two a day is a 25 day supply, which is £1.60 a day while a jar runs."],
       ["Course", "Not printed. No maximum course and no gap between courses is given, so none is stated here."],
       ["Price", "£39.99. One size."],
@@ -138,7 +138,7 @@
     "h2": "Why the <em>mineral lines</em> came off this page",
     "paras": [
       "The old listing for this jar states that it contains iron, zinc and B vitamins, and then says what each of those is meant to do. Both halves came off. Not because the plants are wrong, but because nobody has measured this jar. Without a number from a test, a mineral sentence is decoration, and decoration is exactly what I do not want on a specification sheet.",
-      "The one place on this whole site where a mineral figure survives is Seaking, because there is an actual measurement per capsule behind it. That is the standard: a number, from a test, tied to the formula it is printed on. When this jar has one, it goes on the sheet the same day.",
+      "The one place on this whole site where a mineral figure survives is Seaking, which is the one place a per capsule figure is printed at all. Whether an assay sits behind it is not stated on that listing either, so we do not say it does. That is the standard: a number, printed on the formula it describes, not borrowed from a generic list. When this jar has one, it goes on the sheet the same day.",
       "There is a second thing worth correcting in the open. The listing's prose talks about dandelion and burdock. Burdock, <i>Arctium lappa</i>, is on the ingredient line. Dandelion is not on it at all. Somebody wrote a good sentence and nobody checked it against the list underneath.",
       "The Latin is misspelled on the listing as well, Articum for Arctium. It is a small thing. It is also the kind of small thing that tells you whether anyone checked, so it is corrected on the sheet above with the change marked rather than done quietly."
     ],

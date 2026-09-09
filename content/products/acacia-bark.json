@@ -16,12 +16,12 @@
     {
       "img": "assets/hero-root.jpg",
       "alt": "Bark and root pieces at the edge of a painted nebula",
-      "cap": "The art we use for the bark and root shelf. There is no pack photograph on this site yet."
+      "cap": "The art we use for the bark and root shelf, standing in until there is a pack photograph to use."
     },
     {
       "img": "acacia-bark",
       "alt": "Acacia bark, close up",
-      "cap": "Acacia bark close up. A photograph of the genus, not of the batch in our jar, because the listing does not say which species that is."
+      "cap": "Bark of <i>Acacia willardiana</i>, one of several hundred species in the genus. Our listing does not say which is in the jar, so this stands for the group, not our batch."
     },
     {
       "img": "capsule-scoop",
@@ -109,7 +109,7 @@
         "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
         "h": "Step four",
         "b": "Lid on, dry shelf, out of the sun",
-        "p": "Capsules do not go in the fridge. Ours sit on the shelf you can see here, and you can ask at that counter."
+        "p": "Capsules do not go in the fridge. This is the shelf they sit on, and that is the counter to ask at."
       }
     ],
     "label": "The routine"
@@ -295,7 +295,7 @@
       "chanca-piedra",
       "anamu"
     ],
-    "intro": "Three more barks and roots, and the plant with the garlic smell. Prices as listed."
+    "intro": "Two more barks and a whole herb, and the plant with the garlic smell. Prices as listed."
   },
   "jnext": {
     "article": "journal/lions-mane.html",
@@ -304,5 +304,5 @@
     "p": "Written about a mushroom jar, and it applies to this one. Which part of the organism is named, what a missing count actually means, and why a number invented for a label is worse than a blank.",
     "btn": "Read the article"
   },
-  "credits": []
+  "credits": ["Acacia bark close up (Acacia willardiana): Don A.W. Carlson, CC BY-SA 3.0, via Wikimedia Commons"]
 }

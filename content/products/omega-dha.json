@@ -8,7 +8,7 @@
   "price": "£19.99",
   "unit": "One bottle · a tablespoon a day · one month · volume not printed",
   "gallery": [
-    { "img": "oil-drop", "alt": "A drop of oil", "cap": "A drop of oil. A generated scene, not a photograph of our bottle." },
+    { "img": "oil-drop", "alt": "A glass dropper releasing a golden drop of oil into a shallow white dish of oil", "cap": "A drop of oil. A generated scene, not a photograph of our bottle." },
     { "img": "gen-oil-bottle", "alt": "A small amber bottle and a spoon of golden oil on linen, a generated scene", "cap": "A small amber bottle and a spoon of oil. A generated scene, and not a photograph of ours." },
     { "img": "assets/hero-sea.jpg", "alt": "Seaweed fronds in a ring of green nebula against a starfield", "cap": "The painted illustration we use for the sea moss shelf, where this bottle sits because it goes into the Chondrus Crispus gel. It says nothing about where the oil comes from." },
     { "img": "step-fridge", "alt": "Jars on a fridge shelf", "cap": "The fridge in the shop. The listing prints fridge storage for this bottle, and what you can see here is jars of gel rather than bottles of oil." },
@@ -26,7 +26,7 @@
     "h2": "How to <em>take it</em>",
     "items": [
       { "img": "gen-oil-bottle", "alt": "A small amber bottle and a spoon of golden oil on linen, a generated scene", "h": "Step one", "b": "One tablespoon a day.", "p": "That is the whole of the printed serving. The listing gives no time of day, so pick one you will keep to. The bottle here is a generated scene, not ours." },
-      { "img": "oil-drop", "alt": "A drop of oil", "h": "Step two", "b": "Measure it, do not pour it.", "p": "A tablespoon is 15 ml. Poured by eye, a tablespoon is whatever the neck of the bottle feels like giving you, and the serving figures on the sheet are written against the spoon." },
+      { "img": "oil-drop", "alt": "A glass dropper releasing a golden drop of oil into a shallow white dish of oil", "h": "Step two", "b": "Measure it, do not pour it.", "p": "A tablespoon is 15 ml. Poured by eye, a tablespoon is whatever the neck of the bottle feels like giving you, and the serving figures on the sheet are written against the spoon." },
       { "img": "step-fridge", "alt": "Jars on a fridge shelf", "h": "Step three", "b": "Keep it in the fridge.", "p": "Store in the fridge is the only storage instruction the listing prints, and it is worth following from the day the seal comes off." },
       { "img": "gen-calendar-desk", "alt": "A date circled in pencil on a paper calendar page, a generated scene", "h": "Step four", "b": "A bottle is a month.", "p": "The listing puts one bottle at a one month supply at a tablespoon a day. It does not print the volume of the bottle, so a month is the only supply figure on this page." }
     ]
@@ -35,7 +35,7 @@
     "h2": "What is in the bottle, <em>and what is not named</em>",
     "intro": "This is the one thing on the shelf whose label describes a ratio instead of a plant. Here is what the listing prints, and the three things it does not.",
     "cards": [
-      { "img": "oil-drop", "alt": "A drop of oil", "fam": "The oil · Six to one", "latin": "Six parts omega 3 to one part omega 6", "common": "The ratio the listing prints", "p": "That ratio is the only compositional figure on the label besides the tablespoon. It sets the two families of fatty acid against each other inside the bottle. It does not say which oil they were pressed or grown from, and the listing does not say elsewhere either. The drop in the picture is a generated scene rather than a photograph of ours." },
+      { "img": "oil-drop", "alt": "A glass dropper releasing a golden drop of oil into a shallow white dish of oil", "fam": "The oil · Six to one", "latin": "Six parts omega 3 to one part omega 6", "common": "The ratio the listing prints", "p": "That ratio is the only compositional figure on the label besides the tablespoon. It sets the two families of fatty acid against each other inside the bottle. It does not say which oil they were pressed or grown from, and the listing does not say elsewhere either. The drop in the picture is a generated scene rather than a photograph of ours." },
       { "img": "gen-oil-bottle", "alt": "A small amber bottle and a spoon of golden oil on linen, a generated scene", "fam": "The serving · 15 ml", "latin": "One tablespoon a day", "common": "9,000 mg of omega 3", "p": "The listing prints 9,000 mg of omega 3 in a tablespoon. That is a measured figure and it is printed, so it goes on the sheet. The listing then sets it against a recommended daily amount. Omega 3 does not carry a reference intake in the way iodine does, so this page prints the milligrams and leaves the percentage off." },
       { "img": "assets/hero-sea.jpg", "alt": "Seaweed fronds in a ring of green nebula against a starfield", "fam": "The source · Not printed", "latin": "Which plant, or which organism", "common": "The listing does not say", "p": "A bottle named for DHA, whose one named constituent is alpha-linolenic acid, the omega 3 that comes out of plant seeds. The listing does not name the plant, does not name any other origin, and prints no DHA figure of its own. The picture here is the painted illustration for the sea moss shelf, where the bottle sits because it goes into the gel. It is not a statement about the source, and neither is the shelf." },
       { "img": "step-fridge", "alt": "Jars on a fridge shelf", "fam": "Keeping it · Cold", "latin": "The fridge", "common": "Printed on the listing", "p": "Store in the fridge is the one storage instruction on this listing, and it is the one line that separates this bottle from every capsule on the site. The photograph is of jars of gel on the fridge shelf in the shop rather than of bottles of the oil." }
@@ -85,7 +85,7 @@
       ["Bottle volume printed", "Not printed", "Nearly always printed"],
       ["A storage instruction", "Fridge", "Often absent"],
       ["Vegan mark, only where it can be evidenced", "Not claimed", "Claimed either way"],
-      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+      ["Somebody to ask, at a counter", "Yes, on Smithdown Road", "Worth asking about the source before you buy, since the bottle will not tell you"]
     ],
     "note": "Three of those rows are ours to fix, and the first two are the rows worth answering before buying any omega oil, this one included. The right-hand column is what we most often see on bottles customers bring into the shop. It is not a claim about any particular brand."
   },

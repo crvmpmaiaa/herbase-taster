@@ -36,7 +36,7 @@
     {
       "img": "gen-morning-water",
       "alt": "A tall glass of water on a wooden table in low morning light, a generated scene",
-      "cap": "A glass of water. The capsules ask for at least 500 ml of it, and the Test Drive sheet asks for a litre across the day. A generated scene, not a photograph of our stock."
+      "cap": "A glass of water. The capsules ask for at least 500 ml of spring water, and the Test Drive sheet asks for a litre of it across the day. A generated scene, not a photograph of our stock."
     },
     {
       "img": "gen-capsules-saucer",
@@ -67,8 +67,8 @@
     {
       "summary": "The schedule as printed on the listing",
       "body": [
-        "<b>Morning:</b> one tablespoon of the gel. <b>Lunch:</b> one or two Mag Flux capsules. <b>An hour before exercise or sport:</b> one or two Test Drive capsules, which is the timing this listing prints.",
-        "Always with at least 500 ml of water, as printed. The Test Drive sheet prints a different serving again, two capsules with breakfast and at least 1 litre of water across the day, and both are set out on the sheet below."
+        "<b>Morning:</b> one tablespoon of the gel. <b>Lunch:</b> one or two Mag Flux capsules. <b>An hour before exercise or sport:</b> one or two Test Drive capsules. The listing names a third occasion which we are not able to reprint on a shop page, because printing it would say what the jar is for.",
+        "Always with at least 500 ml of spring water, as printed. The Test Drive sheet prints a different serving again, two capsules with breakfast and at least 1 litre of spring water across the day, and both are set out on the sheet below."
       ]
     },
     {
@@ -130,11 +130,11 @@
       ],
       [
         "Serving",
-        "As printed on this listing: one tablespoon of gel each morning, one or two Mag Flux capsules with lunch, one or two Test Drive capsules an hour before exercise or sport, always with at least 500 ml of water."
+        "As printed on this listing: one tablespoon of gel each morning, one or two Mag Flux capsules with lunch, one or two Test Drive capsules an hour before exercise or sport, always with at least 500 ml of spring water."
       ],
       [
         "Test Drive, twice",
-        "This listing prints one or two capsules before training. The <a href=\"product-test-drive.html\">Test Drive</a> listing prints two capsules a day with breakfast, and at least 1 litre of water across the day. Both are ours and they do not agree, on the count, the hour or the water. Neither is chosen here."
+        "This listing prints one or two capsules before training. The <a href=\"product-test-drive.html\">Test Drive</a> listing prints two capsules a day with breakfast, and at least 1 litre of spring water across the day. Both are ours and they do not agree, on the count, the hour or the water. Neither is chosen here."
       ],
       [
         "Volume",
@@ -171,7 +171,7 @@
     "label": "Reiss's turn",
     "h2": "Two labels, <em>one jar</em>",
     "paras": [
-      "Test Drive is on this site twice and the two entries do not say the same thing. The jar's own listing prints two capsules with breakfast and a litre of water across the day. This box prints one or two an hour before training, with 500 ml. Same jar, same capsules, two different instructions, both written by us. I have put both on the sheet above and picked neither, because picking one quietly would hide the fact that we have been sloppy.",
+      "Test Drive is on this site twice and the two entries do not say the same thing. The jar's own listing prints two capsules with breakfast and a litre of spring water across the day. This box prints one or two an hour before training, with 500 ml. Same jar, same capsules, two different instructions, both written by us. I have put both on the sheet above and picked neither, because picking one quietly would hide the fact that we have been sloppy.",
       "The other thing on that jar is the list of medicines. Nitrates, blood pressure medicine, heart medicine. Piperine as well, which changes how the body takes up and clears some prescriptions. That is not a caution I would bury under a bundle price, so it is in the note at the top of this page and in the last row of the sheet.",
       "The money adds up cleanly for once. The three jars come to £114.97 at the prices on this site, the box is £99.99, so it saves you £14.98. The nutrition guide comes with every order rather than with this box, so it is not in that figure and it is not a reason to buy the box."
     ],

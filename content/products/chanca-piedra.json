@@ -8,7 +8,7 @@
   "price": "£24.99",
   "unit": "One size · 800 mg a capsule · count not printed yet",
   "gallery": [
-    { "img": "assets/hero-root.jpg", "alt": "Bark and root pieces at the edge of a painted nebula", "cap": "The illustration we use for the botanical shelf. There is no pack photograph on this site yet." },
+    { "img": "assets/hero-root.jpg", "alt": "Bark and root pieces at the edge of a painted nebula", "cap": "The illustration we use for the botanical shelf. No pack photograph exists for this jar yet." },
     { "img": "chanca-piedra-plant", "alt": "Phyllanthus niruri, small leaves in two ranks with round seed capsules hanging underneath the branchlets", "cap": "Phyllanthus niruri. A photograph of the species, taken by somebody else and credited at the foot of the page. It is not a photograph of the material in our sacks." },
     { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "cap": "Two capsules and a glass of water. A generated scene, not a photograph of our jar." },
     { "img": "capsule-scoop", "alt": "Loose capsules and a wooden scoop on dark slate", "cap": "Loose capsules and a scoop. A generated scene, and the capsules are not ours." },
@@ -28,7 +28,7 @@
       { "img": "gen-capsules-saucer", "alt": "Two plain capsules on a saucer beside a glass of water, a generated scene", "h": "Step one", "b": "Two capsules in the morning.", "p": "That is half of the printed serving. The saucer here is a generated scene, not our jar." },
       { "img": "gen-morning-water", "alt": "A tall glass of water on a wooden table in low morning light, a generated scene", "h": "Step two", "b": "At least 500 ml of water with them.", "p": "The listing prints spring water. The volume is the part that matters, not the label on the bottle." },
       { "img": "capsule-scoop", "alt": "Loose capsules and a wooden scoop on dark slate", "h": "Step three", "b": "Two more in the evening, with a meal.", "p": "Four capsules is a whole day and the printed ceiling. If you miss a dose, take the next one at its usual time rather than doubling it." },
-      { "img": "assets/store.jpg", "alt": "The shop floor at 599 Smithdown Road, shelves along the wall", "h": "Step four", "b": "Lid on, dry shelf, out of the sun.", "p": "The listing prints no storage line, so this is the plain one. Capsules want neither a fridge nor a steamy kitchen. Ours sit on the shelf you can see here." }
+      { "img": "assets/store.jpg", "alt": "The shop floor at 599 Smithdown Road, shelves along the wall", "h": "Step four", "b": "Lid on, dry shelf, out of the sun.", "p": "The listing prints no storage line, so this is the plain one. Capsules want neither a fridge nor a steamy kitchen, and this is the shelf they are kept on." }
     ]
   },
   "ingredients": {
@@ -58,7 +58,7 @@
       ["Serving", "Two capsules in the morning with at least 500 ml of water, and two in the evening with a meal and another 500 ml. That is four capsules in a day and it is the printed ceiling."],
       ["Storage", "The listing prints no storage instruction. Keep the jar closed, cool and dry, out of the sun. It does not need a fridge."],
       ["Suitable for", "Adults."],
-      ["Not for", "Not in pregnancy or while breastfeeding. Not for children. If you take a diuretic, or medicine for blood pressure or for blood sugar, ask your GP or pharmacist before you start. The listing also asks anyone trying to conceive to leave it alone, and that stays on the page."]
+      ["Not for", "Not in pregnancy or while breastfeeding. Not for children. If you have low blood pressure, or you take a diuretic or medicine for blood pressure or blood sugar, ask your GP or pharmacist before you start. The listing also asks anyone trying to conceive to leave it alone, and that stays on the page."]
     ],
     "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
     "doctrine": {
@@ -87,7 +87,7 @@
       ["Extraction ratio, where the label says extract", "Not printed", "Rarely printed"],
       ["Fillers named or ruled out", "None declared", "\"Proprietary blend\""],
       ["A daily ceiling on the label", "Yes, four capsules", "\"Take as needed\""],
-      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+      ["Somebody to ask, at a counter", "Yes, on Smithdown Road", "Worth using for the capsule count, which the label still does not give you"]
     ],
     "note": "Three of those rows are ours to fix and they stay on this page until the label prints the figures. The right-hand column is what we most often see on jars customers bring into the shop. It is not a claim about any particular brand, and plenty of jars out there tick every box."
   },
@@ -96,5 +96,5 @@
     "handles": ["anamu", "gumbo-limbo", "pau-darco", "acacia-bark"]
   },
   "jnext": null,
-  "credits": []
+  "credits": ["Chanca piedra (Phyllanthus niruri): Toluaye, Public domain, via Wikimedia Commons"]
 }

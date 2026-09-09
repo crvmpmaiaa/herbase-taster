@@ -16,7 +16,7 @@
     {
       "img": "assets/hero-root.jpg",
       "alt": "Bark and root pieces at the edge of a painted nebula",
-      "cap": "The art we use for the bark and root shelf. There is no pack photograph on this site yet."
+      "cap": "The art we use for the bark and root shelf. No pack photograph has been taken for this jar."
     },
     {
       "img": "anamu-plant",
@@ -304,5 +304,5 @@
     "p": "Written about a mushroom jar and it holds here too. Which part of the organism is named, what a missing count or a missing milligram figure means, and why a number invented for a label is worse than a blank.",
     "btn": "Read the article"
   },
-  "credits": []
+  "credits": ["Anamu (Petiveria alliacea): Toluaye, Public domain, via Wikimedia Commons"]
 }

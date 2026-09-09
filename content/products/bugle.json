@@ -16,7 +16,12 @@
     {
       "img": "assets/hero-root.jpg",
       "alt": "Bark and root pieces at the edge of a painted nebula",
-      "cap": "The art we use for the bark and root shelf. There is no pack photograph on this site yet, and no photograph of the plant either, for the reason set out below."
+      "cap": "The art we use for the bark and root shelf. The jar itself has not been photographed."
+    },
+    {
+      "img": "lycopus-virginicus",
+      "alt": "Lycopus virginicus growing densely, square reddish stems and small pale flowers clustered where the leaves meet the stem",
+      "cap": "Lycopus virginicus, the plant our listing names. Not the garden Ajuga sold as bugle in Britain."
     },
     {
       "img": "capsule-scoop",
@@ -63,7 +68,7 @@
       "summary": "What is not printed on the label",
       "body": [
         "The count, the milligrams, the part of the plant and the origin. With no count there is no day rate on this page.",
-        "There is no photograph of the plant here either. The picture we were offered was the garden <i>Ajuga</i>, which is a different plant, and a picture of the wrong plant is worse than none."
+        "The photograph in the gallery is <i>Lycopus virginicus</i> itself, not the garden <i>Ajuga</i> we were offered first and turned down, because a picture of the wrong plant is worse than none."
       ]
     },
     {
@@ -109,7 +114,7 @@
         "alt": "The shop floor at 599 Smithdown Road, shelves along the wall",
         "h": "Step four",
         "b": "Lid on, dry shelf, out of the sun",
-        "p": "Capsules do not go in the fridge. Ours sit on the shelf in this photograph, and the counter beside it is where to ask."
+        "p": "Capsules do not go in the fridge. This is the shelf, and the counter beside it is where the three-plant question gets sorted out."
       }
     ],
     "label": "The routine"
@@ -119,8 +124,8 @@
     "intro": "A one ingredient list is a short section, and this one needs a paragraph about the name before anything else. Here is the plant the listing names, the plants it is not, the row the label leaves empty, and the shell.",
     "cards": [
       {
-        "img": "assets/hero-root.jpg",
-        "alt": "Bark and root pieces at the edge of a painted nebula",
+        "img": "lycopus-virginicus",
+        "alt": "Lycopus virginicus growing densely, square reddish stems and small pale flowers clustered where the leaves meet the stem",
         "fam": "Herb · Lamiaceae",
         "latin": "Lycopus virginicus",
         "common": "Virginia bugleweed",
@@ -227,10 +232,10 @@
     "h2": "Three plants share this name, <em>and one of them is in the jar</em>",
     "paras": [
       "If you ask for bugle in Britain you will be handed <i>Ajuga reptans</i>, the creeping thing with blue spikes that people grow at the front of a border. If you ask a herbalist in North America you will get <i>Lycopus virginicus</i>. There is a third, <i>Lycopus europaeus</i>, sold as gypsywort and sometimes as bugleweed. They are three different plants and only one of them is in this capsule.",
-      "Our listing names <i>Lycopus virginicus</i>, so that is what the sheet says and that is what any photograph on this page would have to be. There is no photograph of the plant here yet, because the one we were offered was the garden <i>Ajuga</i>, and a picture of the wrong plant is a worse mistake than no picture at all.",
+      "Our listing names <i>Lycopus virginicus</i>, so that is what the sheet says and that is what the photograph on this page shows, not the garden <i>Ajuga</i> we were offered first and turned down. A picture of the wrong plant would have been a worse mistake than no picture at all.",
       "The rest of this label is thin. No count, no milligrams, no part named, no country. What it does carry is a caution, and that caution is printed above in the words the listing uses. Read it before the first capsule, and if any of it applies to you, ring the shop rather than guessing."
     ],
-    "pull": "A picture of the wrong plant is a worse mistake than no picture at all.",
+    "pull": "Three plants share this name and only one is in the jar.",
     "sign": [
       "Reiss Davies Ausar",
       "599 Smithdown Road, Liverpool"
@@ -272,7 +277,7 @@
       [
         "Somebody to ask, at a counter",
         "Yes, in person on Smithdown Road",
-        "A form takes a week to answer what a shop answers in a minute"
+        "Worth doing here especially, given three plants share this jar's English name"
       ]
     ],
     "note": "Three of those rows are ours to fix, and they stay on the page until the label prints them.",
@@ -300,5 +305,5 @@
     "p": "Written about a mushroom jar and it holds here too. Which part of the organism is named, what a missing count means, and why a name invented for a label is worse than a blank.",
     "btn": "Read the article"
   },
-  "credits": []
+  "credits": ["Bugleweed in flower (Lycopus virginicus): H. Zell, CC BY-SA 3.0, via Wikimedia Commons"]
 }

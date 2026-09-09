@@ -86,7 +86,7 @@
       ["A schedule with an end date", "Yes, both of them", "Open ended"],
       ["Fillers named or ruled out", "None declared", "\"Proprietary blend\""],
       ["Vegan shell stated", "Not stated", "Usually stated"],
-      ["Somebody to ask, at a counter", "Yes", "A contact form"]
+      ["Somebody to ask, at a counter", "Yes, on Smithdown Road", "This is the thinnest label on the shelf, and a counter can fill in more than the page can"]
     ],
     "note": "Four of those rows are ours to fix, and they stay here until the label prints the figures. The right-hand column is what we most often see on jars customers bring into the shop. It is not a claim about any particular brand."
   },
@@ -95,5 +95,5 @@
     "handles": ["pau-darco", "anamu", "chanca-piedra", "acacia-bark"]
   },
   "jnext": null,
-  "credits": []
+  "credits": ["Gumbo limbo trunk with peeling bark (Bursera simaruba): Forest and Kim Starr, CC BY 3.0 US, via Wikimedia Commons"]
 }

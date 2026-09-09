@@ -30,7 +30,7 @@
     {
       "img": "capsule-scoop",
       "alt": "Loose capsules and a wooden scoop on dark slate",
-      "cap": "Fifty vegan capsules at 800 mg in a jar. A generated scene, not a photograph of our stock."
+      "cap": "Plain capsules and a wooden scoop. The jar holds fifty. A generated scene, not a photograph of our stock."
     }
   ],
   "points": [
@@ -339,6 +339,9 @@
     "btn": "Read the article"
   },
   "credits": [
+    "Tribulus terrestris flower: Le.Loup.Gris, CC BY-SA 3.0, via Wikimedia Commons",
+    "Tongkat ali (Eurycoma longifolia) leaves: Mokkie, CC BY-SA 3.0, via Wikimedia Commons",
+    "Damiana (Turnera diffusa) flower: H. Zell, CC BY-SA 3.0, via Wikimedia Commons",
     "Black pepper: Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons"
   ]
 }

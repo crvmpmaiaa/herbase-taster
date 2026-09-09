@@ -10,6 +10,9 @@
 <link rel="stylesheet" href="assets/site.css">
 <style>
 .stickybuy{padding-bottom:max(10px,env(safe-area-inset-bottom))}
+.ing__none{aspect-ratio:1;background:var(--night);display:grid;place-items:center;padding:18px;text-align:center}
+.ing__none p{padding:0;font-family:var(--display);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,237,210,.8);line-height:1.5}
+.ing__none span{display:block;margin-top:8px;font-family:var(--body);font-size:10px;letter-spacing:0;text-transform:none;color:rgba(255,237,210,.5)}
 </style>
 </head>
 <body>
@@ -22,7 +25,7 @@
     </div>
     <a class="nav__mark" href="index.html" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="journal/">Journal</a><a href="index.html#shop">Consultation</a><a href="#" data-bag>Bag (0)</a>
+      <a href="journal/">Journal</a><a href="product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>
     </div>
     <a class="nav__bag" href="#">Bag (0)</a>
   </div>
@@ -39,13 +42,12 @@
       <div class="gal">
         <div class="gal__main"><img id="galmain" src="assets/hero-sea.jpg" alt="Seaweed and algae drawn in a ring around a dark centre, the Herbase sea moss scene" decoding="async"></div>
         <div class="gal__thumbs">
-          <button type="button" aria-pressed="true" data-src="assets/hero-sea.jpg" data-cap="The sea moss scene we use for this jar. There is no pack photograph on this site yet."><img src="assets/hero-sea-m.jpg" alt="Seaweed and algae drawn in a ring around a dark centre, the Herbase sea moss scene" loading="lazy" decoding="async"></button>
-          <button type="button" aria-pressed="false" data-src="assets/journal/eucheuma-farm.jpg" data-cap="Seaweed farmed on lines in shallow water, which is how this plant is grown."><img src="assets/journal/eucheuma-farm.jpg" alt="Seaweed growing on farm lines in shallow water" loading="lazy" decoding="async"></button>
+          <button type="button" aria-pressed="true" data-src="assets/hero-sea.jpg" data-cap="The sea moss scene we use for this jar. This jar has not been photographed yet."><img src="assets/hero-sea-m.jpg" alt="Seaweed and algae drawn in a ring around a dark centre, the Herbase sea moss scene" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/eucheuma-wet.jpg" data-cap="Thick golden wrack on a beach. This is not Eucheuma, but it shows the round glossy shape, which is the shape the Atlantic plant does not have."><img src="assets/journal/eucheuma-wet-m.jpg" alt="Thick golden wrack washed up on a beach" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/gen-gel-spoon.jpg" data-cap="A spoon of gel over a jar. A generated scene, not a photograph of ours."><img src="assets/journal/gen-gel-spoon-m.jpg" alt="A teaspoon of clear gel held over a small glass jar, a generated scene" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/step-fridge.jpg" data-cap="The fridge shelf. The listing says to keep it there."><img src="assets/journal/step-fridge-m.jpg" alt="Jars on a fridge shelf" loading="lazy" decoding="async"></button>
         </div>
-        <p class="gal__cap" id="galcap">The sea moss scene we use for this jar. There is no pack photograph on this site yet.</p>
+        <p class="gal__cap" id="galcap">The sea moss scene we use for this jar. This jar has not been photographed yet.</p>
       </div>
 
       <div class="buy">
@@ -54,7 +56,7 @@
         <h1 class="dsp">Purple Mwani Sea Moss Gel</h1>
         <p class="buy__price"><b id="price">£24.99</b><span id="unit">One jar · 20 days at one tablespoon, 10 at two · £1.25 a day at one</span></p>
         <ul class="buy__pts">
-          <li><b>One alga</b>, <i>Eucheuma cottonii</i>, the warm-water species, farmed off Tanzania and named as itself</li>
+          <li><b>One alga</b>, <i>Eucheuma cottonii</i>, the warm-water species, named as itself</li>
           <li><b>One or two tablespoons a day</b>, in the morning, with a clean spoon. The listing gives the jar 20 days at one spoon and 10 at two</li>
           <li><b>£24.99.</b> One size. The listing prints no volume, so this page does not print one either</li>
         </ul>
@@ -72,7 +74,7 @@
           <details open>
             <summary>What is in it</summary>
             <div class="acc__body">
-              <p>Two things. <i>Eucheuma cottonii</i>, the warm-water seaweed farmed on lines off Tanzania, and water. No second alga, no preservative, no thickener and no sweetener is declared.</p>
+              <p>Two things. <i>Eucheuma cottonii</i>, the warm-water seaweed the listing places off Tanzania, and water. No second alga, no preservative, no thickener and no sweetener is declared.</p>
               <p>It is not the same plant as the Atlantic <a href="product-chondrus-crispus.html">Chondrus crispus</a> gel, and it is ten pounds cheaper because the plant is cheaper. <a href="journal/which-sea-moss.html">Reiss puts the two side by side here</a>.</p>
             </div>
           </details>
@@ -87,7 +89,7 @@
             <summary>What is not printed on the label</summary>
             <div class="acc__body">
               <p>How much gel is in the jar. The listing prints days of servings and never a volume or a fill weight, so this page prices a day and cannot compare the jar with anything else by size.</p>
-              <p>The listing also says cultivated in one line and wild crafted in another. Farmed on lines is what our team saw in Tanzania in 2020, and that is what the sheet below says.</p>
+              <p>The listing also says cultivated off Tanzania in one line and wild crafted from Zanzibar in another. Zanzibar is part of Tanzania; farmed and wild are not. Until the label picks one, this sheet prints both.</p>
             </div>
           </details>
           <details>
@@ -139,9 +141,9 @@
       <p class="rv d2">The listing names one seaweed and describes the water it is prepared with. That is the whole of the declared list.</p>
     </div>
     <div class="ingr__grid">
-      <article class="ing rv"><img src="assets/journal/eucheuma-farm.jpg" alt="Seaweed growing on farm lines in shallow water" loading="lazy" decoding="async"><p class="ing__fam">Red · Rhodophyta</p><h3>Eucheuma cottonii<i>Purple mwani</i></h3><p>The warm-water species, grown on lines strung between stakes in shallow lagoons off Tanzania. The branches are thick and round in section, closer to a knobbly coral than to the flat forking fans of the Atlantic plant, and the colour runs from pale gold to purple. Sold and farmed as <i>Eucheuma cottonii</i>; botanists more often place the farmed plant in <i>Kappaphycus</i>, as <i>Kappaphycus alvarezii</i>. The trade name is the one on the jar.</p></article>
+      <article class="ing rv"><div class="ing__none"><p>No photograph<span>of the species; nothing sourced has passed the checks</span></p></div><p class="ing__fam">Red · Rhodophyta</p><h3>Eucheuma cottonii<i>Purple mwani</i></h3><p>The warm-water species, grown on lines strung between stakes in shallow lagoons off Tanzania. The branches are thick and round in section, closer to a knobbly coral than to the flat forking fans of the Atlantic plant, and the colour runs from pale gold to purple. Sold and farmed as <i>Eucheuma cottonii</i>; botanists more often place the farmed plant in <i>Kappaphycus</i>, as <i>Kappaphycus alvarezii</i>. The trade name is the one on the jar.</p></article>
       <article class="ing rv d1"><img src="assets/journal/eucheuma-wet-m.jpg" alt="Thick golden wrack washed up on a beach" loading="lazy" decoding="async"><p class="ing__fam">The shape · For comparison</p><h3>Round, not flat<i>How it differs from Chondrus</i></h3><p>The wrack in this photograph is not Eucheuma. It is here because it shows the round, glossy, pale form that Eucheuma has and that the flat forking Atlantic plant does not. <a href="journal/which-sea-moss.html">The article puts the two side by side</a>, dried and as a gel.</p></article>
-      <article class="ing rv d2"><img src="assets/journal/step-water-m.jpg" alt="Glass and jug of water in morning light" loading="lazy" decoding="async"><p class="ing__fam">Prepared with · Water</p><h3>Water<i>And nothing else declared</i></h3><p>The seaweed is soaked and blended with water. The listing describes that water as filtered and hydrogen treated, and gives a reason for it that we are not permitted to repeat, so the process is on this card without one. Nothing else is declared: no second alga, no preservative, no thickener, no sweetener.</p></article>
+      <article class="ing rv d2"><img src="assets/journal/step-water-m.jpg" alt="Glass and jug of water in morning light" loading="lazy" decoding="async"><p class="ing__fam">Prepared with · Water</p><h3>Water<i>And nothing else declared</i></h3><p>The seaweed is soaked and blended with water. The listing describes that water as filtered and hydrogen treated. That is a description of a process and this card carries it as one. Nothing else is declared: no second alga, no preservative, no thickener, no sweetener.</p></article>
     </div>
   </div>
 </section>
@@ -160,9 +162,9 @@
           <tr><th scope="row">Makeup</th><td>A single-species gel. One red alga, <i>Eucheuma cottonii</i>, prepared with water.</td></tr>
           <tr><th scope="row">Species</th><td><i>Eucheuma cottonii</i>, the warm-water species. Botanists more often place the farmed plant in <i>Kappaphycus</i>, as <i>Kappaphycus alvarezii</i>. The listing uses the trade name and so does this sheet.</td></tr>
           <tr><th scope="row">Name</th><td>Mwani is Swahili for seaweed, and the listing says the word is used in particular for this species. Purple is the colour the plant runs to.</td></tr>
-          <tr><th scope="row">Origin</th><td>Tanzania. The listing says cultivated in the Indian Ocean off Tanzania in one line and wild crafted from Zanzibar in another. Zanzibar is part of Tanzania. Farmed on lines is what our team saw there in 2020, and that is what this sheet says.</td></tr>
+          <tr><th scope="row">Origin</th><td>The listing says cultivated off Tanzania in one line and wild crafted from Zanzibar in another. Zanzibar is part of Tanzania; farmed and wild are not. Until the label picks one, this sheet prints both.</td></tr>
           <tr><th scope="row">Declared list</th><td>The alga and water. No second alga, no preservative, thickener or sweetener is declared.</td></tr>
-          <tr><th scope="row">Prepared with</th><td>Water. The listing calls it filtered and hydrogen treated and gives a reason for that which we are not permitted to repeat, so the process is printed here without one.</td></tr>
+          <tr><th scope="row">Prepared with</th><td>Water. The listing describes it as filtered and hydrogen treated. That is a description of a process and this sheet carries it as one.</td></tr>
           <tr><th scope="row">Size and price</th><td>One jar, £24.99. The listing prints no volume. The 1000 g in the shop's variant data is a shipping weight rather than a fill weight, so this sheet carries no millilitre figure.</td></tr>
           <tr><th scope="row">Serving</th><td>One or two tablespoons daily, preferably in the morning, with a clean spoon. Off the spoon, or blended into a smoothie.</td></tr>
           <tr><th scope="row">Supply</th><td>As printed: 20 days at one tablespoon, 10 days at two. That works out at £1.25 a day at one tablespoon and £2.50 at two.</td></tr>
@@ -187,7 +189,7 @@
     <p class="label rv">Reiss's turn</p>
     <h2 class="dsp rv d1">The cheaper plant, <em>sold as the cheaper plant</em></h2>
     <div class="reiss__body">
-      <p class="rv d1">Most of what is sold in this country as Irish moss is this species. It is farmed on lines in warm shallow water off Tanzania, Zanzibar, the Philippines and Indonesia, it comes back in about six weeks, and it costs a fraction of what hand-picked Atlantic <i>Chondrus crispus</i> costs. A good deal of it is then sold at Chondrus prices under a Chondrus name.</p>
+      <p class="rv d1">Most of what is sold in this country as Irish moss is this species. It is farmed on lines in warm shallow water off Tanzania, Zanzibar, the Philippines and Indonesia, and it costs a fraction of what hand-picked Atlantic <i>Chondrus crispus</i> costs. A good deal of it is then sold at Chondrus prices under a Chondrus name.</p>
       <p class="rv d1">So here it is under its own name, at twenty four ninety nine, which is ten pounds under the plain Atlantic jar. Same shelf, different plant, different price. If you have bought sea moss online and it came out pale, stiff and glossy on the spoon, this is most likely what you bought, and you can work out for yourself whether what you paid was the price of this.</p>
       <p class="rv d1">Our team went out to the mwani farms in 2020, which is where the word on the jar comes from. The row that annoys me is the volume: the listing says how many days of spoons are in the jar and never how much gel. That is enough to price a day and not enough to compare it with anything else on the shelf, and it is on the list to fix.</p>
       <div class="reiss__pull rv"><q>It is the cheaper plant, and it is priced like the cheaper plant.</q></div>
@@ -214,7 +216,7 @@
         <tr><th scope="row">Volume or weight of gel printed</th><td class="yes">Not printed</td><td class="no">Usually printed</td></tr>
         <tr><th scope="row">Days of servings printed</th><td class="yes">Yes, 20 at one tablespoon</td><td class="no">Rarely stated</td></tr>
         <tr><th scope="row">Storage printed</th><td class="yes">Yes, refrigerate</td><td class="no">Usually stated</td></tr>
-        <tr><th scope="row">Somebody to ask, at a counter</th><td class="yes">Yes</td><td class="no">A contact form</td></tr>
+        <tr><th scope="row">Somebody to ask, at a counter</th><td class="yes">Yes, on Smithdown Road</td><td class="no">Ask here about the jar's volume, which the label does not print either</td></tr>
       </tbody>
     </table>
     <p class="cmp__foot rv">Two of those rows are ours to fix: the one where the listing contradicts itself, and the one where a volume should be. The right-hand column is what we most often see on jars customers bring into the shop, not a claim about any particular brand.</p>
@@ -230,11 +232,11 @@
       <article class="prod rv"><a class="prod__img" href="product.html"><img loading="lazy" decoding="async" src="assets/northern-soul-jar-m.jpg" alt="Northern Soul Sea Moss Gel"></a>
         <div class="prod__row"><h3>Northern Soul Sea Moss Gel</h3><span>from £34.99</span></div><p class="prod__sub">Cold-water sea moss gel. 300 ml or 500 ml.</p><a class="prod__buy" href="product.html">Choose a size</a></article>
       <article class="prod rv d1"><a class="prod__img" href="product-chondrus-crispus.html"><img loading="lazy" decoding="async" src="assets/tile-seamoss.jpg" alt="Chondrus Crispus Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Chondrus Crispus Sea Moss Gel</h3><span>£34.99</span></div><p class="prod__sub">The plain gel. One alga, water and Omega DHA oil. Some customers use it as a face or hair mask.</p><a class="prod__buy" href="product-chondrus-crispus.html">Add to bag</a></article>
+        <div class="prod__row"><h3>Chondrus Crispus Sea Moss Gel</h3><span>£34.99</span></div><p class="prod__sub">One alga, water and a drop of Omega DHA oil. One size, one tablespoon a day, no volume printed.</p><a class="prod__buy" href="product-chondrus-crispus.html">Add to bag</a></article>
       <article class="prod rv d2"><a class="prod__img" href="product-nu-heru.html"><img loading="lazy" decoding="async" src="assets/hero-sea-m.jpg" alt="Nu Heru Sea Moss Gel"></a>
         <div class="prod__row"><h3>Nu Heru Sea Moss Gel</h3><span>from £34.99</span></div><p class="prod__sub">300 ml £34.99 · 500 ml £50.00 · one to two tablespoons a day</p><a class="prod__buy" href="product-nu-heru.html">Choose a size</a></article>
       <article class="prod rv d3"><a class="prod__img" href="product-seaking.html"><img loading="lazy" decoding="async" src="assets/tile-seaking.jpg" alt="Seaking"></a>
-        <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">The Northern Soul formula in a capsule. 50 × 800 mg, 75 µg iodine each. 25 day supply.</p><a class="prod__buy" href="product-seaking.html">Add to bag</a></article>
+        <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">The Northern Soul formula in a capsule, plus clove. 50 × 800 mg, 75 µg iodine each. 25 day supply.</p><a class="prod__buy" href="product-seaking.html">Add to bag</a></article>
     </div>
   </div>
 </section>
@@ -263,7 +265,7 @@
       </div>
       <div>
         <h3>Know</h3>
-        <a href="journal/who-should-not.html">Safety and contraindications</a><a href="journal/how-we-source.html">How we source</a><a href="index.html#shop">The consultation</a><a href="journal/">Journal</a>
+        <a href="journal/who-should-not.html">Safety and contraindications</a><a href="journal/how-we-source.html">How we source</a><a href="product-consultation.html">The consultation</a><a href="journal/">Journal</a>
       </div>
       <div>
         <h3>Orders</h3>
@@ -271,7 +273,7 @@
       </div>
     </div>
     <div class="foot__legal">
-      <p class="credits">Photography via Unsplash and Wikimedia Commons. · Some scenes generated (Nano Banana Pro), not photographs of Herbase stock.</p>
+      <p class="credits">Photographs of the shop by Herbase. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock.</p>
       <p>Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.</p>
       <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP. Food business registered with Liverpool City Council.</p>
     </div>

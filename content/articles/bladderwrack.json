@@ -47,7 +47,7 @@
         { "fig": { "img": "stock-atlantic-lowtide", "alt": "A rocky Atlantic shore at low tide, cliffs behind", "cap": "A rocky Atlantic shore at low tide.", "sub": "Not our harvest site. It is the kind of coast the order above is written for.", "kind": "wide" } },
         { "p": "Out of the water the two plants look nothing like each other, which is the other reason it is worth knowing which is which." },
         { "duo": [
-          { "img": "eucheuma-wet", "alt": "Thick golden wrack washed up on a beach", "cap": "Wrack on the strandline, thick and golden.", "sub": "Loose wrack, round in section and glossy. Several species wash up together, so a photograph like this proves nothing about any one of them." },
+          { "img": "eucheuma-wet", "alt": "Thick golden wrack washed up on a beach", "cap": "Wrack on the strandline, thick and golden.", "sub": "This is not <i>Eucheuma</i>, and it is not being used to identify it here. Loose wrack, round in section and glossy. Several species wash up together, so a photograph like this proves nothing about any one of them." },
           { "img": "chondrus-dried", "alt": "Dried red seaweed, flat and forking", "cap": "Dried <i>Chondrus crispus</i>.", "sub": "Flat, forking, dark rather than golden, and thin enough to see light through." }
         ] }
       ]

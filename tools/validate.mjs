@@ -108,6 +108,12 @@ function stripAllowed(s) {
   return t;
 }
 
+/* The URL inside an inline href="..." is a reference, not copy: a link like
+   product-detox-redox.html would otherwise read as the claim word "detox". Strip
+   the attribute value before the claim/banned scan; the visible link text (and
+   everything else in the string) is left in place and still fully checked. */
+const stripHrefs = s => s.replace(/href="[^"<>]*"/g, 'href=""');
+
 const cut = s => {
   const one = String(s).replace(/\s+/g, ' ').trim();
   return one.length > 96 ? one.slice(0, 93) + '...' : one;
@@ -130,7 +136,8 @@ function checkDoc(file, d, kind) {
     }
 
     if (isRef(at)) continue;
-    const copy = stripAllowed(value);
+    if (REGISTRY[value]) continue;   // a bare registry handle used as a string, not copy
+    const copy = stripAllowed(stripHrefs(value));
     for (const re of CLAIM) {
       const m = copy.match(re);
       if (m) fail('claim word', `${at} "${m[0]}" in ${cut(value)}`);

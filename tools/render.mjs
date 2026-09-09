@@ -134,7 +134,7 @@ function nav(depth) {
     '    </div>',
     `    <a class="nav__mark" href="${p}index.html" aria-label="Herbase, home"><img src="${p}assets/wordmark.png" alt="Herbase"></a>`,
     '    <div class="nav__side nav__side--r">',
-    `      <a href="${j}"${cur}>Journal</a><a href="${p}index.html#shop">Consultation</a><a href="#" data-bag>Bag (0)</a>`,
+    `      <a href="${j}"${cur}>Journal</a><a href="${p}product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>`,
     '    </div>',
     '    <a class="nav__bag" href="#">Bag (0)</a>',
     '  </div>',
@@ -148,13 +148,17 @@ function nav(depth) {
 const LEGAL_PRODUCT = 'Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.';
 const LEGAL_ARTICLE = 'This article is general information about a food, written by the person who sells it. It is not medical advice and it makes no claim that any product will treat, cure or prevent any condition. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.';
 
-/** credits[] plus the automatic generated-scene line when a generated image is used. */
+/** credits[] plus the automatic generated-scene line when a generated image is used.
+ *  The prefix names only what the page actually carries: pages with at least one
+ *  credited Commons image keep the existing sentence (byte-identical for the golden
+ *  seaking page); a page with no Commons or Unsplash image at all gets a prefix that
+ *  says so instead of naming sources it does not use. */
 export function creditsLine(list, usedImages) {
   const parts = (list || []).filter(Boolean);
-  let s = 'Photography via Unsplash and Wikimedia Commons.';
+  let s = parts.length ? 'Photography via Unsplash and Wikimedia Commons.' : 'Photographs of the shop by Herbase.';
   if (parts.length) s += ' ' + parts.join(' · ');
   if ((usedImages || []).some(isGenerated)) {
-    s += ' · Some scenes generated (Nano Banana Pro), not photographs of Herbase stock.';
+    s += (parts.length ? ' · ' : ' ') + 'Some scenes generated (Nano Banana Pro), not photographs of Herbase stock.';
   }
   return s;
 }
@@ -178,7 +182,7 @@ function foot(depth, credits, legal) {
     '      </div>',
     '      <div>',
     '        <h3>Know</h3>',
-    `        <a href="${href('journal/who-should-not.html', depth)}">Safety and contraindications</a><a href="${href('journal/how-we-source.html', depth)}">How we source</a><a href="${p}index.html#shop">The consultation</a><a href="${j}">Journal</a>`,
+    `        <a href="${href('journal/who-should-not.html', depth)}">Safety and contraindications</a><a href="${href('journal/how-we-source.html', depth)}">How we source</a><a href="${p}product-consultation.html">The consultation</a><a href="${j}">Journal</a>`,
     '      </div>',
     '      <div>',
     '        <h3>Orders</h3>',
@@ -771,9 +775,9 @@ export function renderArticle(d) {
 /* ── shop page ────────────────────────────────────────────────────────── */
 
 const SHOP_GROUPS = [
-  ['botanicals', 'Single ingredients', 'One named plant, resin or oil to a jar.', ['botanical', 'mineral', 'oil']],
-  ['formulas', 'Formulas', 'Blends of named botanicals, each list printed in full on its own sheet.', ['formula']],
-  ['mushrooms', 'Mushrooms', 'Fruiting body, named species.', ['mushroom']],
+  ['botanicals', 'Single ingredients', 'One plant, resin or oil, named as far as the label names it.', ['botanical', 'mineral', 'oil']],
+  ['formulas', 'Formulas', 'Blends of botanicals. Each sheet prints the list the listing gives, and says so where it gives none.', ['formula']],
+  ['mushrooms', 'Mushrooms', 'Named species, with the part printed where the listing prints it.', ['mushroom']],
   ['seamoss', 'Sea moss', 'Gels and capsules, by species and preparation.', ['seamoss']],
   ['kits', 'Kits', 'Several jars boxed together, priced as a box.', ['kit']],
   ['objects', 'Books, apparel and objects', 'Everything on the shelf that is not a supplement.', ['object', 'apparel', 'book', 'service']],
@@ -815,9 +819,8 @@ export function renderShop() {
   const top = ['<section class="best">', '  <div class="wrap">', '    <div class="head">'];
   top.push('      <p class="label rv">The shelf</p>');
   const total = Object.keys(reg).length;
-  const built = Object.values(reg).filter(r => r.built).length;
   top.push('      <h2 class="dsp rv d1" style="margin-top:12px">Everything, <em>grouped as it sits</em></h2>');
-  top.push(`      <p class="rv d2">${total} products. ${built} have a specification sheet written; the rest link to theirs as it is published. Prices as listed.</p>`);
+  top.push(`      <p class="rv d2">${total} products, every one with a specification sheet. Prices as listed.</p>`);
   top.push('    </div>');
   top.push('    <p class="shopnav rv d2">' + SHOP_GROUPS.map(g => `<a href="#${g[0]}">${esc(g[1])}</a>`).join('') + '</p>');
   top.push('  </div>', '</section>');

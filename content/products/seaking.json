@@ -5,7 +5,10 @@
   "title": "Seaking · Sea moss formula in capsules, 75 µg iodine each · Herbase",
   "description": "Seaking capsules. Chondrus crispus, bladderwrack, kelp, chlorella and clove. 50 vegan capsules at 800 mg, 75 µg of iodine in each, 25 day supply, £39.99. Sent from Smithdown Road, Liverpool.",
   "css": "/* five declared ingredients, not four: the grid takes a fifth column rather than\n   leaving an empty cell in the last row */\n@media(min-width:800px){.ingr__grid{grid-template-columns:repeat(5,1fr)}}\n@media(max-width:799px){.ingr__grid .ing:nth-child(5){grid-column:1/-1}.ingr__grid .ing:nth-child(5) img{aspect-ratio:2.2}}",
-  "crumb": ["Sea moss", "index.html#best"],
+  "crumb": [
+    "Sea moss",
+    "index.html#best"
+  ],
   "price": "£39.99",
   "unit": "50 capsules · 25 days · £1.60 a day",
   "label": "Sea moss · the capsule",
@@ -45,7 +48,7 @@
   ],
   "points": [
     "<b>Five declared ingredients</b>, four algae and one clove, each named in Latin",
-    "<b>75 µg of iodine per capsule</b>, 150 µg in the two you take. Measured, and printed",
+    "<b>75 µg of iodine per capsule</b>, 150 µg in the two you take. The only such figure printed on this site",
     "<b>Two capsules each morning</b>, with at least 500 ml of water. Two a day is the ceiling"
   ],
   "perks": [
@@ -177,20 +180,62 @@
     "intro": "Everything we can tell you about what is in the tub, including the one figure here that is measured rather than estimated.",
     "caption": "Seaking",
     "rows": [
-      ["Makeup", "The Northern Soul formula dried and milled into a capsule: four algae from three families, grouped by pigment, plus clove. Red (Rhodophyta), brown (Ochrophyta) and green (Chlorophyta)."],
-      ["Base", "<i>Chondrus crispus</i>, Irish sea moss, cold Atlantic. Wildcrafted, not pool grown."],
-      ["Declared list", "<i>Chondrus crispus</i> · <i>Syzygium aromaticum</i> (clove) · <i>Fucus vesiculosus</i> (bladderwrack) · Laminariales (kelp) · <i>Chlorella</i>. The <a href=\"product.html#spec\">gel's list</a> is the same four algae without the clove."],
-      ["Dose", "800 mg per vegan capsule"],
-      ["Count", "50 capsules · 25 day supply"],
-      ["Price", "£39.99. Two capsules a day works out at about £1.60 a day."],
-      ["Serving", "Two capsules each morning, with at least 500 ml of water. Do not take more than two in a day."],
-      ["Iodine", "75 µg per capsule. 150 µg in the two capsules that make a day's serving. The reference intake for an adult is 150 µg a day, so two capsules are the whole of it."],
-      ["Weight", "Listed at 100 g for the pack as it ships. The contents are 50 × 800 mg, which is 40 g."],
-      ["Capsule", "Vegan capsule. The shell material is not named on the listing, so we do not name one here."],
-      ["Storage", "Closed, dry, at room temperature. No refrigeration. The pack prints no storage instruction of its own."],
-      ["Excipients", "None declared. The list is five ingredients long and there is no sixth on it."],
-      ["Suitable for", "Vegans. Adults."],
-      ["Not for", "Anyone with an overactive thyroid (hyperthyroidism). If you take thyroid medication, or you are pregnant or nursing, ask your GP, pharmacist or midwife before starting."]
+      [
+        "Makeup",
+        "The Northern Soul formula dried and milled into a capsule: four algae from three families, grouped by pigment, plus clove. Red (Rhodophyta), brown (Ochrophyta) and green (Chlorophyta)."
+      ],
+      [
+        "Base",
+        "<i>Chondrus crispus</i>, Irish sea moss, cold Atlantic. Wildcrafted, not pool grown."
+      ],
+      [
+        "Declared list",
+        "<i>Chondrus crispus</i> · <i>Syzygium aromaticum</i> (clove) · <i>Fucus vesiculosus</i> (bladderwrack) · Laminariales (kelp) · <i>Chlorella</i>. The <a href=\"product.html#spec\">gel's list</a> is the same four algae without the clove."
+      ],
+      [
+        "Dose",
+        "800 mg per vegan capsule"
+      ],
+      [
+        "Count",
+        "50 capsules · 25 day supply"
+      ],
+      [
+        "Price",
+        "£39.99. Two capsules a day works out at about £1.60 a day."
+      ],
+      [
+        "Serving",
+        "Two capsules each morning, with at least 500 ml of water. Do not take more than two in a day."
+      ],
+      [
+        "Iodine",
+        "75 µg per capsule. 150 µg in the two capsules that make a day's serving. The reference intake for an adult is 150 µg a day, so two capsules are the whole of it."
+      ],
+      [
+        "Weight",
+        "Listed at 100 g for the pack as it ships. The contents are 50 × 800 mg, which is 40 g."
+      ],
+      [
+        "Capsule",
+        "Vegan capsule. The shell material is not named on the listing, so we do not name one here."
+      ],
+      [
+        "Storage",
+        "Closed, dry, at room temperature. No refrigeration. The pack prints no storage instruction of its own."
+      ],
+      [
+        "Excipients",
+        "None declared. The list is five ingredients long and there is no sixth on it."
+      ],
+      [
+        "Suitable for",
+        "Vegans. Adults."
+      ],
+      [
+        "Not for",
+        "Anyone with an overactive thyroid (hyperthyroidism). If you take thyroid medication, or you are pregnant or nursing, ask your GP, pharmacist or midwife before starting."
+      ]
     ],
     "smallprint": "Contains iodine from seaweed. Do not exceed two capsules a day. Speak to your GP or pharmacist before starting any supplement, particularly if you have a thyroid condition or take medication for one. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
     "doctrine": {
@@ -206,20 +251,55 @@
       "People buy Seaking for two reasons. They travel, and a jar that needs a fridge is no use to them. Or they need to know exactly how much iodine they have had that day, usually because somebody at a surgery has asked them to. The second reason is the better one, and it is the only thing the capsule does that the gel does not."
     ],
     "pull": "Seventy five micrograms. I would rather give you one number I can stand behind.",
-    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
   },
   "cmp": {
     "h2": "What to check on <em>any</em> capsule",
     "intro": "Ours, next to what we usually see on tubs that people bring into the shop.",
-    "head": ["On the label", "Seaking", "Typical listing"],
+    "head": [
+      "On the label",
+      "Seaking",
+      "Typical listing"
+    ],
     "rows": [
-      ["Every ingredient named in Latin", "✓", "Often \"marine blend\""],
-      ["Milligrams per capsule stated", "800 mg", "Per serving, if at all"],
-      ["A measured iodine figure", "75 µg", "Rarely printed"],
-      ["Capsule count and days stated", "50 · 25 days", "Count only"],
-      ["A daily ceiling on the pack", "✓", "\"Take as needed\""],
-      ["Vegan capsule shell", "✓", "Often gelatin"],
-      ["Somebody to ask, at a counter", "✓", "A contact form"]
+      [
+        "Every ingredient named in Latin",
+        "✓",
+        "Often \"marine blend\""
+      ],
+      [
+        "Milligrams per capsule stated",
+        "800 mg",
+        "Per serving, if at all"
+      ],
+      [
+        "A measured iodine figure",
+        "75 µg",
+        "Rarely printed"
+      ],
+      [
+        "Capsule count and days stated",
+        "50 · 25 days",
+        "Count only"
+      ],
+      [
+        "A daily ceiling on the pack",
+        "✓",
+        "\"Take as needed\""
+      ],
+      [
+        "Vegan capsule shell",
+        "✓",
+        "Often gelatin"
+      ],
+      [
+        "Somebody to ask, at a counter",
+        "✓",
+        "A contact form"
+      ]
     ],
     "note": "The right-hand column is what we most often see on tubs customers bring in. It is not a claim about any particular brand, and some of them do tick every box."
   },
@@ -243,15 +323,12 @@
       {
         "handle": "purple-mwani",
         "name": "Purple Mwani",
-        "href": "product.html#also",
-        "img": "eucheuma-wet",
         "alt": "Purple Mwani sea moss",
         "sub": "<i>Eucheuma cottonii</i>, the warm-water species, from Tanzania. Lasts ten to twenty days."
       },
       {
         "handle": "nu-heru",
         "name": "Nu Heru",
-        "href": "product.html#also",
         "img": "red-algae-pool",
         "alt": "Nu Heru sea moss gel",
         "sub": "Red sea moss with hibiscus, elderberry and baobab. 300 ml or 500 ml."
