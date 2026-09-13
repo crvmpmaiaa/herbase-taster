@@ -94,6 +94,15 @@ const SKIP_FILES = new Set([
   'data/products-live.json',
   'data/queries.md',
   'HANDOVER.md',
+  // Auto-generated from every catalogue entry's `queries` field, one open
+  // question per line. A query has to be able to name the term it's asking
+  // about, so the banned-language check doesn't belong on this page.
+  'client-questions.html',
+  // Archive of the sea moss gel and dependent kits pulled off the live site
+  // 2026-09-13, kept so the work isn't lost while Environmental Health
+  // certification is pending. Same category as products-source.md: a data
+  // file, never rendered as a page.
+  'data/paused-sea-moss-gel.json',
 ]);
 // 'compare' is Jacob's original, unedited work parked for an honest A/B look,
 // same reasoning as 'variants' and 'directions': reference builds, not the live storefront.

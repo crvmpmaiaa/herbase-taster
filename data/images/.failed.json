@@ -1,8 +1,11 @@
 [
   {
-    "file": "products/northern-soul-sea-moss.jpg",
-    "ratio": "1:1",
-    "subject": "Chondrus crispus, bladderwrack and kelp fronds together on wet rock, cold Atlantic shoreline",
-    "note": "Failed 3x server-side (Kling FAIL status, not rate-limit) on 8-9 Sep. Worth a different prompt or a later retry, not a content-policy issue as far as we could tell."
+    "file": "products/shop/anamu-counter.jpg",
+    "ratio": "4:3",
+    "refs": [
+      "assets/shop-ref/counter-real-2025-12.png"
+    ],
+    "subject": "A small glass dish of plain unlabelled capsules beside a fresh cut anamu leaf, on the till counter from the reference image. Same counter, same mural, same lighting as the reference. No pack, no label, no text anywhere. No people.",
+    "error": "Command failed: kling image_to_image --image /Users/admin/herbase-taster/assets/shop-ref/counter-real-2025-12.png --model gemini-3-pro-image --aspect_ratio 4:3 --img_resolution 2k --image_count 1 --poll 300 Editorial specimen photograph in the style of a natural history plate reshot on a large format camera. Dark slate, unpolished stone or aged oak bench as the ground, deep near-black background falling away at the edges. Single source of raking daylight from one side, as if from a tall window, warm amber where it lands. Cool blue-green in the shadows. Rich shadow detail, nothing crushed to pure black. Fine natural film grain, no digital sharpening halo, shallow but controlled depth of field. Quiet, precise, unstyled. Museum register rather than advertising. A small glass dish of plain unlabelled capsules beside a fresh cut anamu leaf, on the till counter from the reference image. Same counter, same mural, same lighting as the reference. No pack, no label, no text anywhere. No people. ABSOLUTELY NO TEXT, no lettering, no labels, no printed packaging, no logos, no watermarks. No people, no faces, no hands. No branded jars, tubs, sachets or boxes of any kind. Not a product advertisement.\n[kling] Uploading local file: /Users/admin/herbase-taster/assets/shop-ref/counter-real-2025-12.png\nFailed to upload /Users/admin/herbase-taster/assets/shop-ref/counter-real-2025-12.png: {\"ok\":false,\"status\":400,\"body\":\"Kling MCP is handling too many requests right now. Please slow down and retry shortly.\"}\n[kling] New version 0.2.0 found (current 0.1.3). Upgrade and try again: npm i -g @klingai/cli-global@latest --registry=https://registry.npmjs.org/\n"
   }
 ]

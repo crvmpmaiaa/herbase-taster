@@ -1,0 +1,33 @@
+[
+  {
+    "file": "products/shop/northern-soul-counter.jpg",
+    "ratio": "4:3",
+    "refs": ["assets/shop-ref/counter-real-2025-12.png", "assets/northern-soul-jar.jpg"],
+    "keepRealLabel": true,
+    "subject": "The real glass jar of Northern Soul sea moss gel from the second reference, its label kept exactly as shown, standing on the till counter from the first reference. Counter surface, green marbled mural and pendant lighting exactly as the reference. Late morning window light from the left, jar catching a highlight, shallow depth of field softening the mural behind it. No people, no other products in frame."
+  },
+  {
+    "file": "products/shop/seaking-counter.jpg",
+    "ratio": "4:3",
+    "refs": ["assets/shop-ref/counter-real-2025-12.png"],
+    "subject": "A plain unlabelled clear glass jar of fine dark green seaweed capsules, lid off, a small heap of the same capsules spilled beside it, standing on the till counter from the reference image. Same counter, same mural, same lighting mood as the reference. No label, no text of any kind on the jar. No people."
+  },
+  {
+    "file": "products/shop/shilajit-counter.jpg",
+    "ratio": "4:3",
+    "refs": ["assets/shop-ref/counter-real-2025-12.png"],
+    "subject": "A small steel spoon already holding a thick black resin, resting flat on the till counter from the reference image, the resin settled and still, entirely contained on the spoon's bowl with no drip or thread hanging in the air above it. A plain unlabelled dark glass jar beside it, lid open. Same counter, same mural, same lighting as the reference. No label, no text anywhere. No people."
+  },
+  {
+    "file": "products/shop/decolonise-counter.jpg",
+    "ratio": "4:3",
+    "refs": ["assets/shop-ref/counter-real-2025-12.png"],
+    "subject": "A small stack of plain unlabelled vegan capsules and a short heap of dried dark botanical material on a folded cloth, on the till counter from the reference image. Same counter, same mural, same lighting as the reference. No jar label, no pack, no text. No people."
+  },
+  {
+    "file": "products/shop/anamu-counter.jpg",
+    "ratio": "4:3",
+    "refs": ["assets/shop-ref/counter-real-2025-12.png"],
+    "subject": "A small glass dish of plain unlabelled capsules beside a fresh cut anamu leaf, on the till counter from the reference image. Same counter, same mural, same lighting as the reference. No pack, no label, no text anywhere. No people."
+  }
+]

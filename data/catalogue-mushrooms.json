@@ -2,16 +2,16 @@
   {
     "handle": "shungite-pyramid",
     "name": "Shungite Pyramid",
-    "subtitle": "Shungite, 8cm x 8cm pyramid",
+    "subtitle": "Shungite, cut to an 8cm x 8cm pyramid",
     "category": "minerals",
     "price": "28.99",
     "variants": [{ "title": "8cm x 8cm pyramid", "price": "28.99" }],
     "form": "Cut and polished stone",
-    "standfirst": "A pyramid cut and polished from shungite, the carbon-bearing stone from the shungite deposits of Karelia in north west Russia. This is a mineral object, not a food supplement: no dose, no ingredients list, just the stone itself, 8cm at the base.",
+    "standfirst": "Shungite - a carbon-bearing stone, cut and polished into an 8cm x 8cm pyramid here. It comes from the Karelia deposits in north west Russia, and it's a stone, not a supplement: no dose, no ingredients list, just the mineral itself, eight centimetres at the base.",
     "body": [
-      "Shungite comes from a group of deposits in Karelia, in north west Russia, close to Lake Onega. The rock formed in the Precambrian, somewhere around two billion years ago, from organic sediment that was buried, heated and compressed until its carbon content locked into place. It is one of the oldest carbon-bearing rocks known, and one of the few places on earth where carbon of this kind occurs in a solid, workable stone rather than as coal or graphite.",
-      "The stone itself is black, dense and slightly greasy to the touch when polished, closer in feel to graphite than to a typical crystal. It cuts and takes a shine well, which is why it is worked into pyramids, spheres and jewellery rather than left as raw rubble. This piece is cut to an 8cm x 8cm pyramid, with the four faces polished to a low sheen.",
-      "Shungite is also one of the very few natural minerals known to contain fullerenes, carbon molecules including C60, in trace amounts. That is a genuine, documented feature of the rock's chemistry. It is a fact about what the stone is made of, not a description of anything it does once it is in a room."
+      "Shungite comes out of a group of deposits in Karelia, close to Lake Onega, in the far north west of Russia. The rock formed in the Precambrian, something like two billion years back, laid down as organic sediment then buried, heated and pressed until the carbon in it locked solid. It's one of the oldest carbon-bearing rocks we know of, and one of the few places on earth where that carbon sits in a workable stone, rather than as coal or graphite.",
+      "The stone itself is black, dense and a little greasy under the fingers once it's polished, closer to graphite in feel than to a crystal. It cuts and takes a shine well, which is why it gets worked into pyramids, spheres and jewellery rather than left as raw rubble. This piece is an 8cm x 8cm pyramid, four faces polished to a low sheen.",
+      "Shungite is also one of the small number of natural minerals known to carry fullerenes, carbon molecules that include C60, in trace amounts. That's a genuine, documented feature of the rock's chemistry. It's a fact about what the stone is made of, not what it does once it's sitting in a room."
     ],
     "spec": [
       ["Material", "Shungite, a carbon-bearing metamorphic rock"],
@@ -22,12 +22,12 @@
       ["Finish", "Cut and polished"],
       ["Notable compound", "Contains naturally occurring fullerenes, including C60, in trace amounts"]
     ],
-    "dose": "Not applicable. This is a mineral object, not a food supplement, and is not taken by mouth.",
-    "supply": "One pyramid per order.",
+    "dose": "Not applicable. It's a stone, not a food supplement, and it isn't taken by mouth.",
+    "supply": "One pyramid, one to an order.",
     "cautions": [
-      "Not a food supplement and not for ingestion.",
-      "Keep away from small children: a stone this size and weight is a choking and impact hazard.",
-      "Polished stone can chip if dropped on a hard surface, handle it the way you would any dense mineral piece."
+      "Not a food supplement, and not for ingestion.",
+      "Keep it away from small children. A stone this size and weight is a choking and an impact hazard.",
+      "Polished stone chips if it's dropped on a hard surface. Handle it the way you'd handle any dense mineral piece."
     ],
     "image": "shungite-pyramid",
     "imageSubject": "A black polished shungite pyramid, 8cm at the base, photographed against a plain neutral surface, showing its dark lustre.",
@@ -48,11 +48,11 @@
     "price": "24.99",
     "variants": [{ "title": "Vegan capsules", "price": "24.99" }],
     "form": "Capsules",
-    "standfirst": "Hericium erinaceus, the shaggy white bracket fungus known as lion's mane, encapsulated on its own with no fillers. The listing doesn't yet print a capsule count, a capsule weight or an extraction method, so this page states only what is confirmed and queries the rest.",
+    "standfirst": "Hericium erinaceus - the shaggy white bracket fungus known as lion's mane, encapsulated here on its own, no fillers added. The current listing doesn't print a capsule count, a capsule weight or an extraction method, so this page holds to what's confirmed and leaves the rest as a question.",
     "body": [
-      "Hericium erinaceus grows on the wounds of hardwood trees, mostly beech and oak, in temperate forests across the northern hemisphere. It fruits as a single cascading mass of long white spines rather than a cap and stem, which is where its common names come from: lion's mane, bearded tooth, monkey head, pom pom mushroom.",
-      "Herbase's capsules are described on the listing as 100% Hericium erinaceus with no fillers, bulking agents or contaminants. What isn't stated is whether the mushroom used is fruiting body, grown on logs or substrate and harvested as the actual fungus, or mycelium grown on grain, which is a cheaper and very different material sold under the same name. Neither is disclosed on the current listing, and it's the single most useful thing this label could say.",
-      "The same goes for extraction. A capsule can be filled with plain dried powder, or with a hot water or dual extract concentrated to a stated ratio, and the two behave very differently. None of that is printed here either. A beta-glucan percentage, the marker most labels use to show how much of the mushroom's structural material actually made it into the capsule, is also missing."
+      "Hericium erinaceus grows out of the wounds of hardwood trees, mostly beech and oak, right across the temperate forests of the northern hemisphere. It doesn't fruit as a cap and stem at all, it fruits as one cascading mass of long white spines, and that's where every one of its names comes from: lion's mane, bearded tooth, monkey head, pom pom mushroom.",
+      "The listing describes Herbase's capsules as 100% Hericium erinaceus, no fillers, no bulking agents, no contaminants. What it doesn't say is whether the mushroom used is fruiting body, the fungus itself, grown on logs or substrate and harvested directly, or mycelium grown on grain, a cheaper and very different material that gets sold under the same name. Neither is stated on the current listing, and it's the one fact that would tell a customer what they're actually holding.",
+      "The same question sits over extraction. A capsule can be filled with plain dried powder, or with a hot water or dual extract concentrated down to a stated ratio, and the two aren't the same material at all. None of that's printed here either. A beta-glucan percentage, the figure most labels use to show how much of the mushroom's structural material actually made it into the capsule, is missing too."
     ],
     "spec": [
       ["Botanical name", "Hericium erinaceus"],
@@ -61,10 +61,10 @@
       ["Form", "Vegan capsule"],
       ["Other ingredients", "None stated beyond the capsule shell: described as free from fillers, bulking agents and contaminants"]
     ],
-    "dose": "Two capsules in the morning with at least 500 ml of spring water.",
-    "supply": "Capsule count and capsule weight are not printed on the current listing, so we can't give a day count here. See queries.",
+    "dose": "Two capsules in the morning, with at least 500 ml of spring water.",
+    "supply": "Capsule count and capsule weight aren't printed on the current listing, so we can't work out a day count here. See queries.",
     "cautions": [
-      "Always consult a healthcare professional before use, particularly if pregnant, nursing or taking medication.",
+      "Always consult a healthcare professional before use, particularly if you're pregnant, nursing or on medication.",
       "Not suitable for anyone with a known mushroom or fungal allergy."
     ],
     "image": "lions-mane",
@@ -82,16 +82,16 @@
   {
     "handle": "elite-noble-shungite-stone",
     "name": "Elite Noble Shungite Stone",
-    "subtitle": "Noble grade shungite, approx. 20-30 g",
+    "subtitle": "Noble grade shungite, approx. 20 to 30 g",
     "category": "minerals",
     "price": "26.99",
     "variants": [{ "title": "Approx. 20-30 g stone", "price": "26.99" }],
     "form": "Cut stone",
-    "standfirst": "A hand-sized piece of noble shungite, the high-carbon grade of the stone, cut from the Karelia deposits in north west Russia. Around 20 to 30 grams, no ingredients, no dose: a mineral object described as what it is.",
+    "standfirst": "Noble shungite - the high-carbon grade of the stone, cut from the Karelia deposits in north west Russia, hand-sized here at around 20 to 30 grams. No ingredients, no dose: a mineral object, described as what it is.",
     "body": [
-      "Shungite from Karelia varies a great deal by grade. Ordinary shungite runs to somewhere between 30 and 50 percent carbon and is dull black. The rarer grade, sometimes called noble or elite shungite, runs much higher, close to pure carbon, and has a silvery, almost metallic lustre where ordinary shungite is matte. This stone is sold as that higher grade.",
-      "The listing states a carbon content of around 99 percent for this stone. That figure describes the proportion of the rock that is carbon, which is a straightforward compositional fact about a mineral, the same kind of figure you'd expect for any ore or gemstone. It is not a description of anything the stone does once you own it.",
-      "Shungite of any grade, including this one, is also one of the few natural minerals known to contain trace fullerenes, including C60. That's a genuine feature of the rock's chemistry and worth stating plainly. Each stone weighs approximately 20 to 30 grams, small enough to sit in a pocket or a drawer."
+      "Shungite out of Karelia varies a great deal by grade. Ordinary shungite runs somewhere between 30 and 50 percent carbon and reads dull black. The rarer grade, called noble or elite shungite, runs much higher, close to pure carbon, and carries a silvery, almost metallic lustre where the ordinary stone is matte. This stone is sold as that higher grade.",
+      "The listing states a carbon content of around 99 percent for this stone. That figure describes the proportion of the rock that's carbon, a straightforward compositional fact about a mineral, the same kind of figure you'd expect on any ore or gemstone. It isn't a description of anything the stone does once you own it.",
+      "Shungite of any grade, including this one, is also one of the few natural minerals known to carry trace fullerenes, including C60. That's a genuine feature of the rock's chemistry, worth stating plainly. Each stone weighs approximately 20 to 30 grams, small enough to sit in a pocket or a drawer."
     ],
     "spec": [
       ["Material", "Shungite, noble or elite grade (high carbon content)"],
@@ -101,11 +101,11 @@
       ["Weight", "Approximately 20 to 30 g"],
       ["Notable compound", "Contains naturally occurring fullerenes, including C60, in trace amounts"]
     ],
-    "dose": "Not applicable. This is a mineral object, not a food supplement, and is not taken by mouth.",
+    "dose": "Not applicable. It's a stone, not a food supplement, and it isn't taken by mouth.",
     "supply": "One stone per order, weighing approximately 20 to 30 g.",
     "cautions": [
-      "Not a food supplement and not for ingestion.",
-      "Keep away from small children: a stone this size is a choking hazard."
+      "Not a food supplement, and not for ingestion.",
+      "Keep it away from small children: a stone this size is a choking hazard."
     ],
     "image": "elite-noble-shungite-stone",
     "imageSubject": "A single lustrous, silvery-black noble shungite stone, roughly palm sized, photographed against a plain neutral surface showing its metallic sheen.",
@@ -126,10 +126,10 @@
     "price": "24.99",
     "variants": [{ "title": "50 capsules x 800 mg", "price": "24.99" }],
     "form": "Capsules",
-    "standfirst": "Ganoderma lucidum, sold as reishi, 50 vegan capsules at 800 mg each. Described on the listing as 100% pure with no fillers.",
+    "standfirst": "Ganoderma lucidum - sold here as reishi, 50 vegan capsules at 800 mg each, described on the listing as 100% pure with no fillers.",
     "body": [
-      "Ganoderma lucidum is a bracket fungus that grows on the trunks and roots of deciduous trees, particularly plum, oak and maple. In the wild it forms a hard, woody, kidney-shaped cap with a glossy, varnished-looking surface, dark reddish-brown fading to cream at the growing edge. It is known across East Asia by many names, most commonly reishi in Japan and lingzhi in China, and has one of the longest continuous trade histories of any medicinal mushroom.",
-      "Herbase's capsules list the fill as 800 mg of Ganoderma lucidum, described as 100% pure, in a pack of 50 vegan capsules. What the listing doesn't say is whether that 800 mg is the whole mushroom in powdered form, fruiting body or mycelium grown on grain, or a concentrated extract at a stated ratio. It also doesn't give a beta-glucan figure. These are the facts that would tell a customer what grade of reishi they're actually buying, and none of them are on the label yet."
+      "Ganoderma lucidum is a bracket fungus that grows on the trunks and roots of deciduous trees, plum, oak and maple especially. In the wild it forms a hard, woody, kidney-shaped cap with a glossy, varnished surface, dark reddish-brown fading to cream at the growing edge. It's known across East Asia under many names, most commonly reishi in Japan and lingzhi in China, and few fungi anywhere carry as long a continuous trade history.",
+      "Herbase's capsules list the fill as 800 mg of Ganoderma lucidum, described as 100% pure, in a pack of 50 vegan capsules. What the listing doesn't say is whether that 800 mg is the whole mushroom in powdered form, fruiting body or mycelium grown on grain, or a concentrated extract at a stated ratio. It doesn't give a beta-glucan figure either. These are the facts that would actually tell a customer what grade of reishi they're buying, and none of them are on the label yet."
     ],
     "spec": [
       ["Botanical name", "Ganoderma lucidum"],
@@ -140,10 +140,10 @@
       ["Capsule fill", "800 mg, described as 100% Ganoderma lucidum"],
       ["Other ingredients", "None printed beyond the capsule shell"]
     ],
-    "dose": "Two capsules daily with breakfast or lunch, with at least 500 ml of spring water.",
-    "supply": "Fifty capsules. At two a day that's 25 days.",
+    "dose": "Two capsules a day with breakfast or lunch, and at least 500 ml of spring water.",
+    "supply": "Fifty capsules. At two a day, that's 25 days.",
     "cautions": [
-      "Always consult a healthcare professional before use, particularly if pregnant, nursing or taking medication.",
+      "Always consult a healthcare professional before use, particularly if you're pregnant, nursing or on medication.",
       "Not suitable for anyone with a known mushroom or fungal allergy."
     ],
     "image": "reishi-mushroom",
@@ -164,10 +164,10 @@
     "price": "19.99",
     "variants": [{ "title": "1 bottle", "price": "19.99" }],
     "form": "Oil",
-    "standfirst": "A liquid oil blend formulated to a stated ratio of six parts omega-3 to one part omega-6, delivering 9,000 mg of omega-3 per tablespoon. The listing doesn't name the plant it comes from or confirm the DHA content, so both are logged as queries.",
+    "standfirst": "An oil blend formulated to a stated ratio of six parts omega-3 to one part omega-6, delivering 9,000 mg of omega-3 per tablespoon. The listing doesn't name the plant it's pressed from or confirm a DHA figure, so both sit logged as queries.",
     "body": [
-      "The listing describes this oil as rich in alpha-linolenic acid, ALA, an omega-3 fatty acid, blended to a ratio of six parts omega-3 to one part omega-6. It states a figure of 9,000 mg of omega-3 per tablespoon. What it doesn't state anywhere is which plant the oil is pressed from, whether that's flaxseed, hemp, chia or something else, and there's no separate DHA figure printed, only the total omega-3 number.",
-      "That distinction matters. ALA is a precursor the body converts into other fatty acids including DHA, but it isn't DHA itself, and a product's DHA content has to be measured and printed on its own to say anything about DHA specifically. Until we have that figure and the source plant confirmed, this page states the ratio and the total omega-3 figure as printed and nothing more."
+      "The listing describes this oil as rich in alpha-linolenic acid, ALA, an omega-3 fatty acid, blended to a ratio of six parts omega-3 to one part omega-6. It states a figure of 9,000 mg of omega-3 per tablespoon. What it doesn't state anywhere is which plant the oil's pressed from, flaxseed, hemp, chia or something else, and there's no separate DHA figure printed, only the total omega-3 number.",
+      "That distinction actually matters. ALA is a precursor the body converts into other fatty acids, DHA among them, but it isn't DHA itself, and a product's DHA content has to be measured and printed on its own before it says anything about DHA specifically. Until we have that figure and the source plant confirmed, this page states the ratio and the total omega-3 figure exactly as printed, and nothing more."
     ],
     "spec": [
       ["Format", "Liquid oil"],
@@ -178,8 +178,8 @@
       ["Plant source", "Not stated on the current listing"],
       ["Storage", "Keep refrigerated"]
     ],
-    "dose": "One tablespoon daily.",
-    "supply": "One bottle. Printed on the listing as a one month supply. Bottle volume in millilitres is not given.",
+    "dose": "One tablespoon a day.",
+    "supply": "One bottle. Printed on the listing as a one month supply. Bottle volume in millilitres isn't given.",
     "cautions": [
       "Always consult a healthcare professional before taking supplements.",
       "Not intended to replace prescription medication.",
@@ -203,10 +203,10 @@
     "price": "29.99",
     "variants": [{ "title": "1 piece, approx. 10 g", "price": "29.99" }],
     "form": "Loose stone",
-    "standfirst": "A small piece of noble shungite, around 10 g, from the same Karelia deposits as the rest of the range. A mineral object, sold loose, one piece per order.",
+    "standfirst": "A small piece of noble shungite, around 10 g, from the same Karelia deposits as the rest of the range. A mineral object, sold loose, one piece to an order.",
     "body": [
-      "This is a smaller piece of the same high-carbon shungite as the Elite Noble Shungite Stone, cut down to around 10 g, small enough to sit in a jug, a bottle or a bowl. The listing gives it the same 99% carbon figure as the larger stone.",
-      "Shungite of this grade has the same silvery, semi-metallic lustre described elsewhere on this site, and the same trace fullerene content, including C60, that has been documented in shungite generally. Beyond its size, there is nothing that separates this piece from the Elite Noble Shungite Stone except the price and the smaller weight."
+      "This is a smaller piece of the same high-carbon shungite as the Elite Noble Shungite Stone, cut down to around 10 g, small enough to sit in a jug, a bottle or a bowl. The listing gives it the same 99 percent carbon figure as the larger stone.",
+      "Shungite of this grade carries the same silvery, semi-metallic lustre described elsewhere on this site, and the same trace fullerene content, C60 included, documented in shungite generally. Beyond size, there's nothing separating this piece from the Elite Noble Shungite Stone except the price and the smaller weight."
     ],
     "spec": [
       ["Material", "Shungite, noble or elite grade (high carbon content)"],
@@ -216,11 +216,11 @@
       ["Quantity", "1 piece"],
       ["Notable compound", "Contains naturally occurring fullerenes, including C60, in trace amounts"]
     ],
-    "dose": "Not applicable. This is a mineral object, not a food supplement, and is not taken by mouth.",
+    "dose": "Not applicable. It's a stone, not a food supplement, and it isn't taken by mouth.",
     "supply": "One stone per order, weighing approximately 10 g.",
     "cautions": [
-      "Not a food supplement and not for ingestion.",
-      "A stone this size is a choking hazard, keep it away from small children and pets."
+      "Not a food supplement, and not for ingestion.",
+      "A stone this size is a choking hazard. Keep it away from small children and pets."
     ],
     "image": "shungite-water-stones",
     "imageSubject": "A small, tumbled shungite nugget, a couple of centimetres across, on a plain surface, showing its dark lustrous surface at close range.",
@@ -240,11 +240,11 @@
     "price": "29.99",
     "variants": [{ "title": "50 capsules", "price": "29.99" }],
     "form": "Capsules",
-    "standfirst": "Petiveria alliacea, sold as Anamu, 50 vegan capsules with no fillers, binders or artificial ingredients.",
+    "standfirst": "Petiveria alliacea - sold as Anamu, 50 vegan capsules with no fillers, binders or artificial ingredients.",
     "body": [
-      "Petiveria alliacea is a shrub native to the Caribbean and South America, also known as guinea hen weed, mucura or tipi. It grows wild across the region and is a familiar plant in Caribbean and South American herbal traditions, most easily identified by the strong sulphurous, garlic-like smell that comes off its crushed leaves and root, a smell that carries through into the dried and encapsulated material.",
-      "That smell comes from sulphur compounds in the plant, including dibenzyl trisulphide, one of the compounds Anamu is best known for chemically. Herbase's capsules are 100% Petiveria alliacea, harvested from organically grown sources in the Caribbean and South America, with no fillers, binders or artificial ingredients added at the encapsulation stage.",
-      "Each pack is 50 vegan capsules. The listing's own guidance on how long that lasts doesn't agree with itself, at one capsule a day it calls fifty capsules a forty day supply, which is a discrepancy we've flagged rather than repeated here."
+      "Petiveria alliacea is a shrub native to the Caribbean and South America, known too as guinea hen weed, mucura, tipi. It grows wild right across the region and sits deep in Caribbean and South American herbal tradition, most easily known by the strong sulphurous, garlic-like smell that comes off its crushed leaves and root, a smell that carries straight through into the dried, encapsulated material.",
+      "That smell comes from sulphur compounds in the plant, dibenzyl trisulphide among them, one of the compounds Anamu is best known for chemically. Herbase's capsules are 100% Petiveria alliacea, harvested from organically grown sources in the Caribbean and South America, nothing added at the encapsulation stage, no fillers, no binders, no artificial ingredients.",
+      "Each pack is 50 vegan capsules. The listing's own guidance on how long that lasts doesn't agree with itself: at one capsule a day it calls fifty capsules a forty day supply, a discrepancy we've flagged rather than repeated here."
     ],
     "spec": [
       ["Botanical name", "Petiveria alliacea"],
@@ -257,11 +257,11 @@
       ["Other ingredients", "None. No fillers, binders or artificial ingredients"],
       ["Notable compound", "Contains sulphur compounds including dibenzyl trisulphide (DTS)"]
     ],
-    "dose": "One to two capsules a day with a meal and 500 ml of spring water.",
-    "supply": "Fifty capsules per pack. The listing's own day-count figures don't agree with themselves, see queries, so we haven't stated a supply length here.",
+    "dose": "One to two capsules a day, with a meal and 500 ml of spring water.",
+    "supply": "Fifty capsules to a pack. The listing's own day-count figures don't agree with themselves, see queries, so we haven't stated a supply length here.",
     "cautions": [
       "Not for use in pregnancy or while breastfeeding.",
-      "Speak to your GP first if you take prescribed medication."
+      "Speak to your GP first if you're on prescribed medication."
     ],
     "image": "anamu-capsules",
     "imageSubject": "Fresh Petiveria alliacea foliage, leaves and stem, photographed against a plain background.",
@@ -279,10 +279,10 @@
     "price": "24.99",
     "variants": [{ "title": "Vegan capsules, 750 mg", "price": "24.99" }],
     "form": "Capsules",
-    "standfirst": "Inonotus obliquus, sold as Chaga, 750 mg of extract per capsule, described as free from fillers or additives. The listing doesn't print a capsule count.",
+    "standfirst": "Inonotus obliquus - sold as Chaga, 750 mg of extract to a capsule, described as free from fillers or additives. The listing doesn't print a capsule count.",
     "body": [
-      "Inonotus obliquus grows on living birch trees in cold climates across the northern hemisphere, forming a hard, black, cracked mass on the trunk that looks more like burnt charcoal than a mushroom. That black mass, properly called a conk or sclerotium, is the part harvested and used, rather than a cap and gills.",
-      "Herbase's capsules list 750 mg of pure Chaga extract per capsule, in a vegan formulation free from fillers or additives. As with the other mushroom pages in this batch, what isn't stated is whether that 750 mg is dried whole material or a concentrated extract at a given ratio, whether it's the conk itself or mycelium grown on grain, and what the beta-glucan content is. The pack doesn't state how many capsules it contains either."
+      "Inonotus obliquus grows on living birch trees in cold climates right across the northern hemisphere, forming a hard, black, cracked mass on the trunk that looks more like burnt charcoal than a mushroom. That mass, properly called a conk or a sclerotium, is the part harvested and used, not a cap and gills at all.",
+      "Herbase's capsules list 750 mg of pure Chaga extract to a capsule, in a vegan formulation free from fillers or additives. As with the other mushroom pages in this batch, what isn't stated is whether that 750 mg is dried whole material or a concentrated extract at a given ratio, whether it's the conk itself or mycelium grown on grain, and what the beta-glucan content actually is. The pack doesn't state how many capsules it holds either."
     ],
     "spec": [
       ["Botanical name", "Inonotus obliquus"],
@@ -292,10 +292,10 @@
       ["Capsule fill", "750 mg per capsule, described as pure Chaga extract"],
       ["Other ingredients", "None stated beyond the capsule shell: described as free from fillers or additives"]
     ],
-    "dose": "Two capsules daily with breakfast and at least 500 ml of spring water.",
-    "supply": "Capsule count per pack is not printed on the current listing, so we can't give a day count. See queries.",
+    "dose": "Two capsules daily with breakfast, and at least 500 ml of spring water.",
+    "supply": "Capsule count to a pack isn't printed on the current listing, so we can't work out a day count here. See queries.",
     "cautions": [
-      "Anyone using insulin or other blood-sugar-lowering medication should discuss this product with their GP before use, and monitor blood glucose closely if they do.",
+      "Anyone using insulin or another blood-sugar-lowering medication should discuss this product with their GP before use, and watch their blood glucose closely if they do.",
       "Always consult a healthcare professional before starting any new supplement.",
       "Not suitable for anyone with a known mushroom or fungal allergy."
     ],
@@ -318,11 +318,11 @@
     "price": "39.99",
     "variants": [{ "title": "50 g amber glass jar", "price": "39.99" }],
     "form": "Resin",
-    "standfirst": "A dual-extracted resin scraped from rock in the Altai Mountains, sold in a 50 g amber glass jar. Fulvic acid and humic acid are named on the listing as compounds present in the resin.",
+    "standfirst": "Shilajit - a dual-extracted resin scraped from rock in the Altai Mountains, sold here in a 50 g amber glass jar. Fulvic acid and humic acid are named on the listing as compounds present in the resin.",
     "body": [
-      "Shilajit is a dark, sticky resin that seeps out of rock strata in a handful of high-altitude mountain regions, the Altai among them. It forms over long stretches of time as plant matter, trapped and compressed between layers of rock, breaks down slowly under pressure and heat into a dense organic material rich in humic substances. It's essentially the compressed by-product of ancient plant decay squeezed out of the mountainside.",
-      "Herbase's resin is described as dual-extracted and lab-tested, sold in a 50 g amber glass jar. Fulvic acid and humic acid are the two named compounds on the listing, both naturally occurring humic substances typical of this kind of material rather than anything unique to this product. The listing also names a longer list of minerals present, including zinc, copper, nickel, manganese, potassium, phosphorus, vanadium, chromium, cobalt and magnesium, though it doesn't give a lab-verified breakdown with quantities.",
-      "Because shilajit is scraped from rock rather than grown and harvested, purity testing is a real and useful thing to ask about, specifically testing for heavy metals like lead, arsenic and mercury, which can occur alongside the mineral content in unrefined material from some sources. Whether this particular resin has been tested for that isn't stated on the current listing, and it's the single fact that would most improve this page."
+      "Shilajit is a dark, sticky resin that seeps out of rock strata in a handful of high-altitude mountain regions, the Altai among them. It forms over long stretches of time as plant matter, trapped and pressed between layers of rock, breaks down slowly under pressure and heat into a dense organic material rich in humic substances. At bottom, it's the compressed by-product of ancient plant decay, squeezed out of the mountainside. Think of the archetype of mountains, and this reads as Capricorn, set in resin.",
+      "Herbase's resin is described as dual-extracted and lab-tested, sold in a 50 g amber glass jar. Fulvic acid and humic acid are the two named compounds on the listing, both naturally occurring humic substances typical of this kind of material rather than anything unique to this product. The listing also names a longer list of minerals present, zinc, copper, nickel, manganese, potassium, phosphorus, vanadium, chromium, cobalt and magnesium among them, though it doesn't give a lab-verified breakdown with quantities.",
+      "Because shilajit is scraped from rock rather than grown and harvested, purity testing is a real and useful question, specifically testing for heavy metals like lead, arsenic and mercury, which can occur alongside the mineral content in unrefined material from some sources. Whether this particular resin's been tested for that isn't stated on the current listing, and it's the single fact that would most improve this page."
     ],
     "spec": [
       ["Material", "Shilajit resin"],
@@ -333,12 +333,12 @@
       ["Minerals listed by the supplier", "Zinc, copper, nickel, manganese, potassium, phosphorus, vanadium, chromium, cobalt, magnesium, without stated quantities"],
       ["Heavy metal testing", "Not stated on the current listing"]
     ],
-    "dose": "A pea-sized portion dissolved in 300 to 500 ml of warm spring water, taken once daily in the morning, or morning and evening.",
+    "dose": "A pea-sized portion, dissolved in 300 to 500 ml of warm spring water, taken once daily in the morning, or morning and evening.",
     "supply": "One 50 g jar. Printed on the listing as approximately a two month supply.",
     "cautions": [
       "Always consult a healthcare professional before use.",
       "Not for use in pregnancy or while breastfeeding without medical advice.",
-      "Material scraped directly from rock can carry heavy metals if it isn't properly tested and purified. Ask to see a certificate of analysis before use if you have any doubt."
+      "Material scraped straight from rock can carry heavy metals if it isn't properly tested and purified. Ask to see a certificate of analysis before use if you've any doubt."
     ],
     "image": "shilajit-resin",
     "imageSubject": "A dark, glossy piece of shilajit resin on a small spoon, showing its sticky, tar-like texture and colour in daylight.",
@@ -356,10 +356,10 @@
     "price": "39.99",
     "variants": [{ "title": "50 capsules x 800 mg", "price": "39.99" }],
     "form": "Capsules",
-    "standfirst": "A blend of four mushrooms, lion's mane, cordyceps, chaga and reishi, each described as 100% pure, in 50 vegan capsules at 800 mg. The capsule shell is hydroxypropyl methylcellulose.",
+    "standfirst": "A blend of four mushrooms - lion's mane, cordyceps, chaga and reishi, each described as 100% pure, in 50 vegan capsules at 800 mg. The capsule shell itself is hydroxypropyl methylcellulose.",
     "body": [
-      "Mycrodose combines four mushroom species in one capsule: Hericium erinaceus (lion's mane), Cordyceps militaris (cordyceps), Inonotus obliquus (chaga) and Ganoderma lucidum (reishi). Each is listed on the label as 100% pure, and the capsule shell itself is named as hydroxypropyl methylcellulose, a plant-derived vegan capsule material.",
-      "The pack is 50 capsules at 800 mg each. What isn't stated is how that 800 mg is divided between the four mushrooms, so we can't say how much of any single species is actually in a capsule. As with the single-species mushroom pages in this batch, the listing also doesn't say whether each mushroom is fruiting body or mycelium grown on grain, what extraction method is used, or what the beta-glucan content is, for the blend as a whole or for any of the four species individually."
+      "Mycrodose brings four mushroom species together in one capsule: Hericium erinaceus (lion's mane), Cordyceps militaris (cordyceps), Inonotus obliquus (chaga) and Ganoderma lucidum (reishi). Each is listed on the label as 100% pure, and the capsule shell itself is named as hydroxypropyl methylcellulose, a plant-derived vegan material.",
+      "The pack is 50 capsules at 800 mg each. What isn't stated is how that 800 mg splits across the four mushrooms, so we can't say how much of any single species actually sits in a capsule. As with the single-species mushroom pages in this batch, the listing also doesn't say whether each mushroom is fruiting body or mycelium grown on grain, what extraction method is used, or what the beta-glucan content is, for the blend as a whole or for any one of the four species."
     ],
     "spec": [
       ["Blend", "Hericium erinaceus (lion's mane), Cordyceps militaris (cordyceps), Inonotus obliquus (chaga), Ganoderma lucidum (reishi), each listed as 100% pure"],
@@ -368,10 +368,10 @@
       ["Capsules per pack", "50"],
       ["Capsule fill", "800 mg per capsule, blend total"]
     ],
-    "dose": "Two capsules daily with a meal and at least 500 ml of spring water.",
-    "supply": "Fifty capsules. At two a day that's 25 days.",
+    "dose": "Two capsules daily with a meal, and at least 500 ml of spring water.",
+    "supply": "Fifty capsules. At two a day, that's 25 days.",
     "cautions": [
-      "Always consult a healthcare professional before use, particularly if pregnant, nursing or taking medication.",
+      "Always consult a healthcare professional before use, particularly if you're pregnant, nursing or on medication.",
       "Not suitable for anyone with a known mushroom or fungal allergy."
     ],
     "image": "mycrodose",

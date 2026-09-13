@@ -47,6 +47,18 @@ const NEVER = [
   'Not a product advertisement.',
 ].join(' ');
 
+// The one exception: an entry may pass `keepRealLabel: true` when it names a
+// reference whose label has already been cleared (currently only the
+// Northern Soul jar). The blanket "no text" rule would otherwise fight the
+// point of that reference, which is to keep the real, already-approved label
+// legible. Everything else on the site still gets the full NEVER clause.
+const NEVER_BUT_KEEP_LABEL = [
+  'No invented text: reproduce only the wording already printed on the labelled reference image, exactly as shown there, nothing added or changed.',
+  'No people, no faces, no hands.',
+  'No product other than the one named in the reference.',
+  'Not a product advertisement.',
+].join(' ');
+
 const args = process.argv.slice(2);
 const force = args.includes('--force');
 const dry = args.includes('--dry');
@@ -55,24 +67,34 @@ const manifestArgs = args.filter((a) => !a.startsWith('--'));
 
 const exists = (p) => access(p).then(() => true, () => false);
 
-function promptFor(subject) {
-  return `${LOOK} ${subject.trim().replace(/\s+/g, ' ')} ${NEVER}`;
+function promptFor(subject, keepRealLabel) {
+  const never = keepRealLabel ? NEVER_BUT_KEEP_LABEL : NEVER;
+  return `${LOOK} ${subject.trim().replace(/\s+/g, ' ')} ${never}`;
 }
 
 async function generate(entry) {
   const target = join(ASSETS, entry.file);
   if (!force && (await exists(target))) return { ...entry, skipped: true };
 
-  const prompt = promptFor(entry.subject);
+  const prompt = promptFor(entry.subject, entry.keepRealLabel);
   if (dry) {
     console.log(`\n${entry.file}  [${entry.ratio}]\n${prompt}`);
+    if (entry.refs) console.log(`  refs: ${entry.refs.join(', ')}`);
     return { ...entry, dry: true };
   }
+
+  // Two-reference edit mode (image_to_image) when the entry names source
+  // images, e.g. the real shop counter plus a claim-clean product shot.
+  // Nano Banana Pro takes at most two references per call.
+  const refs = (entry.refs || []).slice(0, 2).map((r) => join(ROOT, r));
+  const klingArgs = refs.length
+    ? ['image_to_image', ...refs.flatMap((r) => ['--image', r])]
+    : ['text_to_image'];
 
   const { stdout } = await run(
     'kling',
     [
-      'text_to_image',
+      ...klingArgs,
       '--model', 'gemini-3-pro-image',
       '--aspect_ratio', entry.ratio || '16:9',
       '--img_resolution', '2k',

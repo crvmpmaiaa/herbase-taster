@@ -22,6 +22,19 @@ const italicise = (s) => esc(s).replace(
   '<i>$1</i>',
 );
 
+// The catalogue count moves (it dropped from 47 to 37 the day the sea moss
+// gel line paused), and the site writes it as a word, so it has to be
+// computed from the live product count rather than typed in twice and left
+// to drift, which is exactly what happened before this existed.
+const ONES = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine',
+  'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+const TENS = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+function numberInWords(n) {
+  if (n < 20) return ONES[n];
+  if (n < 100) return TENS[Math.floor(n / 10)] + (n % 10 ? `-${ONES[n % 10]}` : '');
+  return String(n); // out of band for a shop this size; fall back rather than guess
+}
+
 const CATEGORIES = [
   ['seamoss', 'Sea moss', 'Red and brown algae, as gel and as capsules. Two species, and we say which is which.'],
   ['formulas', 'Formulas', 'Multi-herb capsule blends. Every page lists what is in the capsule.'],
@@ -97,7 +110,12 @@ const foot = (d) => `
     <div class="foot__legal">
       <p class="credits">Photography made for this site. No stock library images.</p>
       <p>Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children. Do not exceed the stated dose.</p>
-      <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP. Food business registered with Liverpool City Council.</p>
+      <!-- "Food business registered with Liverpool City Council" dropped 2026-09-13:
+           Environmental Health has an open issue with the premises the sea moss
+           gel is made in, so asserting registration as settled fact is no longer
+           safe. Name and address is the actual legal minimum; put the
+           registration line back once it is confirmed clean. -->
+      <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP.</p>
     </div>
   </div>
 </footer>`;
@@ -255,9 +273,10 @@ function shopPage(all) {
     .map(([key, name, blurb]) => [key, name, blurb, all.filter((p) => p.category === key)])
     .filter(([, , , items]) => items.length);
 
+  const countWord = numberInWords(all.length);
   return `${head(d, {
     title: 'Everything we sell · Herbase',
-    description: 'The whole Herbase catalogue, forty-seven products, every one of them listed by species, part, count and dose rather than by what it is supposed to do.',
+    description: `The whole Herbase catalogue, ${countWord} products, every one of them listed by species, part, count and dose rather than by what it is supposed to do.`,
   })}
 ${nav(d)}
 
@@ -265,7 +284,7 @@ ${nav(d)}
   <div class="wrap">
     <p class="label rv">The shop</p>
     <h1 class="dsp rv d1">Everything we sell</h1>
-    <p class="shophead__lede rv d2">Forty-seven products. Each one is listed by what it is: the species, the part of the plant, the count in the pack and the dose on the label. What any of it does for you is not something we are allowed to tell you, and it is not something we would want to guess at anyway. <a href="journal/how-to-read-a-supplement-label.html">Here is how to read a label</a>, ours included.</p>
+    <p class="shophead__lede rv d2">${countWord[0].toUpperCase()}${countWord.slice(1)} products. Each one is listed by what it is: the species, the part of the plant, the count in the pack and the dose on the label. What any of it does for you is not something we are allowed to tell you, and it is not something we would want to guess at anyway. <a href="journal/how-to-read-a-supplement-label.html">Here is how to read a label</a>, ours included.</p>
     <nav class="shopnav rv d2" aria-label="Categories">
       ${groups.map(([key, name, , items]) => `<a href="#${key}">${esc(name)} <span>${items.length}</span></a>`).join('\n      ')}
     </nav>
