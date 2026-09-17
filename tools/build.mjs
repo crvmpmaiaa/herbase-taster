@@ -267,10 +267,17 @@ function card(p, d) {
 }
 
 // ── shop index ──────────────────────────────────────────────────────────────
+const FEATURED_FIRST = ['mycrodose', 'seaking-capsules-ns-formula'];
+
 function shopPage(all) {
   const d = 0;
   const groups = CATEGORIES
-    .map(([key, name, blurb]) => [key, name, blurb, all.filter((p) => p.category === key)])
+    .map(([key, name, blurb]) => [key, name, blurb, [
+      // A product may be cross-listed at the top of a second section (alsoIn),
+      // in the order the handles are listed here, ahead of the section's own.
+      ...FEATURED_FIRST.map((h) => all.find((p) => p.handle === h && (p.alsoIn || []).includes(key))).filter(Boolean),
+      ...all.filter((p) => p.category === key),
+    ]])
     .filter(([, , , items]) => items.length);
 
   const countWord = numberInWords(all.length);

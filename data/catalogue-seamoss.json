@@ -16,7 +16,7 @@
     "standfirst": "The Northern Soul formula in capsule form: Chondrus crispus, bladderwrack, kelp, chlorella and clove, in 50 vegan capsules of 800 mg. The only sea moss product on this site with a printed iodine figure.",
     "body": [
       "Seaking is the capsule version of the Northern Soul blend, Chondrus crispus, Syzygium aromaticum (clove), Fucus vesiculosus (bladderwrack), Laminariales (kelp) and Chlorella, encapsulated at 800 mg per vegan capsule, 50 to a pack.",
-      "Each capsule is measured at 75 \u00b5g of iodine, two capsules give 150 \u00b5g. Iodine contributes to normal thyroid function and to normal energy-yielding metabolism. 150 \u00b5g is the printed adult reference intake, so two capsules a day meets it in full. Do not exceed two capsules a day.",
+      "Each capsule is measured at 75 µg of iodine, two capsules give 150 µg. Iodine contributes to normal thyroid function and to normal energy-yielding metabolism. 150 µg is the printed adult reference intake, so two capsules a day meets it in full. Do not exceed two capsules a day.",
       "Take two capsules each morning with at least 500 ml of water. At two a day, a pack of 50 runs 25 days."
     ],
     "spec": [
@@ -42,19 +42,19 @@
       ],
       [
         "Iodine per capsule",
-        "75 \u00b5g"
+        "75 µg"
       ],
       [
         "Iodine per two capsules",
-        "150 \u00b5g. Iodine contributes to normal thyroid function and to normal energy-yielding metabolism"
+        "150 µg. Iodine contributes to normal thyroid function and to normal energy-yielding metabolism"
       ],
       [
         "Printed adult reference intake",
-        "150 \u00b5g a day, per the label"
+        "150 µg a day, per the label"
       ],
       [
         "Printed pregnancy and lactation intake",
-        "220 \u00b5g and 290 \u00b5g a day, per the label. See queries"
+        "220 µg and 290 µg a day, per the label. See queries"
       ],
       [
         "Maximum dose",
@@ -72,10 +72,13 @@
     "image": "seaking-capsules",
     "imageSubject": "Dried Chondrus crispus, bladderwrack, kelp fronds and whole cloves, arranged together",
     "queries": [
-      "The label's printed reference intakes (150 \u00b5g adult, 220 \u00b5g pregnancy, 290 \u00b5g lactation) read like US IOM RDA figures rather than the GB/EU nutrient reference value of 150 \u00b5g. Please confirm these are the figures actually printed on the pack before we repeat them.",
+      "The label's printed reference intakes (150 µg adult, 220 µg pregnancy, 290 µg lactation) read like US IOM RDA figures rather than the GB/EU nutrient reference value of 150 µg. Please confirm these are the figures actually printed on the pack before we repeat them.",
       "What proportion of the 800 mg capsule is clove versus the four algae? Not stated in the listing.",
       "Confirm whether the Chondrus crispus used in Seaking is wild harvested or farmed."
     ],
-    "sourceTitle": "SEAKING - FULL SPECTRUM NUTRITION"
+    "sourceTitle": "SEAKING - FULL SPECTRUM NUTRITION",
+    "alsoIn": [
+      "formulas"
+    ]
   }
 ]
