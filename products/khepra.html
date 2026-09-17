@@ -37,9 +37,12 @@
   <div class="wrap">
     <p class="crumb"><a href="../index.html">Home</a><span>/</span><a href="../shop.html">Shop</a><span>/</span><a href="../shop.html#apparel">Apparel</a><span>/</span>Khepra</p>
     <div class="pdp__grid">
-      <figure class="pdp__img rv">
-        <img src="../assets/products/khepra-tshirt.jpg" srcset="../assets/products/khepra-tshirt-m.jpg 800w, ../assets/products/khepra-tshirt.jpg 1600w" sizes="(min-width:900px) 620px, 100vw" alt="Flat lay of black cotton fabric showing the scarab print alone" decoding="async">
-      </figure>
+      <div class="pdp__media rv">
+        <figure class="pdp__img">
+          <img id="pdp-main" src="../assets/products/khepra-tshirt.jpg" srcset="../assets/products/khepra-tshirt-m.jpg 800w, ../assets/products/khepra-tshirt.jpg 1600w" sizes="(min-width:900px) 620px, 100vw" alt="Flat lay of black cotton fabric showing the scarab print alone" decoding="async">
+        </figure>
+        
+      </div>
       <div class="pdp__buy rv d1">
         <p class="label">Apparel</p>
         <h1 class="dsp">Khepra</h1>
@@ -158,6 +161,9 @@
   </div>
 </footer>
 
+<script>
+(function(){var m=document.getElementById('pdp-main');if(!m)return;document.querySelectorAll('.pdp__thumb').forEach(function(b){b.addEventListener('click',function(){m.src=b.dataset.src;m.srcset=b.dataset.m+' 800w, '+b.dataset.src+' 1600w';m.alt=b.dataset.alt;document.querySelectorAll('.pdp__thumb').forEach(function(x){x.classList.toggle('is-on',x===b)});});});})();
+</script>
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));

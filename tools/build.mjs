@@ -122,6 +122,9 @@ const foot = (d) => `
 
 const scripts = `
 <script>
+(function(){var m=document.getElementById('pdp-main');if(!m)return;document.querySelectorAll('.pdp__thumb').forEach(function(b){b.addEventListener('click',function(){m.src=b.dataset.src;m.srcset=b.dataset.m+' 800w, '+b.dataset.src+' 1600w';m.alt=b.dataset.alt;document.querySelectorAll('.pdp__thumb').forEach(function(x){x.classList.toggle('is-on',x===b)});});});})();
+</script>
+<script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 const burger=document.getElementById('burger'),drawer=document.getElementById('drawer');
@@ -139,6 +142,16 @@ function productPage(p, all, articles) {
   const d = 1;
   const img = `${up(d)}assets/products/${p.image}.jpg`;
   const imgM = `${up(d)}assets/products/${p.image}-m.jpg`;
+  // Gallery: the specimen still first, the shop-counter shot if one was made,
+  // then his own photos pulled from the live listing (data/live-images.json).
+  const gallery = [{ src: img, m: imgM, alt: p.imageSubject ? p.imageSubject.split('.')[0] : p.name }];
+  // Counter shots were named from a shorter key than the catalogue image in a
+  // few cases (anamu vs anamu-capsules), so match on either being a prefix.
+  const counterKey = [p.image, p.image.replace(/-(capsules|resin|gel|mushroom|mushrooms|stone)$/, ''), p.handle.split('-')[0]]
+    .find((k) => existsSync(join(ROOT, `assets/products/shop/${k}-counter.jpg`)));
+  const counter = counterKey ? `assets/products/shop/${counterKey}-counter.jpg` : null;
+  if (counter) gallery.push({ src: `${up(d)}${counter}`, m: `${up(d)}${counter.replace('.jpg', '-m.jpg')}`, alt: `${p.name} on the counter at Herbase` });
+  for (const key of LIVE_IMAGES[p.handle] || []) gallery.push({ src: `${up(d)}assets/products/live/${key}.jpg`, m: `${up(d)}assets/products/live/${key}-m.jpg`, alt: `${p.name}, photo from the shop` });
   const cat = CATEGORIES.find((c) => c[0] === p.category);
   const related = all.filter((x) => x.category === p.category && x.handle !== p.handle).slice(0, 4);
   const article = articles[p.handle];
@@ -175,9 +188,14 @@ ${nav(d)}
   <div class="wrap">
     <p class="crumb"><a href="${up(d)}index.html">Home</a><span>/</span><a href="${up(d)}shop.html">Shop</a><span>/</span><a href="${up(d)}shop.html#${p.category}">${esc(cat ? cat[1] : 'Shop')}</a><span>/</span>${esc(p.name)}</p>
     <div class="pdp__grid">
-      <figure class="pdp__img rv">
-        <img src="${img}" srcset="${imgM} 800w, ${img} 1600w" sizes="(min-width:900px) 620px, 100vw" alt="${esc(p.imageSubject ? p.imageSubject.split('.')[0] : p.name)}" decoding="async">
-      </figure>
+      <div class="pdp__media rv">
+        <figure class="pdp__img">
+          <img id="pdp-main" src="${gallery[0].src}" srcset="${gallery[0].m} 800w, ${gallery[0].src} 1600w" sizes="(min-width:900px) 620px, 100vw" alt="${esc(gallery[0].alt)}" decoding="async">
+        </figure>
+        ${gallery.length > 1 ? `<div class="pdp__thumbs" role="list">
+          ${gallery.map((g, i) => `<button type="button" role="listitem" class="pdp__thumb${i === 0 ? ' is-on' : ''}" data-src="${g.src}" data-m="${g.m}" data-alt="${esc(g.alt)}" aria-label="Photo ${i + 1} of ${gallery.length}"><img loading="lazy" decoding="async" src="${g.m}" alt=""></button>`).join('\n          ')}
+        </div>` : ''}
+      </div>
       <div class="pdp__buy rv d1">
         <p class="label">${esc(cat ? cat[1] : '')}</p>
         <h1 class="dsp">${esc(p.name)}</h1>
@@ -267,6 +285,9 @@ function card(p, d) {
 }
 
 // ── shop index ──────────────────────────────────────────────────────────────
+const LIVE_IMAGES = JSON.parse(await readFile(join(ROOT, 'data/live-images.json'), 'utf8'));
+const { existsSync } = await import('node:fs');
+
 const FEATURED_FIRST = ['mycrodose', 'seaking-capsules-ns-formula'];
 
 function shopPage(all) {

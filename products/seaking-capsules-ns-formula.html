@@ -37,9 +37,16 @@
   <div class="wrap">
     <p class="crumb"><a href="../index.html">Home</a><span>/</span><a href="../shop.html">Shop</a><span>/</span><a href="../shop.html#seamoss">Sea moss</a><span>/</span>Seaking</p>
     <div class="pdp__grid">
-      <figure class="pdp__img rv">
-        <img src="../assets/products/seaking-capsules.jpg" srcset="../assets/products/seaking-capsules-m.jpg 800w, ../assets/products/seaking-capsules.jpg 1600w" sizes="(min-width:900px) 620px, 100vw" alt="Dried Chondrus crispus, bladderwrack, kelp fronds and whole cloves, arranged together" decoding="async">
-      </figure>
+      <div class="pdp__media rv">
+        <figure class="pdp__img">
+          <img id="pdp-main" src="../assets/products/seaking-capsules.jpg" srcset="../assets/products/seaking-capsules-m.jpg 800w, ../assets/products/seaking-capsules.jpg 1600w" sizes="(min-width:900px) 620px, 100vw" alt="Dried Chondrus crispus, bladderwrack, kelp fronds and whole cloves, arranged together" decoding="async">
+        </figure>
+        <div class="pdp__thumbs" role="list">
+          <button type="button" role="listitem" class="pdp__thumb is-on" data-src="../assets/products/seaking-capsules.jpg" data-m="../assets/products/seaking-capsules-m.jpg" data-alt="Dried Chondrus crispus, bladderwrack, kelp fronds and whole cloves, arranged together" aria-label="Photo 1 of 3"><img loading="lazy" decoding="async" src="../assets/products/seaking-capsules-m.jpg" alt=""></button>
+          <button type="button" role="listitem" class="pdp__thumb" data-src="../assets/products/shop/seaking-counter.jpg" data-m="../assets/products/shop/seaking-counter-m.jpg" data-alt="Seaking on the counter at Herbase" aria-label="Photo 2 of 3"><img loading="lazy" decoding="async" src="../assets/products/shop/seaking-counter-m.jpg" alt=""></button>
+          <button type="button" role="listitem" class="pdp__thumb" data-src="../assets/products/live/seaking-capsules-ns-formula-1.jpg" data-m="../assets/products/live/seaking-capsules-ns-formula-1-m.jpg" data-alt="Seaking, photo from the shop" aria-label="Photo 3 of 3"><img loading="lazy" decoding="async" src="../assets/products/live/seaking-capsules-ns-formula-1-m.jpg" alt=""></button>
+        </div>
+      </div>
       <div class="pdp__buy rv d1">
         <p class="label">Sea moss</p>
         <h1 class="dsp">Seaking</h1>
@@ -153,6 +160,9 @@
   </div>
 </footer>
 
+<script>
+(function(){var m=document.getElementById('pdp-main');if(!m)return;document.querySelectorAll('.pdp__thumb').forEach(function(b){b.addEventListener('click',function(){m.src=b.dataset.src;m.srcset=b.dataset.m+' 800w, '+b.dataset.src+' 1600w';m.alt=b.dataset.alt;document.querySelectorAll('.pdp__thumb').forEach(function(x){x.classList.toggle('is-on',x===b)});});});})();
+</script>
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));

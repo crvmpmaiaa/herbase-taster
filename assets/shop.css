@@ -46,7 +46,11 @@
 
 .pdp__img{border-radius:3px;overflow:hidden;background:var(--night);aspect-ratio:4/3}
 .pdp__img img{width:100%;height:100%;object-fit:cover;display:block}
-@media(min-width:900px){.pdp__img{position:sticky;top:88px}}
+@media(min-width:900px){.pdp__media{position:sticky;top:88px}}
+.pdp__thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px;margin-top:10px}
+.pdp__thumb{padding:0;border:1px solid var(--rule);border-radius:3px;background:var(--night);aspect-ratio:1;overflow:hidden;cursor:pointer;opacity:.72;transition:opacity .2s var(--ease),border-color .2s var(--ease)}
+.pdp__thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.pdp__thumb:hover,.pdp__thumb:focus-visible,.pdp__thumb.is-on{opacity:1;border-color:var(--ink)}
 
 .pdp__buy .dsp{font-size:clamp(28px,4.4vw,52px);line-height:1.03;margin-top:10px}
 .pdp__sub{margin-top:12px;color:var(--ink-2);font-size:clamp(14px,1.25vw,17px);max-width:40ch}
