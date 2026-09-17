@@ -17,7 +17,9 @@ const esc = (s = '') => String(s)
 
 // Latin binomials get italicised wherever they appear in running copy.
 const LATIN = /\b([A-Z][a-z]+)\s(?:(?:crispus|cottonii|vesiculosus|alliacea|impetiginosa|somnifera|agnus-castus|ginseng|asiatica|membranaceus|simaruba|niruri|erinaceus|lucidum|obliquus|reptans|arabica|senegal|quinquefolius)|([a-z]{4,}))\b/g;
-const italicise = (s) => esc(s).replace(
+// Copy may also carry its own <i>Latin name</i> for a species the list below
+// does not know; that one tag is let back through after escaping.
+const italicise = (s) => esc(s).replace(/&lt;(\/?)i&gt;/g, '<$1i>').replace(
   /\b(Chondrus crispus|Eucheuma cottonii|Fucus vesiculosus|Gracilaria|Petiveria alliacea|Tabebuia impetiginosa|Handroanthus impetiginosus|Withania somnifera|Vitex agnus-castus|Panax ginseng|Panax quinquefolius|Centella asiatica|Astragalus membranaceus|Bursera simaruba|Phyllanthus niruri|Hericium erinaceus|Ganoderma lucidum|Inonotus obliquus|Ajuga reptans|Acacia senegal|Laminaria|Chlorella|Rhodophyta)\b/g,
   '<i>$1</i>',
 );
