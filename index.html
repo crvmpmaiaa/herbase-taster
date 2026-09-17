@@ -3,30 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#04100F">
+<meta name="theme-color" content="#061822">
 <title>Herbase · Wildcrafted herbal formulas · Liverpool</title>
 <meta name="description" content="Herbase, 599 Smithdown Road, Liverpool. Thirty-seven wildcrafted herbal and mineral formulas, every plant named in Latin and every milligram printed on the page.">
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
 <link rel="stylesheet" href="assets/site.css">
 <script>
-/* One of five scenes per visit. Runs before first paint, so no flash.
-   Each scene carries its own centre-scrim weight, because the brighter
-   nebulae need more help behind the wordmark than the dark ones. */
+/* One of four cosmic scenes per visit, chosen before first paint so there is
+   no flash. Each carries its own centre-scrim weight: the brighter ones need
+   more help behind the wordmark than the quiet ones. */
 (function(){
   var scenes=[
-    {f:'hero-cosmos.jpg', scrim:.86, name:'nebula'},
-    {f:'hero-sea.jpg',    scrim:.80, name:'tide'},
-    {f:'hero-root.jpg',   scrim:.93, name:'root'},
-    {f:'hero-fungi.jpg',  scrim:.88, name:'spore'}
+    {f:'hero-cosmic-1.jpg', scrim:.78, name:'aurora'},
+    {f:'hero-cosmic-2.jpg', scrim:.86, name:'spiral'},
+    {f:'hero-cosmic-3.jpg', scrim:.80, name:'botanic'},
+    {f:'hero-cosmic-4.jpg', scrim:.74, name:'spores'}
   ];
   var s=scenes[Math.floor(Math.random()*scenes.length)];
-  var mob=matchMedia('(max-width:700px)').matches;
-  var root=document.documentElement, href=new URL('assets/'+(mob?s.f.replace('.jpg','-m.jpg'):s.f),location.href).href;
-  root.style.setProperty('--hero-bg','url("'+href+'")');
-  root.style.setProperty('--hero-scrim',s.scrim);
+  var mob=matchMedia('(max-width:700px)').matches, root=document.documentElement;
+  var href=new URL('assets/'+(mob?s.f.replace('.jpg','-m.jpg'):s.f),location.href).href;
+  root.style.setProperty('--hero-bg','url("'+href+'")'); root.style.setProperty('--hero-scrim',s.scrim);
   root.setAttribute('data-scene',s.name);
-  var l=document.createElement('link'); l.rel='preload'; l.as='image'; l.href=href;
-  document.head.appendChild(l);
+  var l=document.createElement('link'); l.rel='preload'; l.as='image'; l.href=href; document.head.appendChild(l);
 })();
 </script>
 </head>
@@ -55,7 +53,7 @@
   <div class="hero__veil"></div>
   <canvas class="hero__dust" id="plx-dust"></canvas>
   <div class="wrap">
-    <img class="hero__logo rv" src="assets/wordmark-cream.png" alt="Herbase">
+    <img class="hero__logo rv" src="assets/wordmark-neon.png" alt="Herbase">
     <h1 class="dsp rv d1">An ancient apothecary <em>from the future</em></h1>
     <p class="hero__lede rv d2">Thirty-seven wildcrafted herbal and mineral formulas, made in small runs above the shop on Smithdown Road, Liverpool, every plant named in Latin, every milligram printed, how to take it and when to stop, all of it on the page before you buy.</p>
     <div class="hero__act rv d3">

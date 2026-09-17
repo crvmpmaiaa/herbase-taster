@@ -55,7 +55,7 @@ const head = (d, { title, description, extraCss = '', jsonLd = '' }) => `<!DOCTY
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#FFEDD2">
+<meta name="theme-color" content="#FFFFFF">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 <meta property="og:title" content="${esc(title)}">
