@@ -61,8 +61,8 @@ const head = (d, { title, description, extraCss = '', jsonLd = '' }) => `<!DOCTY
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
-<link rel="stylesheet" href="${up(d)}assets/site.css">
-<link rel="stylesheet" href="${up(d)}assets/shop.css">${extraCss}
+<link rel="stylesheet" href="${up(d)}assets/site.css?v=c52b4a5">
+<link rel="stylesheet" href="${up(d)}assets/shop.css?v=c52b4a5">${extraCss}
 ${jsonLd}</head>
 <body>`;
 
@@ -122,7 +122,12 @@ const foot = (d) => `
 
 const scripts = `
 <script>
-(function(){var m=document.getElementById('pdp-main');if(!m)return;document.querySelectorAll('.pdp__thumb').forEach(function(b){b.addEventListener('click',function(){m.src=b.dataset.src;m.srcset=b.dataset.m+' 800w, '+b.dataset.src+' 1600w';m.alt=b.dataset.alt;document.querySelectorAll('.pdp__thumb').forEach(function(x){x.classList.toggle('is-on',x===b)});});});})();
+(function(){var w=document.querySelector('.pdp__media[data-gallery]');if(!w)return;var g=JSON.parse(w.getAttribute('data-gallery')),i=0,m=document.getElementById('pdp-main'),n=document.getElementById('pdp-n');
+function show(k){i=(k+g.length)%g.length;m.src=g[i].s;m.srcset=g[i].m+' 800w, '+g[i].s+' 1600w';m.alt=g[i].a;n.textContent=i+1;}
+w.querySelector('.pdp__arrow--prev').addEventListener('click',function(){show(i-1)});w.querySelector('.pdp__arrow--next').addEventListener('click',function(){show(i+1)});
+document.addEventListener('keydown',function(e){if(e.key==='ArrowLeft')show(i-1);if(e.key==='ArrowRight')show(i+1);});
+var x0=null;m.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});m.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)show(dx<0?i+1:i-1);x0=null;},{passive:true});
+})();
 </script>
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
@@ -188,13 +193,13 @@ ${nav(d)}
   <div class="wrap">
     <p class="crumb"><a href="${up(d)}index.html">Home</a><span>/</span><a href="${up(d)}shop.html">Shop</a><span>/</span><a href="${up(d)}shop.html#${p.category}">${esc(cat ? cat[1] : 'Shop')}</a><span>/</span>${esc(p.name)}</p>
     <div class="pdp__grid">
-      <div class="pdp__media rv">
+      <div class="pdp__media rv"${gallery.length > 1 ? ` data-gallery='${JSON.stringify(gallery.map((g) => ({ s: g.src, m: g.m, a: g.alt })))}'` : ''}>
         <figure class="pdp__img">
           <img id="pdp-main" src="${gallery[0].src}" srcset="${gallery[0].m} 800w, ${gallery[0].src} 1600w" sizes="(min-width:900px) 620px, 100vw" alt="${esc(gallery[0].alt)}" decoding="async">
         </figure>
-        ${gallery.length > 1 ? `<div class="pdp__thumbs" role="list">
-          ${gallery.map((g, i) => `<button type="button" role="listitem" class="pdp__thumb${i === 0 ? ' is-on' : ''}" data-src="${g.src}" data-m="${g.m}" data-alt="${esc(g.alt)}" aria-label="Photo ${i + 1} of ${gallery.length}"><img loading="lazy" decoding="async" src="${g.m}" alt=""></button>`).join('\n          ')}
-        </div>` : ''}
+        ${gallery.length > 1 ? `<button type="button" class="pdp__arrow pdp__arrow--prev" aria-label="Previous photo">&#8249;</button>
+        <button type="button" class="pdp__arrow pdp__arrow--next" aria-label="Next photo">&#8250;</button>
+        <p class="pdp__count"><span id="pdp-n">1</span> / ${gallery.length}</p>` : ''}
       </div>
       <div class="pdp__buy rv d1">
         <p class="label">${esc(cat ? cat[1] : '')}</p>

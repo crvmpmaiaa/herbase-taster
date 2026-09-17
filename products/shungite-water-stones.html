@@ -9,8 +9,8 @@
 <meta property="og:title" content="Shungite Water Stones, Noble grade shungite, 1 piece, approx. 10 g · Herbase">
 <meta property="og:description" content="A small piece of noble shungite, around 10 g, from the same Karelia deposits as the rest of the range. A mineral object, sold loose, one piece to an order.">
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
-<link rel="stylesheet" href="../assets/site.css">
-<link rel="stylesheet" href="../assets/shop.css">
+<link rel="stylesheet" href="../assets/site.css?v=c52b4a5">
+<link rel="stylesheet" href="../assets/shop.css?v=c52b4a5">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Product","name":"Shungite Water Stones","description":"A small piece of noble shungite, around 10 g, from the same Karelia deposits as the rest of the range. A mineral object, sold loose, one piece to an order.","brand":{"@type":"Brand","name":"Herbase"},"offers":[{"@type":"Offer","name":"1 piece, approx. 10 g","price":"29.99","priceCurrency":"GBP","availability":"https://schema.org/InStock"}]}
 </script></head>
@@ -37,15 +37,13 @@
   <div class="wrap">
     <p class="crumb"><a href="../index.html">Home</a><span>/</span><a href="../shop.html">Shop</a><span>/</span><a href="../shop.html#minerals">Minerals and stones</a><span>/</span>Shungite Water Stones</p>
     <div class="pdp__grid">
-      <div class="pdp__media rv">
+      <div class="pdp__media rv" data-gallery='[{"s":"../assets/products/shungite-water-stones.jpg","m":"../assets/products/shungite-water-stones-m.jpg","a":"A small, tumbled shungite nugget, a couple of centimetres across, on a plain surface, showing its dark lustrous surface at close range"},{"s":"../assets/products/shop/shungite-water-stones-counter.jpg","m":"../assets/products/shop/shungite-water-stones-counter-m.jpg","a":"Shungite Water Stones on the counter at Herbase"},{"s":"../assets/products/live/shungite-water-stones-2.jpg","m":"../assets/products/live/shungite-water-stones-2-m.jpg","a":"Shungite Water Stones, photo from the shop"}]'>
         <figure class="pdp__img">
           <img id="pdp-main" src="../assets/products/shungite-water-stones.jpg" srcset="../assets/products/shungite-water-stones-m.jpg 800w, ../assets/products/shungite-water-stones.jpg 1600w" sizes="(min-width:900px) 620px, 100vw" alt="A small, tumbled shungite nugget, a couple of centimetres across, on a plain surface, showing its dark lustrous surface at close range" decoding="async">
         </figure>
-        <div class="pdp__thumbs" role="list">
-          <button type="button" role="listitem" class="pdp__thumb is-on" data-src="../assets/products/shungite-water-stones.jpg" data-m="../assets/products/shungite-water-stones-m.jpg" data-alt="A small, tumbled shungite nugget, a couple of centimetres across, on a plain surface, showing its dark lustrous surface at close range" aria-label="Photo 1 of 3"><img loading="lazy" decoding="async" src="../assets/products/shungite-water-stones-m.jpg" alt=""></button>
-          <button type="button" role="listitem" class="pdp__thumb" data-src="../assets/products/shop/shungite-water-stones-counter.jpg" data-m="../assets/products/shop/shungite-water-stones-counter-m.jpg" data-alt="Shungite Water Stones on the counter at Herbase" aria-label="Photo 2 of 3"><img loading="lazy" decoding="async" src="../assets/products/shop/shungite-water-stones-counter-m.jpg" alt=""></button>
-          <button type="button" role="listitem" class="pdp__thumb" data-src="../assets/products/live/shungite-water-stones-2.jpg" data-m="../assets/products/live/shungite-water-stones-2-m.jpg" data-alt="Shungite Water Stones, photo from the shop" aria-label="Photo 3 of 3"><img loading="lazy" decoding="async" src="../assets/products/live/shungite-water-stones-2-m.jpg" alt=""></button>
-        </div>
+        <button type="button" class="pdp__arrow pdp__arrow--prev" aria-label="Previous photo">&#8249;</button>
+        <button type="button" class="pdp__arrow pdp__arrow--next" aria-label="Next photo">&#8250;</button>
+        <p class="pdp__count"><span id="pdp-n">1</span> / 3</p>
       </div>
       <div class="pdp__buy rv d1">
         <p class="label">Minerals and stones</p>
@@ -178,7 +176,12 @@
 </footer>
 
 <script>
-(function(){var m=document.getElementById('pdp-main');if(!m)return;document.querySelectorAll('.pdp__thumb').forEach(function(b){b.addEventListener('click',function(){m.src=b.dataset.src;m.srcset=b.dataset.m+' 800w, '+b.dataset.src+' 1600w';m.alt=b.dataset.alt;document.querySelectorAll('.pdp__thumb').forEach(function(x){x.classList.toggle('is-on',x===b)});});});})();
+(function(){var w=document.querySelector('.pdp__media[data-gallery]');if(!w)return;var g=JSON.parse(w.getAttribute('data-gallery')),i=0,m=document.getElementById('pdp-main'),n=document.getElementById('pdp-n');
+function show(k){i=(k+g.length)%g.length;m.src=g[i].s;m.srcset=g[i].m+' 800w, '+g[i].s+' 1600w';m.alt=g[i].a;n.textContent=i+1;}
+w.querySelector('.pdp__arrow--prev').addEventListener('click',function(){show(i-1)});w.querySelector('.pdp__arrow--next').addEventListener('click',function(){show(i+1)});
+document.addEventListener('keydown',function(e){if(e.key==='ArrowLeft')show(i-1);if(e.key==='ArrowRight')show(i+1);});
+var x0=null;m.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});m.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)show(dx<0?i+1:i-1);x0=null;},{passive:true});
+})();
 </script>
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
