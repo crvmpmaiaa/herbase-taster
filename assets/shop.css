@@ -39,14 +39,13 @@
 .card2__price{display:block;padding:12px 15px 15px;font-family:var(--display);font-size:13px;letter-spacing:.06em}
 
 /* ─────────── product page: the buy block ─────────── */
-.pdp{padding-top:clamp(96px,10vw,140px);padding-bottom:clamp(30px,4vw,54px)}
+.pdp{padding-top:76px;padding-bottom:clamp(30px,4vw,54px)}
 .pdp .crumb{margin-bottom:clamp(18px,2.4vw,30px)}
 .pdp__grid{display:grid;gap:clamp(24px,3.4vw,56px);align-items:start}
 @media(min-width:900px){.pdp__grid{grid-template-columns:1.05fr .95fr}}
 
 .pdp__img{border-radius:3px;overflow:hidden;background:var(--night);aspect-ratio:4/3}
 .pdp__img img{width:100%;height:100%;object-fit:cover;display:block}
-@media(min-width:900px){.pdp__media{position:sticky;top:88px}}
 .pdp__thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px;margin-top:10px}
 .pdp__thumb{padding:0;border:1px solid var(--rule);border-radius:3px;background:var(--night);aspect-ratio:1;overflow:hidden;cursor:pointer;opacity:.72;transition:opacity .2s var(--ease),border-color .2s var(--ease)}
 .pdp__thumb img{width:100%;height:100%;object-fit:cover;display:block}
