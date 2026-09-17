@@ -212,7 +212,7 @@ ${nav(d)}
 
 <section class="mono spec" id="spec">
   <div class="wrap">
-    <div class="head"><p class="label">Specification</p><h2>What is actually in it</h2>
+    <div class="head"><p class="label">Specification</p><h2 class="dsp">What is actually in it</h2>
       <p>Everything on this sheet comes from the pack or the maker. Where a figure is not printed anywhere, it is not here either, and it is on the <a href="${up(d)}client-questions.html">question list</a> instead.</p></div>
     <table class="tbl">
       <tbody>
@@ -227,7 +227,7 @@ ${nav(d)}
 
 ${(p.cautions || []).length ? `<section class="cautions">
   <div class="wrap">
-    <div class="head"><p class="label">Before you take it</p><h2>Who should not take this</h2>
+    <div class="head"><p class="label">Before you take it</p><h2 class="dsp">Who should not take this</h2>
       <p>Safety information is the one thing a shop is always allowed to tell you, so we tell you all of it.</p></div>
     <ul class="cautions__list">
       ${p.cautions.map((c) => `<li>${italicise(c)}</li>`).join('\n      ')}
@@ -238,7 +238,7 @@ ${(p.cautions || []).length ? `<section class="cautions">
 
 ${related.length ? `<section class="also">
   <div class="wrap">
-    <div class="head"><p class="label">${esc(cat ? cat[1] : 'More')}</p><h2>The rest of the shelf</h2></div>
+    <div class="head"><p class="label">${esc(cat ? cat[1] : 'More')}</p><h2 class="dsp">The rest of the shelf</h2></div>
     <div class="cards">
       ${related.map((r) => card(r, d)).join('\n      ')}
     </div>
@@ -293,7 +293,7 @@ ${nav(d)}
 
 ${groups.map(([key, name, blurb, items]) => `<section class="shopgroup" id="${key}">
   <div class="wrap">
-    <div class="head"><p class="label">${items.length} ${items.length === 1 ? 'product' : 'products'}</p><h2>${esc(name)}</h2><p>${esc(blurb)}</p></div>
+    <div class="head"><p class="label">${items.length} ${items.length === 1 ? 'product' : 'products'}</p><h2 class="dsp">${esc(name)}</h2><p>${esc(blurb)}</p></div>
     <div class="cards">
       ${items.map((p) => card(p, d)).join('\n      ')}
     </div>
@@ -302,7 +302,7 @@ ${groups.map(([key, name, blurb, items]) => `<section class="shopgroup" id="${ke
 
 <section class="turn strip">
   <div class="wrap">
-    <div class="head"><p class="label">Why the pages read like this</p><h2>We publish the specification, you decide the rest</h2>
+    <div class="head"><p class="label">Why the pages read like this</p><h2 class="dsp">We publish the specification, you decide the rest</h2>
       <p>Every other shop in this category tells you what a plant will do to your body. Almost none of them are allowed to. We took all of that off these pages and put the species, the plant part, the count and the dose in its place, and we published the questions we are still asking the maker rather than filling the gaps in ourselves.</p>
       <p><a href="client-questions.html">The open questions</a> · <a href="journal/how-to-read-a-supplement-label.html">How to read a supplement label</a></p></div>
   </div>
