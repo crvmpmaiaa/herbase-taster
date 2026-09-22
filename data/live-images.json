@@ -2,11 +2,17 @@
   "1-hour-consultation": [
     "1-hour-consultation-1"
   ],
+  "acacia-bark": [
+    "acacia-bark-1"
+  ],
   "astragalus": [
     "astragalus-1"
   ],
-  "detox-redox": [
-    "detox-redox-1"
+  "bugle": [
+    "bugle-1"
+  ],
+  "chaga-mushrooms": [
+    "chaga-mushrooms-1"
   ],
   "detox-redox-book": [
     "detox-redox-book-1"
@@ -14,17 +20,21 @@
   "elite-noble-shungite-stone": [
     "elite-noble-shungite-stone-1"
   ],
-  "ginseng": [
-    "ginseng-1"
+  "gotu-kola": [
+    "gotu-kola-1"
+  ],
+  "gumbo-limbo": [
+    "gumbo-limbo-1"
   ],
   "mycrodose": [
-    "mycrodose-2"
-  ],
-  "reishi-mushrooms": [
-    "reishi-mushrooms-1"
+    "mycrodose-2",
+    "mycrodose-1"
   ],
   "seaking-capsules-ns-formula": [
     "seaking-capsules-ns-formula-1"
+  ],
+  "shilajit-resin": [
+    "shilajit-resin-1"
   ],
   "shungite-pyramid": [
     "shungite-pyramid-1"
