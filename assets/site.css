@@ -146,6 +146,9 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 
 /* ─────────── bestsellers ─────────── */
 .best{background:var(--paper-2);border-bottom:1px solid var(--rule)}
+.best .head{max-width:none}
+.best .head h2{white-space:nowrap;font-size:clamp(19px,2.4vw,34px)}
+.best .head p{max-width:44ch;margin-inline:auto}
 .best__grid{display:grid;gap:1px;grid-template-columns:minmax(0,1fr);background:var(--rule);border:1px solid var(--rule)}
 @media(min-width:520px){.best__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:900px){.best__grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
@@ -347,7 +350,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
   .jcard--lead .jcard__body p{font-size:15px;max-width:46ch}
 }
 .jcard--soon{justify-content:center;align-items:flex-start;gap:14px;padding:clamp(26px,3vw,40px);background:var(--paper-2)}
-.jcard--soon h3{font-size:clamp(16px,1.5vw,20px)}
+.jcard--soon h3{font-family:var(--display);font-weight:900;font-size:clamp(16px,1.5vw,20px)}
 .jcard--soon ul{list-style:none;display:grid;gap:8px;color:var(--ink-2);font-size:14px}
 .jcard--soon li::before{content:"·";color:var(--sun-ink);margin-right:10px;font-weight:700}
 .article{padding-top:clamp(28px,3vw,48px)}
