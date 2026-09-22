@@ -37,7 +37,8 @@ body::after{
 .wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
 .dsp{font-family:var(--display);font-weight:900;line-height:1.14;letter-spacing:0}
 .dsp em{font-style:normal;color:var(--sun-ink)}
-.label{font-family:var(--display);font-weight:400;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.label{font-family:var(--display);font-weight:400;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.label--under{margin-top:14px}
 :focus-visible{outline:2px solid var(--jungle);outline-offset:3px}
 .protocol :focus-visible,.foot :focus-visible{outline-color:var(--paper)}
 
