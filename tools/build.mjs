@@ -64,7 +64,7 @@ const head = (d, { title, description, extraCss = '', jsonLd = '' }) => `<!DOCTY
 <meta property="og:description" content="${esc(description)}">
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
 <link rel="icon" type="image/png" sizes="32x32" href="${up(d)}assets/favicon-32.png"><link rel="icon" type="image/png" sizes="512x512" href="${up(d)}assets/favicon-512.png"><link rel="apple-touch-icon" href="${up(d)}assets/apple-touch-icon.png">
-<link rel="stylesheet" href="${up(d)}assets/site.css?v=r3">
+<link rel="stylesheet" href="${up(d)}assets/site.css?v=r4">
 <link rel="stylesheet" href="${up(d)}assets/shop.css?v=r3">${extraCss}
 ${jsonLd}</head>
 <body>`;

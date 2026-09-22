@@ -264,7 +264,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .close__shot img{width:100%;height:100%;object-fit:cover;object-position:center 40%;filter:sepia(.14) contrast(1.03)}
 
 /* ─────────── footer ─────────── */
-.foot{background:var(--night);color:rgba(255,237,210,.78);padding-top:clamp(52px,6vw,84px);padding-bottom:112px;font-size:13px}
+.foot{background:var(--night);color:rgba(255,237,210,.78);padding-top:clamp(52px,6vw,84px);padding-bottom:112px;font-size:12px;text-transform:uppercase;letter-spacing:.08em;line-height:1.85}
 .foot__top{text-align:center;padding-bottom:clamp(34px,4vw,52px);border-bottom:1px solid rgba(255,237,210,.16)}
 .foot__top img{width:clamp(160px,20vw,240px);height:auto;filter:invert(1) brightness(1.6);opacity:.9}
 .foot__grid{display:grid;gap:30px;grid-template-columns:1fr;padding-top:clamp(34px,4vw,52px)}
@@ -272,7 +272,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .foot h3{font-family:var(--display);font-weight:700;font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--paper);margin-bottom:14px}
 .foot a{color:rgba(255,237,210,.78);text-decoration:none;display:block;padding:11px 0;transition:color .2s var(--ease)}
 .foot a:hover,.foot a:focus-visible{color:var(--paper)}
-.foot__legal{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,237,210,.16);font-size:12px;color:rgba(255,237,210,.6);line-height:1.75;display:grid;gap:8px}
+.foot__legal{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,237,210,.16);font-size:11px;color:rgba(255,237,210,.6);line-height:1.75;display:grid;gap:8px}
 
 /* ─────────── sticky buy ─────────── */
 .stickybuy{position:fixed;left:0;right:0;bottom:0;z-index:70;display:flex;align-items:center;justify-content:space-between;gap:12px;
