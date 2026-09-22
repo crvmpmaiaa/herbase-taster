@@ -64,8 +64,9 @@ const head = (d, { title, description, extraCss = '', jsonLd = '', hero = false 
 <meta property="og:description" content="${esc(description)}">
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
 <link rel="icon" type="image/png" sizes="32x32" href="${up(d)}assets/favicon-32.png"><link rel="icon" type="image/png" sizes="512x512" href="${up(d)}assets/favicon-512.png"><link rel="apple-touch-icon" href="${up(d)}assets/apple-touch-icon.png">
-<link rel="stylesheet" href="${up(d)}assets/site.css?v=r5">
+<link rel="stylesheet" href="${up(d)}assets/site.css?v=r6">
 <link rel="stylesheet" href="${up(d)}assets/shop.css?v=r3">${extraCss}
+<script src="${up(d)}assets/motion.js?v=1" defer></script>
 ${jsonLd}${hero ? SCENE_CHOOSER : ''}</head>
 <body${hero ? ' class="pg-shop"' : ''}>`;
 
@@ -225,7 +226,7 @@ ${nav(d)}
   <div class="wrap">
     <p class="crumb"><a href="${up(d)}index.html">Home</a><span>/</span><a href="${up(d)}shop.html">Shop</a><span>/</span><a href="${up(d)}shop.html#${p.category}">${esc(cat ? cat[1] : 'Shop')}</a><span>/</span>${esc(p.name)}</p>
     <div class="pdp__grid">
-      <div class="pdp__media rv"${gallery.length > 1 ? ` data-gallery='${JSON.stringify(gallery.map((g) => ({ s: g.src, m: g.m, a: g.alt })))}'` : ''}>
+      <div class="pdp__media rv"${gallery.length > 1 ? ` data-gallery='${JSON.stringify(gallery.map((g) => ({ s: g.src, m: g.m, a: g.alt }))).replace(/'/g, '&#39;')}'` : ''}>
         <figure class="pdp__img">
           <img id="pdp-main" src="${gallery[0].src}" srcset="${gallery[0].m} 800w, ${gallery[0].src} 1600w" sizes="(min-width:900px) 620px, 100vw" alt="${esc(gallery[0].alt)}" decoding="async">
         </figure>
