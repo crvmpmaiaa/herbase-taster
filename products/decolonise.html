@@ -202,12 +202,19 @@ var x0=null;m.addEventListener('touchstart',function(e){x0=e.touches[0].clientX}
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
-const burger=document.getElementById('burger'),drawer=document.getElementById('drawer');
+const burger=document.getElementById('burger'),drawer=document.getElementById('drawer'),nav=document.querySelector('.nav');
+// Over a hero the nav floats transparent. The drawer must never open on that
+// transparent ground, so an open drawer forces the solid state.
+const heroPage=!!document.querySelector('.hero');
+function solidify(){ if(!heroPage) return; (scrollY>140||drawer.hasAttribute('data-open'))?nav.setAttribute('data-solid',''):nav.removeAttribute('data-solid'); }
 burger.addEventListener('click',()=>{
   const open=drawer.hasAttribute('data-open');
   open?drawer.removeAttribute('data-open'):drawer.setAttribute('data-open','');
   burger.setAttribute('aria-expanded',String(!open));
+  solidify();
 });
+drawer.addEventListener('click',e=>{ if(e.target.closest('a')){drawer.removeAttribute('data-open');burger.setAttribute('aria-expanded','false');solidify();} });
+if(heroPage){ addEventListener('scroll',solidify,{passive:true}); solidify(); }
 
 document.querySelectorAll('.plan').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('.plan').forEach(x=>x.setAttribute('aria-pressed','false'));

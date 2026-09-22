@@ -52,7 +52,7 @@ const CATEGORIES = [
 // ── shared furniture ────────────────────────────────────────────────────────
 const up = (d) => '../'.repeat(d);
 
-const head = (d, { title, description, extraCss = '', jsonLd = '' }) => `<!DOCTYPE html>
+const head = (d, { title, description, extraCss = '', jsonLd = '', hero = false }) => `<!DOCTYPE html>
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
@@ -66,11 +66,33 @@ const head = (d, { title, description, extraCss = '', jsonLd = '' }) => `<!DOCTY
 <link rel="icon" type="image/png" sizes="32x32" href="${up(d)}assets/favicon-32.png"><link rel="icon" type="image/png" sizes="512x512" href="${up(d)}assets/favicon-512.png"><link rel="apple-touch-icon" href="${up(d)}assets/apple-touch-icon.png">
 <link rel="stylesheet" href="${up(d)}assets/site.css?v=r4">
 <link rel="stylesheet" href="${up(d)}assets/shop.css?v=r3">${extraCss}
-${jsonLd}</head>
-<body>`;
+${jsonLd}${hero ? SCENE_CHOOSER : ''}</head>
+<body${hero ? ' class="pg-shop"' : ''}>`;
 
-const nav = (d) => `
-<nav class="nav nav--solid" data-solid>
+// The homepage's per-visit cosmic scene, kept in step with index.html by hand.
+const SCENE_CHOOSER = `<script>
+/* One of four cosmic scenes per visit, chosen before first paint so there is
+   no flash. Each carries its own centre-scrim weight: the brighter ones need
+   more help behind the wordmark than the quiet ones. */
+(function(){
+  var scenes=[
+    {f:'hero-cosmic-1.jpg', scrim:.78, name:'aurora'},
+    {f:'hero-cosmic-2.jpg', scrim:.86, name:'spiral'},
+    {f:'hero-cosmic-3.jpg', scrim:.80, name:'botanic'},
+    {f:'hero-cosmic-4.jpg', scrim:.74, name:'spores'}
+  ];
+  var s=scenes[Math.floor(Math.random()*scenes.length)];
+  var mob=matchMedia('(max-width:700px)').matches, root=document.documentElement;
+  var href=new URL('assets/'+(mob?s.f.replace('.jpg','-m.jpg'):s.f),location.href).href;
+  root.style.setProperty('--hero-bg','url("'+href+'")'); root.style.setProperty('--hero-scrim',s.scrim);
+  root.setAttribute('data-scene',s.name);
+  var l=document.createElement('link'); l.rel='preload'; l.as='image'; l.href=href; document.head.appendChild(l);
+})();
+</script>
+`;
+
+const nav = (d, hero = false) => `
+<nav class="nav${hero ? '' : ' nav--solid'}"${hero ? '' : ' data-solid'}>
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
@@ -135,12 +157,19 @@ var x0=null;m.addEventListener('touchstart',function(e){x0=e.touches[0].clientX}
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
-const burger=document.getElementById('burger'),drawer=document.getElementById('drawer');
+const burger=document.getElementById('burger'),drawer=document.getElementById('drawer'),nav=document.querySelector('.nav');
+// Over a hero the nav floats transparent. The drawer must never open on that
+// transparent ground, so an open drawer forces the solid state.
+const heroPage=!!document.querySelector('.hero');
+function solidify(){ if(!heroPage) return; (scrollY>140||drawer.hasAttribute('data-open'))?nav.setAttribute('data-solid',''):nav.removeAttribute('data-solid'); }
 burger.addEventListener('click',()=>{
   const open=drawer.hasAttribute('data-open');
   open?drawer.removeAttribute('data-open'):drawer.setAttribute('data-open','');
   burger.setAttribute('aria-expanded',String(!open));
+  solidify();
 });
+drawer.addEventListener('click',e=>{ if(e.target.closest('a')){drawer.removeAttribute('data-open');burger.setAttribute('aria-expanded','false');solidify();} });
+if(heroPage){ addEventListener('scroll',solidify,{passive:true}); solidify(); }
 </script>
 </body>
 </html>`;
@@ -313,14 +342,17 @@ function shopPage(all) {
   return `${head(d, {
     title: 'Everything we sell · Herbase',
     description: `The whole Herbase catalogue, ${countWord} products, every one of them listed by species, part, count and dose rather than by what it is supposed to do.`,
+    hero: true,
   })}
-${nav(d)}
+${nav(d, true)}
 
-<header class="shophead">
+<header class="hero hero--shop" id="hero">
+  <div class="hero__bg"></div>
+  <div class="hero__veil"></div>
   <div class="wrap">
     <p class="label rv">The shop</p>
     <h1 class="dsp rv d1">Everything we sell</h1>
-    <p class="shophead__lede rv d2">${countWord[0].toUpperCase()}${countWord.slice(1)} products. Each one is listed by what it is: the species, the part of the plant, the count in the pack and the dose on the label. What any of it does for you is not something we are allowed to tell you, and it is not something we would want to guess at anyway. <a href="journal/how-to-read-a-supplement-label.html">Here is how to read a label</a>, ours included.</p>
+    <p class="hero__lede rv d2">${countWord[0].toUpperCase()}${countWord.slice(1)} products. Each one is listed by what it is: the species, the part of the plant, the count in the pack and the dose on the label. What any of it does for you is not something we are allowed to tell you, and it is not something we would want to guess at anyway. <a href="journal/how-to-read-a-supplement-label.html">Here is how to read a label</a>, ours included.</p>
     <nav class="shopnav rv d2" aria-label="Categories">
       ${groups.map(([key, name, , items]) => `<a href="#${key}">${esc(name)} <span>${items.length}</span></a>`).join('\n      ')}
     </nav>
