@@ -11,10 +11,10 @@
   --ink-2:rgba(20,17,13,.72);
   --ink-3:rgba(20,17,13,.62);
   --rule:rgba(20,17,13,.16);
-  --sun:#E08A2C;          /* decorative only */
-  --sun-ink:#A15709;      /* 4.71:1 on paper, safe for text */
-  --jungle:#0B6F69;
-  --night:#101B1A;
+  --sun:#5EE8D6;          /* the hero teal: decorative, and text on night only */
+  --sun-ink:#0A6E64;      /* deep teal, 5.3:1 on paper, safe for text */
+  --jungle:#0A6E64;       /* same deep teal; kept as an alias for older rules */
+  --night:#04100F;        /* the hero night, used for every dark ground */
 
   --display:'Soloist Expanded','Archivo',system-ui,sans-serif;
   --body:'Montserrat',system-ui,sans-serif;
@@ -111,7 +111,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
   filter:drop-shadow(0 6px 40px rgba(0,0,0,.6))}
 .hero h1{font-size:clamp(24px,3.7vw,50px);max-width:18ch;margin-inline:auto;line-height:1.16;
   text-shadow:0 2px 30px rgba(0,0,0,.55)}
-.hero h1 em{color:#5EE8D6}
+.hero h1 em{color:var(--sun)}
 .hero__lede{margin:24px auto 0;font-size:clamp(15px,1.15vw,18px);line-height:1.75;max-width:58ch;
   color:rgba(255,237,210,.86);text-shadow:0 1px 18px rgba(0,0,0,.6)}
 .hero__act{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:34px}

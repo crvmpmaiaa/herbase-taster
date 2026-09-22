@@ -10,31 +10,12 @@
 <meta property="og:description" content="The whole Herbase catalogue, thirty-seven products, every one of them listed by species, part, count and dose rather than by what it is supposed to do.">
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<link rel="stylesheet" href="assets/site.css?v=r2">
-<link rel="stylesheet" href="assets/shop.css?v=r2">
-<script>
-/* One of four cosmic scenes per visit, chosen before first paint so there is
-   no flash. Each carries its own centre-scrim weight: the brighter ones need
-   more help behind the wordmark than the quiet ones. */
-(function(){
-  var scenes=[
-    {f:'hero-cosmic-1.jpg', scrim:.78, name:'aurora'},
-    {f:'hero-cosmic-2.jpg', scrim:.86, name:'spiral'},
-    {f:'hero-cosmic-3.jpg', scrim:.80, name:'botanic'},
-    {f:'hero-cosmic-4.jpg', scrim:.74, name:'spores'}
-  ];
-  var s=scenes[Math.floor(Math.random()*scenes.length)];
-  var mob=matchMedia('(max-width:700px)').matches, root=document.documentElement;
-  var href=new URL('assets/'+(mob?s.f.replace('.jpg','-m.jpg'):s.f),location.href).href;
-  root.style.setProperty('--hero-bg','url("'+href+'")'); root.style.setProperty('--hero-scrim',s.scrim);
-  root.setAttribute('data-scene',s.name);
-  var l=document.createElement('link'); l.rel='preload'; l.as='image'; l.href=href; document.head.appendChild(l);
-})();
-</script>
+<link rel="stylesheet" href="assets/site.css?v=r3">
+<link rel="stylesheet" href="assets/shop.css?v=r3">
 </head>
-<body class="pg-shop">
+<body>
 
-<nav class="nav">
+<nav class="nav nav--solid" data-solid>
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
@@ -51,13 +32,11 @@
   </div>
 </nav>
 
-<header class="hero hero--shop" id="hero">
-  <div class="hero__bg"></div>
-  <div class="hero__veil"></div>
+<header class="shophead">
   <div class="wrap">
     <p class="label rv">The shop</p>
     <h1 class="dsp rv d1">Everything we sell</h1>
-    <p class="hero__lede rv d2">Thirty-seven products. Each one is listed by what it is: the species, the part of the plant, the count in the pack and the dose on the label. What any of it does for you is not something we are allowed to tell you, and it is not something we would want to guess at anyway. <a href="journal/how-to-read-a-supplement-label.html">Here is how to read a label</a>, ours included.</p>
+    <p class="shophead__lede rv d2">Thirty-seven products. Each one is listed by what it is: the species, the part of the plant, the count in the pack and the dose on the label. What any of it does for you is not something we are allowed to tell you, and it is not something we would want to guess at anyway. <a href="journal/how-to-read-a-supplement-label.html">Here is how to read a label</a>, ours included.</p>
     <nav class="shopnav rv d2" aria-label="Categories">
       <a href="#seamoss">Sea moss <span>1</span></a>
       <a href="#formulas">Formulas <span>13</span></a>
@@ -417,20 +396,12 @@ var x0=null;m.addEventListener('touchstart',function(e){x0=e.touches[0].clientX}
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
-const burger=document.getElementById('burger'),drawer=document.getElementById('drawer'),nav=document.querySelector('.nav');
-// The nav floats transparent over the hero. The drawer must never open on
-// that transparent ground, so an open drawer forces the solid state.
-function solidify(){
-  (scrollY>140||drawer.hasAttribute('data-open'))?nav.setAttribute('data-solid',''):nav.removeAttribute('data-solid');
-}
+const burger=document.getElementById('burger'),drawer=document.getElementById('drawer');
 burger.addEventListener('click',()=>{
   const open=drawer.hasAttribute('data-open');
   open?drawer.removeAttribute('data-open'):drawer.setAttribute('data-open','');
   burger.setAttribute('aria-expanded',String(!open));
-  solidify();
 });
-drawer.addEventListener('click',e=>{ if(e.target.closest('a')){drawer.removeAttribute('data-open');burger.setAttribute('aria-expanded','false');solidify();} });
-addEventListener('scroll',solidify,{passive:true}); solidify();
 </script>
 </body>
 </html>
