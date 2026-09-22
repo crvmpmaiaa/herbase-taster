@@ -127,3 +127,16 @@
 .strip .head{max-width:60ch}
 .strip .head p+p{margin-top:14px}
 .strip a{color:var(--ink);text-decoration-color:var(--rule);text-underline-offset:4px}
+
+/* shop hero: the homepage cosmos, shorter, with the category pills on dark */
+.hero--shop{min-height:clamp(440px,64svh,660px);padding-top:clamp(120px,14vh,160px);padding-bottom:clamp(44px,6vw,72px)}
+@media(max-width:700px){.hero--shop{min-height:auto;padding-top:clamp(104px,15vh,140px)}}
+.hero--shop .label{color:rgba(255,237,210,.72)}
+.hero--shop h1{max-width:none}
+.hero--shop .hero__lede{max-width:62ch}
+.hero--shop .hero__lede a{color:var(--paper);text-decoration-color:rgba(255,237,210,.5)}
+.hero--shop .shopnav a{border-color:rgba(255,237,210,.42);color:var(--paper);background:rgba(4,16,15,.28);backdrop-filter:blur(3px)}
+.hero--shop .shopnav a span{color:rgba(255,237,210,.62)}
+.hero--shop .shopnav a:hover,.hero--shop .shopnav a:focus-visible{background:var(--paper);border-color:var(--paper);color:var(--ink)}
+.hero--shop .shopnav a:hover span{color:var(--ink-3)}
+.pg-shop .nav:not([data-solid]) .nav__mark{opacity:1;pointer-events:auto}

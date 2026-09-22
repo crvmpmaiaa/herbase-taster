@@ -7,6 +7,7 @@
 <title>Herbase · Wildcrafted herbal formulas · Liverpool</title>
 <meta name="description" content="Herbase, 599 Smithdown Road, Liverpool. Thirty-seven wildcrafted herbal and mineral formulas, every plant named in Latin and every milligram printed on the page.">
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/site.css?v=r1">
 <script>
 /* One of four cosmic scenes per visit, chosen before first paint so there is
@@ -96,50 +97,6 @@
 </section>
 
 
-<section class="mono" id="monograph">
-  <div class="wrap">
-    <div class="head">
-      <p class="label rv">Formula 01 · The bitter</p>
-      <h2 class="dsp rv d1" style="margin-top:12px">Decolonise</h2>
-      <p class="rv d2"><b>Nine ingredients, one page of specification.</b> A bitter blend, one of the oldest categories in both Western and Caribbean herbalism, and the whole sheet sits below.</p>
-    </div>
-
-    <div class="mono__body">
-      <article class="card rv" id="buy">
-        <div class="card__img card__img--held"><p>Pack photography held<span>Label reprint pending</span></p></div>
-        <div class="card__foot"><h3>Decolonise</h3><span class="card__price">£39.99</span></div>
-        <p class="card__unit">50 vegan capsules · 25 day supply · £1.60 a day</p>
-        <a class="card__buy" href="products/decolonise.html">Add to bag · £39.99</a>
-        <p class="card__ship">Dispatched from Smithdown Road. Free UK delivery over £50.</p>
-        <p class="card__pair">Often taken alongside <a href="products/seaking-capsules-ns-formula.html">Seaking, £39.99</a>, which is a daily, and this is not.</p>
-      </article>
-
-      <div class="rv d1">
-        <table class="tbl">
-          <caption>Specification sheet</caption>
-          <tbody>
-            <tr><th scope="row">Makeup</th><td>Seven botanicals, plus psyllium husk and activated charcoal. Nine ingredients, no tenth.</td></tr>
-            <tr><th scope="row">Dose</th><td>800 mg per vegan capsule</td></tr>
-            <tr><th scope="row">Count</th><td>50 capsules · 25 day supply</td></tr>
-            <tr><th scope="row">Botanicals</th><td><i>Tabebuia impetiginosa</i> · <i>Momordica charantia</i> · <i>Petiveria alliacea</i> · <i>Syzygium aromaticum</i> · <i>Dysphania ambrosioides</i> · <i>Artemisia absinthium</i> · <i>Piper nigrum</i></td></tr>
-            <tr><th scope="row">Fibre</th><td>Psyllium husk</td></tr>
-            <tr><th scope="row">Charcoal</th><td>Activated, from coconut shell</td></tr>
-            <tr><th scope="row">Excipients</th><td>HPMC capsule shell only. Psyllium husk and activated charcoal are declared ingredients, not fillers.</td></tr>
-            <tr><th scope="row">Protocol</th><td>Two capsules daily with 500 ml water, for up to 25 days. Then leave at least four months.</td></tr>
-            <tr><th scope="row">Sourcing</th><td>Botanicals wildcrafted, never farmed</td></tr>
-            <tr><th scope="row">Suitable for</th><td>Vegans. Not for use in pregnancy or while nursing.</td></tr>
-          </tbody>
-        </table>
-        <p class="statutory">Activated charcoal can reduce the absorption of medicines taken by mouth, including the contraceptive pill. Leave at least two hours between this and any medication, and speak to your GP or pharmacist before starting any supplement. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.</p>
-      </div>
-    </div>
-
-    <div class="doctrine rv" data-doctrine>
-      <h3 class="dsp">We publish the specification, you decide the rest.</h3>
-      <p>Every plant by its Latin name, the part used, the milligrams in a capsule, where it was harvested, how to take it and when to stop. That is what goes on the page, for every formula, and it is the page you read before you buy.</p>
-    </div>
-  </div>
-</section>
 
 <section class="reiss turn">
   <div class="wrap">
@@ -263,10 +220,6 @@
   </div>
 </footer>
 
-<div class="stickybuy" id="sticky">
-  <span><b>Decolonise</b> · £39.99<i> · 50 caps, 25 day supply</i></span>
-  <a class="btn" href="#buy">Add to bag</a>
-</div>
 
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
@@ -274,7 +227,7 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 window.addEventListener('load',()=>document.querySelectorAll('.hero .rv').forEach(el=>el.classList.add('in')));
 
 const burger=document.getElementById('burger'),drawer=document.getElementById('drawer');
-const sticky=document.getElementById('sticky'),nav=document.querySelector('.nav');
+const nav=document.querySelector('.nav');
 // The nav floats transparent over the hero. The drawer must never open on
 // that transparent ground (its links are ink on black), so an open drawer
 // forces the solid state and the scroll handler respects it.
@@ -293,7 +246,6 @@ let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
-    scrollY>600?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
     solidify();
     ticking=false;
   });
