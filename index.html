@@ -368,13 +368,15 @@ burger.addEventListener('click',()=>{
   burger.setAttribute('aria-expanded',String(!open));
 });
 
-const sticky=document.getElementById('sticky'),nav=document.querySelector('.nav');
+const sticky=document.getElementById('sticky'),nav=document.querySelector('.nav'),afterHero=document.querySelector('.strip');
+/* header goes solid 140 px after the hero starts to leave, the same timing as the unpinned hero had; measured from the strip below it so the pinned carousel does not trip it early */
+const heroLeaving=()=>afterHero?afterHero.getBoundingClientRect().top<=innerHeight-140:scrollY>140;
 let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
     scrollY>600?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
-    scrollY>140?nav.setAttribute('data-solid',''):nav.removeAttribute('data-solid');
+    heroLeaving()?nav.setAttribute('data-solid',''):nav.removeAttribute('data-solid');
     ticking=false;
   });
 },{passive:true});
