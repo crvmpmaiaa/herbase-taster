@@ -81,6 +81,34 @@
   </div>
 </header>
 
+<section class="why" id="why">
+  <div class="wrap">
+    <h2 class="dsp why__h rv">What makes Herbase <em>unique</em></h2>
+    <div class="why__grid">
+      <article class="why__item rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1.1 5.9L12 16.9l-5.3 2.8 1.1-5.9L3.5 9.7l5.9-.8z"/></svg>
+        <h3>Wildcrafted purity</h3>
+        <p>Every formula begins with the plant. Wildcrafted where the listing says so, origin printed where one is printed, and every botanical named in Latin where the listing names it.</p>
+      </article>
+      <article class="why__item rv d1">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2c3.2 4 6 7.2 6 10.6a6 6 0 0 1-12 0c0-3.4 2.8-6.6 6-10.6z"/><path d="M9.5 14.2a2.5 2.5 0 0 0 2.5 2.5"/></svg>
+        <h3>Herbal biochemistry</h3>
+        <p>Our processing is designed to preserve the plant's natural composition, and we source herbs with a long-standing history of use.</p>
+      </article>
+      <article class="why__item rv d2">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="1"/><path d="M7.5 12.2l3 3 6-6.4"/></svg>
+        <h3>Zero additives</h3>
+        <p>Herbs, algae and roots. No filler or bulking agent is declared on any listing, and every sheet prints the full declared list, or says plainly that the listing does not.</p>
+      </article>
+      <article class="why__item rv d3">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 1 3.6 6.7L4 20l1.3-3.6A8 8 0 0 1 4 12z"/><circle cx="8.5" cy="12" r=".7"/><circle cx="12" cy="12" r=".7"/><circle cx="15.5" cy="12" r=".7"/></svg>
+        <h3>User satisfaction</h3>
+        <p>A real counter to ask at. Ring the shop on 07946 806533, Tuesday to Sunday, and Reiss or whoever is on will talk you through any sheet.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 <div class="strip">
   <div class="strip__in">
     <div class="strip__cell"><p class="strip__n">47</p><p class="strip__cap">Products, each with its own sheet</p></div>
@@ -477,24 +505,9 @@ addEventListener('scroll',()=>{
     active=-1; setActive(0);
     if(want==='pin') pinMode(); else railMode();
   }
-  /* slide one keeps the original hero layout (same paddings, sizes and spacing). When that block is
-     taller than the panel, the whole block is scaled to fit with CSS zoom, so on short screens nothing
-     sits behind the header or on the rail; on tall screens the scale is 1 and nothing changes. */
-  function fitScene(){
-    var panel=panels[0], w=panel&&panel.querySelector('.wrap'); if(!w) return;
-    w.style.zoom='';
-    if(!wide.matches) return;
-    var cs=getComputedStyle(panel), avail=panel.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom), natural=w.offsetHeight;
-    if(natural>avail) w.style.zoom=Math.max(.6,avail/natural).toFixed(3);
-    if(window.ScrollTrigger) ScrollTrigger.refresh();
-  }
-  var fitRaf=0; function fitSoon(){ cancelAnimationFrame(fitRaf); fitRaf=requestAnimationFrame(fitScene); }
   setActive(0);
-  fitScene();
   apply();
-  addEventListener('resize',fitSoon);
-  addEventListener('load',fitSoon);
-  wide.addEventListener('change',function(){ apply(); fitSoon(); });
+  wide.addEventListener('change',apply);
   motion.addEventListener('change',apply);
 })();
 
