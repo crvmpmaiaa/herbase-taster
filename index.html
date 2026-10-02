@@ -89,6 +89,24 @@
   </div>
 </div>
 
+<section class="feature" id="feature">
+  <div class="wrap feature__in">
+    <a class="feature__media rv" href="product.html"><img src="assets/northern-soul-jar.jpg" srcset="assets/northern-soul-jar-m.jpg 700w, assets/northern-soul-jar.jpg 1200w" sizes="(min-width:900px) 46vw, 92vw" alt="Northern Soul sea moss gel in a glass jar, the plain shot from the live listing" loading="lazy" decoding="async"></a>
+    <div class="feature__body">
+      <p class="label rv">Herbase, Liverpool</p>
+      <h2 class="dsp feature__title rv d1"><span class="mask"><span>Northern Soul</span></span> <span class="mask"><span>Sea Moss <em>Gel</em></span></span></h2>
+      <p class="feature__price rv d2"><b>From £34.99</b><span>Taxes included. Delivery calculated at checkout. Free UK delivery over £50.</span></p>
+      <p class="feature__sub rv d2">Cold-water <i>Chondrus crispus</i> gel carrying four algae from three families. One tablespoon each morning. 300 ml or 500 ml, in a glass jar, kept in the fridge. The whole specification sheet is on the product page.</p>
+      <div class="feature__qty rv d2"><span>Quantity</span><div class="qty" id="feature-qty"><button type="button" aria-label="Fewer">−</button><output aria-live="polite">1</output><button type="button" aria-label="More">+</button></div></div>
+      <div class="feature__act rv d3">
+        <a class="btn" href="product.html" data-magnet data-radius="90" data-strength="0.35"><span data-magnet-inner>Add to bag · £34.99</span></a>
+        <a class="btn btn--line" href="product.html#spec">Full specification sheet</a>
+      </div>
+      <p class="feature__links rv d3"><a href="product.html">View full details →</a><a href="journal/which-sea-moss.html">Which sea moss, and why</a></p>
+    </div>
+  </div>
+</section>
+
 <section class="best" id="best">
   <div class="wrap">
     <div class="head">
@@ -283,6 +301,24 @@
   <div class="close__shot rv"><img src="assets/apothecary.jpg" srcset="assets/apothecary-m.jpg 800w, assets/apothecary.jpg 1500w" sizes="100vw" loading="lazy" decoding="async" alt="Reiss Davies Ausar behind the counter at Herbase, Smithdown Road"></div>
 </section>
 
+<section class="subscribe" id="subscribe">
+  <div class="wrap subscribe__in">
+    <div>
+      <p class="label rv">Subscribe</p>
+      <h2 class="dsp rv d1">Beamed in free forever, <em>unsubscribe anytime.</em></h2>
+      <p class="subscribe__lede rv d2">No spam, just knowledge.</p>
+    </div>
+    <form class="subscribe__form rv d2" id="subscribe-form" action="#" method="post" novalidate>
+      <label class="sr" for="sub-email">Email</label>
+      <div class="subscribe__row">
+        <input id="sub-email" type="email" name="email" placeholder="Email" autocomplete="email" autocapitalize="off" autocorrect="off" required>
+        <button class="btn" type="submit">Subscribe</button>
+      </div>
+      <p class="subscribe__note">Nothing leaves this page: the taster has no mailing list behind it. The live form at herbase.earth is the real one.</p>
+    </form>
+  </div>
+</section>
+
 <footer class="foot">
   <div class="wrap">
     <div class="foot__top"><img src="assets/wordmark.png" alt="Herbase"></div>
@@ -443,6 +479,48 @@ addEventListener('scroll',()=>{
   apply();
   wide.addEventListener('change',apply);
   motion.addEventListener('change',apply);
+})();
+
+/* featured product: quantity stepper (display only, there is no cart behind the taster) */
+(function(){
+  var q=document.getElementById('feature-qty'); if(!q) return;
+  var out=q.querySelector('output'), b=q.querySelectorAll('button'), n=1;
+  function set(v){ n=Math.min(9,Math.max(1,v)); out.textContent=n; b[0].disabled=n===1; b[1].disabled=n===9; }
+  b[0].addEventListener('click',function(){ set(n-1); }); b[1].addEventListener('click',function(){ set(n+1); }); set(1);
+})();
+
+/* featured product: magnetic CTA, ported from the motion rig's MagneticCta.
+   Pulls toward the cursor inside a proximity radius (gsap.quickTo), springs
+   back with back.out on exit. Desktop context only: wide viewport, a fine
+   pointer that can hover, motion allowed. Everywhere else it is a plain button. */
+(function(){
+  if(!window.gsap) return;
+  if(!matchMedia('(min-width:860px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion: no-preference)').matches) return;
+  document.querySelectorAll('[data-magnet]').forEach(function(el){
+    var inner=el.querySelector('[data-magnet-inner]')||el, radius=Number(el.dataset.radius||90), strength=Number(el.dataset.strength||.4);
+    var xTo=gsap.quickTo(el,'x',{duration:.5,ease:'power3'}), yTo=gsap.quickTo(el,'y',{duration:.5,ease:'power3'}),
+        xIn=gsap.quickTo(inner,'x',{duration:.5,ease:'power3'}), yIn=gsap.quickTo(inner,'y',{duration:.5,ease:'power3'});
+    var pointer=null, raf=0, inside=false;
+    function release(){ inside=false; gsap.killTweensOf([el,inner]); gsap.to([el,inner],{x:0,y:0,duration:.6,ease:'back.out(1.7)'}); }
+    function tick(){ raf=0; if(!pointer) return;
+      var r=el.getBoundingClientRect(), dx=pointer.x-(r.left+r.width/2), dy=pointer.y-(r.top+r.height/2), d=Math.hypot(dx,dy);
+      if(d<radius){ inside=true; xTo(dx*strength); yTo(dy*strength); xIn(dx*strength*.5); yIn(dy*strength*.5); }
+      else if(inside) release(); }
+    addEventListener('pointermove',function(e){ if(e.pointerType&&e.pointerType!=='mouse') return; pointer={x:e.clientX,y:e.clientY}; if(!raf) raf=requestAnimationFrame(tick); },{passive:true});
+    addEventListener('blur',function(){ pointer=null; if(inside) release(); });
+    document.addEventListener('mouseleave',function(){ pointer=null; if(inside) release(); });
+  });
+})();
+
+/* subscribe: the taster has no list, so the form never posts; it says so */
+(function(){
+  var f=document.getElementById('subscribe-form'); if(!f) return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var email=f.querySelector('input[type=email]');
+    if(!email.value||!email.checkValidity()){ email.focus(); email.setAttribute('aria-invalid','true'); return; }
+    var p=document.createElement('p'); p.className='subscribe__done'; p.textContent='Noted. This is the taster, so nothing was sent. The real list lives at herbase.earth.'; f.replaceChildren(p);
+  });
 })();
 </script>
 </body>
