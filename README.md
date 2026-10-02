@@ -81,3 +81,5 @@ for the rest and why.
 ## Open items
 
 Tracked privately in the growth audit, not here. Ask Jack.
+
+`assets/vendor/` carries GSAP 3.15 and ScrollTrigger (vendored, no CDN) for the homepage hero carousel; everything else stays plain.

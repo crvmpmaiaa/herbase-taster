@@ -9,31 +9,11 @@
 <link rel="icon" href="assets/logo-mark.jpg">
 <meta property="og:title" content="Herbase · Wildcrafted herbal formulas · Liverpool">
 <meta property="og:description" content="Herbase, Liverpool. A working apothecary. Wildcrafted formulas, printed doses, named botanicals.">
-<meta property="og:image" content="https://herbase.earth/assets/hero-cosmos.jpg">
+<meta property="og:image" content="https://herbase.earth/assets/hero-root.jpg">
 <meta property="og:type" content="website">
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
 <link rel="stylesheet" href="assets/site.css">
-<script>
-/* One of five scenes per visit. Runs before first paint, so no flash.
-   Each scene carries its own centre-scrim weight, because the brighter
-   nebulae need more help behind the wordmark than the dark ones. */
-(function(){
-  var scenes=[
-    {f:'hero-cosmos.jpg', scrim:.86, name:'nebula'},
-    {f:'hero-sea.jpg',    scrim:.80, name:'tide'},
-    {f:'hero-root.jpg',   scrim:.93, name:'root'},
-    {f:'hero-fungi.jpg',  scrim:.88, name:'spore'}
-  ];
-  var s=scenes[Math.floor(Math.random()*scenes.length)];
-  var mob=matchMedia('(max-width:700px)').matches;
-  var root=document.documentElement, href=new URL('assets/'+(mob?s.f.replace('.jpg','-m.jpg'):s.f),location.href).href;
-  root.style.setProperty('--hero-bg','url("'+href+'")');
-  root.style.setProperty('--hero-scrim',s.scrim);
-  root.setAttribute('data-scene',s.name);
-  var l=document.createElement('link'); l.rel='preload'; l.as='image'; l.href=href;
-  document.head.appendChild(l);
-})();
-</script>
+<link rel="preload" as="image" href="assets/hero-root.jpg" imagesrcset="assets/hero-root-m.jpg 820w, assets/hero-root.jpg 2200w" imagesizes="100vw" fetchpriority="high">
 </head>
 <body>
 
@@ -41,37 +21,63 @@
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
-      <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="#best">Mushrooms</a>
+      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#collections">Collections</a>
     </div>
     <a class="nav__mark" href="#" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="journal/">Journal</a><a href="product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>
+      <a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#" data-bag>Bag (0)</a>
     </div>
     <a class="nav__bag" href="#">Bag (0)</a>
   </div>
   <div class="nav__drawer" id="drawer">
-    <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="#best">Mushrooms</a><a href="journal/">Journal</a><a href="#shop">Book the hour · £120</a>
+    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#collections">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#shop">Book the hour · £120</a>
   </div>
 </nav>
 
 <header class="hero" id="hero">
-  <div class="hero__bg" id="plx-bg"></div>
-  <canvas class="hero__stars" id="plx-stars"></canvas>
-  <div class="hero__veil"></div>
-  <canvas class="hero__dust" id="plx-dust"></canvas>
-  <div class="wrap">
-    <img class="hero__logo rv" src="assets/wordmark-cream.png" alt="Herbase">
-    <h1 class="dsp rv d1">An ancient apothecary <em>from the future</em></h1>
-    <p class="hero__lede rv d2">Forty-seven products across herbal formulas, sea moss, mushrooms, minerals, books and objects, made or stocked above a shop on Smithdown Road, Liverpool. Every plant named in Latin where the listing names one, every figure printed where there is one, the gaps written down as gaps, and a practitioner at the counter who would rather you asked him something difficult.</p>
-    <div class="hero__act rv d3">
-      <a class="btn" href="shop.html">Shop all 47</a>
-      <a class="btn btn--line" href="#shop">Book the hour · £120</a>
+  <div class="track" id="hero-track">
+    <div class="panel-h panel-h--scene" data-panel style="--hero-scrim:.93">
+      <img class="hero__img" src="assets/hero-root.jpg" srcset="assets/hero-root-m.jpg 820w, assets/hero-root.jpg 2200w" sizes="100vw" alt="Dried roots and bark drifting through a dark nebula, the root scene" fetchpriority="high" decoding="async">
+      <div class="hero__veil"></div>
+      <div class="wrap">
+        <img class="hero__logo rv" src="assets/wordmark-cream.png" alt="Herbase">
+        <h1 class="dsp hero__title rv d1">An ancient apothecary <em>from the future</em></h1>
+        <p class="hero__lede rv d2">Forty-seven products across herbal formulas, sea moss, mushrooms, minerals, books and objects, made or stocked above a shop on Smithdown Road, Liverpool. Every plant named in Latin where the listing names one, every figure printed where there is one, the gaps written down as gaps, and a practitioner at the counter who would rather you asked him something difficult.</p>
+        <div class="hero__act rv d3">
+          <a class="btn" href="shop.html">Shop all 47</a>
+          <a class="btn btn--line" href="#shop">Book the hour · £120</a>
+        </div>
+        <div class="hero__meta rv d3">
+          <p><span class="stars">★★★★★</span> <b>4.8</b> · 19 Google reviews</p>
+          <p>Formulated by <b>Reiss Davies Ausar</b></p>
+          <p><b>Botanicals</b> named as the listing names them, wildcrafted where it says so</p>
+        </div>
+      </div>
     </div>
-    <div class="hero__meta rv d3">
-      <p><span class="stars">★★★★★</span> <b>4.8</b> · 19 Google reviews</p>
-      <p>Formulated by <b>Reiss Davies Ausar</b></p>
-      <p><b>Botanicals</b> named as the listing names them, wildcrafted where it says so</p>
+    <div class="panel-h panel-h--photo" data-panel style="--hero-scrim:.74">
+      <img class="hero__img" src="assets/journal/gen-shop-shelf.jpg" srcset="assets/journal/gen-shop-shelf-m.jpg 800w, assets/journal/gen-shop-shelf.jpg 1600w" sizes="100vw" alt="A wooden shelf of plain amber jars in low sun. A generated scene, standing in for the shop shelf photograph" decoding="async">
+      <div class="hero__veil"></div>
+      <div class="wrap">
+        <h2 class="dsp hero__title">Scientifically formulated <em>signature formulas</em></h2>
+        <p class="hero__lede">Before offering herbal products, deep dives into biology and biochemistry. Our journey into natural sciences sparked our fascination with the plant kingdom. We are a 'knowledge first' based company. Ancient wisdom with a modern touch.</p>
+        <div class="hero__act"><a class="btn" href="shop.html#formulas">Shop now</a></div>
+      </div>
     </div>
+    <div class="panel-h panel-h--photo" data-panel style="--hero-scrim:.7">
+      <img class="hero__img" src="assets/hero-shop.jpg" srcset="assets/hero-shop-m.jpg 800w, assets/hero-shop.jpg 1280w" sizes="100vw" alt="Inside the Herbase shop at 599 Smithdown Road: the glass door with the opening times, the counter and the shelves beyond" decoding="async">
+      <div class="hero__veil"></div>
+      <div class="wrap">
+        <h2 class="dsp hero__title">Herbase, the home of <em>natural remedies and holistic solutions</em></h2>
+        <p class="hero__lede">An ancient apothecary from the future landed on 599 Smithdown Road in August 2024. After 5 years online and starting a whole wave, we introduce a one-of-a-kind store in the heart of Liverpool.</p>
+        <div class="hero__act"><a class="btn" href="#shop">Contact us</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="hero__rail" id="hero-rail">
+    <button type="button" id="hero-prev" aria-label="Previous slide">Prev</button>
+    <span class="bar" aria-hidden="true"><i></i></span>
+    <span id="hero-count" aria-live="polite">01 / 03</span>
+    <button type="button" id="hero-next" aria-label="Next slide">Next</button>
   </div>
 </header>
 
@@ -300,7 +306,7 @@
       </div>
     </div>
     <div class="foot__legal">
-      <p class="credits">Journal photography via Unsplash and Wikimedia Commons, credited on each article. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock.</p>
+      <p class="credits">Journal photography via Unsplash and Wikimedia Commons, credited on each article. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock. Shop interior photograph via herbase.earth.</p>
       <p>Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.</p>
       <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP. Food business registered with Liverpool City Council.</p>
     </div>
@@ -312,6 +318,8 @@
   <a class="btn" href="#buy">Add to bag</a>
 </div>
 
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
@@ -335,72 +343,106 @@ addEventListener('scroll',()=>{
   });
 },{passive:true});
 
-/* hero parallax: four planes at four speeds. Stars deepest (+0.6x), the
-   nebula behind them (+0.42x, slowly swelling), the content lifting away
-   (+0.24x, fading), and dust motes rushing past the camera (-0.3x).
-   Pointer adds a lateral tilt, lerped. Transform/opacity only, one rAF,
-   parked whenever the hero is off screen; absent under reduced motion. */
+/* hero carousel, ported from the Madu hero (motion-rig horizontal-scroll-panels).
+   Fail closed: the native scroll-snap rail is the default; the pin is layered
+   on only when GSAP is loaded, motion is allowed and the screen is wide.
+   Scroll CHOOSES the panel, time PERFORMS the change: a panel becomes active
+   once progress is clearly past the midpoint between two panels (6% dead band
+   either side, so it cannot flicker on the line) and the slide is a fixed
+   0.55 s tween. No half-slid state is ever visible. */
 (function(){
-  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  var hero=document.getElementById('hero'), bg=document.getElementById('plx-bg'),
-      wrap=hero.querySelector('.wrap'),
-      sc=document.getElementById('plx-stars'), dc=document.getElementById('plx-dust'),
-      sx=sc.getContext('2d'), dx=dc.getContext('2d'),
-      dpr=Math.min(2,devicePixelRatio||1),
-      W=0,H=0,stars=[],motes=[],t=0,
-      mx=0,my=0,tx=0,ty=0,run=false,raf=null;
+  var hero=document.getElementById('hero'), track=document.getElementById('hero-track');
+  if(!hero||!track) return;
+  var panels=Array.prototype.slice.call(track.querySelectorAll('.panel-h')), last=panels.length-1;
+  var fill=hero.querySelector('.bar > i'), count=document.getElementById('hero-count'),
+      prev=document.getElementById('hero-prev'), next=document.getElementById('hero-next');
+  var wide=matchMedia('(min-width:700px)'), motion=matchMedia('(prefers-reduced-motion: no-preference)');
+  var active=-1, mode=null, st=null, slide=null;
 
-  function size(){
-    W=hero.clientWidth; H=hero.clientHeight;
-    [sc,dc].forEach(function(c){c.width=W*dpr;c.height=H*dpr;c.style.width=W+'px';c.style.height=H+'px'});
-    sx.setTransform(dpr,0,0,dpr,0,0); dx.setTransform(dpr,0,0,dpr,0,0);
-    stars=Array.from({length:Math.round(W/9)},function(){return{
-      x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.4+.3,
-      a:Math.random()*.65+.15,s:Math.random()*.05+.008,p:Math.random()*6.28}});
-    motes=Array.from({length:Math.round(W/70)},function(){return{
-      x:Math.random()*W,y:Math.random()*H,r:Math.random()*26+8,
-      a:Math.random()*.05+.02,v:Math.random()*.22+.08,
-      hue:Math.random()<.6?'255,237,210':'127,220,205'}});
+  function pad(n){ return String(n).padStart(2,'0'); }
+  function setActive(i){
+    active=i;
+    panels.forEach(function(p,k){ if(k===i) p.removeAttribute('inert'); else p.setAttribute('inert',''); });
+    count.textContent=pad(i+1)+' / '+pad(panels.length);
+    prev.disabled=i===0; next.disabled=i===last;
   }
 
-  function frame(){
-    raf=null; if(!run) return;
-    t+=1;
-    var y=scrollY, ph=Math.min(1,y/(H||1));
-
-    bg.style.transform='translate3d('+(tx*-14)+'px,'+(y*0.42+ty*-10)+'px,0) scale('+(1.02+ph*0.07+Math.sin(t/900)*0.008)+')';
-    sc.style.transform='translate3d('+(tx*-26)+'px,'+(y*0.6)+'px,0)';
-    dc.style.transform='translate3d('+(tx*34)+'px,'+(y*-0.3+ty*18)+'px,0)';
-    wrap.style.transform='translate3d(0,'+(y*0.24)+'px,0) scale('+(1-ph*0.05)+')';
-    wrap.style.opacity=Math.max(0,1-ph*1.05);
-
-    tx+=(mx-tx)*0.05; ty+=(my-ty)*0.05;
-
-    sx.clearRect(0,0,W,H);
-    for(var i=0;i<stars.length;i++){var st=stars[i];
-      st.p+=st.s; st.y-=st.s*2.6; if(st.y<-4) st.y=H+4;
-      sx.globalAlpha=st.a*(.55+.45*Math.sin(st.p));
-      sx.beginPath(); sx.arc(st.x,st.y,st.r,0,6.283); sx.fillStyle='#d8fff7'; sx.fill();}
-    sx.globalAlpha=1;
-
-    dx.clearRect(0,0,W,H);
-    for(var j=0;j<motes.length;j++){var m=motes[j];
-      m.y-=m.v; if(m.y<-m.r*2) {m.y=H+m.r*2; m.x=Math.random()*W;}
-      var g=dx.createRadialGradient(m.x,m.y,0,m.x,m.y,m.r);
-      g.addColorStop(0,'rgba('+m.hue+','+m.a+')'); g.addColorStop(1,'rgba('+m.hue+',0)');
-      dx.fillStyle=g; dx.beginPath(); dx.arc(m.x,m.y,m.r,0,6.283); dx.fill();}
-
-    raf=requestAnimationFrame(frame);
+  /* rail mode: the track scrolls sideways natively; buttons scroll it */
+  function onRailScroll(){
+    var w=track.clientWidth||1, i=Math.min(last,Math.max(0,Math.round(track.scrollLeft/w)));
+    fill.style.width=(last?(i/last)*100:100)+'%';
+    if(i!==active) setActive(i);
   }
-  function wake(){ if(run&&!raf) raf=requestAnimationFrame(frame); }
+  function railMode(){
+    mode='rail';
+    /* own glide: a smooth scrollTo into a snap container is dropped by some engines, so tween scrollLeft with snapping paused */
+    var glideRaf=0;
+    function glide(left){
+      cancelAnimationFrame(glideRaf);
+      var from=track.scrollLeft, d=left-from, t0=performance.now(), dur=450;
+      if(!d){ track.style.scrollSnapType=''; return; }
+      track.style.scrollSnapType='none';
+      (function step(now){ var k=Math.min(1,(now-t0)/dur), e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
+        track.scrollLeft=from+d*e; if(k<1) glideRaf=requestAnimationFrame(step); else { track.style.scrollSnapType=''; onRailScroll(); } })(t0);
+    }
+    prev.onclick=function(){ glide(Math.max(0,active-1)*track.clientWidth); };
+    next.onclick=function(){ glide(Math.min(last,active+1)*track.clientWidth); };
+    track.addEventListener('scroll',onRailScroll,{passive:true});
+    onRailScroll();
+  }
+  function railOff(){ track.removeEventListener('scroll',onRailScroll); }
 
-  new IntersectionObserver(function(e){ run=e[0].isIntersecting; wake(); },{threshold:0}).observe(hero);
-  addEventListener('scroll',wake,{passive:true});
-  addEventListener('pointermove',function(e){
-    mx=(e.clientX/innerWidth-0.5)*2; my=(e.clientY/innerHeight-0.5)*2;
-  },{passive:true});
-  addEventListener('resize',size);
-  size(); run=true; wake();
+  /* pin mode: GSAP pins the hero and the page scroll steps the panels */
+  function pinMode(){
+    mode='pin';
+    document.documentElement.classList.add('js-scrub');
+    gsap.registerPlugin(ScrollTrigger);
+    var step=1/last, band=.06;
+    function show(i){
+      if(slide) slide.kill();
+      slide=gsap.to(track,{x:function(){return -i*hero.clientWidth;},duration:.55,ease:'power3.inOut',overwrite:true});
+      setActive(i);
+    }
+    function pick(p){
+      var i=active<0?0:active;
+      while(i<last&&p>(i+.5)*step+band) i++;
+      while(i>0&&p<(i-.5)*step-band) i--;
+      if(i!==active) show(i);
+    }
+    st=ScrollTrigger.create({
+      trigger:hero,pin:hero,pinType:'fixed',anticipatePin:1,
+      start:'top top',end:function(){ return '+='+last*0.7*innerHeight; },
+      invalidateOnRefresh:true,
+      onUpdate:function(self){ fill.style.width=(self.progress*100).toFixed(2)+'%'; pick(self.progress); },
+      onRefresh:function(self){ fill.style.width=(self.progress*100).toFixed(2)+'%'; gsap.set(track,{x:-Math.max(0,active)*hero.clientWidth}); }
+    });
+    function go(i){
+      var t=Math.min(last,Math.max(0,i)), y=st.start+(t/last)*(st.end-st.start);
+      scrollTo({top:y,behavior:'smooth'});
+    }
+    prev.onclick=function(){ go(active-1); };
+    next.onclick=function(){ go(active+1); };
+  }
+  function pinOff(){
+    if(st){ st.kill(true); st=null; }
+    if(slide){ slide.kill(); slide=null; }
+    gsap.set(track,{clearProps:'all'});
+    document.documentElement.classList.remove('js-scrub');
+  }
+
+  function canPin(){ return !!(window.gsap&&window.ScrollTrigger)&&wide.matches&&motion.matches; }
+  function apply(){
+    var want=canPin()?'pin':'rail';
+    if(want===mode) return;
+    if(mode==='pin') pinOff(); else if(mode==='rail') railOff();
+    panels.forEach(function(p){ p.removeAttribute('inert'); });
+    active=-1; setActive(0);
+    if(want==='pin') pinMode(); else railMode();
+  }
+  setActive(0);
+  apply();
+  wide.addEventListener('change',apply);
+  motion.addEventListener('change',apply);
 })();
 </script>
 </body>

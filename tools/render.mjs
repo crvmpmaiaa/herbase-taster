@@ -140,16 +140,16 @@ function nav(depth) {
     '  <div class="nav__in">',
     '    <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>',
     '    <div class="nav__side nav__side--l">',
-    `      <a href="${p}shop.html">Formulas</a><a href="${p}product.html">Sea Moss</a><a href="${p}index.html#best">Mushrooms</a>`,
+    `      <a href="${p}index.html">Home</a><a href="${p}shop.html">Shop</a><a href="${p}shop.html#collections">Collections</a>`,
     '    </div>',
     `    <a class="nav__mark" href="${p}index.html" aria-label="Herbase, home"><img src="${p}assets/wordmark.png" alt="Herbase"></a>`,
     '    <div class="nav__side nav__side--r">',
-    `      <a href="${j}"${cur}>Journal</a><a href="${p}product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>`,
+    `      <a href="${p}shop.html#formulas">Formulas</a><a href="${p}shop.html#seamoss">Sea Moss</a><a href="#" data-bag>Bag (0)</a>`,
     '    </div>',
     '    <a class="nav__bag" href="#">Bag (0)</a>',
     '  </div>',
     '  <div class="nav__drawer" id="drawer">',
-    `    <a href="${p}shop.html">Formulas</a><a href="${p}product.html">Sea Moss</a><a href="${p}index.html#best">Mushrooms</a><a href="${j}">Journal</a><a href="${p}index.html#shop">Book the hour · £120</a>`,
+    `    <a href="${p}index.html">Home</a><a href="${p}shop.html">Shop</a><a href="${p}shop.html#collections">Collections</a><a href="${p}shop.html#formulas">Formulas</a><a href="${p}shop.html#seamoss">Sea Moss</a><a href="${p}index.html#shop">Book the hour · £120</a>`,
     '  </div>',
     '</nav>',
   ].join('\n');
@@ -865,7 +865,7 @@ export function renderShop() {
   top.push('      <h1 class="dsp rv d1" style="margin-top:12px">Everything, <em>grouped as it sits</em></h1>');
   top.push(`      <p class="rv d2">${total} products, every one with a specification sheet. Prices as listed.</p>`);
   top.push('    </div>');
-  top.push('    <p class="shopnav rv d2">' + SHOP_GROUPS.map(g => `<a href="#${g[0]}">${esc(g[1])}</a>`).join('') + '</p>');
+  top.push('    <p class="shopnav rv d2" id="collections">' + SHOP_GROUPS.map(g => `<a href="#${g[0]}">${esc(g[1])}</a>`).join('') + '</p>');
   top.push('  </div>', '</section>');
   S.push(top.join('\n'));
 
