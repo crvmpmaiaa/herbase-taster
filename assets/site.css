@@ -125,8 +125,6 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .hero__title{font-size:clamp(24px,3.7vw,50px);max-width:18ch;margin-inline:auto;line-height:1.16;
   text-shadow:0 2px 30px rgba(0,0,0,.55)}
 .hero .panel-h--photo .hero__title{max-width:min(92vw,30ch);font-size:clamp(21px,3.1vw,42px);overflow-wrap:anywhere}
-/* short viewports (laptops at 800 px tall): tighten the first panel so nothing meets the rail */
-@media(max-height:880px) and (min-width:701px){.hero .panel-h{padding-top:clamp(88px,11vh,120px);padding-bottom:clamp(64px,9vh,96px)}.hero__logo{width:clamp(180px,20vw,300px);margin-bottom:clamp(14px,2vw,24px)}.hero__lede{margin-top:16px;font-size:clamp(14px,1.05vw,16px);line-height:1.55;max-width:64ch}.hero__act{margin-top:22px}.hero__meta{margin-top:20px;padding:10px 0;gap:8px 28px}}
 .hero__title em{color:var(--sun)}
 .hero__lede{margin:24px auto 0;font-size:clamp(15px,1.15vw,18px);line-height:1.75;max-width:58ch;
   color:rgba(255,237,210,.86);text-shadow:0 1px 18px rgba(0,0,0,.6)}

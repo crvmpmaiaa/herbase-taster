@@ -477,9 +477,24 @@ addEventListener('scroll',()=>{
     active=-1; setActive(0);
     if(want==='pin') pinMode(); else railMode();
   }
+  /* slide one keeps the original hero layout (same paddings, sizes and spacing). When that block is
+     taller than the panel, the whole block is scaled to fit with CSS zoom, so on short screens nothing
+     sits behind the header or on the rail; on tall screens the scale is 1 and nothing changes. */
+  function fitScene(){
+    var panel=panels[0], w=panel&&panel.querySelector('.wrap'); if(!w) return;
+    w.style.zoom='';
+    if(!wide.matches) return;
+    var cs=getComputedStyle(panel), avail=panel.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom), natural=w.offsetHeight;
+    if(natural>avail) w.style.zoom=Math.max(.6,avail/natural).toFixed(3);
+    if(window.ScrollTrigger) ScrollTrigger.refresh();
+  }
+  var fitRaf=0; function fitSoon(){ cancelAnimationFrame(fitRaf); fitRaf=requestAnimationFrame(fitScene); }
   setActive(0);
+  fitScene();
   apply();
-  wide.addEventListener('change',apply);
+  addEventListener('resize',fitSoon);
+  addEventListener('load',fitSoon);
+  wide.addEventListener('change',function(){ apply(); fitSoon(); });
   motion.addEventListener('change',apply);
 })();
 
