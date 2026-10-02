@@ -82,4 +82,4 @@ for the rest and why.
 
 Tracked privately in the growth audit, not here. Ask Jack.
 
-`assets/vendor/` carries GSAP 3.15 and ScrollTrigger (vendored, no CDN) for the homepage hero carousel; everything else stays plain.
+`assets/vendor/` carries GSAP 3.15 and ScrollTrigger (vendored, no CDN) for the homepage hero carousel and the pinned product shelf (both fall back to native scroll-snap rails); everything else stays plain.

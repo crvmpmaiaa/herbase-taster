@@ -94,23 +94,20 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
    screens); when GSAP is present, motion is allowed and the screen is wide,
    .js-scrub pins the hero and scrubs the track with the page scroll, one
    panel per step, the way the Madu hero does it. */
-.hero{position:relative;isolation:isolate;background:#04100F;color:var(--paper);text-align:center;
-  height:clamp(600px,100svh,1000px);overflow:hidden}
-.hero .track{display:flex;height:100%;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none}
+.hero{position:relative;isolation:isolate;background:#04100F;color:var(--paper);text-align:center;overflow:hidden}
+/* the original hero's height rule: each panel is at least 92svh and grows with slide one's copy instead of clipping it; the other panels stretch to match */
+.hero .track{display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none}
 .hero .track::-webkit-scrollbar{display:none}
-.hero .panel-h{position:relative;flex:0 0 100%;height:100%;scroll-snap-align:start;isolation:isolate;
+.hero .panel-h{position:relative;flex:0 0 100%;min-height:clamp(600px,92svh,940px);scroll-snap-align:start;isolation:isolate;
   display:flex;align-items:center;justify-content:center;padding:clamp(120px,15vh,180px) 0 clamp(72px,10vh,120px)}
 @media(max-width:700px){
-  /* narrow screens: the hero grows with the tallest panel instead of clipping, so the rail always sits below the copy */
-  .hero{height:auto;min-height:100svh}
-  .hero .track{height:auto}
-  .hero .panel-h{height:auto;min-height:100svh;padding:clamp(96px,13vh,130px) 0 96px}
-  .hero__logo{width:min(64vw,250px);margin-bottom:18px}
-  .hero__lede{margin-top:16px;line-height:1.6}
-  .hero__act{margin-top:24px}
-  .hero__meta{margin-top:24px;padding:12px 0;gap:8px 28px}
+  /* narrow screens: the original mobile rule, a full-height panel that grows with its copy; the extra bottom room is for the centred rail */
+  .hero .panel-h{min-height:100svh;padding:clamp(96px,13vh,130px) 0 96px}
+  .hero__logo{width:min(64vw,250px)}
 }
 .hero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-3;display:block}
+/* slide one keeps the original hero's framing: the scene sits 24% oversize and a touch zoomed, so its soft edges stay cropped out as before */
+.hero .panel-h--scene .hero__img{top:-12%;bottom:auto;height:124%;transform:scale(1.02)}
 .hero__veil{position:absolute;inset:0;z-index:-1;pointer-events:none;
   background:
     radial-gradient(58% 48% at 50% 46%,rgba(4,16,15,var(--hero-scrim,.86)),rgba(4,16,15,calc(var(--hero-scrim,.86) * .4)) 62%,transparent 78%),
@@ -152,6 +149,8 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 /* pinned mode (GSAP ScrollTrigger drives the track; the rail scrolls the page) */
 .js-scrub .hero .track{overflow:visible;will-change:transform}
 .js-scrub .hero .panel-h[inert]{visibility:visible}
+/* pinned: the rail sits inside the window even when slide one, at the original spacing, is taller than a short screen */
+.js-scrub .hero__rail{bottom:auto;top:calc(min(100svh,100%) - 56px)}
 
 .btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;
   padding:16px 30px;min-height:44px;text-decoration:none;background:var(--ink);color:var(--paper);
@@ -172,9 +171,23 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 
 /* ─────────── bestsellers ─────────── */
 .best{background:var(--paper-2);border-bottom:1px solid var(--rule)}
-.best__grid{display:grid;gap:1px;grid-template-columns:minmax(0,1fr);background:var(--rule);border:1px solid var(--rule)}
-@media(min-width:520px){.best__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(min-width:900px){.best__grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+/* horizontal product shelf, the Madu product band. The default is a native peek rail with scroll-snap (no JS, reduced motion;
+   a two-up grid on phones); .js-scrub pins the block and drives it sideways with the page scroll, fail-closed. */
+.horizontal{overflow-x:clip}
+.pin-wrap{display:flex;flex-direction:column;gap:clamp(18px,2.2vw,28px);padding:0 var(--gutter)}
+.pin-wrap .head{margin-bottom:0}
+.animation-wrap{display:flex;gap:clamp(10px,1.2vw,16px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;counter-reset:item;padding-bottom:1px}
+.animation-wrap::-webkit-scrollbar{display:none}
+.animation-wrap .item{flex:0 0 calc((100% - 3.2*clamp(10px,1.2vw,16px))/4.2);min-width:0;scroll-snap-align:start;position:relative;border:1px solid var(--rule)}
+.animation-wrap .item::before{counter-increment:item;content:counter(item,decimal-leading-zero);position:absolute;top:12px;left:14px;z-index:2;
+  font-family:var(--display);font-size:11px;letter-spacing:.14em;color:rgba(255,237,210,.85);text-shadow:0 1px 10px rgba(0,0,0,.6)}
+@media(hover:hover){.animation-wrap:hover .item{opacity:.45;transition:opacity .5s var(--ease)}.animation-wrap .item:hover,.animation-wrap .item:focus-within{opacity:1}}
+.progress{height:1px;background:var(--rule)}
+.progress>i{display:block;height:100%;background:var(--ink);transform:scaleX(0);transform-origin:left}
+@media(max-width:699px){.animation-wrap{display:grid;grid-template-columns:1fr 1fr;overflow:visible;scroll-snap-type:none}.animation-wrap .item{flex:none}.progress{display:none}}
+.js-scrub .pin-wrap{overflow:hidden}
+.js-scrub .animation-wrap{overflow:visible;scroll-snap-type:none;will-change:transform}
+.js-scrub .animation-wrap .item{flex:0 0 auto;width:clamp(220px,34vh,340px)}
 .prod{background:var(--paper);display:flex;flex-direction:column;min-width:0}
 .prod__img{position:relative;display:block;aspect-ratio:1;overflow:hidden;background:var(--night)}
 .prod__img::after{content:attr(data-name);position:absolute;inset:auto 0 0 0;padding:16px 18px;
@@ -591,17 +604,6 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .subscribe__done{font-family:var(--display);font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--jungle);padding:14px 0}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
-/* ─────────── slide one on short screens: same type as the other slides, tighter spacing and a smaller wordmark; nothing is scaled ─────────── */
-@media(min-width:701px) and (max-height:900px){
-  .hero .panel-h--scene{padding-top:clamp(84px,10vh,110px);padding-bottom:clamp(60px,8vh,80px)}
-  .hero .panel-h--scene .hero__logo{width:clamp(200px,20vw,300px);margin-bottom:20px}
-  .hero .panel-h--scene .hero__lede{margin-top:16px;line-height:1.6}
-  .hero .panel-h--scene .hero__act{margin-top:22px}
-  .hero .panel-h--scene .hero__meta{margin-top:22px;padding:10px 0;gap:8px 28px}
-}
-@media(min-width:701px) and (max-height:740px){.hero .panel-h--scene .hero__meta{display:none}}
-.hero .panel-h{align-items:safe center}
-
 /* ─────────── header links: one hover animation for every button, the line in ink ─────────── */
 .nav__side a::after,.feature__links a::after,.foot a::after{background:var(--ink)}
 .nav__side a[data-bag]::after{transform:scaleX(0);transform-origin:right center}
@@ -624,3 +626,8 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .why__item svg{width:46px;height:46px;display:block;margin:0 auto 18px;fill:none;stroke:var(--ink);stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
 .why__item h3{font-family:var(--display);font-weight:900;font-size:clamp(15px,1.3vw,19px);letter-spacing:.04em;text-transform:uppercase;line-height:1.25;max-width:14ch;margin:0 auto 12px}
 .why__item p{color:var(--ink-2);font-size:15px;line-height:1.7;max-width:32ch;margin:0 auto}
+
+/* ─────────── section order (subscribe sits under the featured product) and the wordmark over slides two and three ─────────── */
+.feature + .subscribe{border-top:0}
+.subscribe + .best{border-top:1px solid var(--rule)}
+html[data-slide="2"] .nav:not([data-solid]) .nav__mark,html[data-slide="3"] .nav:not([data-solid]) .nav__mark{opacity:1;pointer-events:auto}

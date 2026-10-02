@@ -55,12 +55,12 @@
       </div>
     </div>
     <div class="panel-h panel-h--photo" data-panel style="--hero-scrim:.74">
-      <img class="hero__img" src="assets/journal/gen-shop-shelf.jpg" srcset="assets/journal/gen-shop-shelf-m.jpg 800w, assets/journal/gen-shop-shelf.jpg 1600w" sizes="100vw" alt="A wooden shelf of plain amber jars in low sun. A generated scene, standing in for the shop shelf photograph" decoding="async">
+      <img class="hero__img" src="assets/hero-shelf.jpg" srcset="assets/hero-shelf-m.jpg 820w, assets/hero-shelf.jpg 2200w" sizes="100vw" alt="A wooden shelf of plain amber jars in low sun. A generated scene, standing in for the shop shelf photograph" decoding="async">
       <div class="hero__veil"></div>
       <div class="wrap">
         <h2 class="dsp hero__title">Scientifically formulated <em>signature formulas</em></h2>
         <p class="hero__lede">Before offering herbal products, deep dives into biology and biochemistry. Our journey into natural sciences sparked our fascination with the plant kingdom. We are a 'knowledge first' based company. Ancient wisdom with a modern touch.</p>
-        <div class="hero__act"><a class="btn" href="shop.html#formulas">Shop now</a></div>
+        <div class="hero__act"><a class="btn btn--line" href="shop.html#formulas">Shop now</a></div>
       </div>
     </div>
     <div class="panel-h panel-h--photo" data-panel style="--hero-scrim:.7">
@@ -69,7 +69,7 @@
       <div class="wrap">
         <h2 class="dsp hero__title">Herbase, the home of <em>natural remedies and holistic solutions</em></h2>
         <p class="hero__lede">An ancient apothecary from the future landed on 599 Smithdown Road in August 2024. After 5 years online and starting a whole wave, we introduce a one-of-a-kind store in the heart of Liverpool.</p>
-        <div class="hero__act"><a class="btn" href="#shop">Contact us</a></div>
+        <div class="hero__act"><a class="btn btn--line" href="#shop">Contact us</a></div>
       </div>
     </div>
   </div>
@@ -135,22 +135,53 @@
   </div>
 </section>
 
-<section class="best" id="best">
-  <div class="wrap">
+<section class="subscribe" id="subscribe">
+  <div class="wrap subscribe__in">
+    <div>
+      <p class="label rv">Subscribe</p>
+      <h2 class="dsp rv d1">Beamed in free forever, <em>unsubscribe anytime.</em></h2>
+      <p class="subscribe__lede rv d2">No spam, just knowledge.</p>
+    </div>
+    <form class="subscribe__form rv d2" id="subscribe-form" action="#" method="post" novalidate>
+      <label class="sr" for="sub-email">Email</label>
+      <div class="subscribe__row">
+        <input id="sub-email" type="email" name="email" placeholder="Email" autocomplete="email" autocapitalize="off" autocorrect="off" required>
+        <button class="btn" type="submit">Subscribe</button>
+      </div>
+      <p class="subscribe__note">Nothing leaves this page: the taster has no mailing list behind it. The live form at herbase.earth is the real one.</p>
+    </form>
+  </div>
+</section>
+
+<section class="best horizontal" id="best">
+  <div class="pin-wrap">
     <div class="head">
       <h2 class="dsp rv">Bought most often</h2>
-      <p class="rv d1">Prices as listed. Every one has its own specification sheet.</p>
+      <p class="rv d1">The four bought most often first, then six more. Every one has its own specification sheet.</p>
     </div>
-    <div class="best__grid">
-      <article class="prod rv"><a class="prod__img" href="product-seaking.html"><img loading="lazy" decoding="async" src="assets/tile-seaking.jpg" alt="Seaking capsules"></a>
+    <div class="animation-wrap" id="best-band">
+      <article class="item prod"><a class="prod__img" href="product-seaking.html"><img loading="lazy" decoding="async" src="assets/tile-seaking.jpg" alt="Seaking capsules"></a>
         <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">Sea moss formula in a capsule. 75 µg iodine each.</p><a class="prod__buy" href="product-seaking.html">Add to bag</a></article>
-      <article class="prod rv d1"><a class="prod__img" href="product.html"><img loading="lazy" decoding="async" src="assets/northern-soul-jar-m.jpg" alt="Northern Soul sea moss gel, glass jar"></a>
+      <article class="item prod"><a class="prod__img" href="product.html"><img loading="lazy" decoding="async" src="assets/northern-soul-jar-m.jpg" alt="Northern Soul sea moss gel, glass jar"></a>
         <div class="prod__row"><h3>Northern Soul</h3><span>from £34.99</span></div><p class="prod__sub">Cold-water sea moss gel. 300 ml or 500 ml.</p><a class="prod__buy" href="product.html">Choose a size · from £34.99</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="product-lions-mane.html"><img loading="lazy" decoding="async" src="assets/tile-lionsmane.jpg" alt="Lion's Mane capsules"></a>
+      <article class="item prod"><a class="prod__img" href="product-lions-mane.html"><img loading="lazy" decoding="async" src="assets/tile-lionsmane.jpg" alt="Lion's Mane capsules"></a>
         <div class="prod__row"><h3>Lion's Mane</h3><span>£24.99</span></div><p class="prod__sub">Single ingredient, whole fruiting body</p><a class="prod__buy" href="product-lions-mane.html">Add to bag</a></article>
-      <article class="prod rv d3"><a class="prod__img" href="product-shilajit.html"><img loading="lazy" decoding="async" src="assets/tile-shilajit.jpg" alt="Shilajit resin"></a>
+      <article class="item prod"><a class="prod__img" href="product-shilajit.html"><img loading="lazy" decoding="async" src="assets/tile-shilajit.jpg" alt="Shilajit resin"></a>
         <div class="prod__row"><h3>Shilajit Resin</h3><span>£39.99</span></div><p class="prod__sub">Altai mineral resin · 50 g in amber glass · about two months.</p><a class="prod__buy" href="product-shilajit.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-decolonise.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Decolonise"></a>
+        <div class="prod__row"><h3>Decolonise</h3><span>£39.99</span></div><p class="prod__sub">50 vegan capsules · 25 day supply · £1.60 a day</p><a class="prod__buy" href="product-decolonise.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-chondrus-crispus.html"><img loading="lazy" decoding="async" src="assets/tile-seamoss.jpg" alt="Chondrus Crispus sea moss gel"></a>
+        <div class="prod__row"><h3>Chondrus Crispus</h3><span>£34.99</span></div><p class="prod__sub">One alga, water and a drop of Omega DHA oil. One size, one tablespoon a day, no volume printed.</p><a class="prod__buy" href="product-chondrus-crispus.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-mag-flux.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Mag Flux"></a>
+        <div class="prod__row"><h3>Mag Flux</h3><span>£39.99</span></div><p class="prod__sub">50 × 800 mg vegan capsules · 25 days · £1.60 a day</p><a class="prod__buy" href="product-mag-flux.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-nu-heru.html"><img loading="lazy" decoding="async" src="assets/hero-sea-m.jpg" alt="Nu Heru sea moss gel"></a>
+        <div class="prod__row"><h3>Nu Heru</h3><span>from £34.99</span></div><p class="prod__sub">300 ml £34.99 · 500 ml £50.00 · one to two tablespoons a day</p><a class="prod__buy" href="product-nu-heru.html">Choose a size · from £34.99</a></article>
+      <article class="item prod"><a class="prod__img" href="product-reishi.html"><img loading="lazy" decoding="async" src="assets/hero-fungi-m.jpg" alt="Reishi"></a>
+        <div class="prod__row"><h3>Reishi</h3><span>£24.99</span></div><p class="prod__sub">50 capsules at 800 mg · 25 days · £1 a day</p><a class="prod__buy" href="product-reishi.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-chaga.html"><img loading="lazy" decoding="async" src="assets/hero-fungi-m.jpg" alt="Chaga"></a>
+        <div class="prod__row"><h3>Chaga</h3><span>£24.99</span></div><p class="prod__sub">One size · 750 mg a capsule · count not printed, so no day rate</p><a class="prod__buy" href="product-chaga.html">Add to bag</a></article>
     </div>
+    <div class="progress" aria-hidden="true"><i></i></div>
   </div>
 </section>
 
@@ -329,24 +360,6 @@
   <div class="close__shot rv"><img src="assets/apothecary.jpg" srcset="assets/apothecary-m.jpg 800w, assets/apothecary.jpg 1500w" sizes="100vw" loading="lazy" decoding="async" alt="Reiss Davies Ausar behind the counter at Herbase, Smithdown Road"></div>
 </section>
 
-<section class="subscribe" id="subscribe">
-  <div class="wrap subscribe__in">
-    <div>
-      <p class="label rv">Subscribe</p>
-      <h2 class="dsp rv d1">Beamed in free forever, <em>unsubscribe anytime.</em></h2>
-      <p class="subscribe__lede rv d2">No spam, just knowledge.</p>
-    </div>
-    <form class="subscribe__form rv d2" id="subscribe-form" action="#" method="post" novalidate>
-      <label class="sr" for="sub-email">Email</label>
-      <div class="subscribe__row">
-        <input id="sub-email" type="email" name="email" placeholder="Email" autocomplete="email" autocapitalize="off" autocorrect="off" required>
-        <button class="btn" type="submit">Subscribe</button>
-      </div>
-      <p class="subscribe__note">Nothing leaves this page: the taster has no mailing list behind it. The live form at herbase.earth is the real one.</p>
-    </form>
-  </div>
-</section>
-
 <footer class="foot">
   <div class="wrap">
     <div class="foot__top"><img src="assets/wordmark.png" alt="Herbase"></div>
@@ -396,14 +409,14 @@ burger.addEventListener('click',()=>{
   burger.setAttribute('aria-expanded',String(!open));
 });
 
-const sticky=document.getElementById('sticky'),nav=document.querySelector('.nav'),afterHero=document.querySelector('.strip');
-/* header goes solid 140 px after the hero starts to leave, the same timing as the unpinned hero had; measured from the strip below it so the pinned carousel does not trip it early */
+const sticky=document.getElementById('sticky'),nav=document.querySelector('.nav'),afterHero=document.querySelector('.hero + *')||document.querySelector('.strip');
+/* header goes solid 140 px after the hero starts to leave, the same timing as the unpinned hero had; measured from the section right under it so the pinned carousel does not trip it early */
 const heroLeaving=()=>afterHero?afterHero.getBoundingClientRect().top<=innerHeight-140:scrollY>140;
 let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
-    scrollY>600?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
+    (scrollY>600&&heroLeaving())?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
     heroLeaving()?nav.setAttribute('data-solid',''):nav.removeAttribute('data-solid');
     ticking=false;
   });
@@ -423,11 +436,12 @@ addEventListener('scroll',()=>{
   var fill=hero.querySelector('.bar > i'), count=document.getElementById('hero-count'),
       prev=document.getElementById('hero-prev'), next=document.getElementById('hero-next');
   var wide=matchMedia('(min-width:700px)'), motion=matchMedia('(prefers-reduced-motion: no-preference)');
-  var active=-1, mode=null, st=null, slide=null;
+  var active=-1, mode=null, st=null, slide=null, bands=[];
 
   function pad(n){ return String(n).padStart(2,'0'); }
   function setActive(i){
     active=i;
+    document.documentElement.setAttribute('data-slide',String(i+1));
     panels.forEach(function(p,k){ if(k===i) p.removeAttribute('inert'); else p.setAttribute('inert',''); });
     count.textContent=pad(i+1)+' / '+pad(panels.length);
     prev.disabled=i===0; next.disabled=i===last;
@@ -488,8 +502,21 @@ addEventListener('scroll',()=>{
     }
     prev.onclick=function(){ go(active-1); };
     next.onclick=function(){ go(active+1); };
+    /* horizontal product shelf, the Madu product band: pinned once it sits clear of the header, slid sideways by exactly the
+       scroll distance and easing 0.9 s behind the wheel, with a progress line so the hold never reads as stalled */
+    bands=gsap.utils.toArray('section.horizontal').map(function(sec){
+      var wrap=sec.querySelector('.animation-wrap'), pin=sec.querySelector('.pin-wrap'), bar=sec.querySelector('.progress > i');
+      var dist=function(){ return Math.max(0,wrap.scrollWidth-wrap.clientWidth); };
+      var top=function(){ var navH=(document.querySelector('.nav')||{offsetHeight:0}).offsetHeight; return Math.max(navH+12,Math.round((innerHeight-pin.offsetHeight)/2)); };
+      return gsap.timeline({scrollTrigger:{trigger:pin,pin:pin,pinType:'fixed',anticipatePin:1,scrub:0.9,invalidateOnRefresh:true,
+          start:function(){ return 'top '+top(); },end:function(){ return '+='+dist(); }}})
+        .fromTo(wrap,{x:0},{x:function(){ return -dist(); },ease:'none'},0)
+        .fromTo(bar,{scaleX:0},{scaleX:1,ease:'none'},0);
+    });
   }
   function pinOff(){
+    bands.splice(0).forEach(function(tl){ if(tl.scrollTrigger) tl.scrollTrigger.kill(true); tl.kill(); });
+    gsap.set(['.animation-wrap','.progress > i'],{clearProps:'all'});
     if(st){ st.kill(true); st=null; }
     if(slide){ slide.kill(); slide=null; }
     gsap.set(track,{clearProps:'all'});
