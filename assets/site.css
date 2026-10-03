@@ -80,7 +80,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .nav__bag{position:absolute;right:var(--gutter);top:50%;transform:translateY(-50%);padding:12px 2px;
   font-family:var(--display);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);
   text-decoration:none;border-bottom:1px solid var(--ink)}
-.nav__bag:hover,.nav__bag:focus-visible{color:var(--jungle);border-color:var(--jungle)}
+.nav__bag:hover,.nav__bag:focus-visible{color:var(--ink)}
 @media(min-width:860px){.nav__burger,.nav__bag{display:none}}
 
 .nav__drawer{display:none;border-top:1px solid var(--rule);padding:8px var(--gutter) 20px}
@@ -94,20 +94,23 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
    screens); when GSAP is present, motion is allowed and the screen is wide,
    .js-scrub pins the hero and scrubs the track with the page scroll, one
    panel per step, the way the Madu hero does it. */
-.hero{position:relative;isolation:isolate;background:#04100F;color:var(--paper);text-align:center;overflow:hidden}
-/* the original hero's height rule: each panel is at least 92svh and grows with slide one's copy instead of clipping it; the other panels stretch to match */
-.hero .track{display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none}
+.hero{position:relative;isolation:isolate;background:#04100F;color:var(--paper);text-align:center;
+  height:clamp(600px,100svh,1000px);overflow:hidden}
+.hero .track{display:flex;height:100%;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none}
 .hero .track::-webkit-scrollbar{display:none}
-.hero .panel-h{position:relative;flex:0 0 100%;min-height:clamp(600px,92svh,940px);scroll-snap-align:start;isolation:isolate;
+.hero .panel-h{position:relative;flex:0 0 100%;height:100%;scroll-snap-align:start;isolation:isolate;
   display:flex;align-items:center;justify-content:center;padding:clamp(120px,15vh,180px) 0 clamp(72px,10vh,120px)}
 @media(max-width:700px){
-  /* narrow screens: the original mobile rule, a full-height panel that grows with its copy; the extra bottom room is for the centred rail */
-  .hero .panel-h{min-height:100svh;padding:clamp(96px,13vh,130px) 0 96px}
-  .hero__logo{width:min(64vw,250px)}
+  /* narrow screens: the hero grows with the tallest panel instead of clipping, so the rail always sits below the copy */
+  .hero{height:auto;min-height:100svh}
+  .hero .track{height:auto}
+  .hero .panel-h{height:auto;min-height:100svh;padding:clamp(96px,13vh,130px) 0 96px}
+  .hero__logo{width:min(64vw,250px);margin-bottom:18px}
+  .hero__lede{margin-top:16px;line-height:1.6}
+  .hero__act{margin-top:24px}
+  .hero__meta{margin-top:24px;padding:12px 0;gap:8px 28px}
 }
 .hero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-3;display:block}
-/* slide one keeps the original hero's framing: the scene sits 24% oversize and a touch zoomed, so its soft edges stay cropped out as before */
-.hero .panel-h--scene .hero__img{top:-12%;bottom:auto;height:124%;transform:scale(1.02)}
 .hero__veil{position:absolute;inset:0;z-index:-1;pointer-events:none;
   background:
     radial-gradient(58% 48% at 50% 46%,rgba(4,16,15,var(--hero-scrim,.86)),rgba(4,16,15,calc(var(--hero-scrim,.86) * .4)) 62%,transparent 78%),
@@ -149,8 +152,6 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 /* pinned mode (GSAP ScrollTrigger drives the track; the rail scrolls the page) */
 .js-scrub .hero .track{overflow:visible;will-change:transform}
 .js-scrub .hero .panel-h[inert]{visibility:visible}
-/* pinned: the rail sits inside the window even when slide one, at the original spacing, is taller than a short screen */
-.js-scrub .hero__rail{bottom:auto;top:calc(min(100svh,100%) - 56px)}
 
 .btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;
   padding:16px 30px;min-height:44px;text-decoration:none;background:var(--ink);color:var(--paper);
@@ -174,11 +175,15 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 /* horizontal product shelf, the Madu product band. The default is a native peek rail with scroll-snap (no JS, reduced motion;
    a two-up grid on phones); .js-scrub pins the block and drives it sideways with the page scroll, fail-closed. */
 .horizontal{overflow-x:clip}
-.pin-wrap{display:flex;flex-direction:column;gap:clamp(18px,2.2vw,28px);padding:0 var(--gutter)}
-.pin-wrap .head{margin-bottom:0}
-.animation-wrap{display:flex;gap:clamp(10px,1.2vw,16px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;counter-reset:item;padding-bottom:1px}
+.pin-wrap{display:flex;flex-direction:column;gap:20px;padding:0 var(--gutter)}
+.band__mark{font-family:var(--display);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.band__mark a{color:inherit;text-decoration:none;position:relative;padding-bottom:4px}
+.band__mark a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--ink);transform-origin:right center;transform:scaleX(0);transition:transform .5s cubic-bezier(1,0,0,1)}
+.band__mark a:hover::after,.band__mark a:focus-visible::after{transform-origin:left center;transform:scaleX(1)}
+.animation-wrap{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;counter-reset:item;padding-bottom:1px}
 .animation-wrap::-webkit-scrollbar{display:none}
-.animation-wrap .item{flex:0 0 calc((100% - 3.2*clamp(10px,1.2vw,16px))/4.2);min-width:0;scroll-snap-align:start;position:relative;border:1px solid var(--rule)}
+.animation-wrap .prod__img{aspect-ratio:4/5}
+.animation-wrap .item{flex:0 0 calc((100% - 3.2*20px)/4.2);min-width:0;scroll-snap-align:start;position:relative;border:1px solid var(--rule)}
 .animation-wrap .item::before{counter-increment:item;content:counter(item,decimal-leading-zero);position:absolute;top:12px;left:14px;z-index:2;
   font-family:var(--display);font-size:11px;letter-spacing:.14em;color:rgba(255,237,210,.85);text-shadow:0 1px 10px rgba(0,0,0,.6)}
 @media(hover:hover){.animation-wrap:hover .item{opacity:.45;transition:opacity .5s var(--ease)}.animation-wrap .item:hover,.animation-wrap .item:focus-within{opacity:1}}
@@ -187,7 +192,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 @media(max-width:699px){.animation-wrap{display:grid;grid-template-columns:1fr 1fr;overflow:visible;scroll-snap-type:none}.animation-wrap .item{flex:none}.progress{display:none}}
 .js-scrub .pin-wrap{overflow:hidden}
 .js-scrub .animation-wrap{overflow:visible;scroll-snap-type:none;will-change:transform}
-.js-scrub .animation-wrap .item{flex:0 0 auto;width:clamp(220px,34vh,340px)}
+.js-scrub .animation-wrap .item{flex:0 0 auto;width:clamp(220px,43vh,340px)}
 .prod{background:var(--paper);display:flex;flex-direction:column;min-width:0}
 .prod__img{position:relative;display:block;aspect-ratio:1;overflow:hidden;background:var(--night)}
 .prod__img::after{content:attr(data-name);position:absolute;inset:auto 0 0 0;padding:16px 18px;
@@ -535,7 +540,7 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .nav__side a:hover::after,.nav__side a:focus-visible::after{transform-origin:left center;transform:scaleX(1)}
 .nav__side a[data-bag]{color:var(--ink)}
 .nav__side a[data-bag]::after{transform:scaleX(1);transform-origin:left center}
-.nav__side a[data-bag]:hover,.nav__side a[data-bag]:focus-visible{color:var(--jungle)}
+.nav__side a[data-bag]:hover,.nav__side a[data-bag]:focus-visible{color:var(--ink)}
 .foot a{display:block;width:fit-content;position:relative}
 .foot a::after{content:"";position:absolute;left:0;right:0;bottom:8px;height:1px;background:currentColor;
   transform-origin:right center;transform:scaleX(0);transition:transform .5s cubic-bezier(1,0,0,1)}
@@ -546,10 +551,10 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
   background:url(nav-flood.jpg) center/cover no-repeat;
   opacity:0;transform:scaleX(0);transform-origin:50% 50%;
   transition:transform .65s cubic-bezier(.2,.8,.2,1),opacity .35s var(--ease)}
-.nav[data-solid]:has(.nav__mark:hover)::after,.nav[data-solid]:has(.nav__mark:focus-visible)::after{opacity:1;transform:scaleX(1)}
-.nav[data-solid]:has(.nav__mark:hover),.nav[data-solid]:has(.nav__mark:focus-visible){border-bottom-color:rgba(255,237,210,.25)}
-.nav[data-solid]:has(.nav__mark:hover) .nav__side a,.nav[data-solid]:has(.nav__mark:focus-visible) .nav__side a{color:var(--paper)}
-.nav[data-solid]:has(.nav__mark:hover) .nav__mark img,.nav[data-solid]:has(.nav__mark:focus-visible) .nav__mark img{filter:brightness(0) invert(1)}
+.nav[data-solid]:has(.nav__in a:hover)::after,.nav[data-solid]:has(.nav__in a:focus-visible)::after{opacity:1;transform:scaleX(1)}
+.nav[data-solid]:has(.nav__in a:hover),.nav[data-solid]:has(.nav__in a:focus-visible){border-bottom-color:rgba(255,237,210,.25)}
+.nav[data-solid]:has(.nav__in a:hover) .nav__side a,.nav[data-solid]:has(.nav__in a:focus-visible) .nav__side a{color:var(--paper)}
+.nav[data-solid]:has(.nav__in a:hover) .nav__mark img,.nav[data-solid]:has(.nav__in a:focus-visible) .nav__mark img{filter:brightness(0) invert(1)}
 .nav__mark img{transition:filter .35s var(--ease)}
 @media(prefers-reduced-motion:reduce){.nav::after,.nav__side a::after,.foot a::after{transition:none}}
 
@@ -608,16 +613,16 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .nav__side a::after,.feature__links a::after,.foot a::after{background:var(--ink)}
 .nav__side a[data-bag]::after{transform:scaleX(0);transform-origin:right center}
 .nav__side a[data-bag]:hover::after,.nav__side a[data-bag]:focus-visible::after{transform-origin:left center;transform:scaleX(1)}
-.nav__bag{position:relative;border-bottom:0}
+.nav__bag{border-bottom:0}
 .nav__bag::after{content:"";position:absolute;left:2px;right:2px;bottom:8px;height:1px;background:var(--ink);
   transform-origin:right center;transform:scaleX(0);transition:transform .5s cubic-bezier(1,0,0,1)}
 .nav__bag:hover::after,.nav__bag:focus-visible::after{transform-origin:left center;transform:scaleX(1)}
 .nav:not([data-solid]) .nav__bag{border-bottom:0}
-.nav[data-solid]:has(.nav__mark:hover),.nav[data-solid]:has(.nav__mark:focus-visible){border-bottom-color:var(--ink)}
+.nav[data-solid]:has(.nav__in a:hover),.nav[data-solid]:has(.nav__in a:focus-visible){border-bottom-color:var(--ink)}
 .foot a::after{background:rgba(255,237,210,.9)}
 
 /* ─────────── what makes Herbase unique (the live site's four-up row, in the taster's register) ─────────── */
-.why{background:var(--paper);padding:clamp(48px,6vw,84px) 0;border-bottom:1px solid var(--rule);text-align:center}
+.why{background:var(--paper);padding:clamp(32px,4vw,56px) 0;border-bottom:1px solid var(--rule);text-align:center}
 .why__h{font-size:clamp(21px,2.7vw,36px);margin:0 auto clamp(30px,4vw,56px);max-width:24ch}
 .why__h em{color:var(--sun-ink)}
 .why__grid{display:grid;gap:clamp(28px,3vw,44px) clamp(20px,2.5vw,36px);grid-template-columns:1fr}
@@ -631,3 +636,26 @@ section.turn{padding-top:clamp(92px,10vw,164px);padding-bottom:clamp(84px,9vw,14
 .feature + .subscribe{border-top:0}
 .subscribe + .best{border-top:1px solid var(--rule)}
 html[data-slide="2"] .nav:not([data-solid]) .nav__mark,html[data-slide="3"] .nav:not([data-solid]) .nav__mark{opacity:1;pointer-events:auto}
+
+/* ─────────── slide one on short screens: same type as the other slides, tighter spacing and a smaller wordmark; nothing is scaled ─────────── */
+@media(min-width:701px) and (max-height:900px){
+  .hero .panel-h--scene{padding-top:clamp(84px,10vh,110px);padding-bottom:clamp(60px,8vh,80px)}
+  .hero .panel-h--scene .hero__logo{width:clamp(200px,20vw,300px);margin-bottom:20px}
+  .hero .panel-h--scene .hero__lede{margin-top:16px;line-height:1.6}
+  .hero .panel-h--scene .hero__act{margin-top:22px}
+  .hero .panel-h--scene .hero__meta{margin-top:22px;padding:10px 0;gap:8px 28px}
+}
+@media(min-width:701px) and (max-height:740px){.hero .panel-h--scene .hero__meta{display:none}}
+.hero .panel-h{align-items:safe center}
+
+/* ─────────── header flood on every header button: burger and bag go cream with the links; inner pages (.nav--solid) flood the same way; the wordmark leaves room for the bag on narrow screens ─────────── */
+.nav[data-solid]:has(.nav__in a:hover) .nav__bag,.nav[data-solid]:has(.nav__in a:focus-visible) .nav__bag{color:var(--paper)}
+.nav[data-solid]:has(.nav__in a:hover) .nav__burger span,.nav[data-solid]:has(.nav__in a:focus-visible) .nav__burger span{background:var(--paper)}
+.nav[data-solid]:has(.nav__in a:hover) .nav__burger,.nav[data-solid]:has(.nav__in a:focus-visible) .nav__burger{border-color:rgba(255,237,210,.45)}
+.nav--solid:has(.nav__in a:hover)::after,.nav--solid:has(.nav__in a:focus-visible)::after{opacity:1;transform:scaleX(1)}
+.nav--solid:has(.nav__in a:hover) .nav__side a,.nav--solid:has(.nav__in a:focus-visible) .nav__side a,.nav--solid:has(.nav__in a:hover) .nav__bag,.nav--solid:has(.nav__in a:focus-visible) .nav__bag{color:var(--paper)}
+.nav--solid:has(.nav__in a:hover) .nav__mark img,.nav--solid:has(.nav__in a:focus-visible) .nav__mark img{filter:brightness(0) invert(1)}
+.nav--solid:has(.nav__in a:hover) .nav__burger span,.nav--solid:has(.nav__in a:focus-visible) .nav__burger span{background:var(--paper)}
+.nav--solid:has(.nav__in a:hover) .nav__burger,.nav--solid:has(.nav__in a:focus-visible) .nav__burger{border-color:rgba(255,237,210,.45)}
+.nav--solid:has(.nav__in a:hover),.nav--solid:has(.nav__in a:focus-visible){border-bottom-color:var(--ink)}
+@media(max-width:420px){.nav__mark img{height:17px}}
