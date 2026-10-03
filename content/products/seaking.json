@@ -15,10 +15,10 @@
   "rating": "4.8 · 19 Google reviews for the shop",
   "gallery": [
     {
-      "img": "assets/tile-seaking.jpg",
-      "alt": "Seaweed fronds around a dark starfield, the illustration used for Seaking",
-      "thumbAlt": "Seaweed fronds around a dark starfield",
-      "cap": "The Seaking scene. An illustration, not a photograph of the tub."
+      "img": "assets/pack-seaking.jpg",
+      "alt": "The Seaking artwork as it appears on herbase.earth",
+      "thumbAlt": "The Seaking artwork as it appears on herbase.earth",
+      "cap": "The Seaking artwork as it appears on herbase.earth, not a photograph of the tub."
     },
     {
       "img": "gen-seaking-capsules",
@@ -62,7 +62,7 @@
     {
       "summary": "What is in it",
       "body": [
-        "The same four algae that go into the <a href=\"product.html\">Northern Soul</a> gel, dried and milled into a capsule, with one clove alongside them. Four algae from three families: a red, two browns and a green.",
+        "The same four algae that go into the Northern Soul gel, dried and milled into a capsule, with one clove alongside them. Four algae from three families: a red, two browns and a green.",
         "<i>Chondrus crispus</i> · <i>Fucus vesiculosus</i> (bladderwrack) · Laminariales (kelp) · <i>Chlorella</i> · <i>Syzygium aromaticum</i> (clove). That is five names in total."
       ]
     },
@@ -190,7 +190,7 @@
       ],
       [
         "Declared list",
-        "<i>Chondrus crispus</i> · <i>Syzygium aromaticum</i> (clove) · <i>Fucus vesiculosus</i> (bladderwrack) · Laminariales (kelp) · <i>Chlorella</i>. The <a href=\"product.html#spec\">gel's list</a> is the same four algae without the clove."
+        "<i>Chondrus crispus</i> · <i>Syzygium aromaticum</i> (clove) · <i>Fucus vesiculosus</i> (bladderwrack) · Laminariales (kelp) · <i>Chlorella</i>. The gel's list is the same four algae without the clove."
       ],
       [
         "Dose",
@@ -305,34 +305,12 @@
   },
   "also": {
     "h2": "The rest of the sea moss shelf",
-    "intro": "Four sea moss products, three species or preparations. <a href=\"journal/which-sea-moss.html\">Reiss explains which is which</a>.",
+    "intro": "Four sea moss products, three species or preparations. Reiss explains which is which.",
     "handles": [
-      {
-        "handle": "northern-soul",
-        "name": "Northern Soul",
-        "alt": "Northern Soul sea moss gel, glass jar",
-        "sub": "The same four algae as a gel. One tablespoon each morning, 300 ml or 500 ml, kept in the fridge."
-      },
-      {
-        "handle": "chondrus-crispus",
-        "name": "Chondrus Crispus",
-        "img": "chondrus-dried",
-        "alt": "Chondrus crispus sea moss",
-        "sub": "The plain gel. One alga, water and Omega DHA oil. Some customers use it as a face or hair mask."
-      },
-      {
-        "handle": "purple-mwani",
-        "name": "Purple Mwani",
-        "alt": "Purple Mwani sea moss",
-        "sub": "<i>Eucheuma cottonii</i>, the warm-water species, from Tanzania. Lasts ten to twenty days."
-      },
-      {
-        "handle": "nu-heru",
-        "name": "Nu Heru",
-        "img": "red-algae-pool",
-        "alt": "Nu Heru sea moss gel",
-        "sub": "Red sea moss with hibiscus, elderberry and baobab. 300 ml or 500 ml."
-      }
+      "decolonise",
+      "detox-redox",
+      "equill",
+      "feminina"
     ]
   },
   "jnext": {
@@ -346,6 +324,7 @@
     "David Clode, Maximilian Brand, Amanda Phung, Daily Slowdown, J Brouwer, Isaiah Villar, Kier in Sight Archives, Erick Morales Oyola, Ekaterina Zlotnikova and Joan on Unsplash",
     "Seaweed drying: Paul Farmer, CC BY-SA 2.0, via Wikimedia Commons",
     "Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons",
-    "Kelp from above: BravoGonzalo, CC BY-SA 4.0, via Wikimedia Commons"
+    "Kelp from above: BravoGonzalo, CC BY-SA 4.0, via Wikimedia Commons",
+    "Pack photograph via herbase.earth"
   ]
 }

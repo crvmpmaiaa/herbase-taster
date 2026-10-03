@@ -60,7 +60,7 @@
     {
       "summary": "What is in the box",
       "body": [
-        "One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One jar of <a href=\"product-decolonise.html\">Decolonise</a>, 50 vegan capsules at 800 mg. One jar of the <a href=\"product-purple-mwani.html\">Purple Mwani</a> gel, which is <i>Eucheuma cottonii</i> and water.",
+        "One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One jar of <a href=\"product-decolonise.html\">Decolonise</a>, 50 vegan capsules at 800 mg. One jar of the Purple Mwani gel, which is <i>Eucheuma cottonii</i> and water.",
         "Nothing else is named as being in the box. The three cards below go to each jar's own sheet."
       ]
     },
@@ -104,10 +104,6 @@
       {
         "handle": "decolonise",
         "qty": "1 jar · 50 vegan capsules, 800 mg each"
-      },
-      {
-        "handle": "purple-mwani",
-        "qty": "1 jar · Eucheuma cottonii gel"
       }
     ]
   },
@@ -119,7 +115,7 @@
     "rows": [
       [
         "Contents",
-        "One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One jar of <a href=\"product-decolonise.html\">Decolonise</a>, 50 vegan capsules. One jar of the <a href=\"product-purple-mwani.html\">Purple Mwani</a> gel, <i>Eucheuma cottonii</i> and water."
+        "One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One jar of <a href=\"product-decolonise.html\">Decolonise</a>, 50 vegan capsules. One jar of the Purple Mwani gel, <i>Eucheuma cottonii</i> and water."
       ],
       [
         "Price",

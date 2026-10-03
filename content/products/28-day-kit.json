@@ -55,7 +55,7 @@
     {
       "summary": "What is in the box",
       "body": [
-        "Three jars of Detox Redox at 40 large vegan capsules each, one jar of <a href=\"product.html\">Northern Soul</a> sea moss gel, and one copy of the book, written by Reiss Davies Ausar. The cards below go to each item's own sheet.",
+        "Three jars of Detox Redox at 40 large vegan capsules each, one jar of Northern Soul sea moss gel, and one copy of the book, written by Reiss Davies Ausar. The cards below go to each item's own sheet.",
         "The listing says the book comes with the Konscious Konsumption nutrition guide. Nothing else is named as being in the box."
       ]
     },
@@ -96,10 +96,6 @@
         "qty": "3 jars · 40 large vegan capsules each"
       },
       {
-        "handle": "northern-soul",
-        "qty": "1 jar · size not printed on this listing"
-      },
-      {
         "handle": "detox-redox-book",
         "qty": "1 copy · by Reiss Davies Ausar"
       }
@@ -113,7 +109,7 @@
     "rows": [
       [
         "Contents",
-        "Three jars of Detox Redox, 40 large vegan capsules in each. One jar of <a href=\"product.html\">Northern Soul</a> sea moss gel. One copy of the book, which the listing says comes with the Konscious Konsumption nutrition guide."
+        "Three jars of Detox Redox, 40 large vegan capsules in each. One jar of Northern Soul sea moss gel. One copy of the book, which the listing says comes with the Konscious Konsumption nutrition guide."
       ],
       [
         "Price",

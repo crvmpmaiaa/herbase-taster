@@ -60,7 +60,7 @@
     {
       "summary": "What is in the box",
       "body": [
-        "One 500 ml jar of the <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> gel. One jar of <a href=\"product-equill.html\">Equill</a>, 50 large vegan capsules at 750 mg. One jar of <a href=\"product-chasteberry.html\">Chasteberry</a>, 50 vegan capsules.",
+        "One 500 ml jar of the Chondrus Crispus gel. One jar of <a href=\"product-equill.html\">Equill</a>, 50 large vegan capsules at 750 mg. One jar of <a href=\"product-chasteberry.html\">Chasteberry</a>, 50 vegan capsules.",
         "Nothing else is named as being in the box. The three cards below go to each item's own sheet."
       ]
     },
@@ -74,7 +74,7 @@
     {
       "summary": "Two figures for the gel",
       "body": [
-        "The <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> listing prints one tablespoon daily. The ceiling, do not exceed one tablespoon a day, is ours: it is in the small print on that page, not on the listing. This box prints one to three.",
+        "The Chondrus Crispus listing prints one tablespoon daily. The ceiling, do not exceed one tablespoon a day, is ours: it is in the small print on that page, not on the listing. This box prints one to three.",
         "Sea moss carries iodine and the amount in a spoonful moves with the harvest, so a spoon does not carry a printed dose in the way a capsule does. That is the reason the lower figure exists, and it is the one on the jar you will be holding."
       ]
     },
@@ -98,10 +98,6 @@
     "intro": "Each one is sold on its own as well. The prices on these cards are the prices those items carry on this site, and each card goes to its own specification sheet.",
     "items": [
       {
-        "handle": "chondrus-crispus",
-        "qty": "1 jar · 500 ml, as this listing prints it"
-      },
-      {
         "handle": "equill",
         "qty": "1 jar · 50 large vegan capsules, 750 mg each"
       },
@@ -119,7 +115,7 @@
     "rows": [
       [
         "Contents",
-        "One 500 ml jar of the <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> gel. One jar of <a href=\"product-equill.html\">Equill</a>, 50 large vegan capsules. One jar of <a href=\"product-chasteberry.html\">Chasteberry</a>, 50 vegan capsules."
+        "One 500 ml jar of the Chondrus Crispus gel. One jar of <a href=\"product-equill.html\">Equill</a>, 50 large vegan capsules. One jar of <a href=\"product-chasteberry.html\">Chasteberry</a>, 50 vegan capsules."
       ],
       [
         "Price",
@@ -135,7 +131,7 @@
       ],
       [
         "The gel, twice",
-        "The <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> listing prints one tablespoon daily and says not to exceed one a day. This box prints one to three. Both figures are ours and they do not agree. The lower one is the one printed on the jar's own page, and this sheet does not pick between them for you."
+        "The Chondrus Crispus listing prints one tablespoon daily and says not to exceed one a day. This box prints one to three. Both figures are ours and they do not agree. The lower one is the one printed on the jar's own page, and this sheet does not pick between them for you."
       ],
       [
         "Volume",

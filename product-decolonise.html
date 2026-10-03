@@ -35,16 +35,16 @@
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
-      <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="index.html#best">Mushrooms</a>
+      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a>
     </div>
     <a class="nav__mark" href="index.html" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="journal/">Journal</a><a href="product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>
+      <a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#" data-bag aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
     </div>
-    <a class="nav__bag" href="#">Bag (0)</a>
+    <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
   </div>
   <div class="nav__drawer" id="drawer">
-    <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="index.html#best">Mushrooms</a><a href="journal/">Journal</a><a href="index.html#shop">Book the hour · £120</a>
+    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="index.html#shop">Book the hour · £120</a>
   </div>
 </nav>
 
@@ -55,17 +55,17 @@
     <div class="pdp2__grid">
       <div class="gal">
         <div class="gal__main">
-          <div class="card__img card__img--held" id="galheld"><p>Pack photography held<span>Label reprint pending</span></p></div>
+          <img id="galmain" src="assets/gen-pack-decolonise.jpg" alt="Decolonise, a generated stand-in for the pack" decoding="async">
         </div>
         <div class="gal__thumbs">
-          <button class="thumb--held" type="button" aria-pressed="true" data-cap="Pack photography is held until the label is reprinted. The pictures here are of the botanicals, not of the jar."><span>Pack held</span></button>
+          <button type="button" aria-pressed="true" data-src="assets/gen-pack-decolonise.jpg" data-cap="A generated stand-in for the pack, not a photograph of our stock. The real label prints a line the taster does not carry, so this one shows the name and the count only."><img src="assets/gen-pack-decolonise-m.jpg" alt="Decolonise, a generated stand-in for the pack" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/gen-bitters-board.jpg" data-cap="Five of the nine laid out on a board: wormwood, clove, black pepper, bitter melon and charcoal. A generated scene, not a photograph of our stock."><img src="assets/journal/gen-bitters-board-m.jpg" alt="A wormwood sprig, clove buds, black peppercorns, a halved bitter melon and a heap of charcoal on a dark board. A generated scene" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/stock-wormwood-field.jpg" data-cap="Artemisia absinthium growing in the open, silver and finely cut. Wormwood is the ingredient the stop date is written around."><img src="assets/journal/stock-wormwood-field-m.jpg" alt="Silver-green wormwood foliage growing in the open" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/pau-darco-tree.jpg" data-cap="Tabebuia impetiginosa in flower on a dry plain. The bark is the part that is usually sold."><img src="assets/journal/pau-darco-tree-m.jpg" alt="A pau d'arco tree in full pink flower on open dry ground" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/bitter-melon.jpg" data-cap="Momordica charantia left on the vine until it ripened orange. It is picked green for the kitchen."><img src="assets/journal/bitter-melon-m.jpg" alt="A ripe orange bitter melon hanging on the vine" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/gen-wormwood-sprig.jpg" data-cap="A wormwood sprig standing in a glass on a windowsill. A generated scene, not a photograph of our stock."><img src="assets/journal/gen-wormwood-sprig-m.jpg" alt="A sprig of wormwood in a glass of water on a windowsill. A generated scene" loading="lazy" decoding="async"></button>
         </div>
-        <p class="gal__cap" id="galcap">Pack photography is held until the label is reprinted. The pictures here are of the botanicals, not of the jar.</p>
+        <p class="gal__cap" id="galcap">A generated stand-in for the pack, not a photograph of our stock. The real label prints a line the taster does not carry, so this one shows the name and the count only.</p>
       </div>
 
       <div class="buy">
@@ -85,7 +85,7 @@
           <li>Free UK delivery over £50, or collect from the shop</li>
           <li>Every ingredient named on the specification sheet below</li>
         </ul>
-        <a class="buy__cta" href="#buy" id="buybtn"><span>Add to bag</span><span>50 capsules · £39.99</span></a>
+        <a class="buy__cta" href="#buy" id="buybtn" data-add data-name="Decolonise" data-price="39.99"><span>Add to bag</span><span>50 capsules · £39.99</span></a>
         <p class="buy__note"><b>There are more people this one is not for than anything else we sell.</b> Read the sheet, and if you are not sure, ring the shop on 07946 806533, Tuesday to Sunday. Reiss or whoever is on the counter will talk you through it.</p>
 
         <div class="acc">
@@ -249,8 +249,6 @@
       <p class="rv d1">This one is a course with an end date. These are the ones you can take every day. <a href="journal/" style="color:var(--sun-ink)">Reiss writes them up in the journal</a>.</p>
     </div>
     <div class="best__grid">
-      <article class="prod rv"><a class="prod__img" href="product.html"><img loading="lazy" decoding="async" src="assets/northern-soul-jar-m.jpg" alt="Northern Soul sea moss gel, glass jar"></a>
-        <div class="prod__row"><h3>Northern Soul</h3><span>from £34.99</span></div><p class="prod__sub">Cold-water <i>Chondrus crispus</i> gel with four algae from three families. One tablespoon each morning, which this is not.</p><a class="prod__buy" href="product.html">Choose a size</a></article>
       <article class="prod rv d1"><a class="prod__img" href="product-seaking.html"><img loading="lazy" decoding="async" src="assets/tile-seaking.jpg" alt="Seaking capsules"></a>
         <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">The Northern Soul formula in a capsule. 50 × 800 mg, 75 µg iodine each. Clove is on its list too.</p><a class="prod__buy" href="product-seaking.html">Add to bag</a></article>
       <article class="prod rv d2"><a class="prod__img" href="product-lions-mane.html"><img loading="lazy" decoding="async" src="assets/tile-lionsmane.jpg" alt="Lion's Mane capsules"></a>
@@ -270,6 +268,15 @@
   </div>
 </section>
 
+<section class="mission">
+  <div class="wrap mission__in">
+    <p class="label rv">The mission</p>
+    <p class="mission__lead rv d1">The human body is electrical - each heartbeat, each neuron, each breath operates through vibration and current.</p>
+    <p class="rv d2">HERBASE formulations are designed to recharge your cellular battery, detox the pathways that block flow, and restore harmony between your physical and energetic bodies.</p>
+    <p class="rv d2">True wellness begins at the level of the cell - when nutrition becomes information, and food becomes frequency.</p>
+  </div>
+</section>
+
 <footer class="foot">
   <div class="wrap">
     <div class="foot__top"><img src="assets/wordmark.png" alt="Herbase"></div>
@@ -281,7 +288,7 @@
       </div>
       <div>
         <h3>Shop</h3>
-        <a href="index.html#monograph">Signature formulas</a><a href="product.html">Sea moss</a><a href="index.html#best">Mushrooms</a><a href="shop.html#kits">Bundle kits</a><a href="shop.html#objects">Books</a>
+        <a href="collection-signature-formulas.html">Signature formulas</a><a href="collection-sea-moss.html">Sea moss</a><a href="collection-mushrooms.html">Mushrooms</a><a href="collection-bundle-kits.html">Bundle kits</a><a href="collection-books.html">Books</a>
       </div>
       <div>
         <h3>Know</h3>
@@ -293,7 +300,7 @@
       </div>
     </div>
     <div class="foot__legal">
-      <p class="credits">Photography via Wikimedia Commons. Wormwood (Artemisia absinthium): Agnieszka Kwiecień, Nova, CC BY-SA 4.0, via Wikimedia Commons · Pau d'arco tree: Giles Laurent, CC BY-SA 4.0, via Wikimedia Commons · Bitter melon: Balaram Mahalder, CC BY-SA 3.0, via Wikimedia Commons · Activated charcoal: Zephyris, CC BY-SA 3.0, via Wikimedia Commons · Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons · Black pepper: Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock.</p>
+      <p class="credits">Photography via Wikimedia Commons. Wormwood (Artemisia absinthium): Agnieszka Kwiecień, Nova, CC BY-SA 4.0, via Wikimedia Commons · Pau d'arco tree: Giles Laurent, CC BY-SA 4.0, via Wikimedia Commons · Bitter melon: Balaram Mahalder, CC BY-SA 3.0, via Wikimedia Commons · Activated charcoal: Zephyris, CC BY-SA 3.0, via Wikimedia Commons · Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons · Black pepper: Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock. The pack shown is a generated stand-in (Nano Banana Pro), not a photograph of our stock.</p>
       <p>Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.</p>
       <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP. Food business registered with Liverpool City Council.</p>
     </div>
@@ -302,7 +309,7 @@
 
 <div class="stickybuy" id="sticky">
   <span><b>Decolonise</b> · £39.99<i> · 50 caps, 25 day supply</i></span>
-  <a class="btn" href="#buy">Add to bag</a>
+  <a class="btn" href="#buy" data-add>Add to bag</a>
 </div>
 
 <script>
@@ -319,18 +326,23 @@ burger.addEventListener('click',()=>{
 const sticky=document.getElementById('sticky'),cta=document.getElementById('buybtn');
 new IntersectionObserver(e=>{e[0].isIntersecting||e[0].boundingClientRect.top>0?sticky.removeAttribute('data-show'):sticky.setAttribute('data-show','')},{threshold:0}).observe(cta);
 
-/* the pack shot is held, so the main frame starts on the placeholder and the
-   photo element is only made once a botanical thumbnail is chosen */
-const frame=document.querySelector('.gal__main'),held=document.getElementById('galheld'),cap=document.getElementById('galcap');
-let shot=null;
+/* index 0 is a real photo, so the main frame starts on it; a held entry can still
+   appear later in the gallery, so its placeholder is made lazily and swapped in,
+   mirroring what SCRIPT_GAL_HELD does the other way round for a held index 0 */
+const frame=document.querySelector('.gal__main'),main=document.getElementById('galmain'),cap=document.getElementById('galcap');
+let held=null;
 document.querySelectorAll('.gal__thumbs button').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('.gal__thumbs button').forEach(x=>x.setAttribute('aria-pressed','false'));
   b.setAttribute('aria-pressed','true');
   cap.textContent=b.dataset.cap;
-  if(!b.dataset.src){if(shot)shot.hidden=true; held.hidden=false; return}
-  if(!shot){shot=document.createElement('img'); shot.decoding='async'; frame.appendChild(shot)}
-  shot.src=b.dataset.src; shot.alt=b.querySelector('img').alt; shot.hidden=false; held.hidden=true;
+  if(!b.dataset.src){
+    if(!held){held=document.createElement('div'); held.className='card__img card__img--held'; held.innerHTML='<p>Pack photography held<span>Label reprint pending</span></p>'; frame.appendChild(held)}
+    main.hidden=true; held.hidden=false; return;
+  }
+  if(held) held.hidden=true; main.hidden=false;
+  main.removeAttribute('srcset'); main.src=b.dataset.src; main.alt=b.querySelector('img').alt;
 }));
 </script>
+<script src="assets/bag.js" defer></script>
 </body>
 </html>

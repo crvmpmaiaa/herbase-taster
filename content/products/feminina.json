@@ -4,11 +4,16 @@
   "name": "Feminina",
   "title": "Feminina · 50 × 800 mg vegan capsules · Herbase",
   "description": "Fifty 800 mg vegan capsules. Five botanicals named in Latin on the listing. The specification, the arithmetic, and the two lists that disagree.",
-  "crumb": ["Formulas", "index.html#monograph"],
+  "crumb": [
+    "Formulas",
+    "index.html#monograph"
+  ],
   "price": "£39.99",
   "unit": "50 × 800 mg vegan capsules · 25 days · £1.60 a day",
   "gallery": [
-    { "held": true },
+    {
+      "held": true
+    },
     {
       "img": "gen-capsules-saucer",
       "alt": "Two plain vegan capsules on a white saucer beside a glass of water on a breakfast table",
@@ -118,20 +123,62 @@
   "spec": {
     "h2": "The specification sheet",
     "rows": [
-      ["Makeup", "Five botanicals, named in Latin on the listing's ingredient line."],
-      ["Named", "<i>Lepidium meyenii</i> · <i>Dioscorea villosa</i> · <i>Trigonella foenum-graecum</i> · <i>Foeniculum vulgare</i> · <i>Turnera diffusa</i>"],
-      ["The second list", "The listing also prints a prose list in common names: maca root, fenugreek, fennel, damiana and a proprietary blend. It omits wild yam and adds a blend the Latin line does not carry. The two do not agree and we have not picked a winner."],
-      ["Parts used", "Printed for one of the five. The prose calls the maca a root. No part is printed for the other four."],
-      ["Form", "50 vegan capsules, 800 mg each. One size. The shell material is not named on the listing, so we do not name one here."],
-      ["Serving", "Two capsules daily with 500 ml of spring water, between 9 and 11 in the morning, as printed."],
-      ["Supply and day rate", "50 capsules at two a day is a 25 day supply, which is £1.60 a day while a jar runs."],
-      ["Course", "Not printed. No maximum course and no gap between courses is given, so none is stated here."],
-      ["Price", "£39.99. One size."],
-      ["Storage", "Not printed. Keep the lid on, somewhere cool and dry, out of the sun."],
-      ["Sourcing", "Described on the listing as wild plant-based ingredients. No country of origin and no harvest record is printed for any of the five."],
-      ["Excipients", "None declared beyond the capsule shell."],
-      ["Suitable for", "Vegans. Adults."],
-      ["Not for", "Anyone who is pregnant or breastfeeding, which is the listing's own caution. Not for children. Fenugreek is a legume, in the same family as peanut and chickpea, and people who react to those sometimes react to it. Fennel belongs to the carrot and celery family, which is another well known allergen group. If you take any prescribed medicine, speak to your GP or pharmacist before you start. The listing also asks anyone undergoing hormone therapy to speak to a healthcare professional before use, and that stays on this page."]
+      [
+        "Makeup",
+        "Five botanicals, named in Latin on the listing's ingredient line."
+      ],
+      [
+        "Named",
+        "<i>Lepidium meyenii</i> · <i>Dioscorea villosa</i> · <i>Trigonella foenum-graecum</i> · <i>Foeniculum vulgare</i> · <i>Turnera diffusa</i>"
+      ],
+      [
+        "The second list",
+        "The listing also prints a prose list in common names: maca root, fenugreek, fennel, damiana and a proprietary blend. It omits wild yam and adds a blend the Latin line does not carry. The two do not agree and we have not picked a winner."
+      ],
+      [
+        "Parts used",
+        "Printed for one of the five. The prose calls the maca a root. No part is printed for the other four."
+      ],
+      [
+        "Form",
+        "50 vegan capsules, 800 mg each. One size. The shell material is not named on the listing, so we do not name one here."
+      ],
+      [
+        "Serving",
+        "Two capsules daily with 500 ml of spring water, between 9 and 11 in the morning, as printed."
+      ],
+      [
+        "Supply and day rate",
+        "50 capsules at two a day is a 25 day supply, which is £1.60 a day while a jar runs."
+      ],
+      [
+        "Course",
+        "Not printed. No maximum course and no gap between courses is given, so none is stated here."
+      ],
+      [
+        "Price",
+        "£39.99. One size."
+      ],
+      [
+        "Storage",
+        "Not printed. Keep the lid on, somewhere cool and dry, out of the sun."
+      ],
+      [
+        "Sourcing",
+        "Described on the listing as wild plant-based ingredients. No country of origin and no harvest record is printed for any of the five."
+      ],
+      [
+        "Excipients",
+        "None declared beyond the capsule shell."
+      ],
+      [
+        "Suitable for",
+        "Vegans. Adults."
+      ],
+      [
+        "Not for",
+        "Anyone who is pregnant or breastfeeding, which is the listing's own caution. Not for children. Fenugreek is a legume, in the same family as peanut and chickpea, and people who react to those sometimes react to it. Fennel belongs to the carrot and celery family, which is another well known allergen group. If you take any prescribed medicine, speak to your GP or pharmacist before you start. The listing also asks anyone undergoing hormone therapy to speak to a healthcare professional before use, and that stays on this page."
+      ]
     ],
     "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
     "doctrine": {
@@ -149,25 +196,65 @@
       "The fenugreek note on the sheet is the one thing on this page I would not want anybody to skip. It is a legume, in with peanut and chickpea, and that matters to some people regardless of anything else."
     ],
     "pull": "A binomial is checkable. An English name is a nickname.",
-    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
   },
   "cmp": {
     "h2": "What to check on <em>any</em> multi-plant capsule",
     "rows": [
-      ["Every plant named in Latin", "Yes. Five of them, on the ingredient line", "Common names, or none"],
-      ["One ingredient list, not two", "No. Two are printed and they differ", "Usually one"],
-      ["The plant part named", "One of five. The maca is called a root", "Rarely stated"],
-      ["Milligrams per capsule", "Yes. 800 mg", "Often only per serving"],
-      ["A serving and a time, printed", "Yes. Two capsules, 9 to 11 in the morning", "\"As directed\""],
-      ["A day rate you can check", "Yes. 50 capsules, two a day, £1.60", "Rarely worked out for you"],
-      ["Allergen family named", "Yes. Fenugreek is a legume, fennel an umbellifer", "Usually nothing"],
-      ["Somebody to ask, at a counter", "Yes. 07946 806533, Tuesday to Sunday", "A contact form"]
+      [
+        "Every plant named in Latin",
+        "Yes. Five of them, on the ingredient line",
+        "Common names, or none"
+      ],
+      [
+        "One ingredient list, not two",
+        "No. Two are printed and they differ",
+        "Usually one"
+      ],
+      [
+        "The plant part named",
+        "One of five. The maca is called a root",
+        "Rarely stated"
+      ],
+      [
+        "Milligrams per capsule",
+        "Yes. 800 mg",
+        "Often only per serving"
+      ],
+      [
+        "A serving and a time, printed",
+        "Yes. Two capsules, 9 to 11 in the morning",
+        "\"As directed\""
+      ],
+      [
+        "A day rate you can check",
+        "Yes. 50 capsules, two a day, £1.60",
+        "Rarely worked out for you"
+      ],
+      [
+        "Allergen family named",
+        "Yes. Fenugreek is a legume, fennel an umbellifer",
+        "Usually nothing"
+      ],
+      [
+        "Somebody to ask, at a counter",
+        "Yes. 07946 806533, Tuesday to Sunday",
+        "A contact form"
+      ]
     ],
     "note": "One row on that table is ours to fix and it is the second one."
   },
   "also": {
     "h2": "One plant, <em>named</em>, elsewhere on the shelf",
-    "handles": ["ginseng", "gotu-kola", "ashwagandha", "astragalus"]
+    "handles": [
+      "ginseng",
+      "gotu-kola",
+      "ashwagandha",
+      "astragalus"
+    ]
   },
   "jnext": {
     "article": "journal/which-sea-moss.html",

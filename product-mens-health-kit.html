@@ -27,16 +27,16 @@
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
-      <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="index.html#best">Mushrooms</a>
+      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a>
     </div>
     <a class="nav__mark" href="index.html" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="journal/">Journal</a><a href="product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>
+      <a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#" data-bag aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
     </div>
-    <a class="nav__bag" href="#">Bag (0)</a>
+    <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
   </div>
   <div class="nav__drawer" id="drawer">
-    <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="index.html#best">Mushrooms</a><a href="journal/">Journal</a><a href="index.html#shop">Book the hour · £120</a>
+    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="index.html#shop">Book the hour · £120</a>
   </div>
 </nav>
 
@@ -75,14 +75,14 @@
           <li>Free UK delivery over £50, which this box clears on its own</li>
           <li>Every jar in the box has its own specification sheet on this site</li>
         </ul>
-        <a class="buy__cta" href="#buy" id="buybtn"><span>Add to bag</span><span id="ctaprice">Three jars · £99.99</span></a>
+        <a class="buy__cta" href="#buy" id="buybtn" data-add data-name="Men's Health Kit" data-price="99.99"><span>Add to bag</span><span id="ctaprice">Three jars · £99.99</span></a>
         <p class="buy__note"><b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Read the Test Drive row on the sheet below first. It names nitrates, blood pressure medicine and heart medicine, and that jar is in this box.</p>
 
         <div class="acc">
           <details open>
             <summary>What is in the box</summary>
             <div class="acc__body">
-              <p>One 500 ml jar of the <a href="product-chondrus-crispus.html">Chondrus Crispus</a> gel. One jar of <a href="product-mag-flux.html">Mag Flux</a>, 50 large vegan capsules at 800 mg. One jar of <a href="product-test-drive.html">Test Drive</a>, 50 large vegan capsules at 800 mg.</p>
+              <p>One 500 ml jar of the Chondrus Crispus gel. One jar of <a href="product-mag-flux.html">Mag Flux</a>, 50 large vegan capsules at 800 mg. One jar of <a href="product-test-drive.html">Test Drive</a>, 50 large vegan capsules at 800 mg.</p>
               <p>The listing also says every order comes with the Konscious Konsumption Nutrition Guide. It is not sold on its own and carries no price, so it is not in the sold separately figure below.</p>
             </div>
           </details>
@@ -126,11 +126,9 @@
       <p class="rv d2">Each jar is sold on its own as well. The prices on these cards are the prices they carry on this site, and each card goes to its own specification sheet.</p>
     </div>
     <div class="best__grid">
-      <article class="prod rv"><a class="prod__img" href="product-chondrus-crispus.html"><img loading="lazy" decoding="async" src="assets/tile-seamoss.jpg" alt="Chondrus Crispus Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Chondrus Crispus Sea Moss Gel</h3><span>£34.99</span></div><p class="prod__sub">1 jar · 500 ml, as this listing prints it</p><a class="prod__buy" href="product-chondrus-crispus.html">See the specification</a></article>
-      <article class="prod rv d1"><a class="prod__img" href="product-mag-flux.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Mag Flux"></a>
+      <article class="prod rv"><a class="prod__img" href="product-mag-flux.html"><img loading="lazy" decoding="async" src="assets/gen-pack-mag-flux-m.jpg" alt="Mag Flux"></a>
         <div class="prod__row"><h3>Mag Flux</h3><span>£39.99</span></div><p class="prod__sub">1 jar · 50 large vegan capsules, 800 mg each</p><a class="prod__buy" href="product-mag-flux.html">See the specification</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="product-test-drive.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Test Drive"></a>
+      <article class="prod rv d1"><a class="prod__img" href="product-test-drive.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Test Drive"></a>
         <div class="prod__row"><h3>Test Drive</h3><span>£39.99</span></div><p class="prod__sub">1 jar · 50 large vegan capsules, 800 mg each</p><a class="prod__buy" href="product-test-drive.html">See the specification</a></article>
     </div>
   </div>
@@ -148,7 +146,7 @@
       <table class="tbl">
         <caption>Men's Health Kit</caption>
         <tbody>
-          <tr><th scope="row">Contents</th><td>One 500 ml jar of the <a href="product-chondrus-crispus.html">Chondrus Crispus</a> gel. One jar of <a href="product-mag-flux.html">Mag Flux</a>, 50 large vegan capsules. One jar of <a href="product-test-drive.html">Test Drive</a>, 50 large vegan capsules. The listing adds the Konscious Konsumption Nutrition Guide, which it says comes with every order rather than with this box alone.</td></tr>
+          <tr><th scope="row">Contents</th><td>One 500 ml jar of the Chondrus Crispus gel. One jar of <a href="product-mag-flux.html">Mag Flux</a>, 50 large vegan capsules. One jar of <a href="product-test-drive.html">Test Drive</a>, 50 large vegan capsules. The listing adds the Konscious Konsumption Nutrition Guide, which it says comes with every order rather than with this box alone.</td></tr>
           <tr><th scope="row">Price</th><td>£99.99. One size, listed with no variants.</td></tr>
           <tr><th scope="row">Sold separately</th><td>£114.97 at the prices on this site: £34.99 plus £39.99 plus £39.99. The box is £14.98 under that. The nutrition guide is not sold separately and carries no price, so it is not in the figure.</td></tr>
           <tr><th scope="row">Serving</th><td>As printed on this listing: one tablespoon of gel each morning, one or two Mag Flux capsules with lunch, one or two Test Drive capsules an hour before exercise or sport, always with at least 500 ml of spring water.</td></tr>
@@ -216,6 +214,15 @@
   </div>
 </section>
 
+<section class="mission">
+  <div class="wrap mission__in">
+    <p class="label rv">The mission</p>
+    <p class="mission__lead rv d1">The human body is electrical - each heartbeat, each neuron, each breath operates through vibration and current.</p>
+    <p class="rv d2">HERBASE formulations are designed to recharge your cellular battery, detox the pathways that block flow, and restore harmony between your physical and energetic bodies.</p>
+    <p class="rv d2">True wellness begins at the level of the cell - when nutrition becomes information, and food becomes frequency.</p>
+  </div>
+</section>
+
 <footer class="foot">
   <div class="wrap">
     <div class="foot__top"><img src="assets/wordmark.png" alt="Herbase"></div>
@@ -227,7 +234,7 @@
       </div>
       <div>
         <h3>Shop</h3>
-        <a href="index.html#monograph">Signature formulas</a><a href="product.html">Sea moss</a><a href="index.html#best">Mushrooms</a><a href="shop.html#kits">Bundle kits</a><a href="shop.html#objects">Books</a>
+        <a href="collection-signature-formulas.html">Signature formulas</a><a href="collection-sea-moss.html">Sea moss</a><a href="collection-mushrooms.html">Mushrooms</a><a href="collection-bundle-kits.html">Bundle kits</a><a href="collection-books.html">Books</a>
       </div>
       <div>
         <h3>Know</h3>
@@ -248,7 +255,7 @@
 
 <div class="stickybuy" id="sticky">
   <span><b>Men's Health Kit</b> · <span id="stickyprice">£99.99</span><i id="stickyunit"> · Three jars</i></span>
-  <a class="btn" href="#buy">Add to bag</a>
+  <a class="btn" href="#buy" data-add>Add to bag</a>
 </div>
 
 <script>
@@ -282,5 +289,6 @@ document.querySelectorAll('.gal__thumbs button').forEach(b=>b.addEventListener('
   main.removeAttribute('srcset'); main.src=b.dataset.src; main.alt=b.querySelector('img').alt;
 }));
 </script>
+<script src="assets/bag.js" defer></script>
 </body>
 </html>

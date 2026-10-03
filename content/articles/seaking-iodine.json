@@ -84,13 +84,13 @@
       "title": "Why the jar has no figure",
       "blocks": [
         {
-          "p": "The <a href=\"product.html\">Northern Soul</a> gel is the same four algae as the capsules, soaked and blended with water, with nothing taken out and nothing dried off. It is a good product and it is the one I take myself. It carries no iodine figure, and it is not going to."
+          "p": "The Northern Soul gel is the same four algae as the capsules, soaked and blended with water, with nothing taken out and nothing dried off. It is a good product and it is the one I take myself. It carries no iodine figure, and it is not going to."
         },
         {
-          "p": "Seaweed takes up iodine from the water around it. How much ends up in the frond depends on the <a href=\"journal/which-sea-moss.html\">species</a>, on the stretch of coast, on the season, on how long it sat before it was dried and on how it was stored afterwards. Two harvests off the same rocks in March and September are not the same material. A gel made in small runs above a shop on Smithdown Road would need a laboratory number for every batch before I could print anything, and that is not a cost a jar at £34.99 carries."
+          "p": "Seaweed takes up iodine from the water around it. How much ends up in the frond depends on the species, on the stretch of coast, on the season, on how long it sat before it was dried and on how it was stored afterwards. Two harvests off the same rocks in March and September are not the same material. A gel made in small runs above a shop on Smithdown Road would need a laboratory number for every batch before I could print anything, and that is not a cost a jar at £34.99 carries."
         },
         {
-          "p": "So the tub says 75 µg and the jar says nothing. Same seaweed, different honesty about what I actually know. The <a href=\"product.html#spec\">specification sheet for the gel</a> says as much in the iodine row, and it will keep saying it until somebody hands me batch numbers I can stand behind."
+          "p": "So the tub says 75 µg and the jar says nothing. Same seaweed, different honesty about what I actually know. The specification sheet for the gel says as much in the iodine row, and it will keep saying it until somebody hands me batch numbers I can stand behind."
         },
         {
           "pull": "Dried and milled and weighed, the same seaweed sits still enough to measure. In a jar it does not."
@@ -261,24 +261,6 @@
         "alt": "Seaweed fronds around a dark starfield, the illustration used for Seaking",
         "lead": "<b>The counted one.</b> 50 vegan capsules at 800 mg, 75 µg of iodine in each and 150 µg in a serving. 25 mornings to a tub.",
         "btn": "See the specification"
-      },
-      {
-        "handle": "northern-soul",
-        "name": "Northern Soul",
-        "alt": "Northern Soul sea moss gel, glass jar",
-        "lead": "<b>The same four algae, as a gel.</b> One tablespoon each morning, 300 ml or 500 ml, in the fridge. No iodine figure, for the reason in section three."
-      },
-      {
-        "handle": "chondrus-crispus",
-        "name": "Chondrus Crispus",
-        "alt": "Chondrus crispus sea moss gel",
-        "lead": "<b>The single-ingredient gel.</b> The Atlantic plant, water and Omega DHA oil. One alga, no formula around it."
-      },
-      {
-        "handle": "purple-mwani",
-        "name": "Purple Mwani",
-        "alt": "Purple Mwani sea moss gel",
-        "lead": "<b>The warm-water species, sold as what it is.</b> <i>Eucheuma cottonii</i> from Tanzania. Named and priced accordingly."
       }
     ]
   },

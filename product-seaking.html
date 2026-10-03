@@ -27,16 +27,16 @@
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
-      <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="index.html#best">Mushrooms</a>
+      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a>
     </div>
     <a class="nav__mark" href="index.html" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="journal/">Journal</a><a href="product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>
+      <a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#" data-bag aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
     </div>
-    <a class="nav__bag" href="#">Bag (0)</a>
+    <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
   </div>
   <div class="nav__drawer" id="drawer">
-    <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="index.html#best">Mushrooms</a><a href="journal/">Journal</a><a href="index.html#shop">Book the hour · £120</a>
+    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="index.html#shop">Book the hour · £120</a>
   </div>
 </nav>
 
@@ -46,16 +46,16 @@
 
     <div class="pdp2__grid">
       <div class="gal">
-        <div class="gal__main"><img id="galmain" src="assets/tile-seaking.jpg" alt="Seaweed fronds around a dark starfield, the illustration used for Seaking" decoding="async"></div>
+        <div class="gal__main"><img id="galmain" src="assets/pack-seaking.jpg" alt="The Seaking artwork as it appears on herbase.earth" decoding="async"></div>
         <div class="gal__thumbs">
-          <button type="button" aria-pressed="true" data-src="assets/tile-seaking.jpg" data-cap="The Seaking scene. An illustration, not a photograph of the tub."><img src="assets/tile-seaking.jpg" alt="Seaweed fronds around a dark starfield" loading="lazy" decoding="async"></button>
+          <button type="button" aria-pressed="true" data-src="assets/pack-seaking.jpg" data-cap="The Seaking artwork as it appears on herbase.earth, not a photograph of the tub."><img src="assets/pack-seaking-m.jpg" alt="The Seaking artwork as it appears on herbase.earth" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/gen-seaking-capsules.jpg" data-cap="A generated scene of capsules and dried wrack on slate, not a photograph of the tub."><img src="assets/journal/gen-seaking-capsules-m.jpg" alt="Capsules and dried wrack on a slate board" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/clove-buds.jpg" data-cap="Syzygium aromaticum, clove. The fifth name on the list and the only one that never saw the sea."><img src="assets/journal/clove-buds-m.jpg" alt="A single dried clove bud" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/gen-seaking-shore.jpg" data-cap="A cold shore at low tide, wrack on the rocks. Two of the five come off shores like this one."><img src="assets/journal/gen-seaking-shore-m.jpg" alt="Wrack on cold rocks with surf behind" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/capsule-scoop.jpg" data-cap="A generated scene of loose capsules and a scoop, not a photograph of the tub."><img src="assets/journal/capsule-scoop-m.jpg" alt="Loose capsules and a wooden scoop on dark slate" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/stock-kelp-surface.jpg" data-cap="Kelp breaking the surface at low tide, seen from above."><img src="assets/journal/stock-kelp-surface-m.jpg" alt="Kelp fronds breaking the sea surface, seen from above" loading="lazy" decoding="async"></button>
         </div>
-        <p class="gal__cap" id="galcap">The Seaking scene. An illustration, not a photograph of the tub.</p>
+        <p class="gal__cap" id="galcap">The Seaking artwork as it appears on herbase.earth, not a photograph of the tub.</p>
       </div>
 
       <div class="buy">
@@ -75,14 +75,14 @@
           <li>Free UK delivery over £50, which one tub on its own does not reach</li>
           <li>Every ingredient named on the specification sheet below</li>
         </ul>
-        <a class="buy__cta" href="#buy" id="buybtn"><span>Add to bag</span><span id="ctaprice">50 capsules · £39.99</span></a>
+        <a class="buy__cta" href="#buy" id="buybtn" data-add data-name="Seaking" data-price="39.99"><span>Add to bag</span><span id="ctaprice">50 capsules · £39.99</span></a>
         <p class="buy__note"><b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Reiss or whoever is on the counter can talk you through it.</p>
 
         <div class="acc">
           <details open>
             <summary>What is in it</summary>
             <div class="acc__body">
-              <p>The same four algae that go into the <a href="product.html">Northern Soul</a> gel, dried and milled into a capsule, with one clove alongside them. Four algae from three families: a red, two browns and a green.</p>
+              <p>The same four algae that go into the Northern Soul gel, dried and milled into a capsule, with one clove alongside them. Four algae from three families: a red, two browns and a green.</p>
               <p><i>Chondrus crispus</i> · <i>Fucus vesiculosus</i> (bladderwrack) · Laminariales (kelp) · <i>Chlorella</i> · <i>Syzygium aromaticum</i> (clove). That is five names in total.</p>
             </div>
           </details>
@@ -164,7 +164,7 @@
         <tbody>
           <tr><th scope="row">Makeup</th><td>The Northern Soul formula dried and milled into a capsule: four algae from three families, grouped by pigment, plus clove. Red (Rhodophyta), brown (Ochrophyta) and green (Chlorophyta).</td></tr>
           <tr><th scope="row">Base</th><td><i>Chondrus crispus</i>, Irish sea moss, cold Atlantic. Wildcrafted, not pool grown.</td></tr>
-          <tr><th scope="row">Declared list</th><td><i>Chondrus crispus</i> · <i>Syzygium aromaticum</i> (clove) · <i>Fucus vesiculosus</i> (bladderwrack) · Laminariales (kelp) · <i>Chlorella</i>. The <a href="product.html#spec">gel's list</a> is the same four algae without the clove.</td></tr>
+          <tr><th scope="row">Declared list</th><td><i>Chondrus crispus</i> · <i>Syzygium aromaticum</i> (clove) · <i>Fucus vesiculosus</i> (bladderwrack) · Laminariales (kelp) · <i>Chlorella</i>. The gel's list is the same four algae without the clove.</td></tr>
           <tr><th scope="row">Dose</th><td>800 mg per vegan capsule</td></tr>
           <tr><th scope="row">Count</th><td>50 capsules · 25 day supply</td></tr>
           <tr><th scope="row">Price</th><td>£39.99. Two capsules a day works out at about £1.60 a day.</td></tr>
@@ -232,17 +232,9 @@
   <div class="wrap">
     <div class="head">
       <h2 class="dsp rv">The rest of the sea moss shelf</h2>
-      <p class="rv d1">Four sea moss products, three species or preparations. <a href="journal/which-sea-moss.html" style="color:var(--sun-ink)">Reiss explains which is which</a>.</p>
+      <p class="rv d1">Four sea moss products, three species or preparations. Reiss explains which is which.</p>
     </div>
     <div class="best__grid">
-      <article class="prod rv"><a class="prod__img" href="product.html"><img loading="lazy" decoding="async" src="assets/northern-soul-jar-m.jpg" alt="Northern Soul sea moss gel, glass jar"></a>
-        <div class="prod__row"><h3>Northern Soul</h3><span>from £34.99</span></div><p class="prod__sub">The same four algae as a gel. One tablespoon each morning, 300 ml or 500 ml, kept in the fridge.</p><a class="prod__buy" href="product.html">Choose a size</a></article>
-      <article class="prod rv d1"><a class="prod__img" href="product-chondrus-crispus.html"><img loading="lazy" decoding="async" src="assets/journal/chondrus-dried-m.jpg" alt="Chondrus crispus sea moss"></a>
-        <div class="prod__row"><h3>Chondrus Crispus</h3><span>£34.99</span></div><p class="prod__sub">The plain gel. One alga, water and Omega DHA oil. Some customers use it as a face or hair mask.</p><a class="prod__buy" href="product-chondrus-crispus.html">Add to bag</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="product-purple-mwani.html"><img loading="lazy" decoding="async" src="assets/hero-sea-m.jpg" alt="Purple Mwani sea moss"></a>
-        <div class="prod__row"><h3>Purple Mwani</h3><span>£24.99</span></div><p class="prod__sub"><i>Eucheuma cottonii</i>, the warm-water species, from Tanzania. Lasts ten to twenty days.</p><a class="prod__buy" href="product-purple-mwani.html">Add to bag</a></article>
-      <article class="prod rv d3"><a class="prod__img" href="product-nu-heru.html"><img loading="lazy" decoding="async" src="assets/journal/red-algae-pool-m.jpg" alt="Nu Heru sea moss gel"></a>
-        <div class="prod__row"><h3>Nu Heru</h3><span>from £34.99</span></div><p class="prod__sub">Red sea moss with hibiscus, elderberry and baobab. 300 ml or 500 ml.</p><a class="prod__buy" href="product-nu-heru.html">Choose a size</a></article>
     </div>
   </div>
 </section>
@@ -253,6 +245,15 @@
     <h2 class="dsp rv d1">How much iodine is <em>in a capsule, and in a spoon</em></h2>
     <p class="rv d2">Seventy five micrograms per capsule, 150 in two, and nothing printed on the gel at all. Reiss on what that figure is measured against, why the jar has none, and the clove that is on one list and not the other.</p>
     <a class="btn rv d2" href="journal/seaking-iodine.html">Read the article</a>
+  </div>
+</section>
+
+<section class="mission">
+  <div class="wrap mission__in">
+    <p class="label rv">The mission</p>
+    <p class="mission__lead rv d1">The human body is electrical - each heartbeat, each neuron, each breath operates through vibration and current.</p>
+    <p class="rv d2">HERBASE formulations are designed to recharge your cellular battery, detox the pathways that block flow, and restore harmony between your physical and energetic bodies.</p>
+    <p class="rv d2">True wellness begins at the level of the cell - when nutrition becomes information, and food becomes frequency.</p>
   </div>
 </section>
 
@@ -267,7 +268,7 @@
       </div>
       <div>
         <h3>Shop</h3>
-        <a href="index.html#monograph">Signature formulas</a><a href="product.html">Sea moss</a><a href="index.html#best">Mushrooms</a><a href="shop.html#kits">Bundle kits</a><a href="shop.html#objects">Books</a>
+        <a href="collection-signature-formulas.html">Signature formulas</a><a href="collection-sea-moss.html">Sea moss</a><a href="collection-mushrooms.html">Mushrooms</a><a href="collection-bundle-kits.html">Bundle kits</a><a href="collection-books.html">Books</a>
       </div>
       <div>
         <h3>Know</h3>
@@ -279,7 +280,7 @@
       </div>
     </div>
     <div class="foot__legal">
-      <p class="credits">Photography via Unsplash and Wikimedia Commons. David Clode, Maximilian Brand, Amanda Phung, Daily Slowdown, J Brouwer, Isaiah Villar, Kier in Sight Archives, Erick Morales Oyola, Ekaterina Zlotnikova and Joan on Unsplash · Seaweed drying: Paul Farmer, CC BY-SA 2.0, via Wikimedia Commons · Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons · Kelp from above: BravoGonzalo, CC BY-SA 4.0, via Wikimedia Commons · Some scenes generated (Nano Banana Pro), not photographs of Herbase stock.</p>
+      <p class="credits">Photography via Unsplash and Wikimedia Commons. David Clode, Maximilian Brand, Amanda Phung, Daily Slowdown, J Brouwer, Isaiah Villar, Kier in Sight Archives, Erick Morales Oyola, Ekaterina Zlotnikova and Joan on Unsplash · Seaweed drying: Paul Farmer, CC BY-SA 2.0, via Wikimedia Commons · Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons · Kelp from above: BravoGonzalo, CC BY-SA 4.0, via Wikimedia Commons · Some scenes generated (Nano Banana Pro), not photographs of Herbase stock. · Pack photograph via herbase.earth.</p>
       <p>Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.</p>
       <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP. Food business registered with Liverpool City Council.</p>
     </div>
@@ -288,7 +289,7 @@
 
 <div class="stickybuy" id="sticky">
   <span><b>Seaking</b> · <span id="stickyprice">£39.99</span><i id="stickyunit"> · 50 capsules</i></span>
-  <a class="btn" href="#buy">Add to bag</a>
+  <a class="btn" href="#buy" data-add>Add to bag</a>
 </div>
 
 <script>
@@ -322,5 +323,6 @@ document.querySelectorAll('.gal__thumbs button').forEach(b=>b.addEventListener('
   main.removeAttribute('srcset'); main.src=b.dataset.src; main.alt=b.querySelector('img').alt;
 }));
 </script>
+<script src="assets/bag.js" defer></script>
 </body>
 </html>

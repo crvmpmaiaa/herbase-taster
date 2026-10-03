@@ -9,31 +9,11 @@
 <link rel="icon" href="assets/logo-mark.jpg">
 <meta property="og:title" content="Herbase · Wildcrafted herbal formulas · Liverpool">
 <meta property="og:description" content="Herbase, Liverpool. A working apothecary. Wildcrafted formulas, printed doses, named botanicals.">
-<meta property="og:image" content="https://herbase.earth/assets/hero-cosmos.jpg">
+<meta property="og:image" content="https://herbase.earth/assets/hero-root.jpg">
 <meta property="og:type" content="website">
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
 <link rel="stylesheet" href="assets/site.css">
-<script>
-/* One of five scenes per visit. Runs before first paint, so no flash.
-   Each scene carries its own centre-scrim weight, because the brighter
-   nebulae need more help behind the wordmark than the dark ones. */
-(function(){
-  var scenes=[
-    {f:'hero-cosmos.jpg', scrim:.86, name:'nebula'},
-    {f:'hero-sea.jpg',    scrim:.80, name:'tide'},
-    {f:'hero-root.jpg',   scrim:.93, name:'root'},
-    {f:'hero-fungi.jpg',  scrim:.88, name:'spore'}
-  ];
-  var s=scenes[Math.floor(Math.random()*scenes.length)];
-  var mob=matchMedia('(max-width:700px)').matches;
-  var root=document.documentElement, href=new URL('assets/'+(mob?s.f.replace('.jpg','-m.jpg'):s.f),location.href).href;
-  root.style.setProperty('--hero-bg','url("'+href+'")');
-  root.style.setProperty('--hero-scrim',s.scrim);
-  root.setAttribute('data-scene',s.name);
-  var l=document.createElement('link'); l.rel='preload'; l.as='image'; l.href=href;
-  document.head.appendChild(l);
-})();
-</script>
+<link rel="preload" as="image" href="assets/hero-root.jpg" imagesrcset="assets/hero-root-m.jpg 820w, assets/hero-root.jpg 2200w" imagesizes="100vw" fetchpriority="high">
 </head>
 <body>
 
@@ -41,64 +21,156 @@
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
-      <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="#best">Mushrooms</a>
+      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a>
     </div>
     <a class="nav__mark" href="#" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="journal/">Journal</a><a href="product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>
+      <a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#" data-bag aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
     </div>
-    <a class="nav__bag" href="#">Bag (0)</a>
+    <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
   </div>
   <div class="nav__drawer" id="drawer">
-    <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="#best">Mushrooms</a><a href="journal/">Journal</a><a href="#shop">Book the hour · £120</a>
+    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#shop">Book the hour · £120</a>
   </div>
 </nav>
 
 <header class="hero" id="hero">
-  <div class="hero__bg" id="plx-bg"></div>
-  <canvas class="hero__stars" id="plx-stars"></canvas>
-  <div class="hero__veil"></div>
-  <canvas class="hero__dust" id="plx-dust"></canvas>
-  <div class="wrap">
-    <img class="hero__logo rv" src="assets/wordmark-cream.png" alt="Herbase">
-    <h1 class="dsp rv d1">An ancient apothecary <em>from the future</em></h1>
-    <p class="hero__lede rv d2">Forty-seven products across herbal formulas, sea moss, mushrooms, minerals, books and objects, made or stocked above a shop on Smithdown Road, Liverpool. Every plant named in Latin where the listing names one, every figure printed where there is one, the gaps written down as gaps, and a practitioner at the counter who would rather you asked him something difficult.</p>
-    <div class="hero__act rv d3">
-      <a class="btn" href="shop.html">Shop all 47</a>
-      <a class="btn btn--line" href="#shop">Book the hour · £120</a>
+  <div class="track" id="hero-track">
+    <div class="panel-h panel-h--scene" data-panel style="--hero-scrim:.93">
+      <img class="hero__img" src="assets/hero-root.jpg" srcset="assets/hero-root-m.jpg 820w, assets/hero-root.jpg 2200w" sizes="100vw" alt="Dried roots and bark drifting through a dark nebula, the root scene" fetchpriority="high" decoding="async">
+      <div class="hero__veil"></div>
+      <div class="wrap">
+        <img class="hero__logo rv" src="assets/wordmark-cream.png" alt="Herbase">
+        <h1 class="dsp hero__title rv d1">Herbase has solutions,<br><em>how can we help?</em></h1>
+        <p class="hero__lede rv d2">What we do is quite simple. Nature made it that way. Earth is the master biochemist. Her progeny are the ones who use natural plants to restore balance, rebuild vitality and elevate your energy with 100% natural herbal formulas.</p>
+        <div class="hero__act rv d3">
+          <a class="btn" href="shop.html">Shop all 43<span class="btn__arrow" aria-hidden="true">→</span></a>
+          <a class="btn btn--line" href="#shop">Book the hour · £120<span class="btn__arrow" aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero__meta rv d3">
+          <p><span class="stars">★★★★★</span> <b>4.8</b> · 19 Google reviews</p>
+          <p>Formulated by <b>Reiss Davies Ausar</b></p>
+          <p><b>Botanicals</b> named as the listing names them, wildcrafted where it says so</p>
+        </div>
+      </div>
     </div>
-    <div class="hero__meta rv d3">
-      <p><span class="stars">★★★★★</span> <b>4.8</b> · 19 Google reviews</p>
-      <p>Formulated by <b>Reiss Davies Ausar</b></p>
-      <p><b>Botanicals</b> named as the listing names them, wildcrafted where it says so</p>
+    <div class="panel-h panel-h--photo" data-panel style="--hero-scrim:.74">
+      <img class="hero__img" src="assets/journal/gen-shop-shelf.jpg" srcset="assets/journal/gen-shop-shelf-m.jpg 800w, assets/journal/gen-shop-shelf.jpg 1600w" sizes="100vw" alt="A wooden shelf of plain amber jars in low sun. A generated scene, standing in for the shop shelf photograph" decoding="async">
+      <div class="hero__veil"></div>
+      <div class="wrap">
+        <h2 class="dsp hero__title">Scientifically formulated <em>signature formulas</em></h2>
+        <p class="hero__lede">Before offering herbal products, deep dives into biology and biochemistry. Our journey into natural sciences sparked our fascination with the plant kingdom. We are a 'knowledge first' based company. Ancient wisdom with a modern touch.</p>
+        <div class="hero__act"><a class="btn btn--line" href="shop.html#formulas">Shop now<span class="btn__arrow" aria-hidden="true">→</span></a></div>
+      </div>
     </div>
+    <div class="panel-h panel-h--photo" data-panel style="--hero-scrim:.7">
+      <img class="hero__img" src="assets/hero-shop.jpg" srcset="assets/hero-shop-m.jpg 800w, assets/hero-shop.jpg 1280w" sizes="100vw" alt="Inside the Herbase shop at 599 Smithdown Road: the glass door with the opening times, the counter and the shelves beyond" decoding="async">
+      <div class="hero__veil"></div>
+      <div class="wrap">
+        <h2 class="dsp hero__title">Herbase, the home of <em>natural remedies and holistic solutions</em></h2>
+        <p class="hero__lede">An ancient apothecary from the future landed on 599 Smithdown Road in August 2024. After 5 years online and starting a whole wave, we introduce a one-of-a-kind store in the heart of Liverpool.</p>
+        <div class="hero__act"><a class="btn btn--line" href="#shop">Contact us<span class="btn__arrow" aria-hidden="true">→</span></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="hero__rail" id="hero-rail">
+    <button type="button" id="hero-prev" aria-label="Previous slide">Prev</button>
+    <span class="bar" aria-hidden="true"><i></i></span>
+    <span id="hero-count" aria-live="polite">01 / 03</span>
+    <button type="button" id="hero-next" aria-label="Next slide">Next</button>
   </div>
 </header>
 
-<div class="strip">
-  <div class="strip__in">
-    <div class="strip__cell"><p class="strip__n">47</p><p class="strip__cap">Products, each with its own sheet</p></div>
-    <div class="strip__cell"><p class="strip__n">9</p><p class="strip__cap">Sheets that print "not printed" rather than guess</p></div>
-    <div class="strip__cell"><p class="strip__n">2019</p><p class="strip__cap">Trading since. Shop since 2024</p></div>
-  </div>
-</div>
-
-<section class="best" id="best">
+<section class="why" id="why">
   <div class="wrap">
-    <div class="head">
-      <h2 class="dsp rv">Bought most often</h2>
-      <p class="rv d1">Prices as listed. Every one has its own specification sheet.</p>
+    <h2 class="dsp why__h rv">What makes Herbase <em>unique</em></h2>
+    <div class="why__grid">
+      <article class="why__item rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1.1 5.9L12 16.9l-5.3 2.8 1.1-5.9L3.5 9.7l5.9-.8z"/></svg>
+        <h3>Wildcrafted purity</h3>
+        <p>Every formula begins with the plant. Wildcrafted where the listing says so, origin printed where one is printed, and every botanical named in Latin where the listing names it.</p>
+      </article>
+      <article class="why__item rv d1">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2c3.2 4 6 7.2 6 10.6a6 6 0 0 1-12 0c0-3.4 2.8-6.6 6-10.6z"/><path d="M9.5 14.2a2.5 2.5 0 0 0 2.5 2.5"/></svg>
+        <h3>Herbal biochemistry</h3>
+        <p>Our processing is designed to preserve the plant's natural composition, and we source herbs with a long-standing history of use.</p>
+      </article>
+      <article class="why__item rv d2">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="1"/><path d="M7.5 12.2l3 3 6-6.4"/></svg>
+        <h3>Zero additives</h3>
+        <p>Herbs, algae and roots. No filler or bulking agent is declared on any listing, and every sheet prints the full declared list, or says plainly that the listing does not.</p>
+      </article>
+      <article class="why__item rv d3">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 1 3.6 6.7L4 20l1.3-3.6A8 8 0 0 1 4 12z"/><circle cx="8.5" cy="12" r=".7"/><circle cx="12" cy="12" r=".7"/><circle cx="15.5" cy="12" r=".7"/></svg>
+        <h3>User satisfaction</h3>
+        <p>A real counter to ask at. Ring the shop on 07946 806533, Tuesday to Sunday, and Reiss or whoever is on will talk you through any sheet.</p>
+      </article>
     </div>
-    <div class="best__grid">
-      <article class="prod rv"><a class="prod__img" href="product-seaking.html"><img loading="lazy" decoding="async" src="assets/tile-seaking.jpg" alt="Seaking capsules"></a>
-        <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">Sea moss formula in a capsule. 75 µg iodine each.</p><a class="prod__buy" href="product-seaking.html">Add to bag</a></article>
-      <article class="prod rv d1"><a class="prod__img" href="product.html"><img loading="lazy" decoding="async" src="assets/northern-soul-jar-m.jpg" alt="Northern Soul sea moss gel, glass jar"></a>
-        <div class="prod__row"><h3>Northern Soul</h3><span>from £34.99</span></div><p class="prod__sub">Cold-water sea moss gel. 300 ml or 500 ml.</p><a class="prod__buy" href="product.html">Choose a size · from £34.99</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="product-lions-mane.html"><img loading="lazy" decoding="async" src="assets/tile-lionsmane.jpg" alt="Lion's Mane capsules"></a>
+  </div>
+</section>
+
+<section class="feature" id="feature">
+  <div class="wrap feature__in">
+    <a class="feature__media rv" href="product-seaking.html"><img src="assets/journal/gen-seaking-feature.jpg" srcset="assets/journal/gen-seaking-feature-m.jpg 700w, assets/journal/gen-seaking-feature.jpg 1200w" sizes="(min-width:900px) 46vw, 92vw" alt="A jar of capsules with dried sea moss, bladderwrack and clove on slate. A generated scene, not a photograph of our stock." loading="lazy" decoding="async"></a>
+    <div class="feature__body">
+      <p class="label rv">Herbase, Liverpool</p>
+      <h2 class="dsp feature__title rv d1"><span class="mask"><span>Seaking</span></span> <span class="mask"><span>Northern Soul <em>formula</em></span></span></h2>
+      <p class="feature__price rv d2"><b>£39.99</b><span>Taxes included. Delivery calculated at checkout. Free UK delivery over £50.</span></p>
+      <p class="feature__sub rv d2">The Northern Soul formula in a capsule: <i>Chondrus crispus</i>, bladderwrack, kelp, chlorella and clove. 50 vegan capsules at 800 mg, 75 µg of iodine printed per capsule, a 25 day supply. The whole specification sheet is on the product page.</p>
+      <div class="feature__qty rv d2"><span>Quantity</span><div class="qty" id="feature-qty"><button type="button" aria-label="Fewer">−</button><output aria-live="polite">1</output><button type="button" aria-label="More">+</button></div></div>
+      <div class="feature__act feature__act--stack rv d3">
+        <a class="btn btn--pill" href="product-seaking.html" data-add data-add-qty data-name="Seaking" data-price="39.99">Add to cart</a>
+        <a class="btn btn--line btn--pill" href="product-seaking.html" data-add data-add-qty data-open-bag data-name="Seaking" data-price="39.99">Buy it now</a>
+      </div>
+      <p class="feature__links rv d3"><button class="share" type="button" data-share data-share-title="Seaking, the Northern Soul formula in a capsule" data-share-url="product-seaking.html"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 15V4"/><path d="M8 8l4-4 4 4"/><path d="M5 13v6h14v-6"/></svg><span>Share</span></button><a href="product-seaking.html">View full details →</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="subscribe" id="subscribe">
+  <div class="wrap subscribe__in">
+    <div>
+      <p class="label rv">Subscribe</p>
+      <h2 class="dsp rv d1">Beamed in free forever, <em>unsubscribe anytime.</em></h2>
+      <p class="subscribe__lede rv d2">No spam, just knowledge.</p>
+    </div>
+    <form class="subscribe__form rv d2" id="subscribe-form" action="#" method="post" novalidate>
+      <label class="sr" for="sub-email">Email</label>
+      <div class="subscribe__row">
+        <input id="sub-email" type="email" name="email" placeholder="Email" autocomplete="email" autocapitalize="off" autocorrect="off" required>
+        <button class="btn" type="submit">Subscribe</button>
+      </div>
+      <p class="subscribe__note">Nothing leaves this page: the taster has no mailing list behind it. The live form at herbase.earth is the real one.</p>
+    </form>
+  </div>
+</section>
+
+<section class="best horizontal" id="best">
+  <div class="pin-wrap">
+    <p class="band__mark"><a href="collection-best-sellers.html">Best sellers · all 13</a></p>
+    <div class="animation-wrap" id="best-band">
+      <article class="item prod"><a class="prod__img" href="product-seaking.html"><img loading="lazy" decoding="async" src="assets/pack-seaking-m.jpg" alt="Seaking as pictured on herbase.earth"></a>
+        <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">The Northern Soul formula in a capsule, plus clove. 50 × 800 mg, 75 µg iodine each. 25 day supply.</p><a class="prod__buy" href="product-seaking.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-omega-dha.html"><img loading="lazy" decoding="async" src="assets/hero-sea-m.jpg" alt="Omega DHA Oil"></a>
+        <div class="prod__row"><h3>Omega DHA Oil</h3><span>£19.99</span></div><p class="prod__sub">One bottle · a tablespoon a day · one month · volume not printed</p><a class="prod__buy" href="product-omega-dha.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-lions-mane.html"><img loading="lazy" decoding="async" src="assets/gen-pack-lions-mane-m.jpg" alt="Lion's Mane, a generated stand-in for the pack"></a>
         <div class="prod__row"><h3>Lion's Mane</h3><span>£24.99</span></div><p class="prod__sub">Single ingredient, whole fruiting body</p><a class="prod__buy" href="product-lions-mane.html">Add to bag</a></article>
-      <article class="prod rv d3"><a class="prod__img" href="product-shilajit.html"><img loading="lazy" decoding="async" src="assets/tile-shilajit.jpg" alt="Shilajit resin"></a>
+      <article class="item prod"><a class="prod__img" href="product-decolonise.html"><img loading="lazy" decoding="async" src="assets/gen-pack-decolonise-m.jpg" alt="Decolonise, a generated stand-in for the pack"></a>
+        <div class="prod__row"><h3>Decolonise</h3><span>£39.99</span></div><p class="prod__sub">50 vegan capsules · 25 day supply · £1.60 a day</p><a class="prod__buy" href="product-decolonise.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-test-drive.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Test Drive"></a>
+        <div class="prod__row"><h3>Test Drive</h3><span>£39.99</span></div><p class="prod__sub">50 capsules · 800 mg each · 25 days · £1.60 a day</p><a class="prod__buy" href="product-test-drive.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-mag-flux.html"><img loading="lazy" decoding="async" src="assets/gen-pack-mag-flux-m.jpg" alt="Mag Flux, a generated stand-in for the pack"></a>
+        <div class="prod__row"><h3>Mag Flux</h3><span>£39.99</span></div><p class="prod__sub">50 × 800 mg vegan capsules · 25 days · £1.60 a day</p><a class="prod__buy" href="product-mag-flux.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-shilajit.html"><img loading="lazy" decoding="async" src="assets/gen-pack-shilajit-m.jpg" alt="Shilajit Resin, a generated stand-in for the pack"></a>
         <div class="prod__row"><h3>Shilajit Resin</h3><span>£39.99</span></div><p class="prod__sub">Altai mineral resin · 50 g in amber glass · about two months.</p><a class="prod__buy" href="product-shilajit.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-parasite-cleanse-kit.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Parasite Cleanse Kit"></a>
+        <div class="prod__row"><h3>Parasite Cleanse Kit</h3><span>£99.99</span></div><p class="prod__sub">Three jars · a 25 day cycle as printed on the listing</p><a class="prod__buy" href="product-parasite-cleanse-kit.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-mycrodose.html"><img loading="lazy" decoding="async" src="assets/hero-fungi-m.jpg" alt="Mycrodose"></a>
+        <div class="prod__row"><h3>Mycrodose</h3><span>£39.99</span></div><p class="prod__sub">50 capsules at 800 mg · 25 days · £1.60 a day</p><a class="prod__buy" href="product-mycrodose.html">Add to bag</a></article>
+      <article class="item prod"><a class="prod__img" href="product-chasteberry.html"><img loading="lazy" decoding="async" src="assets/hero-root-m.jpg" alt="Chasteberry"></a>
+        <div class="prod__row"><h3>Chasteberry</h3><span>£24.99</span></div><p class="prod__sub">50 capsules · 25 days · about £1 a day</p><a class="prod__buy" href="product-chasteberry.html">Add to bag</a></article>
     </div>
+    <div class="progress" aria-hidden="true"><i></i></div>
   </div>
 </section>
 
@@ -127,12 +199,12 @@
 
     <div class="mono__body">
       <article class="card rv" id="buy">
-        <div class="card__img card__img--held"><p>Pack photography held<span>Label reprint pending</span></p></div>
+        <div class="card__img"><img src="assets/gen-pack-decolonise-m.jpg" srcset="assets/gen-pack-decolonise-m.jpg 600w, assets/gen-pack-decolonise.jpg 1200w" sizes="(min-width:900px) 30vw, 90vw" loading="lazy" decoding="async" alt="Decolonise, a generated stand-in for the pack"></div>
         <div class="card__foot"><h3>Decolonise</h3><span class="card__price">£39.99</span></div>
         <p class="card__unit">50 vegan capsules · 25 day supply · £1.60 a day</p>
-        <a class="card__buy" href="product-decolonise.html">Add to bag · £39.99</a>
+        <a class="card__buy" href="product-decolonise.html" data-add data-name="Decolonise" data-price="39.99">Add to bag · £39.99</a>
         <p class="card__ship">Dispatched from Smithdown Road. Free UK delivery over £50.</p>
-        <p class="card__pair">Often taken alongside <a href="product.html">Northern Soul Sea Moss, from £34.99</a>, which is a daily, and this is not.</p>
+        <p class="card__pair">Often taken alongside <a href="product-seaking.html">Seaking, £39.99</a>, which is a daily, and this is not.</p>
       </article>
 
       <div class="rv d1">
@@ -196,7 +268,7 @@
 <section class="proof">
   <div class="wrap">
     <div class="head">
-      <h2 class="dsp rv">Nineteen people have reviewed the shop</h2>
+      <h2 class="dsp rv">Our reviews</h2>
     </div>
     <div class="proof__grid">
       <figure class="quote rv">
@@ -277,6 +349,15 @@
   <div class="close__shot rv"><img src="assets/apothecary.jpg" srcset="assets/apothecary-m.jpg 800w, assets/apothecary.jpg 1500w" sizes="100vw" loading="lazy" decoding="async" alt="Reiss Davies Ausar behind the counter at Herbase, Smithdown Road"></div>
 </section>
 
+<section class="mission">
+  <div class="wrap mission__in">
+    <p class="label rv">The mission</p>
+    <p class="mission__lead rv d1">The human body is electrical - each heartbeat, each neuron, each breath operates through vibration and current.</p>
+    <p class="rv d2">HERBASE formulations are designed to recharge your cellular battery, detox the pathways that block flow, and restore harmony between your physical and energetic bodies.</p>
+    <p class="rv d2">True wellness begins at the level of the cell - when nutrition becomes information, and food becomes frequency.</p>
+  </div>
+</section>
+
 <footer class="foot">
   <div class="wrap">
     <div class="foot__top"><img src="assets/wordmark.png" alt="Herbase"></div>
@@ -288,7 +369,7 @@
       </div>
       <div>
         <h3>Shop</h3>
-        <a href="#monograph">Signature formulas</a><a href="product.html">Sea moss</a><a href="#best">Mushrooms</a><a href="shop.html#kits">Bundle kits</a><a href="shop.html#objects">Books</a>
+        <a href="collection-signature-formulas.html">Signature formulas</a><a href="collection-sea-moss.html">Sea moss</a><a href="collection-mushrooms.html">Mushrooms</a><a href="collection-bundle-kits.html">Bundle kits</a><a href="collection-books.html">Books</a>
       </div>
       <div>
         <h3>Know</h3>
@@ -300,7 +381,7 @@
       </div>
     </div>
     <div class="foot__legal">
-      <p class="credits">Journal photography via Unsplash and Wikimedia Commons, credited on each article. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock.</p>
+      <p class="credits">Journal photography via Unsplash and Wikimedia Commons, credited on each article. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock. Shop interior photograph and pack photographs via herbase.earth. Five packs on the shelf are generated stand-ins (Nano Banana Pro) showing the name and the count only.</p>
       <p>Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.</p>
       <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP. Food business registered with Liverpool City Council.</p>
     </div>
@@ -308,10 +389,16 @@
 </footer>
 
 <div class="stickybuy" id="sticky">
-  <span><b>Decolonise</b> · £39.99<i> · 50 caps, 25 day supply</i></span>
-  <a class="btn" href="#buy">Add to bag</a>
+  <div class="stickybuy__rail" id="sticky-rail" aria-live="polite">
+    <span data-active data-name="Decolonise" data-price="39.99"><b>Decolonise</b> · £39.99<i> · 50 caps, 25 day supply</i></span>
+    <span data-name="Seaking" data-price="39.99"><b>Seaking</b> · £39.99<i> · 50 caps, 25 day supply</i></span>
+    <span data-name="Lion's Mane" data-price="24.99"><b>Lion's Mane</b> · £24.99<i> · whole fruiting body</i></span>
+  </div>
+  <a class="btn" href="#buy" data-add>Add to bag</a>
 </div>
 
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
 <script>
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
@@ -324,84 +411,191 @@ burger.addEventListener('click',()=>{
   burger.setAttribute('aria-expanded',String(!open));
 });
 
-const sticky=document.getElementById('sticky'),nav=document.querySelector('.nav');
+const sticky=document.getElementById('sticky'),nav=document.querySelector('.nav'),afterHero=document.querySelector('.hero + *')||document.querySelector('.strip');
+const shelf=document.getElementById('best');
+/* the buy bar stays away while the product shelf is on screen, so it never covers the cards */
+const onShelf=()=>{ if(!shelf) return false; const r=shelf.getBoundingClientRect(); return r.top<innerHeight*0.6&&r.bottom>120; };
+/* the bar at the bottom rotates through three products; it pauses while the pointer is on it and sits still under reduced motion */
+(function(){ var rail=document.getElementById('sticky-rail'); if(!rail) return; var items=rail.querySelectorAll('span'), i=0, timer=0;
+  if(items.length<2||matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  function show(k){ items.forEach(function(s,j){ if(j===k) s.setAttribute('data-active',''); else s.removeAttribute('data-active'); }); }
+  function start(){ if(!timer) timer=setInterval(function(){ i=(i+1)%items.length; show(i); },4200); }
+  function stop(){ clearInterval(timer); timer=0; }
+  sticky.addEventListener('mouseenter',stop); sticky.addEventListener('mouseleave',start); start();
+})();
+/* header goes solid 140 px after the hero starts to leave, the same timing as the unpinned hero had; measured from the section right under it so the pinned carousel does not trip it early */
+const heroLeaving=()=>afterHero?afterHero.getBoundingClientRect().top<=innerHeight-140:scrollY>140;
 let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
-    scrollY>600?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
-    scrollY>140?nav.setAttribute('data-solid',''):nav.removeAttribute('data-solid');
+    (scrollY>600&&heroLeaving()&&!onShelf())?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
+    heroLeaving()?nav.setAttribute('data-solid',''):nav.removeAttribute('data-solid');
     ticking=false;
   });
 },{passive:true});
 
-/* hero parallax: four planes at four speeds. Stars deepest (+0.6x), the
-   nebula behind them (+0.42x, slowly swelling), the content lifting away
-   (+0.24x, fading), and dust motes rushing past the camera (-0.3x).
-   Pointer adds a lateral tilt, lerped. Transform/opacity only, one rAF,
-   parked whenever the hero is off screen; absent under reduced motion. */
+/* hero carousel, ported from the Madu hero (motion-rig horizontal-scroll-panels).
+   Fail closed: the native scroll-snap rail is the default; the pin is layered
+   on only when GSAP is loaded, motion is allowed and the screen is wide.
+   Scroll CHOOSES the panel, time PERFORMS the change: a panel becomes active
+   once progress is clearly past the midpoint between two panels (6% dead band
+   either side, so it cannot flicker on the line) and the slide is a fixed
+   0.55 s tween. No half-slid state is ever visible. */
 (function(){
-  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  var hero=document.getElementById('hero'), bg=document.getElementById('plx-bg'),
-      wrap=hero.querySelector('.wrap'),
-      sc=document.getElementById('plx-stars'), dc=document.getElementById('plx-dust'),
-      sx=sc.getContext('2d'), dx=dc.getContext('2d'),
-      dpr=Math.min(2,devicePixelRatio||1),
-      W=0,H=0,stars=[],motes=[],t=0,
-      mx=0,my=0,tx=0,ty=0,run=false,raf=null;
+  var hero=document.getElementById('hero'), track=document.getElementById('hero-track');
+  if(!hero||!track) return;
+  var panels=Array.prototype.slice.call(track.querySelectorAll('.panel-h')), last=panels.length-1;
+  var fill=hero.querySelector('.bar > i'), count=document.getElementById('hero-count'),
+      prev=document.getElementById('hero-prev'), next=document.getElementById('hero-next');
+  var wide=matchMedia('(min-width:700px)'), motion=matchMedia('(prefers-reduced-motion: no-preference)');
+  var active=-1, mode=null, st=null, slide=null, bands=[];
 
-  function size(){
-    W=hero.clientWidth; H=hero.clientHeight;
-    [sc,dc].forEach(function(c){c.width=W*dpr;c.height=H*dpr;c.style.width=W+'px';c.style.height=H+'px'});
-    sx.setTransform(dpr,0,0,dpr,0,0); dx.setTransform(dpr,0,0,dpr,0,0);
-    stars=Array.from({length:Math.round(W/9)},function(){return{
-      x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.4+.3,
-      a:Math.random()*.65+.15,s:Math.random()*.05+.008,p:Math.random()*6.28}});
-    motes=Array.from({length:Math.round(W/70)},function(){return{
-      x:Math.random()*W,y:Math.random()*H,r:Math.random()*26+8,
-      a:Math.random()*.05+.02,v:Math.random()*.22+.08,
-      hue:Math.random()<.6?'255,237,210':'127,220,205'}});
+  function pad(n){ return String(n).padStart(2,'0'); }
+  function setActive(i){
+    active=i;
+    document.documentElement.setAttribute('data-slide',String(i+1));
+    panels.forEach(function(p,k){ if(k===i) p.removeAttribute('inert'); else p.setAttribute('inert',''); });
+    count.textContent=pad(i+1)+' / '+pad(panels.length);
+    prev.disabled=i===0; next.disabled=i===last;
   }
 
-  function frame(){
-    raf=null; if(!run) return;
-    t+=1;
-    var y=scrollY, ph=Math.min(1,y/(H||1));
-
-    bg.style.transform='translate3d('+(tx*-14)+'px,'+(y*0.42+ty*-10)+'px,0) scale('+(1.02+ph*0.07+Math.sin(t/900)*0.008)+')';
-    sc.style.transform='translate3d('+(tx*-26)+'px,'+(y*0.6)+'px,0)';
-    dc.style.transform='translate3d('+(tx*34)+'px,'+(y*-0.3+ty*18)+'px,0)';
-    wrap.style.transform='translate3d(0,'+(y*0.24)+'px,0) scale('+(1-ph*0.05)+')';
-    wrap.style.opacity=Math.max(0,1-ph*1.05);
-
-    tx+=(mx-tx)*0.05; ty+=(my-ty)*0.05;
-
-    sx.clearRect(0,0,W,H);
-    for(var i=0;i<stars.length;i++){var st=stars[i];
-      st.p+=st.s; st.y-=st.s*2.6; if(st.y<-4) st.y=H+4;
-      sx.globalAlpha=st.a*(.55+.45*Math.sin(st.p));
-      sx.beginPath(); sx.arc(st.x,st.y,st.r,0,6.283); sx.fillStyle='#d8fff7'; sx.fill();}
-    sx.globalAlpha=1;
-
-    dx.clearRect(0,0,W,H);
-    for(var j=0;j<motes.length;j++){var m=motes[j];
-      m.y-=m.v; if(m.y<-m.r*2) {m.y=H+m.r*2; m.x=Math.random()*W;}
-      var g=dx.createRadialGradient(m.x,m.y,0,m.x,m.y,m.r);
-      g.addColorStop(0,'rgba('+m.hue+','+m.a+')'); g.addColorStop(1,'rgba('+m.hue+',0)');
-      dx.fillStyle=g; dx.beginPath(); dx.arc(m.x,m.y,m.r,0,6.283); dx.fill();}
-
-    raf=requestAnimationFrame(frame);
+  /* rail mode: the track scrolls sideways natively; buttons scroll it */
+  function onRailScroll(){
+    var w=track.clientWidth||1, i=Math.min(last,Math.max(0,Math.round(track.scrollLeft/w)));
+    fill.style.width=(last?(i/last)*100:100)+'%';
+    if(i!==active) setActive(i);
   }
-  function wake(){ if(run&&!raf) raf=requestAnimationFrame(frame); }
+  function railMode(){
+    mode='rail';
+    /* own glide: a smooth scrollTo into a snap container is dropped by some engines, so tween scrollLeft with snapping paused */
+    var glideRaf=0;
+    function glide(left){
+      cancelAnimationFrame(glideRaf);
+      var from=track.scrollLeft, d=left-from, t0=performance.now(), dur=450;
+      if(!d){ track.style.scrollSnapType=''; return; }
+      track.style.scrollSnapType='none';
+      (function step(now){ var k=Math.min(1,(now-t0)/dur), e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
+        track.scrollLeft=from+d*e; if(k<1) glideRaf=requestAnimationFrame(step); else { track.style.scrollSnapType=''; onRailScroll(); } })(t0);
+    }
+    prev.onclick=function(){ glide(Math.max(0,active-1)*track.clientWidth); };
+    next.onclick=function(){ glide(Math.min(last,active+1)*track.clientWidth); };
+    track.addEventListener('scroll',onRailScroll,{passive:true});
+    onRailScroll();
+  }
+  function railOff(){ track.removeEventListener('scroll',onRailScroll); }
 
-  new IntersectionObserver(function(e){ run=e[0].isIntersecting; wake(); },{threshold:0}).observe(hero);
-  addEventListener('scroll',wake,{passive:true});
-  addEventListener('pointermove',function(e){
-    mx=(e.clientX/innerWidth-0.5)*2; my=(e.clientY/innerHeight-0.5)*2;
-  },{passive:true});
-  addEventListener('resize',size);
-  size(); run=true; wake();
+  /* pin mode: GSAP pins the hero and the page scroll steps the panels */
+  function pinMode(){
+    mode='pin';
+    document.documentElement.classList.add('js-scrub');
+    gsap.registerPlugin(ScrollTrigger);
+    var step=1/last, band=.06;
+    function show(i){
+      if(slide) slide.kill();
+      slide=gsap.to(track,{x:function(){return -i*hero.clientWidth;},duration:.55,ease:'power3.inOut',overwrite:true});
+      setActive(i);
+    }
+    function settle(i){ if(slide){ slide.kill(); slide=null; } gsap.set(track,{x:-i*hero.clientWidth}); if(i!==active) setActive(i); }
+    function pick(p){
+      var i=active<0?0:active;
+      while(i<last&&p>(i+.5)*step+band) i++;
+      while(i>0&&p<(i-.5)*step-band) i--;
+      if(i!==active) show(i);
+    }
+    st=ScrollTrigger.create({
+      trigger:hero,pin:hero,pinType:'fixed',anticipatePin:1,
+      start:'top top',end:function(){ return '+='+(last*0.7+0.35)*innerHeight; },
+      /* a fast fling can leave the pin before the 0.55 s slide has finished: settle the track at the boundary so the page never scrolls on with a half-slid hero; the extra 0.35 viewport of hold gives the last slide room to land at normal speeds */
+      onLeave:function(){ settle(last); },onEnterBack:function(){ settle(last); },onLeaveBack:function(){ settle(0); },
+      invalidateOnRefresh:true,
+      onUpdate:function(self){ fill.style.width=(self.progress*100).toFixed(2)+'%'; pick(self.progress); },
+      onRefresh:function(self){ fill.style.width=(self.progress*100).toFixed(2)+'%'; gsap.set(track,{x:-Math.max(0,active)*hero.clientWidth}); }
+    });
+    function go(i){
+      var t=Math.min(last,Math.max(0,i)), y=st.start+(t/last)*(st.end-st.start);
+      scrollTo({top:y,behavior:'smooth'});
+    }
+    prev.onclick=function(){ go(active-1); };
+    next.onclick=function(){ go(active+1); };
+    /* horizontal product shelf, the Madu product band: pinned once it sits clear of the header, slid sideways by exactly the
+       scroll distance and easing 0.9 s behind the wheel, with a progress line so the hold never reads as stalled */
+    bands=gsap.utils.toArray('section.horizontal').map(function(sec){
+      var wrap=sec.querySelector('.animation-wrap'), pin=sec.querySelector('.pin-wrap'), bar=sec.querySelector('.progress > i');
+      var dist=function(){ return Math.max(0,wrap.scrollWidth-wrap.clientWidth); };
+      var top=function(){ var navH=(document.querySelector('.nav')||{offsetHeight:0}).offsetHeight; return Math.max(navH+12,Math.round((innerHeight-pin.offsetHeight)/2)); };
+      return gsap.timeline({scrollTrigger:{trigger:pin,pin:pin,pinType:'fixed',anticipatePin:1,scrub:0.9,invalidateOnRefresh:true,
+          start:function(){ return 'top '+top(); },end:function(){ return '+='+dist(); }}})
+        .fromTo(wrap,{x:0},{x:function(){ return -dist(); },ease:'none'},0)
+        .fromTo(bar,{scaleX:0},{scaleX:1,ease:'none'},0);
+    });
+  }
+  function pinOff(){
+    bands.splice(0).forEach(function(tl){ if(tl.scrollTrigger) tl.scrollTrigger.kill(true); tl.kill(); });
+    gsap.set(['.animation-wrap','.progress > i'],{clearProps:'all'});
+    if(st){ st.kill(true); st=null; }
+    if(slide){ slide.kill(); slide=null; }
+    gsap.set(track,{clearProps:'all'});
+    document.documentElement.classList.remove('js-scrub');
+  }
+
+  function canPin(){ return !!(window.gsap&&window.ScrollTrigger)&&wide.matches&&motion.matches; }
+  function apply(){
+    var want=canPin()?'pin':'rail';
+    if(want===mode) return;
+    if(mode==='pin') pinOff(); else if(mode==='rail') railOff();
+    panels.forEach(function(p){ p.removeAttribute('inert'); });
+    active=-1; setActive(0);
+    if(want==='pin') pinMode(); else railMode();
+  }
+  setActive(0);
+  apply();
+  wide.addEventListener('change',apply);
+  motion.addEventListener('change',apply);
+})();
+
+/* featured product: quantity stepper (display only, there is no cart behind the taster) */
+(function(){
+  var q=document.getElementById('feature-qty'); if(!q) return;
+  var out=q.querySelector('output'), b=q.querySelectorAll('button'), n=1;
+  function set(v){ n=Math.min(9,Math.max(1,v)); out.textContent=n; b[0].disabled=n===1; b[1].disabled=n===9; }
+  b[0].addEventListener('click',function(){ set(n-1); }); b[1].addEventListener('click',function(){ set(n+1); }); set(1);
+})();
+
+/* featured product: magnetic CTA, ported from the motion rig's MagneticCta.
+   Pulls toward the cursor inside a proximity radius (gsap.quickTo), springs
+   back with back.out on exit. Desktop context only: wide viewport, a fine
+   pointer that can hover, motion allowed. Everywhere else it is a plain button. */
+(function(){
+  if(!window.gsap) return;
+  if(!matchMedia('(min-width:860px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion: no-preference)').matches) return;
+  document.querySelectorAll('[data-magnet]').forEach(function(el){
+    var inner=el.querySelector('[data-magnet-inner]')||el, radius=Number(el.dataset.radius||90), strength=Number(el.dataset.strength||.4);
+    var xTo=gsap.quickTo(el,'x',{duration:.5,ease:'power3'}), yTo=gsap.quickTo(el,'y',{duration:.5,ease:'power3'}),
+        xIn=gsap.quickTo(inner,'x',{duration:.5,ease:'power3'}), yIn=gsap.quickTo(inner,'y',{duration:.5,ease:'power3'});
+    var pointer=null, raf=0, inside=false;
+    function release(){ inside=false; gsap.killTweensOf([el,inner]); gsap.to([el,inner],{x:0,y:0,duration:.6,ease:'back.out(1.7)'}); }
+    function tick(){ raf=0; if(!pointer) return;
+      var r=el.getBoundingClientRect(), dx=pointer.x-(r.left+r.width/2), dy=pointer.y-(r.top+r.height/2), d=Math.hypot(dx,dy);
+      if(d<radius){ inside=true; xTo(dx*strength); yTo(dy*strength); xIn(dx*strength*.5); yIn(dy*strength*.5); }
+      else if(inside) release(); }
+    addEventListener('pointermove',function(e){ if(e.pointerType&&e.pointerType!=='mouse') return; pointer={x:e.clientX,y:e.clientY}; if(!raf) raf=requestAnimationFrame(tick); },{passive:true});
+    addEventListener('blur',function(){ pointer=null; if(inside) release(); });
+    document.addEventListener('mouseleave',function(){ pointer=null; if(inside) release(); });
+  });
+})();
+
+/* subscribe: the taster has no list, so the form never posts; it says so */
+(function(){
+  var f=document.getElementById('subscribe-form'); if(!f) return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var email=f.querySelector('input[type=email]');
+    if(!email.value||!email.checkValidity()){ email.focus(); email.setAttribute('aria-invalid','true'); return; }
+    var p=document.createElement('p'); p.className='subscribe__done'; p.textContent='Noted. This is the taster, so nothing was sent. The real list lives at herbase.earth.'; f.replaceChildren(p);
+  });
 })();
 </script>
+<script src="assets/bag.js" defer></script>
 </body>
 </html>

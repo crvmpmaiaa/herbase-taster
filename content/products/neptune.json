@@ -4,11 +4,16 @@
   "name": "Neptune",
   "title": "Neptune · 50 large vegan capsules · Herbase",
   "description": "Fifty large vegan capsules. Four botanicals named on the listing, the rest a proprietary blend. The specification, the schedule, and every gap stated.",
-  "crumb": ["Formulas", "index.html#monograph"],
+  "crumb": [
+    "Formulas",
+    "index.html#monograph"
+  ],
   "price": "£39.99",
   "unit": "50 large vegan capsules · 25 servings · milligrams not printed",
   "gallery": [
-    { "held": true },
+    {
+      "held": true
+    },
     {
       "img": "capsule-scoop",
       "alt": "A dozen plain pale capsules and a small wooden scoop on dark slate",
@@ -110,22 +115,70 @@
   "spec": {
     "h2": "The specification sheet",
     "rows": [
-      ["Makeup", "Four botanicals named on the listing, plus an unnamed proprietary blend."],
-      ["Named, with a binomial", "<i>Annona muricata</i> · <i>Valeriana officinalis</i> · <i>Verbena hastata</i>. The last two are printed on the listing as common names; these are the species those names cover in the trade."],
-      ["Named, without a binomial", "Chamomile. Two different plants are sold under that word, <i>Matricaria chamomilla</i> and <i>Chamaemelum nobile</i>, and the listing does not say which. We are not going to pick one for it."],
-      ["Not named", "The proprietary blend. No plant in it is named on the listing, so none is named here."],
-      ["Parts used", "Not printed for any of the four."],
-      ["Form", "50 large vegan capsules. One size. The shell material is not named on the listing, so we do not name one here."],
-      ["Count and strength", "50 capsules. No milligram figure per capsule is printed."],
-      ["Serving", "Two capsules in the evening, at 8, with 500 ml of water, as printed."],
-      ["Schedule", "Twenty days a month, as printed. The listing sets a stop rather than a daily habit."],
-      ["Supply and day rate", "50 capsules at two a serving is 25 servings, which is £1.60 each. At twenty a month a jar covers about a month and a quarter."],
-      ["Price", "£39.99. One size."],
-      ["Storage", "The listing's storage line reads store away from radiation. That is not an instruction anybody can act on or check, so it is not carried here. Keep the lid on, somewhere cool and dry, out of the sun."],
-      ["Sourcing", "Not printed. No country of origin and no harvest record is given for any of the four."],
-      ["Excipients", "None declared beyond the capsule shell."],
-      ["Suitable for", "Vegans. Adults."],
-      ["Not for", "Anyone who is pregnant or breastfeeding. Not for children. Valerian products sold in this country carry a standard warning that they may make you drowsy: if you are affected, do not drive or use machinery, and that warning applies to this jar. This is not a replacement for anything a doctor has prescribed, which is the listing's own line. If you take any prescribed medicine, speak to your GP or pharmacist before you start. Nobody can give you a caution for the plants in the proprietary blend, because nobody has printed them."]
+      [
+        "Makeup",
+        "Four botanicals named on the listing, plus an unnamed proprietary blend."
+      ],
+      [
+        "Named, with a binomial",
+        "<i>Annona muricata</i> · <i>Valeriana officinalis</i> · <i>Verbena hastata</i>. The last two are printed on the listing as common names; these are the species those names cover in the trade."
+      ],
+      [
+        "Named, without a binomial",
+        "Chamomile. Two different plants are sold under that word, <i>Matricaria chamomilla</i> and <i>Chamaemelum nobile</i>, and the listing does not say which. We are not going to pick one for it."
+      ],
+      [
+        "Not named",
+        "The proprietary blend. No plant in it is named on the listing, so none is named here."
+      ],
+      [
+        "Parts used",
+        "Not printed for any of the four."
+      ],
+      [
+        "Form",
+        "50 large vegan capsules. One size. The shell material is not named on the listing, so we do not name one here."
+      ],
+      [
+        "Count and strength",
+        "50 capsules. No milligram figure per capsule is printed."
+      ],
+      [
+        "Serving",
+        "Two capsules in the evening, at 8, with 500 ml of water, as printed."
+      ],
+      [
+        "Schedule",
+        "Twenty days a month, as printed. The listing sets a stop rather than a daily habit."
+      ],
+      [
+        "Supply and day rate",
+        "50 capsules at two a serving is 25 servings, which is £1.60 each. At twenty a month a jar covers about a month and a quarter."
+      ],
+      [
+        "Price",
+        "£39.99. One size."
+      ],
+      [
+        "Storage",
+        "The listing's storage line reads store away from radiation. That is not an instruction anybody can act on or check, so it is not carried here. Keep the lid on, somewhere cool and dry, out of the sun."
+      ],
+      [
+        "Sourcing",
+        "Not printed. No country of origin and no harvest record is given for any of the four."
+      ],
+      [
+        "Excipients",
+        "None declared beyond the capsule shell."
+      ],
+      [
+        "Suitable for",
+        "Vegans. Adults."
+      ],
+      [
+        "Not for",
+        "Anyone who is pregnant or breastfeeding. Not for children. Valerian products sold in this country carry a standard warning that they may make you drowsy: if you are affected, do not drive or use machinery, and that warning applies to this jar. This is not a replacement for anything a doctor has prescribed, which is the listing's own line. If you take any prescribed medicine, speak to your GP or pharmacist before you start. Nobody can give you a caution for the plants in the proprietary blend, because nobody has printed them."
+      ]
     ],
     "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
     "doctrine": {
@@ -143,25 +196,65 @@
       "The valerian warning is standard on every valerian product sold in this country and it is on the sheet for the same reason the stop date is on <a href=\"product-decolonise.html\">Decolonise</a>. A limit printed plainly is worth more to somebody at a counter than a paragraph of reassurance."
     ],
     "pull": "A Latin name invented for a label is worse than an English one printed honestly.",
-    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
   },
   "cmp": {
     "h2": "What to check on <em>any</em> multi-herb capsule",
     "rows": [
-      ["Every plant named", "No. Four are, the blend is not", "\"Proprietary blend\""],
-      ["A species behind every common name", "No. Chamomile is printed without one", "Common names throughout"],
-      ["The plant part named", "No. Not printed for any of the four", "Rarely stated"],
-      ["Milligrams per capsule", "No. Not printed", "Usually printed"],
-      ["A schedule with a stop in it", "Yes. Twenty days a month", "\"Take daily\""],
-      ["The caution that travels with the plant", "Yes. The valerian driving warning is on the sheet", "One blanket line in the footer"],
-      ["A day rate you can check", "Per serving only, because the schedule is not daily", "A single figure, quietly chosen"],
-      ["Somebody to ask, at a counter", "Yes. 07946 806533, Tuesday to Sunday", "A contact form"]
+      [
+        "Every plant named",
+        "No. Four are, the blend is not",
+        "\"Proprietary blend\""
+      ],
+      [
+        "A species behind every common name",
+        "No. Chamomile is printed without one",
+        "Common names throughout"
+      ],
+      [
+        "The plant part named",
+        "No. Not printed for any of the four",
+        "Rarely stated"
+      ],
+      [
+        "Milligrams per capsule",
+        "No. Not printed",
+        "Usually printed"
+      ],
+      [
+        "A schedule with a stop in it",
+        "Yes. Twenty days a month",
+        "\"Take daily\""
+      ],
+      [
+        "The caution that travels with the plant",
+        "Yes. The valerian driving warning is on the sheet",
+        "One blanket line in the footer"
+      ],
+      [
+        "A day rate you can check",
+        "Per serving only, because the schedule is not daily",
+        "A single figure, quietly chosen"
+      ],
+      [
+        "Somebody to ask, at a counter",
+        "Yes. 07946 806533, Tuesday to Sunday",
+        "A contact form"
+      ]
     ],
     "note": "Four of those rows go against us. Three of them are a printing job and one needs the formulator to name the blend."
   },
   "also": {
     "h2": "Jars that print <em>one name</em>",
-    "handles": ["lions-mane", "ginseng", "astragalus", "chanca-piedra"]
+    "handles": [
+      "lions-mane",
+      "ginseng",
+      "astragalus",
+      "chanca-piedra"
+    ]
   },
   "jnext": {
     "article": "journal/which-sea-moss.html",

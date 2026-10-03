@@ -28,16 +28,16 @@
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
-      <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="index.html#best">Mushrooms</a>
+      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a>
     </div>
     <a class="nav__mark" href="index.html" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="journal/">Journal</a><a href="product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>
+      <a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#" data-bag aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
     </div>
-    <a class="nav__bag" href="#">Bag (0)</a>
+    <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
   </div>
   <div class="nav__drawer" id="drawer">
-    <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="index.html#best">Mushrooms</a><a href="journal/">Journal</a><a href="index.html#shop">Book the hour · £120</a>
+    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="index.html#shop">Book the hour · £120</a>
   </div>
 </nav>
 
@@ -46,9 +46,9 @@
     <div class="head">
       <p class="label rv">The shelf</p>
       <h1 class="dsp rv d1" style="margin-top:12px">Everything, <em>grouped as it sits</em></h1>
-      <p class="rv d2">47 products, every one with a specification sheet. Prices as listed.</p>
+      <p class="rv d2">43 products, every one with a specification sheet. Prices as listed.</p>
     </div>
-    <p class="shopnav rv d2"><a href="#botanicals">Single ingredients</a><a href="#formulas">Formulas</a><a href="#mushrooms">Mushrooms</a><a href="#seamoss">Sea moss</a><a href="#kits">Kits</a><a href="#objects">Books, apparel and objects</a></p>
+    <p class="shopnav rv d2" id="collections"><a href="#botanicals">Single ingredients</a><a href="#formulas">Formulas</a><a href="#mushrooms">Mushrooms</a><a href="#seamoss">Sea moss</a><a href="#kits">Kits</a><a href="#objects">Books, apparel and objects</a></p>
   </div>
 </section>
 
@@ -150,14 +150,8 @@
       <p class="rv d1">Gels and capsules, by species and preparation.</p>
     </div>
     <div class="best__grid">
-      <article class="prod rv"><a class="prod__img" href="product-chondrus-crispus.html"><img loading="lazy" decoding="async" src="assets/tile-seamoss.jpg" alt="Chondrus Crispus Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Chondrus Crispus Sea Moss Gel</h3><span>£34.99</span></div><p class="prod__sub">One alga, water and a drop of Omega DHA oil. One size, one tablespoon a day, no volume printed.</p><a class="prod__buy" href="product-chondrus-crispus.html">Add to bag</a></article>
-      <article class="prod rv d1"><a class="prod__img" href="product-purple-mwani.html"><img loading="lazy" decoding="async" src="assets/hero-sea-m.jpg" alt="Purple Mwani Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Purple Mwani Sea Moss Gel</h3><span>£24.99</span></div><p class="prod__sub">One jar · 20 days at one tablespoon, 10 at two · £1.25 a day at one</p><a class="prod__buy" href="product-purple-mwani.html">Add to bag</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="product.html"><img loading="lazy" decoding="async" src="assets/northern-soul-jar-m.jpg" alt="Northern Soul Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Northern Soul Sea Moss Gel</h3><span>from £34.99</span></div><p class="prod__sub">Cold-water sea moss gel. 300 ml or 500 ml.</p><a class="prod__buy" href="product.html">Choose a size</a></article>
-      <article class="prod rv d3"><a class="prod__img" href="product-nu-heru.html"><img loading="lazy" decoding="async" src="assets/hero-sea-m.jpg" alt="Nu Heru Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Nu Heru Sea Moss Gel</h3><span>from £34.99</span></div><p class="prod__sub">300 ml £34.99 · 500 ml £50.00 · one to two tablespoons a day</p><a class="prod__buy" href="product-nu-heru.html">Choose a size</a></article>
+      <article class="prod rv"><a class="prod__img" href="product-seaking.html"><img loading="lazy" decoding="async" src="assets/tile-seaking.jpg" alt="Seaking"></a>
+        <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">The Northern Soul formula in a capsule, plus clove. 50 × 800 mg, 75 µg iodine each. 25 day supply.</p><a class="prod__buy" href="product-seaking.html">Add to bag</a></article>
     </div>
   </div>
 </section>
@@ -212,6 +206,15 @@
   </div>
 </section>
 
+<section class="mission">
+  <div class="wrap mission__in">
+    <p class="label rv">The mission</p>
+    <p class="mission__lead rv d1">The human body is electrical - each heartbeat, each neuron, each breath operates through vibration and current.</p>
+    <p class="rv d2">HERBASE formulations are designed to recharge your cellular battery, detox the pathways that block flow, and restore harmony between your physical and energetic bodies.</p>
+    <p class="rv d2">True wellness begins at the level of the cell - when nutrition becomes information, and food becomes frequency.</p>
+  </div>
+</section>
+
 <footer class="foot">
   <div class="wrap">
     <div class="foot__top"><img src="assets/wordmark.png" alt="Herbase"></div>
@@ -223,7 +226,7 @@
       </div>
       <div>
         <h3>Shop</h3>
-        <a href="index.html#monograph">Signature formulas</a><a href="product.html">Sea moss</a><a href="index.html#best">Mushrooms</a><a href="shop.html#kits">Bundle kits</a><a href="shop.html#objects">Books</a>
+        <a href="collection-signature-formulas.html">Signature formulas</a><a href="collection-sea-moss.html">Sea moss</a><a href="collection-mushrooms.html">Mushrooms</a><a href="collection-bundle-kits.html">Bundle kits</a><a href="collection-books.html">Books</a>
       </div>
       <div>
         <h3>Know</h3>
@@ -253,5 +256,6 @@ burger.addEventListener('click',()=>{
   burger.setAttribute('aria-expanded',String(!open));
 });
 </script>
+<script src="assets/bag.js" defer></script>
 </body>
 </html>

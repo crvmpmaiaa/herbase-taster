@@ -4,11 +4,19 @@
   "name": "Mag Flux",
   "title": "Mag Flux · 50 × 800 mg vegan capsules · Herbase",
   "description": "Fifty 800 mg vegan capsules. Five botanicals named in Latin on the listing. The specification, the arithmetic, and the figures nobody has measured.",
-  "crumb": ["Formulas", "index.html#monograph"],
+  "crumb": [
+    "Formulas",
+    "index.html#monograph"
+  ],
   "price": "£39.99",
   "unit": "50 × 800 mg vegan capsules · 25 days · £1.60 a day",
   "gallery": [
-    { "held": true },
+    {
+      "img": "assets/gen-pack-mag-flux.jpg",
+      "alt": "Mag Flux, a generated stand-in for the pack",
+      "thumbAlt": "Mag Flux, a generated stand-in for the pack",
+      "cap": "A generated stand-in for the pack, not a photograph of our stock. The real label prints a line the taster does not carry, so this one shows the name and the count only."
+    },
     {
       "img": "capsule-scoop",
       "alt": "A dozen plain pale capsules and a small wooden scoop on dark slate",
@@ -110,22 +118,70 @@
   "spec": {
     "h2": "The specification sheet",
     "rows": [
-      ["Makeup", "Five botanicals, named in Latin on the listing. The listing does not say whether the five are the whole of it."],
-      ["Named", "<i>Smilax officinalis</i> · <i>Arctium lappa</i> · <i>Rumex crispus</i> · <i>Adansonia digitata</i> · <i>Stellaria media</i>"],
-      ["Spelling", "The listing prints Articum lappa. The accepted binomial is <i>Arctium lappa</i>, and that is the spelling used on this page."],
-      ["Not in it", "The listing's prose mentions dandelion. Dandelion is not on the ingredient line. Burdock, <i>Arctium lappa</i>, is."],
-      ["Parts used", "Not printed for any of the five."],
-      ["Minerals and vitamins", "No measured quantity of any mineral or vitamin is printed for this jar, so none is stated here. The ingredient line names five plants and no mineral source. The only per capsule mineral figure anywhere on this site is the iodine on Seaking, which is the one place a per capsule figure is printed at all. Whether an assay sits behind it is not stated on that listing either, so we do not say it does."],
-      ["Form", "50 vegan capsules, 800 mg each. One size. The shell material is not named on the listing, so we do not name one here."],
-      ["Serving", "Two capsules with lunch or an afternoon meal, with 500 ml of spring water, as printed."],
-      ["Supply and day rate", "50 capsules at two a day is a 25 day supply, which is £1.60 a day while a jar runs."],
-      ["Course", "Not printed. No maximum course and no gap between courses is given, so none is stated here."],
-      ["Price", "£39.99. One size."],
-      ["Storage", "Not printed. Keep the lid on, somewhere cool and dry, out of the sun."],
-      ["Sourcing", "Not printed. No country of origin and no harvest record is given for any of the five."],
-      ["Excipients", "None declared beyond the capsule shell."],
-      ["Suitable for", "Vegans. Adults."],
-      ["Not for", "Anyone who is pregnant or breastfeeding without medical advice, which is the listing's own caution. Not for children. Yellow dock is a plant high in oxalate, so if you have been advised to keep oxalate down, ask before you start. If you take any prescribed medicine, speak to your GP or pharmacist first."]
+      [
+        "Makeup",
+        "Five botanicals, named in Latin on the listing. The listing does not say whether the five are the whole of it."
+      ],
+      [
+        "Named",
+        "<i>Smilax officinalis</i> · <i>Arctium lappa</i> · <i>Rumex crispus</i> · <i>Adansonia digitata</i> · <i>Stellaria media</i>"
+      ],
+      [
+        "Spelling",
+        "The listing prints Articum lappa. The accepted binomial is <i>Arctium lappa</i>, and that is the spelling used on this page."
+      ],
+      [
+        "Not in it",
+        "The listing's prose mentions dandelion. Dandelion is not on the ingredient line. Burdock, <i>Arctium lappa</i>, is."
+      ],
+      [
+        "Parts used",
+        "Not printed for any of the five."
+      ],
+      [
+        "Minerals and vitamins",
+        "No measured quantity of any mineral or vitamin is printed for this jar, so none is stated here. The ingredient line names five plants and no mineral source. The only per capsule mineral figure anywhere on this site is the iodine on Seaking, which is the one place a per capsule figure is printed at all. Whether an assay sits behind it is not stated on that listing either, so we do not say it does."
+      ],
+      [
+        "Form",
+        "50 vegan capsules, 800 mg each. One size. The shell material is not named on the listing, so we do not name one here."
+      ],
+      [
+        "Serving",
+        "Two capsules with lunch or an afternoon meal, with 500 ml of spring water, as printed."
+      ],
+      [
+        "Supply and day rate",
+        "50 capsules at two a day is a 25 day supply, which is £1.60 a day while a jar runs."
+      ],
+      [
+        "Course",
+        "Not printed. No maximum course and no gap between courses is given, so none is stated here."
+      ],
+      [
+        "Price",
+        "£39.99. One size."
+      ],
+      [
+        "Storage",
+        "Not printed. Keep the lid on, somewhere cool and dry, out of the sun."
+      ],
+      [
+        "Sourcing",
+        "Not printed. No country of origin and no harvest record is given for any of the five."
+      ],
+      [
+        "Excipients",
+        "None declared beyond the capsule shell."
+      ],
+      [
+        "Suitable for",
+        "Vegans. Adults."
+      ],
+      [
+        "Not for",
+        "Anyone who is pregnant or breastfeeding without medical advice, which is the listing's own caution. Not for children. Yellow dock is a plant high in oxalate, so if you have been advised to keep oxalate down, ask before you start. If you take any prescribed medicine, speak to your GP or pharmacist first."
+      ]
     ],
     "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
     "doctrine": {
@@ -143,25 +199,65 @@
       "The Latin is misspelled on the listing as well, Articum for Arctium. It is a small thing. It is also the kind of small thing that tells you whether anyone checked, so it is corrected on the sheet above with the change marked rather than done quietly."
     ],
     "pull": "A good sentence is not an ingredient.",
-    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
   },
   "cmp": {
     "h2": "What to check on <em>any</em> root formula",
     "rows": [
-      ["Every plant named in Latin", "Yes. Five of them", "Common names, or a blend"],
-      ["The Latin spelled correctly", "No. The listing prints Articum for Arctium", "Rarely checked at all"],
-      ["The plant part named", "No. Not printed for any of the five", "Rarely stated"],
-      ["Milligrams per capsule", "Yes. 800 mg", "Often only per serving"],
-      ["A number behind any mineral named", "No number, so no mineral named", "A mineral named with no test behind it"],
-      ["Every plant in the prose actually on the list", "No. The prose mentions dandelion; the list does not", "Common, and rarely noticed"],
-      ["A day rate you can check", "Yes. 50 capsules, two a day, £1.60", "Rarely worked out for you"],
-      ["Somebody to ask, at a counter", "Yes. 07946 806533, Tuesday to Sunday", "A contact form"]
+      [
+        "Every plant named in Latin",
+        "Yes. Five of them",
+        "Common names, or a blend"
+      ],
+      [
+        "The Latin spelled correctly",
+        "No. The listing prints Articum for Arctium",
+        "Rarely checked at all"
+      ],
+      [
+        "The plant part named",
+        "No. Not printed for any of the five",
+        "Rarely stated"
+      ],
+      [
+        "Milligrams per capsule",
+        "Yes. 800 mg",
+        "Often only per serving"
+      ],
+      [
+        "A number behind any mineral named",
+        "No number, so no mineral named",
+        "A mineral named with no test behind it"
+      ],
+      [
+        "Every plant in the prose actually on the list",
+        "No. The prose mentions dandelion; the list does not",
+        "Common, and rarely noticed"
+      ],
+      [
+        "A day rate you can check",
+        "Yes. 50 capsules, two a day, £1.60",
+        "Rarely worked out for you"
+      ],
+      [
+        "Somebody to ask, at a counter",
+        "Yes. 07946 806533, Tuesday to Sunday",
+        "A contact form"
+      ]
     ],
     "note": "Three of those rows go against us. Two are a printing job and one needs a laboratory."
   },
   "also": {
     "h2": "Also on the <em>root shelf</em>",
-    "handles": ["astragalus", "ginseng", "pau-darco", "chanca-piedra"]
+    "handles": [
+      "astragalus",
+      "ginseng",
+      "pau-darco",
+      "chanca-piedra"
+    ]
   },
   "jnext": {
     "article": "journal/lions-mane.html",

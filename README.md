@@ -29,8 +29,8 @@ DSF=1 node shot.mjs <url> out.png mobile         # 390x844
 | Path | |
 |---|---|
 | `index.html` | **The homepage.** This is what GitHub Pages serves. |
-| `product.html` | Northern Soul sea moss gel, in the spec-sheet layout from the homepage monograph |
 | `journal/index.html` | The journal listing |
+| `collections.html`, `collection-*.html` | Rendered by `tools/render.mjs --collections` (also with `--all`): nine collections mirroring the live shop's categories that name no body system, membership from the live collections minus the gels |
 | `journal/which-sea-moss.html` | First article, in Reiss's voice: the two species, gel vs capsules, storage, safety, buy block |
 | `assets/site.css` | Shared styles for every page. Page-specific CSS stays inline. |
 | `directions/index.html` | The original three-direction comparison board |
@@ -81,3 +81,5 @@ for the rest and why.
 ## Open items
 
 Tracked privately in the growth audit, not here. Ask Jack.
+
+`assets/vendor/` carries GSAP 3.15 and ScrollTrigger (vendored, no CDN) for the homepage hero carousel and the pinned product shelf (both fall back to native scroll-snap rails); everything else stays plain.

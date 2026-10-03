@@ -27,16 +27,16 @@
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
-      <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="index.html#best">Mushrooms</a>
+      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a>
     </div>
     <a class="nav__mark" href="index.html" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="journal/">Journal</a><a href="product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>
+      <a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#" data-bag aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
     </div>
-    <a class="nav__bag" href="#">Bag (0)</a>
+    <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
   </div>
   <div class="nav__drawer" id="drawer">
-    <a href="shop.html">Formulas</a><a href="product.html">Sea Moss</a><a href="index.html#best">Mushrooms</a><a href="journal/">Journal</a><a href="index.html#shop">Book the hour · £120</a>
+    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="index.html#shop">Book the hour · £120</a>
   </div>
 </nav>
 
@@ -67,7 +67,7 @@
           <li><b>The source is not printed.</b> The listing does not name the plant, or any other origin, so neither do we</li>
         </ul>
         <a class="buy__spec" href="#spec">Full specification sheet</a>
-        <a class="buy__cta" href="#buy" id="buybtn"><span>Add to bag</span><span id="ctaprice">One bottle · £19.99</span></a>
+        <a class="buy__cta" href="#buy" id="buybtn" data-add data-name="Omega DHA Oil" data-price="19.99"><span>Add to bag</span><span id="ctaprice">One bottle · £19.99</span></a>
         <p class="buy__note"><b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday. If you avoid particular oils, ask before you buy, because the source is not on the label.</p>
       </div>
     </div>
@@ -98,7 +98,7 @@
     </div>
     <div class="ingr__grid">
       <article class="ing rv"><img src="assets/journal/oil-drop-m.jpg" alt="A glass dropper releasing a golden drop of oil into a shallow white dish of oil" loading="lazy" decoding="async"><p class="ing__fam">The oil · Six to one</p><h3>Six parts omega 3 to one part omega 6<i>The ratio the listing prints</i></h3><p>That ratio is the only compositional figure on the label besides the tablespoon. It sets the two families of fatty acid against each other inside the bottle. It does not say which oil they were pressed or grown from, and the listing does not say elsewhere either. The drop in the picture is a generated scene rather than a photograph of ours.</p></article>
-      <article class="ing rv d1"><img src="assets/journal/gen-oil-bottle-m.jpg" alt="A small amber bottle and a spoon of golden oil on linen, a generated scene" loading="lazy" decoding="async"><p class="ing__fam">The serving · 15 ml</p><h3>One tablespoon a day<i>9,000 mg of omega 3</i></h3><p>The listing prints 9,000 mg of omega 3 in a tablespoon. It is printed, so it goes on the sheet; whether it was measured is not stated. The listing then sets it against a recommended daily amount. Omega 3 does not carry a reference intake in the way iodine does, so this page prints the milligrams and leaves the percentage off.</p></article>
+      <article class="ing rv d1"><img src="assets/journal/gen-oil-bottle-m.jpg" alt="A small amber bottle and a spoon of golden oil on linen, a generated scene" loading="lazy" decoding="async"><p class="ing__fam">The serving · 15 ml</p><h3>One tablespoon a day<i>9,000 mg of omega 3</i></h3><p>The listing prints 9,000 mg of omega 3 in a tablespoon. That is a printed figure, so it goes on the sheet. The listing then sets it against a recommended daily amount. Omega 3 does not carry a reference intake in the way iodine does, so this page prints the milligrams and leaves the percentage off.</p></article>
       <article class="ing rv d2"><img src="assets/hero-sea-m.jpg" alt="Seaweed fronds in a ring of green nebula against a starfield" loading="lazy" decoding="async"><p class="ing__fam">The source · Not printed</p><h3>Which plant, or which organism<i>The listing does not say</i></h3><p>A bottle named for DHA, whose one named constituent is alpha-linolenic acid, the omega 3 that comes out of plant seeds. The listing does not name the plant, does not name any other origin, and prints no DHA figure of its own. The picture here is the painted illustration for the sea moss shelf, where the bottle sits because it goes into the gel. It is not a statement about the source, and neither is the shelf.</p></article>
       <article class="ing rv d3"><img src="assets/journal/step-fridge-m.jpg" alt="Jars on a fridge shelf" loading="lazy" decoding="async"><p class="ing__fam">Keeping it · Cold</p><h3>The fridge<i>Printed on the listing</i></h3><p>Store in the fridge is the one storage instruction on this listing, and it is the one line that separates this bottle from every capsule on the site. The photograph is of jars of gel on the fridge shelf in the shop rather than of bottles of the oil.</p></article>
     </div>
@@ -125,7 +125,7 @@
           <tr><th scope="row">Supply</th><td>One month a bottle, as printed.</td></tr>
           <tr><th scope="row">Price</th><td>£19.99. One size.</td></tr>
           <tr><th scope="row">Storage</th><td>In the fridge, printed on the listing. It is the only storage instruction on it.</td></tr>
-          <tr><th scope="row">Also goes into</th><td><a href="product-chondrus-crispus.html">Chondrus Crispus Sea Moss Gel</a>, as the third of three declared ingredients. How much of it goes into a jar is not printed, so a spoonful of that gel is not a way of measuring this oil.</td></tr>
+          <tr><th scope="row">Also goes into</th><td>Chondrus Crispus Sea Moss Gel, as the third of three declared ingredients. How much of it goes into a jar is not printed, so a spoonful of that gel is not a way of measuring this oil.</td></tr>
           <tr><th scope="row">Allergens</th><td>Not stated. With the source unnamed, nothing can be ruled in or out, which is a good reason to ring the shop first if you avoid fish or any particular seed oil.</td></tr>
           <tr><th scope="row">Suitable for</th><td>Adults. There is no vegan mark on this sheet, because the source is not stated and we will not guess at it. Northern Soul, which is algae and water, does carry one.</td></tr>
           <tr><th scope="row">Not for</th><td>Not for children. If you take warfarin or any other anticoagulant, ask your GP or pharmacist before you start. If you are pregnant or breastfeeding, ask your midwife or pharmacist. If you avoid particular oils, ring the shop before you buy, because the label will not tell you what this is.</td></tr>
@@ -188,14 +188,14 @@
       <h2 class="dsp rv">Also on the <em>sea moss shelf</em></h2>
     </div>
     <div class="best__grid">
-      <article class="prod rv"><a class="prod__img" href="product-chondrus-crispus.html"><img loading="lazy" decoding="async" src="assets/tile-seamoss.jpg" alt="Chondrus Crispus Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Chondrus Crispus Sea Moss Gel</h3><span>£34.99</span></div><p class="prod__sub">One alga, water and a drop of Omega DHA oil. One size, one tablespoon a day, no volume printed.</p><a class="prod__buy" href="product-chondrus-crispus.html">Add to bag</a></article>
-      <article class="prod rv d1"><a class="prod__img" href="product.html"><img loading="lazy" decoding="async" src="assets/northern-soul-jar-m.jpg" alt="Northern Soul Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Northern Soul Sea Moss Gel</h3><span>from £34.99</span></div><p class="prod__sub">Cold-water sea moss gel. 300 ml or 500 ml.</p><a class="prod__buy" href="product.html">Choose a size</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="product-purple-mwani.html"><img loading="lazy" decoding="async" src="assets/hero-sea-m.jpg" alt="Purple Mwani Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Purple Mwani Sea Moss Gel</h3><span>£24.99</span></div><p class="prod__sub">One jar · 20 days at one tablespoon, 10 at two · £1.25 a day at one</p><a class="prod__buy" href="product-purple-mwani.html">Add to bag</a></article>
-      <article class="prod rv d3"><a class="prod__img" href="product-nu-heru.html"><img loading="lazy" decoding="async" src="assets/hero-sea-m.jpg" alt="Nu Heru Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Nu Heru Sea Moss Gel</h3><span>from £34.99</span></div><p class="prod__sub">300 ml £34.99 · 500 ml £50.00 · one to two tablespoons a day</p><a class="prod__buy" href="product-nu-heru.html">Choose a size</a></article>
+      <article class="prod rv"><a class="prod__img" href="product-seaking.html"><img loading="lazy" decoding="async" src="assets/pack-seaking-m.jpg" alt="Seaking"></a>
+        <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">The Northern Soul formula in a capsule, plus clove. 50 × 800 mg, 75 µg iodine each. 25 day supply.</p><a class="prod__buy" href="product-seaking.html">Add to bag</a></article>
+      <article class="prod rv d1"><a class="prod__img" href="product-lions-mane.html"><img loading="lazy" decoding="async" src="assets/gen-pack-lions-mane-m.jpg" alt="Lion's Mane"></a>
+        <div class="prod__row"><h3>Lion's Mane</h3><span>£24.99</span></div><p class="prod__sub">Single ingredient, whole fruiting body</p><a class="prod__buy" href="product-lions-mane.html">Add to bag</a></article>
+      <article class="prod rv d2"><a class="prod__img" href="product-shilajit.html"><img loading="lazy" decoding="async" src="assets/gen-pack-shilajit-m.jpg" alt="Shilajit Resin"></a>
+        <div class="prod__row"><h3>Shilajit Resin</h3><span>£39.99</span></div><p class="prod__sub">Altai mineral resin · 50 g in amber glass · about two months.</p><a class="prod__buy" href="product-shilajit.html">Add to bag</a></article>
+      <article class="prod rv d3"><a class="prod__img" href="product-decolonise.html"><img loading="lazy" decoding="async" src="assets/gen-pack-decolonise-m.jpg" alt="Decolonise"></a>
+        <div class="prod__row"><h3>Decolonise</h3><span>£39.99</span></div><p class="prod__sub">50 vegan capsules · 25 day supply · £1.60 a day</p><a class="prod__buy" href="product-decolonise.html">Add to bag</a></article>
     </div>
   </div>
 </section>
@@ -205,7 +205,16 @@
     <p class="label rv" style="color:rgba(255,237,210,.55)">From the journal</p>
     <h2 class="dsp rv d1">One alga, water and Omega DHA oil</h2>
     <p class="rv d2">The single ingredient gel this bottle goes into, and why the amount of oil in a jar of it is not printed.</p>
-    <a class="btn rv d2" href="journal/chondrus-crispus-gel.html">Read the article</a>
+    <a class="btn rv d2" href="journal/seaking-iodine.html">Read the article</a>
+  </div>
+</section>
+
+<section class="mission">
+  <div class="wrap mission__in">
+    <p class="label rv">The mission</p>
+    <p class="mission__lead rv d1">The human body is electrical - each heartbeat, each neuron, each breath operates through vibration and current.</p>
+    <p class="rv d2">HERBASE formulations are designed to recharge your cellular battery, detox the pathways that block flow, and restore harmony between your physical and energetic bodies.</p>
+    <p class="rv d2">True wellness begins at the level of the cell - when nutrition becomes information, and food becomes frequency.</p>
   </div>
 </section>
 
@@ -220,7 +229,7 @@
       </div>
       <div>
         <h3>Shop</h3>
-        <a href="index.html#monograph">Signature formulas</a><a href="product.html">Sea moss</a><a href="index.html#best">Mushrooms</a><a href="shop.html#kits">Bundle kits</a><a href="shop.html#objects">Books</a>
+        <a href="collection-signature-formulas.html">Signature formulas</a><a href="collection-sea-moss.html">Sea moss</a><a href="collection-mushrooms.html">Mushrooms</a><a href="collection-bundle-kits.html">Bundle kits</a><a href="collection-books.html">Books</a>
       </div>
       <div>
         <h3>Know</h3>
@@ -241,7 +250,7 @@
 
 <div class="stickybuy" id="sticky">
   <span><b>Omega DHA Oil</b> · <span id="stickyprice">£19.99</span><i id="stickyunit"> · One bottle</i></span>
-  <a class="btn" href="#buy">Add to bag</a>
+  <a class="btn" href="#buy" data-add>Add to bag</a>
 </div>
 
 <script>
@@ -275,5 +284,6 @@ document.querySelectorAll('.gal__thumbs button').forEach(b=>b.addEventListener('
   main.removeAttribute('srcset'); main.src=b.dataset.src; main.alt=b.querySelector('img').alt;
 }));
 </script>
+<script src="assets/bag.js" defer></script>
 </body>
 </html>

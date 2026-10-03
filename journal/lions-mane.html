@@ -28,16 +28,16 @@
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
-      <a href="../shop.html">Formulas</a><a href="../product.html">Sea Moss</a><a href="../index.html#best">Mushrooms</a>
+      <a href="../index.html">Home</a><a href="../shop.html">Shop</a><a href="../collections.html">Collections</a>
     </div>
     <a class="nav__mark" href="../index.html" aria-label="Herbase, home"><img src="../assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="./" aria-current="page">Journal</a><a href="../product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>
+      <a href="../shop.html#formulas">Formulas</a><a href="../shop.html#seamoss">Sea Moss</a><a href="#" data-bag aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
     </div>
-    <a class="nav__bag" href="#">Bag (0)</a>
+    <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
   </div>
   <div class="nav__drawer" id="drawer">
-    <a href="../shop.html">Formulas</a><a href="../product.html">Sea Moss</a><a href="../index.html#best">Mushrooms</a><a href="./">Journal</a><a href="../index.html#shop">Book the hour · £120</a>
+    <a href="../index.html">Home</a><a href="../shop.html">Shop</a><a href="../collections.html">Collections</a><a href="../shop.html#formulas">Formulas</a><a href="../shop.html#seamoss">Sea Moss</a><a href="../index.html#shop">Book the hour · £120</a>
   </div>
 </nav>
 
@@ -154,7 +154,7 @@
 
       <figure class="fig--wide"><img src="../assets/journal/gen-capsules-saucer.jpg" srcset="../assets/journal/gen-capsules-saucer-m.jpg 800w, ../assets/journal/gen-capsules-saucer.jpg 1600w" sizes="(min-width:1100px) 1040px, 92vw" loading="lazy" decoding="async" alt="Two plain capsules on a saucer beside a glass of water on a wooden table, a generated scene"><figcaption>Two, and a glass of water.<i>A generated scene, not a photograph of my capsules. The serving is two in the morning, with at least 500 ml of water.</i></figcaption></figure>
 
-      <p>Capsules keep on a dry shelf out of the sun, with the lid on. There is no fridge involved, which is the practical difference between this and a <a href="../product.html">gel</a>. If you want the ritual of a spoon in the morning, that is the gel. If you want something that lives in a drawer and travels, it is this.</p>
+      <p>Capsules keep on a dry shelf out of the sun, with the lid on. There is no fridge involved, which is the practical difference between this and a gel. If you want the ritual of a spoon in the morning, that is the gel. If you want something that lives in a drawer and travels, it is this.</p>
 
       <p>Who should leave it alone:</p>
 
@@ -165,7 +165,7 @@
         <li><b>Children.</b> Not for them. Keep it out of their reach.</li>
       </ul>
 
-      <p>None of that is medical advice. It is the list of questions I ask across the counter before I sell anyone a jar, and I would ask you the same ones. I wrote a similar list for the gel in <a href="which-sea-moss.html">the sea moss article</a>, and the reasoning behind both is the same.</p>
+      <p>None of that is medical advice. It is the list of questions I ask across the counter before I sell anyone a jar, and I would ask you the same ones. I wrote a similar list for the gel in the sea moss article, and the reasoning behind both is the same.</p>
 
       <h2 id="buy"><span>08</span>Which jar</h2>
 
@@ -204,6 +204,15 @@
   </div>
 </section>
 
+<section class="mission">
+  <div class="wrap mission__in">
+    <p class="label rv">The mission</p>
+    <p class="mission__lead rv d1">The human body is electrical - each heartbeat, each neuron, each breath operates through vibration and current.</p>
+    <p class="rv d2">HERBASE formulations are designed to recharge your cellular battery, detox the pathways that block flow, and restore harmony between your physical and energetic bodies.</p>
+    <p class="rv d2">True wellness begins at the level of the cell - when nutrition becomes information, and food becomes frequency.</p>
+  </div>
+</section>
+
 <footer class="foot">
   <div class="wrap">
     <div class="foot__top"><img src="../assets/wordmark.png" alt="Herbase"></div>
@@ -215,7 +224,7 @@
       </div>
       <div>
         <h3>Shop</h3>
-        <a href="../index.html#monograph">Signature formulas</a><a href="../product.html">Sea moss</a><a href="../index.html#best">Mushrooms</a><a href="../shop.html#kits">Bundle kits</a><a href="../shop.html#objects">Books</a>
+        <a href="../collection-signature-formulas.html">Signature formulas</a><a href="../collection-sea-moss.html">Sea moss</a><a href="../collection-mushrooms.html">Mushrooms</a><a href="../collection-bundle-kits.html">Bundle kits</a><a href="../collection-books.html">Books</a>
       </div>
       <div>
         <h3>Know</h3>
@@ -260,5 +269,6 @@ addEventListener('scroll',()=>{
   });
 },{passive:true});
 </script>
+<script src="../assets/bag.js" defer></script>
 </body>
 </html>

@@ -140,16 +140,16 @@ function nav(depth) {
     '  <div class="nav__in">',
     '    <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>',
     '    <div class="nav__side nav__side--l">',
-    `      <a href="${p}shop.html">Formulas</a><a href="${p}product.html">Sea Moss</a><a href="${p}index.html#best">Mushrooms</a>`,
+    `      <a href="${p}index.html">Home</a><a href="${p}shop.html">Shop</a><a href="${p}collections.html">Collections</a>`,
     '    </div>',
     `    <a class="nav__mark" href="${p}index.html" aria-label="Herbase, home"><img src="${p}assets/wordmark.png" alt="Herbase"></a>`,
     '    <div class="nav__side nav__side--r">',
-    `      <a href="${j}"${cur}>Journal</a><a href="${p}product-consultation.html">Consultation</a><a href="#" data-bag>Bag (0)</a>`,
+    `      <a href="${p}shop.html#formulas">Formulas</a><a href="${p}shop.html#seamoss">Sea Moss</a><a href="#" data-bag aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>`,
     '    </div>',
-    '    <a class="nav__bag" href="#">Bag (0)</a>',
+    '    <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>',
     '  </div>',
     '  <div class="nav__drawer" id="drawer">',
-    `    <a href="${p}shop.html">Formulas</a><a href="${p}product.html">Sea Moss</a><a href="${p}index.html#best">Mushrooms</a><a href="${j}">Journal</a><a href="${p}index.html#shop">Book the hour · £120</a>`,
+    `    <a href="${p}index.html">Home</a><a href="${p}shop.html">Shop</a><a href="${p}collections.html">Collections</a><a href="${p}shop.html#formulas">Formulas</a><a href="${p}shop.html#seamoss">Sea Moss</a><a href="${p}index.html#shop">Book the hour · £120</a>`,
     '  </div>',
     '</nav>',
   ].join('\n');
@@ -173,10 +173,14 @@ export function creditsLine(list, usedImages) {
   return s;
 }
 
+/* the live site's mission block, carried verbatim above every footer (claim-class wording flagged in the PR) */
+const MISSION_HTML = "<section class=\"mission\">\n  <div class=\"wrap mission__in\">\n    <p class=\"label rv\">The mission</p>\n    <p class=\"mission__lead rv d1\">The human body is electrical - each heartbeat, each neuron, each breath operates through vibration and current.</p>\n    <p class=\"rv d2\">HERBASE formulations are designed to recharge your cellular battery, detox the pathways that block flow, and restore harmony between your physical and energetic bodies.</p>\n    <p class=\"rv d2\">True wellness begins at the level of the cell - when nutrition becomes information, and food becomes frequency.</p>\n  </div>\n</section>";
+
 function foot(depth, credits, legal) {
   const p = depth ? '../' : '';
   const j = depth ? './' : 'journal/';
   return [
+    MISSION_HTML, '',
     '<footer class="foot">',
     '  <div class="wrap">',
     `    <div class="foot__top"><img src="${p}assets/wordmark.png" alt="Herbase"></div>`,
@@ -188,7 +192,7 @@ function foot(depth, credits, legal) {
     '      </div>',
     '      <div>',
     '        <h3>Shop</h3>',
-    `        <a href="${p}index.html#monograph">Signature formulas</a><a href="${p}product.html">Sea moss</a><a href="${p}index.html#best">Mushrooms</a><a href="${p}shop.html#kits">Bundle kits</a><a href="${p}shop.html#objects">Books</a>`,
+    `        <a href="${p}collection-signature-formulas.html">Signature formulas</a><a href="${p}collection-sea-moss.html">Sea moss</a><a href="${p}collection-mushrooms.html">Mushrooms</a><a href="${p}collection-bundle-kits.html">Bundle kits</a><a href="${p}collection-books.html">Books</a>`,
     '      </div>',
     '      <div>',
     '        <h3>Know</h3>',
@@ -208,6 +212,9 @@ function foot(depth, credits, legal) {
     '</footer>',
   ].join('\n');
 }
+
+/* every page carries the bag count script; depth 1 is a journal page */
+const BAG_SCRIPT = depth => `<script src="${depth ? '../' : ''}assets/bag.js" defer></script>`;
 
 const SCRIPT_TOP = [
   "const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});",
@@ -372,7 +379,7 @@ export function renderProduct(d) {
     for (const pk of d.perks) buy.push(`          <li>${esc(pk, depth)}</li>`);
     buy.push('        </ul>');
   }
-  buy.push(`        <a class="buy__cta" href="#buy" id="buybtn"><span>${esc(d.cta || 'Add to bag')}</span><span id="ctaprice">${esc(ctanote)}</span></a>`);
+  buy.push(`        <a class="buy__cta" href="#buy" id="buybtn" data-add data-name="${attr(d.name)}" data-price="${attr(String(d.price||'').replace(/^[^0-9]*/,'').replace(/[^0-9.].*$/,''))}"><span>${esc(d.cta || 'Add to bag')}</span><span id="ctaprice">${esc(ctanote)}</span></a>`);
   if (d.note) buy.push(`        <p class="buy__note">${esc(d.note, depth)}</p>`);
   if ((d.acc || []).length) {
     buy.push('');
@@ -582,13 +589,13 @@ export function renderProduct(d) {
   S.push([
     '<div class="stickybuy" id="sticky">',
     `  <span><b>${esc(d.name)}</b> · <span id="stickyprice">${esc(d.price)}</span>${stickyUnit ? `<i id="stickyunit">${esc(stickyUnit)}</i>` : ''}</span>`,
-    `  <a class="btn" href="#buy">${esc(d.cta || 'Add to bag')}</a>`,
+    `  <a class="btn" href="#buy" data-add>${esc(d.cta || 'Add to bag')}</a>`,
     '</div>',
   ].join('\n'));
 
   S.push(['<script>', SCRIPT_TOP, '', SCRIPT_BURGER, '',
     SCRIPT_STICKY_PRODUCT, '', heldFirst ? SCRIPT_GAL_HELD : SCRIPT_GAL,
-    '</script>', '</body>', '</html>'].join('\n'));
+    '</script>', BAG_SCRIPT(depth), '</body>', '</html>'].join('\n'));
 
   return S.join('\n\n') + '\n';
 }
@@ -799,7 +806,7 @@ export function renderArticle(d) {
 
   S.push(['<script>', SCRIPT_TOP,
     "window.addEventListener('load',()=>document.querySelectorAll('.article__head .rv, .article__lead').forEach(el=>el.classList.add('in')));",
-    SCRIPT_BURGER, SCRIPT_STICKY_ARTICLE, '</script>', '</body>', '</html>'].join('\n'));
+    SCRIPT_BURGER, SCRIPT_STICKY_ARTICLE, '</script>', BAG_SCRIPT(depth), '</body>', '</html>'].join('\n'));
 
   return S.join('\n\n') + '\n';
 }
@@ -865,7 +872,7 @@ export function renderShop() {
   top.push('      <h1 class="dsp rv d1" style="margin-top:12px">Everything, <em>grouped as it sits</em></h1>');
   top.push(`      <p class="rv d2">${total} products, every one with a specification sheet. Prices as listed.</p>`);
   top.push('    </div>');
-  top.push('    <p class="shopnav rv d2">' + SHOP_GROUPS.map(g => `<a href="#${g[0]}">${esc(g[1])}</a>`).join('') + '</p>');
+  top.push('    <p class="shopnav rv d2" id="collections">' + SHOP_GROUPS.map(g => `<a href="#${g[0]}">${esc(g[1])}</a>`).join('') + '</p>');
   top.push('  </div>', '</section>');
   S.push(top.join('\n'));
 
@@ -887,7 +894,7 @@ export function renderShop() {
   }
 
   S.push(foot(depth, creditsLine([], []), LEGAL_PRODUCT));
-  S.push(['<script>', SCRIPT_TOP, '', SCRIPT_BURGER, '</script>', '</body>', '</html>'].join('\n'));
+  S.push(['<script>', SCRIPT_TOP, '', SCRIPT_BURGER, '</script>', BAG_SCRIPT(depth), '</body>', '</html>'].join('\n'));
   return S.join('\n\n') + '\n';
 }
 
@@ -910,6 +917,61 @@ const HAND_BUILT_ARTICLES = [
 function handBuilt() {
   const pages = Object.values(registry()).filter(r => r.built).map(r => r.page);
   return new Set([...pages, ...HAND_BUILT_ARTICLES]);
+}
+
+/* ── collections: the live shop's categories that name no body system; membership mirrors the live collections, minus the gels ── */
+export const COLLECTIONS = [
+  { slug: 'consultations', title: 'Consultations', img: 'assets/collections/consultations.jpg', alt: 'Reiss Davies Ausar at the counter of the Smithdown Road shop', blurb: 'One hour with Reiss by private audio call, arranged by email.', members: ['consultation'] },
+  { slug: 'bundle-kits', title: 'Bundle kits', img: 'assets/collections/bundle-kits.jpg', alt: 'Sachets packed into a travel pouch', blurb: 'Boxed sets of the jars, each item printed with its own serving.', members: ['parasite-cleanse-kit', 'mens-health-kit', 'menopause-kit', 'athletes-kit'] },
+  { slug: 'mushrooms', title: 'Mushrooms', img: 'assets/collections/mushrooms.jpg', alt: 'A green waxcap growing in moss', blurb: "Lion's Mane, Reishi, Chaga and Mycrodose, each as its sheet prints it.", members: ['lions-mane', 'mycrodose', 'chaga', 'reishi'] },
+  { slug: 'books', title: 'Books', img: 'assets/collections/books.jpg', alt: 'The front cover of Detox Redox', blurb: "Two titles from the shop's own shelf, sold as printed books.", members: ['detox-redox-book', 'ripple-effect-book'] },
+  { slug: 'signature-formulas', title: 'Signature formulas', img: 'assets/collections/gen-signature-formulas.jpg', alt: 'Decolonise, a generated stand-in for the pack', blurb: 'The house formulas: several botanicals to one sheet, each printed as the listing prints it.', members: ['seaking', 'decolonise', 'test-drive', 'feminina', 'mag-flux', 'neptune', 'mycrodose', 'respire', 'equill', 'detox-redox', 'pancrea', 'nutropic', 'prostrate'] },
+  { slug: 'sea-moss', title: 'Sea moss', img: 'assets/collections/sea-moss.jpg', alt: 'The Seaking artwork as it appears on herbase.earth', blurb: 'The Northern Soul formula, now sold as a capsule.', members: ['seaking'] },
+  { slug: 'best-sellers', title: 'Best sellers', img: 'assets/collections/best-sellers.jpg', alt: 'The Herbase shop front on Smithdown Road', blurb: "The live shop's own top-sellers list, in its order.", members: ['seaking', 'omega-dha', 'lions-mane', 'decolonise', 'test-drive', 'mag-flux', 'shilajit', 'parasite-cleanse-kit', 'mycrodose', 'chasteberry', 'pau-darco', 'detox-redox', 'chanca-piedra'] },
+  { slug: 'single-herbs', title: 'Single herbs', img: 'assets/collections/single-herbs.jpg', alt: 'Noni leaves and fruit', blurb: 'One plant, resin or oil to a jar, named as far as the label names it.', members: ['omega-dha', 'lions-mane', 'shilajit', 'ashwagandha', 'chasteberry', 'pau-darco', 'gotu-kola', 'anamu', 'chaga', 'astragalus', 'gumbo-limbo', 'chanca-piedra', 'bugle', 'ginseng', 'reishi', 'acacia-bark'] },
+  { slug: 'shungite', title: 'Shungite', img: 'assets/collections/shungite.jpg', alt: 'A piece of elite shungite', blurb: 'Three pieces of the stone, sold as objects, weight and size as printed.', members: ['shungite-stone', 'shungite-pyramid', 'shungite-water-stones'] },
+];
+function collectionHead(title, desc, ogImg) {
+  return HEAD_TOP({ title, description: desc }, 0).concat([
+    `<meta property="og:title" content="${attr(title)}">`,
+    `<meta property="og:description" content="${attr(desc)}">`,
+    `<meta property="og:image" content="${attr(absUrl(ogImg))}">`,
+    '<meta property="og:type" content="website">',
+    '<noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>',
+    '<link rel="stylesheet" href="assets/site.css">',
+    '<style>', STICKY_CSS, '.head h1{font-size:clamp(21px,2.7vw,36px)}', '</style>',
+    '</head>', '<body>',
+  ]).join('\n');
+}
+function collectionTail(used) {
+  return [foot(0, creditsLine([], used), LEGAL_PRODUCT), ['<script>', SCRIPT_TOP, '', SCRIPT_BURGER, '</script>', BAG_SCRIPT(0), '</body>', '</html>'].join('\n')].join('\n\n');
+}
+export function renderCollectionsIndex() {
+  const reg = registry();
+  const desc = 'The shop grouped the way the live site groups it: consultations, bundle kits, mushrooms, books, signature formulas, sea moss, best sellers, single herbs and shungite.';
+  const tiles = COLLECTIONS.map((c, i) => {
+    const n = c.members.filter(h => reg[h]).length; const im = img(c.img);
+    return `      <a class="coll rv${DELAY(i)}" href="collection-${c.slug}.html"><div class="coll__img"><img src="${attr(im.m)}" srcset="${attr(im.m)} 400w, ${attr(im.full)} 800w" sizes="(min-width:760px) 30vw, 45vw" alt="${attr(c.alt)}" loading="lazy" decoding="async"></div><h2>${esc(c.title)}</h2><p>${n} ${n === 1 ? 'product' : 'products'}</p></a>`;
+  });
+  return [collectionHead('Collections · Herbase', desc, 'assets/collections/best-sellers.jpg'), nav(0),
+    '<section class="best" id="collections">', '  <div class="wrap">', '    <div class="head">', '      <p class="label rv">Collections</p>',
+    '      <h1 class="dsp rv d1">Nine ways <em>in</em></h1>', `      <p class="rv d2">${esc(desc)}</p>`, '    </div>', '    <div class="coll__grid">', ...tiles, '    </div>', '  </div>', '</section>',
+    collectionTail(COLLECTIONS.map(c => c.img))].join('\n') + '\n';
+}
+export function renderCollection(c) {
+  const reg = registry(); const members = c.members.filter(h => reg[h]); const n = members.length;
+  const cards = members.map((h, i) => cardHTML(cardData(h, 0), 0, i, 6));
+  return [collectionHead(`${c.title} · Herbase`, c.blurb, c.img), nav(0),
+    `<section class="best" id="${c.slug}">`, '  <div class="wrap">',
+    `    <p class="crumb" style="text-align:center"><a href="index.html">Home</a><span>/</span><a href="collections.html">Collections</a><span>/</span>${esc(c.title)}</p>`,
+    '    <div class="head">', '      <p class="label rv">Collection</p>', `      <h1 class="dsp rv d1">${esc(c.title)}</h1>`, `      <p class="rv d2">${esc(c.blurb)} ${n} ${n === 1 ? 'product' : 'products'}, prices as listed.</p>`, '    </div>',
+    '    <div class="best__grid">', ...cards, '    </div>', '  </div>', '</section>',
+    collectionTail(members.map(h => reg[h].img))].join('\n') + '\n';
+}
+export function renderCollections() {
+  const out = [['collections.html', renderCollectionsIndex()]];
+  for (const c of COLLECTIONS) out.push([`collection-${c.slug}.html`, renderCollection(c)]);
+  return out;
 }
 
 function write(rel, html, opts) {
@@ -947,11 +1009,12 @@ export function renderFile(rel) {
 function main(argv) {
   const opts = { eol: 'lf', force: false, out: null, quiet: false };
   const files = [];
-  let shop = false, all = false;
+  let shop = false, all = false, collections = false;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--all') all = true;
     else if (a === '--shop') shop = true;
+    else if (a === '--collections') collections = true;
     else if (a === '--force') opts.force = true;
     else if (a === '--quiet') opts.quiet = true;
     else if (a.startsWith('--eol=')) opts.eol = a.slice(6);
@@ -962,7 +1025,7 @@ function main(argv) {
   }
   if (all) files.push(...listContent());
   if (!files.length && !shop) {
-    console.error('usage: node tools/render.mjs [--all | --shop | content/products/x.json] [--out DIR] [--force] [--eol=lf|crlf]');
+    console.error('usage: node tools/render.mjs [--all | --shop | --collections | content/products/x.json] [--out DIR] [--force] [--eol=lf|crlf]');
     process.exit(2);
   }
 
@@ -979,6 +1042,7 @@ function main(argv) {
     }
   }
   if (shop) log.push(write('shop.html', renderShop(), opts));
+  if (shop || all || collections) for (const [rel, html] of renderCollections()) log.push(write(rel, html, opts));
   if (!opts.quiet) console.log(log.join('\n'));
   /* a SKIPPED hand-built page is the guard doing its job, not a failure */
   if (bad) process.exit(1);

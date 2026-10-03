@@ -4,7 +4,10 @@
   "name": "Shungite Water Stones",
   "title": "Shungite Water Stones · One piece, about 10 g · Herbase",
   "description": "One piece of shungite, about 10 g, £29.99. Shungite is a black carbon rock. The name is plural and the listing says one piece.",
-  "crumb": ["Objects", "shop.html#objects"],
+  "crumb": [
+    "Objects",
+    "shop.html#objects"
+  ],
   "price": "£29.99",
   "unit": "One piece · about 10 g · one size",
   "label": "Objects · what is printed",
@@ -73,23 +76,62 @@
     "intro": "A weight, a count and a price. The rest of the sheet is what the listing does not print, including any reason why this piece costs what it does against the heavier one.",
     "caption": "Shungite Water Stones",
     "rows": [
-      ["Makeup", "Shungite, a black rock with a high carbon content. One piece, nothing added."],
-      ["Count", "One piece, as printed, in spite of the plural in the name."],
-      ["Weight", "About 10 g, as printed."],
+      [
+        "Makeup",
+        "Shungite, a black rock with a high carbon content. One piece, nothing added."
+      ],
+      [
+        "Count",
+        "One piece, as printed, in spite of the plural in the name."
+      ],
+      [
+        "Weight",
+        "About 10 g, as printed."
+      ],
       [
         "Price",
         "£29.99 for one piece. The Elite Noble Shungite Stone on the same shelf is 20 to 30 g and costs £26.99. Neither listing explains the difference, so neither does this page."
       ],
-      ["Grade", "The listing calls it Elite Noble, the trade word for the shiny, high carbon sort. No assay comes with it, so no carbon percentage appears here."],
-      ["Dimensions", "Not printed. The listing calls the size compact and gives no measurements."],
-      ["Finish", "Not printed. The listing does not say whether the piece is raw, tumbled or polished."],
-      ["Origin", "Not printed for this piece. Shungite as a mineral is quarried in Karelia, north west Russia."],
-      ["Certificate", "None supplied. No assay, no laboratory report, no purity certificate."],
-      ["The name", "Water Stones is the product name. What the listing says about water is not repeated on this page and is not implied on it either."],
-      ["Use", "The listing prints a suggested use. It cannot be separated from claims we are not able to make, so none of it is carried across."],
-      ["The disclaimer", "The listing carries the sentence that the product is not intended to diagnose, treat, cure or prevent any disease. It is an American sentence and it does not make the paragraphs above it lawful here."],
-      ["Suitable for", "Anybody. It is an object, not something you take."],
-      ["Not for", "It is not a food and it is not a supplement. Do not put it in your mouth, and keep it away from young children, who put small hard things in theirs."]
+      [
+        "Grade",
+        "The listing calls it Elite Noble, the trade word for the shiny, high carbon sort. No assay comes with it, so no carbon percentage appears here."
+      ],
+      [
+        "Dimensions",
+        "Not printed. The listing calls the size compact and gives no measurements."
+      ],
+      [
+        "Finish",
+        "Not printed. The listing does not say whether the piece is raw, tumbled or polished."
+      ],
+      [
+        "Origin",
+        "Not printed for this piece. Shungite as a mineral is quarried in Karelia, north west Russia."
+      ],
+      [
+        "Certificate",
+        "None supplied. No assay, no laboratory report, no purity certificate."
+      ],
+      [
+        "The name",
+        "Water Stones is the product name. What the listing says about water is not repeated on this page and is not implied on it either."
+      ],
+      [
+        "Use",
+        "The listing prints a suggested use. It cannot be separated from claims we are not able to make, so none of it is carried across."
+      ],
+      [
+        "The disclaimer",
+        "The listing carries the sentence that the product is not intended to diagnose, treat, cure or prevent any disease. It is an American sentence and it does not make the paragraphs above it lawful here."
+      ],
+      [
+        "Suitable for",
+        "Anybody. It is an object, not something you take."
+      ],
+      [
+        "Not for",
+        "It is not a food and it is not a supplement. Do not put it in your mouth, and keep it away from young children, who put small hard things in theirs."
+      ]
     ],
     "smallprint": "Herbase, 599 Smithdown Road, Liverpool L15 5AP.",
     "doctrine": {
@@ -105,7 +147,10 @@
       "The rest of what that listing says about this piece is about water. None of it is on this page. The name stays because it is the name on the box, and a name is the one place a word like that is allowed to sit without being proved."
     ],
     "pull": "Ten grams for twenty nine ninety nine. Those are the figures as listed.",
-    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
   },
   "also": {
     "h2": "Also on the <em>objects shelf</em>",

@@ -4,7 +4,10 @@
   "name": "Detox Redox, the book",
   "title": "Detox Redox, the book · 100 pages, full colour · Herbase",
   "description": "Detox Redox, the book by Reiss Davies Ausar. 100 pages, full colour, with diagrams. Binding, ISBN and publisher are not printed. £28.00.",
-  "crumb": ["Books", "shop.html#objects"],
+  "crumb": [
+    "Books",
+    "shop.html#objects"
+  ],
   "price": "£28.00",
   "unit": "100 pages · full colour · binding not printed",
   "label": "Books · what is printed",
@@ -72,17 +75,50 @@
     "intro": "Four rows of this sheet are printed on the listing. The rest is the bibliographic detail a book usually carries and this listing does not.",
     "caption": "Detox Redox, the book",
     "rows": [
-      ["Pages", "100, as printed."],
-      ["Colour", "Full colour throughout, with pictures and diagrams, as the listing describes it."],
-      ["Author", "Reiss Davies Ausar."],
-      ["Price", "£28.00. One edition on the listing, with no variants."],
-      ["Format", "Not printed. The listing does not say paperback or hardback and gives no page size."],
-      ["Subject", "The one the title names. This page does not summarise the book and does not repeat its argument."],
-      ["ISBN", "Not printed. No ISBN, publisher or year of publication appears on the listing."],
-      ["Language", "Not printed. The listing does not state one."],
-      ["Weight", "Not printed. There is no shipping weight on the listing for it."],
-      ["Suitable for", "Readers. The listing describes it as written for all reading levels."],
-      ["Not for", "It is not a food, a supplement or a course of treatment. Nothing in it replaces advice from your GP or pharmacist, and nothing on this page says otherwise."]
+      [
+        "Pages",
+        "100, as printed."
+      ],
+      [
+        "Colour",
+        "Full colour throughout, with pictures and diagrams, as the listing describes it."
+      ],
+      [
+        "Author",
+        "Reiss Davies Ausar."
+      ],
+      [
+        "Price",
+        "£28.00. One edition on the listing, with no variants."
+      ],
+      [
+        "Format",
+        "Not printed. The listing does not say paperback or hardback and gives no page size."
+      ],
+      [
+        "Subject",
+        "The one the title names. This page does not summarise the book and does not repeat its argument."
+      ],
+      [
+        "ISBN",
+        "Not printed. No ISBN, publisher or year of publication appears on the listing."
+      ],
+      [
+        "Language",
+        "Not printed. The listing does not state one."
+      ],
+      [
+        "Weight",
+        "Not printed. There is no shipping weight on the listing for it."
+      ],
+      [
+        "Suitable for",
+        "Readers. The listing describes it as written for all reading levels."
+      ],
+      [
+        "Not for",
+        "It is not a food, a supplement or a course of treatment. Nothing in it replaces advice from your GP or pharmacist, and nothing on this page says otherwise."
+      ]
     ],
     "smallprint": "Herbase, 599 Smithdown Road, Liverpool L15 5AP.",
     "doctrine": {
@@ -98,7 +134,10 @@
       "So the sheet gives you a page count, a colour, an author and a price, and tells you plainly that the binding and the ISBN are missing. If you want to know whether the book is for you, ring the shop and ask me, or read the journal, which is the same voice for nothing."
     ],
     "pull": "If you want to know whether the book is for you, ring the shop and ask me.",
-    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
   },
   "also": {
     "h2": "Also on the <em>objects shelf</em>",
