@@ -31,9 +31,9 @@
     </div>
     <a class="nav__mark" href="index.html" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#" data-bag>Bag (0)</a>
+      <a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#" data-bag aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
     </div>
-    <a class="nav__bag" href="#">Bag (0)</a>
+    <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
   </div>
   <div class="nav__drawer" id="drawer">
     <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#collections">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="index.html#shop">Book the hour · £120</a>
@@ -75,7 +75,7 @@
           <li>Free UK delivery over £50, which this box clears on its own</li>
           <li>Every jar in the box has its own specification sheet on this site</li>
         </ul>
-        <a class="buy__cta" href="#buy" id="buybtn"><span>Add to bag</span><span id="ctaprice">Three jars · £99.99</span></a>
+        <a class="buy__cta" href="#buy" id="buybtn" data-add><span>Add to bag</span><span id="ctaprice">Three jars · £99.99</span></a>
         <p class="buy__note"><b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Read the stop date and the two hour charcoal rule on the sheet below before you do. Both are standard, both are on the Decolonise sheet, and both apply here.</p>
 
         <div class="acc">
@@ -248,7 +248,7 @@
 
 <div class="stickybuy" id="sticky">
   <span><b>Parasite Cleanse Kit</b> · <span id="stickyprice">£99.99</span><i id="stickyunit"> · Three jars</i></span>
-  <a class="btn" href="#buy">Add to bag</a>
+  <a class="btn" href="#buy" data-add>Add to bag</a>
 </div>
 
 <script>
@@ -282,5 +282,6 @@ document.querySelectorAll('.gal__thumbs button').forEach(b=>b.addEventListener('
   main.removeAttribute('srcset'); main.src=b.dataset.src; main.alt=b.querySelector('img').alt;
 }));
 </script>
+<script src="assets/bag.js" defer></script>
 </body>
 </html>

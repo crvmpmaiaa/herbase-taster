@@ -144,9 +144,9 @@ function nav(depth) {
     '    </div>',
     `    <a class="nav__mark" href="${p}index.html" aria-label="Herbase, home"><img src="${p}assets/wordmark.png" alt="Herbase"></a>`,
     '    <div class="nav__side nav__side--r">',
-    `      <a href="${p}shop.html#formulas">Formulas</a><a href="${p}shop.html#seamoss">Sea Moss</a><a href="#" data-bag>Bag (0)</a>`,
+    `      <a href="${p}shop.html#formulas">Formulas</a><a href="${p}shop.html#seamoss">Sea Moss</a><a href="#" data-bag aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>`,
     '    </div>',
-    '    <a class="nav__bag" href="#">Bag (0)</a>',
+    '    <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>',
     '  </div>',
     '  <div class="nav__drawer" id="drawer">',
     `    <a href="${p}index.html">Home</a><a href="${p}shop.html">Shop</a><a href="${p}shop.html#collections">Collections</a><a href="${p}shop.html#formulas">Formulas</a><a href="${p}shop.html#seamoss">Sea Moss</a><a href="${p}index.html#shop">Book the hour · £120</a>`,
@@ -208,6 +208,9 @@ function foot(depth, credits, legal) {
     '</footer>',
   ].join('\n');
 }
+
+/* every page carries the bag count script; depth 1 is a journal page */
+const BAG_SCRIPT = depth => `<script src="${depth ? '../' : ''}assets/bag.js" defer></script>`;
 
 const SCRIPT_TOP = [
   "const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -8%'});",
@@ -372,7 +375,7 @@ export function renderProduct(d) {
     for (const pk of d.perks) buy.push(`          <li>${esc(pk, depth)}</li>`);
     buy.push('        </ul>');
   }
-  buy.push(`        <a class="buy__cta" href="#buy" id="buybtn"><span>${esc(d.cta || 'Add to bag')}</span><span id="ctaprice">${esc(ctanote)}</span></a>`);
+  buy.push(`        <a class="buy__cta" href="#buy" id="buybtn" data-add><span>${esc(d.cta || 'Add to bag')}</span><span id="ctaprice">${esc(ctanote)}</span></a>`);
   if (d.note) buy.push(`        <p class="buy__note">${esc(d.note, depth)}</p>`);
   if ((d.acc || []).length) {
     buy.push('');
@@ -582,13 +585,13 @@ export function renderProduct(d) {
   S.push([
     '<div class="stickybuy" id="sticky">',
     `  <span><b>${esc(d.name)}</b> · <span id="stickyprice">${esc(d.price)}</span>${stickyUnit ? `<i id="stickyunit">${esc(stickyUnit)}</i>` : ''}</span>`,
-    `  <a class="btn" href="#buy">${esc(d.cta || 'Add to bag')}</a>`,
+    `  <a class="btn" href="#buy" data-add>${esc(d.cta || 'Add to bag')}</a>`,
     '</div>',
   ].join('\n'));
 
   S.push(['<script>', SCRIPT_TOP, '', SCRIPT_BURGER, '',
     SCRIPT_STICKY_PRODUCT, '', heldFirst ? SCRIPT_GAL_HELD : SCRIPT_GAL,
-    '</script>', '</body>', '</html>'].join('\n'));
+    '</script>', BAG_SCRIPT(depth), '</body>', '</html>'].join('\n'));
 
   return S.join('\n\n') + '\n';
 }
@@ -799,7 +802,7 @@ export function renderArticle(d) {
 
   S.push(['<script>', SCRIPT_TOP,
     "window.addEventListener('load',()=>document.querySelectorAll('.article__head .rv, .article__lead').forEach(el=>el.classList.add('in')));",
-    SCRIPT_BURGER, SCRIPT_STICKY_ARTICLE, '</script>', '</body>', '</html>'].join('\n'));
+    SCRIPT_BURGER, SCRIPT_STICKY_ARTICLE, '</script>', BAG_SCRIPT(depth), '</body>', '</html>'].join('\n'));
 
   return S.join('\n\n') + '\n';
 }
@@ -887,7 +890,7 @@ export function renderShop() {
   }
 
   S.push(foot(depth, creditsLine([], []), LEGAL_PRODUCT));
-  S.push(['<script>', SCRIPT_TOP, '', SCRIPT_BURGER, '</script>', '</body>', '</html>'].join('\n'));
+  S.push(['<script>', SCRIPT_TOP, '', SCRIPT_BURGER, '</script>', BAG_SCRIPT(depth), '</body>', '</html>'].join('\n'));
   return S.join('\n\n') + '\n';
 }
 

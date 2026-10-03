@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
 <link rel="stylesheet" href="assets/site.css">
-<link rel="preload" as="image" href="assets/hero-root.jpg" imagesrcset="assets/hero-root-m.jpg 820w, assets/hero-root.jpg 2200w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="image" href="assets/hero-carina.jpg" imagesrcset="assets/hero-carina-m.jpg 820w, assets/hero-carina.jpg 2200w" imagesizes="100vw" fetchpriority="high">
 </head>
 <body>
 
@@ -25,9 +25,9 @@
     </div>
     <a class="nav__mark" href="#" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
-      <a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#" data-bag>Bag (0)</a>
+      <a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#" data-bag aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
     </div>
-    <a class="nav__bag" href="#">Bag (0)</a>
+    <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
   </div>
   <div class="nav__drawer" id="drawer">
     <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#collections">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="#shop">Book the hour · £120</a>
@@ -36,12 +36,12 @@
 
 <header class="hero" id="hero">
   <div class="track" id="hero-track">
-    <div class="panel-h panel-h--scene" data-panel style="--hero-scrim:.93">
-      <img class="hero__img" src="assets/hero-root.jpg" srcset="assets/hero-root-m.jpg 820w, assets/hero-root.jpg 2200w" sizes="100vw" alt="Dried roots and bark drifting through a dark nebula, the root scene" fetchpriority="high" decoding="async">
+    <div class="panel-h panel-h--scene" data-panel style="--hero-scrim:.55">
+      <img class="hero__img" src="assets/hero-carina.jpg" srcset="assets/hero-carina-m.jpg 820w, assets/hero-carina.jpg 2200w" sizes="100vw" alt="The Carina Nebula in visible light, teal clouds and stars, photographed by the Hubble Space Telescope" fetchpriority="high" decoding="async">
       <div class="hero__veil"></div>
       <div class="wrap">
         <img class="hero__logo rv" src="assets/wordmark-cream.png" alt="Herbase">
-        <h1 class="dsp hero__title rv d1">An ancient apothecary <em>from the future</em></h1>
+        <h1 class="dsp hero__title rv d1">Herbase has solutions, <em>how can we help?</em></h1>
         <p class="hero__lede rv d2">Forty-seven products across herbal formulas, sea moss, mushrooms, minerals, books and objects, made or stocked above a shop on Smithdown Road, Liverpool. Every plant named in Latin where the listing names one, every figure printed where there is one, the gaps written down as gaps, and a practitioner at the counter who would rather you asked him something difficult.</p>
         <div class="hero__act rv d3">
           <a class="btn" href="shop.html">Shop all 47</a>
@@ -109,14 +109,6 @@
   </div>
 </section>
 
-<div class="strip">
-  <div class="strip__in">
-    <div class="strip__cell"><p class="strip__n">47</p><p class="strip__cap">Products, each with its own sheet</p></div>
-    <div class="strip__cell"><p class="strip__n">9</p><p class="strip__cap">Sheets that print "not printed" rather than guess</p></div>
-    <div class="strip__cell"><p class="strip__n">2019</p><p class="strip__cap">Trading since. Shop since 2024</p></div>
-  </div>
-</div>
-
 <section class="feature" id="feature">
   <div class="wrap feature__in">
     <a class="feature__media rv" href="product.html"><img src="assets/northern-soul-jar.jpg" srcset="assets/northern-soul-jar-m.jpg 700w, assets/northern-soul-jar.jpg 1200w" sizes="(min-width:900px) 46vw, 92vw" alt="Northern Soul sea moss gel in a glass jar, the plain shot from the live listing" loading="lazy" decoding="async"></a>
@@ -127,7 +119,7 @@
       <p class="feature__sub rv d2">Cold-water <i>Chondrus crispus</i> gel carrying four algae from three families. One tablespoon each morning. 300 ml or 500 ml, in a glass jar, kept in the fridge. The whole specification sheet is on the product page.</p>
       <div class="feature__qty rv d2"><span>Quantity</span><div class="qty" id="feature-qty"><button type="button" aria-label="Fewer">−</button><output aria-live="polite">1</output><button type="button" aria-label="More">+</button></div></div>
       <div class="feature__act rv d3">
-        <a class="btn" href="product.html" data-magnet data-radius="90" data-strength="0.35"><span data-magnet-inner>Add to bag · £34.99</span></a>
+        <a class="btn" href="product.html" data-add data-add-qty data-magnet data-radius="90" data-strength="0.35"><span data-magnet-inner>Add to bag · £34.99</span></a>
         <a class="btn btn--line" href="product.html#spec">Full specification sheet</a>
       </div>
       <p class="feature__links rv d3"><a href="product.html">View full details →</a><a href="journal/which-sea-moss.html">Which sea moss, and why</a></p>
@@ -163,7 +155,7 @@
   <div class="pin-wrap">
     <p class="band__mark"><a href="shop.html">The shelf · all 47</a></p>
     <div class="animation-wrap" id="best-band">
-      <article class="item prod"><a class="prod__img" href="product-seaking.html"><img loading="lazy" decoding="async" src="assets/tile-seaking.jpg" alt="Seaking capsules"></a>
+      <article class="item prod"><a class="prod__img" href="product-seaking.html"><img loading="lazy" decoding="async" src="assets/pack-seaking.jpg" alt="Seaking, Northern Soul formula, 50 vegan capsules"></a>
         <div class="prod__row"><h3>Seaking</h3><span>£39.99</span></div><p class="prod__sub">Sea moss formula in a capsule. 75 µg iodine each.</p><a class="prod__buy" href="product-seaking.html">Add to bag</a></article>
       <article class="item prod"><a class="prod__img" href="product.html"><img loading="lazy" decoding="async" src="assets/northern-soul-jar-m.jpg" alt="Northern Soul sea moss gel, glass jar"></a>
         <div class="prod__row"><h3>Northern Soul</h3><span>from £34.99</span></div><p class="prod__sub">Cold-water sea moss gel. 300 ml or 500 ml.</p><a class="prod__buy" href="product.html">Choose a size · from £34.99</a></article>
@@ -173,15 +165,15 @@
         <div class="prod__row"><h3>Shilajit Resin</h3><span>£39.99</span></div><p class="prod__sub">Altai mineral resin · 50 g in amber glass · about two months.</p><a class="prod__buy" href="product-shilajit.html">Add to bag</a></article>
       <article class="item prod"><a class="prod__img" href="product-decolonise.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Decolonise"></a>
         <div class="prod__row"><h3>Decolonise</h3><span>£39.99</span></div><p class="prod__sub">50 vegan capsules · 25 day supply · £1.60 a day</p><a class="prod__buy" href="product-decolonise.html">Add to bag</a></article>
-      <article class="item prod"><a class="prod__img" href="product-chondrus-crispus.html"><img loading="lazy" decoding="async" src="assets/tile-seamoss.jpg" alt="Chondrus Crispus sea moss gel"></a>
+      <article class="item prod"><a class="prod__img" href="product-chondrus-crispus.html"><img loading="lazy" decoding="async" src="assets/pack-chondrus-crispus.jpg" alt="Chondrus Crispus sea moss gel, the jar"></a>
         <div class="prod__row"><h3>Chondrus Crispus</h3><span>£34.99</span></div><p class="prod__sub">One alga, water and a drop of Omega DHA oil. One size, one tablespoon a day, no volume printed.</p><a class="prod__buy" href="product-chondrus-crispus.html">Add to bag</a></article>
       <article class="item prod"><a class="prod__img" href="product-mag-flux.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Mag Flux"></a>
         <div class="prod__row"><h3>Mag Flux</h3><span>£39.99</span></div><p class="prod__sub">50 × 800 mg vegan capsules · 25 days · £1.60 a day</p><a class="prod__buy" href="product-mag-flux.html">Add to bag</a></article>
-      <article class="item prod"><a class="prod__img" href="product-nu-heru.html"><img loading="lazy" decoding="async" src="assets/hero-sea-m.jpg" alt="Nu Heru sea moss gel"></a>
+      <article class="item prod"><a class="prod__img" href="product-nu-heru.html"><img loading="lazy" decoding="async" src="assets/pack-nu-heru.jpg" alt="Nu Heru sea moss gel, the jar"></a>
         <div class="prod__row"><h3>Nu Heru</h3><span>from £34.99</span></div><p class="prod__sub">300 ml £34.99 · 500 ml £50.00 · one to two tablespoons a day</p><a class="prod__buy" href="product-nu-heru.html">Choose a size · from £34.99</a></article>
       <article class="item prod"><a class="prod__img" href="product-reishi.html"><img loading="lazy" decoding="async" src="assets/hero-fungi-m.jpg" alt="Reishi"></a>
         <div class="prod__row"><h3>Reishi</h3><span>£24.99</span></div><p class="prod__sub">50 capsules at 800 mg · 25 days · £1 a day</p><a class="prod__buy" href="product-reishi.html">Add to bag</a></article>
-      <article class="item prod"><a class="prod__img" href="product-chaga.html"><img loading="lazy" decoding="async" src="assets/hero-fungi-m.jpg" alt="Chaga"></a>
+      <article class="item prod"><a class="prod__img" href="product-chaga.html"><img loading="lazy" decoding="async" src="assets/pack-chaga.jpg" alt="Chaga, 40 vegan capsules, the pack"></a>
         <div class="prod__row"><h3>Chaga</h3><span>£24.99</span></div><p class="prod__sub">One size · 750 mg a capsule · count not printed, so no day rate</p><a class="prod__buy" href="product-chaga.html">Add to bag</a></article>
     </div>
     <div class="progress" aria-hidden="true"><i></i></div>
@@ -216,7 +208,7 @@
         <div class="card__img card__img--held"><p>Pack photography held<span>Label reprint pending</span></p></div>
         <div class="card__foot"><h3>Decolonise</h3><span class="card__price">£39.99</span></div>
         <p class="card__unit">50 vegan capsules · 25 day supply · £1.60 a day</p>
-        <a class="card__buy" href="product-decolonise.html">Add to bag · £39.99</a>
+        <a class="card__buy" href="product-decolonise.html" data-add>Add to bag · £39.99</a>
         <p class="card__ship">Dispatched from Smithdown Road. Free UK delivery over £50.</p>
         <p class="card__pair">Often taken alongside <a href="product.html">Northern Soul Sea Moss, from £34.99</a>, which is a daily, and this is not.</p>
       </article>
@@ -386,7 +378,7 @@
       </div>
     </div>
     <div class="foot__legal">
-      <p class="credits">Journal photography via Unsplash and Wikimedia Commons, credited on each article. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock. Shop interior photograph via herbase.earth.</p>
+      <p class="credits">Journal photography via Unsplash and Wikimedia Commons, credited on each article. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock. Shop interior photograph and pack photographs via herbase.earth. The first hero scene is the Carina Nebula in visible light by NASA, ESA and the Hubble SM4 ERO Team, public domain, via Wikimedia Commons.</p>
       <p>Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.</p>
       <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP. Food business registered with Liverpool City Council.</p>
     </div>
@@ -395,7 +387,7 @@
 
 <div class="stickybuy" id="sticky">
   <span><b>Decolonise</b> · £39.99<i> · 50 caps, 25 day supply</i></span>
-  <a class="btn" href="#buy">Add to bag</a>
+  <a class="btn" href="#buy" data-add>Add to bag</a>
 </div>
 
 <script src="assets/vendor/gsap.min.js"></script>
@@ -413,13 +405,16 @@ burger.addEventListener('click',()=>{
 });
 
 const sticky=document.getElementById('sticky'),nav=document.querySelector('.nav'),afterHero=document.querySelector('.hero + *')||document.querySelector('.strip');
+const shelf=document.getElementById('best');
+/* the buy bar stays away while the product shelf is on screen, so it never covers the cards */
+const onShelf=()=>{ if(!shelf) return false; const r=shelf.getBoundingClientRect(); return r.top<innerHeight-120&&r.bottom>120; };
 /* header goes solid 140 px after the hero starts to leave, the same timing as the unpinned hero had; measured from the section right under it so the pinned carousel does not trip it early */
 const heroLeaving=()=>afterHero?afterHero.getBoundingClientRect().top<=innerHeight-140:scrollY>140;
 let ticking=false;
 addEventListener('scroll',()=>{
   if(ticking) return; ticking=true;
   requestAnimationFrame(()=>{
-    (scrollY>600&&heroLeaving())?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
+    (scrollY>600&&heroLeaving()&&!onShelf())?sticky.setAttribute('data-show',''):sticky.removeAttribute('data-show');
     heroLeaving()?nav.setAttribute('data-solid',''):nav.removeAttribute('data-solid');
     ticking=false;
   });
@@ -583,5 +578,6 @@ addEventListener('scroll',()=>{
   });
 })();
 </script>
+<script src="assets/bag.js" defer></script>
 </body>
 </html>
