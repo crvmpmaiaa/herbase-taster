@@ -669,3 +669,56 @@ html[data-slide="2"] .nav:not([data-solid]) .nav__mark,html[data-slide="3"] .nav
 .stickybuy__rail span{position:absolute;inset:0;display:block;opacity:0;transform:translateY(6px);transition:opacity .45s var(--ease),transform .45s var(--ease)}
 .stickybuy__rail span[data-active]{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.stickybuy__rail span{transition:none}}
+
+/* ─────────── featured product: the live site's stacked pills and the share control; hero buttons: an arrow that slides in on hover, the orange highlight on both styles ─────────── */
+.feature__act--stack{flex-direction:column;align-items:stretch;gap:12px;max-width:520px}
+.btn--pill{border-radius:999px;justify-content:center;padding:19px 30px;min-height:54px}
+.btn--line.btn--pill{border-width:1.5px}
+.feature__links{align-items:center;justify-content:space-between}
+.share{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font:inherit;letter-spacing:inherit;text-transform:inherit;color:var(--ink);position:relative;padding-bottom:4px}
+.share svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.share::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--ink);transform-origin:right center;transform:scaleX(0);transition:transform .5s cubic-bezier(1,0,0,1)}
+.share:hover::after,.share:focus-visible::after{transform-origin:left center;transform:scaleX(1)}
+.share[data-done] span{color:var(--jungle)}
+.btn__arrow{display:inline-block;max-width:0;opacity:0;overflow:hidden;transform:translateX(-6px);margin-left:0;transition:max-width .35s var(--ease),opacity .3s var(--ease),transform .35s var(--ease),margin-left .35s var(--ease)}
+.hero .btn{gap:0}
+.hero .btn:hover .btn__arrow,.hero .btn:focus-visible .btn__arrow{max-width:1.5em;opacity:1;transform:none;margin-left:10px}
+.hero .btn--line:hover,.hero .btn--line:focus-visible{background:var(--sun);border-color:var(--sun);color:var(--ink)}
+/* the shop page grid (its rules went with the homepage band; the collection pages use it too) */
+.best__grid{display:grid;gap:1px;grid-template-columns:minmax(0,1fr);background:var(--rule);border:1px solid var(--rule)}
+@media(min-width:520px){.best__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:900px){.best__grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+/* ─────────── collections: nine tiles in the live site's thumbnail frame ─────────── */
+.coll__grid{display:grid;gap:clamp(16px,2.4vw,32px) clamp(14px,2vw,28px);grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(min-width:760px){.coll__grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.coll{display:block;text-decoration:none;color:var(--ink);text-align:center}
+.coll__img{aspect-ratio:1;border-radius:22px;overflow:hidden;border:1px solid var(--rule);background:var(--paper-2)}
+.coll__img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .9s var(--ease)}
+.coll:hover .coll__img img,.coll:focus-visible .coll__img img{transform:scale(1.04)}
+.coll h2{font-family:var(--display);font-weight:900;font-size:clamp(14px,1.3vw,18px);letter-spacing:.05em;text-transform:uppercase;margin-top:14px;line-height:1.25}
+.coll p{color:var(--ink-3);font-size:12.5px;margin-top:4px}
+
+/* ─────────── bag panel: what was added, a subtotal, and the honest note ─────────── */
+.bagpanel__veil{position:fixed;inset:0;background:rgba(4,16,15,.35);z-index:80}
+.bagpanel{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);background:var(--paper);color:var(--ink);z-index:81;box-shadow:-20px 0 60px rgba(0,0,0,.18);display:flex;flex-direction:column;padding:22px var(--gutter) 28px;overflow:auto}
+.bagpanel[hidden],.bagpanel__veil[hidden]{display:none}
+.bagpanel__head{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--rule);padding-bottom:14px}
+.bagpanel__head h2{font-family:var(--display);font-weight:900;font-size:15px;letter-spacing:.08em;text-transform:uppercase}
+.bagpanel__close{all:unset;cursor:pointer;font-family:var(--display);font-size:12px;letter-spacing:.13em;text-transform:uppercase;padding:8px 0;border-bottom:1px solid var(--ink)}
+.bagpanel__close:focus-visible{outline:2px solid var(--jungle);outline-offset:4px}
+.bagpanel__list{list-style:none;margin:0;padding:0}
+.bagpanel__list li{display:grid;grid-template-columns:1fr auto auto;gap:8px 14px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--rule);font-size:14px}
+.bagpanel__list li b{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.02em}
+.bagpanel__list li span{color:var(--ink-2);white-space:nowrap}
+.bagpanel__list button{all:unset;cursor:pointer;font-family:var(--display);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);border-bottom:1px solid currentColor}
+.bagpanel__list button:hover,.bagpanel__list button:focus-visible{color:var(--ink)}
+.bagpanel__empty{color:var(--ink-3);display:block;padding:14px 0}
+.bagpanel__total{margin-top:16px;font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.04em}
+.bagpanel__note{margin-top:auto;padding-top:20px;font-size:12.5px;color:var(--ink-3);line-height:1.6}
+
+/* ─────────── the mission, the live site's closing block, above every footer ─────────── */
+.mission{background:var(--paper-2);border-top:1px solid var(--rule);text-align:center;padding:clamp(48px,6vw,88px) 0}
+.mission__in{max-width:64ch}
+.mission__lead{font-family:var(--display);font-weight:900;font-size:clamp(17px,1.9vw,25px);line-height:1.3;letter-spacing:.01em;margin:14px auto 18px}
+.mission p+p{margin-top:12px;color:var(--ink-2);line-height:1.75}

@@ -27,7 +27,7 @@
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
-      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#collections">Collections</a>
+      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a>
     </div>
     <a class="nav__mark" href="index.html" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
@@ -36,7 +36,7 @@
     <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
   </div>
   <div class="nav__drawer" id="drawer">
-    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#collections">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="index.html#shop">Book the hour · £120</a>
+    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="index.html#shop">Book the hour · £120</a>
   </div>
 </nav>
 
@@ -74,14 +74,14 @@
           <li>Free UK delivery over £50, which this box clears on its own</li>
           <li>Every item in the box has its own specification sheet on this site</li>
         </ul>
-        <a class="buy__cta" href="#buy" id="buybtn" data-add><span>Add to bag</span><span id="ctaprice">Five items in the box · £179.99</span></a>
+        <a class="buy__cta" href="#buy" id="buybtn" data-add data-name="28 Day Kit" data-price="179.99"><span>Add to bag</span><span id="ctaprice">Five items in the box · £179.99</span></a>
         <p class="buy__note"><b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Ask what serving the current Detox Redox label prints, because the listing does not print one and neither can this page.</p>
 
         <div class="acc">
           <details open>
             <summary>What is in the box</summary>
             <div class="acc__body">
-              <p>Three jars of Detox Redox at 40 large vegan capsules each, one jar of <a href="product.html">Northern Soul</a> sea moss gel, and one copy of the book, written by Reiss Davies Ausar. The cards below go to each item's own sheet.</p>
+              <p>Three jars of Detox Redox at 40 large vegan capsules each, one jar of Northern Soul sea moss gel, and one copy of the book, written by Reiss Davies Ausar. The cards below go to each item's own sheet.</p>
               <p>The listing says the book comes with the Konscious Konsumption nutrition guide. Nothing else is named as being in the box.</p>
             </div>
           </details>
@@ -127,9 +127,7 @@
     <div class="best__grid">
       <article class="prod rv"><a class="prod__img" href="product-detox-redox.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Detox Redox"></a>
         <div class="prod__row"><h3>Detox Redox</h3><span>£39.99</span></div><p class="prod__sub">3 jars · 40 large vegan capsules each</p><a class="prod__buy" href="product-detox-redox.html">See the specification</a></article>
-      <article class="prod rv d1"><a class="prod__img" href="product.html"><img loading="lazy" decoding="async" src="assets/northern-soul-jar-m.jpg" alt="Northern Soul Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Northern Soul Sea Moss Gel</h3><span>from £34.99</span></div><p class="prod__sub">1 jar · size not printed on this listing</p><a class="prod__buy" href="product.html">See the specification</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="product-detox-redox-book.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Detox Redox, the book"></a>
+      <article class="prod rv d1"><a class="prod__img" href="product-detox-redox-book.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Detox Redox, the book"></a>
         <div class="prod__row"><h3>Detox Redox, the book</h3><span>£28.00</span></div><p class="prod__sub">1 copy · by Reiss Davies Ausar</p><a class="prod__buy" href="product-detox-redox-book.html">See the specification</a></article>
     </div>
   </div>
@@ -147,7 +145,7 @@
       <table class="tbl">
         <caption>28 Day Kit</caption>
         <tbody>
-          <tr><th scope="row">Contents</th><td>Three jars of Detox Redox, 40 large vegan capsules in each. One jar of <a href="product.html">Northern Soul</a> sea moss gel. One copy of the book, which the listing says comes with the Konscious Konsumption nutrition guide.</td></tr>
+          <tr><th scope="row">Contents</th><td>Three jars of Detox Redox, 40 large vegan capsules in each. One jar of Northern Soul sea moss gel. One copy of the book, which the listing says comes with the Konscious Konsumption nutrition guide.</td></tr>
           <tr><th scope="row">Price</th><td>£179.99. One size, listed with no variants.</td></tr>
           <tr><th scope="row">Sold separately</th><td>Not totalled here. Northern Soul is sold in two sizes at two prices and this listing does not say which jar goes in the box, so any total would be a guess at the size. The other two items are £39.99 a jar and £28.00 for the book, as their own pages print.</td></tr>
           <tr><th scope="row">Serving</th><td>Not printed for the box. Detox Redox prints no dose, no daily count and no course length on its own listing. Northern Soul prints one tablespoon each morning on its page. The listing says the book holds the step by step instructions.</td></tr>
@@ -213,6 +211,15 @@
   </div>
 </section>
 
+<section class="mission">
+  <div class="wrap mission__in">
+    <p class="label rv">The mission</p>
+    <p class="mission__lead rv d1">The human body is electrical - each heartbeat, each neuron, each breath operates through vibration and current.</p>
+    <p class="rv d2">HERBASE formulations are designed to recharge your cellular battery, detox the pathways that block flow, and restore harmony between your physical and energetic bodies.</p>
+    <p class="rv d2">True wellness begins at the level of the cell - when nutrition becomes information, and food becomes frequency.</p>
+  </div>
+</section>
+
 <footer class="foot">
   <div class="wrap">
     <div class="foot__top"><img src="assets/wordmark.png" alt="Herbase"></div>
@@ -224,7 +231,7 @@
       </div>
       <div>
         <h3>Shop</h3>
-        <a href="index.html#monograph">Signature formulas</a><a href="product.html">Sea moss</a><a href="index.html#best">Mushrooms</a><a href="shop.html#kits">Bundle kits</a><a href="shop.html#objects">Books</a>
+        <a href="collection-signature-formulas.html">Signature formulas</a><a href="collection-sea-moss.html">Sea moss</a><a href="collection-mushrooms.html">Mushrooms</a><a href="collection-bundle-kits.html">Bundle kits</a><a href="collection-books.html">Books</a>
       </div>
       <div>
         <h3>Know</h3>

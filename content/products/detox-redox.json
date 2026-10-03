@@ -4,11 +4,16 @@
   "name": "Detox Redox",
   "title": "Detox Redox · Wild herb capsules · Herbase",
   "description": "Forty large vegan capsules. The listing names three of the botanicals and does not name the rest. The full specification, including what is missing.",
-  "crumb": ["Formulas", "index.html#monograph"],
+  "crumb": [
+    "Formulas",
+    "index.html#monograph"
+  ],
   "price": "£39.99",
   "unit": "40 large vegan capsules · no serving printed, so no day rate",
   "gallery": [
-    { "held": true },
+    {
+      "held": true
+    },
     {
       "img": "chondrus-fresh",
       "alt": "Wet red-brown Chondrus crispus fronds on a rock",
@@ -110,20 +115,62 @@
   "spec": {
     "h2": "The specification sheet",
     "rows": [
-      ["Makeup", "Three botanicals named on the listing, plus an unnamed remainder. The listing puts the formula at over twenty herbs and names three of them."],
-      ["Named", "<i>Chondrus crispus</i> · <i>Tabebuia impetiginosa</i> · <i>Momordica charantia</i>"],
-      ["Not named", "Everything else in the jar. There is no full ingredient list on the listing, so there is none on this page."],
-      ["Parts used", "Not printed. No plant part is named for any of the three."],
-      ["Form", "40 large vegan capsules. The listing states no filler. The shell material is not named on the listing, so we do not name one here."],
-      ["Count and strength", "40 capsules. No milligram figure per capsule is printed."],
-      ["Serving", "<b>Not printed.</b> No dose, no daily count, no course length. Ring the shop on 07946 806533 and ask what the current label says."],
-      ["Supply and day rate", "Neither can be worked out. A day rate needs a count and a serving, and only the count is printed."],
-      ["Price", "£39.99. One size."],
-      ["Storage", "Not printed. Keep the lid on, somewhere cool and dry, out of the sun."],
-      ["Sourcing", "Described on the listing as a wild herb formula. We hold no harvest record for the three named botanicals."],
-      ["Excipients", "None declared beyond the capsule shell."],
-      ["Suitable for", "Vegans. Adults."],
-      ["Not for", "Anyone who is pregnant or breastfeeding. Children. If you take prescribed medicine of any kind, including a blood thinner or anything for diabetes, speak to your GP or pharmacist before you start. Read the row above about the plants that are not named as well: nobody can give you a caution for an ingredient nobody has printed. The listing's own note goes further than that and says this is not to be taken alongside pharmaceutical medication. We print it as the listing prints it. Nothing here is a reason to stop or change prescribed treatment."]
+      [
+        "Makeup",
+        "Three botanicals named on the listing, plus an unnamed remainder. The listing puts the formula at over twenty herbs and names three of them."
+      ],
+      [
+        "Named",
+        "<i>Chondrus crispus</i> · <i>Tabebuia impetiginosa</i> · <i>Momordica charantia</i>"
+      ],
+      [
+        "Not named",
+        "Everything else in the jar. There is no full ingredient list on the listing, so there is none on this page."
+      ],
+      [
+        "Parts used",
+        "Not printed. No plant part is named for any of the three."
+      ],
+      [
+        "Form",
+        "40 large vegan capsules. The listing states no filler. The shell material is not named on the listing, so we do not name one here."
+      ],
+      [
+        "Count and strength",
+        "40 capsules. No milligram figure per capsule is printed."
+      ],
+      [
+        "Serving",
+        "<b>Not printed.</b> No dose, no daily count, no course length. Ring the shop on 07946 806533 and ask what the current label says."
+      ],
+      [
+        "Supply and day rate",
+        "Neither can be worked out. A day rate needs a count and a serving, and only the count is printed."
+      ],
+      [
+        "Price",
+        "£39.99. One size."
+      ],
+      [
+        "Storage",
+        "Not printed. Keep the lid on, somewhere cool and dry, out of the sun."
+      ],
+      [
+        "Sourcing",
+        "Described on the listing as a wild herb formula. We hold no harvest record for the three named botanicals."
+      ],
+      [
+        "Excipients",
+        "None declared beyond the capsule shell."
+      ],
+      [
+        "Suitable for",
+        "Vegans. Adults."
+      ],
+      [
+        "Not for",
+        "Anyone who is pregnant or breastfeeding. Children. If you take prescribed medicine of any kind, including a blood thinner or anything for diabetes, speak to your GP or pharmacist before you start. Read the row above about the plants that are not named as well: nobody can give you a caution for an ingredient nobody has printed. The listing's own note goes further than that and says this is not to be taken alongside pharmaceutical medication. We print it as the listing prints it. Nothing here is a reason to stop or change prescribed treatment."
+      ]
     ],
     "smallprint": "Do not exceed the stated dose. Speak to your GP or pharmacist before starting any supplement, particularly if you are pregnant, breastfeeding, or take medication. Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.",
     "doctrine": {
@@ -141,25 +188,65 @@
       "The full list is what this jar needs and it is what it will get. Until then the sheet says so, in the same size type as everything else."
     ],
     "pull": "A plant nobody can name is a plant nobody can check.",
-    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
   },
   "cmp": {
     "h2": "What to check on <em>any</em> multi-herb jar",
     "rows": [
-      ["Every ingredient named", "No. Three of them are", "\"20+ herbs\" and no list"],
-      ["A count you can check", "No. Over twenty is claimed, three are named", "Rarely a number at all"],
-      ["Latin names, not only common ones", "Yes, for the three that are named", "Common names only"],
-      ["The plant part named", "No. Not printed for any of the three", "Rarely stated"],
-      ["A printed serving", "No. There is no dose on the listing", "Usually printed"],
-      ["Milligrams per capsule", "No. Not printed", "Usually printed"],
-      ["Cautions tied to named plants", "Only for the three we can name", "One blanket line in the footer"],
-      ["Somebody to ask, at a counter", "Yes. 07946 806533, Tuesday to Sunday", "A contact form"]
+      [
+        "Every ingredient named",
+        "No. Three of them are",
+        "\"20+ herbs\" and no list"
+      ],
+      [
+        "A count you can check",
+        "No. Over twenty is claimed, three are named",
+        "Rarely a number at all"
+      ],
+      [
+        "Latin names, not only common ones",
+        "Yes, for the three that are named",
+        "Common names only"
+      ],
+      [
+        "The plant part named",
+        "No. Not printed for any of the three",
+        "Rarely stated"
+      ],
+      [
+        "A printed serving",
+        "No. There is no dose on the listing",
+        "Usually printed"
+      ],
+      [
+        "Milligrams per capsule",
+        "No. Not printed",
+        "Usually printed"
+      ],
+      [
+        "Cautions tied to named plants",
+        "Only for the three we can name",
+        "One blanket line in the footer"
+      ],
+      [
+        "Somebody to ask, at a counter",
+        "Yes. 07946 806533, Tuesday to Sunday",
+        "A contact form"
+      ]
     ],
     "note": "This jar comes off worse in that table than anything else we sell. The table stays up until the label changes."
   },
   "also": {
     "h2": "Named lists, <em>elsewhere on the shelf</em>",
-    "handles": ["decolonise", "pau-darco", "chondrus-crispus", "seaking"]
+    "handles": [
+      "decolonise",
+      "pau-darco",
+      "seaking",
+      "equill"
+    ]
   },
   "jnext": {
     "article": "journal/decolonise-stop-date.html",

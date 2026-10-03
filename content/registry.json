@@ -159,7 +159,7 @@
   "category": "botanical",
   "price": "£24.99",
   "page": "product-lions-mane.html",
-  "img": "assets/tile-lionsmane.jpg",
+  "img": "assets/gen-pack-lions-mane.jpg",
   "sub": "Single ingredient, whole fruiting body",
   "built": true,
   "kind": "supplement"
@@ -181,7 +181,7 @@
   "category": "formula",
   "price": "£39.99",
   "page": "product-decolonise.html",
-  "img": "assets/hero-cosmos.jpg",
+  "img": "assets/gen-pack-decolonise.jpg",
   "sub": "50 vegan capsules · 25 day supply · £1.60 a day",
   "built": true,
   "kind": "supplement"
@@ -225,7 +225,7 @@
   "category": "formula",
   "price": "£39.99",
   "page": "product-mag-flux.html",
-  "img": "assets/hero-cosmos.jpg",
+  "img": "assets/gen-pack-mag-flux.jpg",
   "sub": "50 × 800 mg vegan capsules · 25 days · £1.60 a day",
   "built": false,
   "kind": "supplement"
@@ -291,7 +291,7 @@
   "category": "formula",
   "price": "£39.99",
   "page": "product-seaking.html",
-  "img": "assets/tile-seaking.jpg",
+  "img": "assets/pack-seaking.jpg",
   "sub": "The Northern Soul formula in a capsule, plus clove. 50 × 800 mg, 75 µg iodine each. 25 day supply.",
   "built": true,
   "kind": "supplement"
@@ -379,7 +379,7 @@
   "category": "mineral",
   "price": "£39.99",
   "page": "product-shilajit.html",
-  "img": "assets/tile-shilajit.jpg",
+  "img": "assets/gen-pack-shilajit.jpg",
   "sub": "Altai mineral resin · 50 g in amber glass · about two months.",
   "built": true,
   "kind": "supplement"
@@ -390,7 +390,7 @@
   "category": "mushroom",
   "price": "£24.99",
   "page": "product-chaga.html",
-  "img": "assets/hero-fungi.jpg",
+  "img": "assets/pack-chaga.jpg",
   "sub": "One size · 750 mg a capsule · count not printed, so no day rate",
   "built": false,
   "kind": "supplement"
@@ -412,7 +412,7 @@
   "category": "mushroom",
   "price": "£24.99",
   "page": "product-reishi.html",
-  "img": "assets/hero-fungi.jpg",
+  "img": "assets/gen-pack-reishi.jpg",
   "sub": "50 capsules at 800 mg · 25 days · £1 a day",
   "built": false,
   "kind": "supplement"
@@ -458,50 +458,6 @@
   "page": "product-omega-dha.html",
   "img": "assets/hero-sea.jpg",
   "sub": "One bottle · a tablespoon a day · one month · volume not printed",
-  "built": false,
-  "kind": "supplement"
- },
- "chondrus-crispus": {
-  "name": "Chondrus Crispus Sea Moss Gel",
-  "handle": "chondrus-crispus-sea-moss-gel",
-  "category": "seamoss",
-  "price": "£34.99",
-  "page": "product-chondrus-crispus.html",
-  "img": "assets/tile-seamoss.jpg",
-  "sub": "One alga, water and a drop of Omega DHA oil. One size, one tablespoon a day, no volume printed.",
-  "built": true,
-  "kind": "supplement"
- },
- "purple-mwani": {
-  "name": "Purple Mwani Sea Moss Gel",
-  "handle": "eucheuma-cottonii-sea-moss",
-  "category": "seamoss",
-  "price": "£24.99",
-  "page": "product-purple-mwani.html",
-  "img": "assets/hero-sea.jpg",
-  "sub": "One jar · 20 days at one tablespoon, 10 at two · £1.25 a day at one",
-  "built": false,
-  "kind": "supplement"
- },
- "northern-soul": {
-  "name": "Northern Soul Sea Moss Gel",
-  "handle": "northern-soul-sea-moss",
-  "category": "seamoss",
-  "price": "from £34.99",
-  "page": "product.html",
-  "img": "assets/northern-soul-jar-m.jpg",
-  "sub": "Cold-water sea moss gel. 300 ml or 500 ml.",
-  "built": true,
-  "kind": "supplement"
- },
- "nu-heru": {
-  "name": "Nu Heru Sea Moss Gel",
-  "handle": "nuheruseamoss",
-  "category": "seamoss",
-  "price": "from £34.99",
-  "page": "product-nu-heru.html",
-  "img": "assets/hero-sea.jpg",
-  "sub": "300 ml £34.99 · 500 ml £50.00 · one to two tablespoons a day",
   "built": false,
   "kind": "supplement"
  },

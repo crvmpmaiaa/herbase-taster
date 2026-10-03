@@ -60,7 +60,7 @@
     {
       "summary": "What is in the box",
       "body": [
-        "One 500 ml jar of the <a href=\"product.html\">Northern Soul</a> gel. One jar of <a href=\"product-anamu.html\">Anamu</a>, 50 large vegan capsules. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One bottle of <a href=\"product-omega-dha.html\">Omega DHA Oil</a>.",
+        "One 500 ml jar of the Northern Soul gel. One jar of <a href=\"product-anamu.html\">Anamu</a>, 50 large vegan capsules. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One bottle of <a href=\"product-omega-dha.html\">Omega DHA Oil</a>.",
         "The listing prints a one line ingredient note against each of the four. The full lists, and the gaps in them, are on each item's own sheet."
       ]
     },
@@ -104,11 +104,6 @@
     "intro": "Each one is sold on its own as well. The prices on these cards are the prices those items carry on this site, and each card goes to its own specification sheet.",
     "items": [
       {
-        "handle": "northern-soul",
-        "qty": "1 jar · 500 ml, as this listing prints it",
-        "price": "£50.00"
-      },
-      {
         "handle": "anamu",
         "qty": "1 jar · 50 large vegan capsules"
       },
@@ -130,7 +125,7 @@
     "rows": [
       [
         "Contents",
-        "One 500 ml jar of the <a href=\"product.html\">Northern Soul</a> gel. One jar of <a href=\"product-anamu.html\">Anamu</a>, 50 large vegan capsules. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One bottle of <a href=\"product-omega-dha.html\">Omega DHA Oil</a>."
+        "One 500 ml jar of the Northern Soul gel. One jar of <a href=\"product-anamu.html\">Anamu</a>, 50 large vegan capsules. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One bottle of <a href=\"product-omega-dha.html\">Omega DHA Oil</a>."
       ],
       [
         "Price",

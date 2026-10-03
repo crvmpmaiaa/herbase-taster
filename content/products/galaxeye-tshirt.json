@@ -4,7 +4,10 @@
   "name": "Galaxeye T-shirt",
   "title": "Galaxeye T-shirt · Black, cotton blend, unisex · Herbase",
   "description": "The Galaxeye T-shirt. Black, a cotton blend, unisex fit, £50.00. Sizes, fibre percentages and print method are not printed on the listing.",
-  "crumb": ["Apparel", "shop.html#objects"],
+  "crumb": [
+    "Apparel",
+    "shop.html#objects"
+  ],
   "price": "£50.00",
   "unit": "One option · cotton blend · sizes not printed",
   "label": "Apparel · what is printed",
@@ -73,17 +76,50 @@
     "intro": "Six rows on this sheet come off the listing and four say not printed. On a garment those four are the ones that decide whether it fits and how long it lasts.",
     "caption": "Galaxeye T-shirt",
     "rows": [
-      ["Colour", "Black, as printed."],
-      ["Design", "A galaxy shaped eye on the front. That is the listing's description of the graphic and the whole of it."],
-      ["Material", "A cotton blend. The listing does not break the blend down, so no fibre percentages are printed here."],
-      ["Fit", "Unisex, as printed."],
-      ["Price", "£50.00. One option on the listing, with no variants."],
-      ["Sizes", "Not printed. A single option, no size chart, no chest or length measurement."],
-      ["Print", "Not printed. The listing does not say whether the graphic is screen printed, transferred or embroidered."],
-      ["Fabric weight", "Not printed. No figure in grams per square metre appears on the listing."],
-      ["Made in", "Not printed. The listing names no country, no blank supplier and no printer."],
-      ["Care", "Machine wash cold and hang to dry, as printed."],
-      ["Not for", "It is a shirt. It is not a food, a supplement or anything you take."]
+      [
+        "Colour",
+        "Black, as printed."
+      ],
+      [
+        "Design",
+        "A galaxy shaped eye on the front. That is the listing's description of the graphic and the whole of it."
+      ],
+      [
+        "Material",
+        "A cotton blend. The listing does not break the blend down, so no fibre percentages are printed here."
+      ],
+      [
+        "Fit",
+        "Unisex, as printed."
+      ],
+      [
+        "Price",
+        "£50.00. One option on the listing, with no variants."
+      ],
+      [
+        "Sizes",
+        "Not printed. A single option, no size chart, no chest or length measurement."
+      ],
+      [
+        "Print",
+        "Not printed. The listing does not say whether the graphic is screen printed, transferred or embroidered."
+      ],
+      [
+        "Fabric weight",
+        "Not printed. No figure in grams per square metre appears on the listing."
+      ],
+      [
+        "Made in",
+        "Not printed. The listing names no country, no blank supplier and no printer."
+      ],
+      [
+        "Care",
+        "Machine wash cold and hang to dry, as printed."
+      ],
+      [
+        "Not for",
+        "It is a shirt. It is not a food, a supplement or anything you take."
+      ]
     ],
     "smallprint": "Herbase, 599 Smithdown Road, Liverpool L15 5AP.",
     "doctrine": {
@@ -99,7 +135,10 @@
       "Ring the shop before you order if the fit matters, which it usually does. Somebody will take one off the pile, lay it flat and read you the numbers off a tape, and that is a better size chart than a table I invented for a web page."
     ],
     "pull": "Ring the shop before you order if the fit matters, which it usually does.",
-    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
   },
   "also": {
     "h2": "Also on the <em>objects shelf</em>",

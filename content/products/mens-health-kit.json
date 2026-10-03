@@ -60,7 +60,7 @@
     {
       "summary": "What is in the box",
       "body": [
-        "One 500 ml jar of the <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> gel. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules at 800 mg. One jar of <a href=\"product-test-drive.html\">Test Drive</a>, 50 large vegan capsules at 800 mg.",
+        "One 500 ml jar of the Chondrus Crispus gel. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules at 800 mg. One jar of <a href=\"product-test-drive.html\">Test Drive</a>, 50 large vegan capsules at 800 mg.",
         "The listing also says every order comes with the Konscious Konsumption Nutrition Guide. It is not sold on its own and carries no price, so it is not in the sold separately figure below."
       ]
     },
@@ -97,10 +97,6 @@
     "intro": "Each jar is sold on its own as well. The prices on these cards are the prices they carry on this site, and each card goes to its own specification sheet.",
     "items": [
       {
-        "handle": "chondrus-crispus",
-        "qty": "1 jar · 500 ml, as this listing prints it"
-      },
-      {
         "handle": "mag-flux",
         "qty": "1 jar · 50 large vegan capsules, 800 mg each"
       },
@@ -118,7 +114,7 @@
     "rows": [
       [
         "Contents",
-        "One 500 ml jar of the <a href=\"product-chondrus-crispus.html\">Chondrus Crispus</a> gel. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One jar of <a href=\"product-test-drive.html\">Test Drive</a>, 50 large vegan capsules. The listing adds the Konscious Konsumption Nutrition Guide, which it says comes with every order rather than with this box alone."
+        "One 500 ml jar of the Chondrus Crispus gel. One jar of <a href=\"product-mag-flux.html\">Mag Flux</a>, 50 large vegan capsules. One jar of <a href=\"product-test-drive.html\">Test Drive</a>, 50 large vegan capsules. The listing adds the Konscious Konsumption Nutrition Guide, which it says comes with every order rather than with this box alone."
       ],
       [
         "Price",

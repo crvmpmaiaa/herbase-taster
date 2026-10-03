@@ -4,7 +4,10 @@
   "name": "One Hour Consultation",
   "title": "One Hour Consultation · An hour by private audio call · Herbase",
   "description": "One hour with Reiss Davies Ausar on a private audio call, £120.00. Booked here, then arranged by email. It is not a medical appointment.",
-  "crumb": ["Services", "shop.html#objects"],
+  "crumb": [
+    "Services",
+    "shop.html#objects"
+  ],
   "price": "£120.00",
   "unit": "One hour · private audio call · arranged by email",
   "label": "The consultation · what is printed",
@@ -79,20 +82,50 @@
     "intro": "An hour is a length of time. What can be specified about it is how long, how much, where and how it is arranged, and those are the first four rows.",
     "caption": "One Hour Consultation",
     "rows": [
-      ["Duration", "One hour, as printed."],
-      ["Price", "£120.00 for the hour. One option on the listing, with no half hour and no follow up offered."],
-      ["Where", "A private audio call. Not in the shop, and the listing does not offer the hour in person or on video."],
-      ["Booking", "Booked on the listing. An email follows with instructions for choosing a time that suits you."],
+      [
+        "Duration",
+        "One hour, as printed."
+      ],
+      [
+        "Price",
+        "£120.00 for the hour. One option on the listing, with no half hour and no follow up offered."
+      ],
+      [
+        "Where",
+        "A private audio call. Not in the shop, and the listing does not offer the hour in person or on video."
+      ],
+      [
+        "Booking",
+        "Booked on the listing. An email follows with instructions for choosing a time that suits you."
+      ],
       [
         "What happens",
         "You bring the questions and you ask them for an hour. That is the process as the listing describes it, and this page does not tell you what you will come away with."
       ],
-      ["With", "Reiss Davies Ausar C.P.T. The letters are printed on the listing and the listing does not say what they stand for."],
-      ["Recording", "Not printed. The listing does not say whether the call is recorded or whether notes follow it."],
-      ["Cancellation", "Not printed. No cancellation, refund or rescheduling terms appear on the listing."],
-      ["Lead time", "Not printed. The listing does not say how far ahead the diary is booked."],
-      ["It is not", "A medical appointment, a diagnosis or a prescription. Nothing said in the hour replaces your GP, your pharmacist, or any treatment you are already on."],
-      ["Not for", "Anybody who needs a diagnosis or urgent help. That is a GP, a pharmacist or 111, not an hour on the phone with a shopkeeper."]
+      [
+        "With",
+        "Reiss Davies Ausar C.P.T. The letters are printed on the listing and the listing does not say what they stand for."
+      ],
+      [
+        "Recording",
+        "Not printed. The listing does not say whether the call is recorded or whether notes follow it."
+      ],
+      [
+        "Cancellation",
+        "Not printed. No cancellation, refund or rescheduling terms appear on the listing."
+      ],
+      [
+        "Lead time",
+        "Not printed. The listing does not say how far ahead the diary is booked."
+      ],
+      [
+        "It is not",
+        "A medical appointment, a diagnosis or a prescription. Nothing said in the hour replaces your GP, your pharmacist, or any treatment you are already on."
+      ],
+      [
+        "Not for",
+        "Anybody who needs a diagnosis or urgent help. That is a GP, a pharmacist or 111, not an hour on the phone with a shopkeeper."
+      ]
     ],
     "smallprint": "Herbase, 599 Smithdown Road, Liverpool L15 5AP.",
     "doctrine": {
@@ -108,7 +141,10 @@
       "The listing sets out at length what you are meant to get out of it. That part is not on this page. What is here is how long it lasts, what it costs, how it is arranged, and the things nobody has written down yet, such as whether you get notes afterwards and what happens if you have to move the time."
     ],
     "pull": "I am not your doctor. If what you need is a diagnosis, this is the wrong thing to buy.",
-    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
   },
   "also": {
     "h2": "Also on the <em>objects shelf</em>",

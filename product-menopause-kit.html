@@ -27,7 +27,7 @@
   <div class="nav__in">
     <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav__side nav__side--l">
-      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#collections">Collections</a>
+      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a>
     </div>
     <a class="nav__mark" href="index.html" aria-label="Herbase, home"><img src="assets/wordmark.png" alt="Herbase"></a>
     <div class="nav__side nav__side--r">
@@ -36,7 +36,7 @@
     <a class="nav__bag" href="#" aria-label="Bag, 0 items"><svg class="bag__i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 8.5h14l-1 11.5H6L5 8.5z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span class="bag__n">0</span></a>
   </div>
   <div class="nav__drawer" id="drawer">
-    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#collections">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="index.html#shop">Book the hour · £120</a>
+    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="collections.html">Collections</a><a href="shop.html#formulas">Formulas</a><a href="shop.html#seamoss">Sea Moss</a><a href="index.html#shop">Book the hour · £120</a>
   </div>
 </nav>
 
@@ -75,14 +75,14 @@
           <li>The listing says orders ship in thermo cool packaging</li>
           <li>Every item in the box has its own specification sheet on this site</li>
         </ul>
-        <a class="buy__cta" href="#buy" id="buybtn" data-add><span>Add to bag</span><span id="ctaprice">Three items · £79.99</span></a>
+        <a class="buy__cta" href="#buy" id="buybtn" data-add data-name="Menopause Kit" data-price="79.99"><span>Add to bag</span><span id="ctaprice">Three items · £79.99</span></a>
         <p class="buy__note"><b>Not sure it is for you?</b> Ring the shop on 07946 806533, Tuesday to Sunday, and ask. Read the liver caution on the Equill row below first: it is the standard one for black cohosh and it applies to the jar in this box.</p>
 
         <div class="acc">
           <details open>
             <summary>What is in the box</summary>
             <div class="acc__body">
-              <p>One 500 ml jar of the <a href="product-chondrus-crispus.html">Chondrus Crispus</a> gel. One jar of <a href="product-equill.html">Equill</a>, 50 large vegan capsules at 750 mg. One jar of <a href="product-chasteberry.html">Chasteberry</a>, 50 vegan capsules.</p>
+              <p>One 500 ml jar of the Chondrus Crispus gel. One jar of <a href="product-equill.html">Equill</a>, 50 large vegan capsules at 750 mg. One jar of <a href="product-chasteberry.html">Chasteberry</a>, 50 vegan capsules.</p>
               <p>Nothing else is named as being in the box. The three cards below go to each item's own sheet.</p>
             </div>
           </details>
@@ -96,7 +96,7 @@
           <details>
             <summary>Two figures for the gel</summary>
             <div class="acc__body">
-              <p>The <a href="product-chondrus-crispus.html">Chondrus Crispus</a> listing prints one tablespoon daily. The ceiling, do not exceed one tablespoon a day, is ours: it is in the small print on that page, not on the listing. This box prints one to three.</p>
+              <p>The Chondrus Crispus listing prints one tablespoon daily. The ceiling, do not exceed one tablespoon a day, is ours: it is in the small print on that page, not on the listing. This box prints one to three.</p>
               <p>Sea moss carries iodine and the amount in a spoonful moves with the harvest, so a spoon does not carry a printed dose in the way a capsule does. That is the reason the lower figure exists, and it is the one on the jar you will be holding.</p>
             </div>
           </details>
@@ -127,11 +127,9 @@
       <p class="rv d2">Each one is sold on its own as well. The prices on these cards are the prices those items carry on this site, and each card goes to its own specification sheet.</p>
     </div>
     <div class="best__grid">
-      <article class="prod rv"><a class="prod__img" href="product-chondrus-crispus.html"><img loading="lazy" decoding="async" src="assets/tile-seamoss.jpg" alt="Chondrus Crispus Sea Moss Gel"></a>
-        <div class="prod__row"><h3>Chondrus Crispus Sea Moss Gel</h3><span>£34.99</span></div><p class="prod__sub">1 jar · 500 ml, as this listing prints it</p><a class="prod__buy" href="product-chondrus-crispus.html">See the specification</a></article>
-      <article class="prod rv d1"><a class="prod__img" href="product-equill.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Equill"></a>
+      <article class="prod rv"><a class="prod__img" href="product-equill.html"><img loading="lazy" decoding="async" src="assets/hero-cosmos-m.jpg" alt="Equill"></a>
         <div class="prod__row"><h3>Equill</h3><span>£39.99</span></div><p class="prod__sub">1 jar · 50 large vegan capsules, 750 mg each</p><a class="prod__buy" href="product-equill.html">See the specification</a></article>
-      <article class="prod rv d2"><a class="prod__img" href="product-chasteberry.html"><img loading="lazy" decoding="async" src="assets/hero-root-m.jpg" alt="Chasteberry"></a>
+      <article class="prod rv d1"><a class="prod__img" href="product-chasteberry.html"><img loading="lazy" decoding="async" src="assets/hero-root-m.jpg" alt="Chasteberry"></a>
         <div class="prod__row"><h3>Chasteberry</h3><span>£24.99</span></div><p class="prod__sub">1 jar · 50 vegan capsules</p><a class="prod__buy" href="product-chasteberry.html">See the specification</a></article>
     </div>
   </div>
@@ -149,11 +147,11 @@
       <table class="tbl">
         <caption>Menopause Kit</caption>
         <tbody>
-          <tr><th scope="row">Contents</th><td>One 500 ml jar of the <a href="product-chondrus-crispus.html">Chondrus Crispus</a> gel. One jar of <a href="product-equill.html">Equill</a>, 50 large vegan capsules. One jar of <a href="product-chasteberry.html">Chasteberry</a>, 50 vegan capsules.</td></tr>
+          <tr><th scope="row">Contents</th><td>One 500 ml jar of the Chondrus Crispus gel. One jar of <a href="product-equill.html">Equill</a>, 50 large vegan capsules. One jar of <a href="product-chasteberry.html">Chasteberry</a>, 50 vegan capsules.</td></tr>
           <tr><th scope="row">Price</th><td>£79.99. One size. The variant line also reads 1000 g without saying whether that is the box as it ships or what is inside it, so it is not a pack size and this sheet does not treat it as one.</td></tr>
           <tr><th scope="row">Sold separately</th><td>£99.97 at the prices on this site: £34.99 plus £39.99 plus £24.99. The box is £19.98 under that.</td></tr>
           <tr><th scope="row">Serving</th><td>As printed on this listing: one to three tablespoons of the gel in the morning, two Chasteberry capsules at lunch, two Equill capsules with the evening meal, each with 500 ml of spring water.</td></tr>
-          <tr><th scope="row">The gel, twice</th><td>The <a href="product-chondrus-crispus.html">Chondrus Crispus</a> listing prints one tablespoon daily and says not to exceed one a day. This box prints one to three. Both figures are ours and they do not agree. The lower one is the one printed on the jar's own page, and this sheet does not pick between them for you.</td></tr>
+          <tr><th scope="row">The gel, twice</th><td>The Chondrus Crispus listing prints one tablespoon daily and says not to exceed one a day. This box prints one to three. Both figures are ours and they do not agree. The lower one is the one printed on the jar's own page, and this sheet does not pick between them for you.</td></tr>
           <tr><th scope="row">Volume</th><td>This listing prints 500 ml for the gel. The gel's own listing prints no volume at all. Again, both are ours, and the jar you get is whatever the current fill is.</td></tr>
           <tr><th scope="row">Equill, twice</th><td>The Equill listing prints two servings that do not match each other: two capsules daily in one place, one capsule daily in the other. This box prints two with the evening meal. All three are on the site, and the Equill sheet sets them out side by side.</td></tr>
           <tr><th scope="row">Course length</th><td>Not printed. No number of days, no number of weeks, and no instruction about stopping.</td></tr>
@@ -218,6 +216,15 @@
   </div>
 </section>
 
+<section class="mission">
+  <div class="wrap mission__in">
+    <p class="label rv">The mission</p>
+    <p class="mission__lead rv d1">The human body is electrical - each heartbeat, each neuron, each breath operates through vibration and current.</p>
+    <p class="rv d2">HERBASE formulations are designed to recharge your cellular battery, detox the pathways that block flow, and restore harmony between your physical and energetic bodies.</p>
+    <p class="rv d2">True wellness begins at the level of the cell - when nutrition becomes information, and food becomes frequency.</p>
+  </div>
+</section>
+
 <footer class="foot">
   <div class="wrap">
     <div class="foot__top"><img src="assets/wordmark.png" alt="Herbase"></div>
@@ -229,7 +236,7 @@
       </div>
       <div>
         <h3>Shop</h3>
-        <a href="index.html#monograph">Signature formulas</a><a href="product.html">Sea moss</a><a href="index.html#best">Mushrooms</a><a href="shop.html#kits">Bundle kits</a><a href="shop.html#objects">Books</a>
+        <a href="collection-signature-formulas.html">Signature formulas</a><a href="collection-sea-moss.html">Sea moss</a><a href="collection-mushrooms.html">Mushrooms</a><a href="collection-bundle-kits.html">Bundle kits</a><a href="collection-books.html">Books</a>
       </div>
       <div>
         <h3>Know</h3>

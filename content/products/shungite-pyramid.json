@@ -4,7 +4,10 @@
   "name": "Shungite Pyramid",
   "title": "Shungite Pyramid · One piece, 8 cm by 8 cm · Herbase",
   "description": "One shungite pyramid, 8 cm by 8 cm, £28.99. Shungite is a black carbon rock. No weight, finish, origin or assay is printed on the listing.",
-  "crumb": ["Objects", "shop.html#objects"],
+  "crumb": [
+    "Objects",
+    "shop.html#objects"
+  ],
   "price": "£28.99",
   "unit": "One pyramid · 8 cm by 8 cm · weight not printed",
   "label": "Objects · what is printed",
@@ -73,21 +76,54 @@
     "intro": "Two rows of this sheet are printed on the listing. The rest of it is a list of the things that are not.",
     "caption": "Shungite Pyramid",
     "rows": [
-      ["Makeup", "Shungite, a black rock with a high carbon content. One piece, shaped into a pyramid."],
-      ["Dimensions", "8 cm × 8 cm, as printed. The listing does not say which of those is the base and which is the height."],
-      ["Price", "£28.99 for one pyramid. One size, and the listing offers no variants."],
-      ["Weight", "Not printed. The listing gives dimensions and no weight, which is the reverse of the stone on the same shelf."],
-      ["Grade", "Not printed. No grade word is used for this piece and no assay comes with it, so no carbon percentage appears here."],
-      ["Finish", "Not printed. The listing does not say whether the faces are polished or left matt."],
-      ["Origin", "Not printed for this piece. Shungite as a mineral is quarried in Karelia, north west Russia."],
-      ["Certificate", "None supplied. No assay, no laboratory report, no purity certificate."],
-      ["Use", "The listing prints a suggested placement. It cannot be separated from a claim we are not able to make, so it is not repeated here."],
+      [
+        "Makeup",
+        "Shungite, a black rock with a high carbon content. One piece, shaped into a pyramid."
+      ],
+      [
+        "Dimensions",
+        "8 cm × 8 cm, as printed. The listing does not say which of those is the base and which is the height."
+      ],
+      [
+        "Price",
+        "£28.99 for one pyramid. One size, and the listing offers no variants."
+      ],
+      [
+        "Weight",
+        "Not printed. The listing gives dimensions and no weight, which is the reverse of the stone on the same shelf."
+      ],
+      [
+        "Grade",
+        "Not printed. No grade word is used for this piece and no assay comes with it, so no carbon percentage appears here."
+      ],
+      [
+        "Finish",
+        "Not printed. The listing does not say whether the faces are polished or left matt."
+      ],
+      [
+        "Origin",
+        "Not printed for this piece. Shungite as a mineral is quarried in Karelia, north west Russia."
+      ],
+      [
+        "Certificate",
+        "None supplied. No assay, no laboratory report, no purity certificate."
+      ],
+      [
+        "Use",
+        "The listing prints a suggested placement. It cannot be separated from a claim we are not able to make, so it is not repeated here."
+      ],
       [
         "The disclaimer",
         "The listing carries the sentence that the product is not intended to diagnose, treat, cure or prevent any disease. It is an American sentence and it does not make the paragraphs above it lawful here."
       ],
-      ["Suitable for", "Anybody. It is an object, not something you take."],
-      ["Not for", "It is not a food and it is not a supplement. Nothing on this page tells you to do anything with it."]
+      [
+        "Suitable for",
+        "Anybody. It is an object, not something you take."
+      ],
+      [
+        "Not for",
+        "It is not a food and it is not a supplement. Nothing on this page tells you to do anything with it."
+      ]
     ],
     "smallprint": "Herbase, 599 Smithdown Road, Liverpool L15 5AP.",
     "doctrine": {
@@ -103,7 +139,10 @@
       "The listing ends with the sentence about not diagnosing or curing anything. I have kept that sentence on the sheet, because it is true, and left out the paragraphs above it, because those are the part that would have needed proving."
     ],
     "pull": "A pyramid is a shape. It is not a specification.",
-    "sign": ["Reiss Davies Ausar", "599 Smithdown Road, Liverpool"]
+    "sign": [
+      "Reiss Davies Ausar",
+      "599 Smithdown Road, Liverpool"
+    ]
   },
   "also": {
     "h2": "Also on the <em>objects shelf</em>",
