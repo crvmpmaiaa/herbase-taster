@@ -55,17 +55,17 @@
     <div class="pdp2__grid">
       <div class="gal">
         <div class="gal__main">
-          <div class="card__img card__img--held" id="galheld"><p>Pack photography held<span>Label reprint pending</span></p></div>
+          <img id="galmain" src="assets/gen-pack-decolonise.jpg" alt="Decolonise, a generated stand-in for the pack" decoding="async">
         </div>
         <div class="gal__thumbs">
-          <button class="thumb--held" type="button" aria-pressed="true" data-cap="Pack photography is held until the label is reprinted. The pictures here are of the botanicals, not of the jar."><span>Pack held</span></button>
+          <button type="button" aria-pressed="true" data-src="assets/gen-pack-decolonise.jpg" data-cap="A generated stand-in for the pack, not a photograph of our stock. The real label prints a line the taster does not carry, so this one shows the name and the count only."><img src="assets/gen-pack-decolonise-m.jpg" alt="Decolonise, a generated stand-in for the pack" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/gen-bitters-board.jpg" data-cap="Five of the nine laid out on a board: wormwood, clove, black pepper, bitter melon and charcoal. A generated scene, not a photograph of our stock."><img src="assets/journal/gen-bitters-board-m.jpg" alt="A wormwood sprig, clove buds, black peppercorns, a halved bitter melon and a heap of charcoal on a dark board. A generated scene" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/stock-wormwood-field.jpg" data-cap="Artemisia absinthium growing in the open, silver and finely cut. Wormwood is the ingredient the stop date is written around."><img src="assets/journal/stock-wormwood-field-m.jpg" alt="Silver-green wormwood foliage growing in the open" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/pau-darco-tree.jpg" data-cap="Tabebuia impetiginosa in flower on a dry plain. The bark is the part that is usually sold."><img src="assets/journal/pau-darco-tree-m.jpg" alt="A pau d'arco tree in full pink flower on open dry ground" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/bitter-melon.jpg" data-cap="Momordica charantia left on the vine until it ripened orange. It is picked green for the kitchen."><img src="assets/journal/bitter-melon-m.jpg" alt="A ripe orange bitter melon hanging on the vine" loading="lazy" decoding="async"></button>
           <button type="button" aria-pressed="false" data-src="assets/journal/gen-wormwood-sprig.jpg" data-cap="A wormwood sprig standing in a glass on a windowsill. A generated scene, not a photograph of our stock."><img src="assets/journal/gen-wormwood-sprig-m.jpg" alt="A sprig of wormwood in a glass of water on a windowsill. A generated scene" loading="lazy" decoding="async"></button>
         </div>
-        <p class="gal__cap" id="galcap">Pack photography is held until the label is reprinted. The pictures here are of the botanicals, not of the jar.</p>
+        <p class="gal__cap" id="galcap">A generated stand-in for the pack, not a photograph of our stock. The real label prints a line the taster does not carry, so this one shows the name and the count only.</p>
       </div>
 
       <div class="buy">
@@ -293,7 +293,7 @@
       </div>
     </div>
     <div class="foot__legal">
-      <p class="credits">Photography via Wikimedia Commons. Wormwood (Artemisia absinthium): Agnieszka Kwiecień, Nova, CC BY-SA 4.0, via Wikimedia Commons · Pau d'arco tree: Giles Laurent, CC BY-SA 4.0, via Wikimedia Commons · Bitter melon: Balaram Mahalder, CC BY-SA 3.0, via Wikimedia Commons · Activated charcoal: Zephyris, CC BY-SA 3.0, via Wikimedia Commons · Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons · Black pepper: Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock.</p>
+      <p class="credits">Photography via Wikimedia Commons. Wormwood (Artemisia absinthium): Agnieszka Kwiecień, Nova, CC BY-SA 4.0, via Wikimedia Commons · Pau d'arco tree: Giles Laurent, CC BY-SA 4.0, via Wikimedia Commons · Bitter melon: Balaram Mahalder, CC BY-SA 3.0, via Wikimedia Commons · Activated charcoal: Zephyris, CC BY-SA 3.0, via Wikimedia Commons · Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons · Black pepper: Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons. Some scenes generated (Nano Banana Pro), not photographs of Herbase stock. The pack shown is a generated stand-in (Nano Banana Pro), not a photograph of our stock.</p>
       <p>Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Keep out of reach of young children.</p>
       <p>Herbase, 599 Smithdown Road, Liverpool L15 5AP. Food business registered with Liverpool City Council.</p>
     </div>
@@ -319,17 +319,21 @@ burger.addEventListener('click',()=>{
 const sticky=document.getElementById('sticky'),cta=document.getElementById('buybtn');
 new IntersectionObserver(e=>{e[0].isIntersecting||e[0].boundingClientRect.top>0?sticky.removeAttribute('data-show'):sticky.setAttribute('data-show','')},{threshold:0}).observe(cta);
 
-/* the pack shot is held, so the main frame starts on the placeholder and the
-   photo element is only made once a botanical thumbnail is chosen */
-const frame=document.querySelector('.gal__main'),held=document.getElementById('galheld'),cap=document.getElementById('galcap');
-let shot=null;
+/* index 0 is a real photo, so the main frame starts on it; a held entry can still
+   appear later in the gallery, so its placeholder is made lazily and swapped in,
+   mirroring what SCRIPT_GAL_HELD does the other way round for a held index 0 */
+const frame=document.querySelector('.gal__main'),main=document.getElementById('galmain'),cap=document.getElementById('galcap');
+let held=null;
 document.querySelectorAll('.gal__thumbs button').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('.gal__thumbs button').forEach(x=>x.setAttribute('aria-pressed','false'));
   b.setAttribute('aria-pressed','true');
   cap.textContent=b.dataset.cap;
-  if(!b.dataset.src){if(shot)shot.hidden=true; held.hidden=false; return}
-  if(!shot){shot=document.createElement('img'); shot.decoding='async'; frame.appendChild(shot)}
-  shot.src=b.dataset.src; shot.alt=b.querySelector('img').alt; shot.hidden=false; held.hidden=true;
+  if(!b.dataset.src){
+    if(!held){held=document.createElement('div'); held.className='card__img card__img--held'; held.innerHTML='<p>Pack photography held<span>Label reprint pending</span></p>'; frame.appendChild(held)}
+    main.hidden=true; held.hidden=false; return;
+  }
+  if(held) held.hidden=true; main.hidden=false;
+  main.removeAttribute('srcset'); main.src=b.dataset.src; main.alt=b.querySelector('img').alt;
 }));
 </script>
 <script src="assets/bag.js" defer></script>

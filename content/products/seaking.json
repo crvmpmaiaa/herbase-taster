@@ -15,10 +15,10 @@
   "rating": "4.8 · 19 Google reviews for the shop",
   "gallery": [
     {
-      "img": "assets/tile-seaking.jpg",
-      "alt": "Seaweed fronds around a dark starfield, the illustration used for Seaking",
-      "thumbAlt": "Seaweed fronds around a dark starfield",
-      "cap": "The Seaking scene. An illustration, not a photograph of the tub."
+      "img": "assets/pack-seaking.jpg",
+      "alt": "The Seaking artwork as it appears on herbase.earth",
+      "thumbAlt": "The Seaking artwork as it appears on herbase.earth",
+      "cap": "The Seaking artwork as it appears on herbase.earth, not a photograph of the tub."
     },
     {
       "img": "gen-seaking-capsules",
@@ -346,6 +346,7 @@
     "David Clode, Maximilian Brand, Amanda Phung, Daily Slowdown, J Brouwer, Isaiah Villar, Kier in Sight Archives, Erick Morales Oyola, Ekaterina Zlotnikova and Joan on Unsplash",
     "Seaweed drying: Paul Farmer, CC BY-SA 2.0, via Wikimedia Commons",
     "Clove buds: Sanjay Acharya, CC BY-SA 4.0, via Wikimedia Commons",
-    "Kelp from above: BravoGonzalo, CC BY-SA 4.0, via Wikimedia Commons"
+    "Kelp from above: BravoGonzalo, CC BY-SA 4.0, via Wikimedia Commons",
+    "Pack photograph via herbase.earth"
   ]
 }
